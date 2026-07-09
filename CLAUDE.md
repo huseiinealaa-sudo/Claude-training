@@ -12,3 +12,9 @@ There are consequently no build, lint, or test commands to document. When code i
 
 - Development happens on feature branches (e.g. `claude/init-ijaegr`); the default branch is `main`. Changes reach `main` via pull requests (see the merged PR #1 in the history), not direct commits.
 - The README contains Arabic content. Preserve existing Arabic text and its right-to-left context when editing documentation.
+
+## قواعد التعامل معي
+
+- اشرح دائماً بالعربية.
+- اعرض الـ diff قبل حفظ أي تعديل.
+- لا تدفع (push) إلى GitHub قبل موافقتي الصريحة.
