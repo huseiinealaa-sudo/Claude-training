@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحدّي الإنجليزية الشامل — من A2 إلى B2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ===================== الأساسيات ===================== */
+:root{
+  --bg-0:#080d1c;
+  --bg-1:#111a38;
+  --bg-2:#1a1040;
+  --surface:rgba(255,255,255,.055);
+  --surface-2:rgba(255,255,255,.10);
+  --stroke:rgba(255,255,255,.13);
+  --stroke-2:rgba(255,255,255,.22);
+  --text:#eef2ff;
+  --muted:#9fabd0;
+  --accent:#22d3ee;
+  --accent-2:#818cf8;
+  --violet:#a78bfa;
+  --amber:#fbbf24;
+  --emerald:#34d399;
+  --rose:#fb7185;
+  --r-lg:24px;
+  --r-md:16px;
+  --r-sm:11px;
+  --card-h:490px;
+  --ar:"Cairo","Noto Kufi Arabic","Segoe UI",Tahoma,sans-serif;
+  --en:"Poppins","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--ar);
+  color:var(--text);
+  background:var(--bg-0);
+  min-height:100vh;
+  padding:26px 18px 70px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+/* خلفية متدرّجة حيّة */
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(1100px 620px at 82% -8%,rgba(129,140,248,.30),transparent 60%),
+    radial-gradient(900px 560px at 8% 8%,rgba(34,211,238,.20),transparent 62%),
+    radial-gradient(800px 700px at 50% 110%,rgba(167,139,250,.20),transparent 65%),
+    linear-gradient(165deg,var(--bg-0) 0%,var(--bg-1) 52%,var(--bg-2) 100%);
+}
+body::after{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.5;
+  background-image:radial-gradient(rgba(255,255,255,.10) 1px,transparent 1px);
+  background-size:34px 34px;
+  -webkit-mask-image:radial-gradient(circle at 50% 30%,#000,transparent 78%);
+          mask-image:radial-gradient(circle at 50% 30%,#000,transparent 78%);
+}
+.wrap{max-width:1240px;margin:0 auto}
+
+/* ===================== الترويسة ===================== */
+.hero{text-align:center;margin-bottom:30px}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:var(--en);font-size:.82rem;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--accent);
+  background:rgba(34,211,238,.10);border:1px solid rgba(34,211,238,.32);
+  padding:8px 20px;border-radius:999px;margin-bottom:18px;
+}
+.hero-badge .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.75)}}
+.hero h1{
+  font-size:clamp(2.1rem,5.6vw,3.5rem);font-weight:900;line-height:1.25;letter-spacing:-.5px;
+  background:linear-gradient(105deg,#fff 10%,var(--accent) 48%,var(--violet) 92%);
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  margin-bottom:12px;
+}
+.hero .sub{color:var(--muted);font-size:clamp(1rem,2.2vw,1.2rem);max-width:660px;margin:0 auto}
+.hero .sub b{color:var(--text);font-weight:700}
+
+/* ===================== مسار المستويات ===================== */
+.levels{
+  display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:stretch;
+  margin:32px auto 24px;max-width:940px;
+}
+.level-tab{
+  position:relative;display:flex;align-items:center;gap:14px;text-align:right;
+  background:var(--surface);border:1.5px solid var(--stroke);border-radius:var(--r-lg);
+  padding:16px 20px;cursor:pointer;color:var(--text);font-family:var(--ar);
+  transition:.28s cubic-bezier(.4,0,.2,1);backdrop-filter:blur(14px);
+}
+.level-tab:hover:not(.locked){border-color:var(--stroke-2);transform:translateY(-3px);background:var(--surface-2)}
+.level-tab.active{
+  border-color:var(--accent);background:rgba(34,211,238,.11);
+  box-shadow:0 12px 40px -14px rgba(34,211,238,.6);
+}
+.level-tab.locked{cursor:not-allowed;opacity:.62;filter:saturate(.35)}
+.level-tab .num{
+  flex:none;width:52px;height:52px;border-radius:15px;display:grid;place-items:center;
+  font-family:var(--en);font-size:1.28rem;font-weight:700;
+  background:linear-gradient(140deg,var(--accent-2),var(--accent));color:#08132a;
+}
+.level-tab.locked .num{background:rgba(255,255,255,.12);color:var(--muted);font-size:1.4rem}
+.level-tab .meta{min-width:0}
+.level-tab .meta .t{font-weight:800;font-size:1.12rem;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.level-tab .meta .d{font-size:.85rem;color:var(--muted)}
+.mini-ring{
+  flex:none;margin-inline-start:auto;font-family:var(--en);font-size:.82rem;font-weight:700;
+  padding:5px 11px;border-radius:999px;background:rgba(255,255,255,.09);border:1px solid var(--stroke);
+}
+.level-tab.done .mini-ring{background:rgba(52,211,153,.16);border-color:rgba(52,211,153,.5);color:var(--emerald)}
+.path-link{
+  display:grid;place-items:center;font-size:1.5rem;color:var(--muted);padding:0 4px;
+  transform:scaleX(-1); /* السهم يشير لليسار مع RTL */
+}
+
+/* ===================== شريط التقدّم ===================== */
+.panel{
+  background:var(--surface);border:1.5px solid var(--stroke);border-radius:var(--r-lg);
+  padding:22px 26px;backdrop-filter:blur(14px);
+}
+.progress-panel{margin-bottom:24px}
+.p-head{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.p-title{font-size:1.12rem;font-weight:800}
+.p-title span{color:var(--accent);font-family:var(--en)}
+.p-num{font-family:var(--en);font-size:2.2rem;font-weight:700;line-height:1;
+  background:linear-gradient(100deg,var(--accent),var(--violet));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.bar{height:16px;background:rgba(255,255,255,.09);border-radius:999px;overflow:hidden;border:1px solid var(--stroke)}
+.bar-fill{
+  height:100%;width:0%;border-radius:999px;
+  background:linear-gradient(90deg,var(--accent-2),var(--accent),var(--emerald));
+  background-size:220% 100%;
+  transition:width .7s cubic-bezier(.34,1.4,.5,1);
+  animation:slide 3.5s linear infinite;
+  box-shadow:0 0 22px -3px var(--accent);
+}
+@keyframes slide{to{background-position:220% 0}}
+.p-foot{display:flex;justify-content:space-between;gap:12px;margin-top:11px;font-size:.92rem;color:var(--muted);flex-wrap:wrap}
+.p-foot #progHint{font-weight:700}
+.p-foot #progHint.ready{color:var(--emerald)}
+
+/* ===================== شريط الأدوات ===================== */
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+.chips{display:flex;gap:10px;flex-wrap:wrap}
+.chip{
+  font-family:var(--ar);font-size:.95rem;font-weight:700;color:var(--muted);cursor:pointer;
+  background:var(--surface);border:1.5px solid var(--stroke);border-radius:999px;padding:9px 18px;
+  transition:.2s;display:inline-flex;align-items:center;gap:8px;
+}
+.chip:hover{color:var(--text);border-color:var(--stroke-2)}
+.chip.on{background:rgba(255,255,255,.14);color:var(--text);border-color:var(--stroke-2)}
+.chip .n{font-family:var(--en);font-size:.78rem;opacity:.75}
+.tools{display:flex;gap:10px;flex-wrap:wrap}
+.btn{
+  font-family:var(--ar);font-weight:700;font-size:.93rem;cursor:pointer;color:var(--text);
+  border-radius:var(--r-sm);padding:10px 18px;border:1.5px solid var(--stroke);
+  background:var(--surface);transition:.2s;
+}
+.btn:hover{background:var(--surface-2);border-color:var(--stroke-2)}
+.btn.danger:hover{border-color:rgba(251,113,133,.55);color:var(--rose)}
+
+/* ===================== الشبكة والبطاقات ===================== */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:24px}
+.card{
+  height:var(--card-h);perspective:1600px;cursor:pointer;outline:none;
+  animation:rise .5s cubic-bezier(.2,.8,.3,1) backwards;
+}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}}
+.card.gone{animation:vanish .45s cubic-bezier(.4,0,1,1) forwards;pointer-events:none}
+@keyframes vanish{to{opacity:0;transform:scale(.86) translateY(-16px);filter:blur(4px)}}
+.inner{
+  position:relative;width:100%;height:100%;
+  transform-style:preserve-3d;transition:transform .68s cubic-bezier(.4,.2,.2,1);
+}
+.card.flipped .inner{transform:rotateY(180deg)}
+.card:focus-visible .inner{box-shadow:0 0 0 3px var(--accent);border-radius:var(--r-lg)}
+.face{
+  position:absolute;inset:0;border-radius:var(--r-lg);padding:24px 22px;
+  -webkit-backface-visibility:hidden;backface-visibility:hidden;
+  border:1.5px solid var(--stroke);background:var(--surface);backdrop-filter:blur(16px);
+  display:flex;flex-direction:column;overflow:hidden;
+  box-shadow:0 22px 55px -28px rgba(0,0,0,.9);
+}
+.card:hover .face{border-color:var(--stroke-2)}
+.face::before{content:"";position:absolute;inset-inline:0;top:0;height:4px;background:var(--cat-c)}
+.back{transform:rotateY(180deg);background:linear-gradient(165deg,rgba(255,255,255,.10),rgba(255,255,255,.045))}
+
+/* الوجه الأمامي */
+.f-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.tag{
+  font-size:.78rem;font-weight:700;padding:5px 13px;border-radius:999px;
+  color:var(--cat-c);background:var(--cat-bg);border:1px solid var(--cat-br);white-space:nowrap;
+}
+.lvl-pill{font-family:var(--en);font-size:.72rem;font-weight:700;color:var(--muted);
+  border:1px solid var(--stroke);border-radius:999px;padding:4px 10px}
+.f-mid{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center}
+.word{
+  font-family:var(--en);font-weight:700;direction:ltr;
+  font-size:clamp(1.85rem,4.4vw,2.55rem);line-height:1.2;letter-spacing:-.5px;
+  word-break:break-word;
+}
+.pos{font-family:var(--en);font-size:.9rem;color:var(--muted);font-style:italic;direction:ltr}
+.speak{
+  display:inline-flex;align-items:center;gap:9px;cursor:pointer;font-family:var(--ar);
+  font-size:.92rem;font-weight:700;color:var(--accent);
+  background:rgba(34,211,238,.11);border:1.5px solid rgba(34,211,238,.36);
+  border-radius:999px;padding:10px 20px;transition:.2s;
+}
+.speak:hover{background:rgba(34,211,238,.22);transform:scale(1.05)}
+.speak.on{animation:ring .7s ease-in-out infinite}
+@keyframes ring{50%{transform:scale(1.09)}}
+.speak svg{width:19px;height:19px;fill:currentColor}
+.f-hint{text-align:center;font-size:.85rem;color:var(--muted);opacity:.8}
+
+/* الوجه الخلفي */
+.b-word{font-family:var(--en);direction:ltr;font-size:1.02rem;font-weight:600;color:var(--muted);margin-bottom:4px}
+.trans{font-size:clamp(1.34rem,3.1vw,1.7rem);font-weight:900;line-height:1.4;color:var(--cat-c);margin-bottom:11px}
+.exs{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding-inline-end:5px;margin-bottom:14px}
+.exs::-webkit-scrollbar{width:5px}
+.exs::-webkit-scrollbar-thumb{background:var(--stroke-2);border-radius:9px}
+.ex{background:rgba(0,0,0,.24);border:1px solid var(--stroke);border-radius:var(--r-md);padding:11px 13px}
+.ex-head{display:flex;align-items:flex-start;gap:8px}
+.ex-en{flex:1;font-family:var(--en);direction:ltr;text-align:left;font-size:.93rem;line-height:1.55}
+.ex-en b{color:var(--cat-c);font-weight:700}
+.ex-ar{font-size:.85rem;line-height:1.6;color:var(--muted);margin-top:6px;padding-top:6px;border-top:1px dashed var(--stroke)}
+.mini-speak{
+  flex:none;width:29px;height:29px;border-radius:9px;cursor:pointer;display:grid;place-items:center;
+  color:var(--accent);background:rgba(34,211,238,.10);border:1px solid rgba(34,211,238,.3);transition:.2s;
+}
+.mini-speak:hover{background:rgba(34,211,238,.25)}
+.mini-speak svg{width:14px;height:14px;fill:currentColor}
+.know{
+  width:100%;cursor:pointer;font-family:var(--ar);font-size:1.05rem;font-weight:800;
+  padding:12px;border-radius:var(--r-md);border:1.5px solid rgba(52,211,153,.45);
+  color:#062b1f;background:linear-gradient(100deg,var(--emerald),#6ee7b7);transition:.2s;
+}
+.know:hover{transform:translateY(-2px);box-shadow:0 12px 30px -12px var(--emerald)}
+.card.known .face{opacity:.55;filter:saturate(.4)}
+.card.known .know{background:var(--surface-2);color:var(--muted);border-color:var(--stroke);border-style:dashed}
+
+/* ===================== حالات فارغة / مقفلة ===================== */
+.empty{
+  grid-column:1/-1;text-align:center;padding:60px 26px;border:2px dashed var(--stroke);
+  border-radius:var(--r-lg);background:rgba(255,255,255,.03);
+}
+.empty .ico{font-size:3.2rem;margin-bottom:14px}
+.empty h3{font-size:1.4rem;font-weight:800;margin-bottom:8px}
+.empty p{color:var(--muted);max-width:520px;margin:0 auto 20px}
+
+/* ===================== نافذة الترقية ===================== */
+.modal-back{
+  position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:22px;
+  background:rgba(4,8,20,.82);backdrop-filter:blur(9px);animation:fade .3s;
+}
+@keyframes fade{from{opacity:0}}
+.modal{
+  max-width:520px;width:100%;text-align:center;padding:40px 32px;border-radius:28px;
+  background:linear-gradient(165deg,#182350,#120e35);border:1.5px solid rgba(52,211,153,.42);
+  box-shadow:0 40px 90px -30px rgba(0,0,0,.95);animation:pop .45s cubic-bezier(.2,1.4,.4,1);
+}
+@keyframes pop{from{opacity:0;transform:scale(.85) translateY(24px)}}
+.modal .ico{font-size:4.2rem;margin-bottom:12px;animation:bounce 1.6s ease-in-out infinite}
+@keyframes bounce{50%{transform:translateY(-11px)}}
+.modal h2{font-size:1.85rem;font-weight:900;margin-bottom:12px;
+  background:linear-gradient(100deg,var(--emerald),var(--accent));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.modal p{color:var(--muted);margin-bottom:26px;font-size:1.02rem}
+.modal .go{
+  width:100%;cursor:pointer;font-family:var(--ar);font-size:1.1rem;font-weight:800;padding:15px;
+  border-radius:var(--r-md);border:none;color:#062b1f;
+  background:linear-gradient(100deg,var(--emerald),var(--accent));transition:.2s;
+}
+.modal .go:hover{transform:translateY(-2px);box-shadow:0 14px 34px -12px var(--emerald)}
+.modal .later{margin-top:12px;background:none;border:none;color:var(--muted);cursor:pointer;font-family:var(--ar);font-size:.92rem;text-decoration:underline}
+
+/* ===================== تنبيه عائم ===================== */
+.toast{
+  position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:80;
+  background:rgba(16,22,48,.97);border:1.5px solid var(--stroke-2);border-radius:14px;
+  padding:14px 24px;font-weight:700;font-size:.96rem;box-shadow:0 20px 50px -18px #000;
+  animation:up .35s cubic-bezier(.2,1.3,.4,1);max-width:90vw;text-align:center;
+}
+@keyframes up{from{opacity:0;transform:translate(-50%,22px)}}
+.toast.warn{border-color:rgba(251,191,36,.5);color:var(--amber)}
+
+footer{text-align:center;color:var(--muted);font-size:.88rem;margin-top:48px;padding-top:26px;border-top:1px solid var(--stroke)}
+footer b{color:var(--accent)}
+
+
+/* ===================== مبدّل العرض (بطاقات / نصوص) ===================== */
+.views{display:flex;gap:10px;margin-bottom:22px;background:var(--surface);border:1.5px solid var(--stroke);
+  border-radius:var(--r-lg);padding:7px;backdrop-filter:blur(14px)}
+.view-btn{
+  flex:1;cursor:pointer;font-family:var(--ar);font-size:1.02rem;font-weight:800;color:var(--muted);
+  background:none;border:none;border-radius:var(--r-md);padding:13px 10px;transition:.24s;
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+}
+.view-btn:hover{color:var(--text)}
+.view-btn.on{background:linear-gradient(120deg,rgba(34,211,238,.18),rgba(129,140,248,.18));
+  color:var(--text);box-shadow:inset 0 0 0 1.5px rgba(34,211,238,.4)}
+.view-btn .n{font-family:var(--en);font-size:.76rem;font-weight:700;padding:3px 9px;border-radius:999px;
+  background:rgba(255,255,255,.12);color:var(--muted)}
+.view-btn.on .n{background:rgba(34,211,238,.22);color:var(--accent)}
+
+/* ===================== بطاقة النصّ ===================== */
+.texts{display:flex;flex-direction:column;gap:26px}
+.text-card{
+  background:var(--surface);border:1.5px solid var(--stroke);border-radius:var(--r-lg);
+  padding:28px;backdrop-filter:blur(16px);position:relative;overflow:hidden;
+  box-shadow:0 22px 55px -30px rgba(0,0,0,.9);
+  animation:rise .5s cubic-bezier(.2,.8,.3,1) backwards;
+}
+.text-card::before{content:"";position:absolute;inset-inline:0;top:0;height:4px;
+  background:linear-gradient(90deg,var(--accent),var(--violet))}
+.text-card.known{opacity:.6;filter:saturate(.45)}
+.text-card.gone{animation:vanish .45s cubic-bezier(.4,0,1,1) forwards;pointer-events:none}
+.t-top{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap;margin-bottom:18px}
+.t-title{font-family:var(--en);direction:ltr;text-align:left;font-size:clamp(1.3rem,3vw,1.75rem);
+  font-weight:700;line-height:1.3;letter-spacing:-.3px}
+.t-sub{font-size:1.02rem;font-weight:700;color:var(--accent);margin-top:4px}
+.t-badges{display:flex;gap:8px;flex-wrap:wrap;flex:none}
+.wc{font-size:.78rem;font-weight:700;padding:5px 13px;border-radius:999px;white-space:nowrap;
+  color:var(--violet);background:rgba(167,139,250,.13);border:1px solid rgba(167,139,250,.35)}
+.t-actions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.t-en{
+  font-family:var(--en);direction:ltr;text-align:left;
+  font-size:clamp(1.08rem,2.3vw,1.24rem);line-height:2.15;letter-spacing:.1px;
+  background:rgba(0,0,0,.26);border:1px solid var(--stroke);border-radius:var(--r-md);
+  padding:24px 26px;margin-bottom:18px;
+}
+.t-en b{
+  color:var(--accent);font-weight:700;
+  background:rgba(34,211,238,.10);border-radius:6px;padding:1px 5px;
+  box-shadow:inset 0 -2px 0 rgba(34,211,238,.55);
+}
+.t-keys{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:18px}
+.keychip{
+  display:inline-flex;align-items:center;gap:8px;font-size:.86rem;font-weight:700;
+  background:rgba(255,255,255,.06);border:1px solid var(--stroke);border-radius:999px;padding:6px 14px;
+}
+.keychip .k-en{font-family:var(--en);direction:ltr;color:var(--accent)}
+.keychip .k-sep{color:var(--muted);opacity:.55}
+.keychip .k-ar{color:var(--text)}
+.t-toggle{
+  width:100%;cursor:pointer;font-family:var(--ar);font-size:.98rem;font-weight:700;color:var(--muted);
+  background:none;border:1.5px dashed var(--stroke);border-radius:var(--r-md);padding:12px;transition:.2s;margin-bottom:14px;
+}
+.t-toggle:hover{color:var(--text);border-color:var(--stroke-2);background:rgba(255,255,255,.04)}
+.t-ar{
+  font-size:1.06rem;line-height:2.1;color:var(--text);
+  background:rgba(52,211,153,.07);border:1px solid rgba(52,211,153,.28);border-radius:var(--r-md);
+  padding:22px 24px;margin-bottom:18px;animation:rise .35s cubic-bezier(.2,.8,.3,1);
+}
+.t-ar .lbl{display:block;font-size:.82rem;font-weight:800;color:var(--emerald);margin-bottom:9px;letter-spacing:.03em}
+.text-card .know{margin-top:2px}
+.text-card.known .know{background:var(--surface-2);color:var(--muted);border-color:var(--stroke);border-style:dashed}
+@media(max-width:760px){
+  .text-card{padding:20px 17px}
+  .t-en{padding:18px 16px;line-height:2}
+  .t-ar{padding:17px 16px}
+  .views{flex-direction:column}
+}
+
+/* ===================== الشاشات الصغيرة ===================== */
+@media(max-width:760px){
+  body{padding:18px 13px 60px}
+  .levels{grid-template-columns:1fr;gap:12px}
+  .path-link{transform:rotate(90deg);font-size:1.3rem;padding:2px}
+  .grid{grid-template-columns:1fr;gap:18px}
+  :root{--card-h:520px}
+  .toolbar{flex-direction:column;align-items:stretch}
+  .tools .btn{flex:1}
+  .panel{padding:18px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-badge"><span class="dot"></span> Smart Flashcards</div>
+    <h1>تحدّي الإنجليزية الشامل</h1>
+    <p class="sub">رحلة متدرّجة من <b>A2</b> إلى <b>B2</b>. أتقن <b>المرحلة الأولى</b> بالكامل، وعندها فقط تُفتح لك <b>المرحلة الثانية</b>.</p>
+  </header>
+
+  <nav class="levels" id="levels" aria-label="مسار المستويات"></nav>
+
+  <section class="panel progress-panel">
+    <div class="p-head">
+      <div class="p-title">تقدّمك في مستوى <span id="progLevelName">B1</span></div>
+      <div class="p-num"><span id="progPct">0</span>%</div>
+    </div>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barWrap">
+      <div class="bar-fill" id="barFill"></div>
+    </div>
+    <div class="p-foot">
+      <span id="progCount">٠ من ٢٠ بطاقة</span>
+      <span id="progHint"></span>
+    </div>
+  </section>
+
+  <div class="views" id="views" role="tablist" aria-label="نوع المحتوى">
+    <button type="button" class="view-btn on" data-view="cards" role="tab">🃏 البطاقات <span class="n" id="nCards"></span></button>
+    <button type="button" class="view-btn"    data-view="texts" role="tab">📖 النصوص <span class="n" id="nTexts"></span></button>
+  </div>
+
+  <div class="toolbar">
+    <div class="chips" id="chips"></div>
+    <div class="tools">
+      <button class="btn" id="toggleKnown">إظهار المحفوظة</button>
+      <button class="btn danger" id="resetLevel">تصفير المرحلة</button>
+    </div>
+  </div>
+
+  <main class="grid" id="grid"></main>
+  <main class="texts" id="texts" hidden></main>
+  <div class="empty" id="empty" hidden></div>
+
+  <footer>
+    <b>٤٠</b> بطاقة تفاعلية و<b>٨</b> نصوص قرائية &mdash; مناصفةً بين المرحلة الأولى (A2&nbsp;→&nbsp;B1) والمرحلة الثانية (B1&nbsp;→&nbsp;B2).
+    <br>يُحفَظ تقدّمك تلقائياً في هذا المتصفّح.
+  </footer>
+</div>
+
+<div class="modal-back" id="modal" hidden>
+  <div class="modal">
+    <div class="ico">🎉</div>
+    <h2>أتقنتَ المرحلة الأولى ١٠٠٪</h2>
+    <p>أحسنت! أنهيتَ جميع بطاقات مستوى <b>B1</b> ونصوصه القرائية. تمّ الآن فتح <b>المرحلة الثانية (B1 → B2)</b> بأفعالها المركّبة ومصطلحاتها ومفرداتها ونصوصها الأكثر عمقاً.</p>
+    <button class="go" id="goNext">انتقل إلى المرحلة الثانية ←</button>
+    <button class="later" id="stayHere">أبقَ في المرحلة الحالية</button>
+  </div>
+</div>
+
+<script>
+"use strict";
+
+/* ============================================================
+   ١) البيانات — ٤٠ بطاقة موزّعة على مرحلتين وثلاث فئات
+   ============================================================ */
+const CATS = {
+  phrasal: { name:"أفعال مركّبة",     en:"Phrasal Verbs",       c:"#a78bfa", bg:"rgba(167,139,250,.13)", br:"rgba(167,139,250,.35)" },
+  idiom:   { name:"مصطلحات",         en:"Idioms",              c:"#fbbf24", bg:"rgba(251,191,36,.13)",  br:"rgba(251,191,36,.35)"  },
+  vocab:   { name:"مفردات متقدّمة",   en:"Advanced Vocabulary", c:"#34d399", bg:"rgba(52,211,153,.13)",  br:"rgba(52,211,153,.35)"  }
+};
+
+const LEVELS = [
+  { id:"B1", num:"1", title:"المرحلة الأولى", range:"A2 → B1", desc:"أساس الطلاقة: أفعال ومصطلحات يومية" },
+  { id:"B2", num:"2", title:"المرحلة الثانية", range:"B1 → B2", desc:"العمق والاحتراف: نقاشات وبيئة عمل" }
+];
+
+const CARDS = [
+/* ------------------ المرحلة الأولى: A2 → B1 ------------------ */
+/* أفعال مركّبة */
+{l:"B1",cat:"phrasal",w:"look forward to",pos:"phrasal verb",ar:"يتطلّع إلى / ينتظر بشوق",ex:[
+  {en:"I'm <b>looking forward to</b> the weekend with my family.",ar:"أتطلّع إلى عطلة نهاية الأسبوع مع عائلتي."},
+  {en:"We <b>look forward to</b> hearing from you soon.",ar:"نتطلّع إلى تلقّي ردّكم قريباً. (خِتام رسائل العمل)"}]},
+{l:"B1",cat:"phrasal",w:"put off",pos:"phrasal verb",ar:"يؤجّل / يرجئ",ex:[
+  {en:"Don't <b>put off</b> your homework until midnight.",ar:"لا تؤجّل واجبك إلى منتصف الليل."},
+  {en:"The manager <b>put off</b> the meeting until Friday.",ar:"أجّل المدير الاجتماع إلى يوم الجمعة."}]},
+{l:"B1",cat:"phrasal",w:"run out of",pos:"phrasal verb",ar:"ينفد منه / يفرغ مخزونه",ex:[
+  {en:"We've <b>run out of</b> milk, so I'll go to the shop.",ar:"نفد منّا الحليب، لذا سأذهب إلى المتجر."},
+  {en:"The team <b>ran out of</b> time before the deadline.",ar:"نفد الوقت من الفريق قبل الموعد النهائي."}]},
+{l:"B1",cat:"phrasal",w:"get along with",pos:"phrasal verb",ar:"ينسجم مع / يتوافق مع",ex:[
+  {en:"I <b>get along with</b> my new neighbours very well.",ar:"أنسجم مع جيراني الجدد انسجاماً كبيراً."},
+  {en:"She <b>gets along with</b> everyone in the office.",ar:"إنّها تتوافق مع الجميع في المكتب."}]},
+{l:"B1",cat:"phrasal",w:"turn down",pos:"phrasal verb",ar:"يرفض عرضاً / يخفّض الصوت",ex:[
+  {en:"Could you <b>turn down</b> the music, please?",ar:"هل يمكنك خفض صوت الموسيقى من فضلك؟"},
+  {en:"He <b>turned down</b> the job offer because of the salary.",ar:"رفض عرض العمل بسبب الراتب."}]},
+{l:"B1",cat:"phrasal",w:"find out",pos:"phrasal verb",ar:"يكتشف / يستعلم فيعرف",ex:[
+  {en:"I <b>found out</b> that the shop closes at six.",ar:"اكتشفت أنّ المتجر يُغلق في السادسة."},
+  {en:"We need to <b>find out</b> why the sales dropped.",ar:"علينا أن نعرف سبب انخفاض المبيعات."}]},
+{l:"B1",cat:"phrasal",w:"give up",pos:"phrasal verb",ar:"يستسلم / يُقلع عن عادة",ex:[
+  {en:"She <b>gave up</b> smoking two years ago.",ar:"أقلعت عن التدخين قبل عامين."},
+  {en:"Don't <b>give up</b> — the project is almost finished.",ar:"لا تستسلم، فالمشروع أوشك على الاكتمال."}]},
+/* مصطلحات */
+{l:"B1",cat:"idiom",w:"a piece of cake",pos:"idiom",ar:"أمرٌ سهلٌ للغاية",ex:[
+  {en:"The driving test was <b>a piece of cake</b>.",ar:"كان اختبار القيادة سهلاً للغاية."},
+  {en:"For her, using this software is <b>a piece of cake</b>.",ar:"استخدام هذا البرنامج بالنسبة إليها أمرٌ في غاية السهولة."}]},
+{l:"B1",cat:"idiom",w:"break the ice",pos:"idiom",ar:"يكسر حاجز الجمود / يفتح باب الحديث",ex:[
+  {en:"He told a joke to <b>break the ice</b> at the party.",ar:"ألقى نكتةً ليكسر الجمود في الحفل."},
+  {en:"The manager started with a short game to <b>break the ice</b>.",ar:"بدأ المدير بلعبة قصيرة ليكسر حاجز الرسميّات."}]},
+{l:"B1",cat:"idiom",w:"under the weather",pos:"idiom",ar:"متوعّك الصحّة / ليس على ما يُرام",ex:[
+  {en:"I'm feeling a bit <b>under the weather</b> today.",ar:"أشعر بتوعّك خفيف اليوم."},
+  {en:"She worked from home because she was <b>under the weather</b>.",ar:"عملت من المنزل لأنّها كانت متوعّكة."}]},
+{l:"B1",cat:"idiom",w:"once in a blue moon",pos:"idiom",ar:"نادراً جدّاً / في الأحوال النادرة",ex:[
+  {en:"We only eat out <b>once in a blue moon</b>.",ar:"لا نتناول الطعام خارج المنزل إلّا نادراً جدّاً."},
+  {en:"He visits the head office <b>once in a blue moon</b>.",ar:"يزور المقرّ الرئيسي في الأحوال النادرة."}]},
+{l:"B1",cat:"idiom",w:"hit the books",pos:"idiom",ar:"ينكبّ على الدراسة بجدّ",ex:[
+  {en:"I have to <b>hit the books</b> tonight; the test is tomorrow.",ar:"عليّ أن أنكبّ على الدراسة الليلة، فالاختبار غداً."},
+  {en:"After the training, we all <b>hit the books</b> for the certificate.",ar:"بعد التدريب، انكببنا جميعاً على الدراسة لنيل الشهادة."}]},
+{l:"B1",cat:"idiom",w:"on the same page",pos:"idiom",ar:"على وفاقٍ تامّ / الفهم مشترك",ex:[
+  {en:"Let's talk again so we're <b>on the same page</b>.",ar:"لنتحدّث مرّةً أخرى كي يكون فهمنا موحّداً."},
+  {en:"The team is <b>on the same page</b> about the new plan.",ar:"الفريق متّفقٌ تماماً بشأن الخطّة الجديدة."}]},
+/* مفردات */
+{l:"B1",cat:"vocab",w:"reliable",pos:"adjective",ar:"موثوق / يُعتمد عليه",ex:[
+  {en:"My old car is still very <b>reliable</b>.",ar:"سيّارتي القديمة ما زالت موثوقةً جدّاً."},
+  {en:"We need a <b>reliable</b> supplier for this contract.",ar:"نحتاج إلى مورّدٍ موثوق لهذا العقد."}]},
+{l:"B1",cat:"vocab",w:"improve",pos:"verb",ar:"يُحسِّن / يتحسّن",ex:[
+  {en:"I want to <b>improve</b> my English pronunciation.",ar:"أريد أن أُحسّن نطقي بالإنجليزية."},
+  {en:"The new system <b>improved</b> our response time.",ar:"حسّن النظام الجديد سرعة استجابتنا."}]},
+{l:"B1",cat:"vocab",w:"suggest",pos:"verb",ar:"يقترح / يشير بـ",ex:[
+  {en:"I <b>suggest</b> taking the train instead of the bus.",ar:"أقترح ركوب القطار بدلاً من الحافلة."},
+  {en:"She <b>suggested</b> a different design for the website.",ar:"اقترحت تصميماً مختلفاً للموقع."}]},
+{l:"B1",cat:"vocab",w:"avoid",pos:"verb",ar:"يتجنّب / يتحاشى",ex:[
+  {en:"I <b>avoid</b> drinking coffee after six.",ar:"أتجنّب شرب القهوة بعد السادسة."},
+  {en:"We changed the plan to <b>avoid</b> extra costs.",ar:"غيّرنا الخطّة لتجنّب التكاليف الإضافية."}]},
+{l:"B1",cat:"vocab",w:"achieve",pos:"verb",ar:"يُحقّق / يُنجز هدفاً",ex:[
+  {en:"She <b>achieved</b> her goal of running ten kilometres.",ar:"حقّقت هدفها في الجري عشرة كيلومترات."},
+  {en:"The team <b>achieved</b> all its targets this quarter.",ar:"حقّق الفريق كلّ أهدافه هذا الربع."}]},
+{l:"B1",cat:"vocab",w:"complicated",pos:"adjective",ar:"معقّد / متشابك",ex:[
+  {en:"The recipe looks <b>complicated</b>, but it's actually easy.",ar:"تبدو الوصفة معقّدة، لكنّها سهلة في الحقيقة."},
+  {en:"The contract is too <b>complicated</b> for a quick answer.",ar:"العقد أشدّ تعقيداً من أن يُجاب عنه سريعاً."}]},
+{l:"B1",cat:"vocab",w:"opportunity",pos:"noun",ar:"فرصة سانحة",ex:[
+  {en:"Travelling is a great <b>opportunity</b> to learn.",ar:"السفر فرصةٌ عظيمة للتعلّم."},
+  {en:"This project is a real <b>opportunity</b> for our department.",ar:"هذا المشروع فرصةٌ حقيقية لقسمنا."}]},
+
+/* ------------------ المرحلة الثانية: B1 → B2 ------------------ */
+/* أفعال مركّبة */
+{l:"B2",cat:"phrasal",w:"carry out",pos:"phrasal verb",ar:"يُنفّذ / يُجري (دراسةً أو مهمّة)",ex:[
+  {en:"I <b>carried out</b> the doctor's instructions carefully.",ar:"نفّذت تعليمات الطبيب بعناية."},
+  {en:"The company <b>carried out</b> a survey among its clients.",ar:"أجرت الشركة استطلاعاً بين عملائها."}]},
+{l:"B2",cat:"phrasal",w:"come up with",pos:"phrasal verb",ar:"يبتكر / يأتي بفكرةٍ أو حلّ",ex:[
+  {en:"He <b>came up with</b> a clever way to save money.",ar:"ابتكر طريقةً ذكيّةً لتوفير المال."},
+  {en:"We must <b>come up with</b> a solution before the deadline.",ar:"علينا أن نأتي بحلٍّ قبل الموعد النهائي."}]},
+{l:"B2",cat:"phrasal",w:"put up with",pos:"phrasal verb",ar:"يتحمّل / يصبر على مكروه",ex:[
+  {en:"I can't <b>put up with</b> the noise from the street.",ar:"لا أستطيع تحمّل الضجيج القادم من الشارع."},
+  {en:"She <b>put up with</b> a difficult client for two years.",ar:"صبرت على عميلٍ صعب المراس لمدّة عامين."}]},
+{l:"B2",cat:"phrasal",w:"look into",pos:"phrasal verb",ar:"يتحرّى / يبحث في أمرٍ ما",ex:[
+  {en:"I'll <b>look into</b> the problem with the heating tomorrow.",ar:"سأبحث في مشكلة التدفئة غداً."},
+  {en:"The department is <b>looking into</b> the customer's complaint.",ar:"يتحرّى القسم شكوى العميل."}]},
+{l:"B2",cat:"phrasal",w:"cut back on",pos:"phrasal verb",ar:"يُقلّص / يخفّض الإنفاق أو الاستهلاك",ex:[
+  {en:"I'm <b>cutting back on</b> sugar this month.",ar:"أُقلّل من السكّر هذا الشهر."},
+  {en:"The firm <b>cut back on</b> travel expenses to save money.",ar:"قلّصت الشركة نفقات السفر توفيراً للمال."}]},
+{l:"B2",cat:"phrasal",w:"fall through",pos:"phrasal verb",ar:"يفشل / ينهار (اتّفاقٌ أو خطّة)",ex:[
+  {en:"Our holiday plans <b>fell through</b> at the last minute.",ar:"انهارت خطط عطلتنا في اللحظة الأخيرة."},
+  {en:"The deal <b>fell through</b> because of the price.",ar:"فشلت الصفقة بسبب السعر."}]},
+{l:"B2",cat:"phrasal",w:"bring about",pos:"phrasal verb",ar:"يُحدِث / يُسبّب تغييراً",ex:[
+  {en:"The new law <b>brought about</b> a big change in the city.",ar:"أحدث القانون الجديد تغييراً كبيراً في المدينة."},
+  {en:"Their strategy <b>brought about</b> a sharp rise in profits.",ar:"أحدثت استراتيجيّتهم ارتفاعاً حادّاً في الأرباح."}]},
+/* مصطلحات */
+{l:"B2",cat:"idiom",w:"the ball is in your court",pos:"idiom",ar:"القرار بيدك / الدور عليك الآن",ex:[
+  {en:"I've said everything I can; <b>the ball is in your court</b>.",ar:"قلت كلّ ما لديّ، والقرار الآن بيدك."},
+  {en:"We sent the offer, so <b>the ball is in their court</b>.",ar:"أرسلنا العرض، فالدور عليهم الآن."}]},
+{l:"B2",cat:"idiom",w:"cut corners",pos:"idiom",ar:"يختصر الطريق على حساب الجودة",ex:[
+  {en:"Don't <b>cut corners</b> when you cook for guests.",ar:"لا تختصر الخطوات حين تطبخ للضيوف."},
+  {en:"They <b>cut corners</b> on testing, and the app crashed.",ar:"تساهلوا في الاختبار توفيراً للوقت، فانهار التطبيق."}]},
+{l:"B2",cat:"idiom",w:"get the hang of it",pos:"idiom",ar:"يُتقن الأمر بعد ممارسة",ex:[
+  {en:"Driving felt hard at first, but I <b>got the hang of it</b>.",ar:"بدت القيادة صعبةً في البداية، لكنّني أتقنتها."},
+  {en:"Give her a week and she'll <b>get the hang of</b> the system.",ar:"امنحها أسبوعاً وستُتقن النظام."}]},
+{l:"B2",cat:"idiom",w:"a blessing in disguise",pos:"idiom",ar:"نعمةٌ في ثوب نقمة / مِنحةٌ في مِحنة",ex:[
+  {en:"Missing that flight was <b>a blessing in disguise</b>.",ar:"كان تفويت تلك الرحلة نعمةً في ثوب نقمة."},
+  {en:"Losing that client turned out to be <b>a blessing in disguise</b>.",ar:"تبيّن أنّ خسارة ذلك العميل كانت مِنحةً في مِحنة."}]},
+{l:"B2",cat:"idiom",w:"bite off more than you can chew",pos:"idiom",ar:"يُحمّل نفسه فوق طاقته",ex:[
+  {en:"I <b>bit off more than I could chew</b> with three courses at once.",ar:"حمّلت نفسي فوق طاقتي بثلاث دورات في آنٍ واحد."},
+  {en:"He took four projects and <b>bit off more than he could chew</b>.",ar:"تولّى أربعة مشاريع فحمّل نفسه ما لا يُطيق."}]},
+{l:"B2",cat:"idiom",w:"touch base",pos:"idiom",ar:"يتواصل باقتضاب ليطمئنّ على المستجدّات",ex:[
+  {en:"Let's <b>touch base</b> after the weekend.",ar:"لنتواصل بإيجاز بعد عطلة نهاية الأسبوع."},
+  {en:"I'll <b>touch base</b> with the client before Thursday.",ar:"سأتواصل مع العميل باختصار قبل الخميس."}]},
+/* مفردات */
+{l:"B2",cat:"vocab",w:"inevitable",pos:"adjective",ar:"حتميّ / لا مفرّ منه",ex:[
+  {en:"With this traffic, arriving late was <b>inevitable</b>.",ar:"مع هذا الازدحام، كان التأخّر أمراً لا مفرّ منه."},
+  {en:"A price increase is <b>inevitable</b> after the new tax.",ar:"ارتفاع الأسعار حتميٌّ بعد الضريبة الجديدة."}]},
+{l:"B2",cat:"vocab",w:"thorough",pos:"adjective",ar:"دقيق ومستفيض / شامل",ex:[
+  {en:"She gave the kitchen a <b>thorough</b> cleaning.",ar:"نظّفت المطبخ تنظيفاً شاملاً."},
+  {en:"We need a <b>thorough</b> review before we sign.",ar:"نحتاج إلى مراجعةٍ مستفيضة قبل التوقيع."}]},
+{l:"B2",cat:"vocab",w:"feasible",pos:"adjective",ar:"قابل للتنفيذ / ممكنٌ عمليّاً",ex:[
+  {en:"Walking there in ten minutes simply isn't <b>feasible</b>.",ar:"المشي إلى هناك في عشر دقائق غير ممكنٍ عمليّاً."},
+  {en:"The plan is <b>feasible</b> if we hire two more people.",ar:"الخطّة قابلة للتنفيذ إن وظّفنا شخصين إضافيّين."}]},
+{l:"B2",cat:"vocab",w:"acknowledge",pos:"verb",ar:"يُقرّ / يعترف / يُفيد بالاستلام",ex:[
+  {en:"He <b>acknowledged</b> his mistake without any excuses.",ar:"أقرّ بخطئه دون أعذار."},
+  {en:"Please <b>acknowledge</b> receipt of this email.",ar:"يُرجى الإفادة باستلام هذه الرسالة."}]},
+{l:"B2",cat:"vocab",w:"substantial",pos:"adjective",ar:"كبير ومعتبَر / جوهريّ",ex:[
+  {en:"They made a <b>substantial</b> change to the menu.",ar:"أجروا تغييراً جوهريّاً على قائمة الطعام."},
+  {en:"The report shows a <b>substantial</b> rise in demand.",ar:"يُظهر التقرير ارتفاعاً معتبَراً في الطلب."}]},
+{l:"B2",cat:"vocab",w:"compelling",pos:"adjective",ar:"مُقنِعٌ بقوّة / آسِرٌ للانتباه",ex:[
+  {en:"The film had a <b>compelling</b> story from start to finish.",ar:"كانت قصّة الفيلم آسِرةً من البداية إلى النهاية."},
+  {en:"She made a <b>compelling</b> case for the new budget.",ar:"قدّمت حجّةً مقنِعةً بقوّة لصالح الميزانية الجديدة."}]},
+{l:"B2",cat:"vocab",w:"discrepancy",pos:"noun",ar:"تباين / تضارب غير متوقّع بين رقمين",ex:[
+  {en:"There's a <b>discrepancy</b> between the receipt and the price tag.",ar:"ثمّة تباينٌ بين الإيصال وبطاقة السعر."},
+  {en:"The audit found a <b>discrepancy</b> in last month's figures.",ar:"كشف التدقيق عن تضاربٍ في أرقام الشهر الماضي."}]}
+];
+
+CARDS.forEach((c,i)=>{ c.id = c.l + "-" + i; });
+
+/* ------------------------------------------------------------
+   النصوص القرائية — كلّ نصّ يتجاوز ٥٠ كلمة ويوظّف مفردات مرحلته
+   ------------------------------------------------------------ */
+const TEXTS = [
+/* ================= المرحلة الأولى: A2 → B1 ================= */
+{l:"B1",t:"A New Beginning at Work",ta:"بداية جديدة في العمل",
+ en:"Last month I started a new job at a small design company. On my first day I was nervous, but I quickly <b>found out</b> that my colleagues were friendly. I <b>get along with</b> almost everyone in the team, and my manager is very <b>reliable</b>. The work is sometimes <b>complicated</b>, but I see it as a real <b>opportunity</b> to <b>improve</b> my skills. I am <b>looking forward to</b> my first big project next week.",
+ ar:"بدأتُ الشهر الماضي عملاً جديداً في شركة تصميمٍ صغيرة. كنتُ متوتّراً في يومي الأوّل، لكنّني اكتشفتُ سريعاً أنّ زملائي ودودون. أنسجم مع كلّ من في الفريق تقريباً، ومديري موثوقٌ جدّاً. العمل معقّدٌ أحياناً، غير أنّني أراه فرصةً حقيقيةً لتحسين مهاراتي. وأنا أتطلّع إلى أوّل مشروعٍ كبير لي الأسبوع المقبل.",
+ keys:[["found out","اكتشف"],["get along with","ينسجم مع"],["reliable","موثوق"],["complicated","معقّد"],["opportunity","فرصة"],["improve","يُحسّن"],["looking forward to","يتطلّع إلى"]]},
+
+{l:"B1",t:"The Weekend Plan",ta:"خطّة عطلة نهاية الأسبوع",
+ en:"My friend Omar invited me to a football match on Saturday. I almost <b>turned down</b> the invitation because I wanted to <b>hit the books</b> for my exam. Then I decided not to <b>put off</b> the fun, because we go out <b>once in a blue moon</b> anyway. Before leaving, I noticed that we had <b>run out of</b> bread, so I stopped at the shop. Finding the stadium was <b>a piece of cake</b> because Omar had sent me a map.",
+ ar:"دعاني صديقي عمر إلى مباراة كرة قدمٍ يوم السبت. كدتُ أرفض الدعوة لأنّني أردتُ أن أنكبّ على الدراسة لاختباري. ثمّ قرّرتُ ألّا أؤجّل المتعة، فنحن لا نخرج إلّا نادراً جدّاً على أيّ حال. وقبل مغادرتي لاحظتُ أنّ الخبز قد نفد منّا، فتوقّفتُ عند المتجر. وكان العثور على الملعب سهلاً للغاية لأنّ عمر كان قد أرسل إليّ خريطة.",
+ keys:[["turned down","رفض"],["hit the books","ينكبّ على الدراسة"],["put off","يؤجّل"],["once in a blue moon","نادراً جدّاً"],["run out of","نفد منه"],["a piece of cake","سهلٌ للغاية"]]},
+
+{l:"B1",t:"A Difficult Morning",ta:"صباحٌ عسير",
+ en:"This morning I woke up feeling <b>under the weather</b>, so I decided to <b>avoid</b> the gym. My sister <b>suggested</b> drinking hot lemon and resting for an hour. I did not want to <b>give up</b> on my plan for the day, so after lunch I felt much better and finished my report. It was not easy, but in the end I <b>achieved</b> my goal. Sometimes a short rest helps you far more than a long fight.",
+ ar:"استيقظتُ هذا الصباح وأنا أشعر بتوعّك، فقرّرتُ أن أتجنّب النادي الرياضي. اقترحتْ أختي شرب الليمون الساخن والراحة ساعةً من الزمن. لم أشأ أن أستسلم لخطّة يومي، وبعد الغداء شعرتُ بتحسّنٍ كبير وأنجزتُ تقريري. لم يكن الأمر يسيراً، لكنّني في النهاية حقّقتُ هدفي. فأحياناً تنفعك راحةٌ قصيرة أكثر ممّا ينفعك صراعٌ طويل.",
+ keys:[["under the weather","متوعّك"],["avoid","يتجنّب"],["suggested","اقترح"],["give up","يستسلم"],["achieved","حقّق"]]},
+
+{l:"B1",t:"The Team Meeting",ta:"اجتماع الفريق",
+ en:"Our new manager started the meeting with a simple question about our weekend, and that small step helped to <b>break the ice</b>. Then she explained the plan for the next three months. She wanted to be sure that everybody was <b>on the same page</b> before we started the work. Two people <b>suggested</b> small changes, and she accepted both of them. I left the room feeling that our department will <b>improve</b> a lot this year.",
+ ar:"استهلّتْ مديرتنا الجديدة الاجتماع بسؤالٍ بسيط عن عطلة نهاية الأسبوع، وقد ساعدت تلك الخطوة الصغيرة على كسر الجمود. ثمّ شرحت خطّة الأشهر الثلاثة المقبلة. أرادت أن تتيقّن من أنّ الجميع على وفاقٍ تامّ قبل أن نبدأ العمل. اقترح شخصان تعديلاتٍ طفيفة فقبلتهما كليهما. غادرتُ القاعة وأنا أشعر بأنّ قسمنا سيتحسّن كثيراً هذا العام.",
+ keys:[["break the ice","يكسر الجمود"],["on the same page","على وفاقٍ تامّ"],["suggested","اقترح"],["improve","يتحسّن"]]},
+
+/* ================= المرحلة الثانية: B1 → B2 ================= */
+{l:"B2",t:"Launching the New Product",ta:"إطلاق المنتج الجديد",
+ en:"When the first launch date <b>fell through</b>, the team had to <b>come up with</b> a new plan in less than a week. We <b>carried out</b> a quick study and discovered that a delay was <b>inevitable</b>, although a smaller launch was still <b>feasible</b>. Some people wanted to <b>cut corners</b> on testing in order to save time. The head of engineering firmly refused, and I believe she was right. A rushed product would have <b>brought about</b> far more damage than a short delay.",
+ ar:"حين انهار موعد الإطلاق الأوّل، اضطُرّ الفريق إلى ابتكار خطّةٍ جديدة في أقلّ من أسبوع. أجرينا دراسةً سريعة فاكتشفنا أنّ التأجيل صار حتميّاً، وإن ظلّ إطلاقٌ أصغر ممكناً عمليّاً. أراد بعضهم اختصار الطريق في الاختبار توفيراً للوقت، غير أنّ رئيسة الهندسة رفضت رفضاً قاطعاً، وأحسبها كانت على حقّ؛ فمنتَجٌ متعجّل كان سيُحدث من الضرر أضعاف ما يُحدثه تأجيلٌ قصير.",
+ keys:[["fell through","انهار/فشل"],["come up with","يبتكر"],["carried out","أجرى"],["inevitable","حتميّ"],["feasible","ممكنٌ عمليّاً"],["cut corners","يختصر الطريق"],["brought about","أحدث"]]},
+
+{l:"B2",t:"A Lesson in Patience",ta:"درسٌ في الصبر",
+ en:"In my first year at university I <b>bit off more than I could chew</b>. I registered for six courses at once and had to <b>put up with</b> sleepless nights for months. Failing one of them felt terrible at the time, yet it turned out to be <b>a blessing in disguise</b>. It forced me to change my method completely. By the second year I had <b>got the hang of it</b>, and my results showed a <b>substantial</b> improvement that surprised even my professors.",
+ ar:"في عامي الجامعيّ الأوّل حمّلتُ نفسي فوق طاقتها؛ إذ سجّلتُ في ستّ موادّ دفعةً واحدة، فكان عليّ أن أتحمّل ليالي بلا نومٍ شهوراً طوالاً. وكان رسوبي في إحداها شعوراً مريراً حينئذٍ، لكنّه تبيّن أنّه نعمةٌ في ثوب نقمة، فقد أجبرني على تغيير أسلوبي بالكامل. وبحلول العام الثاني كنتُ قد أتقنتُ الأمر، وأظهرت نتائجي تحسّناً معتبَراً أدهش حتّى أساتذتي.",
+ keys:[["bit off more than I could chew","حمّل نفسه فوق طاقته"],["put up with","يتحمّل"],["a blessing in disguise","نعمةٌ في ثوب نقمة"],["got the hang of it","أتقن الأمر"],["substantial","معتبَر"]]},
+
+{l:"B2",t:"The Audit Report",ta:"تقرير التدقيق",
+ en:"The finance department found a <b>discrepancy</b> of almost four thousand pounds in last quarter's accounts. My manager asked me to <b>look into</b> it before Monday morning. After a <b>thorough</b> check of every single invoice, I discovered that one payment had been recorded twice. I sent a short email to the supplier, who <b>acknowledged</b> the error within an hour and promised a full refund. I told my manager that <b>the ball was now in their court</b>, and that we simply had to wait.",
+ ar:"اكتشف قسم المالية تبايناً يناهز أربعة آلاف جنيه في حسابات الربع الماضي، فطلب إليّ مديري أن أتحرّى الأمر قبل صباح الاثنين. وبعد فحصٍ مستفيضٍ لكلّ فاتورةٍ على حدة، اكتشفتُ أنّ دفعةً واحدة قد سُجِّلت مرّتين. أرسلتُ رسالةً قصيرة إلى المورّد، فأقرّ بالخطأ في غضون ساعة ووعد بردّ المبلغ كاملاً. أخبرتُ مديري أنّ القرار صار بأيديهم، وأنّ علينا الانتظار لا غير.",
+ keys:[["discrepancy","تباين"],["look into","يتحرّى"],["thorough","مستفيض"],["acknowledged","أقرّ بـ"],["the ball is in their court","القرار بأيديهم"]]},
+
+{l:"B2",t:"Working From Home",ta:"العمل من المنزل",
+ en:"The pandemic <b>brought about</b> a change that very few companies had considered <b>feasible</b> before. Many firms <b>cut back on</b> office space and allowed their staff to work remotely. The arguments were <b>compelling</b>: lower costs, less traffic and happier employees. Of course, remote work has its own problems as well. Teams must <b>touch base</b> regularly, otherwise small misunderstandings quietly grow into serious ones. In my experience, a short daily call solves more problems than a long monthly report ever could.",
+ ar:"أحدثت الجائحة تغييراً لم تكن شركاتٌ كثيرة تعدّه ممكناً عمليّاً من قبل. فقلّصت شركاتٌ عديدة مساحات مكاتبها وأتاحت لموظّفيها العمل عن بُعد. وكانت الحجج مقنِعةً بقوّة: تكاليف أدنى، وازدحامٌ أقلّ، وموظّفون أسعد. وللعمل عن بُعد بالطبع مشكلاته أيضاً؛ فعلى الفرق أن تتواصل بانتظام، وإلّا نمت سوء الفهم الصغيرة في صمتٍ حتّى تستفحل. وفي تجربتي، تحلّ مكالمةٌ يوميّة قصيرة من المشكلات ما لا يحلّه تقريرٌ شهريّ مطوّل.",
+ keys:[["brought about","أحدث"],["feasible","ممكنٌ عمليّاً"],["cut back on","قلّص"],["compelling","مقنِعٌ بقوّة"],["touch base","يتواصل باقتضاب"]]}
+];
+TEXTS.forEach((t,i)=>{ t.id = "T" + t.l + "-" + i; t.wc = t.en.replace(/<[^>]+>/g,"").trim().split(/\s+/).length; });
+
+
+/* ============================================================
+   ٢) الحالة والتخزين
+   ============================================================ */
+const KEY = "en-a2-b2-progress-v1";
+let state = { known:{}, level:"B1", cat:"all", view:"cards", showKnown:false, celebrated:false };
+
+function load(){
+  try{
+    const raw = localStorage.getItem(KEY);
+    if(raw){
+      const s = JSON.parse(raw);
+      state.known      = (s && typeof s.known === "object" && s.known) || {};
+      state.level      = s && s.level === "B2" ? "B2" : "B1";
+      state.view       = s && s.view === "texts" ? "texts" : "cards";
+      state.celebrated = !!(s && s.celebrated);
+    }
+  }catch(e){ /* التخزين محجوب أو تالف — نكمل بحالة نظيفة */ }
+  if(state.level === "B2" && !isUnlocked("B2")) state.level = "B1";
+}
+function save(){
+  try{
+    localStorage.setItem(KEY, JSON.stringify({
+      known:state.known, level:state.level, view:state.view, celebrated:state.celebrated
+    }));
+  }catch(e){ /* لا شيء نفعله إن كان التخزين ممنوعاً */ }
+}
+
+const cardsOf   = lv => CARDS.filter(c => c.l === lv);
+const textsOf   = lv => TEXTS.filter(t => t.l === lv);
+/* عناصر المرحلة = بطاقاتها + نصوصها، فالإتقان ١٠٠٪ يشمل الاثنين */
+const itemsOf   = lv => cardsOf(lv).concat(textsOf(lv));
+const doneIn    = list => list.filter(x => state.known[x.id]).length;
+const knownOf   = lv => doneIn(itemsOf(lv));
+const pctOf     = lv => { const t = itemsOf(lv).length; return t ? Math.round(knownOf(lv)/t*100) : 0; };
+const isUnlocked= lv => lv === "B1" || pctOf("B1") === 100;
+
+/* أرقام عربية-هندية لعرضٍ أجمل داخل النصّ العربي */
+const AR_DIGITS = "٠١٢٣٤٥٦٧٨٩";
+const arNum = n => String(n).replace(/\d/g, d => AR_DIGITS[+d]);
+
+/* ============================================================
+   ٣) النطق عبر Web Speech API
+   ============================================================ */
+const speechOK = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+let enVoice = null;
+
+function pickVoice(){
+  if(!speechOK) return;
+  const vs = speechSynthesis.getVoices();
+  if(!vs.length) return;
+  enVoice =
+    vs.find(v => /^en-(GB|US)/i.test(v.lang) && /natural|neural|google|premium|enhanced/i.test(v.name)) ||
+    vs.find(v => /^en-(GB|US)/i.test(v.lang)) ||
+    vs.find(v => /^en/i.test(v.lang)) || null;
+}
+if(speechOK){
+  pickVoice();
+  speechSynthesis.onvoiceschanged = pickVoice;
+}
+
+/* ينزع وسوم <b> ليُنطق النصّ نظيفاً */
+const plain = html => html.replace(/<[^>]+>/g, "");
+
+function speak(text, btn){
+  if(!speechOK){ toast("متصفّحك لا يدعم النطق الصوتيّ (Web Speech API).", true); return; }
+  try{
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(plain(text));
+    u.lang = (enVoice && enVoice.lang) || "en-US";
+    if(enVoice) u.voice = enVoice;
+    u.rate = 0.85; u.pitch = 1;
+    if(btn){
+      btn.classList.add("on");
+      const off = () => btn.classList.remove("on");
+      u.onend = off; u.onerror = off;
+      setTimeout(off, Math.max(8000, plain(text).length * 95));
+    }
+    speechSynthesis.speak(u);
+  }catch(e){ toast("تعذّر تشغيل الصوت في هذا المتصفّح.", true); }
+}
+
+/* ============================================================
+   ٤) عناصر الواجهة
+   ============================================================ */
+const $ = id => document.getElementById(id);
+const elLevels = $("levels"), elGrid = $("grid"), elEmpty = $("empty"),
+      elChips = $("chips"), elTexts = $("texts"), elViews = $("views");
+
+const ICON_SPK = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.47 4.47 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>';
+
+/* ---- مسار المستويات ---- */
+function renderLevels(){
+  elLevels.innerHTML = "";
+  LEVELS.forEach((lv, i) => {
+    if(i > 0){
+      const link = document.createElement("div");
+      link.className = "path-link"; link.textContent = "➜"; link.setAttribute("aria-hidden","true");
+      elLevels.appendChild(link);
+    }
+    const open = isUnlocked(lv.id), pct = pctOf(lv.id);
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "level-tab" + (state.level===lv.id ? " active":"") + (open ? "":" locked") + (pct===100 ? " done":"");
+    b.setAttribute("aria-pressed", String(state.level===lv.id));
+    /* المرحلة المقفلة تبقى قابلة للنقر لتشرح سبب القفل، فلا تُوسَم aria-disabled */
+    if(!open) b.title = "تُفتح بعد إتقان المرحلة الأولى ١٠٠٪";
+    b.innerHTML =
+      '<span class="num">'+(open ? lv.num : "🔒")+'</span>'+
+      '<span class="meta">'+
+        '<span class="t">'+lv.title+' <span class="lvl-pill">'+lv.range+'</span></span>'+
+        '<span class="d">'+(open ? lv.desc : "يُفتح بعد إتقان المرحلة الأولى ١٠٠٪")+'</span>'+
+      '</span>'+
+      '<span class="mini-ring">'+(pct===100 ? "✓ ١٠٠٪" : arNum(pct)+"٪")+'</span>';
+    b.addEventListener("click", () => selectLevel(lv.id));
+    elLevels.appendChild(b);
+  });
+}
+
+function selectLevel(lv){
+  if(!isUnlocked(lv)){
+    const left = itemsOf("B1").length - knownOf("B1");
+    toast("🔒 المرحلة الثانية مقفلة — تبقّى "+arNum(left)+" عنصراً (بطاقات ونصوص) لإتقان مستوى B1 بالكامل.", true);
+    return;
+  }
+  state.level = lv; state.cat = "all"; state.view = "cards"; save();
+  renderAll();
+  window.scrollTo({ top:0, behavior:"smooth" });
+}
+
+/* ---- شريط التقدّم ---- */
+function renderProgress(){
+  const lv = state.level, total = itemsOf(lv).length, done = knownOf(lv), pct = pctOf(lv);
+  $("progLevelName").textContent = lv;
+  $("progPct").textContent = pct;
+  $("barFill").style.width = pct + "%";
+  $("barWrap").setAttribute("aria-valuenow", pct);
+  $("progCount").textContent = "أتقنتَ " + arNum(done) + " من " + arNum(total) +
+    " عنصراً (" + arNum(cardsOf(lv).length) + " بطاقة و" + arNum(textsOf(lv).length) + " نصوص)";
+
+  const hint = $("progHint");
+  hint.classList.remove("ready");
+  if(lv === "B1"){
+    if(pct === 100){ hint.textContent = "✓ المرحلة الثانية مفتوحة"; hint.classList.add("ready"); }
+    else hint.textContent = "تبقّى " + arNum(total-done) + " عنصراً لفتح المرحلة الثانية";
+  }else{
+    hint.textContent = pct === 100 ? "🏆 أتممتَ الرحلة إلى B2" : "تبقّى " + arNum(total-done) + " عنصراً للوصول إلى B2";
+  }
+}
+
+/* ---- مبدّل العرض بين البطاقات والنصوص ---- */
+function renderViews(){
+  const lv = state.level;
+  const leftC = cardsOf(lv).length - doneIn(cardsOf(lv));
+  const leftT = textsOf(lv).length - doneIn(textsOf(lv));
+  $("nCards").textContent = leftC ? arNum(leftC) : "✓";
+  $("nTexts").textContent = leftT ? arNum(leftT) : "✓";
+  elViews.querySelectorAll(".view-btn").forEach(b => {
+    const on = b.dataset.view === state.view;
+    b.classList.toggle("on", on);
+    b.setAttribute("aria-selected", String(on));
+  });
+  elChips.hidden = state.view !== "cards";   /* الفئات تخصّ البطاقات وحدها */
+  elGrid.hidden  = state.view !== "cards";
+  elTexts.hidden = state.view !== "texts";
+}
+
+/* ---- شرائح الفئات ---- */
+function renderChips(){
+  const list = cardsOf(state.level);
+  const mk = (key,label,n) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "chip" + (state.cat===key ? " on":"");
+    b.innerHTML = label + ' <span class="n">'+arNum(n)+'</span>';
+    b.addEventListener("click", () => { state.cat = key; renderChips(); renderGrid(); });
+    return b;
+  };
+  elChips.innerHTML = "";
+  elChips.appendChild(mk("all","الكل",list.length));
+  Object.keys(CATS).forEach(k => elChips.appendChild(mk(k, CATS[k].name, list.filter(c=>c.cat===k).length)));
+}
+
+/* ---- البطاقات ---- */
+function buildCard(c, i){
+  const cat = CATS[c.cat];
+  const el = document.createElement("article");
+  el.className = "card" + (state.known[c.id] ? " known":"");
+  el.tabIndex = 0;
+  el.style.animationDelay = Math.min(i*45, 500) + "ms";
+  el.style.setProperty("--cat-c",  cat.c);
+  el.style.setProperty("--cat-bg", cat.bg);
+  el.style.setProperty("--cat-br", cat.br);
+  el.setAttribute("aria-label", c.w + " — اضغط لقلب البطاقة");
+
+  const exHtml = c.ex.map(e =>
+    '<div class="ex">'+
+      '<div class="ex-head">'+
+        '<p class="ex-en" dir="ltr">'+e.en+'</p>'+
+        '<button type="button" class="mini-speak" data-say="'+encodeURIComponent(e.en)+'" title="استمع إلى الجملة" aria-label="استمع إلى الجملة">'+ICON_SPK+'</button>'+
+      '</div>'+
+      '<p class="ex-ar">'+e.ar+'</p>'+
+    '</div>').join("");
+
+  el.innerHTML =
+  '<div class="inner">'+
+    '<div class="face front">'+
+      '<div class="f-top"><span class="tag">'+cat.name+'</span><span class="lvl-pill">'+c.l+'</span></div>'+
+      '<div class="f-mid">'+
+        '<h2 class="word" dir="ltr">'+c.w+'</h2>'+
+        '<span class="pos" dir="ltr">'+c.pos+'</span>'+
+        '<button type="button" class="speak" data-say="'+encodeURIComponent(c.w)+'" aria-label="استمع إلى نطق الكلمة">'+ICON_SPK+' استمع للنطق</button>'+
+      '</div>'+
+      '<p class="f-hint">انقر على البطاقة لعرض المعنى ↺</p>'+
+    '</div>'+
+    '<div class="face back">'+
+      '<p class="b-word" dir="ltr">'+c.w+'</p>'+
+      '<h3 class="trans">'+c.ar+'</h3>'+
+      '<div class="exs">'+exHtml+'</div>'+
+      '<button type="button" class="know">'+(state.known[c.id] ? "↺ أعِدها للمراجعة" : "✓ حفظتها")+'</button>'+
+    '</div>'+
+  '</div>';
+
+  /* قلب البطاقة */
+  el.addEventListener("click", () => el.classList.toggle("flipped"));
+  el.addEventListener("keydown", e => {
+    if(e.key === "Enter" || e.key === " "){ e.preventDefault(); el.classList.toggle("flipped"); }
+  });
+
+  /* أزرار النطق — لا تقلب البطاقة */
+  el.querySelectorAll("[data-say]").forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      speak(decodeURIComponent(btn.dataset.say), btn);
+    });
+  });
+
+  /* زرّ "حفظتها" */
+  el.querySelector(".know").addEventListener("click", e => {
+    e.stopPropagation();
+    toggleKnown(c, el);
+  });
+
+  return el;
+}
+
+function toggleKnown(c, el){
+  const wasKnown = !!state.known[c.id];
+  if(wasKnown) delete state.known[c.id];
+  else state.known[c.id] = true;
+  save();
+  renderProgress(); renderLevels(); renderViews();
+
+  if(!wasKnown && !state.showKnown){
+    el.classList.add("gone");
+    setTimeout(() => { renderView(); afterKnown(); }, 430);
+  }else{
+    renderView(); afterKnown();
+  }
+}
+
+/* يفتح المرحلة الثانية عند بلوغ B1 نسبة ١٠٠٪ */
+function afterKnown(){
+  if(state.level === "B1" && pctOf("B1") === 100 && !state.celebrated){
+    state.celebrated = true; save();
+    $("modal").hidden = false;
+  }
+}
+
+function renderGrid(){
+  const shown = cardsOf(state.level)
+    .filter(c => state.cat === "all" || c.cat === state.cat)
+    .filter(c => state.showKnown || !state.known[c.id]);
+
+  elGrid.innerHTML = "";
+  shown.forEach((c,i) => elGrid.appendChild(buildCard(c,i)));
+
+  $("toggleKnown").textContent = state.showKnown ? "إخفاء المحفوظة" : "إظهار المحفوظة";
+
+  if(shown.length){ elEmpty.hidden = true; return; }
+  elEmpty.hidden = false;
+  const lvDone = pctOf(state.level) === 100;
+  elEmpty.innerHTML = lvDone
+    ? '<div class="ico">🏆</div><h3>أتقنتَ بطاقات هذه المرحلة!</h3><p>'+
+      (state.level === "B1"
+        ? "المرحلة الثانية (B1 → B2) مفتوحة الآن — انتقل إليها من الأعلى."
+        : "مبارك! أنهيت رحلة A2 → B2 كاملةً. راجع البطاقات بين حينٍ وآخر لترسيخها.")+
+      '</p><button class="btn" onclick="document.getElementById(\'toggleKnown\').click()">إظهار البطاقات المحفوظة للمراجعة</button>'
+    : '<div class="ico">📭</div><h3>لا توجد بطاقات في هذا التصنيف</h3><p>أتقنتَ كلّ بطاقات هذه الفئة. اختر فئةً أخرى، أو أظهِر المحفوظة لمراجعتها.</p>'+
+      '<button class="btn" onclick="document.getElementById(\'toggleKnown\').click()">إظهار البطاقات المحفوظة</button>';
+}
+
+/* ---- النصوص القرائية ---- */
+function buildText(t, i){
+  const el = document.createElement("article");
+  el.className = "text-card" + (state.known[t.id] ? " known" : "");
+  el.style.animationDelay = Math.min(i*70, 420) + "ms";
+
+  const keys = t.keys.map(k =>
+    '<span class="keychip"><span class="k-en" dir="ltr">'+k[0]+'</span>'+
+    '<span class="k-sep">—</span><span class="k-ar">'+k[1]+'</span></span>').join("");
+
+  el.innerHTML =
+    '<div class="t-top">'+
+      '<div><h3 class="t-title" dir="ltr">'+t.t+'</h3><p class="t-sub">'+t.ta+'</p></div>'+
+      '<div class="t-badges"><span class="lvl-pill">'+t.l+'</span>'+
+        '<span class="wc">'+arNum(t.wc)+' كلمة</span></div>'+
+    '</div>'+
+    '<div class="t-actions">'+
+      '<button type="button" class="speak t-listen" aria-label="استمع إلى النصّ كاملاً">'+ICON_SPK+' استمع إلى النصّ كاملاً</button>'+
+    '</div>'+
+    '<p class="t-en" dir="ltr">'+t.en+'</p>'+
+    '<div class="t-keys">'+keys+'</div>'+
+    '<button type="button" class="t-toggle">▾ اعرض الترجمة العربية</button>'+
+    '<div class="t-ar" hidden><span class="lbl">الترجمة العربية</span>'+t.ar+'</div>'+
+    '<button type="button" class="know">'+(state.known[t.id] ? "↺ أعِدهُ للمراجعة" : "✓ قرأتُه وفهمتُه")+'</button>';
+
+  const listen = el.querySelector(".t-listen");
+  listen.addEventListener("click", () => {
+    if(listen.classList.contains("on")){
+      try{ speechSynthesis.cancel(); }catch(e){}
+      listen.classList.remove("on");
+      return;                                   /* الضغطة الثانية توقف القراءة */
+    }
+    speak(t.en, listen);
+  });
+
+  const tg = el.querySelector(".t-toggle"), ar = el.querySelector(".t-ar");
+  tg.addEventListener("click", () => {
+    ar.hidden = !ar.hidden;
+    tg.textContent = ar.hidden ? "▾ اعرض الترجمة العربية" : "▴ أخفِ الترجمة العربية";
+  });
+
+  el.querySelector(".know").addEventListener("click", () => toggleKnown(t, el));
+  return el;
+}
+
+function renderTexts(){
+  const shown = textsOf(state.level).filter(t => state.showKnown || !state.known[t.id]);
+  elTexts.innerHTML = "";
+  shown.forEach((t,i) => elTexts.appendChild(buildText(t,i)));
+  $("toggleKnown").textContent = state.showKnown ? "إخفاء المُتقَنة" : "إظهار المُتقَنة";
+
+  if(shown.length){ elEmpty.hidden = true; return; }
+  elEmpty.hidden = false;
+  elEmpty.innerHTML =
+    '<div class="ico">📚</div><h3>أنهيتَ كلّ نصوص هذه المرحلة</h3>'+
+    '<p>أتقنتَ النصوص القرائية الأربعة. عُد إلى البطاقات، أو أظهِر النصوص لإعادة قراءتها.</p>'+
+    '<button class="btn" onclick="document.getElementById(\'toggleKnown\').click()">إظهار النصوص المُتقَنة</button>';
+}
+
+function renderView(){
+  try{ speechSynthesis.cancel(); }catch(e){}
+  renderViews();
+  if(state.view === "cards") renderGrid(); else renderTexts();
+}
+
+function renderAll(){ renderLevels(); renderProgress(); renderChips(); renderView(); }
+
+/* ============================================================
+   ٥) التنبيهات والأزرار العامّة
+   ============================================================ */
+let toastTimer = null;
+function toast(msg, warn){
+  let t = document.querySelector(".toast");
+  if(t) t.remove();
+  t = document.createElement("div");
+  t.className = "toast" + (warn ? " warn":"");
+  t.setAttribute("role","status");
+  t.textContent = msg;
+  document.body.appendChild(t);
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.remove(), 3600);
+}
+
+elViews.querySelectorAll(".view-btn").forEach(b => {
+  b.addEventListener("click", () => { state.view = b.dataset.view; save(); renderView(); });
+});
+
+$("toggleKnown").addEventListener("click", () => { state.showKnown = !state.showKnown; renderView(); });
+
+$("resetLevel").addEventListener("click", () => {
+  if(!confirm("سيُمحى تقدّمك في مستوى " + state.level + " بالكامل (البطاقات والنصوص). هل تريد المتابعة؟")) return;
+  itemsOf(state.level).forEach(x => { delete state.known[x.id]; });
+  if(state.level === "B1"){
+    state.celebrated = false;
+    if(!isUnlocked("B2")) state.level = "B1";   /* إعادة القفل على المرحلة الثانية */
+  }
+  save(); renderAll();
+  toast("تمّ تصفير المرحلة. بالتوفيق من جديد!");
+});
+
+$("goNext").addEventListener("click", () => { $("modal").hidden = true; selectLevel("B2"); });
+$("stayHere").addEventListener("click", () => { $("modal").hidden = true; });
+$("modal").addEventListener("click", e => { if(e.target === $("modal")) $("modal").hidden = true; });
+document.addEventListener("keydown", e => { if(e.key === "Escape") $("modal").hidden = true; });
+
+/* ============================================================
+   ٦) الإقلاع
+   ============================================================ */
+load();
+renderAll();
+if(!speechOK) console.warn("Web Speech API غير مدعوم في هذا المتصفّح.");
+</script>
+</body>
+</html>
