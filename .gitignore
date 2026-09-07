@@ -1,0 +1,24 @@
+# ملفات نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# المحررات
+.vscode/
+.idea/
+*.swp
+*~
+
+# ملفات مؤقتة ومخرجات
+*.log
+tmp/
+node_modules/
+__pycache__/
+.venv/
+
+# أسرار وبيئة محلية — لا تُرفع أبداً
+.env
+.env.*
+!.env.example
+
+# إعدادات Claude Code المحلية (خاصة بكل جهاز)
+.claude/settings.local.json
