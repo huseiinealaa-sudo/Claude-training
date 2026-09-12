@@ -185,13 +185,24 @@ function route() {
   window.scrollTo(0, 0);
   try { speechSynthesis.cancel(); } catch (e) {}
   if (!p.length) return viewHome();
-  if (p[0] === "unit" && p[1] && p[2] != null) return viewLesson(p[1], +p[2]);
-  if (p[0] === "unit" && p[1]) return viewUnit(p[1]);
+  if (p[0] === "unit" && p[1]) return guard(p[1], () =>
+    p[2] != null ? viewLesson(p[1], +p[2]) : viewUnit(p[1]));
   if (p[0] === "review") return viewReview();
   if (p[0] === "errors") return viewErrors();
   viewHome();
 }
 window.addEventListener("hashchange", route);
+
+/* القفل يجب أن يُطبَّق هنا أيضاً، لا على البطاقة وحدها:
+   من يكتب ‎#/unit/unit-20‎ في شريط العنوان يتخطّى بطاقةً مقفلة. */
+async function guard(uid, show) {
+  if (!COURSE) { try { COURSE = await get("course"); } catch (e) { return show(); } }
+  const u = COURSE.units.find(x => x.id === uid);
+  const lock = u && unitLock(u);
+  if (!lock) return show();
+  go("#/");
+  setTimeout(() => toast(lock, 1), 260);
+}
 
 function topbar(title, sub, backTo) {
   bar.innerHTML = "";
@@ -210,6 +221,23 @@ function topbar(title, sub, backTo) {
 /* ============================================================
    ٧) الشاشة الرئيسة
    ============================================================ */
+/* ------------------------------------------------------------------
+   قفل التسلسل: الوحدة لا تُفتح إلّا باجتياز اختبار الوحدة التي قبلها.
+   تُستثنى المثبّتة (الصوتيّات وبنك المراجعة) لأنّها مرجعٌ لا تسلسل.
+   تُعيد null إن كانت مفتوحة، أو رسالةً تشرح المطلوب بالضبط.
+------------------------------------------------------------------ */
+function unitLock(u) {
+  if (!COURSE || u.pinned || u.n <= 1) return null;
+  const prev = COURSE.units.find(x => x.n === u.n - 1);
+  if (!prev || prev.status !== "ready") return null;
+  const t = S.tests[prev.id];
+  if (t && t.passed) return null;
+  const nm = n2(prev.n) + ". " + prev.title;
+  return t
+    ? "اجتز اختبار «" + nm + "» — نتيجتك " + n2(Math.round(t.score * 100)) + "٪ وتحتاج ٨٠٪."
+    : "أنجِز وحدة «" + nm + "» واجتز اختبارها أوّلاً.";
+}
+
 function unitPct(u, data) {
   if (!data) return null;
   const tot = data.days.length;
@@ -264,15 +292,20 @@ async function viewHome() {
     const list = el("div", "units");
     COURSE.units.filter(u => u.level === lv.id).forEach(u => {
       const soon = u.status !== "ready";
-      const b = el("button", "unit" + (soon ? " soon" : "") + (u.pinned ? " pin" : ""));
+      const lock = soon ? null : unitLock(u);
+      /* الرسالة المفصّلة تظهر على الوحدة التالية مباشرةً فقط — فهي الخطوة
+         الوحيدة الممكنة. وتكرارها على البقيّة يُطيل الصفحة بلا فائدة. */
+      const next = lock && (() => { const pv = COURSE.units.find(x => x.n === u.n - 1); return pv && !unitLock(pv); })();
+      const b = el("button", "unit" + (soon ? " soon" : "") + (lock ? " locked" : "") + (next ? " next" : "") + (u.pinned ? " pin" : ""));
       b.type = "button";
-      b.appendChild(el("span", "ico", u.icon));
-      b.appendChild(el("span", "m", "<b>" + (u.n > 0 ? n2(u.n) + ". " : "") + u.title + "</b><span>" + u.grammar + "</span>"));
+      b.appendChild(el("span", "ico", lock ? "🔒" : u.icon));
+      b.appendChild(el("span", "m", "<b>" + (u.n > 0 ? n2(u.n) + ". " : "") + u.title + "</b><span>" + (next ? lock : u.grammar) + "</span>"));
       const pct = cache[u.id] ? unitPct(u, cache[u.id]) : null;
-      b.appendChild(el("span", "pct", soon ? "قريباً" : (pct === 100 ? "✓" : pct != null ? n2(pct) + "٪" : "ابدأ")));
-      if (pct === 100) b.classList.add("done");
-      if (!soon) b.addEventListener("click", () => go("#/unit/" + u.id));
-      else b.addEventListener("click", () => toast("هذه الوحدة قيد الإعداد — سأضيفها قريباً.", 1));
+      b.appendChild(el("span", "pct", soon ? "قريباً" : lock ? "🔒" : (pct === 100 ? "✓" : pct != null ? n2(pct) + "٪" : "ابدأ")));
+      if (pct === 100 && !lock) b.classList.add("done");
+      if (soon) b.addEventListener("click", () => toast("هذه الوحدة قيد الإعداد — سأضيفها قريباً.", 1));
+      else if (lock) b.addEventListener("click", () => toast(lock, 1));
+      else b.addEventListener("click", () => go("#/unit/" + u.id));
       list.appendChild(b);
     });
     w.appendChild(list);
