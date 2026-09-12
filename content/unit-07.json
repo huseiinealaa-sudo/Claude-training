@@ -1,375 +1,1346 @@
 {
-  "id": "unit-07",
-  "icon": "✈️",
-  "title": "السفر والاتّجاهات",
-  "subtitle": "أن تتنقّل وتسأل وتتدبّر أمرك",
-  "intro": "حروف الجرّ أكثر ما يفضح المتعلّم، لأنّها لا تُترجَم بل تُحفَظ في سياقها. وهذه الوحدة تبنيها من خلال السفر — أكثر المواقف احتياجاً إليها — ومعها كمّيّات المعدود وغير المعدود.",
-  "goals": [
-    "أستعمل حروف الجرّ المكانيّة والزمانيّة بدقّة",
-    "أسأل عن الطريق وأفهم الإجابة",
-    "أميّز المعدود من غير المعدود وأستعمل كمّيّاته",
-    "أتدبّر أمري في مطارٍ وفندقٍ ومطعم"
-  ],
-  "days": [
+ "id": "unit-07",
+ "icon": "✈️",
+ "title": "السفر والاتّجاهات",
+ "subtitle": "أن تتنقّل وتسأل وتتدبّر أمرك",
+ "intro": "حروف الجرّ أكثر ما يفضح المتعلّم، لأنّها لا تُترجَم بل تُحفَظ في سياقها. وهذه الوحدة تبنيها من خلال السفر — أكثر المواقف احتياجاً إليها — ومعها كمّيّات المعدود وغير المعدود.",
+ "goals": [
+  "أستعمل حروف الجرّ المكانيّة والزمانيّة بدقّة",
+  "أسأل عن الطريق وأفهم الإجابة",
+  "أميّز المعدود من غير المعدود وأستعمل كمّيّاته",
+  "أتدبّر أمري في مطارٍ وفندقٍ ومطعم"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "حروف الجرّ وكمّيّات المعدود",
+   "subtitle": "ما لا يُترجَم بل يُحفَظ",
+   "blocks": [
     {
-      "n": 1,
-      "type": "grammar",
-      "title": "حروف الجرّ وكمّيّات المعدود",
-      "subtitle": "ما لا يُترجَم بل يُحفَظ",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "الثلاثة الكبار: in · on · at",
-          "html": "<b>للمكان — من الأوسع إلى الأضيق:</b><br><table><tr><td dir=ltr><b>in</b></td><td>داخل حيّز: <code dir=ltr>in Cairo · in a car · in the room</code></td></tr><tr><td dir=ltr><b>on</b></td><td>على سطح: <code dir=ltr>on the table · on a bus · on the wall</code></td></tr><tr><td dir=ltr><b>at</b></td><td>نقطة محدّدة: <code dir=ltr>at the station · at the door · at home</code></td></tr></table><br>⚠️ مفارقة يخطئ فيها الجميع:<br><code dir=ltr><b>in</b> a car / taxi</code> لكن <code dir=ltr><b>on</b> a bus / train / plane</code><br>السبب: ما تستطيع المشي داخله ← on."
-        },
-        {
-          "type": "note",
-          "title": "الثلاثة أنفسهم — للزمان",
-          "html": "<table><tr><td dir=ltr><b>in</b></td><td>شهور · سنوات · فصول · أجزاء اليوم: <code dir=ltr>in May · in 2020 · in the morning</code></td></tr><tr><td dir=ltr><b>on</b></td><td>أيّام وتواريخ: <code dir=ltr>on Monday · on 3 June · on my birthday</code></td></tr><tr><td dir=ltr><b>at</b></td><td>ساعات ولحظات: <code dir=ltr>at 7 p.m. · at night · at the weekend</code></td></tr></table><br>⚠️ استثناءات تُحفَظ: <code dir=ltr><b>at</b> night</code> (لا in) · <code dir=ltr><b>on</b> Monday morning</code> (اليوم يغلب)"
-        },
-        {
-          "type": "note",
-          "title": "حروف الحركة",
-          "html": "<code dir=ltr><b>to</b></code> ← اتّجاه: <code dir=ltr>I'm going <b>to</b> the airport.</code><br>⚠️ ولا تُستعمل مع home: <code dir=ltr>go home</code> ❌ <code dir=ltr>go to home</code><br><br><code dir=ltr><b>into / out of</b></code> ← دخول وخروج<br><code dir=ltr><b>onto / off</b></code> ← صعود ونزول<br><code dir=ltr><b>through</b></code> ← عبر · <code dir=ltr><b>across</b></code> ← من جانبٍ إلى جانب<br><code dir=ltr><b>along</b></code> ← بمحاذاة · <code dir=ltr><b>past</b></code> ← يتجاوز"
-        },
-        {
-          "type": "note",
-          "title": "المعدود وغير المعدود",
-          "html": "<b>غير معدود</b> (لا جمع، ولا a/an): <code dir=ltr>money · advice · information · luggage · furniture · traffic · news · bread · water</code><br><br>⚠️ أخطاء عربيّة شائعة — كلّها غير معدودة بالإنجليزية:<br>❌ <code dir=ltr>an advice · informations · luggages · furnitures</code><br>✅ <code dir=ltr>some advice · a piece of advice · a lot of information</code><br><br><b>الكمّيّات:</b><table><tr><td>مع المعدود</td><td dir=ltr>many · a few · few · a number of</td></tr><tr><td>مع غير المعدود</td><td dir=ltr>much · a little · little · a great deal of</td></tr><tr><td>مع الاثنين</td><td dir=ltr>a lot of · plenty of · some · any · no</td></tr></table><br>💡 <code dir=ltr>a few</code> = قليلٌ لكنّه كافٍ · <code dir=ltr>few</code> = قليلٌ جدّاً (سلبيّة)"
-        },
-        {
-          "type": "examples",
-          "title": "اسمع الفرق",
-          "rows": [
-            { "en": "We arrived <b>at</b> the airport <b>at</b> six.", "ar": "وصلنا المطار في السادسة." },
-            { "en": "I'll be <b>in</b> Amman <b>in</b> July.", "ar": "سأكون في عمّان في تمّوز." },
-            { "en": "We're <b>on</b> the train, arriving <b>on</b> Monday.", "ar": "نحن في القطار، ونصل يوم الاثنين." },
-            { "en": "Walk <b>along</b> this street and <b>past</b> the bank.", "ar": "امشِ بمحاذاة هذا الشارع وتجاوز المصرف." },
-            { "en": "I need <b>some advice</b>, not <b>much money</b>.", "ar": "أحتاج نصيحةً لا مالاً كثيراً." },
-            { "en": "There were <b>a few</b> people and <b>very little</b> traffic.", "ar": "كان ثمّة قلّةٌ من الناس وزحامٌ ضئيل جدّاً." }
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "حروف الجرّ تُختزل إلى شوا فتكاد تختفي",
-          "rows": [
-            { "w": "at the station", "s": "ut the station", "ar": "at تصير «إت» مختلسة" },
-            { "w": "a lot of people", "s": "a lodda people", "ar": "الكثير من الناس" },
-            { "w": "Where are you going to?", "s": "Where ya goin ta?", "ar": "إلى أين تذهب؟" },
-            { "w": "out of the car", "s": "oudda the car", "ar": "خارج السيّارة" }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "تمارين",
-          "qs": [
-            { "t": "mcq", "q": "<code dir=ltr>I'll meet you ___ the station ___ 8 p.m.</code>", "opts": ["in / on", "at / at", "on / in", "at / in"], "a": 1, "why": "نقطة محدّدة + ساعة ← at في الاثنين." },
-            { "t": "mcq", "q": "<code dir=ltr>We travelled ___ the train ___ Tuesday.</code>", "opts": ["in / in", "on / on", "at / on", "on / at"], "a": 1, "why": "القطار يُمشى فيه ← on، واليوم ← on." },
-            { "t": "mcq", "q": "<code dir=ltr>She was born ___ 1998 ___ March.</code>", "opts": ["on / in", "in / in", "at / on", "in / on"], "a": 1, "why": "السنة والشهر كلاهما ← in." },
-            { "t": "mcq", "q": "<code dir=ltr>Can you give me ___ ?</code>", "opts": ["an advice", "some advice", "advices", "a few advice"], "a": 1, "why": "advice غير معدودة ← some advice." },
-            { "t": "mcq", "q": "<code dir=ltr>There isn't ___ traffic today.</code>", "opts": ["many", "a few", "much", "several"], "a": 2, "why": "traffic غير معدودة ← much." },
-            { "t": "gap", "q": "<code dir=ltr>I'm going ___ home now.</code>", "a": ["", "home"], "why": "لا حرف جرّ قبل home — تُقال go home." },
-            { "t": "gap", "q": "<code dir=ltr>We have ___ (a little / a few) time left.</code>", "a": ["a little"], "why": "time غير معدودة ← a little." },
-            { "t": "gap", "q": "<code dir=ltr>Walk ___ the bridge and turn left.</code>", "a": ["across", "over"], "why": "العبور من جانبٍ إلى جانب ← across / over." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>I have many informations.</code>", "a": ["I have a lot of information", "I have much information", "I have a lot of information."], "why": "information غير معدودة ولا تُجمع." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>He is going to home.</code>", "a": ["He is going home", "He's going home", "He is going home."], "why": "لا to قبل home." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>We stayed in the bus for two hours.</code>", "a": ["We stayed on the bus for two hours", "We stayed on the bus for two hours."], "why": "الحافلة يُمشى فيها ← on." },
-            { "t": "order", "q": "رتّب:", "ws": ["Go", "along", "this", "road", "past", "the", "bank"], "a": "Go along this road past the bank", "why": "بمحاذاة ثمّ تجاوُز." }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "الثلاثة الكبار: in · on · at",
+     "html": "<b>للمكان — من الأوسع إلى الأضيق:</b><br><table><tr><td dir=ltr><b>in</b></td><td>داخل حيّز: <code dir=ltr>in Cairo · in a car · in the room</code></td></tr><tr><td dir=ltr><b>on</b></td><td>على سطح: <code dir=ltr>on the table · on a bus · on the wall</code></td></tr><tr><td dir=ltr><b>at</b></td><td>نقطة محدّدة: <code dir=ltr>at the station · at the door · at home</code></td></tr></table><br>⚠️ مفارقة يخطئ فيها الجميع:<br><code dir=ltr><b>in</b> a car / taxi</code> لكن <code dir=ltr><b>on</b> a bus / train / plane</code><br>السبب: ما تستطيع المشي داخله ← on."
     },
     {
-      "n": 2,
-      "type": "vocab",
-      "title": "مفردات: السفر والتنقّل",
-      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
-      "blocks": [
-        {
-          "type": "vocab",
-          "title": "المطار والرحلة",
-          "items": [
-            { "w": "check in", "pos": "phrasal verb", "ar": "يسجّل الوصول / الدخول", "ex": [{ "en": "You can <b>check in</b> online 24 hours before.", "ar": "يمكنك تسجيل الدخول إلكترونيّاً قبل ٢٤ ساعة." }] },
-            { "w": "board", "pos": "verb", "ar": "يصعد إلى الطائرة", "ex": [{ "en": "We <b>board</b> at gate twelve.", "ar": "نصعد من البوّابة الثانية عشرة." }] },
-            { "w": "take off", "pos": "phrasal verb", "ar": "تُقلع الطائرة", "ex": [{ "en": "The plane <b>took off</b> an hour late.", "ar": "أقلعت الطائرة متأخّرةً ساعة." }] },
-            { "w": "land", "pos": "verb", "ar": "تهبط", "ex": [{ "en": "We <b>land</b> at half past four.", "ar": "نهبط في الرابعة والنصف." }] },
-            { "w": "delay", "pos": "noun / verb", "ar": "تأخير / يؤخّر", "ex": [{ "en": "There's a two-hour <b>delay</b>.", "ar": "ثمّة تأخيرٌ ساعتان." }] },
-            { "w": "layover", "pos": "noun", "ar": "توقّف بين رحلتين", "ex": [{ "en": "We have a short <b>layover</b> in Istanbul.", "ar": "لدينا توقّفٌ قصير في إسطنبول." }] },
-            { "w": "luggage", "pos": "noun (غير معدود)", "ar": "أمتعة", "ex": [{ "en": "I only have hand <b>luggage</b>.", "ar": "ليس معي إلّا حقيبة يد." }] },
-            { "w": "book", "pos": "verb", "ar": "يحجز", "ex": [{ "en": "I <b>booked</b> the flight in advance.", "ar": "حجزتُ الرحلة مسبقاً." }] }
-          ]
-        },
-        {
-          "type": "vocab",
-          "title": "الطريق والاتّجاهات",
-          "items": [
-            { "w": "head for", "pos": "phrasal verb", "ar": "يتّجه نحو", "ex": [{ "en": "<b>Head for</b> the roundabout, then turn right.", "ar": "اتّجه نحو الدوّار ثمّ انعطف يميناً." }] },
-            { "w": "go straight on", "pos": "expression", "ar": "امضِ قُدُماً", "ex": [{ "en": "<b>Go straight on</b> for two blocks.", "ar": "امضِ قُدُماً مسافة مبنيَين." }] },
-            { "w": "turn left / right", "pos": "expression", "ar": "انعطف يساراً / يميناً", "ex": [{ "en": "<b>Turn left</b> at the lights.", "ar": "انعطف يساراً عند الإشارة." }] },
-            { "w": "get off", "pos": "phrasal verb", "ar": "ينزل من وسيلة نقل", "ex": [{ "en": "<b>Get off</b> at the third stop.", "ar": "انزل عند المحطّة الثالثة." }] },
-            { "w": "give someone a lift", "pos": "expression", "ar": "يوصّل أحداً بسيّارته", "ex": [{ "en": "Can you <b>give me a lift</b> to the station?", "ar": "أيمكنك توصيلي إلى المحطّة؟" }] },
-            { "w": "on foot", "pos": "expression", "ar": "سيراً على الأقدام", "ex": [{ "en": "It's twenty minutes <b>on foot</b>.", "ar": "عشرون دقيقة سيراً." }] },
-            { "w": "get lost", "pos": "expression", "ar": "يضلّ الطريق", "ex": [{ "en": "We <b>got lost</b> twice.", "ar": "ضللنا الطريق مرّتين." }] },
-            { "w": "within walking distance", "pos": "expression", "ar": "على مسافة مشي", "ex": [{ "en": "The hotel is <b>within walking distance</b>.", "ar": "الفندق على مسافة مشي." }] }
-          ]
-        },
-        {
-          "type": "vocab",
-          "title": "الإقامة والتدبير",
-          "items": [
-            { "w": "put up with", "pos": "phrasal verb", "ar": "يتحمّل", "ex": [{ "en": "We had to <b>put up with</b> the noise.", "ar": "اضطُررنا إلى تحمّل الضجيج." }] },
-            { "w": "settle in", "pos": "phrasal verb", "ar": "يستقرّ ويعتاد المكان", "ex": [{ "en": "It took a week to <b>settle in</b>.", "ar": "استغرق الاستقرار أسبوعاً." }] },
-            { "w": "run out of", "pos": "phrasal verb", "ar": "ينفد منه", "ex": [{ "en": "We <b>ran out of</b> cash on day two.", "ar": "نفد منّا النقد في اليوم الثاني." }] },
-            { "w": "sort out", "pos": "phrasal verb", "ar": "يحلّ مشكلةً ويرتّبها", "ex": [{ "en": "The hotel <b>sorted out</b> the problem quickly.", "ar": "حلّ الفندق المشكلة سريعاً." }] },
-            { "w": "off the beaten track", "pos": "idiom", "ar": "بعيد عن المسار السياحيّ", "ar2": "", "ex": [{ "en": "We stayed somewhere <b>off the beaten track</b>.", "ar": "أقمنا في مكانٍ بعيد عن المسار السياحيّ." }] },
-            { "w": "worth a visit", "pos": "expression", "ar": "يستحقّ الزيارة", "ex": [{ "en": "The old city is <b>worth a visit</b>.", "ar": "المدينة القديمة تستحقّ الزيارة." }] },
-            { "w": "rip off", "pos": "phrasal verb / noun", "ar": "يستغلّ سعريّاً / ابتزاز سعريّ", "ex": [{ "en": "That taxi was a total <b>rip-off</b>.", "ar": "تلك الأجرة كانت ابتزازاً تامّاً." }] },
-            { "w": "haggle", "pos": "verb", "ar": "يفاصل في السعر", "ex": [{ "en": "You're expected to <b>haggle</b> in the market.", "ar": "يُتوقّع منك أن تفاصل في السوق." }] },
-            { "w": "make the most of", "pos": "expression", "ar": "يستفيد أقصى استفادة من", "ex": [{ "en": "We <b>made the most of</b> two days.", "ar": "استفدنا أقصى ما يمكن من يومين." }] }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "الثلاثة أنفسهم — للزمان",
+     "html": "<table><tr><td dir=ltr><b>in</b></td><td>شهور · سنوات · فصول · أجزاء اليوم: <code dir=ltr>in May · in 2020 · in the morning</code></td></tr><tr><td dir=ltr><b>on</b></td><td>أيّام وتواريخ: <code dir=ltr>on Monday · on 3 June · on my birthday</code></td></tr><tr><td dir=ltr><b>at</b></td><td>ساعات ولحظات: <code dir=ltr>at 7 p.m. · at night · at the weekend</code></td></tr></table><br>⚠️ استثناءات تُحفَظ: <code dir=ltr><b>at</b> night</code> (لا in) · <code dir=ltr><b>on</b> Monday morning</code> (اليوم يغلب)"
     },
     {
-      "n": 3,
-      "type": "listening",
-      "title": "استماع: في المطار",
-      "subtitle": "حوار + إملاء",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "ترتيب الاستماع",
-          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>ركّز على حروف الجرّ المختلسة — ستكاد لا تسمعها."
-        },
-        {
-          "type": "dialogue",
-          "title": "A Problem at the Airport",
-          "titleAr": "مشكلة في المطار",
-          "lines": [
-            { "sp": "Agent", "en": "Good morning. Can I see your passport, please?", "ar": "صباح الخير. أيمكنني رؤية جواز سفرك من فضلك؟" },
-            { "sp": "Layla", "en": "Here you go. I'm on the ten-forty to Madrid.", "ar": "تفضّلي. أنا على رحلة العاشرة وأربعين إلى مدريد." },
-            { "sp": "Agent", "en": "I'm afraid that flight's been delayed. There's a three-hour delay.", "ar": "أخشى أنّ تلك الرحلة تأخّرت. ثمّة تأخيرٌ ثلاث ساعات." },
-            { "sp": "Layla", "en": "Three hours? I have a connection in Rome.", "ar": "ثلاث ساعات؟ لديّ رحلة متّصلة في روما." },
-            { "sp": "Agent", "en": "Let me check. What time's your layover?", "ar": "دعيني أتحقّق. متى توقّفك؟" },
-            { "sp": "Layla", "en": "It was only ninety minutes to begin with.", "ar": "كان تسعين دقيقة فقط أصلاً." },
-            { "sp": "Agent", "en": "Then you won't make it. I can put you on a later connection.", "ar": "إذن لن تلحقي بها. يمكنني وضعك على رحلةٍ متّصلة لاحقة." },
-            { "sp": "Layla", "en": "Will I still get in on the same day?", "ar": "هل سأصل في اليوم نفسه؟" },
-            { "sp": "Agent", "en": "Yes, at around eleven at night instead of five.", "ar": "نعم، نحو الحادية عشرة ليلاً بدل الخامسة." },
-            { "sp": "Layla", "en": "That's a long day. Is there anything earlier?", "ar": "يومٌ طويل. أثمّة ما هو أبكر؟" },
-            { "sp": "Agent", "en": "There's one through Paris, but you'd have very little time.", "ar": "ثمّة واحدة عبر باريس، لكنّ وقتك سيكون ضيّقاً جدّاً." },
-            { "sp": "Layla", "en": "How little?", "ar": "ضيّق كم؟" },
-            { "sp": "Agent", "en": "Fifty minutes, and you'd have to change terminals.", "ar": "خمسون دقيقة، وسيتعيّن عليك تغيير الصالة." },
-            { "sp": "Layla", "en": "I'll take the later one. I don't want to run through an airport.", "ar": "سآخذ اللاحقة. لا أريد الركض عبر مطار." },
-            { "sp": "Agent", "en": "Sensible. And here's a voucher for lunch.", "ar": "قرارٌ حكيم. وهذه قسيمة غداء." }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "أسئلة الفهم",
-          "qs": [
-            { "t": "mcq", "q": "كم التأخير؟", "opts": ["ساعة", "ساعتان", "ثلاث ساعات", "تسعون دقيقة"], "a": 2, "why": "<code dir=ltr>a three-hour delay</code>." },
-            { "t": "mcq", "q": "لماذا لا تلحق ليلى برحلتها المتّصلة؟", "opts": ["لأنّها ألغيت", "لأنّ توقّفها ٩٠ دقيقة فقط والتأخير ٣ ساعات", "لأنّها غيّرت رأيها", "لأنّ الجواز منتهٍ"], "a": 1, "why": "التأخير يبتلع مدّة التوقّف." },
-            { "t": "mcq", "q": "ما مشكلة الرحلة عبر باريس؟", "opts": ["أغلى", "٥٠ دقيقة فقط مع تغيير صالة", "تصل متأخّرة", "ممتلئة"], "a": 1, "why": "<code dir=ltr>Fifty minutes, and you'd have to change terminals</code>." },
-            { "t": "mcq", "q": "ماذا اختارت ليلى؟", "opts": ["رحلة باريس", "الرحلة اللاحقة", "الإلغاء", "الانتظار للغد"], "a": 1, "why": "<code dir=ltr>I'll take the later one</code>." },
-            { "t": "mcq", "q": "<code dir=ltr>very little time</code> استُعملت لأنّ time…", "opts": ["معدودة", "غير معدودة", "جمع", "مفرد فقط"], "a": 1, "why": "little تصاحب غير المعدود." }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "إملاء — اكتب ما تسمع",
-          "qs": [
-            { "t": "dict", "say": "I'm on the ten-fordy ta Madrid", "a": ["I'm on the ten-forty to Madrid", "I am on the ten forty to Madrid", "im on the ten forty to madrid"], "why": "forty بـ d مرتدّة، وto تُختزل إلى «تَ»." },
-            { "t": "dict", "say": "Thas flight's bin delayed", "a": ["That flight's been delayed", "That flight has been delayed", "thats flight been delayed"], "why": "that's تفقد t، وbeen → «بِن»." },
-            { "t": "dict", "say": "You'd hafta change terminals", "a": ["You'd have to change terminals", "You would have to change terminals", "youd have to change terminals"], "why": "have to → hafta." },
-            { "t": "dict", "say": "Izzere anythin earlier?", "a": ["Is there anything earlier?", "is there anything earlier"], "why": "<code dir=ltr>Is there</code> تلتصق، وسقطت g." }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "حروف الحركة",
+     "html": "<code dir=ltr><b>to</b></code> ← اتّجاه: <code dir=ltr>I'm going <b>to</b> the airport.</code><br>⚠️ ولا تُستعمل مع home: <code dir=ltr>go home</code> ❌ <code dir=ltr>go to home</code><br><br><code dir=ltr><b>into / out of</b></code> ← دخول وخروج<br><code dir=ltr><b>onto / off</b></code> ← صعود ونزول<br><code dir=ltr><b>through</b></code> ← عبر · <code dir=ltr><b>across</b></code> ← من جانبٍ إلى جانب<br><code dir=ltr><b>along</b></code> ← بمحاذاة · <code dir=ltr><b>past</b></code> ← يتجاوز"
     },
     {
-      "n": 4,
-      "type": "reading",
-      "title": "قراءة: السياحة التي تأكل نفسها",
-      "subtitle": "نصّ + استنتاج المعنى من السياق",
-      "blocks": [
-        {
-          "type": "reading",
-          "title": "The Tourism That Eats Itself",
-          "titleAr": "السياحة التي تأكل نفسها",
-          "en": "Barcelona receives more than thirty million visitors a year in a city of roughly one and a half million residents. Venice, on a busy summer day, holds more tourists than Venetians. Locals in both cities have started to describe a strange reversal: the thing that people travel to see is being destroyed by the number of people travelling to see it.<br><br>The mechanism is simple enough. Rising visitor numbers push up rents, so long-term residents leave. Bakeries and hardware shops become souvenir stalls, because souvenirs pay better. Within a decade the neighbourhood that attracted visitors because it felt authentic has become a place where nobody actually lives — and it stops feeling authentic. Economists call this a tragedy of the commons; residents call it losing their home.<br><br>None of this means you should stop travelling. It means the <i>way</i> you travel matters more than it used to. Visiting <b>off the beaten track</b>, going outside peak season, staying in locally owned places, spending in ordinary shops rather than the ones on the main square — these are small decisions, but they send money to the people who live there instead of the companies that extract from there. A city with <b>a few</b> thoughtful visitors is healthier than one with a great deal of careless ones.",
-          "ar": "تستقبل برشلونة أكثر من ثلاثين مليون زائرٍ سنويّاً في مدينةٍ سكّانها نحو مليون ونصف. أمّا البندقيّة ففي يومٍ صيفيّ مزدحم تحوي من السيّاح أكثر ممّا تحوي من أهلها. وقد بدأ أهل المدينتين يصفون انقلاباً غريباً: أنّ ما يسافر الناس ليروه يُدمَّر بعدد المسافرين لرؤيته.<br><br>والآليّة بسيطة بما فيه الكفاية. فارتفاع أعداد الزوّار يرفع الإيجارات، فيرحل المقيمون الدائمون. وتتحوّل المخابز ومحالّ الأدوات إلى أكشاك تذكارات، لأنّ التذكارات أربح. وخلال عقدٍ واحد يصير الحيّ الذي اجتذب الزوّار لأنّه بدا أصيلاً مكاناً لا يعيش فيه أحد فعلاً — فيكفّ عن أن يبدو أصيلاً. ويسمّي الاقتصاديّون هذا «مأساة المشاعات»، ويسمّيه الأهالي فقدان بيوتهم.<br><br>ولا يعني هذا شيئاً من أن تكفّ عن السفر، بل يعني أنّ <i>طريقة</i> سفرك صارت أهمّ ممّا كانت. فالزيارة بعيداً عن المسار السياحيّ، والسفر خارج الموسم، والإقامة في أماكن يملكها أهل البلد، والإنفاق في المتاجر العاديّة لا في تلك التي على الساحة الرئيسة — هذه قراراتٌ صغيرة، لكنّها ترسل المال إلى من يعيشون هناك بدل الشركات التي تستخرج من هناك. فمدينةٌ فيها قلّةٌ من الزوّار المتبصّرين أصحّ من مدينةٍ فيها كثرةٌ من غير المبالين.",
-          "keys": [["reversal", "انقلاب"], ["authentic", "أصيل"], ["off the beaten track", "بعيداً عن المسار السياحيّ"], ["peak season", "ذروة الموسم"], ["a few", "قلّة"]]
-        },
-        {
-          "type": "quiz",
-          "title": "أسئلة الفهم",
-          "qs": [
-            { "t": "mcq", "q": "ما «الانقلاب الغريب» الذي يصفه الأهالي؟", "opts": ["ارتفاع الأسعار فقط", "أنّ ما يُسافر لرؤيته يُدمَّر بكثرة القادمين لرؤيته", "قلّة السيّاح", "تغيّر الطقس"], "a": 1, "why": "خلاصة الفقرة الأولى." },
-            { "t": "mcq", "q": "لماذا تتحوّل المخابز إلى أكشاك تذكارات؟", "opts": ["لأنّ الخبز ممنوع", "لأنّ التذكارات أربح", "لأنّ الأهالي رحلوا", "بقرارٍ حكوميّ"], "a": 1, "why": "<code dir=ltr>because souvenirs pay better</code>." },
-            { "t": "mcq", "q": "ما النتيجة النهائيّة لهذه الدورة؟", "opts": ["الحيّ يزدهر", "الحيّ يفقد أصالته التي جذبت الزوّار أصلاً", "الإيجارات تنخفض", "السيّاح ينقرضون"], "a": 1, "why": "<code dir=ltr>it stops feeling authentic</code>." },
-            { "t": "mcq", "q": "ما نصيحة الكاتب؟", "opts": ["التوقّف عن السفر", "تغيير طريقة السفر لا التوقّف عنه", "السفر في الذروة", "الإقامة في الفنادق الكبرى"], "a": 1, "why": "<code dir=ltr>the way you travel matters</code>." },
-            { "t": "mcq", "q": "<code dir=ltr>extract from</code> في السياق تعني…", "opts": ["تستثمر في", "تستخرج منه دون أن تردّ", "تنظّم", "تحمي"], "a": 1, "why": "تقابل <code dir=ltr>the people who live there</code>." },
-            { "t": "mcq", "q": "لماذا استُعملت <code dir=ltr>a few</code> لا <code dir=ltr>few</code> في الجملة الأخيرة؟", "opts": ["لأنّها سلبيّة", "لأنّها إيجابيّة: قلّةٌ لكنّها كافية ونافعة", "لأنّها مع غير معدود", "لا فرق بينهما"], "a": 1, "why": "a few إيجابيّة، وfew سلبيّة." }
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "أسئلة الطريق كما تُنطق",
-          "rows": [
-            { "w": "How do I get to the station?", "s": "How d'I ged ta the station?", "ar": "كيف أصل إلى المحطّة؟" },
-            { "w": "It is a bit further down", "s": "It's a bid further down", "ar": "إنّها أبعد قليلاً" },
-            { "w": "You cannot miss it", "s": "Ya can't miss it", "ar": "لن تخطئه" }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "المعدود وغير المعدود",
+     "html": "<b>غير معدود</b> (لا جمع، ولا a/an): <code dir=ltr>money · advice · information · luggage · furniture · traffic · news · bread · water</code><br><br>⚠️ أخطاء عربيّة شائعة — كلّها غير معدودة بالإنجليزية:<br>❌ <code dir=ltr>an advice · informations · luggages · furnitures</code><br>✅ <code dir=ltr>some advice · a piece of advice · a lot of information</code><br><br><b>الكمّيّات:</b><table><tr><td>مع المعدود</td><td dir=ltr>many · a few · few · a number of</td></tr><tr><td>مع غير المعدود</td><td dir=ltr>much · a little · little · a great deal of</td></tr><tr><td>مع الاثنين</td><td dir=ltr>a lot of · plenty of · some · any · no</td></tr></table><br>💡 <code dir=ltr>a few</code> = قليلٌ لكنّه كافٍ · <code dir=ltr>few</code> = قليلٌ جدّاً (سلبيّة)"
     },
     {
-      "n": 5,
-      "type": "function",
-      "title": "لغة وظيفيّة ونطق",
-      "subtitle": "أن تسأل عن الطريق وتتدبّر مشكلة",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "السؤال عن الطريق",
-          "html": "<b>ابدأ بمقدّمة مهذّبة دائماً:</b><br>• <code dir=ltr>Excuse me, could you tell me how to get to …?</code><br>• <code dir=ltr>Sorry to bother you — is this the right way to …?</code><br>• <code dir=ltr>Do you know if there's a pharmacy near here?</code><br><br><b>وحين لا تفهم الإجابة:</b><br>• <code dir=ltr>Sorry, could you say that again more slowly?</code><br>• <code dir=ltr>So, left at the lights, then straight on — is that right?</code><br><br>💡 إعادة الصياغة للتأكيد حيلةٌ ذهبيّة: تؤكّد فهمك وتمنحك وقتاً."
-        },
-        {
-          "type": "note",
-          "title": "الشكوى بلباقة",
-          "html": "الشكوى المباشرة تُغلق الأبواب. خفّفها بهذه القوالب:<br><br>• <code dir=ltr>I'm afraid there's a problem with …</code><br>• <code dir=ltr>Sorry, but the room isn't quite what we booked.</code><br>• <code dir=ltr>Would it be possible to move us?</code><br>• <code dir=ltr>I'd appreciate it if you could sort this out.</code><br><br>⚠️ تجنّب <code dir=ltr>This is bad! I want another room!</code> — فجّة وغير مجدية."
-        },
-        {
-          "type": "note",
-          "title": "لا تقل هذا",
-          "html": "❌ <code dir=ltr>Where is the bus stop?</code> (بلا مقدّمة) ✅ <code dir=ltr>Excuse me, where's the bus stop?</code><br>❌ <code dir=ltr>I want to go to airport.</code> ✅ <code dir=ltr>I need to get <b>to the</b> airport.</code><br>❌ <code dir=ltr>I have two luggages.</code> ✅ <code dir=ltr>I have two <b>bags</b> / two <b>pieces of luggage</b>.</code><br>❌ <code dir=ltr>How much time to arrive?</code> ✅ <code dir=ltr>How long does it take?</code>"
-        },
-        {
-          "type": "pron",
-          "title": "نطق: أسماء تُخدع فيها",
-          "hint": "الكتابة لا تدلّك على النطق",
-          "rows": [
-            { "w": "Europe", "s": "YOO-rup", "ar": "لا «يوروب»" },
-            { "w": "island", "s": "EYE-lund", "ar": "الـ s صامتة" },
-            { "w": "tourist", "s": "TOOR-ist", "ar": "النبر على الأوّل" },
-            { "w": "comfortable", "s": "KUMF-ter-bul", "ar": "ثلاثة مقاطع" },
-            { "w": "vehicle", "s": "VEE-ih-kul", "ar": "الـ h صامتة" }
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "عبارات السفر في الكلام السريع",
-          "rows": [
-            { "w": "Could you tell me how to get there?", "s": "Couldja tell me how ta ged there?", "ar": "أيمكنك إخباري كيف أصل؟" },
-            { "w": "It is just around the corner", "s": "It's jus around the corner", "ar": "إنّه خلف الزاوية" },
-            { "w": "Is there a problem?", "s": "Izzere a problem?", "ar": "أثمّة مشكلة؟" }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "تمارين",
-          "qs": [
-            { "t": "correct", "q": "صحّح: <code dir=ltr>I have three luggages.</code>", "a": ["I have three bags", "I have three pieces of luggage", "I have three bags."], "why": "luggage غير معدودة." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>How much time to arrive?</code>", "a": ["How long does it take?", "How long does it take", "how long does it take"], "why": "الصيغة الطبيعيّة للسؤال عن المدّة." },
-            { "t": "mcq", "q": "لم تفهم الاتّجاهات. ما الأذكى؟", "opts": ["Repeat!", "أن تعيد صياغة ما فهمته للتأكيد", "أن تصمت وتمشي", "أن تسأل شخصاً آخر فوراً"], "a": 1, "why": "إعادة الصياغة تؤكّد الفهم وتمنحك وقتاً." },
-            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>island</code>؟", "opts": ["إيزلاند", "آيلاند بـ s صامتة", "إسلاند", "آيسلاند"], "a": 1, "why": "الـ s لا تُنطق." },
-            { "t": "mcq", "q": "أيّ صيغةِ شكوى أنسب في فندق؟", "opts": ["This room is terrible!", "I'm afraid there's a problem with the room.", "Change my room now.", "Your hotel is bad."], "a": 1, "why": "التخفيف يفتح باب الحلّ." },
-            { "t": "order", "q": "رتّب:", "ws": ["Excuse", "me", "could", "you", "tell", "me", "the", "way"], "a": "Excuse me could you tell me the way", "why": "قالب السؤال المهذّب." }
-          ]
-        }
-      ]
+     "type": "examples",
+     "title": "اسمع الفرق",
+     "rows": [
+      {
+       "en": "We arrived <b>at</b> the airport <b>at</b> six.",
+       "ar": "وصلنا المطار في السادسة."
+      },
+      {
+       "en": "I'll be <b>in</b> Amman <b>in</b> July.",
+       "ar": "سأكون في عمّان في تمّوز."
+      },
+      {
+       "en": "We're <b>on</b> the train, arriving <b>on</b> Monday.",
+       "ar": "نحن في القطار، ونصل يوم الاثنين."
+      },
+      {
+       "en": "Walk <b>along</b> this street and <b>past</b> the bank.",
+       "ar": "امشِ بمحاذاة هذا الشارع وتجاوز المصرف."
+      },
+      {
+       "en": "I need <b>some advice</b>, not <b>much money</b>.",
+       "ar": "أحتاج نصيحةً لا مالاً كثيراً."
+      },
+      {
+       "en": "There were <b>a few</b> people and <b>very little</b> traffic.",
+       "ar": "كان ثمّة قلّةٌ من الناس وزحامٌ ضئيل جدّاً."
+      }
+     ]
     },
     {
-      "n": 6,
-      "type": "writing",
-      "title": "كتابة: رسالة من رحلة",
-      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
-      "blocks": [
-        {
-          "type": "writing",
-          "title": "المهمّة",
-          "prompt": "أنت في رحلةٍ منذ ثلاثة أيّام. اكتب رسالةً لصديق في <b>٩٠–١١٠ كلمة</b> تتضمّن:<br><br>• أين أنت وكيف وصلت (حروف جرّ صحيحة)<br>• مشكلةً واجهتك وكيف تدبّرتها<br>• شيئاً يستحقّ الزيارة ونصيحةً<br>• كمّيّةً مع معدود وأخرى مع غير معدود<br>• دعوةً أو سؤالاً في الختام",
-          "phrases": [
-            "I've been in … since …",
-            "We flew into … and then took a train to …",
-            "We had a bit of a problem with …, but we sorted it out.",
-            "There isn't much …, but there are a few …",
-            "The old town is definitely worth a visit.",
-            "If you ever come here, make sure you …",
-            "Anyway, how are things with you?"
-          ],
-          "model": "Hi Nour,\n\nI've been in Lisbon since Tuesday. We flew into Porto and then took a train down the coast, which was far nicer than flying. There was a three-hour delay at the airport, and we nearly missed our connection, but the staff sorted it out and gave us a voucher.\n\nThe old town is definitely worth a visit, though it gets very crowded at the weekend. There isn't much traffic in the centre, but there are a few steep hills — bring comfortable shoes.\n\nIf you ever come here, make sure you go off the beaten track. Anyway, how are things with you?\n\nOmar",
-          "modelAr": "مرحباً نور،\n\nأنا في لشبونة منذ الثلاثاء. طرنا إلى بورتو ثمّ أخذنا قطاراً بمحاذاة الساحل، وكان ذلك أجمل بكثير من الطيران. وقع تأخيرٌ ثلاث ساعات في المطار وكدنا نفوّت رحلتنا المتّصلة، لكنّ الموظّفين حلّوا الأمر وأعطونا قسيمة.\n\nالمدينة القديمة تستحقّ الزيارة قطعاً، وإن كانت تزدحم كثيراً في عطلة نهاية الأسبوع. لا يوجد زحام مروريّ كثير في المركز، لكنّ فيه بضعة تلالٍ شديدة الانحدار — أحضر حذاءً مريحاً.\n\nوإن جئتَ يوماً إلى هنا، فاحرص أن تبتعد عن المسار السياحيّ. على أيّ حال، كيف حالك أنت؟\n\nعمر",
-          "checklist": [
-            "استعملتُ in / on / at بدقّة للمكان والزمان",
-            "لم أضع to قبل home",
-            "استعملتُ كمّيّةً مع معدود (a few) وأخرى مع غير معدود (much / a little)",
-            "لم أُجمع كلمةً غير معدودة (luggage / information / advice)",
-            "ذكرتُ مشكلةً وحلّها لا شكوى فقط",
-            "استعملتُ ثلاث مفرداتٍ من الوحدة",
-            "ختمتُ بسؤالٍ أو دعوة",
-            "عدد الكلمات بين ٩٠ و١١٠"
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "عبارات ختام الرسالة",
-          "rows": [
-            { "w": "How are things with you?", "s": "How're things withya?", "ar": "كيف حالك؟" },
-            { "w": "Make sure you visit it", "s": "Make sher ya visit it", "ar": "احرص أن تزوره" },
-            { "w": "Let me know when you are free", "s": "Lemme know when yer free", "ar": "أعلمني متى تتفرّغ" }
-          ]
-        }
-      ]
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "حروف الجرّ تُختزل إلى شوا فتكاد تختفي",
+     "rows": [
+      {
+       "w": "at the station",
+       "s": "ut the station",
+       "ar": "at تصير «إت» مختلسة"
+      },
+      {
+       "w": "a lot of people",
+       "s": "a lodda people",
+       "ar": "الكثير من الناس"
+      },
+      {
+       "w": "Where are you going to?",
+       "s": "Where ya goin ta?",
+       "ar": "إلى أين تذهب؟"
+      },
+      {
+       "w": "out of the car",
+       "s": "oudda the car",
+       "ar": "خارج السيّارة"
+      }
+     ]
     },
     {
-      "n": 7,
-      "type": "test",
-      "title": "اختبار الوحدة",
-      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
-      "pass": 0.8,
-      "blocks": [
-        {
-          "type": "quiz",
-          "title": "اختبار الوحدة السابعة",
-          "isTest": true,
-          "qs": [
-            { "t": "mcq", "q": "<code dir=ltr>I'll see you ___ Friday ___ noon.</code>", "opts": ["in / at", "on / at", "at / on", "on / in"], "a": 1, "why": "اليوم ← on، والساعة ← at." },
-            { "t": "mcq", "q": "<code dir=ltr>She lives ___ Amman, ___ a small flat.</code>", "opts": ["at / on", "in / in", "on / at", "in / at"], "a": 1, "why": "المدينة والحيّز ← in." },
-            { "t": "mcq", "q": "<code dir=ltr>We got ___ the bus at the third stop.</code>", "opts": ["out of", "off", "down", "from"], "a": 1, "why": "النزول من حافلة ← get off." },
-            { "t": "mcq", "q": "<code dir=ltr>There isn't ___ information about it.</code>", "opts": ["many", "a few", "much", "several"], "a": 2, "why": "information غير معدودة." },
-            { "t": "mcq", "q": "<code dir=ltr>Only ___ people came — it was almost empty.</code>", "opts": ["a few", "few", "little", "much"], "a": 1, "why": "few (بلا a) سلبيّة = قليلٌ جدّاً." },
-            { "t": "mcq", "q": "<code dir=ltr>layover</code> تعني…", "opts": ["تأخير", "توقّف بين رحلتين", "إلغاء", "صعود"], "a": 1, "why": "من مفردات الوحدة." },
-            { "t": "mcq", "q": "<code dir=ltr>rip-off</code> تعني…", "opts": ["تمزيق", "ابتزاز سعريّ", "خصم", "هديّة"], "a": 1, "why": "سعرٌ مبالغٌ فيه بشكلٍ مستغِلّ." },
-            { "t": "mcq", "q": "<code dir=ltr>within walking distance</code> تعني…", "opts": ["بعيد جدّاً", "على مسافة مشي", "ممنوع المشي", "قريب بالسيّارة"], "a": 1, "why": "من مفردات الوحدة." },
-            { "t": "gap", "q": "<code dir=ltr>The plane took ___ an hour late.</code>", "a": ["off"], "why": "take off = يُقلع." },
-            { "t": "gap", "q": "<code dir=ltr>We have ___ (a little / a few) money left.</code>", "a": ["a little"], "why": "money غير معدودة." },
-            { "t": "gap", "q": "<code dir=ltr>Go straight ___ and turn left.</code>", "a": ["on", "ahead"], "why": "go straight on = امضِ قُدُماً." },
-            { "t": "gap", "q": "<code dir=ltr>I'm going ___ home after this.</code>", "a": ["", "home"], "why": "لا حرف جرّ قبل home." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>I need an advice.</code>", "a": ["I need some advice", "I need advice", "I need a piece of advice"], "why": "advice غير معدودة." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>We were in the train for six hours.</code>", "a": ["We were on the train for six hours", "We were on the train for six hours."], "why": "القطار يُمشى فيه ← on." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>How much time to arrive?</code>", "a": ["How long does it take?", "How long does it take", "how long does it take"], "why": "الصيغة الطبيعيّة." },
-            { "t": "order", "q": "رتّب:", "ws": ["Excuse", "me", "how", "do", "I", "get", "there"], "a": "Excuse me how do I get there", "why": "السؤال المهذّب عن الطريق." },
-            { "t": "order", "q": "رتّب:", "ws": ["It", "is", "within", "walking", "distance"], "a": "It is within walking distance", "why": "تعبيرٌ ثابت." },
-            { "t": "dict", "say": "How d'I ged ta the airport?", "a": ["How do I get to the airport?", "how do i get to the airport"], "why": "do I تلتصق، وget to بـ d مرتدّة." },
-            { "t": "dict", "say": "There's a lodda traffic today", "a": ["There's a lot of traffic today", "There is a lot of traffic today", "theres a lot of traffic today"], "why": "a lot of → «أ لودَ»." },
-            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>Europe</code>؟", "opts": ["يوروب", "يُو-رَب بالنبر على الأوّل", "أوروب", "إيوروب"], "a": 1, "why": "YOO-rup — النبر على المقطع الأوّل." }
-          ]
-        },
-        {
-          "type": "watch",
-          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
-          "items": [
-            { "t": "قنوات السفر على يوتيوب", "d": "ابحث عن «travel vlog + اسم مدينة» — لغة أماكن واتّجاهات مكثّفة", "task": "شاهد خمس دقائق، وسجّل عشرة حروف جرٍّ مكانيّة سمعتها في سياقها." },
-            { "t": "إعلانات المطارات والقطارات", "d": "ابحث عن «airport announcements English» — لغة معياريّة بطيئة", "task": "استمع وحاول التقاط رقم البوّابة والوقت دون نصّ." },
-            { "t": "برامج الطعام والسفر", "d": "أيّ حلقة من برنامج سفرٍ وثائقيّ", "task": "شغّل الترجمة الإنجليزية، وسجّل خمس عباراتٍ عن المكان." }
-          ]
-        }
-      ]
+     "type": "quiz",
+     "title": "تمارين",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'll meet you ___ the station ___ 8 p.m.</code>",
+       "opts": [
+        "in / on",
+        "at / at",
+        "on / in",
+        "at / in"
+       ],
+       "a": 1,
+       "why": "نقطة محدّدة + ساعة ← at في الاثنين."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We travelled ___ the train ___ Tuesday.</code>",
+       "opts": [
+        "in / in",
+        "on / on",
+        "at / on",
+        "on / at"
+       ],
+       "a": 1,
+       "why": "القطار يُمشى فيه ← on، واليوم ← on."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She was born ___ 1998 ___ March.</code>",
+       "opts": [
+        "on / in",
+        "in / in",
+        "at / on",
+        "in / on"
+       ],
+       "a": 1,
+       "why": "السنة والشهر كلاهما ← in."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Can you give me ___ ?</code>",
+       "opts": [
+        "an advice",
+        "some advice",
+        "advices",
+        "a few advice"
+       ],
+       "a": 1,
+       "why": "advice غير معدودة ← some advice."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>There isn't ___ traffic today.</code>",
+       "opts": [
+        "many",
+        "a few",
+        "much",
+        "several"
+       ],
+       "a": 2,
+       "why": "traffic غير معدودة ← much."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I'm going to home now.</code>",
+       "a": [
+        "I'm going home now",
+        "I am going home now",
+        "Im going home now"
+       ],
+       "why": "لا حرف جرّ قبل home: نقول go home لا go to home."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>We have ___ (a little / a few) time left.</code>",
+       "a": [
+        "a little"
+       ],
+       "why": "time غير معدودة ← a little."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Walk ___ the bridge and turn left.</code>",
+       "a": [
+        "across",
+        "over"
+       ],
+       "why": "العبور من جانبٍ إلى جانب ← across / over."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I have many informations.</code>",
+       "a": [
+        "I have a lot of information",
+        "I have much information",
+        "I have a lot of information."
+       ],
+       "why": "information غير معدودة ولا تُجمع."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He is going to home.</code>",
+       "a": [
+        "He is going home",
+        "He's going home",
+        "He is going home."
+       ],
+       "why": "لا to قبل home."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>We stayed in the bus for two hours.</code>",
+       "a": [
+        "We stayed on the bus for two hours",
+        "We stayed on the bus for two hours."
+       ],
+       "why": "الحافلة يُمشى فيها ← on."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Go",
+        "along",
+        "this",
+        "road",
+        "past",
+        "the",
+        "bank"
+       ],
+       "a": "Go along this road past the bank",
+       "why": "بمحاذاة ثمّ تجاوُز."
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "مفردات: السفر والتنقّل",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "المطار والرحلة",
+     "items": [
+      {
+       "w": "check in",
+       "pos": "phrasal verb",
+       "ar": "يسجّل الوصول / الدخول",
+       "ex": [
+        {
+         "en": "You can <b>check in</b> online 24 hours before.",
+         "ar": "يمكنك تسجيل الدخول إلكترونيّاً قبل ٢٤ ساعة."
+        }
+       ]
+      },
+      {
+       "w": "board",
+       "pos": "verb",
+       "ar": "يصعد إلى الطائرة",
+       "ex": [
+        {
+         "en": "We <b>board</b> at gate twelve.",
+         "ar": "نصعد من البوّابة الثانية عشرة."
+        }
+       ]
+      },
+      {
+       "w": "take off",
+       "pos": "phrasal verb",
+       "ar": "تُقلع الطائرة",
+       "ex": [
+        {
+         "en": "The plane <b>took off</b> an hour late.",
+         "ar": "أقلعت الطائرة متأخّرةً ساعة."
+        }
+       ]
+      },
+      {
+       "w": "land",
+       "pos": "verb",
+       "ar": "تهبط",
+       "ex": [
+        {
+         "en": "We <b>land</b> at half past four.",
+         "ar": "نهبط في الرابعة والنصف."
+        }
+       ]
+      },
+      {
+       "w": "delay",
+       "pos": "noun / verb",
+       "ar": "تأخير / يؤخّر",
+       "ex": [
+        {
+         "en": "There's a two-hour <b>delay</b>.",
+         "ar": "ثمّة تأخيرٌ ساعتان."
+        }
+       ]
+      },
+      {
+       "w": "layover",
+       "pos": "noun",
+       "ar": "توقّف بين رحلتين",
+       "ex": [
+        {
+         "en": "We have a short <b>layover</b> in Istanbul.",
+         "ar": "لدينا توقّفٌ قصير في إسطنبول."
+        }
+       ]
+      },
+      {
+       "w": "luggage",
+       "pos": "noun (غير معدود)",
+       "ar": "أمتعة",
+       "ex": [
+        {
+         "en": "I only have hand <b>luggage</b>.",
+         "ar": "ليس معي إلّا حقيبة يد."
+        }
+       ]
+      },
+      {
+       "w": "book",
+       "pos": "verb",
+       "ar": "يحجز",
+       "ex": [
+        {
+         "en": "I <b>booked</b> the flight in advance.",
+         "ar": "حجزتُ الرحلة مسبقاً."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "الطريق والاتّجاهات",
+     "items": [
+      {
+       "w": "head for",
+       "pos": "phrasal verb",
+       "ar": "يتّجه نحو",
+       "ex": [
+        {
+         "en": "<b>Head for</b> the roundabout, then turn right.",
+         "ar": "اتّجه نحو الدوّار ثمّ انعطف يميناً."
+        }
+       ]
+      },
+      {
+       "w": "go straight on",
+       "pos": "expression",
+       "ar": "امضِ قُدُماً",
+       "ex": [
+        {
+         "en": "<b>Go straight on</b> for two blocks.",
+         "ar": "امضِ قُدُماً مسافة مبنيَين."
+        }
+       ]
+      },
+      {
+       "w": "turn left / right",
+       "pos": "expression",
+       "ar": "انعطف يساراً / يميناً",
+       "ex": [
+        {
+         "en": "<b>Turn left</b> at the lights.",
+         "ar": "انعطف يساراً عند الإشارة."
+        }
+       ]
+      },
+      {
+       "w": "get off",
+       "pos": "phrasal verb",
+       "ar": "ينزل من وسيلة نقل",
+       "ex": [
+        {
+         "en": "<b>Get off</b> at the third stop.",
+         "ar": "انزل عند المحطّة الثالثة."
+        }
+       ]
+      },
+      {
+       "w": "give someone a lift",
+       "pos": "expression",
+       "ar": "يوصّل أحداً بسيّارته",
+       "ex": [
+        {
+         "en": "Can you <b>give me a lift</b> to the station?",
+         "ar": "أيمكنك توصيلي إلى المحطّة؟"
+        }
+       ]
+      },
+      {
+       "w": "on foot",
+       "pos": "expression",
+       "ar": "سيراً على الأقدام",
+       "ex": [
+        {
+         "en": "It's twenty minutes <b>on foot</b>.",
+         "ar": "عشرون دقيقة سيراً."
+        }
+       ]
+      },
+      {
+       "w": "get lost",
+       "pos": "expression",
+       "ar": "يضلّ الطريق",
+       "ex": [
+        {
+         "en": "We <b>got lost</b> twice.",
+         "ar": "ضللنا الطريق مرّتين."
+        }
+       ]
+      },
+      {
+       "w": "within walking distance",
+       "pos": "expression",
+       "ar": "على مسافة مشي",
+       "ex": [
+        {
+         "en": "The hotel is <b>within walking distance</b>.",
+         "ar": "الفندق على مسافة مشي."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "الإقامة والتدبير",
+     "items": [
+      {
+       "w": "put up with",
+       "pos": "phrasal verb",
+       "ar": "يتحمّل",
+       "ex": [
+        {
+         "en": "We had to <b>put up with</b> the noise.",
+         "ar": "اضطُررنا إلى تحمّل الضجيج."
+        }
+       ]
+      },
+      {
+       "w": "settle in",
+       "pos": "phrasal verb",
+       "ar": "يستقرّ ويعتاد المكان",
+       "ex": [
+        {
+         "en": "It took a week to <b>settle in</b>.",
+         "ar": "استغرق الاستقرار أسبوعاً."
+        }
+       ]
+      },
+      {
+       "w": "run out of",
+       "pos": "phrasal verb",
+       "ar": "ينفد منه",
+       "ex": [
+        {
+         "en": "We <b>ran out of</b> cash on day two.",
+         "ar": "نفد منّا النقد في اليوم الثاني."
+        }
+       ]
+      },
+      {
+       "w": "sort out",
+       "pos": "phrasal verb",
+       "ar": "يحلّ مشكلةً ويرتّبها",
+       "ex": [
+        {
+         "en": "The hotel <b>sorted out</b> the problem quickly.",
+         "ar": "حلّ الفندق المشكلة سريعاً."
+        }
+       ]
+      },
+      {
+       "w": "off the beaten track",
+       "pos": "idiom",
+       "ar": "بعيد عن المسار السياحيّ",
+       "ex": [
+        {
+         "en": "We stayed somewhere <b>off the beaten track</b>.",
+         "ar": "أقمنا في مكانٍ بعيد عن المسار السياحيّ."
+        }
+       ]
+      },
+      {
+       "w": "worth a visit",
+       "pos": "expression",
+       "ar": "يستحقّ الزيارة",
+       "ex": [
+        {
+         "en": "The old city is <b>worth a visit</b>.",
+         "ar": "المدينة القديمة تستحقّ الزيارة."
+        }
+       ]
+      },
+      {
+       "w": "rip off",
+       "pos": "phrasal verb / noun",
+       "ar": "يستغلّ سعريّاً / ابتزاز سعريّ",
+       "ex": [
+        {
+         "en": "That taxi was a total <b>rip-off</b>.",
+         "ar": "تلك الأجرة كانت ابتزازاً تامّاً."
+        }
+       ]
+      },
+      {
+       "w": "haggle",
+       "pos": "verb",
+       "ar": "يفاصل في السعر",
+       "ex": [
+        {
+         "en": "You're expected to <b>haggle</b> in the market.",
+         "ar": "يُتوقّع منك أن تفاصل في السوق."
+        }
+       ]
+      },
+      {
+       "w": "make the most of",
+       "pos": "expression",
+       "ar": "يستفيد أقصى استفادة من",
+       "ex": [
+        {
+         "en": "We <b>made the most of</b> two days.",
+         "ar": "استفدنا أقصى ما يمكن من يومين."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "استماع: في المطار",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "ترتيب الاستماع",
+     "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>ركّز على حروف الجرّ المختلسة — ستكاد لا تسمعها."
+    },
+    {
+     "type": "dialogue",
+     "title": "A Problem at the Airport",
+     "titleAr": "مشكلة في المطار",
+     "lines": [
+      {
+       "sp": "Agent",
+       "en": "Good morning. Can I see your passport, please?",
+       "ar": "صباح الخير. أيمكنني رؤية جواز سفرك من فضلك؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "Here you go. I'm on the ten-forty to Madrid.",
+       "ar": "تفضّلي. أنا على رحلة العاشرة وأربعين إلى مدريد."
+      },
+      {
+       "sp": "Agent",
+       "en": "I'm afraid that flight's been delayed. There's a three-hour delay.",
+       "ar": "أخشى أنّ تلك الرحلة تأخّرت. ثمّة تأخيرٌ ثلاث ساعات."
+      },
+      {
+       "sp": "Layla",
+       "en": "Three hours? I have a connection in Rome.",
+       "ar": "ثلاث ساعات؟ لديّ رحلة متّصلة في روما."
+      },
+      {
+       "sp": "Agent",
+       "en": "Let me check. What time's your layover?",
+       "ar": "دعيني أتحقّق. متى توقّفك؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "It was only ninety minutes to begin with.",
+       "ar": "كان تسعين دقيقة فقط أصلاً."
+      },
+      {
+       "sp": "Agent",
+       "en": "Then you won't make it. I can put you on a later connection.",
+       "ar": "إذن لن تلحقي بها. يمكنني وضعك على رحلةٍ متّصلة لاحقة."
+      },
+      {
+       "sp": "Layla",
+       "en": "Will I still get in on the same day?",
+       "ar": "هل سأصل في اليوم نفسه؟"
+      },
+      {
+       "sp": "Agent",
+       "en": "Yes, at around eleven at night instead of five.",
+       "ar": "نعم، نحو الحادية عشرة ليلاً بدل الخامسة."
+      },
+      {
+       "sp": "Layla",
+       "en": "That's a long day. Is there anything earlier?",
+       "ar": "يومٌ طويل. أثمّة ما هو أبكر؟"
+      },
+      {
+       "sp": "Agent",
+       "en": "There's one through Paris, but you'd have very little time.",
+       "ar": "ثمّة واحدة عبر باريس، لكنّ وقتك سيكون ضيّقاً جدّاً."
+      },
+      {
+       "sp": "Layla",
+       "en": "How little?",
+       "ar": "ضيّق كم؟"
+      },
+      {
+       "sp": "Agent",
+       "en": "Fifty minutes, and you'd have to change terminals.",
+       "ar": "خمسون دقيقة، وسيتعيّن عليك تغيير الصالة."
+      },
+      {
+       "sp": "Layla",
+       "en": "I'll take the later one. I don't want to run through an airport.",
+       "ar": "سآخذ اللاحقة. لا أريد الركض عبر مطار."
+      },
+      {
+       "sp": "Agent",
+       "en": "Sensible. And here's a voucher for lunch.",
+       "ar": "قرارٌ حكيم. وهذه قسيمة غداء."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "أسئلة الفهم",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "كم التأخير؟",
+       "opts": [
+        "ساعة",
+        "ساعتان",
+        "ثلاث ساعات",
+        "تسعون دقيقة"
+       ],
+       "a": 2,
+       "why": "<code dir=ltr>a three-hour delay</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا لا تلحق ليلى برحلتها المتّصلة؟",
+       "opts": [
+        "لأنّها ألغيت",
+        "لأنّ توقّفها ٩٠ دقيقة فقط والتأخير ٣ ساعات",
+        "لأنّها غيّرت رأيها",
+        "لأنّ الجواز منتهٍ"
+       ],
+       "a": 1,
+       "why": "التأخير يبتلع مدّة التوقّف."
+      },
+      {
+       "t": "mcq",
+       "q": "ما مشكلة الرحلة عبر باريس؟",
+       "opts": [
+        "أغلى",
+        "٥٠ دقيقة فقط مع تغيير صالة",
+        "تصل متأخّرة",
+        "ممتلئة"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>Fifty minutes, and you'd have to change terminals</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ماذا اختارت ليلى؟",
+       "opts": [
+        "رحلة باريس",
+        "الرحلة اللاحقة",
+        "الإلغاء",
+        "الانتظار للغد"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>I'll take the later one</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>very little time</code> استُعملت لأنّ time…",
+       "opts": [
+        "معدودة",
+        "غير معدودة",
+        "جمع",
+        "مفرد فقط"
+       ],
+       "a": 1,
+       "why": "little تصاحب غير المعدود."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "إملاء — اكتب ما تسمع",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "I'm on the ten-fordy ta Madrid",
+       "a": [
+        "I'm on the ten-forty to Madrid",
+        "I am on the ten forty to Madrid",
+        "im on the ten forty to madrid"
+       ],
+       "why": "forty بـ d مرتدّة، وto تُختزل إلى «تَ»."
+      },
+      {
+       "t": "dict",
+       "say": "Thas flight's bin delayed",
+       "a": [
+        "That flight's been delayed",
+        "That flight has been delayed",
+        "thats flight been delayed"
+       ],
+       "why": "that's تفقد t، وbeen → «بِن»."
+      },
+      {
+       "t": "dict",
+       "say": "You'd hafta change terminals",
+       "a": [
+        "You'd have to change terminals",
+        "You would have to change terminals",
+        "youd have to change terminals"
+       ],
+       "why": "have to → hafta."
+      },
+      {
+       "t": "dict",
+       "say": "Izzere anythin earlier?",
+       "a": [
+        "Is there anything earlier?",
+        "is there anything earlier"
+       ],
+       "why": "<code dir=ltr>Is there</code> تلتصق، وسقطت g."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "قراءة: السياحة التي تأكل نفسها",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Tourism That Eats Itself",
+     "titleAr": "السياحة التي تأكل نفسها",
+     "en": "Barcelona receives more than thirty million visitors a year in a city of roughly one and a half million residents. Venice, on a busy summer day, holds more tourists than Venetians. Locals in both cities have started to describe a strange reversal: the thing that people travel to see is being destroyed by the number of people travelling to see it.<br><br>The mechanism is simple enough. Rising visitor numbers push up rents, so long-term residents leave. Bakeries and hardware shops become souvenir stalls, because souvenirs pay better. Within a decade the neighbourhood that attracted visitors because it felt authentic has become a place where nobody actually lives — and it stops feeling authentic. Economists call this a tragedy of the commons; residents call it losing their home.<br><br>None of this means you should stop travelling. It means the <i>way</i> you travel matters more than it used to. Visiting <b>off the beaten track</b>, going outside peak season, staying in locally owned places, spending in ordinary shops rather than the ones on the main square — these are small decisions, but they send money to the people who live there instead of the companies that extract from there. A city with <b>a few</b> thoughtful visitors is healthier than one with a great deal of careless ones.",
+     "ar": "تستقبل برشلونة أكثر من ثلاثين مليون زائرٍ سنويّاً في مدينةٍ سكّانها نحو مليون ونصف. أمّا البندقيّة ففي يومٍ صيفيّ مزدحم تحوي من السيّاح أكثر ممّا تحوي من أهلها. وقد بدأ أهل المدينتين يصفون انقلاباً غريباً: أنّ ما يسافر الناس ليروه يُدمَّر بعدد المسافرين لرؤيته.<br><br>والآليّة بسيطة بما فيه الكفاية. فارتفاع أعداد الزوّار يرفع الإيجارات، فيرحل المقيمون الدائمون. وتتحوّل المخابز ومحالّ الأدوات إلى أكشاك تذكارات، لأنّ التذكارات أربح. وخلال عقدٍ واحد يصير الحيّ الذي اجتذب الزوّار لأنّه بدا أصيلاً مكاناً لا يعيش فيه أحد فعلاً — فيكفّ عن أن يبدو أصيلاً. ويسمّي الاقتصاديّون هذا «مأساة المشاعات»، ويسمّيه الأهالي فقدان بيوتهم.<br><br>ولا يعني هذا شيئاً من أن تكفّ عن السفر، بل يعني أنّ <i>طريقة</i> سفرك صارت أهمّ ممّا كانت. فالزيارة بعيداً عن المسار السياحيّ، والسفر خارج الموسم، والإقامة في أماكن يملكها أهل البلد، والإنفاق في المتاجر العاديّة لا في تلك التي على الساحة الرئيسة — هذه قراراتٌ صغيرة، لكنّها ترسل المال إلى من يعيشون هناك بدل الشركات التي تستخرج من هناك. فمدينةٌ فيها قلّةٌ من الزوّار المتبصّرين أصحّ من مدينةٍ فيها كثرةٌ من غير المبالين.",
+     "keys": [
+      [
+       "reversal",
+       "انقلاب"
+      ],
+      [
+       "authentic",
+       "أصيل"
+      ],
+      [
+       "off the beaten track",
+       "بعيداً عن المسار السياحيّ"
+      ],
+      [
+       "peak season",
+       "ذروة الموسم"
+      ],
+      [
+       "a few",
+       "قلّة"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "أسئلة الفهم",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "ما «الانقلاب الغريب» الذي يصفه الأهالي؟",
+       "opts": [
+        "ارتفاع الأسعار فقط",
+        "أنّ ما يُسافر لرؤيته يُدمَّر بكثرة القادمين لرؤيته",
+        "قلّة السيّاح",
+        "تغيّر الطقس"
+       ],
+       "a": 1,
+       "why": "خلاصة الفقرة الأولى."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا تتحوّل المخابز إلى أكشاك تذكارات؟",
+       "opts": [
+        "لأنّ الخبز ممنوع",
+        "لأنّ التذكارات أربح",
+        "لأنّ الأهالي رحلوا",
+        "بقرارٍ حكوميّ"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>because souvenirs pay better</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ما النتيجة النهائيّة لهذه الدورة؟",
+       "opts": [
+        "الحيّ يزدهر",
+        "الحيّ يفقد أصالته التي جذبت الزوّار أصلاً",
+        "الإيجارات تنخفض",
+        "السيّاح ينقرضون"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>it stops feeling authentic</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ما نصيحة الكاتب؟",
+       "opts": [
+        "التوقّف عن السفر",
+        "تغيير طريقة السفر لا التوقّف عنه",
+        "السفر في الذروة",
+        "الإقامة في الفنادق الكبرى"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>the way you travel matters</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>extract from</code> في السياق تعني…",
+       "opts": [
+        "تستثمر في",
+        "تستخرج منه دون أن تردّ",
+        "تنظّم",
+        "تحمي"
+       ],
+       "a": 1,
+       "why": "تقابل <code dir=ltr>the people who live there</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا استُعملت <code dir=ltr>a few</code> لا <code dir=ltr>few</code> في الجملة الأخيرة؟",
+       "opts": [
+        "لأنّها سلبيّة",
+        "لأنّها إيجابيّة: قلّةٌ لكنّها كافية ونافعة",
+        "لأنّها مع غير معدود",
+        "لا فرق بينهما"
+       ],
+       "a": 1,
+       "why": "a few إيجابيّة، وfew سلبيّة."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "أسئلة الطريق كما تُنطق",
+     "rows": [
+      {
+       "w": "How do I get to the station?",
+       "s": "How d'I ged ta the station?",
+       "ar": "كيف أصل إلى المحطّة؟"
+      },
+      {
+       "w": "It is a bit further down",
+       "s": "It's a bid further down",
+       "ar": "إنّها أبعد قليلاً"
+      },
+      {
+       "w": "You cannot miss it",
+       "s": "Ya can't miss it",
+       "ar": "لن تخطئه"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "لغة وظيفيّة ونطق",
+   "subtitle": "أن تسأل عن الطريق وتتدبّر مشكلة",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "السؤال عن الطريق",
+     "html": "<b>ابدأ بمقدّمة مهذّبة دائماً:</b><br>• <code dir=ltr>Excuse me, could you tell me how to get to …?</code><br>• <code dir=ltr>Sorry to bother you — is this the right way to …?</code><br>• <code dir=ltr>Do you know if there's a pharmacy near here?</code><br><br><b>وحين لا تفهم الإجابة:</b><br>• <code dir=ltr>Sorry, could you say that again more slowly?</code><br>• <code dir=ltr>So, left at the lights, then straight on — is that right?</code><br><br>💡 إعادة الصياغة للتأكيد حيلةٌ ذهبيّة: تؤكّد فهمك وتمنحك وقتاً."
+    },
+    {
+     "type": "note",
+     "title": "الشكوى بلباقة",
+     "html": "الشكوى المباشرة تُغلق الأبواب. خفّفها بهذه القوالب:<br><br>• <code dir=ltr>I'm afraid there's a problem with …</code><br>• <code dir=ltr>Sorry, but the room isn't quite what we booked.</code><br>• <code dir=ltr>Would it be possible to move us?</code><br>• <code dir=ltr>I'd appreciate it if you could sort this out.</code><br><br>⚠️ تجنّب <code dir=ltr>This is bad! I want another room!</code> — فجّة وغير مجدية."
+    },
+    {
+     "type": "note",
+     "title": "لا تقل هذا",
+     "html": "❌ <code dir=ltr>Where is the bus stop?</code> (بلا مقدّمة) ✅ <code dir=ltr>Excuse me, where's the bus stop?</code><br>❌ <code dir=ltr>I want to go to airport.</code> ✅ <code dir=ltr>I need to get <b>to the</b> airport.</code><br>❌ <code dir=ltr>I have two luggages.</code> ✅ <code dir=ltr>I have two <b>bags</b> / two <b>pieces of luggage</b>.</code><br>❌ <code dir=ltr>How much time to arrive?</code> ✅ <code dir=ltr>How long does it take?</code>"
+    },
+    {
+     "type": "pron",
+     "title": "نطق: أسماء تُخدع فيها",
+     "hint": "الكتابة لا تدلّك على النطق",
+     "rows": [
+      {
+       "w": "Europe",
+       "s": "YOO-rup",
+       "ar": "لا «يوروب»"
+      },
+      {
+       "w": "island",
+       "s": "EYE-lund",
+       "ar": "الـ s صامتة"
+      },
+      {
+       "w": "tourist",
+       "s": "TOOR-ist",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "comfortable",
+       "s": "KUMF-ter-bul",
+       "ar": "ثلاثة مقاطع"
+      },
+      {
+       "w": "vehicle",
+       "s": "VEE-ih-kul",
+       "ar": "الـ h صامتة"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "عبارات السفر في الكلام السريع",
+     "rows": [
+      {
+       "w": "Could you tell me how to get there?",
+       "s": "Couldja tell me how ta ged there?",
+       "ar": "أيمكنك إخباري كيف أصل؟"
+      },
+      {
+       "w": "It is just around the corner",
+       "s": "It's jus around the corner",
+       "ar": "إنّه خلف الزاوية"
+      },
+      {
+       "w": "Is there a problem?",
+       "s": "Izzere a problem?",
+       "ar": "أثمّة مشكلة؟"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "تمارين",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I have three luggages.</code>",
+       "a": [
+        "I have three bags",
+        "I have three pieces of luggage",
+        "I have three bags."
+       ],
+       "why": "luggage غير معدودة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>How much time to arrive?</code>",
+       "a": [
+        "How long does it take?",
+        "How long does it take",
+        "how long does it take"
+       ],
+       "why": "الصيغة الطبيعيّة للسؤال عن المدّة."
+      },
+      {
+       "t": "mcq",
+       "q": "لم تفهم الاتّجاهات. ما الأذكى؟",
+       "opts": [
+        "Repeat!",
+        "أن تعيد صياغة ما فهمته للتأكيد",
+        "أن تصمت وتمشي",
+        "أن تسأل شخصاً آخر فوراً"
+       ],
+       "a": 1,
+       "why": "إعادة الصياغة تؤكّد الفهم وتمنحك وقتاً."
+      },
+      {
+       "t": "mcq",
+       "q": "كيف تُنطق <code dir=ltr>island</code>؟",
+       "opts": [
+        "إيزلاند",
+        "آيلاند بـ s صامتة",
+        "إسلاند",
+        "آيسلاند"
+       ],
+       "a": 1,
+       "why": "الـ s لا تُنطق."
+      },
+      {
+       "t": "mcq",
+       "q": "أيّ صيغةِ شكوى أنسب في فندق؟",
+       "opts": [
+        "This room is terrible!",
+        "I'm afraid there's a problem with the room.",
+        "Change my room now.",
+        "Your hotel is bad."
+       ],
+       "a": 1,
+       "why": "التخفيف يفتح باب الحلّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Excuse",
+        "me",
+        "could",
+        "you",
+        "tell",
+        "me",
+        "the",
+        "way"
+       ],
+       "a": "Excuse me could you tell me the way",
+       "why": "قالب السؤال المهذّب."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "كتابة: رسالة من رحلة",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "المهمّة",
+     "prompt": "أنت في رحلةٍ منذ ثلاثة أيّام. اكتب رسالةً لصديق في <b>٩٠–١١٠ كلمة</b> تتضمّن:<br><br>• أين أنت وكيف وصلت (حروف جرّ صحيحة)<br>• مشكلةً واجهتك وكيف تدبّرتها<br>• شيئاً يستحقّ الزيارة ونصيحةً<br>• كمّيّةً مع معدود وأخرى مع غير معدود<br>• دعوةً أو سؤالاً في الختام",
+     "phrases": [
+      "I've been in … since …",
+      "We flew into … and then took a train to …",
+      "We had a bit of a problem with …, but we sorted it out.",
+      "There isn't much …, but there are a few …",
+      "The old town is definitely worth a visit.",
+      "If you ever come here, make sure you …",
+      "Anyway, how are things with you?"
+     ],
+     "model": "Hi Nour,\n\nI've been in Lisbon since Tuesday. We flew into Porto and then took a train down the coast, which was far nicer than flying. There was a three-hour delay at the airport, and we nearly missed our connection, but the staff sorted it out and gave us a voucher.\n\nThe old town is definitely worth a visit, though it gets very crowded at the weekend. There isn't much traffic in the centre, but there are a few steep hills — bring comfortable shoes.\n\nIf you ever come here, make sure you go off the beaten track. Anyway, how are things with you?\n\nOmar",
+     "modelAr": "مرحباً نور،\n\nأنا في لشبونة منذ الثلاثاء. طرنا إلى بورتو ثمّ أخذنا قطاراً بمحاذاة الساحل، وكان ذلك أجمل بكثير من الطيران. وقع تأخيرٌ ثلاث ساعات في المطار وكدنا نفوّت رحلتنا المتّصلة، لكنّ الموظّفين حلّوا الأمر وأعطونا قسيمة.\n\nالمدينة القديمة تستحقّ الزيارة قطعاً، وإن كانت تزدحم كثيراً في عطلة نهاية الأسبوع. لا يوجد زحام مروريّ كثير في المركز، لكنّ فيه بضعة تلالٍ شديدة الانحدار — أحضر حذاءً مريحاً.\n\nوإن جئتَ يوماً إلى هنا، فاحرص أن تبتعد عن المسار السياحيّ. على أيّ حال، كيف حالك أنت؟\n\nعمر",
+     "checklist": [
+      "استعملتُ in / on / at بدقّة للمكان والزمان",
+      "لم أضع to قبل home",
+      "استعملتُ كمّيّةً مع معدود (a few) وأخرى مع غير معدود (much / a little)",
+      "لم أُجمع كلمةً غير معدودة (luggage / information / advice)",
+      "ذكرتُ مشكلةً وحلّها لا شكوى فقط",
+      "استعملتُ ثلاث مفرداتٍ من الوحدة",
+      "ختمتُ بسؤالٍ أو دعوة",
+      "عدد الكلمات بين ٩٠ و١١٠"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "عبارات ختام الرسالة",
+     "rows": [
+      {
+       "w": "How are things with you?",
+       "s": "How're things withya?",
+       "ar": "كيف حالك؟"
+      },
+      {
+       "w": "Make sure you visit it",
+       "s": "Make sher ya visit it",
+       "ar": "احرص أن تزوره"
+      },
+      {
+       "w": "Let me know when you are free",
+       "s": "Lemme know when yer free",
+       "ar": "أعلمني متى تتفرّغ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "اختبار الوحدة",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "pass": 0.8,
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة السابعة",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'll see you ___ Friday ___ noon.</code>",
+       "opts": [
+        "in / at",
+        "on / at",
+        "at / on",
+        "on / in"
+       ],
+       "a": 1,
+       "why": "اليوم ← on، والساعة ← at."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She lives ___ Amman, ___ a small flat.</code>",
+       "opts": [
+        "at / on",
+        "in / in",
+        "on / at",
+        "in / at"
+       ],
+       "a": 1,
+       "why": "المدينة والحيّز ← in."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We got ___ the bus at the third stop.</code>",
+       "opts": [
+        "out of",
+        "off",
+        "down",
+        "from"
+       ],
+       "a": 1,
+       "why": "النزول من حافلة ← get off."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>There isn't ___ information about it.</code>",
+       "opts": [
+        "many",
+        "a few",
+        "much",
+        "several"
+       ],
+       "a": 2,
+       "why": "information غير معدودة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Only ___ people came — it was almost empty.</code>",
+       "opts": [
+        "a few",
+        "few",
+        "little",
+        "much"
+       ],
+       "a": 1,
+       "why": "few (بلا a) سلبيّة = قليلٌ جدّاً."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>layover</code> تعني…",
+       "opts": [
+        "تأخير",
+        "توقّف بين رحلتين",
+        "إلغاء",
+        "صعود"
+       ],
+       "a": 1,
+       "why": "من مفردات الوحدة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>rip-off</code> تعني…",
+       "opts": [
+        "تمزيق",
+        "ابتزاز سعريّ",
+        "خصم",
+        "هديّة"
+       ],
+       "a": 1,
+       "why": "سعرٌ مبالغٌ فيه بشكلٍ مستغِلّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>within walking distance</code> تعني…",
+       "opts": [
+        "بعيد جدّاً",
+        "على مسافة مشي",
+        "ممنوع المشي",
+        "قريب بالسيّارة"
+       ],
+       "a": 1,
+       "why": "من مفردات الوحدة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The plane took ___ an hour late.</code>",
+       "a": [
+        "off"
+       ],
+       "why": "take off = يُقلع."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>We have ___ (a little / a few) money left.</code>",
+       "a": [
+        "a little"
+       ],
+       "why": "money غير معدودة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Go straight ___ and turn left.</code>",
+       "a": [
+        "on",
+        "ahead"
+       ],
+       "why": "go straight on = امضِ قُدُماً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>We arrived to the airport at six.</code>",
+       "a": [
+        "We arrived at the airport at six"
+       ],
+       "why": "arrive at لمكانٍ محدّد، وarrive in لمدينةٍ أو بلد — ولا تُستعمل arrive to أبداً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I need an advice.</code>",
+       "a": [
+        "I need some advice",
+        "I need advice",
+        "I need a piece of advice"
+       ],
+       "why": "advice غير معدودة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>We were in the train for six hours.</code>",
+       "a": [
+        "We were on the train for six hours",
+        "We were on the train for six hours."
+       ],
+       "why": "القطار يُمشى فيه ← on."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>How much time to arrive?</code>",
+       "a": [
+        "How long does it take?",
+        "How long does it take",
+        "how long does it take"
+       ],
+       "why": "الصيغة الطبيعيّة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Excuse",
+        "me",
+        "how",
+        "do",
+        "I",
+        "get",
+        "there"
+       ],
+       "a": "Excuse me how do I get there",
+       "why": "السؤال المهذّب عن الطريق."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "is",
+        "within",
+        "walking",
+        "distance"
+       ],
+       "a": "It is within walking distance",
+       "why": "تعبيرٌ ثابت."
+      },
+      {
+       "t": "dict",
+       "say": "How d'I ged ta the airport?",
+       "a": [
+        "How do I get to the airport?",
+        "how do i get to the airport"
+       ],
+       "why": "do I تلتصق، وget to بـ d مرتدّة."
+      },
+      {
+       "t": "dict",
+       "say": "There's a lodda traffic today",
+       "a": [
+        "There's a lot of traffic today",
+        "There is a lot of traffic today",
+        "theres a lot of traffic today"
+       ],
+       "why": "a lot of → «أ لودَ»."
+      },
+      {
+       "t": "mcq",
+       "q": "كيف تُنطق <code dir=ltr>Europe</code>؟",
+       "opts": [
+        "يوروب",
+        "يُو-رَب بالنبر على الأوّل",
+        "أوروب",
+        "إيوروب"
+       ],
+       "a": 1,
+       "why": "YOO-rup — النبر على المقطع الأوّل."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "قنوات السفر على يوتيوب",
+       "d": "ابحث عن «travel vlog + اسم مدينة» — لغة أماكن واتّجاهات مكثّفة",
+       "task": "شاهد خمس دقائق، وسجّل عشرة حروف جرٍّ مكانيّة سمعتها في سياقها."
+      },
+      {
+       "t": "إعلانات المطارات والقطارات",
+       "d": "ابحث عن «airport announcements English» — لغة معياريّة بطيئة",
+       "task": "استمع وحاول التقاط رقم البوّابة والوقت دون نصّ."
+      },
+      {
+       "t": "برامج الطعام والسفر",
+       "d": "أيّ حلقة من برنامج سفرٍ وثائقيّ",
+       "task": "شغّل الترجمة الإنجليزية، وسجّل خمس عباراتٍ عن المكان."
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

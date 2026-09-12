@@ -37,11 +37,14 @@ body::before{
 button,.tap{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:manipulation}
 .sel,.t-en,.rd-en,.dlg-en,.ex-en,.model{-webkit-user-select:text;user-select:text}
 code{font-family:var(--en);direction:ltr;display:inline-block;background:var(--inset-2);
-  border:1px solid var(--stroke);border-radius:6px;padding:1px 7px;font-size:.92em}
+  border:1px solid var(--stroke);border-radius:6px;padding:1px 7px;font-size:.92em;
+  /* يمنع السطر الإنجليزيّ الطويل من دفع الصفحة خارج الشاشة */
+  max-width:100%;overflow-wrap:anywhere}
 b{font-weight:800}
 
 /* ========== الإطار ========== */
 .wrap{max-width:980px;margin:0 auto;padding:0 16px}
+#app,#app .note,#app .ex,#app .rd,#app .dlg{max-width:100%;min-width:0}
 .bar{
   position:sticky;top:0;z-index:40;backdrop-filter:blur(18px);
   background:linear-gradient(180deg,rgba(46,58,102,.62),rgba(46,58,102,.30));
@@ -164,7 +167,8 @@ b{font-weight:800}
 .note p,.note div{font-size:.98rem;line-height:1.95}
 .note table{width:100%;border-collapse:collapse;margin:8px 0}
 .note td{padding:7px 9px;border-bottom:1px dashed var(--stroke);font-size:.95rem;vertical-align:top}
-.note td:first-child{font-family:var(--en);direction:ltr;text-align:left;white-space:nowrap}
+.note td:first-child{font-family:var(--en);direction:ltr;text-align:left;overflow-wrap:anywhere}
+@media(min-width:520px){.note td:first-child{white-space:nowrap}}
 .n-ar{display:block;margin-top:10px;padding-top:10px;border-top:1px dashed var(--stroke);
   color:var(--muted);font-size:.92rem;line-height:1.85}
 .n-ar::before{content:"عربيّاً: ";font-weight:800;color:var(--emerald)}
