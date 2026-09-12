@@ -1,0 +1,374 @@
+{
+  "id": "unit-15",
+  "icon": "🔬",
+  "title": "العلم والاكتشاف",
+  "subtitle": "Past perfect and narrative tenses",
+  "intro": "Good storytelling in English depends on one skill: showing which event came first. The past perfect exists for exactly that, and once you control it your narratives stop sounding flat.<span class=n-ar>السرد الجيّد بالإنجليزية يقوم على مهارةٍ واحدة: أن تُظهر أيّ حدثٍ وقع أوّلاً. والماضي التامّ وُجد لهذا تحديداً.</span>",
+  "goals": [
+    "I can use the past perfect to order past events",
+    "I can combine four narrative tenses naturally",
+    "I can describe an experiment or discovery",
+    "I can explain scientific ideas in simple terms"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "Past perfect and narrative tenses",
+      "subtitle": "had + past participle",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "The one job of the past perfect",
+          "html": "<b>had + past participle</b> — it marks the event that happened <u>before</u> another past event.<br><br><code dir=ltr>When I arrived, the meeting <b>had started</b>.</code> → it started first; I missed the beginning<br><code dir=ltr>When I arrived, the meeting <b>started</b>.</code> → I arrived, then it started<br><br>One word changes who was late.<span class=n-ar>وظيفةٌ واحدة: تحديد الحدث الأسبق. وكلمة had وحدها تقلب المعنى تماماً.</span>"
+        },
+        {
+          "type": "note",
+          "title": "The four narrative tenses together",
+          "html": "A well-built story usually uses all four:<br><br><table><tr><td>Past continuous</td><td>the background · <code dir=ltr>It <b>was raining</b>…</code></td></tr><tr><td>Past perfect</td><td>what came before · <code dir=ltr>She <b>had left</b> her keys…</code></td></tr><tr><td>Past simple</td><td>the main events · <code dir=ltr>She <b>knocked</b>…</code></td></tr><tr><td>Past perfect continuous</td><td>duration before · <code dir=ltr>She <b>had been waiting</b> an hour…</code></td></tr></table><br><code dir=ltr>It <b>was getting</b> dark. She <b>had been waiting</b> for an hour, and she <b>realised</b> she <b>had left</b> her phone at home, so she <b>walked</b> back.</code><span class=n-ar>القصّة المبنيّة جيّداً تستعمل الأربعة: خلفيّة، وسابق، وأحداث، ومدّة سابقة.</span>"
+        },
+        {
+          "type": "note",
+          "title": "When you do NOT need it",
+          "html": "If the order is already obvious — from <code dir=ltr>before</code>, <code dir=ltr>after</code>, or simple chronology — the past simple is enough and sounds more natural:<br><br>✅ <code dir=ltr>He finished the report and went home.</code><br>❌ <code dir=ltr>He had finished the report and had gone home.</code> (heavy)<br><br>✅ <code dir=ltr>After he <b>finished</b>, he went home.</code> (after makes it clear)<br><br>💡 Rule of thumb: use the past perfect when the order would otherwise be <b>ambiguous</b>, or when you deliberately jump back in time.<span class=n-ar>لا تستعمله إن كان الترتيب واضحاً أصلاً — فالإفراط فيه يُثقل السرد.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Past perfect continuous",
+          "html": "<b>had been + -ing</b> — for a duration that led up to a past moment:<br><br><code dir=ltr>They <b>had been searching</b> for three years when they finally found it.</code><br><code dir=ltr>He was exhausted; he <b>had been working</b> since dawn.</code><br><br>Compare:<br><code dir=ltr>She <b>had written</b> three papers.</code> → result, how many<br><code dir=ltr>She <b>had been writing</b> all night.</code> → activity, how long<span class=n-ar>had been + ing للمدّة التي سبقت لحظةً ماضية — والفرق نفسه: النتيجة مقابل النشاط.</span>"
+        },
+        {
+          "type": "examples",
+          "title": "Listen and compare",
+          "rows": [
+            { "en": "The lab <b>had closed</b> by the time we got there.", "ar": "كان المختبر قد أُغلق حين وصلنا." },
+            { "en": "They <b>had been testing</b> the vaccine for years.", "ar": "كانوا يختبرون اللقاح منذ سنوات." },
+            { "en": "It <b>was raining</b> when the sample <b>arrived</b>.", "ar": "كانت تمطر حين وصلت العيّنة." },
+            { "en": "She <b>realised</b> she <b>had made</b> an error.", "ar": "أدركت أنّها ارتكبت خطأً." },
+            { "en": "He <b>finished</b> the experiment and <b>left</b>.", "ar": "أنهى التجربة وغادر. (ترتيبٌ واضح — بلا تامّ)" },
+            { "en": "By 1900, the theory <b>had been accepted</b> widely.", "ar": "بحلول ١٩٠٠ كانت النظريّة قد قُبلت على نطاقٍ واسع." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "had reduces to 'd and almost vanishes",
+          "rows": [
+            { "w": "I had already left", "s": "I'd awready left", "ar": "كنتُ قد غادرت" },
+            { "w": "They had been waiting", "s": "They'd bin waitin", "ar": "كانوا ينتظرون" },
+            { "w": "She had not finished", "s": "She hadn finishd", "ar": "لم تكن قد أنهت" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Practice",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>When we arrived, the film ___ .</code>", "opts": ["started", "had started", "was starting", "has started"], "a": 1, "why": "بدأ قبل وصولنا ← ماضٍ تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>He was tired because he ___ all night.</code>", "opts": ["worked", "had been working", "has worked", "was working"], "a": 1, "why": "مدّة سبقت لحظةً ماضية." },
+            { "t": "mcq", "q": "<code dir=ltr>She ___ the door and ___ out.</code>", "opts": ["had opened / had gone", "opened / went", "had opened / went", "opened / had gone"], "a": 1, "why": "ترتيبٌ واضح ← بسيط في الاثنين." },
+            { "t": "mcq", "q": "<code dir=ltr>By the time the results came, they ___ the study twice.</code>", "opts": ["repeated", "had repeated", "have repeated", "were repeating"], "a": 1, "why": "سابقٌ على لحظةٍ ماضية." },
+            { "t": "mcq", "q": "Which is more natural?", "opts": ["After he had finished, he had left.", "After he finished, he left.", "After he finish, he left.", "After he was finishing, he left."], "a": 1, "why": "after توضّح الترتيب فلا حاجة للتامّ." },
+            { "t": "gap", "q": "<code dir=ltr>I couldn't get in because I ___ (lose) my key.</code>", "a": ["had lost", "'d lost"], "why": "الفقدان سابقٌ على المحاولة." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (search) for hours before they found it.</code>", "a": ["had been searching", "'d been searching"], "why": "مدّة سابقة." },
+            { "t": "gap", "q": "<code dir=ltr>It ___ (snow) heavily when we set off.</code>", "a": ["was snowing"], "why": "خلفيّة مستمرّة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>When I arrived, the train had leave.</code>", "a": ["When I arrived, the train had left", "When I arrived the train had left"], "why": "التصريف الثالث left." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He had finished the work and had gone home.</code>", "a": ["He finished the work and went home", "He had finished the work and went home"], "why": "إفراطٌ في التامّ — الترتيب واضح." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She said she has already eaten.</code>", "a": ["She said she had already eaten", "She said she had already eaten."], "why": "في الكلام المنقول: المضارع التامّ ← الماضي التامّ." },
+            { "t": "order", "q": "رتّب:", "ws": ["They", "had", "been", "working", "on", "it", "for", "years"], "a": "They had been working on it for years", "why": "had been + ing." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "Vocabulary: science and discovery",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Research and method",
+          "items": [
+            { "w": "hypothesis", "pos": "noun", "ar": "فرضيّة", "ex": [{ "en": "Their <b>hypothesis</b> turned out to be wrong.", "ar": "تبيّن أنّ فرضيّتهم خاطئة." }] },
+            { "w": "trial", "pos": "noun", "ar": "تجربة سريريّة", "ex": [{ "en": "The <b>trial</b> involved four thousand people.", "ar": "شملت التجربة أربعة آلاف شخص." }] },
+            { "w": "sample", "pos": "noun", "ar": "عيّنة", "ex": [{ "en": "The <b>sample</b> was too small to be reliable.", "ar": "كانت العيّنة أصغر من أن يُعتمد عليها." }] },
+            { "w": "control group", "pos": "noun", "ar": "مجموعة ضابطة", "ex": [{ "en": "The <b>control group</b> received a placebo.", "ar": "تلقّت المجموعة الضابطة دواءً وهميّاً." }] },
+            { "w": "replicate", "pos": "verb", "ar": "يُعيد التجربة للتحقّق", "ex": [{ "en": "No one has managed to <b>replicate</b> the result.", "ar": "لم يتمكّن أحد من إعادة إنتاج النتيجة." }] },
+            { "w": "peer review", "pos": "noun", "ar": "مراجعة الأقران", "ex": [{ "en": "It hasn't passed <b>peer review</b> yet.", "ar": "لم تجتز مراجعة الأقران بعد." }] },
+            { "w": "significant", "pos": "adjective", "ar": "ذو دلالة إحصائيّة", "ex": [{ "en": "The difference was statistically <b>significant</b>.", "ar": "كان الفرق ذا دلالةٍ إحصائيّة." }] },
+            { "w": "flawed", "pos": "adjective", "ar": "معيب منهجيّاً", "ex": [{ "en": "The methodology was seriously <b>flawed</b>.", "ar": "كانت المنهجيّة معيبةً بشدّة." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Discovery and insight",
+          "items": [
+            { "w": "breakthrough", "pos": "noun", "ar": "اختراق علميّ", "ex": [{ "en": "It was hailed as a major <b>breakthrough</b>.", "ar": "احتُفي به بوصفه اختراقاً كبيراً." }] },
+            { "w": "stumble upon", "pos": "phrasal verb", "ar": "يعثر عليه مصادفةً", "ex": [{ "en": "He <b>stumbled upon</b> it by accident.", "ar": "عثر عليه مصادفةً." }] },
+            { "w": "rule out", "pos": "phrasal verb", "ar": "يستبعد احتمالاً", "ex": [{ "en": "They <b>ruled out</b> contamination.", "ar": "استبعدوا التلوّث." }] },
+            { "w": "shed light on", "pos": "idiom", "ar": "يلقي الضوء على", "ex": [{ "en": "The study <b>sheds light on</b> an old puzzle.", "ar": "تلقي الدراسة الضوء على لغزٍ قديم." }] },
+            { "w": "counterintuitive", "pos": "adjective", "ar": "مخالف للبداهة", "ex": [{ "en": "The finding is deeply <b>counterintuitive</b>.", "ar": "النتيجة مخالفة للبداهة بعمق." }] },
+            { "w": "paradigm shift", "pos": "noun", "ar": "نقلة في النموذج المعرفيّ", "ex": [{ "en": "It caused a genuine <b>paradigm shift</b>.", "ar": "أحدث نقلةً حقيقيّة في النموذج المعرفيّ." }] },
+            { "w": "serendipity", "pos": "noun", "ar": "الاكتشاف السعيد بالمصادفة", "ex": [{ "en": "Penicillin was pure <b>serendipity</b>.", "ar": "كان البنسلين مصادفةً سعيدة خالصة." }] },
+            { "w": "trial and error", "pos": "expression", "ar": "التجربة والخطأ", "ex": [{ "en": "Most of it was <b>trial and error</b>.", "ar": "كان أكثره تجربةً وخطأً." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Certainty and doubt",
+          "items": [
+            { "w": "conclusive", "pos": "adjective", "ar": "حاسم", "ex": [{ "en": "The evidence isn't <b>conclusive</b>.", "ar": "الأدلّة غير حاسمة." }] },
+            { "w": "tentative", "pos": "adjective", "ar": "مبدئيّ غير نهائيّ", "ex": [{ "en": "These are <b>tentative</b> findings.", "ar": "هذه نتائج مبدئيّة." }] },
+            { "w": "margin of error", "pos": "noun", "ar": "هامش الخطأ", "ex": [{ "en": "The <b>margin of error</b> is three per cent.", "ar": "هامش الخطأ ثلاثة في المئة." }] },
+            { "w": "bear out", "pos": "phrasal verb", "ar": "يؤكّد ويثبت صحّة", "ex": [{ "en": "The data didn't <b>bear out</b> the claim.", "ar": "لم تؤكّد البيانات الادّعاء." }] },
+            { "w": "call into question", "pos": "expression", "ar": "يضع موضع تساؤل", "ex": [{ "en": "This <b>calls into question</b> the whole model.", "ar": "يضع هذا النموذج كلّه موضع تساؤل." }] },
+            { "w": "to date", "pos": "expression", "ar": "حتى تاريخه", "ex": [{ "en": "It's the largest study <b>to date</b>.", "ar": "إنّها أكبر دراسةٍ حتى تاريخه." }] },
+            { "w": "as far as we know", "pos": "expression", "ar": "على حدّ علمنا", "ex": [{ "en": "<b>As far as we know</b>, it's harmless.", "ar": "على حدّ علمنا فهو غير ضارّ." }] },
+            { "w": "jump to conclusions", "pos": "idiom", "ar": "يتسرّع في الاستنتاج", "ex": [{ "en": "Let's not <b>jump to conclusions</b>.", "ar": "لا نتسرّع في الاستنتاج." }] },
+            { "w": "the jury is still out", "pos": "idiom", "ar": "لم يُحسم الأمر بعد", "ex": [{ "en": "<b>The jury is still out</b> on that.", "ar": "لم يُحسم الأمر في ذلك بعد." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "Listening: what went wrong",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "How to use this",
+          "html": "<b>1.</b> 1.0× no text. <b>2.</b> 0.7× with text. <b>3.</b> Shadow. <b>4.</b> 1.3×.<br><br>Track the time order: which events happened before which.<span class=n-ar>تتبّع ترتيب الأحداث: أيّها وقع قبل أيّ.</span>"
+        },
+        {
+          "type": "dialogue",
+          "title": "The Result That Vanished",
+          "titleAr": "النتيجة التي تبخّرت",
+          "lines": [
+            { "sp": "Hana", "en": "So the replication failed completely?", "ar": "إذن فشلت إعادة التجربة تماماً؟" },
+            { "sp": "Omar", "en": "Not completely. But the effect had almost disappeared by the third run.", "ar": "ليس تماماً. لكنّ الأثر كان قد اختفى تقريباً بحلول التشغيل الثالث." },
+            { "sp": "Hana", "en": "Had you changed anything?", "ar": "أكنتم قد غيّرتم شيئاً؟" },
+            { "sp": "Omar", "en": "That's what we assumed at first. We checked everything twice.", "ar": "هذا ما افترضناه أوّلاً. فحصنا كلّ شيء مرّتين." },
+            { "sp": "Hana", "en": "And?", "ar": "وبعد؟" },
+            { "sp": "Omar", "en": "Nothing. The protocol was identical to the one they had published.", "ar": "لا شيء. كان البروتوكول مطابقاً لما كانوا قد نشروه." },
+            { "sp": "Hana", "en": "So what's your explanation?", "ar": "فما تفسيرك؟" },
+            { "sp": "Omar", "en": "Honestly, I think the original sample had been too small.", "ar": "بصراحة، أظنّ العيّنة الأصليّة كانت أصغر من اللازم." },
+            { "sp": "Hana", "en": "Twenty-two participants, wasn't it?", "ar": "اثنان وعشرون مشاركاً، أليس كذلك؟" },
+            { "sp": "Omar", "en": "Twenty-four. With that many, you can get a significant result by chance.", "ar": "أربعة وعشرون. وبهذا العدد قد تحصل على نتيجةٍ دالّة بالمصادفة." },
+            { "sp": "Hana", "en": "Have you told them?", "ar": "أأخبرتهم؟" },
+            { "sp": "Omar", "en": "I emailed the lead author last week. She'd already heard from two other groups.", "ar": "راسلتُ الباحثة الرئيسة الأسبوع الماضي. كانت قد سمعت من مجموعتين أخريين." },
+            { "sp": "Hana", "en": "That's actually a good sign — she's not defending it.", "ar": "هذه علامةٌ جيّدة في الحقيقة — إنّها لا تدافع عنه." },
+            { "sp": "Omar", "en": "No, she's asked to co-author the correction. I respect that enormously.", "ar": "لا، طلبت المشاركة في تأليف التصحيح. وأحترم ذلك احتراماً بالغاً." },
+            { "sp": "Hana", "en": "So the system worked, just slowly.", "ar": "إذن عمل النظام، لكن ببطء." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Comprehension",
+          "qs": [
+            { "t": "mcq", "q": "When had the effect almost disappeared?", "opts": ["First run", "Second run", "By the third run", "It never appeared"], "a": 2, "why": "<code dir=ltr>by the third run</code>." },
+            { "t": "mcq", "q": "Was the protocol different?", "opts": ["Yes, slightly", "No, it was identical to the published one", "It was lost", "It was improved"], "a": 1, "why": "<code dir=ltr>identical to the one they had published</code>." },
+            { "t": "mcq", "q": "What is Omar's explanation?", "opts": ["Fraud", "The original sample had been too small", "Bad equipment", "Different conditions"], "a": 1, "why": "<code dir=ltr>the original sample had been too small</code>." },
+            { "t": "mcq", "q": "How did the lead author respond?", "opts": ["She denied it", "She had already heard from two other groups and asked to co-author the correction", "She ignored him", "She threatened legal action"], "a": 1, "why": "الردّ العلميّ النزيه." },
+            { "t": "mcq", "q": "What does Hana conclude?", "opts": ["Science is broken", "The system worked, just slowly", "The study was fraudulent", "Replication is pointless"], "a": 1, "why": "الجملة الأخيرة." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Dictation",
+          "qs": [
+            { "t": "dict", "say": "The effect had awmost disappeard", "a": ["The effect had almost disappeared", "the effect had almost disappeared"], "why": "almost → «أومُست»، وed → d." },
+            { "t": "dict", "say": "Hadja changed anythin?", "a": ["Had you changed anything?", "had you changed anything"], "why": "had you → «هادجَ» وسقطت g." },
+            { "t": "dict", "say": "She'd awready heard from two other groups", "a": ["She'd already heard from two other groups", "She had already heard from two other groups"], "why": "had → 'd." },
+            { "t": "dict", "say": "So the system workd, jus slowly", "a": ["So the system worked, just slowly", "so the system worked just slowly"], "why": "worked → t وسقطت t من just." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "Reading: the replication crisis",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "The Crisis That Improved Science",
+          "titleAr": "الأزمة التي حسّنت العلم",
+          "en": "In 2011, a respected journal published a paper that appeared to demonstrate precognition — the ability to sense future events. The methods were standard, the statistics were correct, and the result was almost certainly false. What made the paper important was not its claim but its consequence: researchers began asking how many other published findings <b>had been produced</b> the same way.<br><br>The answer was uncomfortable. When a large team tried to replicate a hundred psychology studies, fewer than half produced the same result. Similar problems <b>were found</b> in medicine and economics. Nobody <b>had been</b> committing fraud in most cases; the incentives had simply rewarded novelty over reliability. Journals published surprising findings, careers depended on publications, and nobody was paid to check old work.<br><br>What happened next is the part people rarely hear. Within a decade, entire fields changed their practices. Researchers now often register their hypotheses <b>before</b> collecting data, so that they cannot quietly adjust the question after seeing the answer. Sample sizes have grown. Journals have started publishing replications and negative results. The crisis was real, and it damaged public trust — but a system that <b>had been</b> quietly producing unreliable work discovered the problem itself, published it, and rebuilt. That is not a failure of science. It is the only mechanism we have ever built that does this on purpose.",
+          "ar": "في عام ٢٠١١ نشرت مجلّةٌ محترمة بحثاً بدا أنّه يبرهن على الاستشعار المسبق — أي القدرة على استشعار أحداثٍ مستقبليّة. وكانت المناهج معياريّة، والإحصاء صحيحاً، والنتيجة شبه مؤكّدة البطلان. وما جعل البحث مهمّاً ليس ادّعاءه بل عاقبته: إذ بدأ الباحثون يسألون كم من النتائج المنشورة الأخرى أُنتجت بالطريقة نفسها.<br><br>وكان الجواب مزعجاً. فحين حاول فريقٌ كبير إعادة إنتاج مئة دراسةٍ نفسيّة، لم ينتج المثل إلّا أقلّ من نصفها. ووُجدت مشكلاتٌ مشابهة في الطبّ والاقتصاد. ولم يكن أحدٌ يرتكب احتيالاً في أكثر الحالات؛ إنّما كانت الحوافز تكافئ الجِدّة على حساب الموثوقيّة. فالمجلّات تنشر النتائج المفاجئة، والمسيرة المهنيّة تعتمد على المنشورات، ولا أحد يُدفع له ليراجع عملاً قديماً.<br><br>أمّا ما حدث بعد ذلك فهو الجزء الذي نادراً ما يسمعه الناس. ففي غضون عقدٍ غيّرت حقولٌ بأكملها ممارساتها. فصار الباحثون كثيراً ما يسجّلون فرضيّاتهم قبل جمع البيانات، حتى لا يستطيعوا تعديل السؤال في صمتٍ بعد رؤية الجواب. واتّسعت أحجام العيّنات. وبدأت المجلّات تنشر إعادات التجارب والنتائج السلبيّة. كانت الأزمة حقيقيّة، وقد أضرّت بثقة الجمهور — لكنّ نظاماً كان ينتج في صمتٍ عملاً غير موثوق اكتشف المشكلة بنفسه، ونشرها، وأعاد البناء. وليس ذلك فشلاً للعلم، بل هو الآليّة الوحيدة التي بنيناها يوماً لتفعل هذا عن قصد.",
+          "keys": [["had been produced", "أُنتجت"], ["replicate", "يُعيد إنتاج"], ["incentives", "حوافز"], ["reliability", "موثوقيّة"], ["on purpose", "عن قصد"]]
+        },
+        {
+          "type": "quiz",
+          "title": "Comprehension",
+          "qs": [
+            { "t": "mcq", "q": "Why was the 2011 paper important?", "opts": ["Its claim was true", "Its consequence: it made researchers question other findings", "It was very long", "It won a prize"], "a": 1, "why": "<code dir=ltr>not its claim but its consequence</code>." },
+            { "t": "mcq", "q": "How many of the hundred studies replicated?", "opts": ["All", "Most", "Fewer than half", "None"], "a": 2, "why": "<code dir=ltr>fewer than half</code>." },
+            { "t": "mcq", "q": "What was the main cause?", "opts": ["Widespread fraud", "Incentives rewarding novelty over reliability", "Bad equipment", "Lack of funding"], "a": 1, "why": "<code dir=ltr>the incentives had simply rewarded novelty</code>." },
+            { "t": "mcq", "q": "Why do researchers now register hypotheses first?", "opts": ["To get funding", "So they cannot adjust the question after seeing the answer", "For legal reasons", "To publish faster"], "a": 1, "why": "الفقرة الثالثة." },
+            { "t": "mcq", "q": "What is the writer's conclusion?", "opts": ["Science failed", "Science is the only system built to find and fix its own errors on purpose", "Psychology is unreliable", "Journals are corrupt"], "a": 1, "why": "الجملة الأخيرة." },
+            { "t": "mcq", "q": "<code dir=ltr>precognition</code> means…", "opts": ["memory", "sensing future events", "quick thinking", "recognition"], "a": 1, "why": "معرّفة في النصّ نفسه." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "scientific hedging in speech",
+          "rows": [
+            { "w": "as far as we know", "s": "az far az we know", "ar": "على حدّ علمنا" },
+            { "w": "The jury is still out", "s": "The jury's still out", "ar": "لم يُحسم بعد" },
+            { "w": "Let us not jump to conclusions", "s": "Let's nod jump ta conclusions", "ar": "لا نتسرّع في الاستنتاج" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "Functional language and pronunciation",
+      "subtitle": "Explaining and questioning evidence",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "Explaining a complex idea",
+          "html": "<b>Analogy is the strongest tool:</b><br><code dir=ltr>Think of it like a filter — it lets some things through and blocks others.</code><br><code dir=ltr>It's a bit like …, except that …</code><br><br><b>Simplify:</b> <code dir=ltr>Essentially, … · Put simply, … · The basic idea is that …</code><br><b>Qualify:</b> <code dir=ltr>It's more complicated than that, but roughly …</code><br><b>Check:</b> <code dir=ltr>Does that make sense so far?</code><span class=n-ar>التشبيه أقوى أداة شرحٍ في الإنجليزية، ثمّ التبسيط، ثمّ التحفّظ، ثمّ التحقّق.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Questioning a claim politely",
+          "html": "• <code dir=ltr>How big was the sample?</code><br>• <code dir=ltr>Has it been replicated?</code><br>• <code dir=ltr>Is that correlation or causation?</code><br>• <code dir=ltr>What was the control group?</code><br>• <code dir=ltr>Who funded the study?</code><br><br>These five questions handle most dubious claims you will meet.<span class=n-ar>هذه الأسئلة الخمسة تكفي لتقييم أكثر الادّعاءات المشكوك فيها التي ستصادفها.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Don't say this",
+          "html": "❌ <code dir=ltr>This proves that…</code> (rarely true) ✅ <code dir=ltr>This suggests / indicates that…</code><br>❌ <code dir=ltr>Scientists says…</code> ✅ <code dir=ltr>Scientists <b>say</b>…</code><br>❌ <code dir=ltr>An evidence</code> ✅ <code dir=ltr>Evidence / a piece of evidence</code> (غير معدودة)<br>❌ <code dir=ltr>I am agree with the study.</code> ✅ <code dir=ltr>I agree with the study.</code><span class=n-ar>أخطرها الأوّل: كلمة prove نادراً ما تصحّ علميّاً، والأدقّ suggest أو indicate.</span>"
+        },
+        {
+          "type": "pron",
+          "title": "Pronunciation: scientific words",
+          "hint": "stress is where learners slip",
+          "rows": [
+            { "w": "hy·POTH·e·sis", "s": "hy-POTH-uh-sis", "ar": "النبر على الثاني" },
+            { "w": "a·NAL·y·sis", "s": "uh-NAL-uh-sis", "ar": "النبر على الثاني" },
+            { "w": "PHE·no·me·non", "s": "fuh-NOM-uh-non", "ar": "النبر على الثاني" },
+            { "w": "sig·NIF·i·cant", "s": "sig-NIF-i-kunt", "ar": "النبر على الثاني" },
+            { "w": "RE·search (اسم أمريكيّ)", "s": "ri·SEARCH (فعل)", "ar": "النبر يفرّق" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "questioning phrases in speech",
+          "rows": [
+            { "w": "How big was the sample?", "s": "How big wuz the sample?", "ar": "كم كانت العيّنة؟" },
+            { "w": "Has it been replicated?", "s": "Hazit bin replicaded?", "ar": "أأُعيد إنتاجها؟" },
+            { "w": "Is that correlation or causation?", "s": "Izzat correlation or causation?", "ar": "أهذا ارتباط أم سببيّة؟" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Practice",
+          "qs": [
+            { "t": "correct", "q": "صحّح: <code dir=ltr>This study proves that coffee is healthy.</code>", "a": ["This study suggests that coffee is healthy", "This study indicates that coffee is healthy"], "why": "prove ادّعاءٌ أقوى ممّا تحتمله دراسةٌ واحدة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>There is an evidence for this.</code>", "a": ["There is evidence for this", "There is some evidence for this"], "why": "evidence غير معدودة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Scientists says the data is clear.</code>", "a": ["Scientists say the data is clear", "Scientists say the data is clear."], "why": "الجمع بلا s." },
+            { "t": "mcq", "q": "Which question best tests a health claim?", "opts": ["Who wrote it?", "Has it been replicated?", "Is it long?", "Is it recent?"], "a": 1, "why": "إعادة الإنتاج أقوى اختبارٍ للموثوقيّة." },
+            { "t": "mcq", "q": "Where is the stress in <code dir=ltr>hypothesis</code>?", "opts": ["first", "second", "third", "last"], "a": 1, "why": "hy-POTH-uh-sis." },
+            { "t": "order", "q": "رتّب:", "ws": ["Is", "that", "correlation", "or", "causation"], "a": "Is that correlation or causation", "why": "سؤال التمييز الأهمّ." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "Writing: summarising a study",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "The task",
+          "prompt": "Summarise a study or discovery you know about in <b>110–130 words</b>. It must include:<br><br>• one past perfect sentence showing what came before<br>• one past perfect continuous sentence (duration)<br>• hedged language instead of <code dir=ltr>proves</code><br>• one limitation of the study<br>• your own judgement at the end<span class=n-ar>لخّص دراسةً أو اكتشافاً تعرفه في ١١٠–١٣٠ كلمة، بجملة ماضٍ تامّ وأخرى تامّ مستمرّ، ولغةٍ متحوّطة، وذكر حدٍّ من حدود الدراسة، وحكمك أنت في الختام.</span>",
+          "phrases": [
+            "Researchers had been studying … for years before …",
+            "By the time …, they had already …",
+            "The study suggests that …",
+            "However, the sample was …",
+            "The findings have not yet been replicated.",
+            "As far as we know, …",
+            "In my view, the most interesting part is …"
+          ],
+          "model": "Researchers had been studying penicillin's origins for decades before the full story became clear. Alexander Fleming had left a petri dish uncovered before going on holiday in 1928, and when he returned he found that mould had killed the bacteria around it.\n\nThe discovery is often described as pure luck, but that is only half true. Fleming had been working on antibacterial substances for years, which is why he recognised what he was looking at. Serendipity favours a prepared mind.\n\nThe study that followed suggests that the mould produced a compound lethal to certain bacteria. However, it took another decade and a different team before penicillin could be produced at scale.\n\nIn my view, the interesting part is not the accident but the preparation behind it.",
+          "modelAr": "كان الباحثون يدرسون أصول البنسلين عقوداً قبل أن تتّضح القصّة كاملةً. فقد كان ألكسندر فليمنغ قد ترك طبق بتري مكشوفاً قبل ذهابه في إجازة عام ١٩٢٨، فلمّا عاد وجد أنّ العفن قتل البكتيريا من حوله.<br><br>وكثيراً ما يوصف الاكتشاف بأنّه حظٌّ خالص، وهذا نصف الحقيقة فحسب. فقد كان فليمنغ يعمل على موادّ مضادّة للبكتيريا سنوات، ولهذا عرف ما الذي ينظر إليه. فالمصادفة السعيدة تحابي عقلاً مهيّأً.<br><br>وتشير الدراسة التي تلت إلى أنّ العفن أنتج مركّباً قاتلاً لبكتيريا معيّنة. غير أنّ الأمر استغرق عقداً آخر وفريقاً مختلفاً قبل أن يمكن إنتاج البنسلين على نطاقٍ واسع.<br><br>وفي رأيي، ليس المثير هو المصادفة بل التهيّؤ الذي سبقها.",
+          "checklist": [
+            "I used the past perfect for an earlier event",
+            "I used the past perfect continuous for a duration",
+            "I did not overuse the past perfect where order was obvious",
+            "I wrote 'suggests' or 'indicates', not 'proves'",
+            "I mentioned one genuine limitation",
+            "I did not write 'an evidence' or 'researches'",
+            "I ended with my own judgement",
+            "110–130 words"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "narrative phrases said aloud",
+          "rows": [
+            { "w": "By the time he returned", "s": "By the time he returnd", "ar": "بحلول عودته" },
+            { "w": "It turned out that", "s": "It turnd oud thut", "ar": "تبيّن أنّ" },
+            { "w": "which is why he recognised it", "s": "which is why he recognized it", "ar": "ولهذا عرفه" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "Unit test",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "Unit 15 test",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>By the time we arrived, they ___ .</code>", "opts": ["left", "had left", "have left", "were leaving"], "a": 1, "why": "سابقٌ على وصولنا." },
+            { "t": "mcq", "q": "<code dir=ltr>She was exhausted; she ___ since dawn.</code>", "opts": ["worked", "had been working", "has worked", "works"], "a": 1, "why": "مدّة سابقة." },
+            { "t": "mcq", "q": "<code dir=ltr>He ___ the letter and ___ it.</code>", "opts": ["had read / had burned", "read / burned", "had read / burned", "was reading / burned"], "a": 1, "why": "ترتيبٌ واضح ← بسيط." },
+            { "t": "mcq", "q": "<code dir=ltr>It ___ when the expedition set off.</code>", "opts": ["snowed", "was snowing", "had snowed", "has snowed"], "a": 1, "why": "خلفيّة مستمرّة." },
+            { "t": "mcq", "q": "<code dir=ltr>rule out</code> means…", "opts": ["to make a rule", "to eliminate a possibility", "to govern", "to draw"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>counterintuitive</code> means…", "opts": ["obvious", "against what you would expect", "mathematical", "wrong"], "a": 1, "why": "مخالف للبداهة." },
+            { "t": "mcq", "q": "<code dir=ltr>the jury is still out</code> means…", "opts": ["a trial is running", "it has not been decided yet", "the case failed", "nobody cares"], "a": 1, "why": "لم يُحسم بعد." },
+            { "t": "mcq", "q": "<code dir=ltr>tentative</code> means…", "opts": ["final", "provisional, not yet confirmed", "strong", "careless"], "a": 1, "why": "مبدئيّ." },
+            { "t": "gap", "q": "<code dir=ltr>I couldn't enter because I ___ (forget) my badge.</code>", "a": ["had forgotten", "'d forgotten"], "why": "سابقٌ على المحاولة." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (test) it for months before it failed.</code>", "a": ["had been testing", "'d been testing"], "why": "مدّة سابقة." },
+            { "t": "gap", "q": "<code dir=ltr>When the results arrived, she ___ (already / leave).</code>", "a": ["had already left", "'d already left"], "why": "already بين had والتصريف الثالث." },
+            { "t": "gap", "q": "<code dir=ltr>The evidence does not ___ (bear) out the claim.</code>", "a": ["bear"], "why": "bear out = يؤكّد." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>When I arrived, the lecture had began.</code>", "a": ["When I arrived, the lecture had begun", "When I arrived the lecture had begun"], "why": "التصريف الثالث begun." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>This proves that the theory is right.</code>", "a": ["This suggests that the theory is right", "This indicates that the theory is right"], "why": "prove ادّعاءٌ مفرط." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>There is an evidence for this.</code>", "a": ["There is evidence for this", "There is some evidence for this"], "why": "غير معدودة." },
+            { "t": "order", "q": "رتّب:", "ws": ["They", "had", "been", "searching", "for", "years"], "a": "They had been searching for years", "why": "had been + ing." },
+            { "t": "order", "q": "رتّب:", "ws": ["Has", "it", "been", "replicated", "yet"], "a": "Has it been replicated yet", "why": "سؤال التحقّق العلميّ." },
+            { "t": "dict", "say": "She'd awready heard about it", "a": ["She'd already heard about it", "She had already heard about it"], "why": "had → 'd." },
+            { "t": "dict", "say": "They'd bin workin on it for years", "a": ["They'd been working on it for years", "They had been working on it for years"], "why": "been → «بِن» وسقطت g." },
+            { "t": "mcq", "q": "Where is the stress in <code dir=ltr>analysis</code>?", "opts": ["first", "second", "third", "last"], "a": 1, "why": "uh-NAL-uh-sis." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "قنوات العلوم على يوتيوب", "d": "ابحث عن «Veritasium» أو «Kurzgesagt» — شروح علميّة بإنجليزيّة واضحة", "task": "شاهد حلقةً، وسجّل خمس جملٍ بالماضي التامّ." },
+            { "t": "بودكاست علميّ سرديّ", "d": "ابحث عن «Radiolab» أو «Science Vs»", "task": "استمع خمس عشرة دقيقة، ولاحظ كيف يُبنى السرد بالأزمنة الأربعة." },
+            { "t": "مقالات علميّة مبسّطة", "d": "ابحث عن «Quanta Magazine» أو «Scientific American»", "task": "اقرأ مقالاً، وسجّل خمسة تعابير تحوّطٍ علميّ." }
+          ]
+        }
+      ]
+    }
+  ]
+}
