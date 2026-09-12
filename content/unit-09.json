@@ -1,0 +1,373 @@
+{
+  "id": "unit-09",
+  "icon": "📚",
+  "title": "التعليم والتعلّم",
+  "subtitle": "أن تتحدّث عن الدراسة والمهارات والتعلّم",
+  "intro": "متى نقول <code dir=ltr>I enjoy reading</code> ومتى <code dir=ltr>I want to read</code>؟ هذا سؤالٌ لا تحسمه القاعدة المنطقيّة بل الاستعمال — ولذلك نبنيه في سياقٍ واحدٍ مترابط: التعلّم. وستجد أنّ إتقانه يُصلح عشرات الجمل التي كنتَ تقولها خطأً.",
+  "goals": [
+    "أختار بين المصدر (to do) والاسم الفعليّ (doing) بثقة",
+    "أتحدّث عن دراستي ومهاراتي وطريقة تعلّمي",
+    "أعبّر عن التفضيل والرغبة والصعوبة",
+    "أشرح مفهوماً لشخصٍ آخر"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "المصدر والاسم الفعليّ",
+      "subtitle": "to do ↔ doing",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "القاعدة العامّة — نصف الحلّ",
+          "html": "<b>الاسم الفعليّ (‎-ing‎)</b> يعمل عمل الاسم:<br><code dir=ltr><b>Reading</b> is my hobby.</code> · <code dir=ltr>I'm good <b>at writing</b>.</code><br>⚠️ <b>بعد كلّ حرف جرّ يأتي ing دائماً</b> — بلا استثناء:<br><code dir=ltr>interested <b>in learning</b> · instead <b>of waiting</b> · before <b>leaving</b></code><br><br><b>المصدر (‎to + فعل‎)</b> يفيد الهدف والنيّة:<br><code dir=ltr>I came here <b>to learn</b>.</code> · <code dir=ltr>It's easy <b>to say</b>.</code>"
+        },
+        {
+          "type": "note",
+          "title": "أفعال تتبعها ing",
+          "html": "أفعالٌ تتعلّق بالمتعة والكراهية والاستمرار والتوقّف:<br><br><code dir=ltr>enjoy · avoid · finish · practise · suggest · consider · mind · keep · give up · can't stand · risk · imagine · deny · admit</code><br><br><code dir=ltr>I <b>enjoy studying</b> at night.</code><br><code dir=ltr>She <b>suggested taking</b> a break.</code><br>❌ <code dir=ltr>I enjoy to study · She suggested to take</code>"
+        },
+        {
+          "type": "note",
+          "title": "أفعال تتبعها to",
+          "html": "أفعالٌ تتعلّق بالرغبة والقرار والمستقبل:<br><br><code dir=ltr>want · need · decide · hope · plan · promise · agree · refuse · manage · learn · offer · seem · afford · pretend</code><br><br><code dir=ltr>I <b>decided to change</b> my method.</code><br><code dir=ltr>He <b>managed to finish</b> on time.</code>"
+        },
+        {
+          "type": "note",
+          "title": "أفعالٌ تقبل الاثنين — بمعنيين مختلفين",
+          "html": "هنا يكمن الفرق الدقيق الذي يفصل B1 عن B2:<br><br><table><tr><td dir=ltr><b>remember to do</b></td><td>يتذكّر فيفعل (قبل الفعل)</td></tr><tr><td dir=ltr><b>remember doing</b></td><td>يتذكّر أنّه فعل (بعد الفعل)</td></tr><tr><td dir=ltr><b>stop to do</b></td><td>يتوقّف <u>لكي</u> يفعل</td></tr><tr><td dir=ltr><b>stop doing</b></td><td>يكفّ <u>عن</u> الفعل</td></tr><tr><td dir=ltr><b>try to do</b></td><td>يحاول بجهد</td></tr><tr><td dir=ltr><b>try doing</b></td><td>يجرّب كأسلوب</td></tr></table><br><code dir=ltr>I <b>stopped smoking</b>.</code> (أقلعتُ) ↔ <code dir=ltr>I <b>stopped to smoke</b>.</code> (توقّفتُ لأدخّن)"
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "I'm interested <b>in learning</b> Spanish.", "ar": "أنا مهتمّ بتعلّم الإسبانية. (بعد حرف جرّ)" },
+            { "en": "I've decided <b>to learn</b> Spanish.", "ar": "قرّرتُ أن أتعلّم الإسبانية." },
+            { "en": "I can't stand <b>waiting</b>.", "ar": "لا أطيق الانتظار." },
+            { "en": "Remember <b>to lock</b> the door.", "ar": "تذكّر أن تقفل الباب. (قبل الفعل)" },
+            { "en": "I remember <b>locking</b> the door.", "ar": "أتذكّر أنّني أقفلتُ الباب. (بعد الفعل)" },
+            { "en": "<b>Try using</b> flashcards — it worked for me.", "ar": "جرّب البطاقات — نفعت معي." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "to تُختزل إلى «تَ» و ing تفقد g",
+          "rows": [
+            { "w": "I want to learn", "s": "I wanna learn", "ar": "أريد أن أتعلّم" },
+            { "w": "I enjoy studying", "s": "I enjoy studyin", "ar": "أستمتع بالدراسة" },
+            { "w": "I'm trying to understand", "s": "I'm tryin ta understand", "ar": "أحاول أن أفهم" },
+            { "w": "good at explaining", "s": "good at explainin", "ar": "بارع في الشرح" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>I enjoy ___ new languages.</code>", "opts": ["to learn", "learning", "learn", "learned"], "a": 1, "why": "enjoy يتبعها ing." },
+            { "t": "mcq", "q": "<code dir=ltr>She decided ___ a course.</code>", "opts": ["taking", "to take", "take", "took"], "a": 1, "why": "decide يتبعها to." },
+            { "t": "mcq", "q": "<code dir=ltr>I'm good at ___ problems.</code>", "opts": ["to solve", "solving", "solve", "solved"], "a": 1, "why": "بعد حرف الجرّ at يأتي ing." },
+            { "t": "mcq", "q": "<code dir=ltr>He stopped ___ — his lungs are better now.</code>", "opts": ["to smoke", "smoking", "smoke", "smoked"], "a": 1, "why": "stop doing = يكفّ عن الفعل." },
+            { "t": "mcq", "q": "<code dir=ltr>Remember ___ me when you arrive.</code>", "opts": ["calling", "to call", "call", "called"], "a": 1, "why": "remember to do = تذكّر فافعل." },
+            { "t": "gap", "q": "<code dir=ltr>I'm thinking of ___ (change) my job.</code>", "a": ["changing"], "why": "بعد of يأتي ing." },
+            { "t": "gap", "q": "<code dir=ltr>They managed ___ (finish) on time.</code>", "a": ["to finish"], "why": "manage يتبعها to." },
+            { "t": "gap", "q": "<code dir=ltr>Avoid ___ (study) when you're tired.</code>", "a": ["studying"], "why": "avoid يتبعها ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I suggested to go early.</code>", "a": ["I suggested going early", "I suggested going early."], "why": "suggest يتبعها ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I'm interested in learn English.</code>", "a": ["I'm interested in learning English", "I am interested in learning English"], "why": "بعد in يأتي ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He refused helping us.</code>", "a": ["He refused to help us", "He refused to help us."], "why": "refuse يتبعها to." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "can't", "stand", "waiting", "in", "queues"], "a": "I can't stand waiting in queues", "why": "can't stand يتبعها ing." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: الدراسة والمهارة",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "التعلّم والاستيعاب",
+          "items": [
+            { "w": "grasp", "pos": "verb / noun", "ar": "يستوعب / استيعاب", "ex": [{ "en": "It took me a while to <b>grasp</b> the concept.", "ar": "استغرقني استيعاب المفهوم وقتاً." }] },
+            { "w": "get the hang of", "pos": "idiom", "ar": "يُتقن بالممارسة", "ex": [{ "en": "You'll <b>get the hang of</b> it soon.", "ar": "ستُتقنه قريباً." }] },
+            { "w": "pick up", "pos": "phrasal verb", "ar": "يلتقط مهارةً بالممارسة", "ex": [{ "en": "I <b>picked up</b> most of it by watching.", "ar": "التقطتُ معظمه بالمشاهدة." }] },
+            { "w": "brush up on", "pos": "phrasal verb", "ar": "يُنعش معلوماتٍ نسيها", "ex": [{ "en": "I need to <b>brush up on</b> my grammar.", "ar": "عليّ إنعاش قواعدي." }] },
+            { "w": "revise", "pos": "verb", "ar": "يراجع للامتحان", "ex": [{ "en": "I've been <b>revising</b> all week.", "ar": "أراجع طوال الأسبوع." }] },
+            { "w": "cram", "pos": "verb", "ar": "يحشو المعلومات قبل الامتحان", "ex": [{ "en": "<b>Cramming</b> never works long-term.", "ar": "الحشو لا ينفع على المدى الطويل." }] },
+            { "w": "sink in", "pos": "phrasal verb", "ar": "يترسّخ في الذهن", "ex": [{ "en": "Give it time to <b>sink in</b>.", "ar": "امنحه وقتاً ليترسّخ." }] },
+            { "w": "retain", "pos": "verb", "ar": "يحتفظ بالمعلومة", "ex": [{ "en": "We <b>retain</b> more when we test ourselves.", "ar": "نحتفظ بأكثر حين نختبر أنفسنا." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الصعوبة والمثابرة",
+          "items": [
+            { "w": "struggle with", "pos": "verb", "ar": "يكابد صعوبةً في", "ex": [{ "en": "I <b>struggle with</b> pronunciation.", "ar": "أكابد صعوبةً في النطق." }] },
+            { "w": "get stuck", "pos": "expression", "ar": "يتعثّر ويعلق", "ex": [{ "en": "If you <b>get stuck</b>, just ask.", "ar": "إن تعثّرت فاسأل فحسب." }] },
+            { "w": "figure out", "pos": "phrasal verb", "ar": "يستنتج ويفهم بنفسه", "ex": [{ "en": "I <b>figured out</b> the pattern eventually.", "ar": "استنتجتُ النمط في نهاية المطاف." }] },
+            { "w": "work through", "pos": "phrasal verb", "ar": "يعالج الأمر خطوةً خطوة", "ex": [{ "en": "Let's <b>work through</b> it together.", "ar": "لنعالجه معاً خطوةً خطوة." }] },
+            { "w": "keep at it", "pos": "expression", "ar": "يواظب ولا يتوقّف", "ex": [{ "en": "Just <b>keep at it</b> — it gets easier.", "ar": "واظِب فحسب — يصير أسهل." }] },
+            { "w": "give up on", "pos": "phrasal verb", "ar": "ييأس من", "ex": [{ "en": "Don't <b>give up on</b> it so soon.", "ar": "لا تيأس منه بهذه السرعة." }] },
+            { "w": "steep learning curve", "pos": "expression", "ar": "منحنى تعلّمٍ حادّ", "ex": [{ "en": "There's a <b>steep learning curve</b> at first.", "ar": "ثمّة منحنى تعلّمٍ حادّ في البداية." }] },
+            { "w": "trial and error", "pos": "expression", "ar": "التجربة والخطأ", "ex": [{ "en": "I learned it by <b>trial and error</b>.", "ar": "تعلّمتُه بالتجربة والخطأ." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الشرح والتوضيح",
+          "items": [
+            { "w": "break down", "pos": "phrasal verb", "ar": "يفكّك الأمر إلى أجزاء", "ex": [{ "en": "Let me <b>break</b> it <b>down</b> for you.", "ar": "دعني أفكّكه لك." }] },
+            { "w": "put it simply", "pos": "expression", "ar": "بعبارةٍ مبسّطة", "ex": [{ "en": "To <b>put it simply</b>, it's a filter.", "ar": "بعبارةٍ مبسّطة، إنّه مرشّح." }] },
+            { "w": "in other words", "pos": "expression", "ar": "بعبارةٍ أخرى", "ex": [{ "en": "<b>In other words</b>, it doesn't scale.", "ar": "بعبارةٍ أخرى، لا يتوسّع." }] },
+            { "w": "for instance", "pos": "expression", "ar": "على سبيل المثال", "ex": [{ "en": "Take email, <b>for instance</b>.", "ar": "خذ البريد الإلكترونيّ مثلاً." }] },
+            { "w": "make sense", "pos": "expression", "ar": "يبدو معقولاً / مفهوماً", "ex": [{ "en": "Does that <b>make sense</b>?", "ar": "هل هذا مفهوم؟" }] },
+            { "w": "get one's head around", "pos": "idiom", "ar": "يستوعب أمراً صعباً", "ex": [{ "en": "I can't <b>get my head around</b> it.", "ar": "لا أستطيع استيعابه." }] },
+            { "w": "the gist", "pos": "noun", "ar": "الفكرة العامّة / الزُّبدة", "ex": [{ "en": "I got <b>the gist</b> of it.", "ar": "التقطتُ الفكرة العامّة." }] },
+            { "w": "hands-on", "pos": "adjective", "ar": "عمليّ تطبيقيّ", "ex": [{ "en": "I prefer <b>hands-on</b> learning.", "ar": "أفضّل التعلّم التطبيقيّ." }] },
+            { "w": "rote learning", "pos": "noun", "ar": "التعلّم بالتلقين والحفظ", "ex": [{ "en": "<b>Rote learning</b> doesn't build understanding.", "ar": "التلقين لا يبني فهماً." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: كيف تتعلّم لغة؟",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>راقب كلّ فعلٍ يتبعه ing أو to — وستجد القاعدة حيّة أمامك."
+        },
+        {
+          "type": "dialogue",
+          "title": "How Do You Actually Learn?",
+          "titleAr": "كيف تتعلّم فعلاً؟",
+          "lines": [
+            { "sp": "Nabil", "en": "You've picked up French really fast. What's your secret?", "ar": "التقطتَ الفرنسية بسرعةٍ كبيرة. ما سرّك؟" },
+            { "sp": "Hana", "en": "Honestly? I stopped trying to memorise word lists.", "ar": "بصراحة؟ كففتُ عن محاولة حفظ قوائم الكلمات." },
+            { "sp": "Nabil", "en": "Really? That's what I've been doing for months.", "ar": "حقّاً؟ هذا ما أفعله منذ شهور." },
+            { "sp": "Hana", "en": "It feels productive, but almost nothing sinks in.", "ar": "يبدو منتجاً، لكن لا يترسّخ منه شيء تقريباً." },
+            { "sp": "Nabil", "en": "So what do you do instead?", "ar": "فماذا تفعلين بدلاً منه؟" },
+            { "sp": "Hana", "en": "I learn whole phrases, and I say them out loud.", "ar": "أتعلّم عباراتٍ كاملة، وأنطقها بصوتٍ مسموع." },
+            { "sp": "Nabil", "en": "Doesn't that feel strange when you're alone?", "ar": "أليس ذلك غريباً حين تكونين وحدك؟" },
+            { "sp": "Hana", "en": "Completely. But it's the only thing that made my speaking improve.", "ar": "غريبٌ تماماً. لكنّه الشيء الوحيد الذي حسّن تحدّثي." },
+            { "sp": "Nabil", "en": "I struggle with pronunciation more than anything.", "ar": "أكابد صعوبةً في النطق أكثر من أيّ شيء." },
+            { "sp": "Hana", "en": "Try recording yourself. It's painful but it works.", "ar": "جرّب تسجيل نفسك. مؤلمٌ لكنّه ينفع." },
+            { "sp": "Nabil", "en": "I've considered doing that, actually.", "ar": "فكّرتُ في فعل ذلك في الحقيقة." },
+            { "sp": "Hana", "en": "Then do it. And don't give up after three days.", "ar": "فافعله إذن. ولا تيأس بعد ثلاثة أيّام." },
+            { "sp": "Nabil", "en": "There's a steep learning curve, isn't there?", "ar": "ثمّة منحنى تعلّمٍ حادّ، أليس كذلك؟" },
+            { "sp": "Hana", "en": "At the start, yes. Then it flattens out and gets much easier.", "ar": "في البداية نعم. ثمّ يستوي ويصير أسهل بكثير." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما الذي كفّت هناء عنه؟", "opts": ["الدراسة", "محاولة حفظ قوائم الكلمات", "التحدّث", "الاستماع"], "a": 1, "why": "<code dir=ltr>I stopped trying to memorise word lists</code>." },
+            { "t": "mcq", "q": "ماذا تفعل بدلاً منه؟", "opts": ["تقرأ كتباً", "تتعلّم عباراتٍ كاملة وتنطقها بصوتٍ مسموع", "تشاهد أفلاماً", "تأخذ دروساً"], "a": 1, "why": "<code dir=ltr>whole phrases … out loud</code>." },
+            { "t": "mcq", "q": "ما نصيحتها لمشكلة النطق؟", "opts": ["دروس خاصّة", "تسجيل النفس", "القراءة بصوتٍ عالٍ", "السفر"], "a": 1, "why": "<code dir=ltr>Try recording yourself</code>." },
+            { "t": "mcq", "q": "في <code dir=ltr>I stopped trying to memorise</code> — ماذا تعني؟", "opts": ["توقّفَت لكي تحفظ", "كفّت عن المحاولة", "بدأت تحفظ", "نسيت"], "a": 1, "why": "stop + ing = الكفّ عن الفعل." },
+            { "t": "mcq", "q": "ماذا يحدث لمنحنى التعلّم بعد البداية؟", "opts": ["يزداد حدّةً", "يستوي ويصير أسهل", "يتوقّف", "ينعكس"], "a": 1, "why": "<code dir=ltr>it flattens out</code>." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "You've pickd up French really fas", "a": ["You've picked up French really fast", "You have picked up French really fast", "youve picked up french really fast"], "why": "picked up تلتصق، وسقطت t من fast." },
+            { "t": "dict", "say": "I stopped tryin ta memorise", "a": ["I stopped trying to memorise", "I stopped trying to memorize", "i stopped trying to memorise"], "why": "ing تفقد g، وto → «تَ»." },
+            { "t": "dict", "say": "Try recordin yerself", "a": ["Try recording yourself", "try recording yourself"], "why": "yourself → «يَرسلف»." },
+            { "t": "dict", "say": "I've considerd doin that", "a": ["I've considered doing that", "I have considered doing that", "ive considered doing that"], "why": "consider + ing." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: الصعوبة المرغوبة",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Desirable Difficulty",
+          "titleAr": "الصعوبة المرغوبة",
+          "en": "Students overwhelmingly prefer rereading their notes to testing themselves. It feels smoother, more familiar, more like progress. Decades of research show it is one of the least effective things they could do. The fluency of rereading is an illusion: recognising material is not the same as being able to <b>retrieve</b> it.<br><br>Cognitive scientists use the phrase <i>desirable difficulty</i> for methods that feel worse and work better. Testing yourself is the clearest example. So is spacing your study across days instead of massing it in one evening, and mixing different topics in a session rather than drilling one at a time. All three make you feel less competent while you are doing them — and all three roughly double long-term retention.<br><br>The reason this matters is practical. Because the effective methods feel harder, students abandon them precisely when they are working. If you finish a study session feeling fluent and comfortable, you have probably just rehearsed what you already knew. If you finish feeling that you struggled and forgot half of it, but you had to <b>retrieve</b> rather than reread, you almost certainly learned more. The discomfort is not a sign that the method is wrong. It is the method.",
+          "ar": "يفضّل الطلّاب بأغلبيّةٍ ساحقة إعادةَ قراءة ملاحظاتهم على اختبار أنفسهم. فهي تبدو أسلس وأكثر ألفةً وأشبه بالتقدّم. وتُظهر عقودٌ من البحث أنّها من أقلّ ما يمكنهم فعله نفعاً. فسلاسة إعادة القراءة وهم: إذ ليس التعرّف على المادّة كالقدرة على استحضارها.<br><br>ويستعمل علماء الإدراك عبارة «الصعوبة المرغوبة» للطرائق التي تبدو أسوأ وتعمل أفضل. واختبار النفس أوضح مثالٍ عليها. وكذلك توزيع الدراسة على أيّام بدل تكديسها في أمسيةٍ واحدة، وخلط موضوعاتٍ مختلفة في الجلسة بدل التمرّن على واحدٍ تلو الآخر. وهذه الثلاث كلّها تُشعرك بأنّك أقلّ كفاءةً وأنت تمارسها — وكلّها تضاعف تقريباً الاحتفاظ طويل المدى.<br><br>وأهميّة هذا عمليّة: فلأنّ الطرائق الناجعة تبدو أصعب، يهجرها الطلّاب في اللحظة التي تعمل فيها بالضبط. فإن أنهيتَ جلسة دراسةٍ وأنت تشعر بالسلاسة والارتياح، فالأرجح أنّك كرّرتَ للتوّ ما كنتَ تعرفه أصلاً. وإن أنهيتَها وأنت تشعر أنّك كابدتَ ونسيتَ نصفها، لكنّك اضطُررتَ إلى الاستحضار لا إلى إعادة القراءة، فأنت شبه متيقّن أنّك تعلّمتَ أكثر. فالانزعاج ليس علامةً على أنّ الطريقة خاطئة، بل هو الطريقة نفسها.",
+          "keys": [["retrieve", "يستحضر"], ["illusion", "وهم"], ["spacing", "توزيع متباعد"], ["retention", "احتفاظ"], ["abandon", "يهجر"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "لماذا يفضّل الطلّاب إعادة القراءة؟", "opts": ["لأنّها أنجع", "لأنّها تبدو أسلس وأشبه بالتقدّم", "لأنّها أسرع", "لأنّ المعلّم يطلبها"], "a": 1, "why": "<code dir=ltr>It feels smoother … more like progress</code>." },
+            { "t": "mcq", "q": "ما الفرق الحاسم بين التعرّف والاستحضار؟", "opts": ["لا فرق", "التعرّف أن تميّز المادّة، والاستحضار أن تُخرجها من ذاكرتك", "الاستحضار أسهل", "التعرّف أعمق"], "a": 1, "why": "<code dir=ltr>recognising … is not the same as being able to retrieve</code>." },
+            { "t": "mcq", "q": "كم تقريباً تضاعف الطرائق الثلاث الاحتفاظ طويل المدى؟", "opts": ["لا تغيّر", "الثلث", "الضِّعف تقريباً", "عشرة أضعاف"], "a": 2, "why": "<code dir=ltr>roughly double long-term retention</code>." },
+            { "t": "mcq", "q": "متى يهجر الطلّاب الطرائق الناجعة؟", "opts": ["حين تفشل", "في اللحظة التي تعمل فيها لأنّها تبدو أصعب", "في نهاية الفصل", "قبل الامتحان"], "a": 1, "why": "<code dir=ltr>abandon them precisely when they are working</code>." },
+            { "t": "mcq", "q": "ماذا يعني أن تُنهي جلسةً وأنت مرتاح؟", "opts": ["تعلّمتَ كثيراً", "الأرجح أنّك كرّرتَ ما تعرفه أصلاً", "أنّ المادّة سهلة", "أنّك مستعدّ للامتحان"], "a": 1, "why": "<code dir=ltr>you have probably just rehearsed what you already knew</code>." },
+            { "t": "mcq", "q": "ما مقصد الجملة الأخيرة <code dir=ltr>It is the method</code>؟", "opts": ["أنّ الانزعاج عيب", "أنّ الانزعاج ذاته جزءٌ من الطريقة الناجعة", "أنّ الطريقة خاطئة", "أنّ الراحة مطلوبة"], "a": 1, "why": "الانزعاج علامة عمل لا علامة خطأ." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "لغة التعلّم في الحديث",
+          "rows": [
+            { "w": "I cannot get my head around it", "s": "I can't ged my head aroundit", "ar": "لا أستطيع استيعابه" },
+            { "w": "Does that make sense?", "s": "Duzzat make sense?", "ar": "هل هذا مفهوم؟" },
+            { "w": "Let me break it down", "s": "Lemme break id down", "ar": "دعني أفكّكه" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تشرح وتستوضح",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "قوالب الشرح",
+          "html": "<b>لتفكّك:</b> <code dir=ltr>Let me break it down · Think of it like …</code><br><b>لتبسّط:</b> <code dir=ltr>To put it simply, … · In other words, …</code><br><b>لتمثّل:</b> <code dir=ltr>For instance, … · Take X, for example.</code><br><b>لتتحقّق:</b> <code dir=ltr>Does that make sense? · Are you with me so far?</code><br><br>💡 أقوى أداة شرحٍ في الإنجليزية هي التشبيه: <code dir=ltr>Think of it like a filter — it lets some things through and blocks others.</code>"
+        },
+        {
+          "type": "note",
+          "title": "قوالب الاستيضاح",
+          "html": "• <code dir=ltr>Sorry, I'm not quite following.</code><br>• <code dir=ltr>Could you give me an example?</code><br>• <code dir=ltr>So you're saying that …, is that right?</code><br>• <code dir=ltr>What do you mean by …?</code><br><br>⚠️ لا تقل <code dir=ltr>I don't understand you</code> — تبدو اتّهاماً للمتحدّث. قل <code dir=ltr>I'm not quite following</code>."
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>I have interest to learn.</code> ✅ <code dir=ltr>I'm interested in learning.</code><br>❌ <code dir=ltr>I am study English since 2020.</code> ✅ <code dir=ltr>I've been studying English since 2020.</code><br>❌ <code dir=ltr>It is difficult for me the grammar.</code> ✅ <code dir=ltr>I find grammar difficult.</code><br>❌ <code dir=ltr>Explain me this.</code> ✅ <code dir=ltr>Could you explain this <b>to me</b>?</code>"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: نهاية ing",
+          "hint": "صوتٌ واحد لا صوتان",
+          "rows": [
+            { "w": "learning", "s": "LEARN-ing (بلا g مسموعة)", "ar": "صوت أنفيّ واحد /ŋ/ لا «نغ»" },
+            { "w": "studying", "s": "STUD-ee-in", "ar": "في الكلام السريع تسقط g تماماً" },
+            { "w": "thinking", "s": "THINK-ing", "ar": "لا تنطقها «ثينكينغ»" },
+            { "w": "going to", "s": "gonna", "ar": "حين تتبعها فعل" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "قوالب الاستيضاح كما تُنطق",
+          "rows": [
+            { "w": "I am not quite following", "s": "I'm nod quite followin", "ar": "لستُ متابعاً تماماً" },
+            { "w": "What do you mean by that?", "s": "Whaddya mean by that?", "ar": "ماذا تقصد بذلك؟" },
+            { "w": "Could you give me an example?", "s": "Couldja gimme an example?", "ar": "أيمكنك إعطائي مثالاً؟" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Explain me this word.</code>", "a": ["Could you explain this word to me?", "Explain this word to me", "Please explain this word to me"], "why": "explain تحتاج to قبل المخاطَب." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have interest to learn coding.</code>", "a": ["I'm interested in learning coding", "I am interested in learning coding"], "why": "interested in + ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>It is difficult for me the pronunciation.</code>", "a": ["I find pronunciation difficult", "I find the pronunciation difficult", "Pronunciation is difficult for me"], "why": "ترتيبٌ عربيّ لا إنجليزيّ." },
+            { "t": "mcq", "q": "لم تفهم شرح زميلك. ما الأنسب؟", "opts": ["I don't understand you.", "Sorry, I'm not quite following.", "Repeat.", "That's confusing."], "a": 1, "why": "الأولى تبدو اتّهاماً للمتحدّث." },
+            { "t": "mcq", "q": "كيف تُنطق نهاية <code dir=ltr>thinking</code>؟", "opts": ["ثينكينغ بـ g مسموعة", "ثينكِنْ بصوتٍ أنفيّ واحد", "ثينكين-ج", "ثينكن"], "a": 1, "why": "الـ ng صوتٌ أنفيّ واحد." },
+            { "t": "order", "q": "رتّب:", "ws": ["So", "you", "are", "saying", "that", "is", "that", "right"], "a": "So you are saying that is that right", "why": "قالب إعادة الصياغة للتأكيد." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: كيف تتعلّم؟",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "اكتب في <b>٩٠–١١٠ كلمة</b> منشوراً في مجموعة تعلّمٍ تشرح فيه طريقتك. يجب أن يتضمّن:<br><br>• فعلين يتبعهما ing وفعلين يتبعهما to<br>• جملةً بعد حرف جرّ + ing<br>• صعوبةً تواجهها وكيف تتعامل معها<br>• نصيحةً عمليّة واحدة<br>• سؤالاً للمجموعة في الختام",
+          "phrases": [
+            "I've been learning … for …",
+            "I enjoy …ing, but I struggle with …",
+            "I decided to … instead of …",
+            "I'm interested in …ing",
+            "What works for me is …",
+            "It took me a while to get the hang of …",
+            "What do you all do about …?"
+          ],
+          "model": "I've been learning English seriously for about a year. I enjoy reading and watching series with subtitles, but I really struggle with listening at natural speed.\n\nLast month I decided to change my method instead of just adding more hours. Now I'm interested in learning whole phrases rather than single words, and I avoid rereading my notes — I test myself instead. It felt harder at first, but much more sticks.\n\nWhat works for me is twenty minutes every morning before anything else. It took me a while to get the hang of it, but now I miss it when I skip it.\n\nWhat do you all do about listening speed?",
+          "modelAr": "أتعلّم الإنجليزية بجدّيّة منذ نحو عام. أستمتع بالقراءة ومشاهدة المسلسلات بالترجمة، لكنّني أكابد صعوبةً حقيقيّة في الاستماع بالسرعة الطبيعيّة.\n\nوقد قرّرتُ الشهر الماضي أن أغيّر طريقتي بدل مجرّد إضافة ساعات. فصرتُ مهتمّاً بتعلّم عباراتٍ كاملة لا كلماتٍ مفردة، وأتجنّب إعادة قراءة ملاحظاتي — بل أختبر نفسي بدلاً من ذلك. بدا الأمر أصعب في البداية، لكنّ ما يترسّخ أكثر بكثير.\n\nوما ينفعني هو عشرون دقيقة كلّ صباح قبل أيّ شيءٍ آخر. استغرقني إتقانه وقتاً، لكنّني الآن أفتقده حين أتخطّاه.\n\nفماذا تفعلون أنتم بشأن سرعة الاستماع؟",
+          "checklist": [
+            "استعملتُ فعلين يتبعهما ing (enjoy / avoid …)",
+            "استعملتُ فعلين يتبعهما to (decide / want …)",
+            "استعملتُ حرف جرّ + ing (interested in learning)",
+            "لم أقل explain me أو have interest to",
+            "ذكرتُ صعوبةً حقيقيّة لا عموميّات",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "ختمتُ بسؤالٍ للمجموعة",
+            "عدد الكلمات بين ٩٠ و١١٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات المجتمعات التعليميّة",
+          "rows": [
+            { "w": "What works for me is", "s": "Wut works fer me is", "ar": "ما ينفعني هو" },
+            { "w": "It took me a while", "s": "It took me a while", "ar": "استغرقني وقتاً" },
+            { "w": "What do you all do?", "s": "Whaddya all do?", "ar": "ماذا تفعلون جميعاً؟" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة التاسعة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>I avoid ___ late at night.</code>", "opts": ["to eat", "eating", "eat", "ate"], "a": 1, "why": "avoid + ing." },
+            { "t": "mcq", "q": "<code dir=ltr>They promised ___ us.</code>", "opts": ["helping", "to help", "help", "helped"], "a": 1, "why": "promise + to." },
+            { "t": "mcq", "q": "<code dir=ltr>She's good at ___ problems.</code>", "opts": ["to solve", "solving", "solve", "solved"], "a": 1, "why": "بعد حرف الجرّ at." },
+            { "t": "mcq", "q": "<code dir=ltr>He stopped ___ a coffee on the way.</code>", "opts": ["buying", "to buy", "buy", "bought"], "a": 1, "why": "توقّف لكي يشتري ← stop to do." },
+            { "t": "mcq", "q": "<code dir=ltr>I remember ___ the door — I'm certain.</code>", "opts": ["to lock", "locking", "lock", "locked"], "a": 1, "why": "remember doing = يتذكّر أنّه فعل." },
+            { "t": "mcq", "q": "<code dir=ltr>brush up on</code> تعني…", "opts": ["ينظّف", "يُنعش معلوماتٍ نسيها", "يتعلّم من الصفر", "يراجع سريعاً قبل الامتحان"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>sink in</code> تعني…", "opts": ["يغرق", "يترسّخ في الذهن", "ينخفض", "يختفي"], "a": 1, "why": "استقرار المعلومة." },
+            { "t": "mcq", "q": "<code dir=ltr>the gist</code> تعني…", "opts": ["التفصيل", "الفكرة العامّة", "الخاتمة", "المقدّمة"], "a": 1, "why": "زُبدة المعنى." },
+            { "t": "gap", "q": "<code dir=ltr>I'm thinking of ___ (take) a course.</code>", "a": ["taking"], "why": "بعد of يأتي ing." },
+            { "t": "gap", "q": "<code dir=ltr>We managed ___ (solve) it.</code>", "a": ["to solve"], "why": "manage + to." },
+            { "t": "gap", "q": "<code dir=ltr>Would you mind ___ (repeat) that?</code>", "a": ["repeating"], "why": "mind + ing." },
+            { "t": "gap", "q": "<code dir=ltr>He refused ___ (answer) the question.</code>", "a": ["to answer"], "why": "refuse + to." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I enjoy to read.</code>", "a": ["I enjoy reading", "I enjoy reading."], "why": "enjoy + ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She suggested to meet at six.</code>", "a": ["She suggested meeting at six", "She suggested meeting at six."], "why": "suggest + ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Explain me the rule.</code>", "a": ["Explain the rule to me", "Could you explain the rule to me?", "Please explain the rule to me"], "why": "explain + to + المخاطَب." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "am", "interested", "in", "learning", "more"], "a": "I am interested in learning more", "why": "حرف جرّ + ing." },
+            { "t": "order", "q": "رتّب:", "ws": ["It", "took", "me", "a", "while", "to", "understand"], "a": "It took me a while to understand", "why": "قالبٌ شائع." },
+            { "t": "dict", "say": "I'm tryin ta ged the hang of it", "a": ["I'm trying to get the hang of it", "I am trying to get the hang of it", "im trying to get the hang of it"], "why": "ing تفقد g، وto → «تَ»، وget بـ d." },
+            { "t": "dict", "say": "Duzzat make sense?", "a": ["Does that make sense?", "does that make sense"], "why": "does that تلتصق." },
+            { "t": "mcq", "q": "الفرق بين <code dir=ltr>try to open</code> و<code dir=ltr>try opening</code>؟", "opts": ["لا فرق", "الأولى محاولةٌ بجهد، والثانية تجربة أسلوب", "الأولى ماضٍ", "الثانية أمر"], "a": 1, "why": "try to = يبذل جهداً · try doing = يجرّب طريقة." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "محاضرات TED-Ed القصيرة", "d": "شروحٌ مصوّرة من خمس دقائق بلغةٍ واضحة", "task": "شاهد حلقةً، وسجّل خمس أفعالٍ تبعها ing أو to." },
+            { "t": "قنوات تعلّم اللغات", "d": "ابحث عن «language learning tips English»", "task": "سجّل ثلاث نصائح بصيغتها الإنجليزيّة الكاملة." },
+            { "t": "بودكاست عن التعلّم", "d": "ابحث عن «learning how to learn podcast»", "task": "استمع عشر دقائق، وحدّد ثلاثة تعابير عن الصعوبة أو الاستيعاب." }
+          ]
+        }
+      ]
+    }
+  ]
+}
