@@ -165,6 +165,10 @@ let COURSE = null;
 /* ============================================================
    ٥) أدوات المقارنة
    ============================================================ */
+/* نصّ المستخدم يدخل innerHTML، فلا بدّ من تهريبه */
+const esc = s => String(s).replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
 const norm = s => String(s).toLowerCase()
   .replace(/[‘’]/g, "'").replace(/[“”]/g, '"')
   .replace(/[.,!?;:"]/g, "").replace(/\s+/g, " ").trim();
@@ -187,6 +191,7 @@ function route() {
   if (!p.length) return viewHome();
   if (p[0] === "unit" && p[1]) return guard(p[1], () =>
     p[2] != null ? viewLesson(p[1], +p[2]) : viewUnit(p[1]));
+  if (p[0] === "backup") return viewBackup();
   if (p[0] === "review") return viewReview();
   if (p[0] === "errors") return viewErrors();
   viewHome();
@@ -311,7 +316,12 @@ async function viewHome() {
     w.appendChild(list);
   }
 
-  w.appendChild(el("footer", "", "المنهج يُبنى على دفعات — الوحدات المعلّمة بـ«قريباً» تصلك تلقائيّاً عند إضافتها."));
+  const bk = el("button", "btn full ghost bk-cta", "💾 نسخة تقدّمك — تصدير واستعادة");
+  bk.type = "button";
+  bk.addEventListener("click", () => go("#/backup"));
+  w.appendChild(bk);
+
+  w.appendChild(el("footer", "", "تقدّمك محفوظٌ على هذا الجهاز وحده. خُذ نسخةً كلّما أنجزت وحدة."));
   app.appendChild(w);
 
   /* نحمّل الوحدات الجاهزة بهدوء لعرض نسب التقدّم */
@@ -563,6 +573,198 @@ function rReading(b) {
   return w;
 }
 
+/* ============================================================
+   ١١ب) النسخة الاحتياطيّة — تقدّمك محفوظ على هذا الجهاز وحده
+   ============================================================ */
+function backupBlob() {
+  let writes = {};
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.indexOf("wr:") === 0) writes[k] = localStorage.getItem(k);
+    }
+  } catch (e) {}
+  return JSON.stringify({ app: "en-course", v: 2, at: new Date().toISOString(), state: S, writes: writes });
+}
+
+function viewBackup() {
+  topbar("نسخة تقدّمك", "تصدير واستعادة", "#/");
+  app.innerHTML = "";
+  const w = el("div", "wrap");
+
+  const done = Object.keys(S.done).length;
+  const srs  = Object.keys(S.srs).length;
+  const tst  = Object.values(S.tests || {}).filter(t => t.passed).length;
+
+  const sum = el("div", "note");
+  sum.appendChild(el("h3", "", "ما في تقدّمك الآن"));
+  const g = el("div", "bk-grid");
+  [["درساً أنجزته", done], ["عنصراً في التكرار", srs], ["اختباراً مجتازاً", tst],
+   ["يوماً في السلسلة", S.streak.count || 0]].forEach(([t, n]) =>
+    g.appendChild(el("div", "bk-s", "<b>" + n2(n) + "</b><span>" + t + "</span>")));
+  sum.appendChild(g);
+  sum.appendChild(el("div", "n-ar", "كلّ هذا محفوظٌ في متصفّح هذا الجهاز وحده. حذف التطبيق أو تغيير الجهاز يمحوه — ولا سبيل إلى استرجاعه إلّا من نسخةٍ أخذتها أنت."));
+  w.appendChild(sum);
+
+  /* ---- تصدير ---- */
+  const ex = el("div", "note");
+  ex.appendChild(el("h3", "", "١. خُذ نسخة"));
+  ex.appendChild(el("div", "", "انسخ النصّ واحفظه حيث شئت — في الملاحظات، أو أرسله إلى بريدك. سطرٌ واحدٌ طويل، لا تقتطع منه شيئاً."));
+  const data = backupBlob();
+  const box = el("textarea", "ta bk-ta"); box.readOnly = true; box.value = data;
+  ex.appendChild(box);
+  const row = el("div", "bk-row");
+
+  const cp = el("button", "btn", "📋 انسخ إلى الحافظة"); cp.type = "button";
+  cp.addEventListener("click", async () => {
+    let ok = false;
+    try { await navigator.clipboard.writeText(data); ok = true; }
+    catch (e) { try { box.select(); box.setSelectionRange(0, 999999); ok = document.execCommand("copy"); } catch (e2) {} }
+    toast(ok ? "نُسخت — الصقها في مكانٍ آمن الآن." : "تعذّر النسخ تلقائيّاً؛ حدّد النصّ وانسخه يدويّاً.", ok ? 0 : 1);
+  });
+  row.appendChild(cp);
+
+  const dl = el("a", "btn ghost", "⬇︎ نزّلها ملفّاً");
+  try {
+    dl.href = URL.createObjectURL(new Blob([data], { type: "application/json" }));
+    dl.download = "تقدّمي-" + new Date().toISOString().slice(0, 10) + ".json";
+  } catch (e) { dl.hidden = true; }
+  row.appendChild(dl);
+  ex.appendChild(row);
+  w.appendChild(ex);
+
+  /* ---- استعادة ---- */
+  const im = el("div", "note");
+  im.appendChild(el("h3", "", "٢. استعد نسخة"));
+  im.appendChild(el("div", "", "الصق نسخةً أخذتها سابقاً. <b>ستحلّ محلّ تقدّمك الحاليّ بالكامل</b> — خُذ نسخةً من الحالي أوّلاً إن كان فيه ما يُخسَر."));
+  const inp = el("textarea", "ta bk-ta"); inp.placeholder = "الصق النصّ هنا…";
+  im.appendChild(inp);
+  const rb = el("button", "btn full", "↩︎ استعد هذه النسخة"); rb.type = "button";
+  let armed = false;
+  rb.addEventListener("click", () => {
+    let d;
+    try { d = JSON.parse(inp.value.trim()); } catch (e) { return toast("النصّ ليس نسخةً صالحة — تأكّد أنّك نسخته كاملاً.", 1); }
+    if (!d || d.app !== "en-course" || !d.state || typeof d.state !== "object" || !d.state.srs)
+      return toast("هذه ليست نسخةً من هذا التطبيق.", 1);
+    if (!armed) {
+      armed = true;
+      rb.textContent = "⚠︎ اضغط ثانيةً لتأكيد الاستبدال";
+      rb.classList.add("danger");
+      const n = Object.keys(d.state.done || {}).length;
+      toast("النسخة سليمة (" + n2(n) + " درساً، بتاريخ " + (d.at || "").slice(0, 10) + "). اضغط ثانيةً للاستبدال.", 1);
+      setTimeout(() => { if (armed) { armed = false; rb.textContent = "↩︎ استعد هذه النسخة"; rb.classList.remove("danger"); } }, 8000);
+      return;
+    }
+    try {
+      localStorage.setItem(KEY, JSON.stringify(d.state));
+      if (d.writes) Object.keys(d.writes).forEach(k => { if (k.indexOf("wr:") === 0) localStorage.setItem(k, d.writes[k]); });
+    } catch (e) { return toast("تعذّرت الكتابة إلى التخزين.", 1); }
+    toast("استُعيد تقدّمك — سيُعاد تحميل التطبيق.", 0);
+    setTimeout(() => location.replace(location.pathname), 900);
+  });
+  im.appendChild(rb);
+  w.appendChild(im);
+
+  w.appendChild(el("footer", "", "خُذ نسخةً كلّما أنجزت وحدة. دقيقةٌ الآن تحمي أشهراً."));
+  app.appendChild(w);
+}
+
+/* ============================================================
+   ١٢) مدقّق الكتابة
+   قواعدُ عالية الدقّة لأخطاء الناطقين بالعربيّة التي يعالجها المنهج.
+   لا يدّعي تصحيحاً كاملاً — يلتقط ما درسته أنت بالتحديد.
+   ============================================================ */
+const WRULES = [
+  { re: /\b(informations|evidences|researches|advices|feedbacks|knowledges|equipments|softwares|staffs|progresses)\b/gi,
+    ar: "اسمٌ غير معدود لا يُجمع", fix: "information · evidence · research · advice · feedback", u: 22 },
+  { re: /\b(a|an)\s+(advice|information|evidence|research|feedback|knowledge|equipment)\b/gi,
+    ar: "اسمٌ غير معدود لا يسبقه a/an", fix: "some advice · a piece of advice", u: 22 },
+  { re: /\b(said|says|say|saying)\s+(me|him|her|us|them)\b/gi,
+    ar: "say لا تأخذ مفعولاً شخصيّاً مباشراً", fix: "told me · said to me", u: 17 },
+  { re: /\bif\s+\w+(\s+\w+)?\s+would\s+have\b/gi,
+    ar: "لا توضع would في شقّ if", fix: "If I had known …", u: 16 },
+  { re: /\b(would|could|should|must|might)\s+of\b/gi,
+    ar: "would of ليست إنجليزيّة — هي سماعُ would've", fix: "would have · could have", u: 16 },
+  { re: /\bdiscuss(ed|es|ing)?\s+about\b/gi,
+    ar: "discuss فعلٌ متعدٍّ بلا حرف جرّ", fix: "discuss the issue", u: 17 },
+  { re: /\bexplain(ed|s|ing)?\s+(me|him|her|us|them)\b/gi,
+    ar: "explain تحتاج to قبل الشخص", fix: "explain it to me", u: 20 },
+  { re: /\b(am|is|are|was|were)\s+agree\b/gi,
+    ar: "agree فعلٌ تامّ لا صفة", fix: "I agree · I don't agree", u: 19 },
+  { re: /\bsince\s+(a|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+)\s+(years?|months?|weeks?|days?|hours?|decades?)\b/gi,
+    ar: "المدّة تأخذ for لا since", fix: "for two years", u: 3 },
+  { re: /\bmust\s?n'?t\s+have\b/gi,
+    ar: "نقيض must have هو can't have", fix: "can't have · couldn't have", u: 18 },
+  { re: /\bwish\s+(I|we|you|he|she|they|it)\s+would\s+(have\s+)?\b/gi,
+    ar: "wish + would لا تُستعمل عن النفس، و«would have» خطأ", fix: "I wish I knew · I wish I had gone", u: 23 },
+  { re: /\b(I'?d|I\s+would)\s+rather\s+(you|he|she|they|we)\s+(don'?t|doesn'?t|do\s+not|does\s+not)\b/gi,
+    ar: "I'd rather بفاعلٍ مختلف تأخذ الماضي البسيط", fix: "I'd rather you didn't", u: 23 },
+  { re: /\baccording\s+to\s+(me|my\s+(opinion|view|point))\b/gi,
+    ar: "according to للآخرين لا للنفس", fix: "In my view · From my point of view", u: 17 },
+  { re: /\bin\s+nowadays\b/gi,
+    ar: "nowadays ظرفٌ بلا حرف جرّ", fix: "Nowadays · These days", u: 22 },
+  { re: /\brevert\s+back\b|\bdo\s+the\s+needful\b/gi,
+    ar: "تعبيرٌ يكشف أنّك غير ناطقٍ أصليّ", fix: "get back to me · take care of it", u: 19 },
+  { re: /\barrive(d|s)?\s+to\b/gi,
+    ar: "arrive at لمكان، وarrive in لمدينة", fix: "arrived at the airport", u: 7 },
+  { re: /\b(depend\s+of|(is|are|am|was|were)\s+depend)\b/gi,
+    ar: "depend فعلٌ تامّ ويتبعه on", fix: "It depends on …", u: 22 },
+  { re: /\bafford\s+to\s+(a|an|the)\b/gi,
+    ar: "afford يتعدّى مباشرةً إلى الاسم", fix: "afford a new car", u: 16 },
+  { re: /\bprices?\s+(is|are|was|were)\s+(very\s+|too\s+|so\s+|really\s+)?expensive\b/gi,
+    ar: "السعر مرتفع، والسلعة غالية", fix: "prices are high · it is expensive", u: 16 },
+  { re: /\bmore\s+(better|worse|easier|bigger|faster|higher|larger|smaller|older|younger)\b|\bmost\s+(best|worst|easiest|biggest)\b/gi,
+    ar: "مقارنةٌ مضاعفة", fix: "better · the best", u: 5 },
+  { re: /\bpeoples\b/gi, ar: "people جمعٌ أصلاً", fix: "people", u: 1 },
+  { re: /\bI\s+(am|'m|was)\s+boring\b/gi,
+    ar: "boring صفةُ الشيء المُمِلّ، وbored شعورك", fix: "I'm bored", u: 21 },
+  { re: /\b(the\s+)?(film|book|novel|article|text|report)\s+(talks|talk|talked)\s+about\b/gi,
+    ar: "العمل «يتناول» ولا «يتحدّث»", fix: "is about · deals with", u: 21 },
+  { re: /\bit'?s\s+time\s+(we|I|you|they|he|she)\s+(go|leave|start|stop|do|make|write|take)\b/gi,
+    ar: "it's time يتبعها الماضي البسيط", fix: "It's time we went", u: 23 },
+  { re: /\b(proves|prove|proved)\s+that\b/gi,
+    ar: "prove مبالغة في الكتابة التحليليّة", fix: "suggests · indicates · shows", u: 22 },
+  { re: /\b(all|every|everyone|everybody|always|never)\s+(people|the\s+people|companies|countries)\b/gi,
+    ar: "مطلقاتٌ تُفقد النصّ مصداقيّته", fix: "most · in most cases · typically", u: 22 }
+];
+
+/* يلتقط الأخطاء ويعيد لكلٍّ منها سياقَه لتراه في موضعه */
+function checkWriting(text) {
+  const hits = [];
+  const seen = new Set();
+  WRULES.forEach(r => {
+    r.re.lastIndex = 0;
+    let m;
+    while ((m = r.re.exec(text)) !== null) {
+      if (m[0] === "") { r.re.lastIndex++; continue; }
+      const key = r.ar + "|" + m[0].toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const a = Math.max(0, m.index - 34), z = Math.min(text.length, m.index + m[0].length + 34);
+      hits.push({
+        bad: m[0], ar: r.ar, fix: r.fix, u: r.u,
+        ctx: (a ? "…" : "") + text.slice(a, m.index) + "⦙" + m[0] + "⦙" +
+             text.slice(m.index + m[0].length, z) + (z < text.length ? "…" : "")
+      });
+    }
+  });
+  return hits;
+}
+
+/* المدى المطلوب مكتوبٌ داخل نصّ المهمّة نفسه. وحدات المستوى الأوّل
+   تكتبه بالأرقام العربيّة («٦٠–٨٠ كلمة») والثاني بالإنجليزيّة
+   («120–140 words») — فنوحّد الأرقام أوّلاً ثمّ نقرأ الصيغتين. */
+function wordTarget(prompt) {
+  const t = String(prompt || "")
+    .replace(/[٠-٩]/g, d => String(d.charCodeAt(0) - 1632))
+    .replace(/[۰-۹]/g, d => String(d.charCodeAt(0) - 1776));
+  const m = /(\d{2,3})\s*[–—‑-]\s*(\d{2,3})\s*(words|كلمة|كلمات)/i.exec(t);
+  if (m) return [+m[1], +m[2]];
+  const one = /\b(\d{2,3})\s*(words|كلمة|كلمات)/i.exec(t);
+  if (one) { const n = +one[1]; return [Math.round(n * .9), Math.round(n * 1.1)]; }
+  return null;
+}
+
 function rWriting(b) {
   const w = el("div");
   w.appendChild(el("div", "blk-h", "✍️ " + (b.title || "المهمّة")));
@@ -589,6 +791,42 @@ function rWriting(b) {
   };
   ta.addEventListener("input", upd); upd();
   w.appendChild(ta); w.appendChild(cnt);
+
+  /* ---- مدقّق الكتابة ---- */
+  const ck = el("button", "btn full", "🔍 افحص نصّي");
+  ck.type = "button";
+  const out = el("div", "wchk"); out.hidden = true;
+  ck.addEventListener("click", () => {
+    const txt = ta.value.trim();
+    out.hidden = false; out.innerHTML = "";
+    if (!txt) { out.appendChild(el("div", "wc-none", "اكتب نصّك أوّلاً ثمّ افحصه.")); return; }
+
+    const words = txt.split(/\s+/).length;
+    const tgt = wordTarget(b.prompt);
+    if (tgt) {
+      const okLen = words >= tgt[0] && words <= tgt[1];
+      out.appendChild(el("div", "wc-len " + (okLen ? "ok" : "no"),
+        (okLen ? "✓ " : "△ ") + "الطول: " + n2(words) + " كلمة — المطلوب " +
+        n2(tgt[0]) + "–" + n2(tgt[1]) +
+        (okLen ? "" : words < tgt[0] ? " (تنقصك " + n2(tgt[0] - words) + ")" : " (زائد " + n2(words - tgt[1]) + ")")));
+    }
+
+    const hits = checkWriting(txt);
+    if (!hits.length) {
+      out.appendChild(el("div", "wc-none", "✓ لا خطأ من قائمة أخطاء المنهج في نصّك.<br><span>هذا لا يعني أنّه بلا خطأ — المدقّق يعرف ما درسته أنت فقط، ولا يحكم على الأسلوب ولا على المعنى.</span>"));
+    } else {
+      out.appendChild(el("div", "wc-h", "وجدتُ " + n2(hits.length) + (hits.length === 1 ? " ملاحظة" : hits.length === 2 ? " ملاحظتين" : " ملاحظات") + ":"));
+      hits.forEach(h => {
+        const it = el("div", "wc-i");
+        it.appendChild(el("div", "wc-ctx", esc(h.ctx).replace(/\u2999(.+?)\u2999/, '<mark>$1</mark>')));
+        it.appendChild(el("div", "wc-why", h.ar));
+        it.appendChild(el("div", "wc-fix", "الصواب: <span>" + esc(h.fix) + "</span><em>الوحدة " + n2(h.u) + "</em>"));
+        out.appendChild(it);
+      });
+    }
+    out.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  });
+  w.appendChild(ck); w.appendChild(out);
 
   if (b.checklist) {
     const p = el("div", "note");
