@@ -1,0 +1,1369 @@
+{
+ "id": "unit-23",
+ "icon": "🧭",
+ "title": "الأخلاق والقرارات",
+ "subtitle": "wish, if only, I'd rather and unreal past",
+ "intro": "English uses the past tense to talk about things that are not real. <code dir=ltr>I wish I knew</code> is about now. <code dir=ltr>It's time we left</code> is about now. Once you see the pattern, a whole family of structures opens at once.<span class=n-ar>تستعمل الإنجليزيّة صيغة الماضي للحديث عمّا ليس واقعاً. I wish I knew عن الحاضر، وIt's time we left عن الحاضر. وحين ترى النمط تنفتح عائلةٌ كاملة من التراكيب دفعةً واحدة.</span>",
+ "goals": [
+  "I can express regret, preference and criticism precisely",
+  "I can discuss dilemmas and moral reasoning",
+  "I can use the unreal past across all its structures",
+  "I can hear these forms in real conversation"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "The unreal past",
+   "subtitle": "wish · if only · I'd rather · it's time · as if",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "wish: three times, three forms",
+     "html": "<b>About now</b> — wish + past simple<br><code dir=ltr>I wish I <b>knew</b> the answer.</code> — I don't<br><code dir=ltr>I wish I <b>were</b> braver.</code> — <code dir=ltr>were</code> for all persons in careful English<br><br><b>About the past</b> — wish + past perfect<br><code dir=ltr>I wish I <b>had said</b> something.</code> — I didn't, and I regret it<br><br><b>About someone else's behaviour</b> — wish + would<br><code dir=ltr>I wish he <b>would stop</b> interrupting.</code> — annoyance, and it is ongoing<br><br>⚠️ You cannot say <code dir=ltr>I wish I would …</code> about yourself — use <code dir=ltr>could</code>.<span class=n-ar>ثلاثة أزمنة وثلاث صيغ. وwould لا تُستعمل عن نفسك، بل could.</span>"
+    },
+    {
+     "type": "note",
+     "title": "if only — the emphatic version",
+     "html": "Same grammar as <code dir=ltr>wish</code>, more emotional weight:<br><br><code dir=ltr><b>If only</b> I had listened.</code> — stronger than <code dir=ltr>I wish I had listened</code><br><code dir=ltr><b>If only</b> they would answer the phone.</code><br><br>Often left unfinished in speech: <code dir=ltr>If only we'd known …</code> — the silence does the work.<br><br>Use it once. Twice is melodrama.<span class=n-ar>النحو نفسه بثقلٍ عاطفيّ أكبر. وتُترك ناقصةً في الكلام غالباً، فيقوم الصمت بالمهمّة.</span>"
+    },
+    {
+     "type": "note",
+     "title": "I'd rather — preference about others",
+     "html": "<b>Same subject</b> → bare infinitive:<br><code dir=ltr>I'd rather <b>wait</b>.</code> · <code dir=ltr>I'd rather <b>not say</b>.</code><br><br><b>Different subject</b> → past tense:<br><code dir=ltr>I'd rather you <b>didn't</b> mention it.</code> — about now<br><code dir=ltr>I'd rather you <b>hadn't told</b> him.</code> — about the past<br><br><code dir=ltr>I'd rather you didn't</code> is the most polite refusal in English. It is softer than <code dir=ltr>please don't</code> and firmer than <code dir=ltr>maybe not</code>.<span class=n-ar>«I'd rather you didn't» أرقّ رفضٍ في الإنجليزيّة: ألطف من please don't وأحزم من maybe not.</span>"
+    },
+    {
+     "type": "note",
+     "title": "it's time · as if · suppose",
+     "html": "<code dir=ltr><b>It's time we left.</b></code> — we haven't, and we should have already<br><code dir=ltr><b>It's high time</b> someone said this.</code> — overdue, slightly critical<br><br><code dir=ltr>He talks <b>as if he knew</b> her.</code> — he doesn't<br><code dir=ltr>She looked <b>as though she had been crying</b>.</code><br><br><code dir=ltr><b>Suppose</b> we said no. What then?</code> — hypothetical proposal<br><br>All of them use a past form for something unreal or overdue. That is the whole system.<span class=n-ar>كلّها تستعمل صيغة الماضي لما هو غير واقعٍ أو متأخّرٌ عن أوانه. هذا هو النظام كلّه.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "I <b>wish</b> I <b>had asked</b> more questions at the time.",
+       "ar": "ليتني سألتُ أسئلةً أكثر حينها."
+      },
+      {
+       "en": "<b>If only</b> the policy <b>had been</b> written down.",
+       "ar": "لو أنّ السياسة كُتبت فقط."
+      },
+      {
+       "en": "I'd <b>rather you didn't</b> forward that email.",
+       "ar": "أفضّل ألّا تعيد توجيه تلك الرسالة."
+      },
+      {
+       "en": "It's <b>time we stopped</b> pretending this is fine.",
+       "ar": "آن الأوان لنتوقّف عن التظاهر بأنّ هذا مقبول."
+      },
+      {
+       "en": "He answered <b>as if he hadn't heard</b> the question.",
+       "ar": "أجاب كأنّه لم يسمع السؤال."
+      },
+      {
+       "en": "I <b>wish</b> they <b>would decide</b> one way or the other.",
+       "ar": "ليتهم يحسمون الأمر في اتّجاهٍ أو آخر."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "these forms contract almost to nothing",
+     "rows": [
+      {
+       "w": "I wish I'd known",
+       "s": "I wish I'd nown",
+       "ar": "ليتني كنتُ أعلم"
+      },
+      {
+       "w": "I'd rather not",
+       "s": "I'd rather not",
+       "ar": "أفضّل ألّا"
+      },
+      {
+       "w": "If only they'd said",
+       "s": "If only they'd sed",
+       "ar": "لو أنّهم قالوا"
+      },
+      {
+       "w": "It's time we went",
+       "s": "Its time we went",
+       "ar": "آن أوان ذهابنا"
+      },
+      {
+       "w": "as if nothing happened",
+       "s": "az if nuthin happend",
+       "ar": "كأنّ شيئاً لم يكن"
+      },
+      {
+       "w": "I'd rather you didn't",
+       "s": "I'd rather ya didn",
+       "ar": "أفضّل ألّا تفعل"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I wish I ___ what to do.</code> (الآن)",
+       "opts": [
+        "know",
+        "knew",
+        "had known",
+        "would know"
+       ],
+       "a": 1,
+       "why": "wish + ماضٍ بسيط للحاضر."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I wish I ___ the message before the meeting.</code> (ندم على الماضي)",
+       "opts": [
+        "read",
+        "had read",
+        "would read",
+        "was reading"
+       ],
+       "a": 1,
+       "why": "wish + ماضٍ تامّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I wish he ___ interrupting.</code>",
+       "opts": [
+        "stopped",
+        "would stop",
+        "had stopped",
+        "stops"
+       ],
+       "a": 1,
+       "why": "wish + would لسلوك الآخرين المزعج."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather you ___ that in the email.</code>",
+       "opts": [
+        "don't mention",
+        "didn't mention",
+        "not mention",
+        "wouldn't mentioning"
+       ],
+       "a": 1,
+       "why": "فاعلٌ مختلف ← ماضٍ بسيط."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>It's time we ___ (leave).</code>",
+       "a": [
+        "left"
+       ],
+       "why": "it's time + ماضٍ بسيط."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I wish I would know the answer.</code>",
+       "a": [
+        "I wish I knew the answer",
+        "I wish I could know the answer"
+       ],
+       "why": "لا تُستعمل would عن النفس."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "He",
+        "talks",
+        "as",
+        "if",
+        "he",
+        "had",
+        "been",
+        "there"
+       ],
+       "a": "He talks as if he had been there",
+       "why": "as if + ماضٍ تامّ لغير الواقع."
+      },
+      {
+       "t": "dict",
+       "say": "I'd rather ya didn forward it",
+       "a": [
+        "I'd rather you didn't forward it",
+        "Id rather you didnt forward it"
+       ],
+       "why": "rather you ← رادَ يَ، وdidn't ← دِدن."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: ethics and decisions",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Moral vocabulary",
+     "items": [
+      {
+       "w": "dilemma",
+       "pos": "noun",
+       "ar": "معضلة",
+       "ex": [
+        {
+         "en": "It was a genuine <b>dilemma</b>, not a hard choice.",
+         "ar": "كانت معضلةً حقيقيّة لا مجرّد خيارٍ صعب."
+        }
+       ]
+      },
+      {
+       "w": "integrity",
+       "pos": "noun",
+       "ar": "نزاهة",
+       "ex": [
+        {
+         "en": "<b>Integrity</b> is what you do when it costs you.",
+         "ar": "النزاهة هي ما تفعله حين يكلّفك."
+        }
+       ]
+      },
+      {
+       "w": "conscience",
+       "pos": "noun",
+       "ar": "ضمير",
+       "ex": [
+        {
+         "en": "He resigned on a matter of <b>conscience</b>.",
+         "ar": "استقال لمسألة ضمير."
+        }
+       ]
+      },
+      {
+       "w": "justify",
+       "pos": "verb",
+       "ar": "يبرّر",
+       "ex": [
+        {
+         "en": "Nothing could <b>justify</b> hiding the report.",
+         "ar": "لا شيء يمكن أن يبرّر إخفاء التقرير."
+        }
+       ]
+      },
+      {
+       "w": "compromise",
+       "pos": "noun/verb",
+       "ar": "تسوية / يساوم على مبدأ",
+       "ex": [
+        {
+         "en": "She refused to <b>compromise</b> on that one point.",
+         "ar": "رفضت المساومة على تلك النقطة وحدها."
+        }
+       ]
+      },
+      {
+       "w": "obligation",
+       "pos": "noun",
+       "ar": "التزام أخلاقيّ",
+       "ex": [
+        {
+         "en": "We had an <b>obligation</b> to warn them.",
+         "ar": "كان علينا التزامٌ بتحذيرهم."
+        }
+       ]
+      },
+      {
+       "w": "consent",
+       "pos": "noun/verb",
+       "ar": "موافقة مستنيرة",
+       "ex": [
+        {
+         "en": "Nobody gave informed <b>consent</b>.",
+         "ar": "لم يمنح أحدٌ موافقةً مستنيرة."
+        }
+       ]
+      },
+      {
+       "w": "harm",
+       "pos": "noun/verb",
+       "ar": "ضرر",
+       "ex": [
+        {
+         "en": "The <b>harm</b> was indirect and entirely foreseeable.",
+         "ar": "كان الضرر غير مباشرٍ ومتوقّعاً تماماً."
+        }
+       ]
+      },
+      {
+       "w": "trade-off",
+       "pos": "noun",
+       "ar": "مقايضة / موازنة",
+       "ex": [
+        {
+         "en": "Every safety rule is a <b>trade-off</b> against speed.",
+         "ar": "كلّ قاعدة أمانٍ مقايضةٌ مع السرعة."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Judgement and blame",
+     "items": [
+      {
+       "w": "regret",
+       "pos": "noun/verb",
+       "ar": "ندم / يندم",
+       "ex": [
+        {
+         "en": "My only <b>regret</b> is the delay.",
+         "ar": "ندمي الوحيد هو التأخير."
+        }
+       ]
+      },
+      {
+       "w": "remorse",
+       "pos": "noun",
+       "ar": "ندم عميق",
+       "ex": [
+        {
+         "en": "He showed no <b>remorse</b> at any point.",
+         "ar": "لم يُظهر ندماً في أيّ لحظة."
+        }
+       ]
+      },
+      {
+       "w": "hypocrisy",
+       "pos": "noun",
+       "ar": "نفاق / ازدواجيّة",
+       "ex": [
+        {
+         "en": "The <b>hypocrisy</b> was the part people remembered.",
+         "ar": "الازدواجيّة هي ما تذكّره الناس."
+        }
+       ]
+      },
+      {
+       "w": "scapegoat",
+       "pos": "noun",
+       "ar": "كبش فداء",
+       "ex": [
+        {
+         "en": "They needed a <b>scapegoat</b> before the hearing.",
+         "ar": "احتاجوا كبش فداءٍ قبل الجلسة."
+        }
+       ]
+      },
+      {
+       "w": "whistleblower",
+       "pos": "noun",
+       "ar": "مُبلِّغ عن مخالفات",
+       "ex": [
+        {
+         "en": "The <b>whistleblower</b> waited two years.",
+         "ar": "انتظر المبلّغ عامين."
+        }
+       ]
+      },
+      {
+       "w": "turn a blind eye",
+       "pos": "phrase",
+       "ar": "يتغاضى عمداً",
+       "ex": [
+        {
+         "en": "Three managers <b>turned a blind eye</b>.",
+         "ar": "تغاضى ثلاثة مديرين عمداً."
+        }
+       ]
+      },
+      {
+       "w": "condone",
+       "pos": "verb",
+       "ar": "يتغاضى / يبيح ضمناً",
+       "ex": [
+        {
+         "en": "Silence can <b>condone</b> more than speech.",
+         "ar": "قد يبيح الصمت أكثر ممّا يبيح الكلام."
+        }
+       ]
+      },
+      {
+       "w": "at stake",
+       "pos": "phrase",
+       "ar": "على المحكّ",
+       "ex": [
+        {
+         "en": "What was <b>at stake</b> was not money.",
+         "ar": "ما كان على المحكّ ليس المال."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Deciding",
+     "items": [
+      {
+       "w": "weigh up",
+       "pos": "verb",
+       "ar": "يوازن بين",
+       "ex": [
+        {
+         "en": "You have to <b>weigh up</b> both risks honestly.",
+         "ar": "عليك أن توازن بين الخطرين بأمانة."
+        }
+       ]
+      },
+      {
+       "w": "err on the side of",
+       "pos": "phrase",
+       "ar": "يميل احتياطاً إلى",
+       "ex": [
+        {
+         "en": "<b>Err on the side of</b> telling them too early.",
+         "ar": "مِل احتياطاً إلى إخبارهم مبكّراً أكثر ممّا يلزم."
+        }
+       ]
+      },
+      {
+       "w": "second-guess",
+       "pos": "verb",
+       "ar": "يراجع قراره بعد فوات الأوان",
+       "ex": [
+        {
+         "en": "Don't <b>second-guess</b> a decision you made with less information.",
+         "ar": "لا تراجع قراراً اتّخذته بمعلوماتٍ أقلّ."
+        }
+       ]
+      },
+      {
+       "w": "with hindsight",
+       "pos": "phrase",
+       "ar": "بأثر رجعيّ",
+       "ex": [
+        {
+         "en": "<b>With hindsight</b>, the signals were obvious.",
+         "ar": "بأثر رجعيّ كانت الإشارات واضحة."
+        }
+       ]
+      },
+      {
+       "w": "in good faith",
+       "pos": "phrase",
+       "ar": "بحسن نيّة",
+       "ex": [
+        {
+         "en": "They acted <b>in good faith</b> and were still wrong.",
+         "ar": "تصرّفوا بحسن نيّةٍ وكانوا مخطئين مع ذلك."
+        }
+       ]
+      },
+      {
+       "w": "the lesser evil",
+       "pos": "phrase",
+       "ar": "أهون الشرّين",
+       "ex": [
+        {
+         "en": "Choosing <b>the lesser evil</b> is still choosing.",
+         "ar": "اختيار أهون الشرّين اختيارٌ أيضاً."
+        }
+       ]
+      },
+      {
+       "w": "draw the line",
+       "pos": "phrase",
+       "ar": "يضع حدّاً",
+       "ex": [
+        {
+         "en": "Everyone <b>draws the line</b> somewhere.",
+         "ar": "كلّ امرئٍ يضع حدّاً في مكانٍ ما."
+        }
+       ]
+      },
+      {
+       "w": "on principle",
+       "pos": "phrase",
+       "ar": "من باب المبدأ",
+       "ex": [
+        {
+         "en": "She refused <b>on principle</b>, not out of anger.",
+         "ar": "رفضت من باب المبدأ لا غضباً."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: what would you have done",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "Two colleagues discuss a decision one of them made months ago. Almost every sentence uses an unreal past form — <code dir=ltr>wish</code>, <code dir=ltr>if only</code>, <code dir=ltr>I'd rather</code>, <code dir=ltr>it's time</code>.<span class=n-ar>زميلان يناقشان قراراً اتّخذه أحدهما قبل أشهر. كلّ جملةٍ تقريباً تستعمل صيغة الماضي غير الواقعيّ.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "I'd Rather You Hadn't Asked",
+     "titleAr": "كنتُ أفضّل ألّا تسأل",
+     "lines": [
+      {
+       "sp": "Karim",
+       "en": "Can I ask you something about the audit?",
+       "ar": "أيمكنني أن أسألك شيئاً عن التدقيق؟"
+      },
+      {
+       "sp": "Salma",
+       "en": "Honestly, I'd rather you hadn't asked. But go on.",
+       "ar": "بصراحة، كنتُ أفضّل ألّا تسأل. لكن تفضّل."
+      },
+      {
+       "sp": "Karim",
+       "en": "Did you know before you signed it?",
+       "ar": "هل كنتِ تعلمين قبل أن توقّعي؟"
+      },
+      {
+       "sp": "Salma",
+       "en": "I suspected. I wish I'd asked one more question, and I didn't.",
+       "ar": "كنتُ أشكّ. وليتني سألتُ سؤالاً إضافيّاً واحداً، لكنّي لم أفعل."
+      },
+      {
+       "sp": "Karim",
+       "en": "Why not?",
+       "ar": "لماذا لا؟"
+      },
+      {
+       "sp": "Salma",
+       "en": "Because I'd have had to escalate it, and I wasn't sure enough to burn that much.",
+       "ar": "لأنّي كنتُ سأضطرّ إلى رفعه، ولم أكن واثقةً بما يكفي لأحرق كلّ ذلك."
+      },
+      {
+       "sp": "Karim",
+       "en": "If only someone had written it down. Then it wouldn't have been your call.",
+       "ar": "لو أنّ أحداً كتبه فحسب. لما كان القرار قرارك حينها."
+      },
+      {
+       "sp": "Salma",
+       "en": "That's the part I keep coming back to. It's high time we had a proper policy.",
+       "ar": "هذا ما أعود إليه دائماً. آن الأوان منذ زمن أن تكون لدينا سياسةٌ صحيحة."
+      },
+      {
+       "sp": "Karim",
+       "en": "Would you do it differently now?",
+       "ar": "هل كنتِ ستفعلينها بشكلٍ مختلف الآن؟"
+      },
+      {
+       "sp": "Salma",
+       "en": "With hindsight, yes. With what I knew then, probably not. That's the uncomfortable answer.",
+       "ar": "بأثر رجعيّ، نعم. وبما كنتُ أعرفه حينها، ربّما لا. هذا هو الجواب غير المريح."
+      },
+      {
+       "sp": "Karim",
+       "en": "People would say you turned a blind eye.",
+       "ar": "سيقول الناس إنّك تغاضيتِ عمداً."
+      },
+      {
+       "sp": "Salma",
+       "en": "Some would. I'd rather they said it to me than about me.",
+       "ar": "بعضهم سيقول. وأفضّل أن يقولوها لي لا عنّي."
+      },
+      {
+       "sp": "Karim",
+       "en": "For what it's worth, I think you acted in good faith.",
+       "ar": "إن كان لهذا قيمة، أرى أنّك تصرّفتِ بحسن نيّة."
+      },
+      {
+       "sp": "Salma",
+       "en": "Good faith isn't a defence. It's just the reason I can still sleep.",
+       "ar": "حسن النيّة ليس دفاعاً. إنّه فقط سبب قدرتي على النوم."
+      },
+      {
+       "sp": "Karim",
+       "en": "Then let's write the policy. Neither of us should have to decide that alone again.",
+       "ar": "إذن لنكتب السياسة. لا ينبغي لأيٍّ منّا أن يقرّر ذلك وحده مرّةً أخرى."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather you hadn't asked</code> refers to",
+       "opts": [
+        "a future request",
+        "a request just made",
+        "a rule",
+        "a habit"
+       ],
+       "a": 1,
+       "why": "ماضٍ تامّ بعد I'd rather ← عن سؤالٍ وقع للتوّ."
+      },
+      {
+       "t": "mcq",
+       "q": "Salma's stated reason for not asking more was",
+       "opts": [
+        "she didn't care",
+        "escalating had a high cost and she wasn't certain",
+        "she was told not to",
+        "she was on leave"
+       ],
+       "a": 1,
+       "why": "«لم أكن واثقةً بما يكفي لأحرق كلّ ذلك»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It's high time we had a proper policy</code> implies the policy",
+       "opts": [
+        "exists already",
+        "is overdue and does not exist",
+        "will exist next year",
+        "was cancelled"
+       ],
+       "a": 1,
+       "why": "it's high time تفيد التأخّر عن الأوان."
+      },
+      {
+       "t": "mcq",
+       "q": "Her answer about doing it differently is uncomfortable because",
+       "opts": [
+        "she refuses to answer",
+        "hindsight and available information give different answers",
+        "she blames Karim",
+        "she denies signing"
+       ],
+       "a": 1,
+       "why": "تفرّق بين ما تعرفه الآن وما عرفته حينها."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Good faith isn't a defence</code> means she",
+       "opts": [
+        "denies acting in good faith",
+        "accepts that intention does not excuse outcome",
+        "blames the auditors",
+        "wants a lawyer"
+       ],
+       "a": 1,
+       "why": "النيّة لا تعفي من النتيجة."
+      },
+      {
+       "t": "mcq",
+       "q": "The conversation ends with",
+       "opts": [
+        "an accusation",
+        "a resignation",
+        "a shared practical fix",
+        "silence"
+       ],
+       "a": 2,
+       "why": "«لنكتب السياسة»."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "I'd rather ya hadn askt",
+       "a": [
+        "I'd rather you hadn't asked",
+        "Id rather you hadnt asked"
+       ],
+       "why": "hadn't ← هادن بسقوط t."
+      },
+      {
+       "t": "dict",
+       "say": "I wish I'd askt wun more kwestion",
+       "a": [
+        "I wish I'd asked one more question",
+        "I wish I had asked one more question"
+       ],
+       "why": "I'd ← اختزال had."
+      },
+      {
+       "t": "dict",
+       "say": "If only sumwun had riddn it down",
+       "a": [
+        "If only someone had written it down"
+       ],
+       "why": "written ← رِدن بـflap T."
+      },
+      {
+       "t": "dict",
+       "say": "Its hy time we had a policy",
+       "a": [
+        "It's high time we had a policy",
+        "Its high time we had a policy"
+       ],
+       "why": "it's high time + ماضٍ بسيط."
+      },
+      {
+       "t": "dict",
+       "say": "I think ya acdid in good fayth",
+       "a": [
+        "I think you acted in good faith"
+       ],
+       "why": "acted ← flap T، وyou ← يَ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: the decision nobody made",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Decision Nobody Made",
+     "titleAr": "القرار الذي لم يتّخذه أحد",
+     "en": "Most organisational failures are not decisions. They are the absence of one. Nobody chose to ship the faulty part, approve the misleading figure or ignore the complaint. What happened instead is that eleven people each did something small and defensible, and the sum of those eleven acts was a disaster that none of them would have authorised.<br><br>This is why <b>if only someone had written it down</b> is the most common sentence in the aftermath of any investigation. Written rules concentrate responsibility. Unwritten norms distribute it until it disappears. A person who signs a form has made a decision; a person who says nothing in a meeting has not, and will be able to say so afterwards with a clear conscience and complete accuracy.<br><br>The uncomfortable implication is that good character is not enough. Every individual in these cases can be honest, careful and well-intentioned, and the system can still produce the outcome. <b>I'd rather we designed</b> for the average day than for the heroic one, because the heroic one is rare and the average one is every day.<br><br>What actually works is unglamorous: name an owner for each decision, write the reason down, and make it cheap to raise a concern. None of that requires courage. That is precisely the point.",
+     "ar": "معظم إخفاقات المؤسّسات ليست قرارات، بل غياب قرار. فلم يختر أحدٌ أن يشحن القطعة المعيبة، أو يعتمد الرقم المضلّل، أو يتجاهل الشكوى. ما حدث بدل ذلك أنّ أحد عشر شخصاً فعل كلٌّ منهم شيئاً صغيراً قابلاً للدفاع عنه، وكان مجموع تلك الأفعال الأحد عشر كارثةً ما كان أيٌّ منهم ليأذن بها.<br><br>ولهذا فإنّ «لو أنّ أحداً كتبه فحسب» هي أكثر الجمل شيوعاً في أعقاب أيّ تحقيق. فالقواعد المكتوبة تركّز المسؤوليّة، والأعراف غير المكتوبة توزّعها حتّى تختفي. من يوقّع استمارةً يكون قد اتّخذ قراراً، ومن يصمت في اجتماعٍ لم يتّخذ قراراً، وسيستطيع قول ذلك لاحقاً بضميرٍ مرتاحٍ ودقّةٍ تامّة.<br><br>والتضمين غير المريح أنّ حسن الخُلُق لا يكفي. فكلّ فردٍ في هذه الحالات يمكن أن يكون أميناً وحذراً وحسن النيّة، ويظلّ النظام قادراً على إنتاج النتيجة. وأفضّل أن نصمّم لليوم العاديّ لا لليوم البطوليّ، لأنّ البطوليّ نادر والعاديّ هو كلّ يوم.<br><br>وما يفلح فعلاً غير برّاق: سمِّ مالكاً لكلّ قرار، واكتب السبب، واجعل إثارة القلق رخيصة الكلفة. ولا يتطلّب شيءٌ من ذلك شجاعة. وهذا بالضبط هو المقصود.",
+     "keys": [
+      [
+       "the absence of one",
+       "غياب قرار"
+      ],
+      [
+       "small and defensible",
+       "صغير وقابل للدفاع عنه"
+      ],
+      [
+       "concentrate responsibility",
+       "تركّز المسؤوليّة"
+      ],
+      [
+       "with a clear conscience",
+       "بضمير مرتاح"
+      ],
+      [
+       "well-intentioned",
+       "حسن النيّة"
+      ],
+      [
+       "unglamorous",
+       "غير برّاق"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "The writer's main claim about organisational failures is that they are usually",
+       "opts": [
+        "deliberate crimes",
+        "the absence of a decision",
+        "technical faults",
+        "caused by one person"
+       ],
+       "a": 1,
+       "why": "الجملة الافتتاحيّة."
+      },
+      {
+       "t": "mcq",
+       "q": "Written rules differ from unwritten norms because they",
+       "opts": [
+        "are longer",
+        "concentrate responsibility",
+        "are easier to ignore",
+        "cost more"
+       ],
+       "a": 1,
+       "why": "«تركّز المسؤوليّة» مقابل توزيعها."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>with a clear conscience and complete accuracy</code> is pointed because the silent person",
+       "opts": [
+        "is lying",
+        "is telling the truth and that is the problem",
+        "was absent",
+        "was overruled"
+       ],
+       "a": 1,
+       "why": "صدقه هو ما يكشف عيب النظام."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather we designed for the average day</code> uses",
+       "opts": [
+        "a real past",
+        "the unreal past after I'd rather",
+        "reported speech",
+        "a passive"
+       ],
+       "a": 1,
+       "why": "فاعلٌ مختلف بعد I'd rather ← ماضٍ بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "The writer says good character is",
+       "opts": [
+        "all that matters",
+        "necessary but not sufficient",
+        "irrelevant",
+        "impossible"
+       ],
+       "a": 1,
+       "why": "«حسن الخُلُق لا يكفي» مع بقاء الأفراد أمناء."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>None of that requires courage. That is precisely the point.</code> means the fixes are valuable because they",
+       "opts": [
+        "are heroic",
+        "work without depending on bravery",
+        "are expensive",
+        "are optional"
+       ],
+       "a": 1,
+       "why": "التصميم لليوم العاديّ لا البطوليّ."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "moral words with tricky stress",
+     "rows": [
+      {
+       "w": "in·TEG·ri·ty",
+       "s": "in-TEG-rih-dee",
+       "ar": "النبر على الثاني وflap T"
+      },
+      {
+       "w": "CON·science",
+       "s": "KON-shunss",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "di·LEM·ma",
+       "s": "dih-LEM-uh",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "hy·POC·ri·sy",
+       "s": "hih-POK-rih-see",
+       "ar": "النبر على الثاني لا الأوّل"
+      },
+      {
+       "w": "OB·li·ga·tion → ob·li·GA·tion",
+       "s": "ob-lih-GAY-shun",
+       "ar": "النبر على GAY"
+      },
+      {
+       "w": "COM·pro·mise",
+       "s": "KOM-pruh-myz",
+       "ar": "النبر على الأوّل"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Refusing, regretting and taking a position",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Refusing without damage",
+     "html": "<code dir=ltr>I'd rather you didn't.</code> — the polite firm refusal<br><code dir=ltr>I'm not comfortable with that.</code> — personal, hard to argue with<br><code dir=ltr>That's not something I can sign off on.</code> — professional<br><code dir=ltr>I'd need that in writing before I could agree.</code> — a refusal shaped as a condition<br><code dir=ltr>I'll have to say no on this one.</code><br><br>⚠️ <code dir=ltr>I'm not comfortable with that</code> is very strong in English. It is not about feelings; it signals an ethical line.<span class=n-ar>انتبه: «I'm not comfortable with that» قويّةٌ جدّاً بالإنجليزية — إنّها إشارة إلى خطٍّ أخلاقيّ لا إلى شعور.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Regret without self-destruction",
+     "html": "Proportionate: <code dir=ltr>I wish I'd handled that differently.</code><br>Analytical: <code dir=ltr>With hindsight, I'd have escalated earlier.</code><br>Owning it: <code dir=ltr>That was my call and it was the wrong one.</code><br>Boundaried: <code dir=ltr>I made it with the information I had.</code><br><br>Avoid: <code dir=ltr>I'm so sorry, it was all my fault, I'm terrible at this.</code> In professional English, excessive apology reads as instability, not humility.<span class=n-ar>في الإنجليزيّة المهنيّة يُقرأ الاعتذار المفرط اضطراباً لا تواضعاً. اعترف بدقّةٍ ثمّ حدّد ما ستفعله.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>I wish I would know</code> → ✅ <code dir=ltr>I wish I knew</code><br>❌ <code dir=ltr>I wish I would have gone</code> → ✅ <code dir=ltr>I wish I had gone</code><br>❌ <code dir=ltr>I'd rather to stay</code> → ✅ <code dir=ltr>I'd rather stay</code><br>❌ <code dir=ltr>I'd rather you don't</code> → ✅ <code dir=ltr>I'd rather you didn't</code><br>❌ <code dir=ltr>It's time we go</code> → ✅ <code dir=ltr>It's time we went</code><br>❌ <code dir=ltr>He behaves like he knows everything</code> (formal) → ✅ <code dir=ltr>He behaves as if he knew everything</code><br>❌ <code dir=ltr>I regret to do that</code> → ✅ <code dir=ltr>I regret doing that</code><br><br><code dir=ltr>regret doing</code> = you did it and are sorry. <code dir=ltr>regret to say</code> = you are about to deliver bad news. Two different meanings.<span class=n-ar>regret doing تعني أنّك فعلته وتندم، وregret to say تعني أنّك على وشك نقل خبرٍ سيّئ. معنيان مختلفان تماماً.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: contracted unreal forms",
+     "hint": "'d does the work of both had and would",
+     "rows": [
+      {
+       "w": "I'd rather (= would)",
+       "s": "I'd rather",
+       "ar": "أفضّل"
+      },
+      {
+       "w": "I'd known (= had)",
+       "s": "I'd nown",
+       "ar": "كنتُ أعلم"
+      },
+      {
+       "w": "They'd have said",
+       "s": "They'd-uv sed",
+       "ar": "كانوا سيقولون"
+      },
+      {
+       "w": "It'd be better",
+       "s": "Idd be bedder",
+       "ar": "سيكون أفضل"
+      },
+      {
+       "w": "You'd think so",
+       "s": "Yood think so",
+       "ar": "تظنّ ذلك"
+      },
+      {
+       "w": "Who'd have guessed?",
+       "s": "Hood-uv gest?",
+       "ar": "من كان ليخمّن؟"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the language of an ethical line",
+     "rows": [
+      {
+       "w": "I'm not comfortable with that",
+       "s": "I'm not kumf-terble with that",
+       "ar": "لستُ مرتاحاً لذلك"
+      },
+      {
+       "w": "Where do you draw the line?",
+       "s": "Where d'ya draw the line?",
+       "ar": "أين تضع الحدّ؟"
+      },
+      {
+       "w": "That's on me",
+       "s": "Thats on me",
+       "ar": "هذه مسؤوليّتي"
+      },
+      {
+       "w": "I'll have to say no",
+       "s": "I'll hafta say no",
+       "ar": "سأضطرّ إلى الرفض"
+      },
+      {
+       "w": "For what it's worth",
+       "s": "Fer wut its worth",
+       "ar": "إن كان لهذا قيمة"
+      },
+      {
+       "w": "I'd sleep on it",
+       "s": "I'd sleep on it",
+       "ar": "سأفكّر فيه ليلة"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I'd rather you don't send it yet.</code>",
+       "a": [
+        "I'd rather you didn't send it yet"
+       ],
+       "why": "فاعلٌ مختلف ← ماضٍ بسيط."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I wish I would have spoken up.</code>",
+       "a": [
+        "I wish I had spoken up",
+        "I wish I'd spoken up"
+       ],
+       "why": "wish + ماضٍ تامّ للندم."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>It's time we go home.</code>",
+       "a": [
+        "It's time we went home",
+        "Its time we went home"
+       ],
+       "why": "it's time + ماضٍ بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'm not comfortable with that</code> in a work context signals",
+       "opts": [
+        "mild preference",
+        "an ethical boundary",
+        "physical discomfort",
+        "confusion"
+       ],
+       "a": 1,
+       "why": "إشارة إلى خطٍّ أخلاقيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I regret to inform you</code> means",
+       "opts": [
+        "I am sorry I informed you",
+        "I am about to give bad news",
+        "I refuse to inform you",
+        "I forgot to inform you"
+       ],
+       "a": 1,
+       "why": "regret to + مصدر: خبرٌ سيّئ قادم."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>With ___ , I'd have escalated it sooner.</code>",
+       "a": [
+        "hindsight"
+       ],
+       "why": "with hindsight ← بأثر رجعيّ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: a difficult decision",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Describe a difficult decision you or someone you know faced, in <b>140–160 words</b>. It must include:<br><br>• one <code dir=ltr>wish</code> or <code dir=ltr>if only</code> about the past<br>• one <code dir=ltr>I'd rather</code> with a different subject<br>• one <code dir=ltr>it's time</code> or <code dir=ltr>as if</code><br>• the trade-off, stated honestly on both sides<br>• a closing judgement that is not self-punishment<span class=n-ar>صف قراراً صعباً واجهته أو واجهه من تعرف، في ١٤٠–١٦٠ كلمة، بـwish أو if only عن الماضي، وI'd rather بفاعلٍ مختلف، وit's time أو as if، والمقايضة بأمانةٍ من الجهتين، وحكمٍ ختاميّ ليس جلداً للذات.</span>",
+     "phrases": [
+      "What was at stake was …",
+      "I wish I had … / If only someone had …",
+      "I'd rather they had told me …",
+      "It's high time we …",
+      "The trade-off was between … and …",
+      "With hindsight, …",
+      "I made it with the information I had."
+     ],
+     "model": "Two years ago I found an error in a report that had already gone to the client. It was small, it favoured us, and correcting it meant admitting that our review process had not caught it.\n\nWhat was at stake was not the number. It was whether anyone would trust the next report.\n\nI wish I had raised it the same afternoon. Instead I spent a day weighing up how to say it, which made the delay itself part of the problem. My manager reacted as if he had been expecting it, which was somehow worse than anger.\n\nI'd rather they had built a route for this that did not depend on one person's nerve. It's high time most organisations did.\n\nThe trade-off was between a short embarrassment and a long erosion. With hindsight, that is not a close call. It only felt like one because I was inside it.",
+     "modelAr": "قبل عامين وجدتُ خطأً في تقريرٍ كان قد أُرسل إلى العميل. كان صغيراً، وفي مصلحتنا، وتصحيحه يعني الاعتراف بأنّ عمليّة مراجعتنا لم تلتقطه.\n\nما كان على المحكّ ليس الرقم، بل ما إذا كان أحدٌ سيثق بالتقرير التالي.\n\nليتني أثرتُه في اليوم نفسه. لكنّي أمضيتُ يوماً أوازن كيف أقوله، فصار التأخير نفسه جزءاً من المشكلة. وردّ مديري كأنّه كان يتوقّعه، وهو ما كان أسوأ من الغضب على نحوٍ ما.\n\nوأفضّل لو أنّهم بنوا مساراً لهذا لا يعتمد على جرأة شخصٍ واحد. وقد آن الأوان منذ زمن أن تفعل ذلك معظم المؤسّسات.\n\nكانت المقايضة بين إحراجٍ قصير وتآكلٍ طويل. وبأثر رجعيّ ليست هذه مقارنةً متقاربة. بدت كذلك فقط لأنّي كنتُ داخلها.",
+     "checklist": [
+      "I used 'wish' or 'if only' with a past perfect for the past",
+      "I used 'I'd rather' with a different subject and a past form",
+      "I used 'it's time' + past, or 'as if' + past",
+      "I never wrote 'I wish I would have'",
+      "I never wrote \"I'd rather you don't\"",
+      "I stated the trade-off honestly on both sides",
+      "I used at least four unit words (at stake, trade-off, weigh up, with hindsight …)",
+      "My ending is a judgement, not an apology",
+      "140–160 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the sound of a hard conversation",
+     "rows": [
+      {
+       "w": "Can I be honest with you?",
+       "s": "Kn I be onist witchoo?",
+       "ar": "أيمكنني أن أصارحك؟"
+      },
+      {
+       "w": "I've been meaning to raise this",
+       "s": "I'v bin meenin ta rayz this",
+       "ar": "كنتُ أنوي إثارة هذا"
+      },
+      {
+       "w": "That's not a small thing",
+       "s": "Thats not a small thing",
+       "ar": "هذه ليست مسألةً صغيرة"
+      },
+      {
+       "w": "I hear you",
+       "s": "I heer ya",
+       "ar": "أسمعك / أتفهّمك"
+      },
+      {
+       "w": "Let's not pretend",
+       "s": "Lets not pretend",
+       "ar": "دعنا لا نتظاهر"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ٢٣",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I wish I ___ more time.</code> (الآن)",
+       "opts": [
+        "have",
+        "had",
+        "had had",
+        "would have"
+       ],
+       "a": 1,
+       "why": "wish + ماضٍ بسيط للحاضر."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If only we ___ the warning.</code> (ندم على الماضي)",
+       "opts": [
+        "read",
+        "had read",
+        "would read",
+        "have read"
+       ],
+       "a": 1,
+       "why": "ماضٍ تامّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I wish they ___ answering with excuses.</code>",
+       "opts": [
+        "stopped",
+        "would stop",
+        "had stopped",
+        "stop"
+       ],
+       "a": 1,
+       "why": "wish + would لسلوكٍ مزعجٍ مستمرّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather you ___ him yet.</code>",
+       "opts": [
+        "don't tell",
+        "didn't tell",
+        "not tell",
+        "wouldn't telling"
+       ],
+       "a": 1,
+       "why": "فاعلٌ مختلف ← ماضٍ بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather ___ here.</code> (الفاعل نفسه)",
+       "opts": [
+        "to stay",
+        "stay",
+        "stayed",
+        "staying"
+       ],
+       "a": 1,
+       "why": "الفاعل نفسه ← مصدرٌ مجرّد."
+      },
+      {
+       "t": "mcq",
+       "q": "A person who reports wrongdoing inside their organisation is a",
+       "opts": [
+        "scapegoat",
+        "whistleblower",
+        "stakeholder",
+        "mentor"
+       ],
+       "a": 1,
+       "why": "مُبلِّغ عن مخالفات."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>turn a blind eye</code> means to",
+       "opts": [
+        "fail to notice",
+        "deliberately ignore",
+        "report immediately",
+        "investigate"
+       ],
+       "a": 1,
+       "why": "تغاضٍ متعمّد."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>It's high time someone ___ (say) this out loud.</code>",
+       "a": [
+        "said"
+       ],
+       "why": "it's time + ماضٍ بسيط."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>He spoke as if he ___ (be) in the room.</code>",
+       "a": [
+        "had been",
+        "were",
+        "was"
+       ],
+       "why": "as if + ماضٍ لغير الواقع."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>With ___ , the signals were obvious.</code>",
+       "a": [
+        "hindsight"
+       ],
+       "why": "بأثر رجعيّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I wish I would know what they decided.</code>",
+       "a": [
+        "I wish I knew what they decided",
+        "I wish I could know what they decided"
+       ],
+       "why": "لا would عن النفس."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I wish I would have said something.</code>",
+       "a": [
+        "I wish I had said something",
+        "I wish I'd said something"
+       ],
+       "why": "wish + ماضٍ تامّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I'd rather to wait outside.</code>",
+       "a": [
+        "I'd rather wait outside"
+       ],
+       "why": "مصدرٌ مجرّد بلا to."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>It's time we go.</code>",
+       "a": [
+        "It's time we went",
+        "Its time we went"
+       ],
+       "why": "ماضٍ بسيط بعد it's time."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "I'd",
+        "rather",
+        "you",
+        "hadn't",
+        "mentioned",
+        "it",
+        "at",
+        "all"
+       ],
+       "a": "I'd rather you hadn't mentioned it at all",
+       "why": "I'd rather + ماضٍ تامّ للماضي."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "If",
+        "only",
+        "someone",
+        "had",
+        "written",
+        "it",
+        "down"
+       ],
+       "a": "If only someone had written it down",
+       "why": "if only + ماضٍ تامّ."
+      },
+      {
+       "t": "dict",
+       "say": "I wish I'd nown at the time",
+       "a": [
+        "I wish I'd known at the time",
+        "I wish I had known at the time"
+       ],
+       "why": "I'd ← اختزال had."
+      },
+      {
+       "t": "dict",
+       "say": "I'd rather ya didn menshun it",
+       "a": [
+        "I'd rather you didn't mention it",
+        "Id rather you didnt mention it"
+       ],
+       "why": "rather you ← رادَ يَ."
+      },
+      {
+       "t": "dict",
+       "say": "He acdid az if nuthin happend",
+       "a": [
+        "He acted as if nothing happened",
+        "He acted as if nothing had happened"
+       ],
+       "why": "acted ← flap T، وas if بالربط."
+      },
+      {
+       "t": "mcq",
+       "q": "In professional English, excessive apology tends to read as",
+       "opts": [
+        "humility",
+        "instability",
+        "politeness",
+        "strength"
+       ],
+       "a": 1,
+       "why": "الاعتذار المفرط يُقرأ اضطراباً لا تواضعاً."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "دراما أخلاقيّة",
+       "d": "ابحث عن «Chernobyl» أو «Spotlight» — قراراتٌ صعبة بلغةٍ دقيقة",
+       "task": "سجّل خمس جملٍ فيها wish أو if only أو I'd rather."
+      },
+      {
+       "t": "بودكاست فلسفيّ",
+       "d": "ابحث عن «Hi-Phi Nation» أو «Philosophy Bites»",
+       "task": "استمع لحلقة، واكتب المعضلة في ستّ جملٍ بكلماتك."
+      },
+      {
+       "t": "مقابلاتٌ صحفيّة",
+       "d": "ابحث عن مقابلات مع مبلّغين عن مخالفات",
+       "task": "احصِ كم مرّة قيلت «I wish I had» أو «with hindsight»."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "أعد نطق «I'd rather ya didn / I wish I'd nown» حتّى تصير تلقائيّة."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

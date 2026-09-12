@@ -22,3 +22,8 @@ __pycache__/
 
 # إعدادات Claude Code المحلية (خاصة بكل جهاز)
 .claude/settings.local.json
+
+# لقطات الاختبار الآليّ
+v2-*.png
+final-*.png
+shot*.png

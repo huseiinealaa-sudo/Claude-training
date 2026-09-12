@@ -1,0 +1,379 @@
+{
+  "id": "unit-12",
+  "icon": "📰",
+  "title": "الأخبار ونقل الكلام",
+  "subtitle": "أن تنقل ما قاله غيرك وتصف بدقّة",
+  "intro": "هذه آخر وحدات المستوى الأوّل. وهي تجمع مهارتين لا غنى عنهما: أن <b>تنقل</b> كلام غيرك بأمانة، وأن <b>تصف</b> شيئاً بجملةٍ موصولة بدل جملتين مبتورتين. وبإتقانهما تكون قد بلغت B1 بجدارة.",
+  "goals": [
+    "أنقل ما قاله شخصٌ آخر بصيغةٍ صحيحة",
+    "أصف الأشخاص والأشياء بجملٍ موصولة",
+    "أتحدّث عن خبرٍ قرأتُه أو سمعتُه",
+    "أميّز الخبر الموثوق من غيره"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "الكلام المنقول والجمل الموصولة",
+      "subtitle": "أن تنقل وأن تصف",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الكلام المنقول — قاعدة التراجع",
+          "html": "حين تنقل كلاماً قيل في الماضي، <b>يتراجع الزمن خطوةً إلى الوراء</b>:<br><br><table><tr><td dir=ltr>مضارع بسيط</td><td>→ ماضٍ بسيط</td></tr><tr><td dir=ltr>مضارع مستمرّ</td><td>→ ماضٍ مستمرّ</td></tr><tr><td dir=ltr>ماضٍ بسيط / مضارع تامّ</td><td>→ ماضٍ تامّ</td></tr><tr><td dir=ltr>will</td><td>→ would</td></tr><tr><td dir=ltr>can</td><td>→ could</td></tr><tr><td dir=ltr>must</td><td>→ had to</td></tr></table><br><code dir=ltr>«I <b>am</b> tired.»</code> → <code dir=ltr>He said he <b>was</b> tired.</code><br><code dir=ltr>«I <b>will</b> come.»</code> → <code dir=ltr>She said she <b>would</b> come.</code>"
+        },
+        {
+          "type": "note",
+          "title": "ما يتغيّر معه أيضاً",
+          "html": "<b>الضمائر:</b> <code dir=ltr>«<b>I</b> like <b>your</b> idea»</code> → <code dir=ltr>He said <b>he</b> liked <b>my</b> idea.</code><br><br><b>ظروف الزمان والمكان:</b><br><table><tr><td dir=ltr>now → then</td><td dir=ltr>today → that day</td></tr><tr><td dir=ltr>tomorrow → the next day</td><td dir=ltr>yesterday → the day before</td></tr><tr><td dir=ltr>here → there</td><td dir=ltr>this → that</td></tr></table><br>⚠️ <b>ولا يتراجع الزمن</b> إن كان الكلام ما زال صحيحاً الآن:<br><code dir=ltr>He said the earth <b>is</b> round.</code> (حقيقة ثابتة)"
+        },
+        {
+          "type": "note",
+          "title": "say ↔ tell — خطأ عربيّ متكرّر",
+          "html": "<code dir=ltr><b>tell</b></code> تحتاج مخاطَباً مباشرةً بعدها:<br>✅ <code dir=ltr>He <b>told me</b> that…</code> ❌ <code dir=ltr>He told that…</code><br><br><code dir=ltr><b>say</b></code> لا تأخذ مخاطَباً مباشرةً:<br>✅ <code dir=ltr>He <b>said</b> that…</code> · ✅ <code dir=ltr>He <b>said to me</b> that…</code><br>❌ <code dir=ltr>He said me that…</code><br><br><b>الأسئلة المنقولة</b> ترجع إلى ترتيب الجملة العاديّة:<br><code dir=ltr>«Where <b>do you</b> live?»</code> → <code dir=ltr>He asked where <b>I lived</b>.</code> (لا do ولا قلب)"
+        },
+        {
+          "type": "note",
+          "title": "الجمل الموصولة",
+          "html": "تصل جملتين فتصف اسماً:<br><br><table><tr><td dir=ltr><b>who</b></td><td>للأشخاص: <code dir=ltr>the man <b>who</b> called</code></td></tr><tr><td dir=ltr><b>which</b></td><td>للأشياء: <code dir=ltr>the book <b>which</b> I read</code></td></tr><tr><td dir=ltr><b>that</b></td><td>للاثنين (غير رسميّة)</td></tr><tr><td dir=ltr><b>where</b></td><td>للأماكن: <code dir=ltr>the café <b>where</b> we met</code></td></tr><tr><td dir=ltr><b>whose</b></td><td>للملكيّة: <code dir=ltr>the woman <b>whose</b> car broke down</code></td></tr></table><br>⚠️ <b>لا تكرّر الضمير</b> — أشهر خطأ عربيّ:<br>❌ <code dir=ltr>The book which I read <b>it</b> was great.</code><br>✅ <code dir=ltr>The book which I read was great.</code>"
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "She said she <b>was</b> looking for a job.", "ar": "قالت إنّها تبحث عن عمل." },
+            { "en": "He <b>told me</b> he <b>would</b> call later.", "ar": "أخبرني أنّه سيتّصل لاحقاً." },
+            { "en": "They asked where I <b>had</b> studied.", "ar": "سألوا أين درستُ." },
+            { "en": "The man <b>who</b> fixed my laptop was very quick.", "ar": "الرجل الذي أصلح حاسوبي كان سريعاً جدّاً." },
+            { "en": "This is the café <b>where</b> we first met.", "ar": "هذا هو المقهى الذي التقينا فيه أوّل مرّة." },
+            { "en": "I met a woman <b>whose</b> son studies with mine.", "ar": "قابلتُ امرأةً يدرس ابنها مع ابني." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "that و he تُختزلان بشدّة في النقل",
+          "rows": [
+            { "w": "He said that he was tired", "s": "He said 'e wuz tired", "ar": "that تُحذف و he تفقد h" },
+            { "w": "She told me she would come", "s": "She told me she'd come", "ar": "would → 'd" },
+            { "w": "They asked where I lived", "s": "They askd where I lived", "ar": "ed → t بعد k" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>«I am busy.»</code> → <code dir=ltr>He said he ___ busy.</code>", "opts": ["is", "was", "were", "has been"], "a": 1, "why": "مضارع ← ماضٍ." },
+            { "t": "mcq", "q": "<code dir=ltr>«I will help.»</code> → <code dir=ltr>She said she ___ help.</code>", "opts": ["will", "would", "wills", "had"], "a": 1, "why": "will ← would." },
+            { "t": "mcq", "q": "<code dir=ltr>He ___ me that he was late.</code>", "opts": ["said", "told", "say", "tells"], "a": 1, "why": "مع مخاطَبٍ مباشر ← told." },
+            { "t": "mcq", "q": "<code dir=ltr>The woman ___ car was stolen called the police.</code>", "opts": ["who", "which", "whose", "where"], "a": 2, "why": "ملكيّة ← whose." },
+            { "t": "mcq", "q": "<code dir=ltr>That's the restaurant ___ we had dinner.</code>", "opts": ["which", "who", "where", "whose"], "a": 2, "why": "مكان ← where." },
+            { "t": "gap", "q": "<code dir=ltr>«I can't come.»</code> → <code dir=ltr>He said he ___ come.</code>", "a": ["couldn't", "could not"], "why": "can ← could." },
+            { "t": "gap", "q": "<code dir=ltr>«Where do you work?»</code> → <code dir=ltr>She asked where I ___ .</code>", "a": ["worked"], "why": "السؤال المنقول يعود إلى ترتيب الجملة." },
+            { "t": "gap", "q": "<code dir=ltr>The person ___ called you is my brother.</code>", "a": ["who", "that"], "why": "شخص ← who / that." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He said me that he was tired.</code>", "a": ["He told me that he was tired", "He said that he was tired", "He told me he was tired"], "why": "say لا تأخذ مخاطَباً مباشرةً." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The book which I read it was good.</code>", "a": ["The book which I read was good", "The book that I read was good", "The book I read was good"], "why": "لا تكرّر الضمير في الجملة الموصولة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She asked me where do I live.</code>", "a": ["She asked me where I lived", "She asked me where I live"], "why": "السؤال المنقول بلا do وبلا قلب." },
+            { "t": "order", "q": "رتّب:", "ws": ["He", "told", "me", "he", "would", "call"], "a": "He told me he would call", "why": "told + مخاطَب، وwill ← would." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: الأخبار والمصداقيّة",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "الخبر ومصدره",
+          "items": [
+            { "w": "headline", "pos": "noun", "ar": "عنوان رئيس", "ex": [{ "en": "The <b>headline</b> was misleading.", "ar": "كان العنوان مضلّلاً." }] },
+            { "w": "source", "pos": "noun", "ar": "مصدر", "ex": [{ "en": "Always check the <b>source</b>.", "ar": "تحقّق من المصدر دائماً." }] },
+            { "w": "claim", "pos": "verb / noun", "ar": "يزعم / ادّعاء", "ex": [{ "en": "The article <b>claims</b> that prices will fall.", "ar": "يزعم المقال أنّ الأسعار ستنخفض." }] },
+            { "w": "report", "pos": "verb", "ar": "يُفيد / يورد", "ex": [{ "en": "Several outlets <b>reported</b> the same story.", "ar": "أوردت عدّة منابر الخبر نفسه." }] },
+            { "w": "according to", "pos": "expression", "ar": "وفقاً لـ", "ex": [{ "en": "<b>According to</b> the study, sleep matters most.", "ar": "وفقاً للدراسة، النوم هو الأهمّ." }] },
+            { "w": "turn out", "pos": "phrasal verb", "ar": "يتبيّن أنّ", "ex": [{ "en": "It <b>turned out</b> to be false.", "ar": "تبيّن أنّه كاذب." }] },
+            { "w": "break the news", "pos": "expression", "ar": "ينشر الخبر أوّلاً / يبلّغ خبراً صعباً", "ex": [{ "en": "They <b>broke the news</b> at midnight.", "ar": "نشروا الخبر عند منتصف الليل." }] },
+            { "w": "coverage", "pos": "noun", "ar": "تغطية إعلاميّة", "ex": [{ "en": "The <b>coverage</b> was one-sided.", "ar": "كانت التغطية أحاديّة الجانب." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "التقييم والشكّ",
+          "items": [
+            { "w": "misleading", "pos": "adjective", "ar": "مضلّل", "ex": [{ "en": "The graph was <b>misleading</b>.", "ar": "كان الرسم البيانيّ مضلّلاً." }] },
+            { "w": "biased", "pos": "adjective", "ar": "منحاز", "ex": [{ "en": "Every source is <b>biased</b> to some degree.", "ar": "كلّ مصدرٍ منحاز بدرجةٍ ما." }] },
+            { "w": "exaggerate", "pos": "verb", "ar": "يبالغ", "ex": [{ "en": "Headlines often <b>exaggerate</b>.", "ar": "غالباً ما تبالغ العناوين." }] },
+            { "w": "take with a pinch of salt", "pos": "idiom", "ar": "يأخذه بتحفّظ", "ex": [{ "en": "I'd <b>take that with a pinch of salt</b>.", "ar": "كنتُ لآخذ ذلك بتحفّظ." }] },
+            { "w": "fact-check", "pos": "verb", "ar": "يتحقّق من الوقائع", "ex": [{ "en": "It's worth <b>fact-checking</b> before sharing.", "ar": "يستحقّ الأمر التحقّق قبل المشاركة." }] },
+            { "w": "out of context", "pos": "expression", "ar": "خارج سياقه", "ex": [{ "en": "The quote was taken <b>out of context</b>.", "ar": "أُخذ الاقتباس خارج سياقه." }] },
+            { "w": "reliable", "pos": "adjective", "ar": "موثوق", "ex": [{ "en": "Is that a <b>reliable</b> outlet?", "ar": "أهذا منبرٌ موثوق؟" }] },
+            { "w": "make up", "pos": "phrasal verb", "ar": "يختلق", "ex": [{ "en": "Someone <b>made up</b> the whole story.", "ar": "اختلق أحدهم القصّة كلّها." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "نقل الكلام",
+          "items": [
+            { "w": "mention", "pos": "verb", "ar": "يذكر عرَضاً", "ex": [{ "en": "She <b>mentioned</b> that she might leave.", "ar": "ذكرت أنّها قد تغادر." }] },
+            { "w": "point out", "pos": "phrasal verb", "ar": "يلفت النظر إلى", "ex": [{ "en": "He <b>pointed out</b> a mistake in the data.", "ar": "لفت النظر إلى خطأ في البيانات." }] },
+            { "w": "admit", "pos": "verb", "ar": "يعترف", "ex": [{ "en": "They <b>admitted</b> making a mistake.", "ar": "اعترفوا بارتكاب خطأ." }] },
+            { "w": "deny", "pos": "verb", "ar": "ينفي", "ex": [{ "en": "The company <b>denied</b> the accusation.", "ar": "نفت الشركة الاتّهام." }] },
+            { "w": "insist", "pos": "verb", "ar": "يصرّ", "ex": [{ "en": "He <b>insisted</b> that he was right.", "ar": "أصرّ على أنّه محقّ." }] },
+            { "w": "warn", "pos": "verb", "ar": "يحذّر", "ex": [{ "en": "Experts <b>warned</b> against sharing it.", "ar": "حذّر الخبراء من مشاركته." }] },
+            { "w": "quote", "pos": "verb / noun", "ar": "يقتبس / اقتباس", "ex": [{ "en": "She was <b>quoted</b> as saying it was urgent.", "ar": "اقتُبس عنها قولها إنّه عاجل." }] },
+            { "w": "word for word", "pos": "expression", "ar": "حرفيّاً", "ex": [{ "en": "That's what he said, <b>word for word</b>.", "ar": "هذا ما قاله حرفيّاً." }] },
+            { "w": "get the wrong end of the stick", "pos": "idiom", "ar": "يسيء فهم الأمر", "ex": [{ "en": "I think you've <b>got the wrong end of the stick</b>.", "ar": "أظنّك أسأتَ فهم الأمر." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: هل الخبر صحيح؟",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>أحصِ أفعال النقل التي تسمعها: said · told · claimed · mentioned…"
+        },
+        {
+          "type": "dialogue",
+          "title": "Did You See That Story?",
+          "titleAr": "أرأيتَ ذلك الخبر؟",
+          "lines": [
+            { "sp": "Rami", "en": "Did you see that story about the new tax?", "ar": "أرأيتَ ذلك الخبر عن الضريبة الجديدة؟" },
+            { "sp": "Sara", "en": "The one claiming it starts next month?", "ar": "ذاك الذي يزعم أنّها تبدأ الشهر المقبل؟" },
+            { "sp": "Rami", "en": "Yes. My cousin sent it to me. He said it was official.", "ar": "نعم. أرسله لي ابن عمّي. قال إنّه رسميّ." },
+            { "sp": "Sara", "en": "Which outlet was it from?", "ar": "من أيّ منبرٍ كان؟" },
+            { "sp": "Rami", "en": "I don't actually know. It was a screenshot.", "ar": "لا أعرف في الحقيقة. كانت لقطة شاشة." },
+            { "sp": "Sara", "en": "Then I'd take it with a pinch of salt.", "ar": "إذن كنتُ لآخذه بتحفّظ." },
+            { "sp": "Rami", "en": "You think it's made up?", "ar": "أتظنّينه مختلقاً؟" },
+            { "sp": "Sara", "en": "Not necessarily. But the headline might be exaggerated.", "ar": "ليس بالضرورة. لكنّ العنوان قد يكون مبالَغاً فيه." },
+            { "sp": "Rami", "en": "It did sound dramatic, now that you mention it.", "ar": "لقد بدا مثيراً فعلاً، الآن وقد ذكرتِ ذلك." },
+            { "sp": "Sara", "en": "I read something similar last week. It turned out the figure was from 2019.", "ar": "قرأتُ شيئاً مشابهاً الأسبوع الماضي. تبيّن أنّ الرقم من عام ٢٠١٩." },
+            { "sp": "Rami", "en": "So it was true but out of context.", "ar": "إذن كان صحيحاً لكن خارج سياقه." },
+            { "sp": "Sara", "en": "Exactly. That's more common than outright lies.", "ar": "بالضبط. وهذا أشيع من الأكاذيب الصريحة." },
+            { "sp": "Rami", "en": "How do you usually check?", "ar": "كيف تتحقّقين عادةً؟" },
+            { "sp": "Sara", "en": "I look for two reliable sources that reported it independently.", "ar": "أبحث عن مصدرين موثوقين أوردا الخبر باستقلالٍ عن بعضهما." },
+            { "sp": "Rami", "en": "That's fair. I'll check before I forward it to anyone else.", "ar": "كلامٌ منصف. سأتحقّق قبل أن أُعيد إرساله لأحد." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "كيف وصل الخبر إلى رامي؟", "opts": ["من صحيفة", "لقطة شاشة من ابن عمّه", "من التلفاز", "من موقعٍ رسميّ"], "a": 1, "why": "<code dir=ltr>It was a screenshot</code>." },
+            { "t": "mcq", "q": "ما موقف سارة الأوّل؟", "opts": ["تصديقه", "أخذه بتحفّظ", "رفضه تماماً", "نشره"], "a": 1, "why": "<code dir=ltr>take it with a pinch of salt</code>." },
+            { "t": "mcq", "q": "ماذا حدث في الخبر المشابه الأسبوع الماضي؟", "opts": ["كان مختلقاً", "تبيّن أنّ الرقم من ٢٠١٩ — صحيحٌ خارج سياقه", "كان صحيحاً تماماً", "حُذف"], "a": 1, "why": "<code dir=ltr>the figure was from 2019</code>." },
+            { "t": "mcq", "q": "ما الأشيع حسب سارة؟", "opts": ["الأكاذيب الصريحة", "إخراج الحقائق من سياقها", "الأخطاء المطبعيّة", "الترجمة الخاطئة"], "a": 1, "why": "<code dir=ltr>more common than outright lies</code>." },
+            { "t": "mcq", "q": "ما طريقة سارة في التحقّق؟", "opts": ["سؤال صديق", "مصدران موثوقان أوردا الخبر باستقلال", "البحث في غوغل", "انتظار يوم"], "a": 1, "why": "<code dir=ltr>two reliable sources … independently</code>." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "He said id wuz official", "a": ["He said it was official", "he said it was official"], "why": "it was تلتصق بـ d مرتدّة." },
+            { "t": "dict", "say": "I'd take id with a pinch of salt", "a": ["I'd take it with a pinch of salt", "I would take it with a pinch of salt", "id take it with a pinch of salt"], "why": "take it تلتصق." },
+            { "t": "dict", "say": "It turnd oud the figure wuz from 2019", "a": ["It turned out the figure was from 2019", "it turned out the figure was from 2019"], "why": "turned out تلتصق بـ d مرتدّة." },
+            { "t": "dict", "say": "I'll check before I forward id", "a": ["I'll check before I forward it", "I will check before I forward it", "ill check before i forward it"], "why": "forward it تلتصق." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: لماذا ينتشر الكذب أسرع",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Why False Stories Travel Faster",
+          "titleAr": "لماذا يسافر الكذب أسرع",
+          "en": "In 2018, researchers at MIT published a study <b>which</b> examined about 126,000 stories shared on social media over eleven years. They found that false stories reached people roughly six times faster than true ones, and were about seventy per cent more likely to be shared.<br><br>The obvious explanation would be bots, but the researchers ruled that out: the spread was driven by ordinary human accounts. What they found instead was emotional. When they analysed the replies, true stories mostly produced sadness, anticipation and trust, while false ones produced surprise and disgust. Novelty, they concluded, is the real currency of sharing. A story <b>that</b> sounds astonishing feels worth passing on, and a story <b>whose</b> details are ordinary does not — regardless of whether either is true.<br><br>This has an uncomfortable implication for all of us. Most people who spread misinformation are not lying; they are reacting. The moment you feel a strong urge to share something immediately, that urge is itself a signal worth pausing on. Journalists have a working habit that translates well to daily life: if a claim would change your view of the world, spend two minutes checking who first <b>reported</b> it. Almost all of the damage happens in the seconds between feeling something and forwarding it.",
+          "ar": "في عام ٢٠١٨ نشر باحثون في معهد ماساتشوستس للتقنية دراسةً فحصت نحو ١٢٦ ألف خبرٍ تداولته وسائل التواصل على مدى أحد عشر عاماً. فوجدوا أنّ الأخبار الكاذبة تصل إلى الناس أسرع بنحو ستّة أضعاف من الصادقة، وأنّ احتمال مشاركتها أعلى بنحو سبعين في المئة.<br><br>والتفسير البديهيّ هو الحسابات الآليّة، لكنّ الباحثين استبعدوه: فالانتشار كانت تقوده حساباتٌ بشريّة عاديّة. وما وجدوه بدلاً من ذلك كان عاطفيّاً. فحين حلّلوا الردود، وجدوا أنّ الأخبار الصادقة تولّد في الأغلب حزناً وترقّباً وثقة، بينما تولّد الكاذبة دهشةً واشمئزازاً. وخلصوا إلى أنّ <b>الجِدّة</b> هي العملة الحقيقيّة للمشاركة. فالخبر الذي يبدو مذهلاً يُشعرك بأنّه جديرٌ بالنقل، والخبر الذي تفاصيله عاديّة لا يفعل — بغضّ النظر عن صدق أيٍّ منهما.<br><br>ولهذا لازمٌ مزعج لنا جميعاً: فأكثر من ينشرون المعلومات المضلّلة لا يكذبون، بل يتفاعلون. وفي اللحظة التي تشعر فيها برغبةٍ قويّة في مشاركة شيءٍ فوراً، تكون تلك الرغبة نفسها إشارةً تستحقّ التوقّف عندها. وللصحفيّين عادةٌ مهنيّة تصلح للحياة اليوميّة: إن كان ادّعاءٌ ما سيغيّر نظرتك إلى العالم، فأنفق دقيقتين في معرفة من أورده أوّلاً. فكلّ الضرر تقريباً يقع في الثواني الفاصلة بين أن تشعر بشيء وأن تُعيد إرساله.",
+          "keys": [["which", "الذي/التي"], ["that", "الذي"], ["whose", "الذي … ـه"], ["reported", "أورد"], ["novelty", "جِدّة"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "كم مرّةً تنتشر الأخبار الكاذبة أسرع؟", "opts": ["مرّتين", "ثلاث", "نحو ستّ", "عشر"], "a": 2, "why": "<code dir=ltr>roughly six times faster</code>." },
+            { "t": "mcq", "q": "ما التفسير الذي استبعده الباحثون؟", "opts": ["العاطفة", "الحسابات الآليّة (bots)", "الجِدّة", "الإعلام"], "a": 1, "why": "<code dir=ltr>the researchers ruled that out</code>." },
+            { "t": "mcq", "q": "ما المشاعر التي تولّدها الأخبار الكاذبة؟", "opts": ["حزن وثقة", "دهشة واشمئزاز", "ترقّب وفرح", "لا مشاعر"], "a": 1, "why": "<code dir=ltr>surprise and disgust</code>." },
+            { "t": "mcq", "q": "ما «العملة الحقيقيّة للمشاركة»؟", "opts": ["الصدق", "الجِدّة والإذهال", "المصدر", "الطول"], "a": 1, "why": "<code dir=ltr>Novelty … is the real currency</code>." },
+            { "t": "mcq", "q": "ما اللازم المزعج للقارئ؟", "opts": ["أنّ الناس كاذبون", "أنّ ناشري التضليل يتفاعلون لا يكذبون", "أنّ الإعلام فاسد", "أنّ التحقّق مستحيل"], "a": 1, "why": "<code dir=ltr>they are reacting</code>." },
+            { "t": "mcq", "q": "متى يقع الضرر حسب الخاتمة؟", "opts": ["عند الكتابة", "في الثواني بين الشعور وإعادة الإرسال", "بعد أسبوع", "عند النشر الرسميّ"], "a": 1, "why": "الجملة الأخيرة." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "لغة الأخبار في الحديث",
+          "rows": [
+            { "w": "Did you hear about it?", "s": "Didja hear aboudit?", "ar": "أسمعتَ عنه؟" },
+            { "w": "It turned out to be false", "s": "It turnd oud ta be false", "ar": "تبيّن أنّه كاذب" },
+            { "w": "According to the report", "s": "Accordin ta the report", "ar": "وفقاً للتقرير" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تنقل بأمانة وتشكّك بأدب",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "أفعال النقل تحمل موقفك",
+          "html": "اختيارك للفعل يكشف رأيك في المتحدّث:<br><br><table><tr><td dir=ltr><b>said / mentioned</b></td><td>محايد</td></tr><tr><td dir=ltr><b>explained / pointed out</b></td><td>تصدّقه</td></tr><tr><td dir=ltr><b>claimed / alleged</b></td><td>تتحفّظ عليه</td></tr><tr><td dir=ltr><b>admitted</b></td><td>اعترف بما يضرّه</td></tr><tr><td dir=ltr><b>insisted</b></td><td>كرّر رغم الاعتراض</td></tr><tr><td dir=ltr><b>denied</b></td><td>نفى</td></tr></table><br>💡 <code dir=ltr>He <b>claimed</b> that…</code> تقول للسامع: لا أضمن صحّته. وهذه أداةٌ مهنيّة ثمينة."
+        },
+        {
+          "type": "note",
+          "title": "التشكيك بأدب",
+          "html": "• <code dir=ltr>Where did you hear that?</code><br>• <code dir=ltr>Do you know if that's been confirmed?</code><br>• <code dir=ltr>I'm not sure that's the whole picture.</code><br>• <code dir=ltr>I'd want to check that before sharing it.</code><br><br>⚠️ تجنّب <code dir=ltr>That's fake · You're wrong</code> — تُغلق الحوار وتدفع المقابل إلى التشبّث."
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>He said me…</code> ✅ <code dir=ltr>He told me… / He said…</code><br>❌ <code dir=ltr>She asked me what is my name.</code> ✅ <code dir=ltr>She asked me what my name <b>was</b>.</code><br>❌ <code dir=ltr>The man which called…</code> ✅ <code dir=ltr>The man <b>who</b> called…</code><br>❌ <code dir=ltr>According to me…</code> ✅ <code dir=ltr>In my opinion… / I think…</code> (according to للآخرين لا لنفسك)"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: الكلمات التي يخطئ فيها المتعلّمون",
+          "hint": "كلماتٌ إعلاميّة شائعة",
+          "rows": [
+            { "w": "IN·terview", "s": "IN-ter-vyoo", "ar": "النبر على الأوّل" },
+            { "w": "de·VEL·op·ment", "s": "duh-VEL-up-munt", "ar": "النبر على الثاني" },
+            { "w": "ev·i·dence", "s": "EV-i-duns", "ar": "ثلاثة مقاطع والنبر على الأوّل" },
+            { "w": "au·THOR·i·ties", "s": "uh-THOR-i-teez", "ar": "النبر على الثاني" },
+            { "w": "sta·TIS·tics", "s": "stuh-TIS-tiks", "ar": "النبر على الأوسط" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات التشكيك كما تُنطق",
+          "rows": [
+            { "w": "Where did you hear that?", "s": "Where'dja hear that?", "ar": "أين سمعتَ ذلك؟" },
+            { "w": "Has that been confirmed?", "s": "Hazzat bin confirmd?", "ar": "هل تأكّد ذلك؟" },
+            { "w": "I am not sure about that", "s": "I'm nod sher about that", "ar": "لستُ متأكّداً من ذلك" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "أيّ فعلٍ يُظهر تحفّظك على صدق المتحدّث؟", "opts": ["explained", "claimed", "pointed out", "mentioned"], "a": 1, "why": "claim تعني ادّعى دون ضمان." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She asked me where do I live.</code>", "a": ["She asked me where I lived", "She asked me where I live"], "why": "السؤال المنقول بلا do." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The woman which helped me was kind.</code>", "a": ["The woman who helped me was kind", "The woman that helped me was kind"], "why": "who للأشخاص." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>According to me, it's wrong.</code>", "a": ["In my opinion, it's wrong", "I think it's wrong", "In my opinion it is wrong"], "why": "according to لنقل رأي الغير." },
+            { "t": "mcq", "q": "أين النبر في <code dir=ltr>statistics</code>؟", "opts": ["الأوّل", "الأوسط", "الأخير", "لا نبر"], "a": 1, "why": "stuh-TIS-tiks." },
+            { "t": "order", "q": "رتّب:", "ws": ["Do", "you", "know", "if", "that", "has", "been", "confirmed"], "a": "Do you know if that has been confirmed", "why": "تشكيكٌ مهذّب." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: تلخيص خبر",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "اختر خبراً قرأتَه مؤخّراً، ولخّصه لصديق في <b>٩٠–١١٠ كلمة</b>. يجب أن يتضمّن:<br><br>• ثلاث جملٍ بالكلام المنقول بأفعالٍ مختلفة (said · claimed · pointed out …)<br>• جملةً موصولة واحدة على الأقلّ (who / which / whose / where)<br>• ذكر المصدر ومدى ثقتك به<br>• رأيك أنت في الخبر<br><br>⚠️ لا تكرّر الضمير في الجملة الموصولة، ولا تقل according to me.",
+          "phrases": [
+            "I read an article which said that …",
+            "The researchers claimed that …",
+            "They pointed out that …",
+            "According to the report, …",
+            "The study, which was published in …, found …",
+            "I'd take it with a pinch of salt because …",
+            "In my opinion, …"
+          ],
+          "model": "I read an interesting article last week which said that reading before bed improves sleep more than any app. The researchers, who studied about four hundred people over six months, claimed that even ten minutes made a measurable difference.\n\nThey also pointed out that the effect disappeared if the reading was done on a screen, which I found surprising.\n\nThe study was published in a university journal, so the source seems reliable, although the sample was fairly small. I'd take the headline with a pinch of salt — it said reading \"cures\" insomnia, which is clearly an exaggeration.\n\nIn my opinion, it's worth trying anyway. It costs nothing.",
+          "modelAr": "قرأتُ الأسبوع الماضي مقالاً مثيراً يقول إنّ القراءة قبل النوم تحسّن النوم أكثر من أيّ تطبيق. وزعم الباحثون، الذين درسوا نحو أربعمئة شخصٍ على مدى ستّة أشهر، أنّ عشر دقائق تُحدث فرقاً قابلاً للقياس.<br><br>ولفتوا النظر أيضاً إلى أنّ الأثر يختفي إن كانت القراءة على شاشة، وهو ما وجدتُه مفاجئاً.<br><br>وقد نُشرت الدراسة في مجلّةٍ جامعيّة، فالمصدر يبدو موثوقاً، وإن كانت العيّنة صغيرةً إلى حدٍّ ما. وكنتُ لآخذ العنوان بتحفّظ — فقد قال إنّ القراءة «تشفي» الأرق، وهذه مبالغةٌ واضحة.<br><br>وفي رأيي يستحقّ الأمر التجربة على أيّ حال؛ فهو لا يكلّف شيئاً.",
+          "checklist": [
+            "استعملتُ ثلاثة أفعال نقلٍ مختلفة",
+            "تراجع الزمن في الكلام المنقول حيثما لزم",
+            "استعملتُ جملةً موصولة صحيحة بلا تكرار الضمير",
+            "استعملتُ who للأشخاص وwhich للأشياء",
+            "ذكرتُ المصدر وقيّمتُ موثوقيّته",
+            "لم أقل according to me",
+            "فصلتُ بين نقل الخبر ورأيي أنا",
+            "عدد الكلمات بين ٩٠ و١١٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات التلخيص كما تُنطق",
+          "rows": [
+            { "w": "I read an article that said", "s": "I red an article thut said", "ar": "قرأتُ مقالاً يقول" },
+            { "w": "which I found surprising", "s": "which I found surprisin", "ar": "وهو ما وجدتُه مفاجئاً" },
+            { "w": "It is worth trying anyway", "s": "It's worth tryin anyway", "ar": "يستحقّ التجربة على أيّ حال" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة — ونهاية المستوى الأوّل",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "note",
+          "title": "🎓 هذه آخر وحدات المستوى الأوّل",
+          "html": "باجتيازك هذا الاختبار تكون قد أتممت <b>اثنتي عشرة وحدة</b> غطّت منظومة الأزمنة كاملةً، والأفعال الناقصة، والمقارنة، وحروف الجرّ، والمصدر والاسم الفعليّ، والمبنيّ للمجهول، والشرط، والكلام المنقول.<br><br>هذا هو <b>مستوى B1</b> بمقياس الإطار الأوروبي. وما يليه هو المستوى الثاني، وفيه يتحوّل الشرح تدريجيّاً إلى الإنجليزية."
+        },
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة الثانية عشرة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>«I am waiting.»</code> → <code dir=ltr>He said he ___ .</code>", "opts": ["is waiting", "was waiting", "waits", "has waited"], "a": 1, "why": "مضارع مستمرّ ← ماضٍ مستمرّ." },
+            { "t": "mcq", "q": "<code dir=ltr>«I can swim.»</code> → <code dir=ltr>She said she ___ swim.</code>", "opts": ["can", "could", "would", "will"], "a": 1, "why": "can ← could." },
+            { "t": "mcq", "q": "<code dir=ltr>He ___ me he was busy.</code>", "opts": ["said", "told", "says", "tell"], "a": 1, "why": "tell + مخاطَب." },
+            { "t": "mcq", "q": "<code dir=ltr>The book ___ I bought was expensive.</code>", "opts": ["who", "which", "whose", "where"], "a": 1, "why": "شيء ← which." },
+            { "t": "mcq", "q": "<code dir=ltr>That's the hospital ___ I was born.</code>", "opts": ["which", "that", "where", "whose"], "a": 2, "why": "مكان ← where." },
+            { "t": "mcq", "q": "<code dir=ltr>misleading</code> تعني…", "opts": ["مبالَغ فيه", "مضلّل", "كاذب", "قديم"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>out of context</code> تعني…", "opts": ["خارج الموضوع", "خارج سياقه", "بلا مصدر", "قديم"], "a": 1, "why": "اقتباسٌ نُزع من سياقه." },
+            { "t": "mcq", "q": "أيّ فعلٍ يعني «أقرّ بما يضرّه»؟", "opts": ["insisted", "denied", "admitted", "mentioned"], "a": 2, "why": "admit = يعترف." },
+            { "t": "gap", "q": "<code dir=ltr>«I will call you.»</code> → <code dir=ltr>He said he ___ call me.</code>", "a": ["would"], "why": "will ← would." },
+            { "t": "gap", "q": "<code dir=ltr>«What time is it?»</code> → <code dir=ltr>She asked what time it ___ .</code>", "a": ["was"], "why": "تراجع الزمن وترتيب الجملة العاديّة." },
+            { "t": "gap", "q": "<code dir=ltr>The man ___ wallet I found was very grateful.</code>", "a": ["whose"], "why": "ملكيّة ← whose." },
+            { "t": "gap", "q": "<code dir=ltr>She ___ (deny) knowing anything about it.</code>", "a": ["denied"], "why": "deny + ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He said me that he was sorry.</code>", "a": ["He told me that he was sorry", "He said that he was sorry", "He told me he was sorry"], "why": "say لا تأخذ مخاطَباً مباشرةً." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The film which I watched it was boring.</code>", "a": ["The film which I watched was boring", "The film that I watched was boring", "The film I watched was boring"], "why": "لا تكرّر الضمير." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>They asked me where did I work.</code>", "a": ["They asked me where I worked", "They asked me where I work"], "why": "بلا did وبلا قلب." },
+            { "t": "order", "q": "رتّب:", "ws": ["She", "told", "me", "she", "had", "already", "left"], "a": "She told me she had already left", "why": "ماضٍ ← ماضٍ تامّ." },
+            { "t": "order", "q": "رتّب:", "ws": ["The", "person", "who", "called", "left", "a", "message"], "a": "The person who called left a message", "why": "جملة موصولة للأشخاص." },
+            { "t": "dict", "say": "He said 'e wuz gonna call", "a": ["He said he was going to call", "he said he was going to call"], "why": "سقوط h من he، وgonna = going to." },
+            { "t": "dict", "say": "Where'dja hear that?", "a": ["Where did you hear that?", "where did you hear that"], "why": "did you → «دجَ»." },
+            { "t": "mcq", "q": "أيّ فعلٍ يحمل تحفّظاً على الصدق؟", "opts": ["explained", "claimed", "admitted", "warned"], "a": 1, "why": "claim = ادّعى دون ضمان." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "نشرات الأخبار المبسّطة", "d": "ابحث عن «BBC News Review» — تشرح خبراً ولغته في ستّ دقائق", "task": "شاهد حلقةً، وسجّل خمس جملٍ منقولة وثلاث جملٍ موصولة." },
+            { "t": "مواقع التحقّق من الأخبار", "d": "ابحث عن «fact check» لخبرٍ أثار جدلاً مؤخّراً", "task": "اقرأ التحقّق بالإنجليزية، ولخّصه في ثلاث جملٍ بأفعال نقلٍ مختلفة." },
+            { "t": "بودكاست إخباريّ يوميّ", "d": "ابحث عن «Global News Podcast» — نشرة بثلاثين دقيقة", "task": "استمع عشر دقائق، وأحصِ كم مرّةً سمعت said و claimed و reported." }
+          ]
+        }
+      ]
+    }
+  ]
+}

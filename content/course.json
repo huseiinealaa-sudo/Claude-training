@@ -52,29 +52,212 @@
       "grammar": "المضارع البسيط والمستمرّ",
       "status": "ready"
     },
-    { "id": "unit-02", "level": "L1", "n": 2, "icon": "🕰️", "title": "الذكريات والسرد", "grammar": "الماضي البسيط والمستمرّ", "status": "soon" },
-    { "id": "unit-03", "level": "L1", "n": 3, "icon": "🏅", "title": "الخبرات والإنجازات", "grammar": "المضارع التامّ + for / since", "status": "soon" },
-    { "id": "unit-04", "level": "L1", "n": 4, "icon": "🗓️", "title": "الخطط والمستقبل", "grammar": "will / going to / المضارع المستمرّ", "status": "soon" },
-    { "id": "unit-05", "level": "L1", "n": 5, "icon": "⚖️", "title": "الوصف والمقارنة", "grammar": "المقارنة والتفضيل", "status": "soon" },
-    { "id": "unit-06", "level": "L1", "n": 6, "icon": "💪", "title": "الصحّة والعادات", "grammar": "should / must / have to", "status": "soon" },
-    { "id": "unit-07", "level": "L1", "n": 7, "icon": "✈️", "title": "السفر والاتّجاهات", "grammar": "حروف الجرّ وكمّيّات المعدود", "status": "soon" },
-    { "id": "unit-08", "level": "L1", "n": 8, "icon": "💼", "title": "العمل والمهنة", "grammar": "المضارع التامّ ↔ الماضي البسيط", "status": "soon" },
-    { "id": "unit-09", "level": "L1", "n": 9, "icon": "📚", "title": "التعليم والتعلّم", "grammar": "المصدر والاسم الفعليّ", "status": "soon" },
-    { "id": "unit-10", "level": "L1", "n": 10, "icon": "📱", "title": "التقنية والحياة الرقميّة", "grammar": "المبنيّ للمجهول (البسيط)", "status": "soon" },
-    { "id": "unit-11", "level": "L1", "n": 11, "icon": "🔮", "title": "الافتراض والاحتمال", "grammar": "الشرط الأوّل والثاني", "status": "soon" },
-    { "id": "unit-12", "level": "L1", "n": 12, "icon": "📰", "title": "الأخبار ونقل الكلام", "grammar": "الكلام المنقول + الجمل الموصولة", "status": "soon" },
-
-    { "id": "unit-13", "level": "L2", "n": 13, "icon": "📡", "title": "الإعلام والمصداقيّة", "grammar": "المضارع التامّ المستمرّ + روابط الخطاب", "status": "soon" },
-    { "id": "unit-14", "level": "L2", "n": 14, "icon": "🌍", "title": "البيئة والمناخ", "grammar": "المبنيّ للمجهول بكلّ الأزمنة", "status": "soon" },
-    { "id": "unit-15", "level": "L2", "n": 15, "icon": "🔬", "title": "العلم والاكتشاف", "grammar": "الماضي التامّ وأزمنة السرد", "status": "soon" },
-    { "id": "unit-16", "level": "L2", "n": 16, "icon": "📈", "title": "الاقتصاد والمال", "grammar": "الشرط الثالث والمختلط", "status": "soon" },
-    { "id": "unit-17", "level": "L2", "n": 17, "icon": "🏛️", "title": "المجتمع والثقافة", "grammar": "الكلام المنقول الكامل", "status": "soon" },
-    { "id": "unit-18", "level": "L2", "n": 18, "icon": "🩺", "title": "الطبّ والصحّة", "grammar": "أفعال الاستنتاج (must have)", "status": "soon" },
-    { "id": "unit-19", "level": "L2", "n": 19, "icon": "🎯", "title": "القيادة والعمل الاحترافيّ", "grammar": "البناء السببيّ (have sth done)", "status": "soon" },
-    { "id": "unit-20", "level": "L2", "n": 20, "icon": "🗣️", "title": "الجدل والإقناع", "grammar": "القلب والتركيز (It was… that…)", "status": "soon" },
-    { "id": "unit-21", "level": "L2", "n": 21, "icon": "🎨", "title": "الفنّ والأدب", "grammar": "الجمل الموصولة المختصرة", "status": "soon" },
-    { "id": "unit-22", "level": "L2", "n": 22, "icon": "🤖", "title": "الذكاء الاصطناعيّ والمستقبل", "grammar": "التحوّط والتقدير (hedging)", "status": "soon" },
-    { "id": "unit-23", "level": "L2", "n": 23, "icon": "🧭", "title": "الأخلاق والقرارات", "grammar": "wish / if only / I'd rather", "status": "soon" },
-    { "id": "unit-24", "level": "L2", "n": 24, "icon": "🏆", "title": "الطلاقة — مراجعة ومشروع ختاميّ", "grammar": "تكامل شامل", "status": "soon" }
+    {
+      "id": "unit-02",
+      "level": "L1",
+      "n": 2,
+      "icon": "🕰️",
+      "title": "الذكريات والسرد",
+      "grammar": "الماضي البسيط والمستمرّ",
+      "status": "ready"
+    },
+    {
+      "id": "unit-03",
+      "level": "L1",
+      "n": 3,
+      "icon": "🏅",
+      "title": "الخبرات والإنجازات",
+      "grammar": "المضارع التامّ + for / since",
+      "status": "ready"
+    },
+    {
+      "id": "unit-04",
+      "level": "L1",
+      "n": 4,
+      "icon": "🗓️",
+      "title": "الخطط والمستقبل",
+      "grammar": "will / going to / المضارع المستمرّ",
+      "status": "ready"
+    },
+    {
+      "id": "unit-05",
+      "level": "L1",
+      "n": 5,
+      "icon": "⚖️",
+      "title": "الوصف والمقارنة",
+      "grammar": "المقارنة والتفضيل",
+      "status": "ready"
+    },
+    {
+      "id": "unit-06",
+      "level": "L1",
+      "n": 6,
+      "icon": "💪",
+      "title": "الصحّة والعادات",
+      "grammar": "should / must / have to",
+      "status": "ready"
+    },
+    {
+      "id": "unit-07",
+      "level": "L1",
+      "n": 7,
+      "icon": "✈️",
+      "title": "السفر والاتّجاهات",
+      "grammar": "حروف الجرّ وكمّيّات المعدود",
+      "status": "ready"
+    },
+    {
+      "id": "unit-08",
+      "level": "L1",
+      "n": 8,
+      "icon": "💼",
+      "title": "العمل والمهنة",
+      "grammar": "المضارع التامّ ↔ الماضي البسيط",
+      "status": "ready"
+    },
+    {
+      "id": "unit-09",
+      "level": "L1",
+      "n": 9,
+      "icon": "📚",
+      "title": "التعليم والتعلّم",
+      "grammar": "المصدر والاسم الفعليّ",
+      "status": "ready"
+    },
+    {
+      "id": "unit-10",
+      "level": "L1",
+      "n": 10,
+      "icon": "📱",
+      "title": "التقنية والحياة الرقميّة",
+      "grammar": "المبنيّ للمجهول (البسيط)",
+      "status": "ready"
+    },
+    {
+      "id": "unit-11",
+      "level": "L1",
+      "n": 11,
+      "icon": "🔮",
+      "title": "الافتراض والاحتمال",
+      "grammar": "الشرط الأوّل والثاني",
+      "status": "ready"
+    },
+    {
+      "id": "unit-12",
+      "level": "L1",
+      "n": 12,
+      "icon": "📰",
+      "title": "الأخبار ونقل الكلام",
+      "grammar": "الكلام المنقول + الجمل الموصولة",
+      "status": "ready"
+    },
+    {
+      "id": "unit-13",
+      "level": "L2",
+      "n": 13,
+      "icon": "📡",
+      "title": "الإعلام والمصداقيّة",
+      "grammar": "المضارع التامّ المستمرّ + روابط الخطاب",
+      "status": "ready"
+    },
+    {
+      "id": "unit-14",
+      "level": "L2",
+      "n": 14,
+      "icon": "🌍",
+      "title": "البيئة والمناخ",
+      "grammar": "المبنيّ للمجهول بكلّ الأزمنة",
+      "status": "ready"
+    },
+    {
+      "id": "unit-15",
+      "level": "L2",
+      "n": 15,
+      "icon": "🔬",
+      "title": "العلم والاكتشاف",
+      "grammar": "الماضي التامّ وأزمنة السرد",
+      "status": "ready"
+    },
+    {
+      "id": "unit-16",
+      "level": "L2",
+      "n": 16,
+      "icon": "📈",
+      "title": "الاقتصاد والمال",
+      "grammar": "الشرط الثالث والمختلط",
+      "status": "ready"
+    },
+    {
+      "id": "unit-17",
+      "level": "L2",
+      "n": 17,
+      "icon": "🏛️",
+      "title": "المجتمع والثقافة",
+      "grammar": "الكلام المنقول الكامل",
+      "status": "ready"
+    },
+    {
+      "id": "unit-18",
+      "level": "L2",
+      "n": 18,
+      "icon": "🩺",
+      "title": "الطبّ والصحّة",
+      "grammar": "أفعال الاستنتاج (must have)",
+      "status": "ready"
+    },
+    {
+      "id": "unit-19",
+      "level": "L2",
+      "n": 19,
+      "icon": "🎯",
+      "title": "القيادة والعمل الاحترافيّ",
+      "grammar": "البناء السببيّ (have sth done)",
+      "status": "ready"
+    },
+    {
+      "id": "unit-20",
+      "level": "L2",
+      "n": 20,
+      "icon": "🗣️",
+      "title": "الجدل والإقناع",
+      "grammar": "القلب والتركيز (It was… that…)",
+      "status": "ready"
+    },
+    {
+      "id": "unit-21",
+      "level": "L2",
+      "n": 21,
+      "icon": "🎨",
+      "title": "الفنّ والأدب",
+      "grammar": "الجمل الموصولة المختصرة",
+      "status": "ready"
+    },
+    {
+      "id": "unit-22",
+      "level": "L2",
+      "n": 22,
+      "icon": "🤖",
+      "title": "الذكاء الاصطناعيّ والمستقبل",
+      "grammar": "التحوّط والتقدير (hedging)",
+      "status": "ready"
+    },
+    {
+      "id": "unit-23",
+      "level": "L2",
+      "n": 23,
+      "icon": "🧭",
+      "title": "الأخلاق والقرارات",
+      "grammar": "wish / if only / I'd rather",
+      "status": "ready"
+    },
+    {
+      "id": "unit-24",
+      "level": "L2",
+      "n": 24,
+      "icon": "🏆",
+      "title": "الطلاقة — مراجعة ومشروع ختاميّ",
+      "grammar": "تكامل شامل",
+      "status": "ready"
+    }
   ]
 }

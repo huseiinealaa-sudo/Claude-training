@@ -1,0 +1,375 @@
+{
+  "id": "unit-06",
+  "icon": "💪",
+  "title": "الصحّة والعادات",
+  "subtitle": "أن تنصح وتلزم وتحذّر بالدرجة الصحيحة",
+  "intro": "الأفعال الناقصة (modals) هي مقياس اللباقة في الإنجليزية: الفرق بين <code dir=ltr>You must stop</code> و<code dir=ltr>You might want to stop</code> ليس في المعنى بل في العلاقة. وهذه الوحدة تعلّمك أن تختار الدرجة المناسبة — وهو ما يميّز المتحدّث الناضج.",
+  "goals": [
+    "أنصح بدرجاتٍ مختلفة من القوّة",
+    "أميّز بين must و have to و should",
+    "أتحدّث عن الممنوع والمسموح",
+    "أصف أعراضاً صحّيّة وأطلب نصيحة"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "الأفعال الناقصة",
+      "subtitle": "should · must · have to · can't",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "قاعدةٌ واحدة تحكمها كلّها",
+          "html": "بعد الفعل الناقص يأتي <b>الفعل مجرّداً</b> دائماً — بلا to وبلا s وبلا ing:<br><br>✅ <code dir=ltr>She should <b>go</b>.</code> ❌ <code dir=ltr>She should goes / to go / going</code><br><br>والنفي بإضافة not مباشرةً: <code dir=ltr>shouldn't · mustn't · can't</code><br>والسؤال بتقديمه: <code dir=ltr>Should I call him?</code> (بلا do/does)"
+        },
+        {
+          "type": "note",
+          "title": "سلّم النصيحة — من الأخفّ إلى الأثقل",
+          "html": "<table><tr><td dir=ltr><b>You might want to …</b></td><td>اقتراح لطيف جدّاً</td></tr><tr><td dir=ltr><b>You could …</b></td><td>خيارٌ مطروح</td></tr><tr><td dir=ltr><b>You should …</b></td><td>نصيحة معتادة</td></tr><tr><td dir=ltr><b>You ought to …</b></td><td>نصيحة أرسميّ قليلاً</td></tr><tr><td dir=ltr><b>You'd better …</b></td><td>تحذير — فيه عاقبة ضمنيّة</td></tr><tr><td dir=ltr><b>You must …</b></td><td>إلزام قويّ</td></tr></table><br>⚠️ <code dir=ltr>You'd better</code> ليست نصيحةً ودّية — فيها تهديدٌ مبطّن:<br><code dir=ltr>You'd better leave now.</code> = وإلّا ستقع مشكلة."
+        },
+        {
+          "type": "note",
+          "title": "must ↔ have to — الفرق الذي يُغفَل",
+          "html": "<b>must</b> ← إلزامٌ من <u>المتكلّم نفسه</u> (قناعتي، شعوري)<br><code dir=ltr>I <b>must</b> stop smoking.</code> (أنا قرّرت)<br><br><b>have to</b> ← إلزامٌ من <u>الخارج</u> (قانون، نظام، ظرف)<br><code dir=ltr>I <b>have to</b> wear a uniform at work.</code> (الشركة تلزمني)<br><br>⚠️ وأخطر فرقٍ في النفي — هنا يقع الخطأ الشائع:<br><code dir=ltr><b>mustn't</b></code> = <u>ممنوع</u> · <code dir=ltr>You mustn't smoke here.</code><br><code dir=ltr><b>don't have to</b></code> = <u>غير مضطرّ</u> · <code dir=ltr>You don't have to come.</code><br><br>فالأولى منعٌ، والثانية حرّيّة — والخلط بينهما يقلب المعنى تماماً."
+        },
+        {
+          "type": "note",
+          "title": "الماضي — لأنّ الناقصة لا تُصرَّف",
+          "html": "<table><tr><td dir=ltr>must / have to</td><td>→ <b>had to</b></td></tr><tr><td dir=ltr>can</td><td>→ <b>could</b></td></tr><tr><td dir=ltr>should</td><td>→ <b>should have</b> + التصريف الثالث</td></tr></table><br><code dir=ltr>I <b>had to</b> work late yesterday.</code><br><code dir=ltr>You <b>should have</b> told me.</code> (كان عليك أن تخبرني — لكنّك لم تفعل)"
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "You <b>should</b> see a doctor.", "ar": "ينبغي أن ترى طبيباً. (نصيحة)" },
+            { "en": "You <b>must</b> take this twice a day.", "ar": "يجب أن تأخذ هذا مرّتين يوميّاً. (إلزام)" },
+            { "en": "You <b>mustn't</b> drink alcohol with it.", "ar": "ممنوع أن تشرب كحولاً معه. (منع)" },
+            { "en": "You <b>don't have to</b> finish it all.", "ar": "لستَ مضطرّاً إلى إنهائه كلّه. (حرّيّة)" },
+            { "en": "You'<b>d better</b> not be late again.", "ar": "الأفضل ألّا تتأخّر ثانيةً. (تحذير)" },
+            { "en": "I <b>had to</b> cancel the trip.", "ar": "اضطُررتُ إلى إلغاء الرحلة." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "الناقصة تلتصق وتُختزل بشدّة",
+          "rows": [
+            { "w": "You should have told me", "s": "You shoulda told me", "ar": "كان عليك إخباري" },
+            { "w": "I have to go", "s": "I hafta go", "ar": "عليّ الذهاب — have to تصير hafta" },
+            { "w": "She has to work", "s": "She hasta work", "ar": "عليها العمل — has to تصير hasta" },
+            { "w": "You had better hurry", "s": "You'd bedder hurry", "ar": "الأفضل أن تسرع" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>You ___ smoke in the hospital. It's forbidden.</code>", "opts": ["don't have to", "mustn't", "shouldn't have", "couldn't"], "a": 1, "why": "منعٌ قاطع ← mustn't." },
+            { "t": "mcq", "q": "<code dir=ltr>You ___ pay — it's free.</code>", "opts": ["mustn't", "don't have to", "shouldn't", "can't"], "a": 1, "why": "لا إلزام ← don't have to." },
+            { "t": "mcq", "q": "<code dir=ltr>She ___ wear a uniform at her job.</code>", "opts": ["must", "has to", "should", "ought"], "a": 1, "why": "إلزامٌ خارجيّ من العمل ← has to." },
+            { "t": "mcq", "q": "<code dir=ltr>You ___ go now, or you'll miss the train.</code>", "opts": ["might want to", "could", "had better", "don't have to"], "a": 2, "why": "تحذيرٌ بعاقبة ← had better." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ work late yesterday.</code>", "opts": ["must", "have to", "had to", "must to"], "a": 2, "why": "ماضي must/have to هو had to." },
+            { "t": "gap", "q": "<code dir=ltr>You ___ (should / not) eat so late.</code>", "a": ["shouldn't eat", "should not eat", "shouldn't eat."], "why": "النفي بإضافة not مباشرةً." },
+            { "t": "gap", "q": "<code dir=ltr>You ___ (should) have called me.</code>", "a": ["should"], "why": "الندم على ما لم يحدث ← should have." },
+            { "t": "gap", "q": "<code dir=ltr>___ I open the window?</code>", "a": ["Shall", "Should", "Can", "May"], "why": "عرضٌ مهذّب ← Shall / Should / May." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She must to go now.</code>", "a": ["She must go now", "She must go now."], "why": "بعد الناقص فعلٌ مجرّد بلا to." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He should goes to bed early.</code>", "a": ["He should go to bed early", "He should go to bed early."], "why": "لا s بعد الناقص." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Do you should call him?</code>", "a": ["Should you call him?", "Should you call him", "should you call him"], "why": "الناقص يُقدَّم بنفسه بلا do." },
+            { "t": "order", "q": "رتّب:", "ws": ["You", "had", "better", "not", "be", "late"], "a": "You had better not be late", "why": "النفي بعد better مباشرةً." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: الصحّة والعادات",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "الأعراض والشكوى",
+          "items": [
+            { "w": "come down with", "pos": "phrasal verb", "ar": "يُصاب بمرضٍ خفيف", "ex": [{ "en": "I think I'm <b>coming down with</b> a cold.", "ar": "أظنّني أُصاب بزكام." }] },
+            { "w": "under the weather", "pos": "idiom", "ar": "متوعّك", "ex": [{ "en": "She's a bit <b>under the weather</b> today.", "ar": "إنّها متوعّكة قليلاً اليوم." }] },
+            { "w": "run down", "pos": "adjective", "ar": "منهك مستنزَف", "ex": [{ "en": "You look <b>run down</b> — get some rest.", "ar": "تبدو منهكاً — نَل قسطاً من الراحة." }] },
+            { "w": "ache", "pos": "noun / verb", "ar": "ألم مستمرّ / يؤلم", "ex": [{ "en": "My back <b>aches</b> after sitting all day.", "ar": "يؤلمني ظهري بعد الجلوس طوال اليوم." }] },
+            { "w": "sore throat", "pos": "noun", "ar": "التهاب حلق", "ex": [{ "en": "I've had a <b>sore throat</b> since Monday.", "ar": "أعاني التهاب حلقٍ منذ الاثنين." }] },
+            { "w": "get over", "pos": "phrasal verb", "ar": "يتعافى من", "ex": [{ "en": "It took me a week to <b>get over</b> the flu.", "ar": "استغرقني التعافي من الإنفلونزا أسبوعاً." }] },
+            { "w": "check-up", "pos": "noun", "ar": "فحص دوريّ", "ex": [{ "en": "I'm going for a <b>check-up</b> on Thursday.", "ar": "سأجري فحصاً دوريّاً الخميس." }] },
+            { "w": "side effect", "pos": "noun", "ar": "أثر جانبيّ", "ex": [{ "en": "The main <b>side effect</b> is drowsiness.", "ar": "الأثر الجانبيّ الرئيس هو النعاس." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "العادات — بناءً وتخلّياً",
+          "items": [
+            { "w": "cut down on", "pos": "phrasal verb", "ar": "يقلّل من", "ex": [{ "en": "I'm trying to <b>cut down on</b> sugar.", "ar": "أحاول التقليل من السكّر." }] },
+            { "w": "give up", "pos": "phrasal verb", "ar": "يُقلع عن", "ex": [{ "en": "He <b>gave up</b> smoking last year.", "ar": "أقلع عن التدخين العام الماضي." }] },
+            { "w": "take up", "pos": "phrasal verb", "ar": "يبدأ نشاطاً", "ex": [{ "en": "She's <b>taken up</b> yoga.", "ar": "بدأت اليوغا." }] },
+            { "w": "stick to", "pos": "phrasal verb", "ar": "يلتزم بـ", "ex": [{ "en": "It's hard to <b>stick to</b> a diet.", "ar": "يصعب الالتزام بحمية." }] },
+            { "w": "slip back into", "pos": "phrasal verb", "ar": "يعود إلى عادةٍ سيّئة", "ex": [{ "en": "I <b>slipped back into</b> old habits.", "ar": "عدتُ إلى عاداتي القديمة." }] },
+            { "w": "work out", "pos": "phrasal verb", "ar": "يتمرّن رياضيّاً", "ex": [{ "en": "I <b>work out</b> three times a week.", "ar": "أتمرّن ثلاث مرّات أسبوعيّاً." }] },
+            { "w": "in moderation", "pos": "expression", "ar": "باعتدال", "ex": [{ "en": "Coffee is fine <b>in moderation</b>.", "ar": "لا بأس بالقهوة باعتدال." }] },
+            { "w": "burn out", "pos": "phrasal verb / noun", "ar": "يحترق نفسيّاً من الإرهاق", "ex": [{ "en": "He <b>burned out</b> after two hard years.", "ar": "احترق نفسيّاً بعد سنتين قاسيتين." }] },
+            { "w": "get into shape", "pos": "expression", "ar": "يستعيد لياقته", "ex": [{ "en": "I want to <b>get into shape</b> before summer.", "ar": "أريد استعادة لياقتي قبل الصيف." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "لغة النصيحة",
+          "items": [
+            { "w": "look after", "pos": "phrasal verb", "ar": "يعتني بـ", "ex": [{ "en": "You need to <b>look after</b> yourself.", "ar": "عليك أن تعتني بنفسك." }] },
+            { "w": "keep an eye on", "pos": "idiom", "ar": "يراقب / ينتبه لـ", "ex": [{ "en": "<b>Keep an eye on</b> your blood pressure.", "ar": "راقب ضغط دمك." }] },
+            { "w": "if I were you", "pos": "expression", "ar": "لو كنتُ مكانك", "ex": [{ "en": "<b>If I were you</b>, I'd rest today.", "ar": "لو كنتُ مكانك لاسترحتُ اليوم." }] },
+            { "w": "it's worth", "pos": "expression", "ar": "يستحقّ أن", "ex": [{ "en": "<b>It's worth</b> getting it checked.", "ar": "يستحقّ الأمر أن تفحصه." }] },
+            { "w": "the sooner the better", "pos": "expression", "ar": "كلّما كان أبكر كان أفضل", "ex": [{ "en": "See a doctor — <b>the sooner the better</b>.", "ar": "راجع طبيباً — كلّما أبكرت كان أفضل." }] },
+            { "w": "there's no point", "pos": "expression", "ar": "لا جدوى من", "ex": [{ "en": "<b>There's no point</b> worrying about it.", "ar": "لا جدوى من القلق حياله." }] },
+            { "w": "put up with", "pos": "phrasal verb", "ar": "يتحمّل", "ex": [{ "en": "Don't <b>put up with</b> the pain.", "ar": "لا تتحمّل الألم." }] },
+            { "w": "make sure", "pos": "expression", "ar": "يتأكّد من", "ex": [{ "en": "<b>Make sure</b> you drink enough water.", "ar": "تأكّد من شرب ماءٍ كافٍ." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: عند الطبيب",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>ركّز على <code dir=ltr>hafta</code> و<code dir=ltr>shoulda</code> — ستسمعهما كثيراً."
+        },
+        {
+          "type": "dialogue",
+          "title": "At the Doctor's",
+          "titleAr": "عند الطبيب",
+          "lines": [
+            { "sp": "Doctor", "en": "So, what seems to be the problem?", "ar": "إذن، ما المشكلة كما يبدو؟" },
+            { "sp": "Tariq", "en": "I've had a sore throat and headaches for about five days.", "ar": "أعاني التهاب حلقٍ وصداعاً منذ نحو خمسة أيّام." },
+            { "sp": "Doctor", "en": "Any fever?", "ar": "أثمّة حرارة؟" },
+            { "sp": "Tariq", "en": "A bit, mostly at night. And I feel really run down.", "ar": "قليلاً، أكثرها ليلاً. وأشعر بإنهاكٍ شديد." },
+            { "sp": "Doctor", "en": "How much sleep are you getting?", "ar": "كم تنام؟" },
+            { "sp": "Tariq", "en": "Four, maybe five hours. Work has been intense.", "ar": "أربع، ربّما خمس ساعات. العمل كان مكثّفاً." },
+            { "sp": "Doctor", "en": "Right. You should have come in sooner, honestly.", "ar": "حسناً. كان عليك أن تأتي أبكر، بصراحة." },
+            { "sp": "Tariq", "en": "I thought I'd get over it on my own.", "ar": "ظننتُ أنّني سأتعافى وحدي." },
+            { "sp": "Doctor", "en": "It's a viral infection. You don't have to take antibiotics.", "ar": "إنّها عدوى فيروسيّة. لستَ مضطرّاً إلى مضادّات حيويّة." },
+            { "sp": "Tariq", "en": "So what should I do?", "ar": "فماذا ينبغي أن أفعل؟" },
+            { "sp": "Doctor", "en": "Rest, fluids, and you must stop working these hours.", "ar": "راحة وسوائل، ويجب أن تكفّ عن العمل بهذه الساعات." },
+            { "sp": "Tariq", "en": "That's easier said than done.", "ar": "قولٌ أسهل من فعل." },
+            { "sp": "Doctor", "en": "If I were you, I'd take three days off. You're heading for burn-out.", "ar": "لو كنتُ مكانك لأخذتُ ثلاثة أيّام إجازة. أنت متّجه نحو احتراقٍ نفسيّ." },
+            { "sp": "Tariq", "en": "All right. I'll speak to my manager tomorrow.", "ar": "حسناً. سأكلّم مديري غداً." },
+            { "sp": "Doctor", "en": "Good. And come back if it hasn't improved by Friday.", "ar": "جيّد. وعُد إن لم يتحسّن بحلول الجمعة." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "منذ متى يعاني طارق؟", "opts": ["يومان", "نحو خمسة أيّام", "أسبوعان", "شهر"], "a": 1, "why": "<code dir=ltr>for about five days</code>." },
+            { "t": "mcq", "q": "كم ينام طارق؟", "opts": ["ثماني ساعات", "ستّ", "أربع أو خمس", "لم يُذكر"], "a": 2, "why": "<code dir=ltr>Four, maybe five hours</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>You don't have to take antibiotics</code> تعني…", "opts": ["ممنوع أن تأخذها", "لستَ مضطرّاً إليها", "يجب أن تأخذها", "خذها لاحقاً"], "a": 1, "why": "don't have to = لا إلزام، لا منع." },
+            { "t": "mcq", "q": "ما الإلزام الوحيد الذي فرضه الطبيب؟", "opts": ["أخذ الدواء", "التوقّف عن العمل بهذه الساعات", "الفحص الدوريّ", "الحمية"], "a": 1, "why": "<code dir=ltr>you must stop working these hours</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>You should have come in sooner</code> تعني…", "opts": ["تعال أبكر غداً", "كان عليك أن تأتي أبكر ولم تفعل", "ستأتي أبكر", "لا تأتِ أبكر"], "a": 1, "why": "should have = ندمٌ على ما لم يحدث." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "You shoulda come in sooner", "a": ["You should have come in sooner", "you should have come in sooner"], "why": "shoulda = should have — ولا تكتبها should of." },
+            { "t": "dict", "say": "You don hafta take antibiotics", "a": ["You don't have to take antibiotics", "you dont have to take antibiotics"], "why": "have to → hafta، وسقطت t من don't." },
+            { "t": "dict", "say": "If I were you I'd take three days off", "a": ["If I were you I'd take three days off", "If I were you, I would take three days off", "if i were you id take three days off"], "why": "قالب النصيحة الافتراضيّ." },
+            { "t": "dict", "say": "Thas easier said than done", "a": ["That's easier said than done", "thats easier said than done"], "why": "سقوط t من that's، وthan تلتصق." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: العادة أقوى من الإرادة",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Habits Beat Willpower",
+          "titleAr": "العادة أقوى من الإرادة",
+          "en": "Every January, gyms fill with people who have decided that this year will be different. By March, most of them have <b>slipped back into</b> old routines. The usual explanation is that they lacked discipline. Research suggests something less flattering to our self-image and far more useful: willpower is a limited resource, and anyone who relies on it alone will eventually run out.<br><br>Habit researchers describe a simple loop: a cue, a routine, and a reward. Your phone buzzes (cue), you check it (routine), you feel a small hit of novelty (reward). Repeat this a few thousand times and the behaviour stops requiring any decision at all. The bad news is that this works exactly the same way for habits you did not choose. The good news is that the loop can be redesigned.<br><br>The practical advice is unglamorous. Do not try to break a habit; replace its routine while keeping the same cue and reward. Make the new behaviour absurdly small — two minutes, not thirty — so that starting requires no negotiation with yourself. Attach it to something you already do without thinking. And expect to fail sometimes: people who treat one missed day as evidence of failure quit far more often than people who simply start again the next morning. Consistency, not intensity, is what <b>sticks</b>.",
+          "ar": "في كلّ كانون الثاني تمتلئ النوادي الرياضيّة بأناسٍ قرّروا أنّ هذا العام سيكون مختلفاً. وبحلول آذار يكون أكثرهم قد عاد إلى روتينه القديم. والتفسير المعتاد أنّهم افتقروا إلى الانضباط. لكنّ البحوث تشير إلى ما هو أقلّ إطراءً لصورتنا عن أنفسنا وأنفع منه بكثير: أنّ قوّة الإرادة موردٌ محدود، وأنّ من يعتمد عليها وحدها سينفد منه عاجلاً أو آجلاً.<br><br>ويصف باحثو العادات حلقةً بسيطة: إشارة، فروتين، فمكافأة. يهتزّ هاتفك (إشارة)، فتتفقّده (روتين)، فتشعر بجرعةٍ صغيرة من الجِدّة (مكافأة). كرّر ذلك بضعة آلاف مرّة يكفّ السلوك عن أن يحتاج قراراً أصلاً. والخبر السيّئ أنّ هذا يعمل بالطريقة نفسها تماماً مع عاداتٍ لم تخترها. والخبر السارّ أنّ الحلقة قابلة لإعادة التصميم.<br><br>والنصيحة العمليّة غير برّاقة: لا تحاول كسر عادة، بل استبدل روتينها مع إبقاء الإشارة والمكافأة نفسيهما. واجعل السلوك الجديد صغيراً إلى حدّ السخف — دقيقتان لا ثلاثون — حتى لا يحتاج البدء إلى مفاوضةٍ مع نفسك. وألحقه بشيءٍ تفعله أصلاً بلا تفكير. وتوقّع أن تفشل أحياناً: فمن يعدّ يوماً واحداً فائتاً دليلاً على الفشل ينسحب أكثر بكثير ممّن يبدأ من جديد في صباح اليوم التالي. فالمداومة — لا الشدّة — هي ما يرسخ.",
+          "keys": [["slipped back into", "عاد إلى"], ["willpower", "قوّة الإرادة"], ["cue", "إشارة"], ["consistency", "مداومة"], ["sticks", "يرسخ"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما التفسير الذي ترفضه البحوث؟", "opts": ["أنّ العادة حلقة", "أنّ السبب نقص الانضباط", "أنّ الإرادة محدودة", "أنّ البدء صعب"], "a": 1, "why": "<code dir=ltr>The usual explanation is that they lacked discipline</code> — والبحث يقدّم بديلاً." },
+            { "t": "mcq", "q": "ما مكوّنات حلقة العادة؟", "opts": ["قرار وجهد ونتيجة", "إشارة وروتين ومكافأة", "هدف وخطّة وتقييم", "رغبة وإرادة وصبر"], "a": 1, "why": "<code dir=ltr>a cue, a routine, and a reward</code>." },
+            { "t": "mcq", "q": "ما النصيحة بشأن كسر العادة؟", "opts": ["اكسرها فوراً", "استبدل الروتين مع إبقاء الإشارة والمكافأة", "غيّر المكافأة", "ابتعد عن الإشارة"], "a": 1, "why": "<code dir=ltr>replace its routine while keeping the same cue and reward</code>." },
+            { "t": "mcq", "q": "لماذا يُنصح بجعل السلوك صغيراً جدّاً؟", "opts": ["لتوفير الوقت", "حتى لا يحتاج البدء إلى مفاوضةٍ مع النفس", "لأنّه أرخص", "لأنّه أمتع"], "a": 1, "why": "<code dir=ltr>starting requires no negotiation with yourself</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>unglamorous</code> تعني…", "opts": ["مثيرة", "غير برّاقة", "خاطئة", "معقّدة"], "a": 1, "why": "استنتاج من السياق: نصيحة عمليّة بسيطة لا مبهرة." },
+            { "t": "mcq", "q": "ما الفيصل بين من ينجح ومن ينسحب؟", "opts": ["الشدّة", "المداومة والعودة بعد يومٍ فائت", "الموهبة", "الوقت المتاح"], "a": 1, "why": "<code dir=ltr>Consistency, not intensity</code>." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "لغة النصيحة كما تُنطق",
+          "rows": [
+            { "w": "You ought to see someone", "s": "You oughta see someone", "ar": "ينبغي أن ترى مختصّاً" },
+            { "w": "I have got to cut down", "s": "I godda cut down", "ar": "عليّ أن أقلّل" },
+            { "w": "There is no point worrying", "s": "There's no point worryin", "ar": "لا جدوى من القلق" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تنصح دون أن تبدو متعالياً",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "كيف تنصح بلباقة",
+          "html": "النصيحة المباشرة تبدو فظّة بالإنجليزية. لطّفها بهذه:<br><br>• <code dir=ltr>Have you thought about …?</code><br>• <code dir=ltr>It might be worth …ing</code><br>• <code dir=ltr>If I were you, I'd …</code><br>• <code dir=ltr>What works for me is …</code><br>• <code dir=ltr>You could always …</code><br><br>⚠️ تجنّب <code dir=ltr>You must …</code> مع الأصدقاء — إنّها لغة الطبيب والقانون لا لغة النصح الودّي."
+        },
+        {
+          "type": "note",
+          "title": "وصف الأعراض",
+          "html": "<b>الصيغ الأساسيّة:</b><br>• <code dir=ltr>I've got a headache / a sore throat / a temperature.</code><br>• <code dir=ltr>My back hurts. · My knee aches.</code><br>• <code dir=ltr>I feel dizzy / sick / exhausted.</code><br>• <code dir=ltr>It's been like this for three days.</code><br><br>⚠️ <code dir=ltr>I am sick</code> في الأمريكية = مريض. أمّا <code dir=ltr>I feel sick</code> = أشعر بالغثيان."
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>I have pain in my head.</code> ✅ <code dir=ltr>I've got a headache.</code><br>❌ <code dir=ltr>I am having a cold.</code> ✅ <code dir=ltr>I've got a cold.</code><br>❌ <code dir=ltr>You must not to smoke.</code> ✅ <code dir=ltr>You mustn't smoke.</code><br>❌ <code dir=ltr>I advice you to rest.</code> ✅ <code dir=ltr>I advise you to rest.</code> (advice اسم · advise فعل)"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: الناقصة المختزلة",
+          "hint": "هذه أكثر ما تسمعه في الأفلام",
+          "rows": [
+            { "w": "have to", "s": "hafta", "ar": "لاحظ أنّها f لا v" },
+            { "w": "has to", "s": "hasta", "ar": "كذلك s مهموسة" },
+            { "w": "ought to", "s": "oughta", "ar": "ينبغي" },
+            { "w": "should have / would have", "s": "shoulda / woulda", "ar": "لا تكتبها should of أبداً" },
+            { "w": "must not", "s": "mustn't → «مَسِنت»", "ar": "الـ t الأولى تسقط" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "قوالب النصيحة في الحديث",
+          "rows": [
+            { "w": "Have you thought about it?", "s": "Havya thought aboudit?", "ar": "هل فكّرت في الأمر؟" },
+            { "w": "It might be worth trying", "s": "It mide be worth tryin", "ar": "قد يستحقّ المحاولة" },
+            { "w": "What works for me is", "s": "Wut works fer me is", "ar": "ما ينفعني هو" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "صديقك متعب. ما أنسب نصيحة ودّية؟", "opts": ["You must rest!", "If I were you, I'd take a day off.", "Rest now.", "You have to rest."], "a": 1, "why": "أنعم صيغةٍ وأكثرها طبيعيّةً بين الأصدقاء." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have pain in my head.</code>", "a": ["I've got a headache", "I have a headache", "I've got a headache."], "why": "الإنجليزية تستعمل اسماً مركّباً لا وصفاً حرفيّاً." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>You must not to be late.</code>", "a": ["You mustn't be late", "You must not be late", "You mustn't be late."], "why": "لا to بعد الناقص." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I advice you to rest.</code>", "a": ["I advise you to rest", "I advise you to rest."], "why": "advise فعل بـ s، وadvice اسم بـ c." },
+            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>have to</code>؟", "opts": ["هاف تو بـ v", "هافتا بـ f", "هاڤ تو", "هاڤتا"], "a": 1, "why": "تتحوّل v إلى f قبل to المهموسة." },
+            { "t": "mcq", "q": "<code dir=ltr>I feel sick</code> في الأمريكية تعني غالباً…", "opts": ["أنا مريض", "أشعر بالغثيان", "أنا متعب", "أنا حزين"], "a": 1, "why": "feel sick = غثيان · be sick = مرض." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: رسالة نصيحة",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "صديقٌ راسلك يشكو من الإرهاق وقلّة النوم وضغط العمل. اكتب ردّاً في <b>٨٠–١٠٠ كلمة</b> يتضمّن:<br><br>• تعاطفاً في البداية<br>• ثلاث نصائح بدرجات مختلفة (اقتراح لطيف · نصيحة · تحذير)<br>• جملةً بـ <code dir=ltr>don't have to</code> أو <code dir=ltr>mustn't</code> مستعملةً بدقّة<br>• عرض مساعدةٍ في الختام",
+          "phrases": [
+            "Sorry to hear you're feeling …",
+            "Have you thought about …?",
+            "If I were you, I'd …",
+            "You really should …",
+            "You'd better … before …",
+            "You don't have to … — but you mustn't …",
+            "Let me know if you want to talk."
+          ],
+          "model": "Sorry to hear you've been feeling so run down. That sounds exhausting.\n\nHave you thought about talking to your manager? You don't have to explain everything — just say you need a couple of days. If I were you, I'd also cut down on late-night screens; it made a huge difference for me.\n\nAnd honestly, you'd better see a doctor before it gets worse. You mustn't ignore headaches that last five days.\n\nYou don't have to fix all of this at once. Start with sleep. Let me know if you want to talk — I'm around all week.",
+          "modelAr": "يؤسفني أنّك تشعر بهذا الإنهاك. يبدو الأمر مرهقاً حقّاً.\n\nهل فكّرتَ في التحدّث إلى مديرك؟ لستَ مضطرّاً إلى شرح كلّ شيء — قل فقط إنّك تحتاج يومين. ولو كنتُ مكانك لقلّلتُ أيضاً من الشاشات ليلاً؛ فقد أحدث ذلك فرقاً هائلاً عندي.\n\nوبصراحة، الأفضل أن ترى طبيباً قبل أن يسوء الأمر. وممنوعٌ أن تتجاهل صداعاً يدوم خمسة أيّام.\n\nلستَ مضطرّاً إلى إصلاح هذا كلّه دفعةً واحدة. ابدأ بالنوم. وأعلمني إن أردتَ الحديث — أنا متاح طوال الأسبوع.",
+          "checklist": [
+            "بدأتُ بتعاطفٍ لا بنصيحة مباشرة",
+            "استعملتُ ثلاث درجاتٍ مختلفة من النصح",
+            "استعملتُ don't have to بمعنى «لا إلزام» لا «ممنوع»",
+            "استعملتُ mustn't بمعنى المنع الحقيقيّ",
+            "لم أضع to بعد فعلٍ ناقص",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "ختمتُ بعرض مساعدةٍ لا بأمر",
+            "عدد الكلمات بين ٨٠ و١٠٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات التعاطف كما تُنطق",
+          "rows": [
+            { "w": "Sorry to hear that", "s": "Sorry ta hear that", "ar": "يؤسفني سماع ذلك" },
+            { "w": "Let me know if you need anything", "s": "Lemme know if ya need anythin", "ar": "أعلمني إن احتجت شيئاً" },
+            { "w": "Take care of yourself", "s": "Take care a yerself", "ar": "اعتنِ بنفسك" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة السادسة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>You ___ touch that wire — it's dangerous.</code>", "opts": ["don't have to", "mustn't", "shouldn't have", "couldn't"], "a": 1, "why": "منعٌ قاطع." },
+            { "t": "mcq", "q": "<code dir=ltr>You ___ bring food — everything's provided.</code>", "opts": ["mustn't", "don't have to", "can't", "shouldn't"], "a": 1, "why": "لا إلزام ← don't have to." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ wear a helmet at the site. It's the law.</code>", "opts": ["must", "have to", "should", "might"], "a": 1, "why": "إلزامٌ خارجيّ ← have to." },
+            { "t": "mcq", "q": "<code dir=ltr>You ___ leave now or you'll miss it.</code>", "opts": ["could", "had better", "might", "don't have to"], "a": 1, "why": "تحذيرٌ بعاقبة." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ cancel my plans yesterday.</code>", "opts": ["must", "have to", "had to", "must have"], "a": 2, "why": "ماضي الإلزام ← had to." },
+            { "t": "mcq", "q": "<code dir=ltr>cut down on</code> تعني…", "opts": ["يقطع", "يقلّل من", "ينزل", "يوفّر"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>come down with</code> تعني…", "opts": ["ينزل مع", "يُصاب بمرض", "يوافق", "يهدأ"], "a": 1, "why": "<code dir=ltr>coming down with a cold</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>burn out</code> تعني…", "opts": ["يحترق حرفيّاً", "يحترق نفسيّاً من الإرهاق", "يشتعل", "ينطفئ"], "a": 1, "why": "إنهاكٌ مزمن من الضغط." },
+            { "t": "gap", "q": "<code dir=ltr>You ___ (should / not) skip breakfast.</code>", "a": ["shouldn't skip", "should not skip", "shouldn't skip."], "why": "النفي بإضافة not." },
+            { "t": "gap", "q": "<code dir=ltr>You ___ (should) have told me earlier.</code>", "a": ["should"], "why": "ندمٌ على ما لم يحدث." },
+            { "t": "gap", "q": "<code dir=ltr>She ___ (have to) work last Saturday.</code>", "a": ["had to"], "why": "الماضي ← had to." },
+            { "t": "gap", "q": "<code dir=ltr>If I ___ (be) you, I'd rest.</code>", "a": ["were", "was"], "why": "قالب النصيحة يستعمل were دائماً." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He must to leave now.</code>", "a": ["He must leave now", "He must leave now."], "why": "لا to بعد الناقص." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Do you should call her?</code>", "a": ["Should you call her?", "Should you call her", "should you call her"], "why": "الناقص يُقدَّم بلا do." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have pain in my back.</code>", "a": ["I've got a backache", "My back hurts", "I have a backache", "My back aches"], "why": "صيغةٌ إنجليزيّة طبيعيّة لا ترجمة حرفيّة." },
+            { "t": "order", "q": "رتّب:", "ws": ["You", "should", "have", "seen", "a", "doctor"], "a": "You should have seen a doctor", "why": "ندمٌ على ما لم يحدث." },
+            { "t": "order", "q": "رتّب:", "ws": ["If", "I", "were", "you", "I", "would", "rest"], "a": "If I were you I would rest", "why": "قالب النصيحة." },
+            { "t": "dict", "say": "You shoulda gone earlier", "a": ["You should have gone earlier", "you should have gone earlier"], "why": "shoulda = should have." },
+            { "t": "dict", "say": "I hafta ged up at six", "a": ["I have to get up at six", "i have to get up at six"], "why": "hafta = have to · get up بـ d مرتدّة." },
+            { "t": "mcq", "q": "أيّ الجملتين تعني «ممنوع»؟", "opts": ["You don't have to go.", "You mustn't go.", "You needn't go.", "You could go."], "a": 1, "why": "mustn't منعٌ، وdon't have to حرّيّة." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "مشاهد الأطبّاء في المسلسلات", "d": "أيّ مشهد طبيبٍ ومريض — لغة نصيحة وإلزام مكثّفة", "task": "سجّل خمس جملٍ فيها فعلٌ ناقص، وحدّد درجة القوّة في كلٍّ منها." },
+            { "t": "بودكاست صحّة وعادات", "d": "ابحث عن «Huberman Lab» أو «Feel Better Live More» — لغة نصيحة واضحة", "task": "استمع عشر دقائق، وسجّل ثلاث نصائح بصيغةٍ إنجليزيّة كاملة." },
+            { "t": "فيديوهات اللياقة على يوتيوب", "d": "أيّ تمرينٍ موجّه — المدرّب يستعمل الأوامر والنصائح باستمرار", "task": "تابع تمريناً قصيراً بلا ترجمة، ولاحظ كم تفهم." }
+          ]
+        }
+      ]
+    }
+  ]
+}

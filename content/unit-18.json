@@ -1,0 +1,1379 @@
+{
+ "id": "unit-18",
+ "icon": "🩺",
+ "title": "الطبّ والصحّة",
+ "subtitle": "Modals of deduction",
+ "intro": "English has a precise grammar for uncertainty. <code dir=ltr>must have</code>, <code dir=ltr>might have</code>, <code dir=ltr>can't have</code> — each states exactly how confident you are. Doctors, engineers and detectives live in this grammar, and so should you.<span class=n-ar>للإنجليزية نحوٌ دقيق للشكّ واليقين. must have وmight have وcan't have تُحدّد بالضبط مقدار ثقتك. الأطبّاء والمهندسون والمحقّقون يعيشون في هذا النحو.</span>",
+ "goals": [
+  "I can state exactly how certain I am about the past",
+  "I can speculate about causes without claiming to know",
+  "I can describe symptoms, diagnosis and treatment",
+  "I can hear 'must've', 'might've' and \"can't've\" at speed"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "Modals of deduction",
+   "subtitle": "certainty, possibility and impossibility",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "The certainty scale",
+     "html": "All of these describe the <u>same</u> past event. Only your confidence changes:<br><br><code dir=ltr>He <b>must have</b> forgotten.</code> — I'm almost certain (95%)<br><code dir=ltr>He <b>may / might / could have</b> forgotten.</code> — it's possible (30–50%)<br><code dir=ltr>He <b>can't / couldn't have</b> forgotten.</code> — I'm almost certain he didn't (95% no)<br><br>⚠️ The opposite of <code dir=ltr>must have</code> is <b>not</b> <code dir=ltr>mustn't have</code>. It is <code dir=ltr>can't have</code>.<br><code dir=ltr>He mustn't have gone</code> ❌ → <code dir=ltr>He can't have gone</code> ✅<span class=n-ar>سُلّم اليقين كاملاً. ونقيض must have ليس mustn't have بل can't have — وهذا خطأٌ شائعٌ جدّاً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Adding duration: must have been -ing",
+     "html": "Use the continuous when the activity lasted:<br><br><code dir=ltr>She <b>must have been waiting</b> for hours.</code><br><code dir=ltr>They <b>might have been working</b> on the wrong version.</code><br><code dir=ltr>He <b>can't have been sleeping</b> — the light was on.</code><br><br>Compare:<br><code dir=ltr>must have <b>run</b></code> — the whole action, finished<br><code dir=ltr>must have <b>been running</b></code> — the activity, in progress<span class=n-ar>أضف المستمرّ حين يكون الفعل ممتدّاً: must have been + ing. الفرق بين فعلٍ مكتمل ونشاطٍ جارٍ.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Deduction about the present",
+     "html": "Drop <code dir=ltr>have</code> and you move to now:<br><br><code dir=ltr>She <b>must be</b> exhausted.</code> — look at her, I'm sure<br><code dir=ltr>It <b>might be</b> a side effect.</code> — possible<br><code dir=ltr>That <b>can't be</b> right.</code> — I'm sure it isn't<br><br>One extra word, one different time. <code dir=ltr>must be</code> = now; <code dir=ltr>must have been</code> = then.<span class=n-ar>احذف have فتنتقل إلى الحاضر. must be الآن، وmust have been حينها.</span>"
+    },
+    {
+     "type": "note",
+     "title": "How it really sounds",
+     "html": "<code dir=ltr>must have</code> → <b>musta</b> /ˈmʌstə/<br><code dir=ltr>might have</code> → <b>mighta</b><br><code dir=ltr>could have</code> → <b>coulda</b><br><code dir=ltr>can't have</code> → <b>can'tə</b> (the t nearly disappears)<br><code dir=ltr>must have been</code> → <b>musta bin</b><br><br>In a film you will hear <code dir=ltr>He musta bin sleepin</code>, never the full form. Train the ear on the reduction, not the spelling.<span class=n-ar>لن تسمع الصيغة الكاملة في فيلمٍ أبداً. درّب أذنك على الاختزال لا على الإملاء.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "The swelling <b>must have started</b> before the injection.",
+       "ar": "لا بدّ أنّ الورم بدأ قبل الحقنة."
+      },
+      {
+       "en": "She <b>might have been taking</b> two medications at once.",
+       "ar": "ربّما كانت تتناول دوائين في آنٍ واحد."
+      },
+      {
+       "en": "It <b>can't have been</b> the antibiotic — she stopped it last week.",
+       "ar": "لا يمكن أن يكون المضادّ الحيويّ؛ فقد أوقفته الأسبوع الماضي."
+      },
+      {
+       "en": "He <b>must be</b> in a lot of pain.",
+       "ar": "لا بدّ أنّه يتألّم كثيراً."
+      },
+      {
+       "en": "The results <b>could have been</b> mixed up in the lab.",
+       "ar": "قد تكون النتائج اختلطت في المختبر."
+      },
+      {
+       "en": "They <b>can't have read</b> the notes properly.",
+       "ar": "لا يمكن أنّهم قرؤوا الملاحظات جيّداً."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "every modal collapses to two syllables",
+     "rows": [
+      {
+       "w": "He must have known",
+       "s": "He musta nown",
+       "ar": "لا بدّ أنّه كان يعلم"
+      },
+      {
+       "w": "It might have been the food",
+       "s": "It mida bin the food",
+       "ar": "ربّما كان الطعام"
+      },
+      {
+       "w": "You can't have missed it",
+       "s": "You can-ta mist it",
+       "ar": "مستحيل أن تكون فوّتّه"
+      },
+      {
+       "w": "She must be exhausted",
+       "s": "She musbee eg-ZAWS-tid",
+       "ar": "لا بدّ أنّها مرهقة"
+      },
+      {
+       "w": "That can't be right",
+       "s": "That can-be right",
+       "ar": "لا يمكن أن يكون صحيحاً"
+      },
+      {
+       "w": "He must have been waiting",
+       "s": "He musta bin waydin",
+       "ar": "لا بدّ أنّه كان ينتظر"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The lights are off. They ___ gone home.</code>",
+       "opts": [
+        "must have",
+        "can't have",
+        "mustn't have",
+        "should have"
+       ],
+       "a": 0,
+       "why": "دليلٌ قويّ ← يقينٌ شبه تامّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She was in surgery all day. She ___ called you.</code>",
+       "opts": [
+        "must have",
+        "can't have",
+        "might have",
+        "should have"
+       ],
+       "a": 1,
+       "why": "استحالةٌ منطقيّة ← can't have."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'm not sure what caused it. It ___ the new tablets.</code>",
+       "opts": [
+        "must be",
+        "can't be",
+        "could be",
+        "isn't"
+       ],
+       "a": 2,
+       "why": "احتمالٌ مفتوح."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>He looks awful. He ___ sleeping badly.</code>",
+       "opts": [
+        "must have been",
+        "must be",
+        "can't be",
+        "might not"
+       ],
+       "a": 0,
+       "why": "نشاطٌ ممتدّ أدّى إلى حالٍ حاضرة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The file is empty — someone ___ (delete) it.</code>",
+       "a": [
+        "must have deleted",
+        "mustve deleted"
+       ],
+       "why": "استنتاجٌ شبه يقينيّ عن الماضي."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He mustn't have seen the message.</code>",
+       "a": [
+        "He can't have seen the message",
+        "He couldn't have seen the message"
+       ],
+       "why": "نقيض must have هو can't have."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "She",
+        "might",
+        "have",
+        "been",
+        "taking",
+        "the",
+        "wrong",
+        "dose"
+       ],
+       "a": "She might have been taking the wrong dose",
+       "why": "احتمالٌ + نشاطٌ ممتدّ."
+      },
+      {
+       "t": "dict",
+       "say": "He musta bin waydin for hours",
+       "a": [
+        "He must have been waiting for hours",
+        "He mustve been waiting for hours"
+       ],
+       "why": "must have ← ماستَ، وwaiting ← flap T."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: medicine and health",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Symptoms and diagnosis",
+     "items": [
+      {
+       "w": "symptom",
+       "pos": "noun",
+       "ar": "عَرَض",
+       "ex": [
+        {
+         "en": "The first <b>symptom</b> was a mild headache.",
+         "ar": "كان أوّل عَرَضٍ صداعاً خفيفاً."
+        }
+       ]
+      },
+      {
+       "w": "diagnosis",
+       "pos": "noun",
+       "ar": "تشخيص",
+       "ex": [
+        {
+         "en": "The <b>diagnosis</b> took three visits.",
+         "ar": "استغرق التشخيص ثلاث زيارات."
+        }
+       ]
+      },
+      {
+       "w": "chronic",
+       "pos": "adj",
+       "ar": "مزمن",
+       "ex": [
+        {
+         "en": "It became a <b>chronic</b> condition after two years.",
+         "ar": "صارت حالةً مزمنة بعد عامين."
+        }
+       ]
+      },
+      {
+       "w": "acute",
+       "pos": "adj",
+       "ar": "حادّ / مفاجئ",
+       "ex": [
+        {
+         "en": "He was admitted with <b>acute</b> chest pain.",
+         "ar": "أُدخل بألمٍ حادّ في الصدر."
+        }
+       ]
+      },
+      {
+       "w": "swelling",
+       "pos": "noun",
+       "ar": "تورّم",
+       "ex": [
+        {
+         "en": "The <b>swelling</b> must have started overnight.",
+         "ar": "لا بدّ أنّ التورّم بدأ ليلاً."
+        }
+       ]
+      },
+      {
+       "w": "fatigue",
+       "pos": "noun",
+       "ar": "إرهاق",
+       "ex": [
+        {
+         "en": "Extreme <b>fatigue</b> is the symptom patients report most.",
+         "ar": "الإرهاق الشديد أكثر ما يبلّغ عنه المرضى."
+        }
+       ]
+      },
+      {
+       "w": "relapse",
+       "pos": "noun/verb",
+       "ar": "انتكاسة / ينتكس",
+       "ex": [
+        {
+         "en": "She had a <b>relapse</b> three months later.",
+         "ar": "أصابتها انتكاسةٌ بعد ثلاثة أشهر."
+        }
+       ]
+      },
+      {
+       "w": "rule out",
+       "pos": "verb",
+       "ar": "يستبعد (احتمالاً)",
+       "ex": [
+        {
+         "en": "They had to <b>rule out</b> infection first.",
+         "ar": "كان عليهم استبعاد العدوى أوّلاً."
+        }
+       ]
+      },
+      {
+       "w": "underlying",
+       "pos": "adj",
+       "ar": "كامن / أساسيّ",
+       "ex": [
+        {
+         "en": "The <b>underlying</b> cause was never found.",
+         "ar": "لم يُعثر على السبب الكامن قطّ."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Treatment and care",
+     "items": [
+      {
+       "w": "prescribe",
+       "pos": "verb",
+       "ar": "يصف دواءً",
+       "ex": [
+        {
+         "en": "The doctor <b>prescribed</b> a lower dose.",
+         "ar": "وصف الطبيب جرعةً أقلّ."
+        }
+       ]
+      },
+      {
+       "w": "dose",
+       "pos": "noun",
+       "ar": "جرعة",
+       "ex": [
+        {
+         "en": "A double <b>dose</b> would have been dangerous.",
+         "ar": "كانت الجرعة المضاعفة ستكون خطرة."
+        }
+       ]
+      },
+      {
+       "w": "side effect",
+       "pos": "noun",
+       "ar": "أثر جانبيّ",
+       "ex": [
+        {
+         "en": "Drowsiness is a common <b>side effect</b>.",
+         "ar": "النعاس أثرٌ جانبيّ شائع."
+        }
+       ]
+      },
+      {
+       "w": "recover",
+       "pos": "verb",
+       "ar": "يتعافى",
+       "ex": [
+        {
+         "en": "Most patients <b>recover</b> within a fortnight.",
+         "ar": "يتعافى معظم المرضى خلال أسبوعين."
+        }
+       ]
+      },
+      {
+       "w": "immune system",
+       "pos": "noun",
+       "ar": "جهاز المناعة",
+       "ex": [
+        {
+         "en": "Stress weakens the <b>immune system</b> measurably.",
+         "ar": "يُضعف التوتّر جهاز المناعة على نحوٍ قابلٍ للقياس."
+        }
+       ]
+      },
+      {
+       "w": "referral",
+       "pos": "noun",
+       "ar": "إحالة (إلى أخصّائيّ)",
+       "ex": [
+        {
+         "en": "She waited nine weeks for a <b>referral</b>.",
+         "ar": "انتظرت تسعة أسابيع للإحالة."
+        }
+       ]
+      },
+      {
+       "w": "GP",
+       "pos": "noun",
+       "ar": "طبيب عامّ",
+       "ex": [
+        {
+         "en": "Start with your <b>GP</b>, not the hospital.",
+         "ar": "ابدأ بطبيبك العامّ لا بالمستشفى."
+        }
+       ]
+      },
+      {
+       "w": "outpatient",
+       "pos": "noun/adj",
+       "ar": "مريض خارجيّ (بلا مبيت)",
+       "ex": [
+        {
+         "en": "It is done as an <b>outpatient</b> procedure now.",
+         "ar": "يُجرى الآن كإجراءٍ للمرضى الخارجيّين."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Public health and wellbeing",
+     "items": [
+      {
+       "w": "outbreak",
+       "pos": "noun",
+       "ar": "تفشٍّ",
+       "ex": [
+        {
+         "en": "The <b>outbreak</b> was contained in eleven days.",
+         "ar": "احتُوي التفشّي في أحد عشر يوماً."
+        }
+       ]
+      },
+      {
+       "w": "vaccine",
+       "pos": "noun",
+       "ar": "لقاح",
+       "ex": [
+        {
+         "en": "The <b>vaccine</b> reduced hospital admissions sharply.",
+         "ar": "خفّض اللقاح حالات الدخول إلى المستشفى بحدّة."
+        }
+       ]
+      },
+      {
+       "w": "sedentary",
+       "pos": "adj",
+       "ar": "خامل / قليل الحركة",
+       "ex": [
+        {
+         "en": "A <b>sedentary</b> job is harder on the body than people think.",
+         "ar": "العمل الخامل أشقّ على الجسد ممّا يظنّ الناس."
+        }
+       ]
+      },
+      {
+       "w": "burnout",
+       "pos": "noun",
+       "ar": "احتراق وظيفيّ",
+       "ex": [
+        {
+         "en": "Half the ward reported <b>burnout</b> that year.",
+         "ar": "أبلغ نصف القسم عن احتراقٍ وظيفيّ ذلك العام."
+        }
+       ]
+      },
+      {
+       "w": "wellbeing",
+       "pos": "noun",
+       "ar": "عافية / سلامة نفسيّة",
+       "ex": [
+        {
+         "en": "They measure <b>wellbeing</b>, not just illness.",
+         "ar": "يقيسون العافية لا المرض وحده."
+        }
+       ]
+      },
+      {
+       "w": "life expectancy",
+       "pos": "noun",
+       "ar": "متوسّط العمر المتوقّع",
+       "ex": [
+        {
+         "en": "<b>Life expectancy</b> fell for the first time in decades.",
+         "ar": "انخفض متوسّط العمر المتوقّع لأوّل مرّةٍ منذ عقود."
+        }
+       ]
+      },
+      {
+       "w": "screening",
+       "pos": "noun",
+       "ar": "فحص كشفيّ مبكّر",
+       "ex": [
+        {
+         "en": "Routine <b>screening</b> catches most cases early.",
+         "ar": "يلتقط الفحص الدوريّ معظم الحالات مبكّراً."
+        }
+       ]
+      },
+      {
+       "w": "stigma",
+       "pos": "noun",
+       "ar": "وصمة",
+       "ex": [
+        {
+         "en": "The <b>stigma</b> stops people from asking for help.",
+         "ar": "الوصمة تمنع الناس من طلب المساعدة."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: working out what happened",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "Two clinicians reason out loud about a patient. Every line is a deduction — listen for how their confidence moves up and down the scale.<span class=n-ar>طبيبان يفكّران بصوتٍ عالٍ في حالة مريض. كلّ سطرٍ استنتاج — تابع كيف تتحرّك ثقتهما صعوداً وهبوطاً على سُلّم اليقين.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "It Can't Have Been the Antibiotic",
+     "titleAr": "لا يمكن أن يكون المضادّ الحيويّ",
+     "lines": [
+      {
+       "sp": "Dr Aziz",
+       "en": "The rash appeared on Tuesday. She started the antibiotic on Thursday.",
+       "ar": "ظهر الطفح يوم الثلاثاء. وبدأت المضادّ الحيويّ يوم الخميس."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "Then it can't have been the antibiotic. The timing rules it out.",
+       "ar": "إذن لا يمكن أن يكون المضادّ. التوقيت يستبعده."
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "Agreed. But something must have triggered it.",
+       "ar": "موافق. لكنّ شيئاً ما لا بدّ أنّه أثاره."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "She might have been taking something over the counter without telling us.",
+       "ar": "ربّما كانت تتناول شيئاً بلا وصفة دون أن تخبرنا."
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "Possible. People rarely count painkillers as medication.",
+       "ar": "ممكن. نادراً ما يَعدّ الناس المسكّنات دواءً."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "What about the underlying condition? Could it have flared on its own?",
+       "ar": "وماذا عن الحالة الكامنة؟ هل يمكن أن تكون اشتعلت من تلقاء نفسها؟"
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "It could have. But then we'd expect the fatigue to have come first.",
+       "ar": "قد تكون. لكن حينها كنّا سنتوقّع أن يسبقها الإرهاق."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "She did mention fatigue. She said she'd been exhausted for a fortnight.",
+       "ar": "لقد ذكرت الإرهاق فعلاً. قالت إنّها كانت منهكةً منذ أسبوعين."
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "Then that changes things. That must be the relapse, not a reaction.",
+       "ar": "إذن هذا يغيّر الأمر. لا بدّ أنّها انتكاسة لا تفاعل دوائيّ."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "We should still rule out infection before we commit to that.",
+       "ar": "علينا مع ذلك استبعاد العدوى قبل أن نحسم."
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "Bloods this afternoon. And ask her again about anything she's taken.",
+       "ar": "تحاليل دمٍ بعد الظهر. واسألها ثانيةً عن أيّ شيءٍ تناولته."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "She won't have forgotten twice. She'll have assumed it didn't count.",
+       "ar": "لن تكون قد نسيت مرّتين. بل ستكون افترضت أنّه لا يُحتسب."
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "That's the usual pattern, yes.",
+       "ar": "هذا هو النمط المعتاد، نعم."
+      },
+      {
+       "sp": "Dr Reid",
+       "en": "One more thing — the referral should have gone out in March.",
+       "ar": "أمرٌ أخير: كان يجب أن تُرسل الإحالة في آذار."
+      },
+      {
+       "sp": "Dr Aziz",
+       "en": "It must have been lost in the system. Chase it today.",
+       "ar": "لا بدّ أنّها ضاعت في النظام. تابعها اليوم."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Why is the antibiotic ruled out?",
+       "opts": [
+        "The dose was too low",
+        "The rash came before she started it",
+        "She never took it",
+        "It was the wrong drug"
+       ],
+       "a": 1,
+       "why": "التوقيت يستبعده: الطفح سبق الدواء."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She might have been taking something over the counter</code> expresses",
+       "opts": [
+        "certainty",
+        "possibility",
+        "impossibility",
+        "obligation"
+       ],
+       "a": 1,
+       "why": "might ← احتمال."
+      },
+      {
+       "t": "mcq",
+       "q": "What changed Dr Aziz's conclusion?",
+       "opts": [
+        "A blood test",
+        "The fatigue she had reported",
+        "The referral date",
+        "The patient's age"
+       ],
+       "a": 1,
+       "why": "الإرهاق السابق يرجّح الانتكاسة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She'll have assumed it didn't count</code> is a deduction about",
+       "opts": [
+        "the future",
+        "the past, made with confidence",
+        "an obligation",
+        "a wish"
+       ],
+       "a": 1,
+       "why": "will have + تصريف ثالث: استنتاجٌ واثق عن الماضي."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The referral should have gone out in March</code> means",
+       "opts": [
+        "it did go out in March",
+        "it was supposed to but didn't",
+        "it will go out in March",
+        "March was too early"
+       ],
+       "a": 1,
+       "why": "should have تفيد واجباً لم يُنفَّذ."
+      },
+      {
+       "t": "mcq",
+       "q": "Their final position on the diagnosis is",
+       "opts": [
+        "settled and confirmed",
+        "probable but still to be checked",
+        "completely unknown",
+        "wrong"
+       ],
+       "a": 1,
+       "why": "«علينا استبعاد العدوى قبل أن نحسم»."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "It can-ta bin the antibiodic",
+       "a": [
+        "It can't have been the antibiotic",
+        "It cant have been the antibiotic"
+       ],
+       "why": "can't have ← «كانتَ»، وantibiotic ← flap T."
+      },
+      {
+       "t": "dict",
+       "say": "Something musta triggerd it",
+       "a": [
+        "Something must have triggered it",
+        "Something mustve triggered it"
+       ],
+       "why": "must have ← ماستَ."
+      },
+      {
+       "t": "dict",
+       "say": "She mida bin taking somethin else",
+       "a": [
+        "She might have been taking something else",
+        "She mightve been taking something else"
+       ],
+       "why": "might have been ← «مايدَ بِن»."
+      },
+      {
+       "t": "dict",
+       "say": "We shud rule out infection first",
+       "a": [
+        "We should rule out infection first"
+       ],
+       "why": "rule out ← استبعاد."
+      },
+      {
+       "t": "dict",
+       "say": "It musta bin lost in the system",
+       "a": [
+        "It must have been lost in the system",
+        "It mustve been lost in the system"
+       ],
+       "why": "must have been ← «ماستَ بِن»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: the symptom nobody measured",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Symptom Nobody Measured",
+     "titleAr": "العَرَض الذي لم يقسه أحد",
+     "en": "For most of the twentieth century, medicine measured what was easy to measure. Temperature, blood pressure, cell counts — anything that produced a number went into the notes. Pain did not, and neither did exhaustion. A patient who said she was tired all the time was recorded as having no findings, which in practice meant she had nothing wrong with her.<br><br>We now know that <b>must have been</b> false for millions of people. When researchers finally built scales for fatigue and asked patients to score themselves, the results correlated closely with outcomes that nobody had connected to tiredness at all: recovery times, relapse rates, even survival. The symptom had been there the whole time. It simply <b>can't have been</b> seen by a system that only recorded numbers it already trusted.<br><br>The lesson generalises badly in one direction and well in another. It does not mean every subjective report is accurate; patients misremember, and self-scoring drifts. It does mean that the absence of a measurement is not evidence of the absence of a problem.<br><br>Modern clinics now ask directly and record the answer. That change cost nothing and was resisted for decades, largely because the people who might have pushed for it were the ones too exhausted to attend the meetings.",
+     "ar": "طوال معظم القرن العشرين كان الطبّ يقيس ما يسهل قياسه. الحرارة وضغط الدمّ وتعداد الخلايا — كلّ ما يُنتج رقماً كان يدخل في الملفّ. أمّا الألم فلا، ولا الإنهاك. والمريضة التي قالت إنّها متعبةٌ دائماً كانت تُسجَّل بلا موجودات، وهو ما يعني عمليّاً أنّها لا تشكو من شيء.<br><br>ونعلم اليوم أنّ ذلك لا بدّ أنّه كان خطأً بحقّ ملايين البشر. فحين بنى الباحثون أخيراً مقاييس للإرهاق وطلبوا من المرضى تقييم أنفسهم، ارتبطت النتائج ارتباطاً وثيقاً بمخرجاتٍ لم يربطها أحدٌ بالتعب أصلاً: مدد التعافي، ومعدّلات الانتكاس، بل حتّى البقاء على قيد الحياة. كان العَرَض موجوداً طوال الوقت. ولم يكن ممكناً أن يراه نظامٌ لا يسجّل إلّا أرقاماً يثق بها سلفاً.<br><br>والدرس يُعمَّم على نحوٍ سيّئ في اتّجاه وجيّدٍ في آخر. فهو لا يعني أنّ كلّ بلاغٍ ذاتيّ دقيق؛ فالمرضى يخطئون في التذكّر، والتقييم الذاتيّ ينحرف. لكنّه يعني أنّ غياب القياس ليس دليلاً على غياب المشكلة.<br><br>وتسأل العيادات الحديثة اليوم مباشرةً وتسجّل الجواب. وهو تغييرٌ لم يكلّف شيئاً وقُوبل بالمقاومة عقوداً، ويعود ذلك في معظمه إلى أنّ من كان يمكن أن يدفعوا نحوه كانوا هم أنفسهم أشدّ إنهاكاً من أن يحضروا الاجتماعات.",
+     "keys": [
+      [
+       "no findings",
+       "بلا موجودات"
+      ],
+      [
+       "correlated closely with",
+       "ارتبطت ارتباطاً وثيقاً بـ"
+      ],
+      [
+       "self-scoring drifts",
+       "التقييم الذاتيّ ينحرف"
+      ],
+      [
+       "the absence of a measurement",
+       "غياب القياس"
+      ],
+      [
+       "was resisted",
+       "قوبل بالمقاومة"
+      ],
+      [
+       "might have pushed for it",
+       "كان يمكن أن يدفعوا نحوه"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>no findings</code> in a patient's notes effectively meant",
+       "opts": [
+        "the tests were pending",
+        "nothing was wrong with her",
+        "she refused treatment",
+        "she was cured"
+       ],
+       "a": 1,
+       "why": "«يعني عمليّاً أنّها لا تشكو من شيء»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It can't have been seen by a system that only recorded numbers</code> expresses",
+       "opts": [
+        "a possibility",
+        "a near-certain impossibility",
+        "an obligation",
+        "a future plan"
+       ],
+       "a": 1,
+       "why": "can't have ← استحالةٌ شبه يقينيّة."
+      },
+      {
+       "t": "mcq",
+       "q": "What did fatigue scores turn out to predict?",
+       "opts": [
+        "Only patient mood",
+        "Recovery, relapse and survival",
+        "Blood pressure",
+        "Nothing measurable"
+       ],
+       "a": 1,
+       "why": "ثلاثة مخرجاتٍ مذكورة صراحةً."
+      },
+      {
+       "t": "mcq",
+       "q": "The writer's caution about subjective reports is that",
+       "opts": [
+        "they are always wrong",
+        "they are not automatically accurate",
+        "they should be banned",
+        "doctors invent them"
+       ],
+       "a": 1,
+       "why": "«لا يعني أنّ كلّ بلاغٍ ذاتيّ دقيق»."
+      },
+      {
+       "t": "mcq",
+       "q": "The central claim of the third paragraph is",
+       "opts": [
+        "measurement is worthless",
+        "absence of measurement is not absence of a problem",
+        "patients know best",
+        "numbers are always right"
+       ],
+       "a": 1,
+       "why": "الجملة الختاميّة للفقرة."
+      },
+      {
+       "t": "mcq",
+       "q": "The final sentence is",
+       "opts": [
+        "an accusation of fraud",
+        "a bitter irony about who could have changed it",
+        "a medical instruction",
+        "a statistic"
+       ],
+       "a": 1,
+       "why": "مفارقةٌ مُرّة: المنهَكون هم من كان يمكنهم الدفع للتغيير."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "medical words lose whole syllables in speech",
+     "rows": [
+      {
+       "w": "comfortable",
+       "s": "KUMF-terble",
+       "ar": "ثلاثة مقاطع لا أربعة"
+      },
+      {
+       "w": "medicine",
+       "s": "MED-sin",
+       "ar": "مقطعان في الأمريكيّة"
+      },
+      {
+       "w": "temperature",
+       "s": "TEM-pruh-cher",
+       "ar": "يسقط مقطعٌ كامل"
+      },
+      {
+       "w": "How are you feeling?",
+       "s": "How-er-ya feelin?",
+       "ar": "كيف تشعر؟"
+      },
+      {
+       "w": "Did it hurt?",
+       "s": "Did-it hurt?",
+       "ar": "هل آلمك؟"
+      },
+      {
+       "w": "I don't feel well",
+       "s": "I don feel well",
+       "ar": "لا أشعر أنّي بخير"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Speculating and describing how you feel",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Speculating out loud",
+     "html": "<code dir=ltr>My guess is that …</code> — informal, honest<br><code dir=ltr>It looks as though …</code> — evidence-based<br><code dir=ltr>The most likely explanation is …</code> — analytical<br><code dir=ltr>I'd put money on …</code> — very confident, informal<br><code dir=ltr>I can't see how it could have been …</code> — ruling out<br><code dir=ltr>Off the top of my head, …</code> — without checking<br><br>Notice: English speakers speculate constantly. Refusing to guess sounds evasive, not careful.<span class=n-ar>المتحدّث الإنجليزيّ يخمّن باستمرار. رفض التخمين يبدو تهرّباً لا حذراً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Describing how you feel to a doctor",
+     "html": "<code dir=ltr>It comes and goes.</code> — intermittent<br><code dir=ltr>It's been on and off for a week.</code><br><code dir=ltr>It's a dull ache</code> vs <code dir=ltr>a sharp pain</code> vs <code dir=ltr>a burning sensation</code><br><code dir=ltr>It's worse when I lie down.</code><br><code dir=ltr>I've been feeling run-down.</code> — generally weak<br><code dir=ltr>I'm not myself lately.</code> — something is off<br><br>⚠️ <code dir=ltr>I have pain in my head</code> is understandable but not natural. Say <code dir=ltr>I've got a headache</code>.<span class=n-ar>عباراتٌ عمليّة لوصف الألم. ولاحظ أنّ «I have pain in my head» مفهومة لكنّها غير طبيعيّة.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>He mustn't have known</code> → ✅ <code dir=ltr>He can't have known</code><br>❌ <code dir=ltr>I must to go to the doctor</code> → ✅ <code dir=ltr>I must go</code> / <code dir=ltr>I have to go</code><br>❌ <code dir=ltr>I'm sick from two days</code> → ✅ <code dir=ltr>I've been ill for two days</code><br>❌ <code dir=ltr>The doctor gave me a medicine</code> → ✅ <code dir=ltr>The doctor prescribed something</code> / <code dir=ltr>gave me some medicine</code><br>❌ <code dir=ltr>I did an operation</code> (as patient) → ✅ <code dir=ltr>I had an operation</code><br>❌ <code dir=ltr>My health is bad</code> → ✅ <code dir=ltr>I'm not in great health</code> / <code dir=ltr>I haven't been well</code><br><br><code dir=ltr>medicine</code> is usually uncountable — no <code dir=ltr>a</code>, no <code dir=ltr>medicines</code> in everyday speech.<span class=n-ar>لاحظ: المريض «had an operation» ولم «يفعلها»، وmedicine اسمٌ غير معدود في الاستعمال اليوميّ.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: medical vocabulary",
+     "hint": "long words, one stressed syllable",
+     "rows": [
+      {
+       "w": "di·ag·NO·sis",
+       "s": "dye-ug-NO-sis",
+       "ar": "النبر على الثالث"
+      },
+      {
+       "w": "SYMP·tom",
+       "s": "SIMP-tum",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "fa·TIGUE",
+       "s": "fuh-TEEG",
+       "ar": "النبر على الثاني، وgue ← جي"
+      },
+      {
+       "w": "CHRON·ic",
+       "s": "KRON-ik",
+       "ar": "ch ← ك"
+      },
+      {
+       "w": "im·MUNE",
+       "s": "ih-MYOON",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "an·ti·bi·OT·ic",
+       "s": "an-tee-bye-OT-ik",
+       "ar": "النبر على الرابع"
+      },
+      {
+       "w": "VAC·cine",
+       "s": "vak-SEEN",
+       "ar": "النبر على الثاني في الأمريكيّة"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the clinic conversation, at speed",
+     "rows": [
+      {
+       "w": "What seems to be the problem?",
+       "s": "Wut seemsta be the problem?",
+       "ar": "ما المشكلة؟"
+      },
+      {
+       "w": "How long has it been going on?",
+       "s": "How long zit bin goin on?",
+       "ar": "منذ متى وهو مستمرّ؟"
+      },
+      {
+       "w": "It comes and goes",
+       "s": "It cumzn goze",
+       "ar": "يأتي ويذهب"
+      },
+      {
+       "w": "I've been feeling run-down",
+       "s": "I'v bin feelin run-down",
+       "ar": "أشعر بالوهن"
+      },
+      {
+       "w": "Let's rule that out",
+       "s": "Lets rule thad out",
+       "ar": "لنستبعد ذلك"
+      },
+      {
+       "w": "Take it easy for a few days",
+       "s": "Tayk-id easy fer a few days",
+       "ar": "خذ راحتك بضعة أيّام"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>She mustn't have received the referral.</code>",
+       "a": [
+        "She can't have received the referral",
+        "She couldn't have received the referral"
+       ],
+       "why": "النفي اليقينيّ بـcan't have."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I'm sick from three days.</code>",
+       "a": [
+        "I've been ill for three days",
+        "I have been ill for three days",
+        "I've been sick for three days"
+       ],
+       "why": "مضارعٌ تامّ + for."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I did an operation last year.</code>",
+       "a": [
+        "I had an operation last year"
+       ],
+       "why": "المريض «يخضع» للعمليّة لا «يجريها»."
+      },
+      {
+       "t": "mcq",
+       "q": "Which best describes intermittent pain?",
+       "opts": [
+        "It's constant",
+        "It comes and goes",
+        "It's getting worse",
+        "It's a sharp pain"
+       ],
+       "a": 1,
+       "why": "متقطّع."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Off the top of my head</code> means",
+       "opts": [
+        "after careful research",
+        "without checking, from memory",
+        "as a joke",
+        "in writing"
+       ],
+       "a": 1,
+       "why": "ارتجالاً بلا تحقّق."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The most likely ___ is that she stopped the dose early.</code>",
+       "a": [
+        "explanation"
+       ],
+       "why": "صيغة تخمينٍ تحليليّة."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: explaining what probably happened",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Describe a health or technical problem you or someone you know had, and reason about the cause, in <b>130–150 words</b>. It must include:<br><br>• one <code dir=ltr>must have</code> and one <code dir=ltr>can't have</code><br>• one <code dir=ltr>might / could have been -ing</code><br>• one present deduction (<code dir=ltr>must be</code> / <code dir=ltr>can't be</code>)<br>• at least four words from this unit<br>• a final sentence that says what is still unknown<span class=n-ar>صف مشكلةً صحّيّةً أو تقنيّةً واستنتج سببها في ١٣٠–١٥٠ كلمة، مع must have وcan't have وmight have been -ing واستنتاجٍ عن الحاضر وأربع كلماتٍ من الوحدة، وخاتمةٍ تقول ما لم يُعرف بعد.</span>",
+     "phrases": [
+      "The first symptom was …",
+      "It must have started …",
+      "It can't have been … because …",
+      "She might have been taking …",
+      "The most likely explanation is that …",
+      "They had to rule out …",
+      "What we still don't know is …"
+     ],
+     "model": "My mother spent four months being tired before anyone took it seriously. The first symptom was fatigue so ordinary that she blamed her sleep, then her job, then her age.\n\nLooking at it now, it must have started long before she mentioned it. It can't have been simple overwork, because it did not improve during a three-week holiday. She might have been managing the swelling in her ankles for months without connecting the two things at all.\n\nThe GP ran bloods, ruled out infection, and made a referral. The underlying cause turned out to be treatable, which must be the only reason this story has an ordinary ending.\n\nWhat we still don't know is why nobody asked a direct question for four months. My guess is that nothing about her produced a number, and a system that trusts numbers had nothing to look at.",
+     "modelAr": "أمضت أمّي أربعة أشهر متعبةً قبل أن يأخذ أحدٌ الأمر على محمل الجدّ. كان أوّل عَرَضٍ إرهاقاً عاديّاً إلى حدٍّ جعلها تلوم نومها، ثمّ عملها، ثمّ عمرها.\n\nوبالنظر إليه الآن، لا بدّ أنّه بدأ قبل أن تذكره بزمنٍ طويل. ولا يمكن أن يكون مجرّد إرهاقٍ من العمل، لأنّه لم يتحسّن خلال إجازةٍ من ثلاثة أسابيع. وربّما كانت تتعامل مع تورّمٍ في كاحليها شهوراً دون أن تربط بين الأمرين أصلاً.\n\nأجرى الطبيب العامّ تحاليل الدمّ، واستبعد العدوى، وكتب إحالة. وتبيّن أنّ السبب الكامن قابلٌ للعلاج، وهو ما لا بدّ أنّه السبب الوحيد في أنّ لهذه القصّة نهايةً عاديّة.\n\nوما نزال لا نعرفه هو لماذا لم يسأل أحدٌ سؤالاً مباشراً طوال أربعة أشهر. وتخميني أنّ شيئاً فيها لم يُنتج رقماً، ونظامٌ يثق بالأرقام لم يجد ما ينظر إليه.",
+     "checklist": [
+      "I used 'must have' for near-certainty about the past",
+      "I used 'can't have', never 'mustn't have'",
+      "I used a continuous form (might/could have been -ing)",
+      "I made one deduction about the present (must be / can't be)",
+      "I wrote 'must have', never 'must of'",
+      "I used at least four unit words (symptom, referral, rule out, underlying …)",
+      "I wrote 'had an operation', not 'did an operation'",
+      "I ended by naming what is still unknown",
+      "130–150 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "hedged conclusions in real speech",
+     "rows": [
+      {
+       "w": "My guess is",
+       "s": "My gess-iz",
+       "ar": "تخميني هو"
+      },
+      {
+       "w": "It looks as though",
+       "s": "It lukz az tho",
+       "ar": "يبدو كأنّ"
+      },
+      {
+       "w": "I wouldn't rule it out",
+       "s": "I wudn rule id out",
+       "ar": "لن أستبعده"
+      },
+      {
+       "w": "Your guess is as good as mine",
+       "s": "Yer gess-iz az gud az myn",
+       "ar": "تخمينك كتخميني"
+      },
+      {
+       "w": "Something's not right",
+       "s": "Sumthingz not right",
+       "ar": "ثمّة شيءٌ غير سليم"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ١٨",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Her coat is gone. She ___ left.</code>",
+       "opts": [
+        "can't have",
+        "must have",
+        "mustn't have",
+        "should have"
+       ],
+       "a": 1,
+       "why": "دليلٌ قويّ ← يقين."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>He was abroad all week. He ___ been at the meeting.</code>",
+       "opts": [
+        "must have",
+        "can't have",
+        "might have",
+        "should have"
+       ],
+       "a": 1,
+       "why": "استحالة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Her hands were shaking. She ___ nervous.</code>",
+       "opts": [
+        "must be",
+        "must have been",
+        "can't be",
+        "should be"
+       ],
+       "a": 1,
+       "why": "الحدث ماضٍ ← must have been."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The floor was wet. It ___ raining.</code>",
+       "opts": [
+        "must be",
+        "must have been",
+        "can't have been",
+        "should have been"
+       ],
+       "a": 1,
+       "why": "نشاطٌ ماضٍ ممتدّ."
+      },
+      {
+       "t": "mcq",
+       "q": "A condition that lasts a long time is",
+       "opts": [
+        "acute",
+        "chronic",
+        "immune",
+        "sedentary"
+       ],
+       "a": 1,
+       "why": "مزمن."
+      },
+      {
+       "t": "mcq",
+       "q": "To eliminate a possible cause is to",
+       "opts": [
+        "prescribe it",
+        "rule it out",
+        "refer it",
+        "screen it"
+       ],
+       "a": 1,
+       "why": "rule out ← يستبعد."
+      },
+      {
+       "t": "mcq",
+       "q": "An unwanted result of a medication is a",
+       "opts": [
+        "symptom",
+        "side effect",
+        "relapse",
+        "referral"
+       ],
+       "a": 1,
+       "why": "أثر جانبيّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Nobody answered — they ___ (leave) already.</code>",
+       "a": [
+        "must have left",
+        "mustve left"
+       ],
+       "why": "استنتاجٌ شبه يقينيّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>It ___ (not / be) the vaccine — she had it in May.</code>",
+       "a": [
+        "can't have been",
+        "cannot have been",
+        "couldn't have been"
+       ],
+       "why": "استحالةٌ بدليل التوقيت."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The doctor ___ (prescribe) a lower dose last week.</code>",
+       "a": [
+        "prescribed"
+       ],
+       "why": "ماضٍ بسيط."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He mustn't have heard the alarm.</code>",
+       "a": [
+        "He can't have heard the alarm",
+        "He couldn't have heard the alarm"
+       ],
+       "why": "نقيض must have هو can't have."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I must to see a specialist.</code>",
+       "a": [
+        "I must see a specialist",
+        "I have to see a specialist"
+       ],
+       "why": "must بلا to."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>She is ill from a week.</code>",
+       "a": [
+        "She has been ill for a week",
+        "She's been ill for a week"
+       ],
+       "why": "مضارعٌ تامّ + for."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He did an operation in March.</code>",
+       "a": [
+        "He had an operation in March"
+       ],
+       "why": "had an operation للمريض."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "They",
+        "must",
+        "have",
+        "been",
+        "using",
+        "the",
+        "old",
+        "protocol"
+       ],
+       "a": "They must have been using the old protocol",
+       "why": "يقين + نشاطٌ ممتدّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "can't",
+        "have",
+        "been",
+        "the",
+        "dose",
+        "she",
+        "took"
+       ],
+       "a": "It can't have been the dose she took",
+       "why": "استحالةٌ عن الماضي."
+      },
+      {
+       "t": "dict",
+       "say": "He musta nown abowdit",
+       "a": [
+        "He must have known about it",
+        "He mustve known about it"
+       ],
+       "why": "must have ← ماستَ، وabout it ← أباودِت."
+      },
+      {
+       "t": "dict",
+       "say": "She mida bin feelin run-down for weeks",
+       "a": [
+        "She might have been feeling run-down for weeks",
+        "She mightve been feeling run-down for weeks"
+       ],
+       "why": "might have been ← مايدَ بِن."
+      },
+      {
+       "t": "dict",
+       "say": "Lets rule thad out first",
+       "a": [
+        "Let's rule that out first",
+        "Lets rule that out first"
+       ],
+       "why": "that out ← ذَداوت بالربط."
+      },
+      {
+       "t": "mcq",
+       "q": "Which is the most confident statement?",
+       "opts": [
+        "It could have been the water",
+        "It might have been the water",
+        "It must have been the water",
+        "It may have been the water"
+       ],
+       "a": 2,
+       "why": "must have أعلى درجات اليقين."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "مسلسل طبّيّ",
+       "d": "ابحث عن «House M.D.» — حلقاتٌ كاملة من الاستنتاج بأفعال الاحتمال",
+       "task": "سجّل عشر جملٍ تبدأ بـmust have أو can't have."
+      },
+      {
+       "t": "بودكاست صحّيّ",
+       "d": "ابحث عن «Science Vs» أو «The Doctor's Kitchen»",
+       "task": "استمع خمس عشرة دقيقة، واكتب خمسة أعراضٍ سمعتها بالإنجليزيّة."
+      },
+      {
+       "t": "يوتيوب: شرحٌ طبّيّ مبسّط",
+       "d": "ابحث عن «Osmosis» — نطقٌ واضح ومصطلحاتٌ متكرّرة",
+       "task": "أعد نطق عشرة مصطلحاتٍ بالنبر الصحيح."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "كرّر «musta / mida / can-ta» حتّى تسمعها في أيّ فيلمٍ دون جهد."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": "unit-10",
+  "icon": "📱",
+  "title": "التقنية والحياة الرقميّة",
+  "subtitle": "أن تتحدّث عن الأدوات والأنظمة والمشكلات",
+  "intro": "المبنيّ للمجهول ليس زينةً لغويّة، بل أداةٌ لتحويل التركيز: حين يكون <b>ما حدث</b> أهمّ من <b>مَن فعله</b>. ولهذا تسيطر هذه الصيغة على لغة التقنية والأخبار والتقارير — وإتقانها يفتح لك بابها كلّه.",
+  "goals": [
+    "أبني المبنيّ للمجهول وأعرف متى أستعمله",
+    "أصف كيف يعمل نظامٌ أو خدمة",
+    "أشرح مشكلةً تقنيّة وأطلب دعماً",
+    "أناقش أثر التقنية في حياتي"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "المبنيّ للمجهول",
+      "subtitle": "حين يكون الفاعل غير مهمّ أو مجهول",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "البناء في سطر",
+          "html": "<b>be</b> (بزمن الجملة) + <b>التصريف الثالث</b><br><br><table><tr><td>مضارع بسيط</td><td dir=ltr>The data <b>is stored</b> on the server.</td></tr><tr><td>ماضٍ بسيط</td><td dir=ltr>The app <b>was launched</b> in 2021.</td></tr><tr><td>جمع</td><td dir=ltr>Passwords <b>are encrypted</b>.</td></tr></table><br><b>التحويل:</b><br>مبنيّ للمعلوم: <code dir=ltr>Google <b>collects</b> the data.</code><br>مبنيّ للمجهول: <code dir=ltr>The data <b>is collected</b> (by Google).</code><br><br>المفعول صار فاعلاً، والفعل صار be + التصريف الثالث، والفاعل الأصليّ صار اختياريّاً بعد by."
+        },
+        {
+          "type": "note",
+          "title": "متى تستعمله؟ — أربع حالات",
+          "html": "<b>١. الفاعل مجهول:</b> <code dir=ltr>My phone <b>was stolen</b>.</code><br><b>٢. الفاعل بديهيّ:</b> <code dir=ltr>He <b>was arrested</b>.</code> (الشرطة بالطبع)<br><b>٣. الفاعل غير مهمّ:</b> <code dir=ltr>The update <b>was released</b> yesterday.</code><br><b>٤. تريد تجنّب اللوم أو التحديد:</b> <code dir=ltr>Mistakes <b>were made</b>.</code><br><br>⚠️ ولا تستعمله لمجرّد أن يبدو كلامك فخماً. المعلوم أوضح وأقصر في أكثر الأحوال:<br>✅ <code dir=ltr>We fixed the bug.</code> أفضل من ❌ <code dir=ltr>The bug was fixed by us.</code>"
+        },
+        {
+          "type": "note",
+          "title": "متى تذكر by؟",
+          "html": "اذكرها <b>فقط</b> إن كان الفاعل معلومةً جديدة ومهمّة:<br><br>✅ <code dir=ltr>The theory was proposed <b>by Einstein</b>.</code> (مهمّ)<br>❌ <code dir=ltr>The letter was written <b>by someone</b>.</code> (بلا فائدة)<br><br>إحصائيّاً: أكثر من ٨٠٪ من جمل المبنيّ للمجهول لا تذكر الفاعل أصلاً."
+        },
+        {
+          "type": "note",
+          "title": "فخّان يقع فيهما العرب",
+          "html": "<b>١. الأفعال اللازمة لا تُبنى للمجهول</b> (لأنّها بلا مفعول):<br>❌ <code dir=ltr>The accident was happened.</code> ✅ <code dir=ltr>The accident happened.</code><br>❌ <code dir=ltr>He was arrived.</code> ✅ <code dir=ltr>He arrived.</code><br>(وكذلك: die · occur · appear · rise · fall)<br><br><b>٢. نسيان be أو استعمال التصريف الثاني:</b><br>❌ <code dir=ltr>The file deleted.</code> ✅ <code dir=ltr>The file <b>was</b> deleted.</code><br>❌ <code dir=ltr>It was wrote yesterday.</code> ✅ <code dir=ltr>It was <b>written</b> yesterday.</code>"
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "Your data <b>is encrypted</b> automatically.", "ar": "تُشفَّر بياناتك تلقائيّاً." },
+            { "en": "The website <b>was hacked</b> last night.", "ar": "اختُرق الموقع ليلة أمس." },
+            { "en": "These phones <b>are made</b> in Vietnam.", "ar": "تُصنع هذه الهواتف في فيتنام." },
+            { "en": "The feature <b>was removed</b> in the last update.", "ar": "أُزيلت الميزة في التحديث الأخير." },
+            { "en": "The algorithm <b>was designed</b> <b>by</b> a small team.", "ar": "صمّم الخوارزميّة فريقٌ صغير. (الفاعل مهمّ)" },
+            { "en": "The server <b>crashed</b>.", "ar": "انهار الخادم. (فعلٌ لازم — لا مجهول)" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "be المساعدة تُختزل فتكاد تختفي",
+          "rows": [
+            { "w": "It is being updated", "s": "It's bein updated", "ar": "يجري تحديثه" },
+            { "w": "It was deleted by mistake", "s": "It wuz deleded by mistake", "ar": "حُذف بالخطأ" },
+            { "w": "They are made in China", "s": "They're made in China", "ar": "تُصنع في الصين" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>The report ___ every Monday.</code>", "opts": ["updates", "is updated", "was updated", "updating"], "a": 1, "why": "عادة متكرّرة ← مضارع مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>My laptop ___ last week.</code>", "opts": ["stole", "was stolen", "is stolen", "was stole"], "a": 1, "why": "ماضٍ مجهول + التصريف الثالث stolen." },
+            { "t": "mcq", "q": "<code dir=ltr>These apps ___ by students.</code>", "opts": ["develop", "developed", "are developed", "is developed"], "a": 2, "why": "جمع ← are + التصريف الثالث." },
+            { "t": "mcq", "q": "أيّ جملةٍ <b>لا</b> يصحّ بناؤها للمجهول؟", "opts": ["They built the app.", "The accident happened.", "She wrote the code.", "We fixed the bug."], "a": 1, "why": "happen فعلٌ لازم بلا مفعول." },
+            { "t": "mcq", "q": "متى تذكر <code dir=ltr>by</code>؟", "opts": ["دائماً", "حين يكون الفاعل معلومةً جديدة ومهمّة", "أبداً", "في الماضي فقط"], "a": 1, "why": "أكثر الجمل تحذفه." },
+            { "t": "gap", "q": "حوّل: <code dir=ltr>Someone deleted the file.</code> → <code dir=ltr>The file ___ .</code>", "a": ["was deleted", "was deleted."], "why": "الفاعل غير مهمّ ← مجهول بلا by." },
+            { "t": "gap", "q": "حوّل: <code dir=ltr>They make these chips in Taiwan.</code> → <code dir=ltr>These chips ___ in Taiwan.</code>", "a": ["are made"], "why": "جمع + مضارع." },
+            { "t": "gap", "q": "<code dir=ltr>The password ___ (change) yesterday.</code>", "a": ["was changed"], "why": "ماضٍ مجهول." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The accident was happened at noon.</code>", "a": ["The accident happened at noon", "The accident happened at noon."], "why": "happen لازم." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The email was wrote by my colleague.</code>", "a": ["The email was written by my colleague", "The email was written by my colleague."], "why": "التصريف الثالث written." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The system updated automatically every night.</code>", "a": ["The system is updated automatically every night", "The system is updated automatically every night."], "why": "ينقص be — وإلّا صار المعنى أنّ النظام يُحدّث غيره." },
+            { "t": "order", "q": "رتّب:", "ws": ["The", "data", "is", "stored", "on", "the", "server"], "a": "The data is stored on the server", "why": "be + التصريف الثالث." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: التقنية والمشكلات",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "الأجهزة والأنظمة",
+          "items": [
+            { "w": "set up", "pos": "phrasal verb", "ar": "يُعدّ ويهيّئ", "ex": [{ "en": "It only takes five minutes to <b>set up</b>.", "ar": "لا يستغرق الإعداد إلّا خمس دقائق." }] },
+            { "w": "back up", "pos": "phrasal verb", "ar": "ينسخ احتياطيّاً", "ex": [{ "en": "Everything <b>is backed up</b> to the cloud.", "ar": "يُنسخ كلّ شيء احتياطيّاً إلى السحابة." }] },
+            { "w": "sync", "pos": "verb", "ar": "يُزامن", "ex": [{ "en": "My notes <b>sync</b> across all devices.", "ar": "تتزامن ملاحظاتي على كلّ أجهزتي." }] },
+            { "w": "roll out", "pos": "phrasal verb", "ar": "يطرح تدريجيّاً", "ex": [{ "en": "The update <b>is being rolled out</b> this week.", "ar": "يُطرح التحديث هذا الأسبوع." }] },
+            { "w": "phase out", "pos": "phrasal verb", "ar": "يُلغي تدريجيّاً", "ex": [{ "en": "The old version <b>was phased out</b> in March.", "ar": "أُلغيت النسخة القديمة تدريجيّاً في آذار." }] },
+            { "w": "run on", "pos": "phrasal verb", "ar": "يعمل بـ (نظامٍ أو طاقة)", "ex": [{ "en": "It <b>runs on</b> solar power.", "ar": "يعمل بالطاقة الشمسيّة." }] },
+            { "w": "log in / log out", "pos": "phrasal verb", "ar": "يسجّل الدخول / الخروج", "ex": [{ "en": "You'll be <b>logged out</b> after ten minutes.", "ar": "سيُسجَّل خروجك بعد عشر دقائق." }] },
+            { "w": "device", "pos": "noun", "ar": "جهاز", "ex": [{ "en": "It works on any <b>device</b>.", "ar": "يعمل على أيّ جهاز." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الأعطال والدعم",
+          "items": [
+            { "w": "crash", "pos": "verb / noun", "ar": "ينهار / انهيار", "ex": [{ "en": "The app <b>crashes</b> when I open large files.", "ar": "ينهار التطبيق حين أفتح ملفّاتٍ كبيرة." }] },
+            { "w": "freeze", "pos": "verb", "ar": "يتجمّد ويتوقّف", "ex": [{ "en": "The screen just <b>froze</b>.", "ar": "تجمّدت الشاشة للتوّ." }] },
+            { "w": "glitch", "pos": "noun", "ar": "خلل عابر", "ex": [{ "en": "It was just a minor <b>glitch</b>.", "ar": "كان مجرّد خللٍ بسيط." }] },
+            { "w": "bug", "pos": "noun", "ar": "عِلّة برمجيّة", "ex": [{ "en": "The <b>bug</b> was fixed in version 2.1.", "ar": "أُصلحت العلّة في النسخة ٢٫١." }] },
+            { "w": "troubleshoot", "pos": "verb", "ar": "يشخّص المشكلة ويعالجها", "ex": [{ "en": "Let's <b>troubleshoot</b> it step by step.", "ar": "لنشخّصها خطوةً خطوة." }] },
+            { "w": "work around", "pos": "noun / verb", "ar": "حلّ التفافيّ مؤقّت", "ex": [{ "en": "There's a <b>workaround</b> until it's fixed.", "ar": "ثمّة حلٌّ مؤقّت حتى يُصلَح." }] },
+            { "w": "wipe", "pos": "verb", "ar": "يمسح كلّ البيانات", "ex": [{ "en": "The phone <b>was wiped</b> remotely.", "ar": "مُسح الهاتف عن بُعد." }] },
+            { "w": "restore", "pos": "verb", "ar": "يستعيد", "ex": [{ "en": "The files <b>were restored</b> from a backup.", "ar": "استُعيدت الملفّات من نسخة احتياطيّة." }] },
+            { "w": "down", "pos": "adjective", "ar": "معطّل / غير متاح (خدمة)", "ex": [{ "en": "The site has been <b>down</b> all morning.", "ar": "الموقع معطّل طوال الصباح." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الخصوصيّة والعادات الرقميّة",
+          "items": [
+            { "w": "privacy", "pos": "noun", "ar": "خصوصيّة", "ex": [{ "en": "<b>Privacy</b> settings are often buried.", "ar": "غالباً ما تُدفن إعدادات الخصوصيّة." }] },
+            { "w": "track", "pos": "verb", "ar": "يتتبّع", "ex": [{ "en": "Your location <b>is tracked</b> by default.", "ar": "يُتتبَّع موقعك افتراضيّاً." }] },
+            { "w": "opt out", "pos": "phrasal verb", "ar": "ينسحب من خدمةٍ أو تتبّع", "ex": [{ "en": "You can <b>opt out</b> in the settings.", "ar": "يمكنك الانسحاب من الإعدادات." }] },
+            { "w": "scroll", "pos": "verb", "ar": "يمرّر الشاشة", "ex": [{ "en": "I <b>scroll</b> for an hour without noticing.", "ar": "أمرّر ساعةً دون أن ألاحظ." }] },
+            { "w": "screen time", "pos": "noun", "ar": "وقت الشاشة", "ex": [{ "en": "My <b>screen time</b> has doubled.", "ar": "تضاعف وقت شاشتي." }] },
+            { "w": "cut down on", "pos": "phrasal verb", "ar": "يقلّل من", "ex": [{ "en": "I'm trying to <b>cut down on</b> social media.", "ar": "أحاول التقليل من مواقع التواصل." }] },
+            { "w": "addictive", "pos": "adjective", "ar": "مُدمِن / يسبّب الإدمان", "ex": [{ "en": "These apps are designed to be <b>addictive</b>.", "ar": "صُمّمت هذه التطبيقات لتكون مُدمِنة." }] },
+            { "w": "reliable source", "pos": "expression", "ar": "مصدر موثوق", "ex": [{ "en": "Always check it against a <b>reliable source</b>.", "ar": "تحقّق منه دائماً في مصدرٍ موثوق." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: مكالمة دعم تقنيّ",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>أحصِ كم جملةً مبنيّةً للمجهول تسمعها — ستُدهشك الكثرة."
+        },
+        {
+          "type": "dialogue",
+          "title": "Tech Support",
+          "titleAr": "الدعم التقنيّ",
+          "lines": [
+            { "sp": "Support", "en": "Thanks for holding. How can I help?", "ar": "شكراً لانتظارك. كيف أساعدك؟" },
+            { "sp": "Maya", "en": "My account was locked this morning and I can't log in.", "ar": "قُفل حسابي هذا الصباح ولا أستطيع تسجيل الدخول." },
+            { "sp": "Support", "en": "I see. Were you sent a verification code?", "ar": "فهمت. هل أُرسل إليك رمز تحقّق؟" },
+            { "sp": "Maya", "en": "No, nothing came through.", "ar": "لا، لم يصل شيء." },
+            { "sp": "Support", "en": "Right. Accounts are locked automatically after five failed attempts.", "ar": "صحيح. تُقفل الحسابات تلقائيّاً بعد خمس محاولاتٍ فاشلة." },
+            { "sp": "Maya", "en": "But I only tried twice.", "ar": "لكنّني حاولتُ مرّتين فقط." },
+            { "sp": "Support", "en": "Then it may have been accessed from another device.", "ar": "إذن ربّما دُخل إليه من جهازٍ آخر." },
+            { "sp": "Maya", "en": "That's worrying. Was anything changed?", "ar": "هذا مقلق. هل غُيّر شيء؟" },
+            { "sp": "Support", "en": "Let me check… No, your data hasn't been touched.", "ar": "دعيني أتحقّق… لا، لم تُمسّ بياناتك." },
+            { "sp": "Maya", "en": "Thank goodness.", "ar": "الحمد لله." },
+            { "sp": "Support", "en": "I'd recommend changing your password and turning on two-factor.", "ar": "أنصح بتغيير كلمة المرور وتفعيل التحقّق بخطوتين." },
+            { "sp": "Maya", "en": "How long will the account be locked?", "ar": "كم سيبقى الحساب مقفلاً؟" },
+            { "sp": "Support", "en": "It's been unlocked already. You'll be sent a reset link now.", "ar": "أُلغي القفل بالفعل. سيُرسَل إليك رابط إعادة تعيين الآن." },
+            { "sp": "Maya", "en": "Got it. Anything else I should do?", "ar": "فهمت. أثمّة شيءٌ آخر عليّ فعله؟" },
+            { "sp": "Support", "en": "Check which devices are signed in, and remove any you don't recognise.", "ar": "تفقّدي الأجهزة المسجّل دخولها، واحذفي ما لا تعرفينه." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما مشكلة مايا؟", "opts": ["نسيت كلمة المرور", "قُفل حسابها ولا تستطيع الدخول", "الموقع معطّل", "جهازها تالف"], "a": 1, "why": "<code dir=ltr>My account was locked</code>." },
+            { "t": "mcq", "q": "متى تُقفل الحسابات تلقائيّاً؟", "opts": ["بعد محاولتين", "بعد خمس محاولاتٍ فاشلة", "بعد يوم", "عند تغيير الجهاز"], "a": 1, "why": "<code dir=ltr>after five failed attempts</code>." },
+            { "t": "mcq", "q": "ما تفسير الموظّف للقفل؟", "opts": ["خطأ في النظام", "ربّما دخل أحدٌ من جهازٍ آخر", "انتهاء الاشتراك", "تحديث"], "a": 1, "why": "<code dir=ltr>accessed from another device</code>." },
+            { "t": "mcq", "q": "هل تضرّرت بياناتها؟", "opts": ["نعم حُذفت", "نعم غُيّرت", "لا، لم تُمسّ", "لم يتحقّق"], "a": 2, "why": "<code dir=ltr>your data hasn't been touched</code>." },
+            { "t": "mcq", "q": "بمَ نصحها أخيراً؟", "opts": ["شراء جهاز جديد", "تفقّد الأجهزة المسجّل دخولها وحذف المجهول", "إغلاق الحساب", "الاتّصال غداً"], "a": 1, "why": "الجملة الأخيرة." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "My account wuz lockd this mornin", "a": ["My account was locked this morning", "my account was locked this morning"], "why": "was → «وَز» · ed → t · سقطت g." },
+            { "t": "dict", "say": "Accounts are lockd audomatically", "a": ["Accounts are locked automatically", "accounts are locked automatically"], "why": "automatically بـ d مرتدّة." },
+            { "t": "dict", "say": "Your data hazn bin touchd", "a": ["Your data hasn't been touched", "Your data has not been touched", "your data hasnt been touched"], "why": "been → «بِن»، وسقطت t من hasn't." },
+            { "t": "dict", "say": "It's bin unlockd awready", "a": ["It's been unlocked already", "It has been unlocked already", "its been unlocked already"], "why": "already → «أوريدي»." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: تصميم مصمَّم لإدمانك",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Designed to Keep You There",
+          "titleAr": "مصمَّمٌ ليُبقيك",
+          "en": "The endless scroll was not an accident. Before it existed, a page ended, and the ending gave you a natural moment to stop. When infinite scrolling <b>was introduced</b> in 2006, that moment disappeared. The designer who invented it has since said publicly that he regrets it, and estimates that it costs humanity hundreds of thousands of hours every day.<br><br>Several other features work the same way. Notifications <b>are delivered</b> in unpredictable bursts rather than at fixed times, because unpredictable rewards are far harder to ignore than regular ones — the same principle that makes slot machines profitable. Videos <b>are autoplayed</b> before you decide to watch them. Read receipts create a social obligation to reply quickly. None of these are bugs; each one <b>was chosen</b>, tested, and kept because it increased the time people spent.<br><br>It is tempting to respond with willpower, and equally useless. A more effective approach is to change the environment rather than fight it: turn off non-human notifications, remove the two apps you open without deciding to, and put a deliberate <b>workaround</b> between you and the habit — logging out, or moving the app off your home screen. You are not weak for losing this fight. You are simply one person against a system that <b>was designed</b>, very carefully, to win it.",
+          "ar": "لم يكن التمرير اللانهائيّ مصادفة. فقبل وجوده كانت الصفحة تنتهي، وكانت تلك النهاية تمنحك لحظةً طبيعيّة للتوقّف. وحين أُدخل التمرير اللانهائيّ عام ٢٠٠٦ اختفت تلك اللحظة. وقد صرّح مصمّمه علناً منذئذٍ بأنّه يندم عليه، ويقدّر أنّه يكلّف البشريّة مئات آلاف الساعات كلّ يوم.<br><br>وثمّة ميزاتٌ أخرى تعمل بالطريقة نفسها. فالإشعارات تُرسَل في دفعاتٍ غير متوقّعة لا في أوقاتٍ ثابتة، لأنّ المكافآت غير المتوقّعة أصعب تجاهلاً بكثير من المنتظمة — وهو المبدأ نفسه الذي يجعل ماكينات القمار مربحة. والفيديوهات تُشغَّل تلقائيّاً قبل أن تقرّر مشاهدتها. وإشعارات القراءة تخلق التزاماً اجتماعيّاً بالردّ سريعاً. وليس شيءٌ من هذا خللاً؛ بل اختير كلٌّ منها واختُبر وأُبقي عليه لأنّه زاد الوقت الذي يقضيه الناس.<br><br>ومن المغري أن تواجه ذلك بقوّة الإرادة، وهو عديم الجدوى بالقدر نفسه. والنهج الأنجع أن تغيّر البيئة بدل أن تصارعها: أطفئ الإشعارات غير الصادرة عن بشر، واحذف التطبيقين اللذين تفتحهما بلا قرار، وضع بينك وبين العادة عائقاً متعمَّداً — كتسجيل الخروج، أو نقل التطبيق خارج شاشتك الرئيسة. ولستَ ضعيفاً لأنّك تخسر هذه المعركة؛ إنّما أنت شخصٌ واحد أمام نظامٍ صُمّم بعنايةٍ بالغة ليربحها.",
+          "keys": [["was introduced", "أُدخل"], ["are delivered", "تُرسَل"], ["was chosen", "اختير"], ["workaround", "عائق/حلّ التفافيّ"], ["was designed", "صُمّم"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما الذي أزاله التمرير اللانهائيّ؟", "opts": ["الإعلانات", "لحظة التوقّف الطبيعيّة عند نهاية الصفحة", "الإشعارات", "الفيديوهات"], "a": 1, "why": "<code dir=ltr>that moment disappeared</code>." },
+            { "t": "mcq", "q": "لماذا تُرسل الإشعارات في دفعاتٍ غير متوقّعة؟", "opts": ["لتوفير البطّاريّة", "لأنّ المكافآت غير المتوقّعة أصعب تجاهلاً", "لضغط الخوادم", "بالمصادفة"], "a": 1, "why": "مبدأ ماكينات القمار." },
+            { "t": "mcq", "q": "ما موقف الكاتب من قوّة الإرادة هنا؟", "opts": ["أنّها الحلّ الوحيد", "أنّها مغرية لكن عديمة الجدوى", "أنّها تكفي مع التدريب", "لم يذكرها"], "a": 1, "why": "<code dir=ltr>tempting … and equally useless</code>." },
+            { "t": "mcq", "q": "ما النهج الذي يقترحه؟", "opts": ["مزيد من الانضباط", "تغيير البيئة بدل مصارعتها", "ترك الهاتف نهائيّاً", "استعمال تطبيق مراقبة"], "a": 1, "why": "<code dir=ltr>change the environment rather than fight it</code>." },
+            { "t": "mcq", "q": "لماذا يكثر المبنيّ للمجهول في هذا النصّ؟", "opts": ["لأنّه أفخم", "لأنّ التركيز على ما حدث للميزات لا على من صمّمها", "لأنّ الكاتب يجهل الفاعل", "بلا سبب"], "a": 1, "why": "هذه وظيفة المجهول الأساسيّة." },
+            { "t": "mcq", "q": "ما مقصد الجملة الأخيرة؟", "opts": ["أنّ المستخدم مذنب", "أنّ الخسارة ليست ضعفاً بل نتيجة تصميمٍ متعمّد", "أنّه لا حلّ", "أنّ التقنية شرّ"], "a": 1, "why": "رفعٌ للّوم عن الفرد ونقلٌ له إلى التصميم." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "لغة التقنية كما تُنطق",
+          "rows": [
+            { "w": "It is not working", "s": "It's nod workin", "ar": "إنّه لا يعمل" },
+            { "w": "Have you tried restarting it?", "s": "Havya tried restartin it?", "ar": "هل جرّبت إعادة تشغيله؟" },
+            { "w": "It should be fixed by now", "s": "It should be fixd by now", "ar": "ينبغي أن يكون قد أُصلح الآن" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تشرح عطلاً وتطلب دعماً",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "وصف المشكلة — الترتيب الذي ينفع",
+          "html": "الدعم التقنيّ يحتاج ثلاثة أمورٍ بالترتيب:<br><br><b>١. ماذا يحدث:</b> <code dir=ltr>The app crashes when I open a large file.</code><br><b>٢. متى بدأ:</b> <code dir=ltr>It started after the last update.</code><br><b>٣. ماذا جرّبت:</b> <code dir=ltr>I've already tried restarting and reinstalling.</code><br><br>💡 الجملة الثالثة توفّر عليك عشر دقائق — لأنّها تمنع تكرار ما فعلتَه."
+        },
+        {
+          "type": "note",
+          "title": "قوالب الدعم",
+          "html": "<b>لتصف:</b> <code dir=ltr>It keeps freezing · It won't load · It's not responding · I get an error message saying …</code><br><br><b>لتسأل:</b> <code dir=ltr>Is there a workaround? · Is this a known issue? · How long is it likely to take?</code><br><br><b>لتستوضح:</b> <code dir=ltr>Sorry, could you walk me through that again? · Where exactly do I find that?</code>"
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>My phone is not working good.</code> ✅ <code dir=ltr>My phone isn't working <b>properly</b>.</code><br>❌ <code dir=ltr>The internet is cutted.</code> ✅ <code dir=ltr>The connection <b>keeps dropping</b>.</code><br>❌ <code dir=ltr>I have a problem in the app.</code> ✅ <code dir=ltr>I'm having a problem <b>with</b> the app.</code><br>❌ <code dir=ltr>Open the phone.</code> ✅ <code dir=ltr><b>Turn on</b> the phone.</code> (open = يفتح شيئاً مغلقاً)"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: مصطلحات تقنيّة",
+          "hint": "النبر في غير موضعه يُفقِد الكلمة معناها",
+          "rows": [
+            { "w": "DA·ta", "s": "DAY-tuh (أمريكيّ)", "ar": "بريطانيّاً أيضاً DAH-tuh" },
+            { "w": "IM·age", "s": "IM-ij", "ar": "لا «إيميدج»" },
+            { "w": "SOFT·ware", "s": "SAWFT-wair", "ar": "النبر على الأوّل" },
+            { "w": "de·VICE", "s": "duh-VICE", "ar": "النبر على الثاني" },
+            { "w": "SE·cure (صفة)", "s": "suh-KYOOR", "ar": "النبر على الثاني" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات الدعم كما تُنطق",
+          "rows": [
+            { "w": "It keeps crashing", "s": "It keeps crashin", "ar": "يظلّ ينهار" },
+            { "w": "I have already tried that", "s": "I've awready tried that", "ar": "جرّبتُ ذلك بالفعل" },
+            { "w": "Is there a workaround?", "s": "Izzere a workaround?", "ar": "أثمّة حلٌّ التفافيّ؟" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "correct", "q": "صحّح: <code dir=ltr>My laptop is not working good.</code>", "a": ["My laptop isn't working properly", "My laptop is not working properly", "My laptop isn't working well"], "why": "الظرف properly / well لا الصفة good." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have a problem in the website.</code>", "a": ["I'm having a problem with the website", "I have a problem with the website"], "why": "problem <b>with</b> لا in." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Please open the computer.</code>", "a": ["Please turn on the computer", "Please switch on the computer"], "why": "turn on للتشغيل، وopen لفتح شيءٍ مغلق." },
+            { "t": "mcq", "q": "ما أنفع معلومةٍ تضيفها عند طلب الدعم؟", "opts": ["نوع الجهاز فقط", "ما جرّبتَه بالفعل", "وقت المشكلة", "اسمك"], "a": 1, "why": "يمنع تكرار الخطوات ويوفّر الوقت." },
+            { "t": "mcq", "q": "أين النبر في <code dir=ltr>device</code>؟", "opts": ["على الأوّل", "على الثاني", "متساوٍ", "لا نبر"], "a": 1, "why": "duh-VICE." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "have", "already", "tried", "restarting", "it"], "a": "I have already tried restarting it", "why": "already بين have والتصريف الثالث، وtry + ing." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: بلاغ عطل",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "تطبيقٌ تستعمله للعمل يتعطّل منذ يومين. اكتب بلاغاً للدعم في <b>٨٠–١٠٠ كلمة</b> يتضمّن:<br><br>• وصفاً دقيقاً لما يحدث ومتى بدأ<br>• جملتين على الأقلّ بالمبنيّ للمجهول<br>• ما جرّبتَه بالفعل<br>• أثر المشكلة عليك<br>• سؤالاً عن حلٍّ مؤقّت أو مدّة الإصلاح",
+          "phrases": [
+            "I'm having a problem with …",
+            "It started after …",
+            "The app crashes whenever I …",
+            "An error message is displayed saying …",
+            "I've already tried … and …",
+            "Is this a known issue?",
+            "Is there a workaround in the meantime?"
+          ],
+          "model": "Hello,\n\nI'm having a problem with the mobile app. It crashes whenever I try to open a file larger than about ten megabytes. The problem started two days ago, right after the latest update was installed.\n\nAn error message is displayed saying that the file cannot be processed, and the app is closed automatically a few seconds later.\n\nI've already tried restarting my phone, reinstalling the app and clearing the cache, but nothing has changed. This is blocking my work, as most of my files are that size.\n\nIs this a known issue, and is there a workaround in the meantime?\n\nThank you,\nOmar",
+          "modelAr": "مرحباً،\n\nأواجه مشكلةً في تطبيق الهاتف. فهو ينهار كلّما حاولتُ فتح ملفٍّ أكبر من نحو عشرة ميغابايت. وقد بدأت المشكلة قبل يومين، بُعيد تثبيت التحديث الأخير.\n\nوتُعرض رسالة خطأ تقول إنّه يتعذّر معالجة الملفّ، ثمّ يُغلق التطبيق تلقائيّاً بعد ثوانٍ.\n\nوقد جرّبتُ بالفعل إعادة تشغيل هاتفي وإعادة تثبيت التطبيق ومسح الذاكرة المؤقّتة، لكن لم يتغيّر شيء. وهذا يعطّل عملي لأنّ أكثر ملفّاتي بهذا الحجم.\n\nفهل هذه علّةٌ معروفة؟ وهل ثمّة حلٌّ مؤقّت ريثما تُصلَح؟\n\nشكراً لكم،\nعمر",
+          "checklist": [
+            "استعملتُ المبنيّ للمجهول مرّتين على الأقلّ بصيغةٍ صحيحة (be + التصريف الثالث)",
+            "لم أبنِ فعلاً لازماً للمجهول (happen / crash)",
+            "وصفتُ ما يحدث ومتى بدأ بدقّة",
+            "ذكرتُ ما جرّبتُه بالفعل",
+            "قلتُ problem with لا problem in",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "ختمتُ بسؤالٍ محدّد",
+            "عدد الكلمات بين ٨٠ و١٠٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات البلاغ شفويّاً",
+          "rows": [
+            { "w": "It crashes whenever I open it", "s": "It crashes whenever I open it", "ar": "ينهار كلّما فتحته" },
+            { "w": "Nothing has changed", "s": "Nothin haz changed", "ar": "لم يتغيّر شيء" },
+            { "w": "in the meantime", "s": "in the meantime", "ar": "في غضون ذلك" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة العاشرة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>The files ___ every night.</code>", "opts": ["back up", "are backed up", "backed up", "is backed up"], "a": 1, "why": "جمع + مضارع مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>The update ___ last Tuesday.</code>", "opts": ["release", "released", "was released", "is released"], "a": 2, "why": "ماضٍ مجهول." },
+            { "t": "mcq", "q": "أيّ جملةٍ <b>لا</b> تُبنى للمجهول؟", "opts": ["They deleted the file.", "The system crashed.", "We fixed the bug.", "She wrote the code."], "a": 1, "why": "crash هنا لازم بلا مفعول." },
+            { "t": "mcq", "q": "<code dir=ltr>This software ___ by a startup.</code>", "opts": ["develops", "developed", "was developed", "is develop"], "a": 2, "why": "الفاعل مهمّ ← مجهول + by." },
+            { "t": "mcq", "q": "<code dir=ltr>roll out</code> تعني…", "opts": ["يلفّ", "يطرح تدريجيّاً", "يخرج", "يلغي"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>workaround</code> تعني…", "opts": ["عمل إضافيّ", "حلّ التفافيّ مؤقّت", "دوران", "إصلاح نهائيّ"], "a": 1, "why": "حلٌّ مؤقّت حتى الإصلاح." },
+            { "t": "mcq", "q": "<code dir=ltr>opt out</code> تعني…", "opts": ["يختار", "ينسحب من خدمةٍ أو تتبّع", "يخرج", "يفضّل"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>The site is down</code> تعني…", "opts": ["الموقع أسفل الصفحة", "الموقع معطّل وغير متاح", "الموقع بطيء", "الموقع مغلق نهائيّاً"], "a": 1, "why": "down = خارج الخدمة." },
+            { "t": "gap", "q": "حوّل: <code dir=ltr>Someone hacked the account.</code> → <code dir=ltr>The account ___ .</code>", "a": ["was hacked", "was hacked."], "why": "الفاعل مجهول ← مجهول بلا by." },
+            { "t": "gap", "q": "<code dir=ltr>These phones ___ (assemble) in India.</code>", "a": ["are assembled"], "why": "جمع + مضارع مجهول." },
+            { "t": "gap", "q": "<code dir=ltr>The message ___ (send) an hour ago.</code>", "a": ["was sent"], "why": "ماضٍ مجهول، والتصريف الثالث sent." },
+            { "t": "gap", "q": "<code dir=ltr>My data ___ (not / share) with anyone.</code>", "a": ["is not shared", "isn't shared", "is not shared."], "why": "نفي المضارع المجهول." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The accident was happened yesterday.</code>", "a": ["The accident happened yesterday", "The accident happened yesterday."], "why": "happen لازم." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The file was delete by mistake.</code>", "a": ["The file was deleted by mistake", "The file was deleted by mistake."], "why": "التصريف الثالث deleted." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have a problem in my account.</code>", "a": ["I have a problem with my account", "I'm having a problem with my account"], "why": "problem with." },
+            { "t": "order", "q": "رتّب:", "ws": ["The", "password", "was", "changed", "last", "week"], "a": "The password was changed last week", "why": "ماضٍ مجهول." },
+            { "t": "order", "q": "رتّب:", "ws": ["Is", "there", "a", "workaround", "in", "the", "meantime"], "a": "Is there a workaround in the meantime", "why": "قالب طلب حلٍّ مؤقّت." },
+            { "t": "dict", "say": "It wuz deleded by mistake", "a": ["It was deleted by mistake", "it was deleted by mistake"], "why": "deleted بـ d مرتدّة." },
+            { "t": "dict", "say": "Havya tried restartin it?", "a": ["Have you tried restarting it?", "have you tried restarting it"], "why": "have you → «هاڤيَ»، وسقطت g." },
+            { "t": "mcq", "q": "أين النبر في <code dir=ltr>software</code>؟", "opts": ["على الثاني", "على الأوّل", "متساوٍ", "على الأخير"], "a": 1, "why": "SAWFT-wair." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "مراجعات التقنية على يوتيوب", "d": "ابحث عن «tech review» لأيّ جهازٍ تعرفه — مبنيّ للمجهول بكثافة", "task": "شاهد خمس دقائق، وسجّل ثماني جملٍ مبنيّة للمجهول." },
+            { "t": "شروح الإعدادات والخصوصيّة", "d": "ابحث عن «privacy settings explained»", "task": "تابع الشرح وطبّق إعداداً واحداً على هاتفك فعلاً." },
+            { "t": "بودكاست تقنيّ", "d": "ابحث عن «tech podcast for beginners»", "task": "استمع عشر دقائق، وسجّل خمسة مصطلحاتٍ تقنيّة جديدة." }
+          ]
+        }
+      ]
+    }
+  ]
+}

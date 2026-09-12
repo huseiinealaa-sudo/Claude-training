@@ -1,0 +1,1369 @@
+{
+ "id": "unit-19",
+ "icon": "🎯",
+ "title": "القيادة والعمل الاحترافيّ",
+ "subtitle": "The causative: have / get something done",
+ "intro": "Professionals rarely say who did the work. They say the work got done. That is the causative — and it is the single grammar point that makes written English sound senior rather than junior.<span class=n-ar>المحترفون نادراً ما يقولون من أنجز العمل، بل يقولون إنّ العمل أُنجز. هذا هو البناء السببيّ، وهو النقطة النحويّة التي تجعل إنجليزيّتك تبدو قياديّةً لا مبتدئة.</span>",
+ "goals": [
+  "I can use have/get something done accurately",
+  "I can delegate, instruct and report progress in English",
+  "I can run and summarise a professional meeting",
+  "I can hear the causative inside fast workplace speech"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "The causative",
+   "subtitle": "have / get + object + past participle",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "The core pattern",
+     "html": "<b>have / get + object + past participle</b> — someone else does it for you.<br><br><code dir=ltr>I <b>had the report reviewed</b> before the meeting.</code><br>→ I didn't review it. Someone did, because I arranged it.<br><br>Compare the three:<br><code dir=ltr>I reviewed the report.</code> — me<br><code dir=ltr>I had the report reviewed.</code> — someone else, I arranged it<br><code dir=ltr>The report was reviewed.</code> — passive; nobody arranged anything<br><br>⚠️ The order is fixed: object <u>before</u> participle. <code dir=ltr>I had reviewed the report</code> is a past perfect — a completely different sentence.<span class=n-ar>الترتيب ثابت: المفعول قبل التصريف الثالث. وانتبه: I had reviewed the report ماضٍ تامّ ومعنىً مختلفٌ تماماً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "have vs get — the difference that matters",
+     "html": "<code dir=ltr><b>have</b> something done</code> — neutral, formal, standard business English<br><code dir=ltr><b>get</b> something done</code> — informal, and often implies effort or persuasion<br><br><code dir=ltr>We had the contract translated.</code> — we arranged it<br><code dir=ltr>We finally got the contract translated.</code> — it took work<br><br><code dir=ltr>get</code> also carries the meaning of <b>finishing</b>:<br><code dir=ltr>Let's get it done by Friday.</code> — the most common phrase in any office.<span class=n-ar>have محايدة ورسميّة، وget غير رسميّة وتوحي بجهدٍ أو إلحاح. وget it done أشهر عبارةٍ في أيّ مكتب.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The unpleasant causative",
+     "html": "The same structure describes things you did <u>not</u> want:<br><br><code dir=ltr>She <b>had her laptop stolen</b> at the airport.</code><br><code dir=ltr>He <b>had his proposal rejected</b> twice.</code><br><code dir=ltr>They <b>had their funding cut</b> in March.</code><br><br>Nobody arranged these. The structure simply says: this happened <u>to</u> them. Context tells you which meaning is intended — there is no separate grammar.<span class=n-ar>البناء نفسه يصف ما وقع عليك رغماً عنك. لا نحو مختلف — السياق وحده يفصل بين «رتّبتُ له» و«وقع عليّ».</span>"
+    },
+    {
+     "type": "note",
+     "title": "Naming the person: have someone do",
+     "html": "When you want to say <u>who</u>:<br><br><code dir=ltr>I <b>had the designer redo</b> the slides.</code> — have + person + <u>bare</u> infinitive<br><code dir=ltr>I <b>got the designer to redo</b> the slides.</code> — get + person + <u>to</u> infinitive<br><br>One takes <code dir=ltr>to</code>, the other doesn't. This trips up almost everyone.<br><br>And for a service: <code dir=ltr>I <b>had someone look at</b> it.</code> — vague on purpose, very common.<span class=n-ar>have + شخص + مصدرٌ مجرّد، وget + شخص + مصدرٌ بـto. فرقٌ دقيق يخطئ فيه الجميع تقريباً.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "We <b>had the figures checked</b> by an external auditor.",
+       "ar": "جعلنا مدقّقاً خارجيّاً يراجع الأرقام."
+      },
+      {
+       "en": "I need to <b>get this signed</b> before five.",
+       "ar": "أحتاج أن يُوقَّع هذا قبل الخامسة."
+      },
+      {
+       "en": "She <b>had her flight cancelled</b> twice in one week.",
+       "ar": "أُلغيت رحلتها مرّتين في أسبوعٍ واحد."
+      },
+      {
+       "en": "Let's <b>have the team walk</b> us through it.",
+       "ar": "لندع الفريق يشرحه لنا خطوةً خطوة."
+      },
+      {
+       "en": "I finally <b>got them to agree</b> on a deadline.",
+       "ar": "نجحتُ أخيراً في جعلهم يتّفقون على موعدٍ نهائيّ."
+      },
+      {
+       "en": "We're <b>having the office redesigned</b> next month.",
+       "ar": "سنجعلهم يعيدون تصميم المكتب الشهر القادم."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the causative hides inside contractions",
+     "rows": [
+      {
+       "w": "I had it done",
+       "s": "I-hadit dun",
+       "ar": "جعلتُ أحداً ينجزه"
+      },
+      {
+       "w": "Let's get it sorted",
+       "s": "Lets gedit sordid",
+       "ar": "لنحلّ الأمر"
+      },
+      {
+       "w": "I'll have it looked at",
+       "s": "I'll havit lukt-at",
+       "ar": "سأجعل أحداً يفحصه"
+      },
+      {
+       "w": "We got it approved",
+       "s": "We godit approovd",
+       "ar": "حصلنا على الموافقة"
+      },
+      {
+       "w": "Have him call me",
+       "s": "Hav-im call me",
+       "ar": "اجعله يتّصل بي"
+      },
+      {
+       "w": "Get them to confirm",
+       "s": "Geddem ta confirm",
+       "ar": "اجعلهم يؤكّدون"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We ___ the contract ___ by a lawyer.</code>",
+       "opts": [
+        "had / reviewed",
+        "had / review",
+        "have / reviewing",
+        "had reviewed /"
+       ],
+       "a": 0,
+       "why": "have + مفعول + تصريفٌ ثالث."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I had the designer ___ the logo.</code>",
+       "opts": [
+        "to change",
+        "change",
+        "changed",
+        "changing"
+       ],
+       "a": 1,
+       "why": "have + شخص + مصدرٌ مجرّد."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I got the designer ___ the logo.</code>",
+       "opts": [
+        "change",
+        "to change",
+        "changed",
+        "changing"
+       ],
+       "a": 1,
+       "why": "get + شخص + مصدرٌ بـto."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She had her proposal rejected</code> means",
+       "opts": [
+        "she rejected a proposal",
+        "someone rejected her proposal",
+        "she arranged a rejection",
+        "she withdrew it"
+       ],
+       "a": 1,
+       "why": "البناء السببيّ بمعنى ما وقع عليها."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>We need to ___ these slides translated by Thursday.</code>",
+       "a": [
+        "get",
+        "have"
+       ],
+       "why": "كلاهما صحيح؛ get أكثر إلحاحاً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I had reviewed the report by the auditor.</code>",
+       "a": [
+        "I had the report reviewed by the auditor"
+       ],
+       "why": "المفعول يسبق التصريف الثالث في البناء السببيّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "We're",
+        "having",
+        "the",
+        "system",
+        "upgraded",
+        "next",
+        "week"
+       ],
+       "a": "We're having the system upgraded next week",
+       "why": "مستمرّ + بناءٌ سببيّ."
+      },
+      {
+       "t": "dict",
+       "say": "I'll havit lukt-at t'marrow",
+       "a": [
+        "I'll have it looked at tomorrow",
+        "Ill have it looked at tomorrow"
+       ],
+       "why": "have it ← هافِت، وlooked at بالربط."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: leadership and the workplace",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Managing people",
+     "items": [
+      {
+       "w": "delegate",
+       "pos": "verb",
+       "ar": "يفوّض",
+       "ex": [
+        {
+         "en": "He never learned to <b>delegate</b> anything.",
+         "ar": "لم يتعلّم قطّ أن يفوّض شيئاً."
+        }
+       ]
+      },
+      {
+       "w": "accountable",
+       "pos": "adj",
+       "ar": "مسؤول ومحاسَب",
+       "ex": [
+        {
+         "en": "Someone has to be <b>accountable</b> for the delay.",
+         "ar": "لا بدّ أن يكون أحدٌ مسؤولاً عن التأخير."
+        }
+       ]
+      },
+      {
+       "w": "morale",
+       "pos": "noun",
+       "ar": "الروح المعنويّة",
+       "ex": [
+        {
+         "en": "<b>Morale</b> collapsed after the restructure.",
+         "ar": "انهارت الروح المعنويّة بعد إعادة الهيكلة."
+        }
+       ]
+      },
+      {
+       "w": "mentor",
+       "pos": "noun/verb",
+       "ar": "موجّه / يوجّه",
+       "ex": [
+        {
+         "en": "She <b>mentored</b> four junior analysts that year.",
+         "ar": "وجّهت أربعة محلّلين مبتدئين ذلك العام."
+        }
+       ]
+      },
+      {
+       "w": "turnover",
+       "pos": "noun",
+       "ar": "معدّل دوران الموظّفين",
+       "ex": [
+        {
+         "en": "Their <b>turnover</b> is double the industry average.",
+         "ar": "معدّل دورانهم ضعف متوسّط القطاع."
+        }
+       ]
+      },
+      {
+       "w": "onboarding",
+       "pos": "noun",
+       "ar": "إدماج الموظّف الجديد",
+       "ex": [
+        {
+         "en": "Good <b>onboarding</b> saves six months of confusion.",
+         "ar": "الإدماج الجيّد يوفّر ستّة أشهرٍ من الارتباك."
+        }
+       ]
+      },
+      {
+       "w": "appraisal",
+       "pos": "noun",
+       "ar": "تقييم أداء",
+       "ex": [
+        {
+         "en": "The annual <b>appraisal</b> is mostly theatre.",
+         "ar": "التقييم السنويّ مسرحيّة في معظمه."
+        }
+       ]
+      },
+      {
+       "w": "micromanage",
+       "pos": "verb",
+       "ar": "يتدخّل في كلّ تفصيل",
+       "ex": [
+        {
+         "en": "Nobody grows under a manager who <b>micromanages</b>.",
+         "ar": "لا ينمو أحدٌ تحت مديرٍ يتدخّل في كلّ تفصيل."
+        }
+       ]
+      },
+      {
+       "w": "empower",
+       "pos": "verb",
+       "ar": "يمكّن / يمنح صلاحيّة",
+       "ex": [
+        {
+         "en": "You have to <b>empower</b> people to say no.",
+         "ar": "عليك أن تمكّن الناس من قول لا."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Projects and process",
+     "items": [
+      {
+       "w": "deliverable",
+       "pos": "noun",
+       "ar": "مُخرَج مطلوب",
+       "ex": [
+        {
+         "en": "The first <b>deliverable</b> is due on the fifteenth.",
+         "ar": "المُخرَج الأوّل مستحقٌّ في الخامس عشر."
+        }
+       ]
+      },
+      {
+       "w": "milestone",
+       "pos": "noun",
+       "ar": "محطّة رئيسة",
+       "ex": [
+        {
+         "en": "We missed the second <b>milestone</b> by a week.",
+         "ar": "فوّتنا المحطّة الثانية بأسبوع."
+        }
+       ]
+      },
+      {
+       "w": "bottleneck",
+       "pos": "noun",
+       "ar": "عنق زجاجة",
+       "ex": [
+        {
+         "en": "Approval is the <b>bottleneck</b>, not the coding.",
+         "ar": "الموافقة هي عنق الزجاجة لا البرمجة."
+        }
+       ]
+      },
+      {
+       "w": "scope",
+       "pos": "noun",
+       "ar": "نطاق المشروع",
+       "ex": [
+        {
+         "en": "The <b>scope</b> doubled without the budget moving.",
+         "ar": "تضاعف النطاق دون أن تتحرّك الميزانيّة."
+        }
+       ]
+      },
+      {
+       "w": "sign off on",
+       "pos": "verb",
+       "ar": "يعتمد رسميّاً",
+       "ex": [
+        {
+         "en": "Legal has to <b>sign off on</b> it first.",
+         "ar": "على القسم القانونيّ اعتماده أوّلاً."
+        }
+       ]
+      },
+      {
+       "w": "escalate",
+       "pos": "verb",
+       "ar": "يرفع الأمر لمستوى أعلى",
+       "ex": [
+        {
+         "en": "If it stalls again, <b>escalate</b> it.",
+         "ar": "إن تعطّل ثانيةً فارفعه لمستوى أعلى."
+        }
+       ]
+      },
+      {
+       "w": "streamline",
+       "pos": "verb",
+       "ar": "يبسّط ويسرّع",
+       "ex": [
+        {
+         "en": "We <b>streamlined</b> the process from nine steps to four.",
+         "ar": "بسّطنا العمليّة من تسع خطواتٍ إلى أربع."
+        }
+       ]
+      },
+      {
+       "w": "contingency",
+       "pos": "noun",
+       "ar": "خطّة بديلة / احتياط",
+       "ex": [
+        {
+         "en": "There was no <b>contingency</b> for a supplier failing.",
+         "ar": "لم تكن هناك خطّة بديلة لإخفاق مورّد."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Meetings and decisions",
+     "items": [
+      {
+       "w": "agenda",
+       "pos": "noun",
+       "ar": "جدول أعمال",
+       "ex": [
+        {
+         "en": "Send the <b>agenda</b> a day in advance, always.",
+         "ar": "أرسل جدول الأعمال قبل يومٍ دائماً."
+        }
+       ]
+      },
+      {
+       "w": "action item",
+       "pos": "noun",
+       "ar": "بند تنفيذيّ",
+       "ex": [
+        {
+         "en": "Every <b>action item</b> needs a name next to it.",
+         "ar": "كلّ بندٍ تنفيذيّ يحتاج اسماً بجانبه."
+        }
+       ]
+      },
+      {
+       "w": "consensus",
+       "pos": "noun",
+       "ar": "توافق",
+       "ex": [
+        {
+         "en": "We reached a <b>consensus</b> in forty minutes.",
+         "ar": "بلغنا توافقاً في أربعين دقيقة."
+        }
+       ]
+      },
+      {
+       "w": "pushback",
+       "pos": "noun",
+       "ar": "اعتراض / مقاومة",
+       "ex": [
+        {
+         "en": "Expect <b>pushback</b> from the finance team.",
+         "ar": "توقّع اعتراضاً من فريق الماليّة."
+        }
+       ]
+      },
+      {
+       "w": "take the lead",
+       "pos": "phrase",
+       "ar": "يتولّى القيادة",
+       "ex": [
+        {
+         "en": "Would you <b>take the lead</b> on this one?",
+         "ar": "هل تتولّى قيادة هذا الملفّ؟"
+        }
+       ]
+      },
+      {
+       "w": "circle back",
+       "pos": "verb",
+       "ar": "يعود للموضوع لاحقاً",
+       "ex": [
+        {
+         "en": "Let's <b>circle back</b> to that on Thursday.",
+         "ar": "لنعد إلى ذلك يوم الخميس."
+        }
+       ]
+      },
+      {
+       "w": "touch base",
+       "pos": "phrase",
+       "ar": "يتواصل تواصلاً سريعاً",
+       "ex": [
+        {
+         "en": "I'll <b>touch base</b> with them before noon.",
+         "ar": "سأتواصل معهم سريعاً قبل الظهر."
+        }
+       ]
+      },
+      {
+       "w": "in the weeds",
+       "pos": "phrase",
+       "ar": "غارق في التفاصيل",
+       "ex": [
+        {
+         "en": "We're <b>in the weeds</b> — let's zoom out.",
+         "ar": "غرقنا في التفاصيل — لنعد إلى الصورة الكبرى."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: a project that slipped",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "A team lead and her manager review a late project. Count the causatives — almost nothing in this conversation is done by the speakers themselves.<span class=n-ar>قائدة فريقٍ ومديرها يراجعان مشروعاً متأخّراً. أحصِ البناءات السببيّة: لا يكاد المتحدّثان ينجزان شيئاً بأنفسهما.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "We Had It Reviewed Twice",
+     "titleAr": "جعلناهم يراجعونه مرّتين",
+     "lines": [
+      {
+       "sp": "Maya",
+       "en": "The second milestone slipped. I want to be straight with you about why.",
+       "ar": "تأخّرت المحطّة الثانية. أريد أن أصارحك بالسبب."
+      },
+      {
+       "sp": "Tarek",
+       "en": "Go ahead.",
+       "ar": "تفضّلي."
+      },
+      {
+       "sp": "Maya",
+       "en": "We had the spec reviewed twice, and both reviews came back clean.",
+       "ar": "جعلنا الجهة المختصّة تراجع المواصفة مرّتين، وعادت المراجعتان بلا ملاحظات."
+      },
+      {
+       "sp": "Tarek",
+       "en": "So the bottleneck wasn't the spec.",
+       "ar": "إذن لم تكن المواصفة عنق الزجاجة."
+      },
+      {
+       "sp": "Maya",
+       "en": "No. It was approval. We couldn't get legal to sign off on the data clause.",
+       "ar": "لا. كانت الموافقة. لم نستطع أن نجعل القسم القانونيّ يعتمد بند البيانات."
+      },
+      {
+       "sp": "Tarek",
+       "en": "How long did that sit?",
+       "ar": "كم بقي الأمر معلّقاً؟"
+      },
+      {
+       "sp": "Maya",
+       "en": "Eleven days. I should have escalated it on day three.",
+       "ar": "أحد عشر يوماً. كان عليّ أن أرفعه في اليوم الثالث."
+      },
+      {
+       "sp": "Tarek",
+       "en": "You should. But I'd rather hear it now than in the appraisal.",
+       "ar": "كان عليكِ ذلك. لكنّي أفضّل سماعه الآن لا في تقييم الأداء."
+      },
+      {
+       "sp": "Maya",
+       "en": "There's more. We had two people pulled onto the migration without warning.",
+       "ar": "وهناك المزيد. سُحب اثنان من فريقنا إلى مشروع الترحيل دون إنذار."
+      },
+      {
+       "sp": "Tarek",
+       "en": "That one's mine. I approved it and didn't tell you.",
+       "ar": "هذه مسؤوليّتي أنا. وافقتُ عليه ولم أخبرك."
+      },
+      {
+       "sp": "Maya",
+       "en": "Then let's put a rule around it. No reallocation without a conversation.",
+       "ar": "إذن لنضع قاعدةً لذلك: لا إعادة تخصيصٍ دون محادثة."
+      },
+      {
+       "sp": "Tarek",
+       "en": "Agreed. What do you need to get the third milestone done on time?",
+       "ar": "موافق. ما الذي تحتاجينه لإنجاز المحطّة الثالثة في موعدها؟"
+      },
+      {
+       "sp": "Maya",
+       "en": "Two things. Get the clause pre-approved, and let me have the contractor extended by a month.",
+       "ar": "أمران. اجعل البند يُعتمد مسبقاً، ودعني أُمدّد عقد المتعاقد شهراً."
+      },
+      {
+       "sp": "Tarek",
+       "en": "Done on both. Put it in writing and I'll sign it this afternoon.",
+       "ar": "موافقٌ على الاثنين. اكتبيه وسأوقّعه بعد الظهر."
+      },
+      {
+       "sp": "Maya",
+       "en": "That's all I wanted. Thank you for not making it about blame.",
+       "ar": "هذا كلّ ما أردته. شكراً لأنّك لم تجعل الأمر عن اللوم."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "What actually delayed the project?",
+       "opts": [
+        "The specification",
+        "Legal approval",
+        "The contractor",
+        "Bad code"
+       ],
+       "a": 1,
+       "why": "«كانت الموافقة» — بند البيانات."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We had the spec reviewed twice</code> means",
+       "opts": [
+        "Maya reviewed it twice",
+        "someone else reviewed it, arranged by the team",
+        "it was never reviewed",
+        "the review failed"
+       ],
+       "a": 1,
+       "why": "بناءٌ سببيّ: غيرهم راجعها بترتيبٍ منهم."
+      },
+      {
+       "t": "mcq",
+       "q": "Maya's admitted mistake was",
+       "opts": [
+        "writing a bad spec",
+        "not escalating soon enough",
+        "hiring a contractor",
+        "missing a meeting"
+       ],
+       "a": 1,
+       "why": "«كان عليّ أن أرفعه في اليوم الثالث»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We had two people pulled onto the migration</code> is the causative meaning",
+       "opts": [
+        "they arranged it",
+        "it happened to them",
+        "they refused it",
+        "they volunteered"
+       ],
+       "a": 1,
+       "why": "بناءٌ سببيّ بمعنى ما وقع عليهم رغماً عنهم."
+      },
+      {
+       "t": "mcq",
+       "q": "Tarek's response to his own error is to",
+       "opts": [
+        "deny it",
+        "own it immediately",
+        "blame legal",
+        "postpone it"
+       ],
+       "a": 1,
+       "why": "«هذه مسؤوليّتي أنا»."
+      },
+      {
+       "t": "mcq",
+       "q": "The tone of the conversation is best described as",
+       "opts": [
+        "hostile",
+        "evasive",
+        "direct without blame",
+        "formal and cold"
+       ],
+       "a": 2,
+       "why": "مصارحةٌ بلا لوم، وتنتهي بقرارين."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "We hadit reviewd twyce",
+       "a": [
+        "We had it reviewed twice"
+       ],
+       "why": "had it ← هادِت بالربط."
+      },
+      {
+       "t": "dict",
+       "say": "We couldn geddem ta sign off",
+       "a": [
+        "We couldn't get them to sign off",
+        "We couldnt get them to sign off"
+       ],
+       "why": "get them ← جيدِم، وto ← تَ."
+      },
+      {
+       "t": "dict",
+       "say": "I shuda escalayded it on day three",
+       "a": [
+        "I should have escalated it on day three",
+        "I shouldve escalated it on day three"
+       ],
+       "why": "should have ← شودَه، وescalated ← flap T."
+      },
+      {
+       "t": "dict",
+       "say": "Wut d'ya need ta gedit dun on time?",
+       "a": [
+        "What do you need to get it done on time?",
+        "What do you need to get it done on time"
+       ],
+       "why": "do you ← دْيَ، وget it ← جيدِت."
+      },
+      {
+       "t": "dict",
+       "say": "Led me hav the contractor extended",
+       "a": [
+        "Let me have the contractor extended"
+       ],
+       "why": "let me ← ليدمي بـflap T."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: the manager who did everything",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Manager Who Did Everything",
+     "titleAr": "المدير الذي كان يفعل كلّ شيء",
+     "en": "The most dangerous manager in any organisation is not the lazy one. It is the one who is excellent at the job below theirs. They write the code, fix the deck, rewrite the email, and every one of those tasks is done slightly better than the person who owns it would have done it. The work improves. The team stops growing.<br><br>Research on delegation has found the same pattern repeatedly. Teams whose managers <b>had the work done</b> by others, and then reviewed it, outperformed teams whose managers simply did the work — not immediately, but within about nine months. The first group looked slower at the start. It was not slower; it was building capacity while the second group was spending it.<br><br>The reason this mistake survives is that it feels like generosity. Taking a task off a tired colleague at eleven at night is genuinely kind. Doing it every week teaches them that their version will always be replaced, and eventually they stop trying to make it good.<br><br>The uncomfortable rule is that a manager's output is not what they produce. It is what their team can produce without them in the room. Anything that <b>gets done</b> only when you are present is not a system. It is a dependency, and it will fail on the first week you are ill.",
+     "ar": "أخطر مديرٍ في أيّ مؤسّسة ليس الكسول، بل البارع في الوظيفة التي تحته. فهو يكتب الشفرة، ويصلح العرض، ويعيد صياغة الرسالة، وكلّ مهمّةٍ من تلك تُنجَز أفضل قليلاً ممّا كان سيُنجزها صاحبها. يتحسّن العمل، ويتوقّف الفريق عن النموّ.<br><br>وقد وجدت الأبحاث في التفويض النمط نفسه مراراً. فالفرق التي جعل مديروها غيرهم ينجز العمل ثمّ راجعوه تفوّقت على الفرق التي أنجز مديروها العمل بأنفسهم — لا فوراً، بل خلال تسعة أشهرٍ تقريباً. بدت المجموعة الأولى أبطأ في البداية. ولم تكن أبطأ، بل كانت تبني قدرةً بينما كانت الثانية تستهلكها.<br><br>وسبب بقاء هذا الخطأ أنّه يبدو كرماً. فأخذ مهمّةٍ من زميلٍ منهَك في الحادية عشرة ليلاً لطفٌ حقيقيّ. لكنّ فعله كلّ أسبوعٍ يعلّمه أنّ نسخته ستُستبدَل دائماً، وينتهي به الأمر إلى التوقّف عن محاولة إتقانها.<br><br>والقاعدة غير المريحة أنّ ناتج المدير ليس ما يُنتجه هو، بل ما يستطيع فريقه إنتاجه وهو خارج الغرفة. وكلّ ما لا يُنجَز إلّا بحضورك ليس نظاماً، بل اعتماديّة، وستنهار في أوّل أسبوعٍ تمرض فيه.",
+     "keys": [
+      [
+       "the job below theirs",
+       "الوظيفة التي تحتهم"
+      ],
+      [
+       "building capacity",
+       "بناء القدرة"
+      ],
+      [
+       "spending it",
+       "استهلاكها"
+      ],
+      [
+       "feels like generosity",
+       "يبدو كرماً"
+      ],
+      [
+       "a dependency",
+       "اعتماديّة"
+      ],
+      [
+       "without them in the room",
+       "دون حضورهم"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "The manager the writer calls most dangerous is",
+       "opts": [
+        "the lazy one",
+        "the one excellent at their team's job",
+        "the new one",
+        "the absent one"
+       ],
+       "a": 1,
+       "why": "الجملة الافتتاحيّة للنصّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>managers who had the work done by others</code> means those managers",
+       "opts": [
+        "did it themselves",
+        "arranged for their team to do it",
+        "cancelled the work",
+        "outsourced it abroad"
+       ],
+       "a": 1,
+       "why": "بناءٌ سببيّ: جعلوا غيرهم ينجزه."
+      },
+      {
+       "t": "mcq",
+       "q": "The delegating teams performed better",
+       "opts": [
+        "immediately",
+        "after about nine months",
+        "never",
+        "only in surveys"
+       ],
+       "a": 1,
+       "why": "«خلال تسعة أشهرٍ تقريباً»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>building capacity while the second group was spending it</code> contrasts",
+       "opts": [
+        "cost and revenue",
+        "investment and consumption",
+        "speed and quality",
+        "hiring and firing"
+       ],
+       "a": 1,
+       "why": "استثمارٌ في القدرة مقابل استهلاكها."
+      },
+      {
+       "t": "mcq",
+       "q": "Why does the writer say the mistake survives?",
+       "opts": [
+        "It is profitable",
+        "It feels like kindness",
+        "It is required by law",
+        "Nobody notices it"
+       ],
+       "a": 1,
+       "why": "«يبدو كرماً»."
+      },
+      {
+       "t": "mcq",
+       "q": "The final sentence warns that a dependency",
+       "opts": [
+        "saves money",
+        "collapses when you are absent",
+        "improves morale",
+        "speeds things up"
+       ],
+       "a": 1,
+       "why": "«ستنهار في أوّل أسبوعٍ تمرض فيه»."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "office phrases run together into one word",
+     "rows": [
+      {
+       "w": "Let me know",
+       "s": "Lemme know",
+       "ar": "أعلمني"
+      },
+      {
+       "w": "I'll take care of it",
+       "s": "I'll tayk care ovit",
+       "ar": "سأتولّى الأمر"
+      },
+      {
+       "w": "Can you send it over?",
+       "s": "Knya send-it over?",
+       "ar": "أيمكنك إرساله؟"
+      },
+      {
+       "w": "Where are we on this?",
+       "s": "Where-uh-we on this?",
+       "ar": "أين وصلنا في هذا؟"
+      },
+      {
+       "w": "I'll loop you in",
+       "s": "I'll loop ya in",
+       "ar": "سأُشركك في المراسلة"
+      },
+      {
+       "w": "It's on my plate",
+       "s": "Its on my playt",
+       "ar": "الأمر على عاتقي"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Delegating, pushing back and reporting progress",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Delegating without sounding like an order",
+     "html": "Direct: <code dir=ltr>Do this by Friday.</code> — rarely used between peers<br>Standard: <code dir=ltr>Could you take the lead on this?</code><br>Softer: <code dir=ltr>Would you be able to pick this up?</code><br>Softest: <code dir=ltr>Is this something you'd have capacity for?</code><br>Handing over fully: <code dir=ltr>I'd like you to own this end to end.</code><br><br>⚠️ <code dir=ltr>own</code> as a verb is everywhere in modern business English: <code dir=ltr>Who owns this?</code> = who is responsible.<span class=n-ar>own فعلاً تعني «يتحمّل مسؤوليّة» في لغة الأعمال الحديثة: Who owns this؟ أي من المسؤول؟</span>"
+    },
+    {
+     "type": "note",
+     "title": "Disagreeing with your manager, safely",
+     "html": "<code dir=ltr>I see it slightly differently.</code> — the standard opener<br><code dir=ltr>Can I offer a different read on that?</code><br><code dir=ltr>My concern would be that …</code> — raises a risk without refusing<br><code dir=ltr>I'm happy to do it — I just want to flag the trade-off.</code><br><code dir=ltr>Help me understand the reasoning.</code> — asks without challenging<br><br>Never: <code dir=ltr>That's wrong.</code> / <code dir=ltr>I don't agree.</code> as an opener. English softens the first move, then gets firm.<span class=n-ar>الإنجليزية تليّن الخطوة الأولى ثمّ تشتدّ. لا تبدأ أبداً بـ«هذا خطأ» أو «لا أوافق».</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>I did my homework to the teacher</code> → ✅ <code dir=ltr>I had my homework checked</code><br>❌ <code dir=ltr>I will do it done</code> → ✅ <code dir=ltr>I'll get it done</code><br>❌ <code dir=ltr>Please do the needful</code> → ✅ <code dir=ltr>Please take care of it</code><br>❌ <code dir=ltr>Kindly revert back to me</code> → ✅ <code dir=ltr>Please get back to me</code><br>❌ <code dir=ltr>I am agree with you</code> → ✅ <code dir=ltr>I agree with you</code><br>❌ <code dir=ltr>We discussed about the deadline</code> → ✅ <code dir=ltr>We discussed the deadline</code><br>❌ <code dir=ltr>Explain me the process</code> → ✅ <code dir=ltr>Explain the process to me</code><br><br><code dir=ltr>do the needful</code> and <code dir=ltr>revert back</code> are understood but mark you instantly as a non-native writer.<span class=n-ar>«do the needful» و«revert back» مفهومتان لكنّهما تكشفان فوراً أنّك لست ناطقاً أصليّاً. وexplain تحتاج to me.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: business words",
+     "hint": "noun and verb often move the stress",
+     "rows": [
+      {
+       "w": "PRO·ject (n) / pro·JECT (v)",
+       "s": "PRAH-jekt / pruh-JEKT",
+       "ar": "الاسم على الأوّل والفعل على الثاني"
+      },
+      {
+       "w": "IN·crease (n) / in·CREASE (v)",
+       "s": "IN-krees / in-KREES",
+       "ar": "القاعدة نفسها"
+      },
+      {
+       "w": "de·LEG·ate (v) / DEL·e·gate (n)",
+       "s": "DEL-uh-gayt / DEL-uh-git",
+       "ar": "الفعل ينتهي بـgayt والاسم بـgit"
+      },
+      {
+       "w": "col·LEAGUE",
+       "s": "KOL-eeg",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "ex·EC·u·tive",
+       "s": "ig-ZEK-yuh-tiv",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "sched·ule",
+       "s": "SKEJ-ool",
+       "ar": "أمريكيّاً سكيجول لا شيدول"
+      },
+      {
+       "w": "mo·RALE",
+       "s": "muh-RAL",
+       "ar": "لا تخلطها بـMORal"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "meeting language, at natural speed",
+     "rows": [
+      {
+       "w": "Let's circle back on that",
+       "s": "Lets circle back on that",
+       "ar": "لنعد إلى ذلك لاحقاً"
+      },
+      {
+       "w": "I'll touch base with them",
+       "s": "I'll tuch base with-em",
+       "ar": "سأتواصل معهم"
+      },
+      {
+       "w": "We're getting in the weeds",
+       "s": "We're geddin in the weeds",
+       "ar": "نغرق في التفاصيل"
+      },
+      {
+       "w": "Who owns this?",
+       "s": "Hoo ownz this?",
+       "ar": "من المسؤول عن هذا؟"
+      },
+      {
+       "w": "Let's park that for now",
+       "s": "Lets park that fer now",
+       "ar": "لنؤجّل ذلك مؤقّتاً"
+      },
+      {
+       "w": "What's the ask?",
+       "s": "Wuts the ask?",
+       "ar": "ما المطلوب بالضبط؟"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Kindly revert back to me by Friday.</code>",
+       "a": [
+        "Please get back to me by Friday",
+        "Could you get back to me by Friday"
+       ],
+       "why": "صيغةٌ طبيعيّة في الإنجليزيّة المهنيّة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am agree with your plan.</code>",
+       "a": [
+        "I agree with your plan"
+       ],
+       "why": "agree فعلٌ تامّ لا صفة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Can you explain me the process?</code>",
+       "a": [
+        "Can you explain the process to me?",
+        "Can you explain the process to me"
+       ],
+       "why": "explain something to someone."
+      },
+      {
+       "t": "mcq",
+       "q": "The safest way to open a disagreement with your manager is",
+       "opts": [
+        "That's wrong.",
+        "I don't agree.",
+        "I see it slightly differently.",
+        "You didn't understand."
+       ],
+       "a": 2,
+       "why": "تليين الخطوة الأولى."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Who owns this?</code> in a meeting means",
+       "opts": [
+        "who paid for it",
+        "who is responsible for it",
+        "who wrote it",
+        "who invented it"
+       ],
+       "a": 1,
+       "why": "own = يتحمّل المسؤوليّة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>My ___ would be that we'd miss the milestone.</code>",
+       "a": [
+        "concern"
+       ],
+       "why": "صيغة إبداء قلقٍ دون رفض."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: a professional progress update",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Write a progress update to a manager about a project that has slipped, in <b>130–150 words</b>. It must include:<br><br>• two causatives (<code dir=ltr>have / get something done</code>)<br>• one <code dir=ltr>get someone to do</code><br>• one sentence taking responsibility without excuses<br>• one clear ask with a deadline<br>• at least four words from this unit<span class=n-ar>اكتب تحديثاً مهنيّاً لمديرك عن مشروعٍ تأخّر، في ١٣٠–١٥٠ كلمة، ببناءين سببيّين، وget someone to do، وجملةٍ تتحمّل فيها المسؤوليّة بلا أعذار، وطلبٍ واضحٍ بموعد، وأربع كلماتٍ من الوحدة.</span>",
+     "phrases": [
+      "Quick update on …",
+      "We had the … reviewed / checked / approved …",
+      "The bottleneck turned out to be …",
+      "I should have escalated this sooner.",
+      "I couldn't get … to sign off on …",
+      "What I need from you is …",
+      "I'll circle back on Thursday with …"
+     ],
+     "model": "Quick update on the migration.\n\nThe second milestone has slipped by nine days. We had the schema reviewed by the platform team and had the test data regenerated, and both came back clean, so the delay is not technical.\n\nThe bottleneck turned out to be sign-off. I couldn't get security to approve the access model, and it sat in their queue for two weeks. I should have escalated this on day three rather than waiting for a response. That one is on me.\n\nWhat I need from you is a single decision: either we get the access model pre-approved for the remaining phases, or we reduce the scope and drop the audit log. I'd recommend the first.\n\nI'll circle back on Thursday with a revised plan and a contingency for the supplier. No action needed before then.",
+     "modelAr": "تحديثٌ سريع عن مشروع الترحيل.\n\nتأخّرت المحطّة الثانية تسعة أيّام. جعلنا فريق المنصّة يراجع المخطّط، وجعلنا بيانات الاختبار تُولَّد من جديد، وعاد الأمران بلا ملاحظات، فالتأخير إذن ليس تقنيّاً.\n\nتبيّن أنّ عنق الزجاجة هو الاعتماد. لم أستطع أن أجعل فريق الأمن يوافق على نموذج الوصول، فبقي في طابورهم أسبوعين. وكان عليّ أن أرفع الأمر في اليوم الثالث بدل انتظار الردّ. هذه مسؤوليّتي أنا.\n\nوما أحتاجه منك قرارٌ واحد: إمّا أن نجعل نموذج الوصول يُعتمد مسبقاً لبقيّة المراحل، وإمّا أن نقلّص النطاق ونُسقط سجلّ التدقيق. وأوصي بالأوّل.\n\nسأعود إليك الخميس بخطّةٍ منقّحة وخطّةٍ بديلة للمورّد. ولا حاجة إلى أيّ إجراءٍ قبل ذلك.",
+     "checklist": [
+      "I used 'have/get + object + past participle' at least twice",
+      "I used 'get someone to do' once, with 'to'",
+      "My object came before the participle (not 'I had reviewed the spec')",
+      "I took responsibility in one clear sentence, with no excuse attached",
+      "I made one specific ask with a date",
+      "I used at least four unit words (milestone, bottleneck, escalate, scope …)",
+      "I did not write 'revert back' or 'do the needful'",
+      "I closed with what happens next",
+      "130–150 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the sounds of an update being given",
+     "rows": [
+      {
+       "w": "Quick update on that",
+       "s": "Kwik update on that",
+       "ar": "تحديثٌ سريع عن ذلك"
+      },
+      {
+       "w": "It's slipped a bit",
+       "s": "Its slipt a bit",
+       "ar": "تأخّر قليلاً"
+      },
+      {
+       "w": "That one's on me",
+       "s": "That wunz on me",
+       "ar": "هذه مسؤوليّتي"
+      },
+      {
+       "w": "Where do we stand?",
+       "s": "Where d'we stand?",
+       "ar": "أين نقف الآن؟"
+      },
+      {
+       "w": "No action needed",
+       "s": "No akshun needid",
+       "ar": "لا إجراء مطلوباً"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ١٩",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We ___ the figures checked by an auditor.</code>",
+       "opts": [
+        "have",
+        "have been",
+        "having",
+        "had been"
+       ],
+       "a": 0,
+       "why": "have + مفعول + تصريفٌ ثالث."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I had the team ___ the deck before noon.</code>",
+       "opts": [
+        "to finish",
+        "finish",
+        "finished",
+        "finishing"
+       ],
+       "a": 1,
+       "why": "have + شخص + مصدرٌ مجرّد."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I got the team ___ the deck before noon.</code>",
+       "opts": [
+        "finish",
+        "to finish",
+        "finished",
+        "finishing"
+       ],
+       "a": 1,
+       "why": "get + شخص + مصدرٌ بـto."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>He had his funding cut</code> means",
+       "opts": [
+        "he cut the funding",
+        "someone cut his funding",
+        "he arranged the cut",
+        "he refused funding"
+       ],
+       "a": 1,
+       "why": "بناءٌ سببيّ بمعنى ما وقع عليه."
+      },
+      {
+       "t": "mcq",
+       "q": "The point in a process where everything slows down is the",
+       "opts": [
+        "milestone",
+        "bottleneck",
+        "deliverable",
+        "appraisal"
+       ],
+       "a": 1,
+       "why": "عنق الزجاجة."
+      },
+      {
+       "t": "mcq",
+       "q": "To raise an issue to a higher level is to",
+       "opts": [
+        "streamline it",
+        "escalate it",
+        "delegate it",
+        "park it"
+       ],
+       "a": 1,
+       "why": "يرفع الأمر لمستوى أعلى."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We're in the weeds</code> means we are",
+       "opts": [
+        "lost in detail",
+        "ahead of schedule",
+        "out of budget",
+        "on holiday"
+       ],
+       "a": 0,
+       "why": "غارقون في التفاصيل."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>I need to ___ this signed before five.</code>",
+       "a": [
+        "get",
+        "have"
+       ],
+       "why": "بناءٌ سببيّ؛ get أكثر إلحاحاً."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Legal has to sign ___ on it first.</code>",
+       "a": [
+        "off"
+       ],
+       "why": "sign off on ← يعتمد رسميّاً."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>We finally got them ___ agree on a date.</code>",
+       "a": [
+        "to"
+       ],
+       "why": "get + شخص + to."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I had translated the contract by a specialist.</code>",
+       "a": [
+        "I had the contract translated by a specialist"
+       ],
+       "why": "المفعول قبل التصريف الثالث."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Kindly revert back to me tomorrow.</code>",
+       "a": [
+        "Please get back to me tomorrow",
+        "Could you get back to me tomorrow"
+       ],
+       "why": "«revert back» ليست إنجليزيّةً طبيعيّة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am agree with the new scope.</code>",
+       "a": [
+        "I agree with the new scope"
+       ],
+       "why": "agree فعل."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Please explain me the bottleneck.</code>",
+       "a": [
+        "Please explain the bottleneck to me"
+       ],
+       "why": "explain … to someone."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "We're",
+        "having",
+        "the",
+        "office",
+        "redesigned",
+        "in",
+        "March"
+       ],
+       "a": "We're having the office redesigned in March",
+       "why": "بناءٌ سببيّ في المستمرّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "She",
+        "had",
+        "her",
+        "laptop",
+        "stolen",
+        "at",
+        "the",
+        "airport"
+       ],
+       "a": "She had her laptop stolen at the airport",
+       "why": "بناءٌ سببيّ لما وقع عليها."
+      },
+      {
+       "t": "dict",
+       "say": "Lets gedit sordid this week",
+       "a": [
+        "Let's get it sorted this week",
+        "Lets get it sorted this week"
+       ],
+       "why": "get it ← جيدِت، وsorted ← flap T."
+      },
+      {
+       "t": "dict",
+       "say": "I'll havit lukt-at befor noon",
+       "a": [
+        "I'll have it looked at before noon",
+        "Ill have it looked at before noon"
+       ],
+       "why": "have it ← هافِت بالربط."
+      },
+      {
+       "t": "dict",
+       "say": "Geddem ta confirm by Fryday",
+       "a": [
+        "Get them to confirm by Friday"
+       ],
+       "why": "get them ← جيدِم، وto ← تَ."
+      },
+      {
+       "t": "mcq",
+       "q": "Which sentence is the most professional way to disagree?",
+       "opts": [
+        "That's wrong.",
+        "I don't agree at all.",
+        "My concern would be that we'd miss the milestone.",
+        "You didn't understand the scope."
+       ],
+       "a": 2,
+       "why": "يرفع خطراً دون رفضٍ مباشر."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "مسلسل مكتبيّ أمريكيّ",
+       "d": "ابحث عن «Succession» أو «The Office» — لغة اجتماعاتٍ حقيقيّة",
+       "task": "سجّل عشر عباراتٍ مكتبيّة سمعتها لأوّل مرّة."
+      },
+      {
+       "t": "بودكاست إداريّ",
+       "d": "ابحث عن «WorkLife with Adam Grant» أو «HBR IdeaCast»",
+       "task": "استمع حلقةً، واكتب ملخّصاً في ستّ جملٍ بأسلوب تحديث العمل."
+      },
+      {
+       "t": "يوتيوب: عروض تقديميّة",
+       "d": "ابحث عن كلمات TED قصيرة عن القيادة",
+       "task": "احصِ استعمالات have/get something done."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "أعد نطق «gedit dun / hadit reviewd / geddem ta» حتّى تصير تلقائيّة."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

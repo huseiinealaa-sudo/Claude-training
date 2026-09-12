@@ -1,0 +1,372 @@
+{
+  "id": "unit-02",
+  "icon": "🕰️",
+  "title": "الذكريات والسرد",
+  "subtitle": "أن تحكي ما جرى لك حكايةً مترابطة",
+  "intro": "الحكاية عمود المحادثة: ما فعلتَ أمس، ما حدث في الرحلة، كيف تعرّفتَ على صديقك. وهي تحتاج زمنَين يعملان معاً — الماضي البسيط يحمل الأحداث، والماضي المستمرّ يرسم الخلفيّة التي جرت فيها.",
+  "goals": [
+    "أحكي قصّةً من ماضيَّ بترتيبٍ واضح",
+    "أصف الخلفيّة والحدث المفاجئ معاً",
+    "أستعمل روابط السرد (then · while · suddenly)",
+    "أسأل عن تجربة شخصٍ وأتفاعل مع حكايته"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "الماضي البسيط والمستمرّ",
+      "subtitle": "الحدث والخلفيّة",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الفكرة في صورة",
+          "html": "تخيّل مشهداً في فيلم:<br><br><b>الماضي المستمرّ</b> = المشهد الطويل الذي يجري (المطر ينزل، الناس يمشون).<br><b>الماضي البسيط</b> = الحدث المفاجئ الذي يقطعه (رنّ الهاتف).<br><br><code dir=ltr>I <b>was walking</b> home when the phone <b>rang</b>.</code><br>كنت أمشي عائداً (خلفيّة) فرنّ الهاتف (حدث)."
+        },
+        {
+          "type": "note",
+          "title": "ثلاث وظائف للماضي المستمرّ",
+          "html": "<b>١. خلفيّة يقطعها حدث:</b><br><code dir=ltr>She <b>was cooking</b> when I <b>arrived</b>.</code><br><br><b>٢. حدثان متوازيان:</b><br><code dir=ltr>I <b>was reading</b> while he <b>was playing</b>.</code><br><br><b>٣. وصف الجوّ في بداية القصّة:</b><br><code dir=ltr>It <b>was raining</b> and the streets <b>were</b> empty.</code>"
+        },
+        {
+          "type": "note",
+          "title": "خطأ عربيّ شائع",
+          "html": "العربية تقول «كنتُ أمشي» و«مشيتُ» بوضوح، لكنّ المتعلّم يخلط حين يترجم:<br><br>❌ <code dir=ltr>Yesterday I was going to the market and I was buying bread.</code><br>✅ <code dir=ltr>Yesterday I went to the market and bought bread.</code><br><br><b>القاعدة:</b> إن كانت الأحداث <u>متتابعة ومكتملة</u> فكلّها ماضٍ بسيط. لا تستعمل المستمرّ إلّا حين تريد <u>خلفيّةً</u> أو <u>حدثاً لم يكتمل</u>."
+        },
+        {
+          "type": "note",
+          "title": "الأفعال الشاذّة — لا مفرّ من حفظها",
+          "html": "<table><tr><td dir=ltr>go → <b>went</b></td><td>ذهب</td></tr><tr><td dir=ltr>see → <b>saw</b></td><td>رأى</td></tr><tr><td dir=ltr>take → <b>took</b></td><td>أخذ</td></tr><tr><td dir=ltr>buy → <b>bought</b></td><td>اشترى</td></tr><tr><td dir=ltr>bring → <b>brought</b></td><td>أحضر</td></tr><tr><td dir=ltr>think → <b>thought</b></td><td>ظنّ</td></tr><tr><td dir=ltr>leave → <b>left</b></td><td>غادر</td></tr><tr><td dir=ltr>meet → <b>met</b></td><td>قابل</td></tr><tr><td dir=ltr>begin → <b>began</b></td><td>بدأ</td></tr><tr><td dir=ltr>run → <b>ran</b></td><td>جرى</td></tr></table><br>⚠️ في النفي والسؤال يعود الفعل مجرّداً: <code dir=ltr>I didn't <b>go</b></code> لا <code dir=ltr>didn't went</code>."
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "I <b>was studying</b> when the lights <b>went</b> out.", "ar": "كنت أدرس حين انقطعت الكهرباء." },
+            { "en": "We <b>arrived</b>, <b>ate</b> lunch and <b>left</b>.", "ar": "وصلنا وتغدّينا ثمّ غادرنا. (ثلاثة أحداث متتابعة)" },
+            { "en": "While she <b>was driving</b>, she <b>saw</b> an accident.", "ar": "بينما كانت تقود رأت حادثاً." },
+            { "en": "It <b>was getting</b> dark, so we <b>went</b> home.", "ar": "كان الظلام يحلّ، فذهبنا إلى البيت." },
+            { "en": "He <b>didn't notice</b> me because he <b>was looking</b> at his phone.", "ar": "لم يلحظني لأنّه كان ينظر إلى هاتفه." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "نهاية ed لها ثلاثة نطقٍ مختلفة — وأغلب المتعلّمين يجهلها",
+          "rows": [
+            { "w": "worked · watched · stopped", "s": "t صافية", "ar": "بعد صوتٍ مهموس: k · ch · p · s · f" },
+            { "w": "played · lived · opened", "s": "d مجهورة", "ar": "بعد صوتٍ مجهور أو حركة" },
+            { "w": "wanted · needed · started", "s": "id مقطع كامل", "ar": "بعد t أو d فقط" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>I ___ TV when you called.</code>", "opts": ["watched", "was watching", "watch", "were watching"], "a": 1, "why": "خلفيّة قطعها حدث ← ماضٍ مستمرّ." },
+            { "t": "mcq", "q": "<code dir=ltr>He ___ the door and ___ out.</code>", "opts": ["was opening / was going", "opened / went", "opened / was going", "open / go"], "a": 1, "why": "حدثان متتابعان مكتملان ← ماضٍ بسيط في الاثنين." },
+            { "t": "mcq", "q": "<code dir=ltr>While we ___ dinner, the power went off.</code>", "opts": ["had", "were having", "have", "was having"], "a": 1, "why": "<code dir=ltr>while</code> تصاحب المستمرّ عادةً، و<code dir=ltr>we</code> تأخذ were." },
+            { "t": "gap", "q": "<code dir=ltr>She ___ (not / hear) the bell.</code>", "a": ["did not hear", "didn't hear", "did not hear."], "why": "النفي: didn't + الفعل مجرّداً." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (wait) at the station when the train arrived.</code>", "a": ["were waiting", "were waiting."], "why": "خلفيّة مستمرّة قطعها وصول القطار." },
+            { "t": "gap", "q": "<code dir=ltr>I ___ (buy) a new laptop last month.</code>", "a": ["bought"], "why": "<code dir=ltr>buy</code> فعل شاذّ: bought." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I didn't went to school.</code>", "a": ["I didn't go to school", "I did not go to school", "I didn't go to school."], "why": "بعد didn't يأتي الفعل مجرّداً." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Yesterday I was going to the shop and was buying milk.</code>", "a": ["Yesterday I went to the shop and bought milk", "Yesterday I went to the shop and bought milk."], "why": "أحداث متتابعة مكتملة ← ماضٍ بسيط." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "was", "sleeping", "when", "he", "arrived"], "a": "I was sleeping when he arrived", "why": "الخلفيّة أوّلاً ثمّ when + الحدث." },
+            { "t": "order", "q": "رتّب السؤال:", "ws": ["did", "What", "you", "do", "yesterday"], "a": "What did you do yesterday", "why": "أداة + did + فاعل + فعل مجرّد." },
+            { "t": "mcq", "q": "كيف تُنطق نهاية ed في <code dir=ltr>wanted</code>؟", "opts": ["t صافية", "d مجهورة", "id مقطعاً كاملاً", "صامتة"], "a": 2, "why": "بعد حرف t تُنطق مقطعاً كاملاً." },
+            { "t": "mcq", "q": "كيف تُنطق نهاية ed في <code dir=ltr>stopped</code>؟", "opts": ["t صافية", "d مجهورة", "id", "صامتة"], "a": 0, "why": "بعد p المهموسة تصير t." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: الحكاية والذكرى",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "روابط السرد",
+          "items": [
+            { "w": "at first", "pos": "expression", "ar": "في البداية", "ex": [{ "en": "<b>At first</b> I was nervous, but then I relaxed.", "ar": "في البداية كنت متوتّراً، ثمّ استرخيت." }] },
+            { "w": "suddenly", "pos": "adverb", "ar": "فجأةً", "ex": [{ "en": "<b>Suddenly</b>, the lights went out.", "ar": "فجأةً انقطعت الأنوار." }] },
+            { "w": "meanwhile", "pos": "adverb", "ar": "في تلك الأثناء", "ex": [{ "en": "<b>Meanwhile</b>, my brother was still asleep.", "ar": "في تلك الأثناء كان أخي ما زال نائماً." }] },
+            { "w": "eventually", "pos": "adverb", "ar": "في نهاية المطاف", "ex": [{ "en": "<b>Eventually</b>, we found the hotel.", "ar": "في نهاية المطاف عثرنا على الفندق." }] },
+            { "w": "as soon as", "pos": "conjunction", "ar": "حالما / بمجرّد أن", "ex": [{ "en": "<b>As soon as</b> I sat down, the phone rang.", "ar": "حالما جلست رنّ الهاتف." }] },
+            { "w": "by the time", "pos": "expression", "ar": "بحلول وقت", "ex": [{ "en": "<b>By the time</b> we arrived, the film had started.", "ar": "بحلول وصولنا كان الفيلم قد بدأ." }] },
+            { "w": "in the end", "pos": "expression", "ar": "في الختام / آخر الأمر", "ex": [{ "en": "<b>In the end</b>, everything worked out fine.", "ar": "آخر الأمر سارت الأمور على خير." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "أفعال الحكاية",
+          "items": [
+            { "w": "run into", "pos": "phrasal verb", "ar": "يصادف شخصاً مصادفةً", "ex": [{ "en": "I <b>ran into</b> an old friend at the airport.", "ar": "صادفت صديقاً قديماً في المطار." }] },
+            { "w": "turn out", "pos": "phrasal verb", "ar": "يتبيّن أنّ / ينتهي إلى", "ex": [{ "en": "It <b>turned out</b> to be a great day.", "ar": "تبيّن أنّه يوم رائع." }] },
+            { "w": "end up", "pos": "phrasal verb", "ar": "ينتهي به الأمر إلى", "ex": [{ "en": "We <b>ended up</b> walking home.", "ar": "انتهى بنا الأمر إلى المشي عائدَين." }] },
+            { "w": "make it", "pos": "expression", "ar": "يصل في الوقت / ينجح في الحضور", "ex": [{ "en": "We barely <b>made it</b> to the station.", "ar": "وصلنا المحطّة بالكاد." }] },
+            { "w": "show up", "pos": "phrasal verb", "ar": "يظهر / يحضر", "ex": [{ "en": "He <b>showed up</b> two hours late.", "ar": "حضر متأخّراً ساعتين." }] },
+            { "w": "look back on", "pos": "phrasal verb", "ar": "يستذكر ما مضى", "ex": [{ "en": "I <b>look back on</b> those years fondly.", "ar": "أستذكر تلك السنوات بحنين." }] },
+            { "w": "come across", "pos": "phrasal verb", "ar": "يعثر على شيء مصادفةً", "ex": [{ "en": "I <b>came across</b> an old photo yesterday.", "ar": "عثرت على صورة قديمة أمس مصادفةً." }] },
+            { "w": "grow up", "pos": "phrasal verb", "ar": "ينشأ ويكبر", "ex": [{ "en": "I <b>grew up</b> in a small town.", "ar": "نشأت في بلدة صغيرة." }] },
+            { "w": "get lost", "pos": "expression", "ar": "يضلّ الطريق", "ex": [{ "en": "We <b>got lost</b> on the way there.", "ar": "ضللنا الطريق في ذهابنا." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "وصف التجربة",
+          "items": [
+            { "w": "memorable", "pos": "adjective", "ar": "لا يُنسى", "ex": [{ "en": "It was a <b>memorable</b> evening.", "ar": "كانت أمسيةً لا تُنسى." }] },
+            { "w": "awkward", "pos": "adjective", "ar": "محرِج / غير مريح", "ex": [{ "en": "There was an <b>awkward</b> silence.", "ar": "ساد صمتٌ محرِج." }] },
+            { "w": "relieved", "pos": "adjective", "ar": "مرتاح بعد قلق", "ex": [{ "en": "I was so <b>relieved</b> when she called.", "ar": "ارتحتُ كثيراً حين اتّصلت." }] },
+            { "w": "exhausted", "pos": "adjective", "ar": "منهك تماماً", "ex": [{ "en": "We were <b>exhausted</b> after the hike.", "ar": "كنّا منهكين بعد المسير." }] },
+            { "w": "incident", "pos": "noun", "ar": "حادثة / واقعة", "ex": [{ "en": "I will never forget that <b>incident</b>.", "ar": "لن أنسى تلك الحادثة أبداً." }] },
+            { "w": "coincidence", "pos": "noun", "ar": "مصادفة", "ex": [{ "en": "What a <b>coincidence</b> — I was just thinking of you!", "ar": "يا لها من مصادفة — كنت أفكّر فيك للتوّ!" }] },
+            { "w": "on purpose", "pos": "expression", "ar": "عن قصد", "ex": [{ "en": "He didn't do it <b>on purpose</b>.", "ar": "لم يفعلها عن قصد." }] },
+            { "w": "by accident", "pos": "expression", "ar": "بالخطأ / عرَضاً", "ex": [{ "en": "I deleted the file <b>by accident</b>.", "ar": "حذفت الملفّ بالخطأ." }] },
+            { "w": "out of nowhere", "pos": "expression", "ar": "من حيث لا يحتسب", "ex": [{ "en": "A car appeared <b>out of nowhere</b>.", "ar": "ظهرت سيّارة من حيث لا نحتسب." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: رحلة لم تسر كما خُطّط لها",
+      "subtitle": "حوار سرديّ + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> مرّة بسرعة ١٫٠× دون نصّ — التقط الفكرة فقط.<br><b>٢.</b> مرّة ببطء ٠٫٧× مع النصّ.<br><b>٣.</b> ردّد خلف كلّ سطر (المحاكاة).<br><b>٤.</b> مرّة أخيرة بسرعة ١٫٣×."
+        },
+        {
+          "type": "dialogue",
+          "title": "The Trip That Went Wrong",
+          "titleAr": "الرحلة التي لم تسر كما خُطّط لها",
+          "lines": [
+            { "sp": "Lina", "en": "You look exhausted. How was the weekend?", "ar": "تبدو منهكاً. كيف كانت العطلة؟" },
+            { "sp": "Sam", "en": "Honestly? A disaster. But a memorable one.", "ar": "بصراحة؟ كارثة. لكنّها كارثة لا تُنسى." },
+            { "sp": "Lina", "en": "Oh no. What happened?", "ar": "يا إلهي. ماذا حدث؟" },
+            { "sp": "Sam", "en": "Well, we were driving to the coast when the car just stopped.", "ar": "حسناً، كنّا نقود نحو الساحل حين توقّفت السيّارة فجأةً." },
+            { "sp": "Lina", "en": "In the middle of nowhere?", "ar": "في مكانٍ مقطوع؟" },
+            { "sp": "Sam", "en": "Exactly. No signal, no petrol station, nothing.", "ar": "بالضبط. لا إشارة، ولا محطّة وقود، ولا شيء." },
+            { "sp": "Lina", "en": "So what did you do?", "ar": "فماذا فعلتم؟" },
+            { "sp": "Sam", "en": "We waited about an hour. Meanwhile it started raining.", "ar": "انتظرنا نحو ساعة. وفي تلك الأثناء بدأ المطر." },
+            { "sp": "Lina", "en": "Of course it did.", "ar": "بالطبع فعل." },
+            { "sp": "Sam", "en": "Then out of nowhere, a farmer showed up in an old truck.", "ar": "ثمّ من حيث لا نحتسب ظهر مزارع في شاحنة قديمة." },
+            { "sp": "Lina", "en": "You're kidding.", "ar": "أنت تمزح." },
+            { "sp": "Sam", "en": "He towed us to his village. His wife made us dinner.", "ar": "قطرنا إلى قريته. وأعدّت زوجته لنا العشاء." },
+            { "sp": "Lina", "en": "That's actually lovely.", "ar": "هذا لطيف في الحقيقة." },
+            { "sp": "Sam", "en": "It turned out to be the best part of the trip. We never made it to the coast.", "ar": "تبيّن أنّه أفضل جزء في الرحلة. ولم نصل إلى الساحل أبداً." },
+            { "sp": "Lina", "en": "Sometimes the wrong turn is the right one.", "ar": "أحياناً يكون المنعطف الخاطئ هو الصواب." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ماذا كانوا يفعلون حين توقّفت السيّارة؟", "opts": ["يتناولون الطعام", "يقودون نحو الساحل", "ينتظرون في محطّة", "يمشون"], "a": 1, "why": "<code dir=ltr>we were driving to the coast when the car just stopped</code>." },
+            { "t": "mcq", "q": "ما الذي حدث أثناء انتظارهم؟", "opts": ["وصلت الشرطة", "بدأ المطر", "عادت الإشارة", "أُصلحت السيّارة"], "a": 1, "why": "<code dir=ltr>Meanwhile it started raining</code>." },
+            { "t": "mcq", "q": "من ساعدهم؟", "opts": ["ميكانيكيّ", "شرطيّ", "مزارع في شاحنة", "سائق حافلة"], "a": 2, "why": "<code dir=ltr>a farmer showed up in an old truck</code>." },
+            { "t": "mcq", "q": "هل وصلوا إلى الساحل؟", "opts": ["نعم متأخّرين", "نعم في اليوم التالي", "لا، لم يصلوا أبداً", "لم يُذكر"], "a": 2, "why": "<code dir=ltr>We never made it to the coast</code>." },
+            { "t": "mcq", "q": "ماذا قصدت لينا بقولها الأخير؟", "opts": ["أنّهم أخطؤوا الطريق", "أنّ ما بدا خطأً كان خيراً", "أنّ عليهم إعادة الرحلة", "أنّ السيّارة رديئة"], "a": 1, "why": "حكمة: أحياناً يقودك الخطأ إلى الأفضل." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "We were drivin when the car jus stopped", "a": ["We were driving when the car just stopped", "we were driving when the car just stopped"], "why": "سقطت g من driving وسقطت t من just — حذفٌ طبيعيّ." },
+            { "t": "dict", "say": "So whadja do?", "a": ["So what did you do?", "so what did you do"], "why": "<code dir=ltr>what did you</code> → «وادجَ» — إدغام d مع y." },
+            { "t": "dict", "say": "It turnd oud to be the bes part", "a": ["It turned out to be the best part", "it turned out to be the best part"], "why": "وصلٌ في turned out وتحوّل t إلى d، وسقطت t من best." },
+            { "t": "dict", "say": "He showd up two hours lade", "a": ["He showed up two hours late", "he showed up two hours late"], "why": "وصل showed up، و late تُنطق بـ d مرتدّة." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: الذاكرة ليست تسجيلاً",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Memory Is Not a Recording",
+          "titleAr": "الذاكرة ليست تسجيلاً",
+          "en": "Most people believe memory works like a camera: you witness an <b>incident</b>, the brain stores it, and later you play it back. Psychologists discovered long ago that this picture is wrong. Every time you remember something, your brain rebuilds it — and each rebuilding changes it slightly.<br><br>In one famous study, researchers showed volunteers a film of a car crash. Afterwards they asked half the group how fast the cars were going when they <i>hit</i> each other, and the other half how fast they were going when they <i>smashed</i> into each other. The second group remembered higher speeds. A week later, many of them also remembered broken glass in the film. There was no broken glass. One word had quietly reshaped what they were certain they had seen.<br><br>This does not mean our memories are worthless. Most of the time they are accurate enough for daily life. But it does explain why two people who lived the same evening can describe it so differently, and why a confident witness is not always a reliable one. When you <b>look back on</b> your own past, remember that you are not opening a file — you are telling a story, and the story changes with the teller.",
+          "ar": "يظنّ أكثر الناس أنّ الذاكرة تعمل كالكاميرا: تشهد واقعةً فيخزّنها الدماغ، ثمّ تُعيد تشغيلها لاحقاً. وقد اكتشف علماء النفس منذ زمنٍ بعيد أنّ هذه الصورة خاطئة. ففي كلّ مرّة تتذكّر فيها شيئاً يُعيد دماغك بناءه، وكلّ إعادة بناءٍ تغيّره قليلاً.<br><br>وفي دراسةٍ شهيرة عرض الباحثون على متطوّعين فيلماً لحادث سيّارة. ثمّ سألوا نصفهم: كم كانت سرعة السيّارتين حين <i>اصطدمتا</i>؟ وسألوا النصف الآخر: كم كانت سرعتهما حين <i>تحطّمتا</i>؟ فتذكّرت المجموعة الثانية سرعاتٍ أعلى. وبعد أسبوع تذكّر كثيرٌ منهم زجاجاً مهشّماً في الفيلم. ولم يكن ثمّة زجاجٌ مهشّم. كلمةٌ واحدة أعادت في صمتٍ تشكيل ما كانوا موقنين أنّهم رأوه.<br><br>ولا يعني هذا أنّ ذكرياتنا بلا قيمة؛ فهي في أكثر الأحوال دقيقةٌ بما يكفي للحياة اليوميّة. لكنّه يفسّر لماذا يصف شخصان عاشا الأمسية نفسها وصفَين مختلفَين، ولماذا لا يكون الشاهد الواثق شاهداً موثوقاً دائماً. فحين تستذكر ماضيك، تذكّر أنّك لا تفتح ملفّاً — بل تحكي حكاية، والحكاية تتغيّر بتغيّر الحاكي.",
+          "keys": [["incident", "واقعة"], ["look back on", "يستذكر"], ["witness", "شاهد/يشهد"], ["accurate", "دقيق"], ["reliable", "موثوق"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما التشبيه الخاطئ للذاكرة حسب النصّ؟", "opts": ["أنّها حكاية", "أنّها كاميرا تسجّل وتعيد التشغيل", "أنّها مكتبة", "أنّها حاسوب معطّل"], "a": 1, "why": "<code dir=ltr>memory works like a camera</code> — وهي الفكرة التي يفنّدها." },
+            { "t": "mcq", "q": "ماذا غيّرت الكلمة <code dir=ltr>smashed</code> في إجابات المجموعة؟", "opts": ["لا شيء", "تذكّروا سرعاتٍ أعلى", "تذكّروا سيّاراتٍ أكثر", "نسوا الفيلم"], "a": 1, "why": "<code dir=ltr>The second group remembered higher speeds</code>." },
+            { "t": "mcq", "q": "الزجاج المهشّم الذي تذكّروه…", "opts": ["كان في الفيلم", "لم يكن موجوداً أصلاً", "ظهر لاحقاً", "أضافه الباحثون"], "a": 1, "why": "<code dir=ltr>There was no broken glass</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>reshaped</code> في النصّ تعني…", "opts": ["حذف", "أعاد تشكيل", "سجّل", "أكّد"], "a": 1, "why": "استنتاج من السياق: الكلمة غيّرت صورة الذكرى." },
+            { "t": "mcq", "q": "ما موقف الكاتب من قيمة الذكريات؟", "opts": ["أنّها بلا قيمة", "أنّها دقيقة تماماً", "أنّها كافية للحياة اليوميّة لكن غير معصومة", "أنّها ينبغي أن تُلغى كأدلّة"], "a": 2, "why": "<code dir=ltr>accurate enough for daily life</code> مع التحفّظ على الشاهد الواثق." },
+            { "t": "mcq", "q": "ما الخلاصة التي يختم بها الكاتب؟", "opts": ["أنّ الذاكرة ملفّ ثابت", "أنّك تحكي حكايةً تتغيّر بتغيّر الحاكي", "أنّ علينا ألّا نتذكّر", "أنّ الشهود يكذبون"], "a": 1, "why": "<code dir=ltr>you are telling a story, and the story changes with the teller</code>." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات السرد كما تُنطق في الحديث",
+          "rows": [
+            { "w": "What happened?", "s": "Wut happend?", "ar": "ماذا حدث؟" },
+            { "w": "It turned out that…", "s": "It turnd oud that…", "ar": "تبيّن أنّ…" },
+            { "w": "I could not believe it", "s": "I couldn believe it", "ar": "لم أصدّق" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "كيف تحكي وكيف تتفاعل مع حكاية",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "قوالب الحكاية",
+          "html": "<b>لتبدأ:</b><br>• <code dir=ltr>You'll never guess what happened to me.</code><br>• <code dir=ltr>Something funny happened the other day.</code><br>• <code dir=ltr>So there I was, waiting at the station…</code><br><br><b>لتتابع:</b><br>• <code dir=ltr>Anyway, …</code> · <code dir=ltr>So then …</code> · <code dir=ltr>Next thing I knew, …</code><br><br><b>لتختم:</b><br>• <code dir=ltr>And that was that.</code><br>• <code dir=ltr>In the end it all worked out.</code>"
+        },
+        {
+          "type": "note",
+          "title": "ردود التفاعل — بها تبدو متحدّثاً حقيقيّاً",
+          "html": "الصمت أثناء حكاية الآخر يبدو بارداً بالإنجليزية. استعمل هذه القصيرة:<br><br><code dir=ltr>Really? · No way! · You're kidding! · Oh no! · That's awful. · Then what? · What happened next?</code><br><br>💡 هذه أسرع طريقة لتبدو طليقاً: ليس بجملٍ طويلة، بل بردودٍ قصيرة في موضعها."
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>I have went there yesterday.</code> ✅ <code dir=ltr>I went there yesterday.</code><br>❌ <code dir=ltr>What you did yesterday?</code> ✅ <code dir=ltr>What did you do yesterday?</code><br>❌ <code dir=ltr>Since two years I lived there.</code> ✅ <code dir=ltr>I lived there for two years.</code><br>❌ <code dir=ltr>I was very tired so I slept early.</code> (صحيحة) ✅ وأفضل: <code dir=ltr>I was exhausted, so I had an early night.</code>"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: الأفعال الشاذّة الشائعة",
+          "hint": "الكتابة تخدعك — استمع",
+          "rows": [
+            { "w": "bought · brought · thought", "s": "bawt · brawt · thawt", "ar": "الـ ough تُنطق «أو» ممدودة، وgh صامتة" },
+            { "w": "said", "s": "sed", "ar": "لا تُنطق «سيد» بل «سِد»" },
+            { "w": "read (past)", "s": "red", "ar": "الماضي يُنطق كلون الأحمر" },
+            { "w": "heard", "s": "herd", "ar": "لا «هيرد» بل «هِرد»" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "ردود التفاعل كما تُنطق",
+          "rows": [
+            { "w": "What happened next?", "s": "Wut happend nex?", "ar": "ماذا حدث بعدها؟" },
+            { "w": "You are kidding!", "s": "Yer kiddin!", "ar": "أنت تمزح!" },
+            { "w": "I could not believe it", "s": "I couldn bleeve it", "ar": "لم أستطع تصديقه" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "صديقك يحكي شيئاً مفاجئاً. ما أنسب ردّ؟", "opts": ["OK.", "No way! Then what?", "I know.", "Finish please."], "a": 1, "why": "ردود التفاعل القصيرة تُشعر المتحدّث بأنّك معه." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have went there yesterday.</code>", "a": ["I went there yesterday", "I went there yesterday."], "why": "مع yesterday يلزم الماضي البسيط لا المضارع التامّ." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>What you did last night?</code>", "a": ["What did you do last night?", "What did you do last night", "what did you do last night"], "why": "السؤال يحتاج did قبل الفاعل." },
+            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>said</code>؟", "opts": ["سِد", "سيد", "سايد", "سِيْد"], "a": 0, "why": "تُنطق /sed/ بحركة قصيرة." },
+            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>bought</code>؟", "opts": ["بوغت", "باوت", "بوت الممدودة (bawt)", "بُخت"], "a": 2, "why": "الـ gh صامتة و ough تُمدّ." },
+            { "t": "order", "q": "رتّب:", "ws": ["You", "will", "never", "guess", "what", "happened"], "a": "You will never guess what happened", "why": "قالب افتتاح الحكاية." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: احكِ ذكرى",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "اكتب في <b>٨٠–١٠٠ كلمة</b> حكايةً حقيقيّة من ماضيك: يومٌ لم يسر كما خطّطت له، أو مصادفة غيّرت شيئاً. احرص على أن تتضمّن:<br><br>• جملةً واحدة على الأقلّ بالماضي المستمرّ للخلفيّة<br>• حدثاً مفاجئاً بالماضي البسيط<br>• رابطَي سردٍ من مفردات الوحدة<br>• خاتمةً تقول ماذا تعلّمت أو كيف شعرت",
+          "phrases": [
+            "It was a normal … until …",
+            "I was …ing when suddenly …",
+            "At first I thought … but then …",
+            "Meanwhile, …",
+            "It turned out that …",
+            "In the end, …",
+            "Looking back, I …"
+          ],
+          "model": "It was an ordinary Tuesday morning. I was waiting for the bus and checking my messages when I noticed an old man struggling with two heavy bags. At first I hesitated, because I was already late for work. Then I helped him carry them to his building. Meanwhile, my bus came and went. I ended up walking forty minutes in the rain and arriving completely exhausted. But the man had written his number on a card and, three months later, he offered me a job. Looking back, missing that bus was the best thing that happened to me that year.",
+          "modelAr": "كان صباح ثلاثاء عاديّاً. كنتُ أنتظر الحافلة وأتفقّد رسائلي حين لمحتُ رجلاً مسنّاً يكابد حقيبتين ثقيلتين. ترددتُ في البداية لأنّني كنتُ متأخّراً عن العمل أصلاً، ثمّ ساعدتُه في حملهما إلى مبناه. وفي تلك الأثناء جاءت حافلتي ومضت. فانتهى بي الأمر إلى المشي أربعين دقيقة تحت المطر، ووصلتُ منهكاً تماماً. لكنّ الرجل كان قد كتب رقمه على بطاقة، وبعد ثلاثة أشهر عرض عليّ عملاً. وحين أستذكر ذلك، أرى أنّ تفويت تلك الحافلة كان أفضل ما حدث لي في ذلك العام.",
+          "checklist": [
+            "استعملتُ الماضي المستمرّ للخلفيّة (I was waiting…)",
+            "استعملتُ الماضي البسيط للأحداث المتتابعة",
+            "لم أستعمل didn't مع فعلٍ في الماضي (didn't went ❌)",
+            "أضفتُ رابطَي سردٍ على الأقلّ (at first · meanwhile · in the end)",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "ختمتُ بجملةٍ تقول ماذا تعلّمتُ أو كيف شعرت",
+            "عدد الكلمات بين ٨٠ و١٠٠",
+            "قرأتُ ما كتبتُ بصوتٍ مسموع مرّةً"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "نهايات ing في الكلام الطبيعيّ",
+          "rows": [
+            { "w": "I was waiting", "s": "I was waitin", "ar": "كنت أنتظر — تسقط g" },
+            { "w": "What are you talking about?", "s": "Whatcha talkin about?", "ar": "عمّ تتحدّث؟" },
+            { "w": "going to", "s": "gonna", "ar": "سوف" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة الثانية",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>I ___ a shower when the doorbell rang.</code>", "opts": ["had", "was having", "have", "were having"], "a": 1, "why": "خلفيّة قطعها حدث." },
+            { "t": "mcq", "q": "<code dir=ltr>She ___ the letter, ___ it and ___ .</code>", "opts": ["was opening / was reading / was leaving", "opened / read / left", "opened / was reading / left", "open / read / leave"], "a": 1, "why": "ثلاثة أحداث متتابعة مكتملة." },
+            { "t": "mcq", "q": "<code dir=ltr>While they ___ , it started to snow.</code>", "opts": ["talked", "were talking", "talk", "was talking"], "a": 1, "why": "while + مستمرّ، وthey تأخذ were." },
+            { "t": "mcq", "q": "أيّ ظرفٍ يصاحب الماضي البسيط؟", "opts": ["at the moment", "now", "last night", "currently"], "a": 2, "why": "last night زمنٌ منتهٍ محدّد." },
+            { "t": "mcq", "q": "<code dir=ltr>run into</code> تعني…", "opts": ["يدخل مسرعاً", "يصادف شخصاً مصادفةً", "يصطدم بجدار", "يهرب"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>turn out</code> تعني…", "opts": ["يُطفئ", "يخرج", "يتبيّن أنّ", "يستدير"], "a": 2, "why": "<code dir=ltr>It turned out to be great</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>eventually</code> تعني…", "opts": ["احتمالاً", "في نهاية المطاف", "فوراً", "أحياناً"], "a": 1, "why": "لا تخلطها بـ possibly." },
+            { "t": "gap", "q": "<code dir=ltr>He ___ (not / come) to the party.</code>", "a": ["did not come", "didn't come", "did not come."], "why": "didn't + مصدر." },
+            { "t": "gap", "q": "<code dir=ltr>We ___ (drive) home when we saw the accident.</code>", "a": ["were driving", "were driving."], "why": "خلفيّة مستمرّة." },
+            { "t": "gap", "q": "<code dir=ltr>I ___ (think) it was a good idea.</code>", "a": ["thought"], "why": "think فعل شاذّ ← thought." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (buy) the house in 2019.</code>", "a": ["bought"], "why": "buy ← bought." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Did you went there?</code>", "a": ["Did you go there?", "Did you go there", "did you go there"], "why": "بعد did يأتي الفعل مجرّداً." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I was buying bread and was going home.</code>", "a": ["I bought bread and went home", "I bought bread and went home."], "why": "أحداث متتابعة مكتملة ← بسيط." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>What you did last summer?</code>", "a": ["What did you do last summer?", "What did you do last summer", "what did you do last summer"], "why": "السؤال يحتاج did." },
+            { "t": "order", "q": "رتّب:", "ws": ["It", "was", "raining", "when", "we", "arrived"], "a": "It was raining when we arrived", "why": "خلفيّة + when + حدث." },
+            { "t": "order", "q": "رتّب:", "ws": ["As", "soon", "as", "I", "sat", "down"], "a": "As soon as I sat down", "why": "قالب «حالما»." },
+            { "t": "dict", "say": "We were drivin when it happend", "a": ["We were driving when it happened", "we were driving when it happened"], "why": "سقوط g من ing وسقوط e من ened." },
+            { "t": "dict", "say": "Whadja do las night?", "a": ["What did you do last night?", "what did you do last night"], "why": "إدغام what did you، وسقوط t من last." },
+            { "t": "mcq", "q": "كيف تُنطق نهاية ed في <code dir=ltr>needed</code>؟", "opts": ["t", "d", "id مقطعاً كاملاً", "صامتة"], "a": 2, "why": "بعد d تُنطق مقطعاً كاملاً." },
+            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>heard</code>؟", "opts": ["هيرد", "هِرد", "هارد", "هيَرد"], "a": 1, "why": "تُنطق /hɜːrd/ بصوتٍ قريب من «هِرد»." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "قصص شخصيّة قصيرة — The Moth (بودكاست)", "d": "أشخاص عاديّون يحكون قصصاً حقيقيّة على المسرح. ابحث عن «The Moth short stories»", "task": "استمع لقصّة واحدة، وسجّل خمس جملٍ بالماضي المستمرّ سمعتها." },
+            { "t": "مشهد استرجاع في مسلسلٍ تحبّه", "d": "أيّ مشهد flashback — الأفلام تستعمل فيه أزمنة السرد بكثافة", "task": "شغّل الترجمة الإنجليزية، وأعد المشهد ثلاث مرّات، وردّد خلف الممثّلين." },
+            { "t": "BBC Learning English — The English We Speak", "d": "حلقات من ثلاث دقائق عن تعبيرٍ واحد", "task": "اختر حلقتين، واكتب التعبير في مفكّرتك ثمّ استعمله في جملةٍ من عندك." }
+          ]
+        }
+      ]
+    }
+  ]
+}

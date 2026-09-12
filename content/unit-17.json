@@ -1,0 +1,1370 @@
+{
+ "id": "unit-17",
+ "icon": "🏛️",
+ "title": "المجتمع والثقافة",
+ "subtitle": "Full reported speech",
+ "intro": "Half of everything you read in English is somebody reporting what somebody else said. Get reported speech fully under control and news, research and arguments all open up at once.<span class=n-ar>نصف ما تقرؤه بالإنجليزية هو نقلٌ لكلام غيرك. أتقن الكلام المنقول كاملاً تنفتح لك الأخبار والأبحاث والجدل دفعةً واحدة.</span>",
+ "goals": [
+  "I can report statements, questions, orders and thoughts",
+  "I can choose the reporting verb that carries the right attitude",
+  "I can discuss identity, tradition and social change",
+  "I can hear reported speech at natural speed"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "Reported speech — the complete system",
+   "subtitle": "backshift, questions, commands, and verb choice",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "The backshift, and when to ignore it",
+     "html": "Move every tense one step into the past:<br><br><code dir=ltr>present → past</code> · <code dir=ltr>past → past perfect</code> · <code dir=ltr>will → would</code> · <code dir=ltr>can → could</code> · <code dir=ltr>must → had to</code><br><br><code dir=ltr>\"I am tired.\" → He said he <b>was</b> tired.</code><br><code dir=ltr>\"I saw her.\" → He said he <b>had seen</b> her.</code><br><br>⚠️ <b>Ignore the backshift</b> when the statement is still true:<br><code dir=ltr>She said the earth <b>is</b> round.</code><br><code dir=ltr>He told me he <b>lives</b> in Cairo.</code> (he still does)<br><br>Native speakers skip the backshift constantly. Knowing when is what separates B2 from B1.<span class=n-ar>التراجع الزمنيّ ليس آليّاً: إن كان الكلام ما يزال صحيحاً فالأفضل إبقاء الزمن كما هو. معرفة متى تتجاهل القاعدة هي الفرق بين B1 وB2.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Reporting questions — the word order trap",
+     "html": "A reported question is <u>not</u> a question. Put the words back in statement order and delete <code dir=ltr>do/does/did</code>.<br><br><code dir=ltr>\"Where do you live?\" → She asked where I <b>lived</b>.</code> ✅<br><code dir=ltr>She asked where <s>did I live</s>.</code> ❌<br><br>Yes/no questions need <b>if</b> or <b>whether</b>:<br><code dir=ltr>\"Are you coming?\" → He asked <b>if</b> I was coming.</code><br><br>Use <code dir=ltr>whether</code> when there are two options: <code dir=ltr>whether to stay or go</code>.<span class=n-ar>السؤال المنقول ليس سؤالاً: يعود ترتيب الكلمات إلى ترتيب الجملة الخبريّة وتُحذف do/does/did. والسؤال الذي جوابه نعم/لا يحتاج if أو whether.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Commands, requests and offers",
+     "html": "Use <b>verb + object + to-infinitive</b>:<br><br><code dir=ltr>\"Sit down.\" → He <b>told</b> me <b>to sit</b> down.</code><br><code dir=ltr>\"Please wait.\" → She <b>asked</b> me <b>to wait</b>.</code><br><code dir=ltr>\"Don't touch it.\" → He <b>warned</b> me <b>not to touch</b> it.</code><br><code dir=ltr>\"You really should rest.\" → She <b>advised</b> me <b>to rest</b>.</code><br><br>Negative = <code dir=ltr>not to</code>, never <code dir=ltr>to not</code>.<span class=n-ar>الأمر المنقول: فعل + مفعول + مصدر بـto. والنفي not to لا to not.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The reporting verb carries your opinion",
+     "html": "<code dir=ltr>said</code> is neutral. Everything else takes a position:<br><br><code dir=ltr>claimed</code> — I doubt it<br><code dir=ltr>admitted</code> — it was against their interest<br><code dir=ltr>insisted</code> — they repeated it under pressure<br><code dir=ltr>denied</code> — they rejected an accusation<br><code dir=ltr>suggested</code> — tentative<br><code dir=ltr>argued</code> — with reasons, in a debate<br><code dir=ltr>pointed out</code> — I agree, and it's a fact<br><code dir=ltr>conceded</code> — they gave ground reluctantly<br><br>Journalists choose these words very carefully. So should you.<span class=n-ar>فعل النقل يحمل موقفك: claimed تعني أنّك تشكّ، وpointed out تعني أنّك توافق. والصحفيّون يختارونها بدقّةٍ بالغة.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "He <b>claimed</b> he had never met her.",
+       "ar": "زعم أنّه لم يلتقِ بها قطّ."
+      },
+      {
+       "en": "She <b>admitted</b> that the data had been incomplete.",
+       "ar": "اعترفت بأنّ البيانات كانت ناقصة."
+      },
+      {
+       "en": "They <b>asked</b> whether the law applied to everyone.",
+       "ar": "سألوا عمّا إذا كان القانون ينطبق على الجميع."
+      },
+      {
+       "en": "The teacher <b>told</b> us <b>not to</b> translate word for word.",
+       "ar": "طلب منّا المعلّم ألّا نترجم حرفيّاً."
+      },
+      {
+       "en": "He <b>pointed out</b> that the tradition <b>is</b> only fifty years old.",
+       "ar": "أشار إلى أنّ التقليد عمره خمسون عاماً فقط."
+      },
+      {
+       "en": "She <b>denied</b> having said anything of the kind.",
+       "ar": "أنكرت أنّها قالت شيئاً من هذا القبيل."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "reporting verbs blur into the pronoun after them",
+     "rows": [
+      {
+       "w": "He said he was",
+       "s": "He sed-ee wuz",
+       "ar": "تسقط h في he"
+      },
+      {
+       "w": "She told me to wait",
+       "s": "She toal me ta wayt",
+       "ar": "to ← تَ"
+      },
+      {
+       "w": "They asked if I could",
+       "s": "They askt-if I kud",
+       "ar": "تلتصق if بـasked"
+      },
+      {
+       "w": "What did he say?",
+       "s": "Wuddy say?",
+       "ar": "did he ← دِي"
+      },
+      {
+       "w": "He didn't tell you?",
+       "s": "He didn tell ya?",
+       "ar": "you ← يَ"
+      },
+      {
+       "w": "That's not what I said",
+       "s": "Thats not wud-I sed",
+       "ar": "what I ← وودآي"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>\"I'll call you tomorrow.\" → He said he ___ me the next day.</code>",
+       "opts": [
+        "will call",
+        "would call",
+        "called",
+        "had called"
+       ],
+       "a": 1,
+       "why": "will ← would."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>\"Where are you from?\" → She asked ___ .</code>",
+       "opts": [
+        "where was I from",
+        "where I was from",
+        "where am I from",
+        "from where I was"
+       ],
+       "a": 1,
+       "why": "ترتيب الجملة الخبريّة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>\"Don't sign it.\" → He warned me ___ it.</code>",
+       "opts": [
+        "to not sign",
+        "not to sign",
+        "don't sign",
+        "not signing"
+       ],
+       "a": 1,
+       "why": "not to + مصدر."
+      },
+      {
+       "t": "mcq",
+       "q": "Which verb implies the speaker doubts the statement?",
+       "opts": [
+        "explained",
+        "claimed",
+        "noted",
+        "mentioned"
+       ],
+       "a": 1,
+       "why": "claimed تحمل شكّ الناقل."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>\"Are you free?\" → He asked ___ I was free.</code>",
+       "a": [
+        "if",
+        "whether"
+       ],
+       "why": "سؤالٌ بنعم/لا."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>She asked me what did I want.</code>",
+       "a": [
+        "She asked me what I wanted",
+        "She asked what I wanted"
+       ],
+       "why": "يُحذف did ويعود الترتيب الخبريّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "He",
+        "admitted",
+        "that",
+        "he",
+        "had",
+        "made",
+        "a",
+        "mistake"
+       ],
+       "a": "He admitted that he had made a mistake",
+       "why": "اعترافٌ بشيءٍ ضدّ مصلحته."
+      },
+      {
+       "t": "dict",
+       "say": "She toal me nod-ta worry abowdit",
+       "a": [
+        "She told me not to worry about it"
+       ],
+       "why": "not to ← «نَدَ»، وabout it ← أباودِت."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: society and culture",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Identity and belonging",
+     "items": [
+      {
+       "w": "heritage",
+       "pos": "noun",
+       "ar": "تراث",
+       "ex": [
+        {
+         "en": "The city protects its <b>heritage</b> fiercely.",
+         "ar": "تحمي المدينة تراثها بشراسة."
+        }
+       ]
+      },
+      {
+       "w": "identity",
+       "pos": "noun",
+       "ar": "هويّة",
+       "ex": [
+        {
+         "en": "Language is the last part of <b>identity</b> to disappear.",
+         "ar": "اللغة آخر ما يختفي من الهويّة."
+        }
+       ]
+      },
+      {
+       "w": "norm",
+       "pos": "noun",
+       "ar": "عُرف / معيار سائد",
+       "ex": [
+        {
+         "en": "Working from home became the <b>norm</b> within a year.",
+         "ar": "صار العمل من المنزل عُرفاً سائداً خلال عام."
+        }
+       ]
+      },
+      {
+       "w": "custom",
+       "pos": "noun",
+       "ar": "عادة اجتماعيّة",
+       "ex": [
+        {
+         "en": "It is a local <b>custom</b>, not a religious rule.",
+         "ar": "إنّها عادةٌ محلّيّة لا قاعدةٌ دينيّة."
+        }
+       ]
+      },
+      {
+       "w": "assimilate",
+       "pos": "verb",
+       "ar": "يندمج / يذوب في",
+       "ex": [
+        {
+         "en": "They were expected to <b>assimilate</b> completely.",
+         "ar": "كان يُتوقّع منهم أن يندمجوا تماماً."
+        }
+       ]
+      },
+      {
+       "w": "diverse",
+       "pos": "adj",
+       "ar": "متنوّع",
+       "ex": [
+        {
+         "en": "The neighbourhood is far more <b>diverse</b> than it was.",
+         "ar": "الحيّ أكثر تنوّعاً بكثير ممّا كان."
+        }
+       ]
+      },
+      {
+       "w": "stereotype",
+       "pos": "noun",
+       "ar": "صورة نمطيّة",
+       "ex": [
+        {
+         "en": "He spent his career fighting one <b>stereotype</b>.",
+         "ar": "أمضى حياته المهنيّة يحارب صورةً نمطيّةً واحدة."
+        }
+       ]
+      },
+      {
+       "w": "generation gap",
+       "pos": "noun",
+       "ar": "فجوة الأجيال",
+       "ex": [
+        {
+         "en": "The <b>generation gap</b> here is mostly about technology.",
+         "ar": "فجوة الأجيال هنا تدور غالباً حول التقنية."
+        }
+       ]
+      },
+      {
+       "w": "taboo",
+       "pos": "noun/adj",
+       "ar": "محرَّم اجتماعيّاً",
+       "ex": [
+        {
+         "en": "Money is still a <b>taboo</b> subject at dinner.",
+         "ar": "المال ما يزال موضوعاً محرَّماً على المائدة."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Change and conflict",
+     "items": [
+      {
+       "w": "urbanisation",
+       "pos": "noun",
+       "ar": "التحضّر",
+       "ex": [
+        {
+         "en": "Rapid <b>urbanisation</b> emptied a hundred villages.",
+         "ar": "أفرغ التحضّر السريع مئة قرية."
+        }
+       ]
+      },
+      {
+       "w": "inequality",
+       "pos": "noun",
+       "ar": "لامساواة",
+       "ex": [
+        {
+         "en": "<b>Inequality</b> grew even as the economy did.",
+         "ar": "نمت اللامساواة حتّى بينما نما الاقتصاد."
+        }
+       ]
+      },
+      {
+       "w": "marginalised",
+       "pos": "adj",
+       "ar": "مهمَّش",
+       "ex": [
+        {
+         "en": "<b>Marginalised</b> groups rarely appear in the data.",
+         "ar": "نادراً ما تظهر الفئات المهمّشة في البيانات."
+        }
+       ]
+      },
+      {
+       "w": "reform",
+       "pos": "noun/verb",
+       "ar": "إصلاح / يُصلح",
+       "ex": [
+        {
+         "en": "The <b>reform</b> was announced and then quietly dropped.",
+         "ar": "أُعلن الإصلاح ثمّ أُسقط بهدوء."
+        }
+       ]
+      },
+      {
+       "w": "backlash",
+       "pos": "noun",
+       "ar": "ردّ فعلٍ عنيف",
+       "ex": [
+        {
+         "en": "The policy triggered an immediate <b>backlash</b>.",
+         "ar": "أثارت السياسة ردّ فعلٍ عنيفاً فوريّاً."
+        }
+       ]
+      },
+      {
+       "w": "polarised",
+       "pos": "adj",
+       "ar": "مستقطَب",
+       "ex": [
+        {
+         "en": "The debate is more <b>polarised</b> than the public is.",
+         "ar": "الجدل أكثر استقطاباً من الجمهور نفسه."
+        }
+       ]
+      },
+      {
+       "w": "cohesion",
+       "pos": "noun",
+       "ar": "تماسك اجتماعيّ",
+       "ex": [
+        {
+         "en": "Trust is what social <b>cohesion</b> is made of.",
+         "ar": "الثقة هي ما يُصنع منه التماسك الاجتماعيّ."
+        }
+       ]
+      },
+      {
+       "w": "grassroots",
+       "pos": "adj",
+       "ar": "شعبيّ / من القاعدة",
+       "ex": [
+        {
+         "en": "It began as a <b>grassroots</b> campaign in one street.",
+         "ar": "بدأت حملةً شعبيّةً في شارعٍ واحد."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Reporting and attribution",
+     "items": [
+      {
+       "w": "claim",
+       "pos": "verb",
+       "ar": "يزعم",
+       "ex": [
+        {
+         "en": "He <b>claims</b> the survey was independent.",
+         "ar": "يزعم أنّ الاستطلاع كان مستقلّاً."
+        }
+       ]
+      },
+      {
+       "w": "concede",
+       "pos": "verb",
+       "ar": "يُقرّ مُكرَهاً",
+       "ex": [
+        {
+         "en": "She <b>conceded</b> that the sample was small.",
+         "ar": "أقرّت مُكرَهةً بأنّ العيّنة كانت صغيرة."
+        }
+       ]
+      },
+      {
+       "w": "insist",
+       "pos": "verb",
+       "ar": "يُصرّ",
+       "ex": [
+        {
+         "en": "They <b>insisted</b> nothing had changed.",
+         "ar": "أصرّوا على أنّ شيئاً لم يتغيّر."
+        }
+       ]
+      },
+      {
+       "w": "deny",
+       "pos": "verb",
+       "ar": "يُنكر",
+       "ex": [
+        {
+         "en": "The ministry <b>denied</b> the report entirely.",
+         "ar": "أنكرت الوزارة التقرير بالكامل."
+        }
+       ]
+      },
+      {
+       "w": "point out",
+       "pos": "verb",
+       "ar": "يُشير إلى (حقيقة)",
+       "ex": [
+        {
+         "en": "Critics <b>pointed out</b> that the law already existed.",
+         "ar": "أشار النقّاد إلى أنّ القانون موجودٌ أصلاً."
+        }
+       ]
+      },
+      {
+       "w": "allegedly",
+       "pos": "adv",
+       "ar": "بحسب المزاعم",
+       "ex": [
+        {
+         "en": "The documents were <b>allegedly</b> destroyed.",
+         "ar": "أُتلفت الوثائق بحسب المزاعم."
+        }
+       ]
+      },
+      {
+       "w": "on the record",
+       "pos": "phrase",
+       "ar": "بتصريحٍ رسميّ مُعلَن",
+       "ex": [
+        {
+         "en": "Nobody would say it <b>on the record</b>.",
+         "ar": "لم يقلها أحدٌ بتصريحٍ معلَن."
+        }
+       ]
+      },
+      {
+       "w": "attribute to",
+       "pos": "verb",
+       "ar": "يعزو إلى",
+       "ex": [
+        {
+         "en": "The quote was wrongly <b>attributed to</b> her.",
+         "ar": "نُسب الاقتباس إليها خطأً."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: a village that emptied",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "A researcher reports what villagers told her. Count the reporting verbs — she never uses <code dir=ltr>said</code> twice in a row, and each choice reveals what she thinks.<span class=n-ar>باحثةٌ تنقل ما قاله أهل القرية. أحصِ أفعال النقل: لا تكرّر said مرّتين متتاليتين، وكلّ اختيارٍ يكشف رأيها.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "The Village That Emptied",
+     "titleAr": "القرية التي فرغت",
+     "lines": [
+      {
+       "sp": "Nour",
+       "en": "So how many families were left when you got there?",
+       "ar": "كم عائلةً بقيت حين وصلتِ؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "Nine. The mayor insisted it was eleven, but two had already gone.",
+       "ar": "تسع. أصرّ العمدة أنّها إحدى عشرة، لكنّ اثنتين كانتا قد رحلتا."
+      },
+      {
+       "sp": "Nour",
+       "en": "Did anyone explain why?",
+       "ar": "هل شرح أحدٌ السبب؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "Everyone had a different answer. An old teacher claimed the school closure started it.",
+       "ar": "كان لكلٍّ إجابةٌ مختلفة. زعم معلّمٌ مسنّ أنّ إغلاق المدرسة هو ما بدأ الأمر."
+      },
+      {
+       "sp": "Nour",
+       "en": "And you don't believe him?",
+       "ar": "وأنتِ لا تصدّقينه؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "I believe he believes it. But the census shows people had been leaving for twenty years.",
+       "ar": "أصدّق أنّه يصدّق ذلك. لكنّ التعداد يُظهر أنّ الناس كانوا يغادرون منذ عشرين عاماً."
+      },
+      {
+       "sp": "Nour",
+       "en": "So what did the younger ones tell you?",
+       "ar": "وماذا قال لكِ الشبّان؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "One woman admitted she had never intended to stay. She asked me whether I would have stayed.",
+       "ar": "اعترفت امرأةٌ بأنّها لم تنوِ البقاء قطّ. وسألتني هل كنتُ سأبقى أنا."
+      },
+      {
+       "sp": "Nour",
+       "en": "What did you say?",
+       "ar": "وماذا قلتِ؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "Nothing useful. I pointed out that I was asking the questions, and she laughed at me.",
+       "ar": "لا شيء مفيد. أشرتُ إلى أنّي أنا من يطرح الأسئلة، فضحكت عليّ."
+      },
+      {
+       "sp": "Nour",
+       "en": "Fair enough. Did the government ever respond?",
+       "ar": "محقّة. هل ردّت الحكومة يوماً؟"
+      },
+      {
+       "sp": "Layla",
+       "en": "They denied that any village had been abandoned. Then they announced a reform package.",
+       "ar": "أنكروا أنّ أيّ قريةٍ هُجرت. ثمّ أعلنوا حزمة إصلاح."
+      },
+      {
+       "sp": "Nour",
+       "en": "Which tells you they knew.",
+       "ar": "وهذا يخبرك أنّهم كانوا يعلمون."
+      },
+      {
+       "sp": "Layla",
+       "en": "Exactly. Nobody would say it on the record, but everyone conceded it off it.",
+       "ar": "بالضبط. لم يقلها أحدٌ بتصريحٍ معلَن، لكنّ الجميع أقرّوا بها خارجه."
+      },
+      {
+       "sp": "Nour",
+       "en": "That's the whole story, isn't it? What people admit when the recorder stops.",
+       "ar": "هذه هي القصّة كلّها، أليس كذلك؟ ما يعترف به الناس حين يتوقّف المسجّل."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "The mayor's number was",
+       "opts": [
+        "accurate",
+        "an overstatement",
+        "an understatement",
+        "never given"
+       ],
+       "a": 1,
+       "why": "قال إحدى عشرة والواقع تسع."
+      },
+      {
+       "t": "mcq",
+       "q": "Layla uses <code dir=ltr>claimed</code> about the teacher because she",
+       "opts": [
+        "agrees fully",
+        "doubts the explanation",
+        "did not hear him",
+        "is quoting a document"
+       ],
+       "a": 1,
+       "why": "claimed تحمل شكّ الناقل."
+      },
+      {
+       "t": "mcq",
+       "q": "The census data suggests the decline",
+       "opts": [
+        "began with the school closure",
+        "began long before the closure",
+        "never happened",
+        "was reversed"
+       ],
+       "a": 1,
+       "why": "«يغادرون منذ عشرين عاماً»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She asked me whether I would have stayed.</code> The original question was",
+       "opts": [
+        "Will you stay?",
+        "Would you have stayed?",
+        "Did you stay?",
+        "Are you staying?"
+       ],
+       "a": 1,
+       "why": "يبقى would have كما هو في النقل."
+      },
+      {
+       "t": "mcq",
+       "q": "The government's two actions together imply",
+       "opts": [
+        "they had no information",
+        "they knew and denied it",
+        "the villages were fine",
+        "the census was wrong"
+       ],
+       "a": 1,
+       "why": "إنكارٌ يتبعه حزمة إصلاح."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>on the record</code> vs <code dir=ltr>off it</code> contrasts",
+       "opts": [
+        "written and spoken",
+        "public attributable statements and private ones",
+        "true and false",
+        "official and illegal"
+       ],
+       "a": 1,
+       "why": "تصريحٌ يُنسب علناً مقابل حديثٍ خاصّ."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "The mayor insisded it wuz eleven",
+       "a": [
+        "The mayor insisted it was eleven"
+       ],
+       "why": "insisted ← flap T."
+      },
+      {
+       "t": "dict",
+       "say": "She askt me whether I wuda stayed",
+       "a": [
+        "She asked me whether I would have stayed",
+        "She asked me whether I wouldve stayed"
+       ],
+       "why": "would have ← «وودَه»."
+      },
+      {
+       "t": "dict",
+       "say": "Wuddy tell ya?",
+       "a": [
+        "What did he tell you?",
+        "What did he tell you"
+       ],
+       "why": "what did he ← «وودي»، وyou ← يَ."
+      },
+      {
+       "t": "dict",
+       "say": "They denied thad any village had bin abandoned",
+       "a": [
+        "They denied that any village had been abandoned"
+       ],
+       "why": "that ← ذَد، وbeen ← بِن."
+      },
+      {
+       "t": "dict",
+       "say": "Nobody wud say id on the record",
+       "a": [
+        "Nobody would say it on the record"
+       ],
+       "why": "say it ← سيدِت بالربط."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: who gets to define a culture",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "Who Gets to Define a Culture",
+     "titleAr": "من يملك تعريف الثقافة",
+     "en": "Every few years a government somewhere announces that it will protect the national culture, and almost every time the definition it chooses is younger than the people objecting to it. Traditions that feel eternal are usually recent. The kilt, the Bavarian dirndl and the Japanese business suit were all popularised within living memory, and each was <b>allegedly</b> ancient by the time anyone thought to check.<br><br>This matters because cultures do not have spokesmen. When a minister <b>claims</b> that a custom is essential to national identity, they are reporting the views of some citizens and not others. Researchers who have asked directly usually find less agreement than the speeches suggest. One large survey <b>conceded</b> in its own conclusions that respondents differed more within each community than between communities.<br><br>The honest position is uncomfortable: culture is an argument, not an inheritance. It changes because people keep negotiating it, quietly, in kitchens and workplaces, long before any law notices. Those negotiations rarely make the news, because nobody says anything quotable.<br><br>What follows is not that tradition is worthless. It is that anyone who <b>insists</b> there is only one authentic version of a culture is describing their preference and calling it history. The test is simple: ask who would be excluded by the definition, and then ask who chose it.",
+     "ar": "كلّ بضع سنوات تُعلن حكومةٌ ما أنّها ستحمي الثقافة الوطنيّة، وفي كلّ مرّةٍ تقريباً يكون التعريف الذي تختاره أحدث عمراً من المعترضين عليه. فالتقاليد التي تبدو أزليّةً حديثةٌ في العادة. التنّورة الاسكتلنديّة والزيّ البافاريّ والبدلة اليابانيّة للأعمال انتشرت كلّها في الذاكرة الحيّة، وكان كلٌّ منها «قديماً بحسب المزاعم» حين خطر لأحدٍ أن يتحقّق.<br><br>وهذا مهمّ لأنّ الثقافات لا ناطق رسميّ لها. فحين يزعم وزيرٌ أنّ عادةً ما جوهريّةٌ للهويّة الوطنيّة، فإنّه ينقل آراء بعض المواطنين دون بعض. والباحثون الذين سألوا مباشرةً يجدون عادةً توافقاً أقلّ ممّا توحي به الخطب. وقد أقرّ استطلاعٌ كبير في خلاصاته بأنّ المستجيبين اختلفوا داخل كلّ جماعةٍ أكثر ممّا اختلفوا بين الجماعات.<br><br>والموقف الأمين موقفٌ غير مريح: الثقافة جدلٌ لا ميراث. تتغيّر لأنّ الناس يظلّون يتفاوضون عليها بهدوء، في المطابخ وأماكن العمل، قبل أن ينتبه أيّ قانونٍ بزمنٍ طويل. وهذه المفاوضات نادراً ما تصنع خبراً، لأنّ أحداً لا يقول فيها جملةً صالحةً للاقتباس.<br><br>ولا يترتّب على ذلك أنّ التقليد بلا قيمة، بل أنّ من يُصرّ على وجود نسخةٍ أصيلةٍ واحدةٍ للثقافة إنّما يصف تفضيله ويسمّيه تاريخاً. والاختبار بسيط: اسأل من سيُستبعَد بهذا التعريف، ثمّ اسأل من اختاره.",
+     "keys": [
+      [
+       "within living memory",
+       "في الذاكرة الحيّة"
+      ],
+      [
+       "spokesmen",
+       "ناطقون رسميّون"
+      ],
+      [
+       "quotable",
+       "صالح للاقتباس"
+      ],
+      [
+       "an inheritance",
+       "ميراث"
+      ],
+      [
+       "authentic",
+       "أصيل"
+      ],
+      [
+       "would be excluded",
+       "سيُستبعَد"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "The kilt and the dirndl are mentioned to show that",
+       "opts": [
+        "traditions are always fake",
+        "'ancient' traditions are often recent",
+        "Europe has more culture",
+        "clothing matters most"
+       ],
+       "a": 1,
+       "why": "التقاليد التي تبدو أزليّة حديثة عادةً."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>cultures do not have spokesmen</code> means",
+       "opts": [
+        "nobody speaks about culture",
+        "no single person can report a whole culture's view",
+        "ministers are silent",
+        "culture is illegal to discuss"
+       ],
+       "a": 1,
+       "why": "لا أحد يملك تمثيل ثقافةٍ بأكملها."
+      },
+      {
+       "t": "mcq",
+       "q": "The survey's finding was that disagreement was greatest",
+       "opts": [
+        "between communities",
+        "inside each community",
+        "among researchers",
+        "among ministers"
+       ],
+       "a": 1,
+       "why": "«اختلفوا داخل كلّ جماعةٍ أكثر»."
+      },
+      {
+       "t": "mcq",
+       "q": "Why do everyday cultural negotiations rarely make the news?",
+       "opts": [
+        "They are secret",
+        "They produce nothing quotable",
+        "They are illegal",
+        "Journalists are banned"
+       ],
+       "a": 1,
+       "why": "«لا يقول فيها أحدٌ جملةً صالحةً للاقتباس»."
+      },
+      {
+       "t": "mcq",
+       "q": "The writer's attitude to tradition is",
+       "opts": [
+        "it is worthless",
+        "it is valuable but has no single authentic version",
+        "it must be protected by law",
+        "it should be abolished"
+       ],
+       "a": 1,
+       "why": "«لا يترتّب على ذلك أنّ التقليد بلا قيمة»."
+      },
+      {
+       "t": "mcq",
+       "q": "The reporting verbs <code dir=ltr>claims</code>, <code dir=ltr>conceded</code> and <code dir=ltr>insists</code> show that the writer",
+       "opts": [
+        "is neutral throughout",
+        "signals scepticism, reluctance and stubbornness in turn",
+        "is quoting one source",
+        "dislikes all research"
+       ],
+       "a": 1,
+       "why": "كلّ فعلٍ يحمل موقفاً مختلفاً من المتكلّم."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "abstract nouns keep their stress on one syllable only",
+     "rows": [
+      {
+       "w": "identity",
+       "s": "eye-DEN-uh-dee",
+       "ar": "النبر على الثاني وflap T"
+      },
+      {
+       "w": "tradition",
+       "s": "truh-DISH-un",
+       "ar": "tra ← ترَ خفيفة"
+      },
+      {
+       "w": "authentic",
+       "s": "aw-THEN-ik",
+       "ar": "تختفي t الثانية"
+      },
+      {
+       "w": "a lot of people",
+       "s": "a lodda peeple",
+       "ar": "lot of ← لاده"
+      },
+      {
+       "w": "kind of",
+       "s": "kynda",
+       "ar": "نوعاً ما"
+      },
+      {
+       "w": "used to be",
+       "s": "yoos-ta be",
+       "ar": "كان في الماضي"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Attributing, distancing and quoting",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Distancing yourself from a claim",
+     "html": "When you report something you are not sure about:<br><br><code dir=ltr>Apparently, …</code> — I heard it, I can't confirm it<br><code dir=ltr>Reportedly / Allegedly, …</code> — formal, journalistic<br><code dir=ltr>According to …</code> — names the source, stays neutral<br><code dir=ltr>She's supposed to have …</code> — rumour<br><code dir=ltr>Word is that …</code> — very informal<br><br>These are how English says «يُقال إنّ» without committing you to it.<span class=n-ar>هذه صيغ «يُقال إنّ» بالإنجليزية: تنقل الخبر دون أن تتبنّاه.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Quoting inside a conversation",
+     "html": "In real American speech, people rarely say <code dir=ltr>he said</code>. They say:<br><br><code dir=ltr>He was like, \"No way.\"</code> — the most common of all<br><code dir=ltr>She goes, \"Are you serious?\"</code> — storytelling<br><code dir=ltr>I'm like, what am I supposed to do?</code> — reporting a thought, not words<br><br>⚠️ Perfect for films and podcasts; never for writing or work email.<span class=n-ar>في الكلام الأمريكيّ الحقيقيّ يُستعمل be like بدل said. ممتازٌ لفهم الأفلام، وممنوعٌ في الكتابة والعمل.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>He said me that…</code> → ✅ <code dir=ltr>He told me that…</code> / <code dir=ltr>He said that…</code><br>❌ <code dir=ltr>She told that she was late</code> → ✅ <code dir=ltr>She said that she was late</code><br>❌ <code dir=ltr>He asked me that where I live</code> → ✅ <code dir=ltr>He asked me where I lived</code><br>❌ <code dir=ltr>They discussed about the issue</code> → ✅ <code dir=ltr>They discussed the issue</code><br>❌ <code dir=ltr>According to me, …</code> → ✅ <code dir=ltr>In my view, …</code><br>❌ <code dir=ltr>He denied to go</code> → ✅ <code dir=ltr>He refused to go</code> / <code dir=ltr>He denied going</code><br><br>The rule: <b>tell</b> needs a person, <b>say</b> does not.<span class=n-ar>القاعدة: tell تحتاج مفعولاً شخصيّاً وsay لا تحتاجه. وaccording to لا تُستعمل مع النفس أبداً.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: society words",
+     "hint": "-tion and -sion always pull the stress before them",
+     "rows": [
+      {
+       "w": "tra·DI·tion",
+       "s": "truh-DISH-un",
+       "ar": "النبر قبل tion"
+      },
+      {
+       "w": "gener·A·tion",
+       "s": "jen-uh-RAY-shun",
+       "ar": "النبر على RAY"
+      },
+      {
+       "w": "in·e·QUAL·i·ty",
+       "s": "in-ih-KWOL-ih-dee",
+       "ar": "النبر على الثالث"
+      },
+      {
+       "w": "as·SIM·i·late",
+       "s": "uh-SIM-uh-layt",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "her·i·tage",
+       "s": "HEH-rih-tij",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "ta·BOO",
+       "s": "tuh-BOO",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "co·HE·sion",
+       "s": "koh-HEE-zhun",
+       "ar": "sion ← جن مجهورة"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "quotative 'be like' in real speech",
+     "rows": [
+      {
+       "w": "He was like, no way",
+       "s": "He wuz-like, no way",
+       "ar": "فقال: مستحيل"
+      },
+      {
+       "w": "And I'm like, seriously?",
+       "s": "An I'm like, seerusly?",
+       "ar": "فقلتُ في نفسي: جدّاً؟"
+      },
+      {
+       "w": "She goes, forget it",
+       "s": "She goze, fergedit",
+       "ar": "فقالت: انسَ الأمر"
+      },
+      {
+       "w": "Apparently not",
+       "s": "Uh-PAIR-untly not",
+       "ar": "يبدو أنّ لا"
+      },
+      {
+       "w": "That's what they say",
+       "s": "Thats wut they say",
+       "ar": "هذا ما يقولونه"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He said me that the office was closed.</code>",
+       "a": [
+        "He told me that the office was closed",
+        "He said that the office was closed",
+        "He told me the office was closed"
+       ],
+       "why": "say لا تأخذ مفعولاً شخصيّاً مباشراً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>According to me, the policy failed.</code>",
+       "a": [
+        "In my view, the policy failed",
+        "In my opinion, the policy failed",
+        "I think the policy failed"
+       ],
+       "why": "according to للآخرين لا للنفس."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>They discussed about the reform for an hour.</code>",
+       "a": [
+        "They discussed the reform for an hour"
+       ],
+       "why": "discuss فعلٌ متعدٍّ بلا حرف جرّ."
+      },
+      {
+       "t": "mcq",
+       "q": "Which is appropriate in a work email?",
+       "opts": [
+        "He was like, it's not ready",
+        "Word is that it's not ready",
+        "According to the vendor, it is not ready",
+        "She goes, it's not ready"
+       ],
+       "a": 2,
+       "why": "صيغةٌ رسميّة تُسمّي المصدر."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She's supposed to have resigned</code> means",
+       "opts": [
+        "she had a duty to resign",
+        "people say she resigned, unconfirmed",
+        "she will resign",
+        "she refused to resign"
+       ],
+       "a": 1,
+       "why": "صيغة إشاعة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ to the report, three schools closed.</code>",
+       "a": [
+        "According"
+       ],
+       "why": "According to + مصدر."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: reporting a conversation",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Report a real conversation you had about a social or cultural change, in <b>130–150 words</b>. It must include:<br><br>• at least four different reporting verbs (not <code dir=ltr>said</code> twice)<br>• one reported question<br>• one reported command or request<br>• one place where you deliberately <u>keep</u> the present tense because it is still true<br>• one distancing phrase (<code dir=ltr>apparently / according to</code>)<span class=n-ar>انقل محادثةً حقيقيّةً عن تغيّرٍ اجتماعيّ في ١٣٠–١٥٠ كلمة، بأربعة أفعال نقلٍ مختلفة، وسؤالٍ منقول، وأمرٍ منقول، وموضعٍ تُبقي فيه الزمن الحاضر عمداً، وصيغة تباعد.</span>",
+     "phrases": [
+      "He claimed that …",
+      "She admitted she had …",
+      "I asked him whether …",
+      "They told me not to …",
+      "He pointed out that … still is …",
+      "According to her, …",
+      "What struck me was that nobody denied …"
+     ],
+     "model": "Last month I asked my uncle why so few young people stay in his town. He claimed that the problem was the internet, which had given everyone somewhere else to look at.\n\nHis daughter disagreed immediately. She pointed out that the hospital closed in 2009 and that the road to the city is still unfinished. Then she admitted that she had applied for a job abroad twice without telling him.\n\nI asked her whether she would return if the hospital reopened. She said she probably wouldn't, and told me not to romanticise a place I had only visited in summer.\n\nAccording to the last census, the town has lost a third of its population. Nobody in the room denied it. What struck me was that they were arguing about the cause, not the fact — and that both of them were partly right.",
+     "modelAr": "الشهر الماضي سألتُ عمّي لماذا يبقى قليلٌ جدّاً من الشباب في بلدته. زعم أنّ المشكلة هي الإنترنت الذي منح الجميع مكاناً آخر ينظرون إليه.\n\nاعترضت ابنته فوراً. أشارت إلى أنّ المستشفى أُغلق عام ٢٠٠٩ وأنّ الطريق إلى المدينة ما يزال غير مكتمل. ثمّ اعترفت بأنّها تقدّمت لوظيفةٍ في الخارج مرّتين دون أن تخبره.\n\nسألتها هل ستعود لو أُعيد فتح المستشفى. قالت إنّها على الأرجح لن تعود، وطلبت منّي ألّا أُضفي رومانسيّةً على مكانٍ لم أزره إلّا صيفاً.\n\nوبحسب التعداد الأخير فقدت البلدة ثلث سكّانها. ولم يُنكر ذلك أحدٌ في الغرفة. وما أدهشني أنّهم كانوا يتجادلون في السبب لا في الحقيقة — وأنّ كليهما كان محقّاً جزئيّاً.",
+     "checklist": [
+      "I used four different reporting verbs",
+      "I never wrote 'He said me'",
+      "My reported question has statement word order and no 'did'",
+      "I used 'not to' for the reported command",
+      "I kept the present tense once, on purpose, for something still true",
+      "I used 'according to' for a source, not for myself",
+      "I did not write 'discussed about'",
+      "I ended with my own observation",
+      "130–150 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the sounds of retelling a story",
+     "rows": [
+      {
+       "w": "You'll never guess what he said",
+       "s": "Yul never gess wudee sed",
+       "ar": "لن تخمّن ما قاله"
+      },
+      {
+       "w": "To be honest with you",
+       "s": "Ta be onist wichoo",
+       "ar": "بصراحةٍ معك"
+      },
+      {
+       "w": "Long story short",
+       "s": "Long story short",
+       "ar": "باختصار"
+      },
+      {
+       "w": "I'm not gonna lie",
+       "s": "I'm not gunna lie",
+       "ar": "لن أكذب عليك"
+      },
+      {
+       "w": "That's not the point",
+       "s": "Thats not the poynt",
+       "ar": "ليست هذه المسألة"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ١٧",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>\"I can't come.\" → She said she ___ come.</code>",
+       "opts": [
+        "can't",
+        "couldn't",
+        "wouldn't",
+        "hadn't"
+       ],
+       "a": 1,
+       "why": "can ← could."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>\"Did you see it?\" → He asked ___ .</code>",
+       "opts": [
+        "did I see it",
+        "if I had seen it",
+        "if did I see it",
+        "have I seen it"
+       ],
+       "a": 1,
+       "why": "if + ترتيب خبريّ + تراجع زمنيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>\"Don't be late.\" → She told me ___ late.</code>",
+       "opts": [
+        "to not be",
+        "not to be",
+        "don't be",
+        "not being"
+       ],
+       "a": 1,
+       "why": "not to + مصدر."
+      },
+      {
+       "t": "mcq",
+       "q": "Which reporting verb implies reluctance?",
+       "opts": [
+        "announced",
+        "conceded",
+        "declared",
+        "mentioned"
+       ],
+       "a": 1,
+       "why": "إقرارٌ على مضض."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The documents were allegedly destroyed</code> tells you the writer",
+       "opts": [
+        "saw it happen",
+        "is not confirming it",
+        "proved it",
+        "denies it"
+       ],
+       "a": 1,
+       "why": "تباعدٌ عن الادّعاء."
+      },
+      {
+       "t": "mcq",
+       "q": "A widely accepted social standard is a",
+       "opts": [
+        "taboo",
+        "norm",
+        "backlash",
+        "stake"
+       ],
+       "a": 1,
+       "why": "عُرف سائد."
+      },
+      {
+       "t": "mcq",
+       "q": "A strong negative public reaction is a",
+       "opts": [
+        "reform",
+        "backlash",
+        "cohesion",
+        "heritage"
+       ],
+       "a": 1,
+       "why": "ردّ فعلٍ عنيف."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>He asked me ___ I was staying or leaving.</code>",
+       "a": [
+        "whether"
+       ],
+       "why": "خياران ← whether."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ to the ministry, no village was abandoned.</code>",
+       "a": [
+        "According"
+       ],
+       "why": "نسبةٌ محايدة للمصدر."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>She ___ (deny) having seen the email.</code>",
+       "a": [
+        "denied"
+       ],
+       "why": "deny + اسم فعليّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He said me he was busy.</code>",
+       "a": [
+        "He told me he was busy",
+        "He said he was busy"
+       ],
+       "why": "tell تحتاج شخصاً وsay لا."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>She asked me where do I work.</code>",
+       "a": [
+        "She asked me where I worked",
+        "She asked me where I work",
+        "She asked where I worked"
+       ],
+       "why": "لا do في السؤال المنقول."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>We discussed about the new custom.</code>",
+       "a": [
+        "We discussed the new custom"
+       ],
+       "why": "discuss متعدٍّ مباشرةً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>According to me, the reform will fail.</code>",
+       "a": [
+        "In my view, the reform will fail",
+        "In my opinion, the reform will fail",
+        "I think the reform will fail"
+       ],
+       "why": "لا تُستعمل according to مع النفس."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "She",
+        "pointed",
+        "out",
+        "that",
+        "the",
+        "law",
+        "already",
+        "existed"
+       ],
+       "a": "She pointed out that the law already existed",
+       "why": "point out + that + جملة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "They",
+        "asked",
+        "whether",
+        "the",
+        "rule",
+        "applied",
+        "to",
+        "everyone"
+       ],
+       "a": "They asked whether the rule applied to everyone",
+       "why": "سؤالٌ منقول بترتيبٍ خبريّ."
+      },
+      {
+       "t": "dict",
+       "say": "He wuz like, thats not wud-I sed",
+       "a": [
+        "He was like, that's not what I said",
+        "He was like thats not what I said"
+       ],
+       "why": "be like + what I ← وودآي."
+      },
+      {
+       "t": "dict",
+       "say": "She toal me nod-ta menshun it",
+       "a": [
+        "She told me not to mention it"
+       ],
+       "why": "not to ← نَدَ."
+      },
+      {
+       "t": "dict",
+       "say": "Wuddy say abowdit?",
+       "a": [
+        "What did he say about it?",
+        "What did he say about it"
+       ],
+       "why": "what did he ← وودي، وabout it ← أباودِت."
+      },
+      {
+       "t": "mcq",
+       "q": "When should you NOT apply the backshift?",
+       "opts": [
+        "Never — it is always required",
+        "When the reported fact is still true now",
+        "When reporting a question",
+        "When the verb is 'told'"
+       ],
+       "a": 1,
+       "why": "الحقيقة القائمة تبقى بزمنها."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "برنامج حواريّ أمريكيّ",
+       "d": "ابحث عن «The Daily Show» — نقلٌ ساخر لكلام الساسة",
+       "task": "سجّل عشرة أفعال نقلٍ مختلفة سمعتها في حلقة."
+      },
+      {
+       "t": "بودكاست وثائقيّ",
+       "d": "ابحث عن «This American Life» — قصصٌ مبنيّة كلّها على نقل الكلام",
+       "task": "استمع خمس عشرة دقيقة، واكتب ثلاث جملٍ منقولة كما سمعتها."
+      },
+      {
+       "t": "مسلسل حواريّ",
+       "d": "ابحث عن «The Office» (النسخة الأمريكيّة) — «be like» في كلّ مشهد",
+       "task": "احصِ استعمالات be like في حلقةٍ واحدة."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "أعد نطق «Wuddy say?» و«She toal me nod-ta» حتّى تصير تلقائيّة."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": "unit-08",
+  "icon": "💼",
+  "title": "العمل والمهنة",
+  "subtitle": "أن تتقن لغة المكتب والاجتماع والبريد",
+  "intro": "لغة العمل ليست إنجليزيّةً أصعب، بل إنجليزيّة <b>أدقّ</b>: صيغٌ مهذّبة محدّدة، وأفعالٌ مركّبة بعينها، وحدٌّ فاصل بين ما يُقال شفويّاً وما يُكتب. وهذه الوحدة تبني ذلك، وتثبّت الفرق بين المضارع التامّ والماضي البسيط في سياقه الأكثر استعمالاً.",
+  "goals": [
+    "أختار بين المضارع التامّ والماضي البسيط بلا تردّد",
+    "أكتب بريداً مهنيّاً بالنبرة الصحيحة",
+    "أشارك في اجتماع: أقترح وأعترض وأطلب توضيحاً",
+    "أصف مسؤوليّاتي وإنجازاتي بلغةٍ مهنيّة"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "المضارع التامّ ↔ الماضي البسيط",
+      "subtitle": "الفاصل الحاسم: هل انتهى الزمن؟",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "السؤال الوحيد الذي يحسم",
+          "html": "لا تسأل «هل الحدث انتهى؟» — بل اسأل: <b>هل الفترة الزمنيّة انتهت؟</b><br><br><code dir=ltr>I've sent three emails <b>today</b>.</code> ← اليوم لم ينتهِ ← تامّ<br><code dir=ltr>I sent three emails <b>yesterday</b>.</code> ← أمس انتهى ← بسيط<br><br><code dir=ltr>We've had two meetings <b>this week</b>.</code> ← الأسبوع جارٍ<br><code dir=ltr>We had two meetings <b>last week</b>.</code> ← انتهى<br><br>💡 وهذا يفسّر لماذا <code dir=ltr>this morning</code> تأخذ الزمنين: إن كنتَ ما زلت في الصباح فهي تامّ، وإن حلّ المساء فهي بسيط."
+        },
+        {
+          "type": "note",
+          "title": "جدول الفصل",
+          "html": "<table><tr><td><b>المضارع التامّ</b></td><td><b>الماضي البسيط</b></td></tr><tr><td dir=ltr>ever · never · already · yet · just · so far · recently</td><td dir=ltr>yesterday · last week · in 2020 · ago · when I was…</td></tr><tr><td dir=ltr>this week/month/year</td><td dir=ltr>last week/month/year</td></tr><tr><td>الوقت غير محدّد أو مستمرّ</td><td>الوقت محدّد ومنتهٍ</td></tr></table><br>⚠️ <code dir=ltr>ago</code> تفرض الماضي البسيط دائماً:<br>✅ <code dir=ltr>I joined two years ago.</code> ❌ <code dir=ltr>I have joined two years ago.</code>"
+        },
+        {
+          "type": "note",
+          "title": "نمط الحوار الطبيعيّ",
+          "html": "المتحدّث الأصليّ يفتح بالتامّ ثمّ ينتقل إلى البسيط للتفاصيل:<br><br><code dir=ltr>— <b>Have you spoken</b> to the client?</code> (فتح)<br><code dir=ltr>— Yes, I <b>called</b> her this morning and she <b>said</b> she needs more time.</code> (تفاصيل)<br><br>احفظ هذا النمط: <b>سؤالٌ بالتامّ، فإجابةٌ بالبسيط.</b> هو أسرع ما يجعل كلامك يبدو طبيعيّاً."
+        },
+        {
+          "type": "note",
+          "title": "been ↔ gone — فرقٌ يقلب المعنى",
+          "html": "<code dir=ltr>He has <b>been</b> to Dubai.</code> ← ذهب <u>وعاد</u> (خبرة)<br><code dir=ltr>He has <b>gone</b> to Dubai.</code> ← ذهب <u>وما زال هناك</u><br><br>فإن قلتَ لزميلك <code dir=ltr>The manager has gone to the bank</code> فهو غائبٌ الآن، وإن قلتَ <code dir=ltr>has been</code> فهو عاد."
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "I<b>'ve worked</b> here for three years.", "ar": "أعمل هنا منذ ثلاث سنوات (وما زلت)." },
+            { "en": "I <b>worked</b> there for three years.", "ar": "عملتُ هناك ثلاث سنوات (وانتهى)." },
+            { "en": "<b>Have</b> you <b>finished</b> the report?", "ar": "هل أنهيتَ التقرير؟" },
+            { "en": "I <b>finished</b> it an hour ago.", "ar": "أنهيتُه قبل ساعة." },
+            { "en": "She<b>'s gone</b> to the meeting.", "ar": "ذهبت إلى الاجتماع (ليست هنا)." },
+            { "en": "She<b>'s been</b> to the meeting.", "ar": "حضرت الاجتماع وعادت." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "اختزال have في أسئلة المكتب",
+          "rows": [
+            { "w": "Have you finished it?", "s": "Havya finishd it?", "ar": "هل أنهيتَه؟" },
+            { "w": "I have not heard back yet", "s": "I haven heard back yet", "ar": "لم يصلني ردّ بعد" },
+            { "w": "He has already left", "s": "He's awready left", "ar": "غادر بالفعل" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>I ___ the report two hours ago.</code>", "opts": ["have sent", "sent", "have send", "was sending"], "a": 1, "why": "ago تفرض الماضي البسيط." },
+            { "t": "mcq", "q": "<code dir=ltr>We ___ three meetings this week.</code>", "opts": ["had", "have had", "has had", "were having"], "a": 1, "why": "this week لم ينتهِ ← تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>She's ___ to the bank — she'll be back at three.</code>", "opts": ["been", "gone", "went", "going"], "a": 1, "why": "ما زالت هناك ← gone." },
+            { "t": "mcq", "q": "<code dir=ltr>___ you ever ___ with this client before?</code>", "opts": ["Did / work", "Have / worked", "Have / work", "Do / worked"], "a": 1, "why": "ever + خبرة ← تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ at my previous company from 2018 to 2021.</code>", "opts": ["have worked", "worked", "have been working", "work"], "a": 1, "why": "فترة منتهية محدّدة ← بسيط." },
+            { "t": "gap", "q": "<code dir=ltr>He ___ (not / reply) to my email yet.</code>", "a": ["has not replied", "hasn't replied", "has not replied."], "why": "yet ← نفي التامّ." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (launch) the product last March.</code>", "a": ["launched"], "why": "last March زمنٌ منتهٍ." },
+            { "t": "gap", "q": "<code dir=ltr>I ___ (just / speak) to him.</code>", "a": ["have just spoken", "'ve just spoken", "have just spoken."], "why": "just ← تامّ، وspeak ← spoken." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have joined the company in 2020.</code>", "a": ["I joined the company in 2020", "I joined the company in 2020."], "why": "تاريخ محدّد ← بسيط." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Did you have finished the task?</code>", "a": ["Have you finished the task?", "Did you finish the task?", "Have you finished the task"], "why": "لا تخلط بين صيغتَي السؤال." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He has went to the client's office.</code>", "a": ["He has gone to the client's office", "He has gone to the clients office"], "why": "التصريف الثالث gone." },
+            { "t": "order", "q": "رتّب:", "ws": ["Have", "you", "heard", "back", "from", "them", "yet"], "a": "Have you heard back from them yet", "why": "yet في آخر السؤال." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: المكتب والاجتماع",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "المهامّ والمسؤوليّات",
+          "items": [
+            { "w": "take on", "pos": "phrasal verb", "ar": "يتولّى مهمّةً أو مسؤوليّة", "ex": [{ "en": "I've <b>taken on</b> two new projects.", "ar": "تولّيتُ مشروعين جديدين." }] },
+            { "w": "hand over", "pos": "phrasal verb", "ar": "يسلّم المهمّة لغيره", "ex": [{ "en": "I'll <b>hand over</b> the file before I leave.", "ar": "سأسلّم الملفّ قبل مغادرتي." }] },
+            { "w": "follow up", "pos": "phrasal verb", "ar": "يتابع الأمر", "ex": [{ "en": "Could you <b>follow up</b> with the supplier?", "ar": "أيمكنك متابعة الأمر مع المورّد؟" }] },
+            { "w": "chase up", "pos": "phrasal verb", "ar": "يلاحق طلباً متأخّراً", "ex": [{ "en": "I need to <b>chase up</b> that invoice.", "ar": "عليّ ملاحقة تلك الفاتورة." }] },
+            { "w": "delegate", "pos": "verb", "ar": "يفوّض المهمّة", "ex": [{ "en": "A good manager knows how to <b>delegate</b>.", "ar": "المدير الجيّد يعرف كيف يفوّض." }] },
+            { "w": "prioritise", "pos": "verb", "ar": "يرتّب الأولويّات", "ex": [{ "en": "We need to <b>prioritise</b> these tasks.", "ar": "علينا ترتيب أولويّات هذه المهامّ." }] },
+            { "w": "workload", "pos": "noun", "ar": "عبء العمل", "ex": [{ "en": "My <b>workload</b> has doubled this quarter.", "ar": "تضاعف عبء عملي هذا الربع." }] },
+            { "w": "on top of things", "pos": "idiom", "ar": "مسيطر على أموره", "ex": [{ "en": "She's always <b>on top of things</b>.", "ar": "إنّها مسيطرة على أمورها دائماً." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الاجتماعات",
+          "items": [
+            { "w": "set up a meeting", "pos": "expression", "ar": "يرتّب اجتماعاً", "ex": [{ "en": "Let's <b>set up a meeting</b> for Thursday.", "ar": "لنرتّب اجتماعاً يوم الخميس." }] },
+            { "w": "agenda", "pos": "noun", "ar": "جدول أعمال", "ex": [{ "en": "What's on the <b>agenda</b> today?", "ar": "ما جدول الأعمال اليوم؟" }] },
+            { "w": "bring up", "pos": "phrasal verb", "ar": "يطرح موضوعاً", "ex": [{ "en": "I'd like to <b>bring up</b> the budget.", "ar": "أودّ طرح موضوع الميزانيّة." }] },
+            { "w": "go over", "pos": "phrasal verb", "ar": "يراجع ويستعرض", "ex": [{ "en": "Let's <b>go over</b> the numbers again.", "ar": "لنراجع الأرقام ثانيةً." }] },
+            { "w": "come up with", "pos": "phrasal verb", "ar": "يبتكر حلّاً أو فكرة", "ex": [{ "en": "We need to <b>come up with</b> a plan B.", "ar": "علينا أن نأتي بخطّةٍ بديلة." }] },
+            { "w": "run by", "pos": "phrasal verb", "ar": "يعرض الفكرة على أحدهم لرأيه", "ex": [{ "en": "Let me <b>run</b> it <b>by</b> the team first.", "ar": "دعني أعرضه على الفريق أوّلاً." }] },
+            { "w": "wrap up", "pos": "phrasal verb", "ar": "يُنهي ويختم", "ex": [{ "en": "Let's <b>wrap up</b> — we're out of time.", "ar": "لنختم — نفد الوقت." }] },
+            { "w": "action point", "pos": "noun", "ar": "بند تنفيذيّ", "ex": [{ "en": "I'll email the <b>action points</b> after.", "ar": "سأرسل البنود التنفيذيّة لاحقاً." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الأداء والتقييم",
+          "items": [
+            { "w": "meet a deadline", "pos": "expression", "ar": "يلتزم بالموعد النهائيّ", "ex": [{ "en": "We <b>met the deadline</b> by one hour.", "ar": "التزمنا بالموعد بفارق ساعة." }] },
+            { "w": "fall behind", "pos": "phrasal verb", "ar": "يتخلّف عن الجدول", "ex": [{ "en": "We've <b>fallen behind</b> on testing.", "ar": "تخلّفنا في الاختبار." }] },
+            { "w": "step up", "pos": "phrasal verb", "ar": "يرتقي بأدائه عند الحاجة", "ex": [{ "en": "She really <b>stepped up</b> last quarter.", "ar": "ارتقت بأدائها حقّاً الربع الماضي." }] },
+            { "w": "track record", "pos": "noun", "ar": "سجلّ إنجازات", "ex": [{ "en": "He has a strong <b>track record</b>.", "ar": "لديه سجلّ إنجازاتٍ قويّ." }] },
+            { "w": "constructive feedback", "pos": "expression", "ar": "ملاحظات بنّاءة", "ex": [{ "en": "Thanks for the <b>constructive feedback</b>.", "ar": "شكراً على الملاحظات البنّاءة." }] },
+            { "w": "room for improvement", "pos": "expression", "ar": "مجال للتحسين", "ex": [{ "en": "There's still <b>room for improvement</b>.", "ar": "ما زال ثمّة مجال للتحسين." }] },
+            { "w": "go the extra mile", "pos": "idiom", "ar": "يبذل جهداً فوق المطلوب", "ex": [{ "en": "She always <b>goes the extra mile</b>.", "ar": "تبذل دائماً جهداً فوق المطلوب." }] },
+            { "w": "get up to speed", "pos": "idiom", "ar": "يلحق بالمستوى المطلوب", "ex": [{ "en": "Give him a week to <b>get up to speed</b>.", "ar": "امنحه أسبوعاً ليلحق بالمستوى." }] },
+            { "w": "in the loop", "pos": "idiom", "ar": "على اطّلاع بالمستجدّات", "ex": [{ "en": "Please keep me <b>in the loop</b>.", "ar": "أبقني على اطّلاع من فضلك." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: اجتماع فريق",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>لاحظ نمط «سؤالٌ بالتامّ ← إجابةٌ بالبسيط»."
+        },
+        {
+          "type": "dialogue",
+          "title": "Monday Stand-up",
+          "titleAr": "اجتماع الاثنين السريع",
+          "lines": [
+            { "sp": "Sami", "en": "Morning, everyone. Let's keep this short. Rana, where are we?", "ar": "صباح الخير جميعاً. لنُبقِ هذا قصيراً. رنا، أين وصلنا؟" },
+            { "sp": "Rana", "en": "We've finished the design phase. I sent the files on Friday.", "ar": "أنهينا مرحلة التصميم. أرسلتُ الملفّات يوم الجمعة." },
+            { "sp": "Sami", "en": "Great. Has the client signed off on them?", "ar": "ممتاز. هل اعتمدها العميل؟" },
+            { "sp": "Rana", "en": "Not yet. I chased it up this morning but haven't heard back.", "ar": "ليس بعد. لاحقتُ الأمر هذا الصباح لكن لم يصلني ردّ." },
+            { "sp": "Sami", "en": "Follow up again tomorrow. Karim, how's development?", "ar": "تابع الأمر ثانيةً غداً. كريم، كيف التطوير؟" },
+            { "sp": "Karim", "en": "We've fallen behind a bit, to be honest.", "ar": "تخلّفنا قليلاً، بصراحة." },
+            { "sp": "Sami", "en": "By how much?", "ar": "بكم؟" },
+            { "sp": "Karim", "en": "Three days. We hit a problem with the payment system last week.", "ar": "ثلاثة أيّام. واجهنا مشكلةً في نظام الدفع الأسبوع الماضي." },
+            { "sp": "Sami", "en": "Can we still meet the deadline?", "ar": "أيمكننا الالتزام بالموعد النهائيّ؟" },
+            { "sp": "Karim", "en": "If we prioritise the core features, yes. The extras would have to wait.", "ar": "إن رتّبنا أولويّة الميزات الأساسيّة، فنعم. أمّا الإضافات فستنتظر." },
+            { "sp": "Sami", "en": "That works. Run the list by me this afternoon.", "ar": "هذا مقبول. اعرض عليّ القائمة بعد الظهر." },
+            { "sp": "Karim", "en": "Will do. Should I bring it up with the client too?", "ar": "سأفعل. أأطرحه مع العميل أيضاً؟" },
+            { "sp": "Sami", "en": "Not yet — let's go over it internally first.", "ar": "ليس بعد — لنراجعه داخليّاً أوّلاً." },
+            { "sp": "Sami", "en": "All right, let's wrap up. I'll email the action points.", "ar": "حسناً، لنختم. سأرسل البنود التنفيذيّة." },
+            { "sp": "Rana", "en": "Thanks — and please keep me in the loop on the payment issue.", "ar": "شكراً — وأبقني على اطّلاع بشأن مشكلة الدفع." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما حالة مرحلة التصميم؟", "opts": ["لم تبدأ", "انتهت والملفّات أُرسلت", "متأخّرة", "أُلغيت"], "a": 1, "why": "<code dir=ltr>We've finished the design phase</code>." },
+            { "t": "mcq", "q": "هل اعتمد العميل التصاميم؟", "opts": ["نعم", "لا، ولم يصل ردّ بعد", "رفضها", "طلب تعديلاً"], "a": 1, "why": "<code dir=ltr>Not yet … haven't heard back</code>." },
+            { "t": "mcq", "q": "كم تأخّر التطوير؟", "opts": ["يوم", "يومان", "ثلاثة أيّام", "أسبوع"], "a": 2, "why": "<code dir=ltr>Three days</code>." },
+            { "t": "mcq", "q": "ما شرط الالتزام بالموعد؟", "opts": ["توظيف مطوّر", "ترتيب أولويّة الميزات الأساسيّة وتأجيل الإضافات", "تمديد الموعد", "إلغاء الاختبار"], "a": 1, "why": "<code dir=ltr>If we prioritise the core features</code>." },
+            { "t": "mcq", "q": "لماذا طلب سامي عدم إبلاغ العميل بعد؟", "opts": ["لأنّ العميل مشغول", "ليراجعوا الأمر داخليّاً أوّلاً", "لأنّه غير مهمّ", "لأنّ رنا ستفعل"], "a": 1, "why": "<code dir=ltr>let's go over it internally first</code>." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "We've finishd the design phase", "a": ["We've finished the design phase", "We have finished the design phase", "weve finished the design phase"], "why": "ed تُنطق t بعد sh." },
+            { "t": "dict", "say": "I chased id up this mornin", "a": ["I chased it up this morning", "i chased it up this morning"], "why": "it up تلتصق، وسقطت g." },
+            { "t": "dict", "say": "Can we still meed the deadline?", "a": ["Can we still meet the deadline?", "can we still meet the deadline"], "why": "meet the بـ d مرتدّة." },
+            { "t": "dict", "say": "Run the lis by me this afternoon", "a": ["Run the list by me this afternoon", "run the list by me this afternoon"], "why": "سقطت t من list." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: لماذا تفشل الاجتماعات",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Why Meetings Fail",
+          "titleAr": "لماذا تفشل الاجتماعات",
+          "en": "The average manager now spends more than twenty hours a week in meetings, and surveys suggest that they consider roughly half of that time wasted. What is striking is that almost everyone agrees, and almost nothing changes. The reason is that meetings solve a social problem even when they fail to solve a business one: they distribute responsibility. If a decision is made in a room full of people, nobody has to own it alone.<br><br>Companies that have improved their meetings usually did three unglamorous things. First, they required an <b>agenda</b> with a decision attached — not a topic but a question to be answered. Second, they gave every meeting a default length of twenty-five minutes rather than an hour, which forces people to arrive prepared. Third, and most uncomfortably, they made it acceptable to decline. In most organisations, refusing a meeting invitation is read as disloyalty rather than as good judgement.<br><br>There is one more change that costs nothing. Before the meeting ends, someone states the <b>action points</b> out loud: who is doing what, by when. Teams that do this consistently report far fewer repeated discussions, because the most common reason a topic comes back is not disagreement — it is that nobody was ever clearly responsible for it in the first place.",
+          "ar": "يقضي المدير المتوسّط اليوم أكثر من عشرين ساعة أسبوعيّاً في اجتماعات، وتشير الاستطلاعات إلى أنّه يعدّ نصف ذلك الوقت تقريباً ضائعاً. والمدهش أنّ الجميع يكاد يتّفق على ذلك، ولا يتغيّر شيء يُذكر. والسبب أنّ الاجتماع يحلّ مشكلةً اجتماعيّة حتى حين يعجز عن حلّ مشكلةٍ عمليّة: إنّه يوزّع المسؤوليّة. فإذا اتُّخذ قرارٌ في غرفةٍ مليئة بالناس، لم يضطرّ أحدٌ إلى تحمّله وحده.<br><br>والشركات التي حسّنت اجتماعاتها فعلت عادةً ثلاثة أمورٍ غير برّاقة. أوّلها أنّها اشترطت جدول أعمالٍ مقروناً بقرار — لا موضوعاً بل سؤالاً يُجاب عنه. وثانيها أنّها جعلت الطول الافتراضيّ لكلّ اجتماع خمساً وعشرين دقيقة بدل ساعة، وهو ما يُلزم الحاضرين بالتحضير. وثالثها، وهو الأشدّ إحراجاً، أنّها جعلت الاعتذار عن الحضور مقبولاً. ففي أكثر المؤسّسات يُقرأ رفض دعوة اجتماعٍ على أنّه قلّة ولاء لا حسن تقدير.<br><br>وثمّة تغييرٌ أخير لا يكلّف شيئاً: قبل أن ينتهي الاجتماع، يذكر أحدهم البنود التنفيذيّة بصوتٍ مسموع — من يفعل ماذا، وبحلول متى. والفرق التي تواظب على ذلك تفيد بانخفاضٍ كبير في النقاشات المكرّرة، لأنّ أشيع سببٍ لعودة موضوعٍ ما ليس الخلاف — بل أنّ أحداً لم يكن مسؤولاً عنه بوضوح من الأساس.",
+          "keys": [["agenda", "جدول أعمال"], ["action points", "بنود تنفيذيّة"], ["distribute", "يوزّع"], ["decline", "يعتذر عن"], ["responsible", "مسؤول"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "لماذا تستمرّ الاجتماعات رغم الاتّفاق على ضياع نصف وقتها؟", "opts": ["لأنّها ممتعة", "لأنّها توزّع المسؤوليّة فلا يتحمّلها أحد وحده", "لأنّ القانون يفرضها", "لأنّها ترفع الإنتاجيّة"], "a": 1, "why": "<code dir=ltr>they distribute responsibility</code>." },
+            { "t": "mcq", "q": "ما الشرط الأوّل الذي وضعته الشركات الناجحة؟", "opts": ["حضور الجميع", "جدول أعمال مقرون بقرارٍ لا بموضوع", "تسجيل الاجتماع", "اجتماع يوميّ"], "a": 1, "why": "<code dir=ltr>an agenda with a decision attached</code>." },
+            { "t": "mcq", "q": "لماذا خمس وعشرون دقيقة بدل ساعة؟", "opts": ["لتوفير المال", "لأنّها تُلزم الحاضرين بالتحضير", "لأنّ الساعة طويلة على الانتباه", "لتكثير الاجتماعات"], "a": 1, "why": "<code dir=ltr>forces people to arrive prepared</code>." },
+            { "t": "mcq", "q": "كيف يُقرأ رفض دعوة اجتماع في أكثر المؤسّسات؟", "opts": ["حسن تقدير", "قلّة ولاء", "طلب إجازة", "اعتراض على المدير"], "a": 1, "why": "<code dir=ltr>read as disloyalty</code>." },
+            { "t": "mcq", "q": "ما السبب الأشيع لعودة الموضوع نفسه؟", "opts": ["الخلاف", "أنّ أحداً لم يكن مسؤولاً عنه بوضوح", "ضيق الوقت", "غياب المدير"], "a": 1, "why": "<code dir=ltr>nobody was ever clearly responsible</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>unglamorous</code> تصف الأمور الثلاثة بأنّها…", "opts": ["مكلفة", "غير برّاقة لكنّها فعّالة", "مستحيلة", "جديدة"], "a": 1, "why": "استنتاج من السياق." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "لغة الاجتماعات كما تُنطق",
+          "rows": [
+            { "w": "Let us go over it again", "s": "Let's go over id again", "ar": "لنراجعه ثانيةً" },
+            { "w": "What is on the agenda?", "s": "Wuts on the agenda?", "ar": "ما جدول الأعمال؟" },
+            { "w": "I will get back to you", "s": "I'll ged back to ya", "ar": "سأعود إليك" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تعترض وتقترح وتطلب دون أن تجرح",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الاعتراض المهذّب — أهمّ مهارةٍ مهنيّة",
+          "html": "الاعتراض المباشر يُغلق النقاش. الصيغة الإنجليزيّة المهنيّة تبدأ <b>بالاتّفاق الجزئيّ</b>:<br><br>• <code dir=ltr>I see your point, but …</code><br>• <code dir=ltr>That's a fair point. My only concern is …</code><br>• <code dir=ltr>I'm not sure I'd agree with that, actually.</code><br>• <code dir=ltr>Could we look at it from another angle?</code><br><br>⚠️ تجنّب <code dir=ltr>You are wrong · That is not true · No.</code> — فجّة ومكلفة مهنيّاً."
+        },
+        {
+          "type": "note",
+          "title": "الطلب المهذّب — سلّم القوّة",
+          "html": "<table><tr><td dir=ltr><b>Can you …?</b></td><td>عاديّ بين الزملاء</td></tr><tr><td dir=ltr><b>Could you …?</b></td><td>أكثر لباقة</td></tr><tr><td dir=ltr><b>Would you mind …ing?</b></td><td>مهذّب جدّاً</td></tr><tr><td dir=ltr><b>I was wondering if you could …</b></td><td>الأكثر لطفاً — للطلبات الكبيرة</td></tr></table><br>⚠️ فخّ: <code dir=ltr>Would you mind helping?</code> ← الإجابة بالموافقة هي <code dir=ltr>Not at all</code> لا <code dir=ltr>Yes</code>، لأنّ السؤال «هل تمانع؟»."
+        },
+        {
+          "type": "note",
+          "title": "نبرة البريد — فرقٌ يُحدث أثراً",
+          "html": "<table><tr><td><b>فجّ</b></td><td><b>مهنيّ</b></td></tr><tr><td dir=ltr>Send me the file.</td><td dir=ltr>Could you send me the file when you get a chance?</td></tr><tr><td dir=ltr>You didn't reply.</td><td dir=ltr>I just wanted to follow up on my last email.</td></tr><tr><td dir=ltr>This is wrong.</td><td dir=ltr>I think there may be an error here.</td></tr><tr><td dir=ltr>I want a meeting.</td><td dir=ltr>Would you be available for a short call this week?</td></tr></table>"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: كلمات المكتب",
+          "hint": "النبر في غير موضعه يربك السامع",
+          "rows": [
+            { "w": "col·LEAGUE", "s": "KOL-eeg", "ar": "النبر على الأوّل" },
+            { "w": "sched·ule", "s": "SKEJ-ool (أمريكيّ)", "ar": "بريطانيّاً: SHED-yool" },
+            { "w": "de·VEL·op", "s": "duh-VEL-up", "ar": "النبر على الأوسط" },
+            { "w": "PROD·uct (اسم)", "s": "pro·DUCE (فعل)", "ar": "النبر يفرّق بين الاسم والفعل" },
+            { "w": "RE·cord (اسم)", "s": "re·CORD (فعل)", "ar": "القاعدة نفسها" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "صيغ الطلب كما تُنطق",
+          "rows": [
+            { "w": "Would you mind sending it?", "s": "Wouldja mind sendin it?", "ar": "هل تمانع إرساله؟" },
+            { "w": "I was wondering if you could help", "s": "I wuz wonderin if ya could help", "ar": "كنت أتساءل إن كان بوسعك المساعدة" },
+            { "w": "Let me know what you think", "s": "Lemme know wutcha think", "ar": "أعلمني برأيك" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "زميلك يقترح فكرةً ترفضها. ما الأنسب؟", "opts": ["You're wrong.", "I see your point, but my concern is…", "No, that's bad.", "That is not true."], "a": 1, "why": "الاتّفاق الجزئيّ يفتح النقاش." },
+            { "t": "mcq", "q": "<code dir=ltr>Would you mind opening the window?</code> — كيف توافق؟", "opts": ["Yes.", "Not at all.", "Of course I mind.", "Yes, I mind."], "a": 1, "why": "السؤال «هل تمانع؟» فالموافقة نفيٌ للممانعة." },
+            { "t": "mcq", "q": "أيّ صيغةٍ أنسب لطلبٍ كبير من مديرك؟", "opts": ["Can you…?", "Send me…", "I was wondering if you could…", "Do it please."], "a": 2, "why": "الأطول أكثر لباقةً، ويناسب الطلبات الثقيلة." },
+            { "t": "mcq", "q": "أين النبر في <code dir=ltr>colleague</code>؟", "opts": ["على الثاني", "على الأوّل", "متساوٍ", "على الأخير"], "a": 1, "why": "KOL-eeg." },
+            { "t": "correct", "q": "اجعلها مهنيّة: <code dir=ltr>You didn't reply to my email.</code>", "a": ["I just wanted to follow up on my last email", "I wanted to follow up on my last email", "I just wanted to follow up on my last email."], "why": "المتابعة بدل الاتّهام." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "was", "wondering", "if", "you", "could", "help"], "a": "I was wondering if you could help", "why": "أكثر صيغ الطلب لطفاً." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: بريد متابعة",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "أرسلتَ ملفّاً إلى عميل قبل أسبوع ولم يردّ، والموعد النهائيّ يقترب. اكتب بريد متابعة في <b>٨٠–١٠٠ كلمة</b> يتضمّن:<br><br>• تذكيراً لطيفاً بما أرسلتَه (مضارع تامّ)<br>• سبب الاستعجال دون ضغطٍ فجّ<br>• طلباً مهذّباً بصيغةٍ من سلّم القوّة<br>• عرض مساعدةٍ أو بديل<br>• خاتمةً مهنيّة",
+          "phrases": [
+            "I hope you're well.",
+            "I just wanted to follow up on …",
+            "I sent over … last week.",
+            "As the deadline is approaching, …",
+            "Could you let me know if …?",
+            "I'd be happy to … if that helps.",
+            "Looking forward to hearing from you."
+          ],
+          "model": "Dear Ms Haddad,\n\nI hope you're well. I just wanted to follow up on the design files I sent over last week.\n\nAs the deadline is approaching at the end of this month, it would help us a great deal to have your feedback before Thursday. That would still leave enough time for any changes you'd like.\n\nCould you let me know if anything is unclear? I'd be happy to walk you through the files on a short call if that's easier.\n\nLooking forward to hearing from you.\n\nBest regards,\nOmar",
+          "modelAr": "عزيزتي السيّدة حدّاد،\n\nأرجو أن تكوني بخير. أردتُ فقط متابعة ملفّات التصميم التي أرسلتُها الأسبوع الماضي.\n\nولمّا كان الموعد النهائيّ يقترب في نهاية هذا الشهر، فسيساعدنا كثيراً أن تصلنا ملاحظاتك قبل الخميس. وهذا يترك وقتاً كافياً لأيّ تعديلاتٍ ترغبين فيها.\n\nهل يمكنك إعلامي إن كان ثمّة ما هو غير واضح؟ ويسعدني أن أشرح لك الملفّات في مكالمةٍ قصيرة إن كان ذلك أيسر.\n\nأتطلّع إلى ردّك.\n\nمع خالص التحيّة،\nعمر",
+          "checklist": [
+            "استعملتُ المضارع التامّ للإرسال السابق والبسيط للتفاصيل",
+            "لم أتّهم المتلقّي بعدم الردّ",
+            "استعملتُ صيغة طلبٍ مهذّبة (Could / Would you mind / I was wondering)",
+            "ذكرتُ سبب الاستعجال بموضوعيّة لا بضغط",
+            "عرضتُ مساعدةً أو بديلاً",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "لم أستعمل اختصارات الكلام (gonna / wanna) في بريدٍ رسميّ",
+            "عدد الكلمات بين ٨٠ و١٠٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات البريد حين تُقال شفويّاً",
+          "rows": [
+            { "w": "I just wanted to follow up", "s": "I jus wannid ta follow up", "ar": "أردتُ فقط المتابعة" },
+            { "w": "Looking forward to hearing from you", "s": "Lookin forward ta hearin from ya", "ar": "أتطلّع إلى ردّك" },
+            { "w": "Let me know if that works", "s": "Lemme know if that works", "ar": "أعلمني إن كان ذلك مناسباً" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة الثامنة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>I ___ the email an hour ago.</code>", "opts": ["have sent", "sent", "have send", "send"], "a": 1, "why": "ago ← بسيط." },
+            { "t": "mcq", "q": "<code dir=ltr>We ___ four clients this month.</code>", "opts": ["signed", "have signed", "has signed", "were signing"], "a": 1, "why": "this month جارٍ ← تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>He's ___ to the client's office — back at four.</code>", "opts": ["been", "gone", "went", "go"], "a": 1, "why": "ما زال هناك ← gone." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ there from 2019 to 2022.</code>", "opts": ["have worked", "worked", "have been working", "work"], "a": 1, "why": "فترة منتهية." },
+            { "t": "mcq", "q": "<code dir=ltr>chase up</code> تعني…", "opts": ["يركض خلف", "يلاحق طلباً متأخّراً", "يصعد", "يطارد"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>in the loop</code> تعني…", "opts": ["في الحلقة", "على اطّلاع بالمستجدّات", "في دوّامة", "متأخّر"], "a": 1, "why": "keep me in the loop = أبقني مطّلعاً." },
+            { "t": "mcq", "q": "<code dir=ltr>wrap up</code> في اجتماع تعني…", "opts": ["يغلّف", "يُنهي ويختم", "يلفّ", "يبدأ"], "a": 1, "why": "ختام الاجتماع." },
+            { "t": "mcq", "q": "<code dir=ltr>run something by someone</code> تعني…", "opts": ["يركض بجانبه", "يعرض عليه الفكرة لرأيه", "يتجاوزه", "يديره"], "a": 1, "why": "طلب رأيٍ قبل المضيّ." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (not / confirm) the date yet.</code>", "a": ["have not confirmed", "haven't confirmed", "have not confirmed."], "why": "yet ← نفي التامّ." },
+            { "t": "gap", "q": "<code dir=ltr>We ___ (launch) it last spring.</code>", "a": ["launched"], "why": "زمنٌ منتهٍ." },
+            { "t": "gap", "q": "<code dir=ltr>She ___ (already / send) the invoice.</code>", "a": ["has already sent", "'s already sent", "has already sent."], "why": "already ← تامّ." },
+            { "t": "gap", "q": "<code dir=ltr>___ you ever ___ (manage) a team?</code>", "a": ["Have / managed", "have managed", "Have you ever managed"], "why": "ever ← تامّ." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have started here in March.</code>", "a": ["I started here in March", "I started here in March."], "why": "تاريخ محدّد ← بسيط." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He has went to the meeting.</code>", "a": ["He has gone to the meeting", "He has gone to the meeting."], "why": "gone لا went." },
+            { "t": "correct", "q": "اجعلها مهنيّة: <code dir=ltr>Send me the report now.</code>", "a": ["Could you send me the report?", "Could you send me the report when you get a chance?", "Would you mind sending me the report?"], "why": "الأمر المباشر فجّ في البريد." },
+            { "t": "order", "q": "رتّب:", "ws": ["Have", "you", "heard", "back", "yet"], "a": "Have you heard back yet", "why": "yet في آخر السؤال." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "see", "your", "point", "but"], "a": "I see your point but", "why": "قالب الاعتراض المهذّب." },
+            { "t": "dict", "say": "Havya heard back from em yet?", "a": ["Have you heard back from them yet?", "have you heard back from them yet"], "why": "have you → «هاڤيَ» · them → «إم»." },
+            { "t": "dict", "say": "We've fallen behind a bid", "a": ["We've fallen behind a bit", "We have fallen behind a bit", "weve fallen behind a bit"], "why": "bit بـ d مرتدّة." },
+            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>schedule</code> أمريكيّاً؟", "opts": ["شيدْيول", "سكيجول", "سكِدْيول", "شادول"], "a": 1, "why": "SKEJ-ool في الأمريكيّة." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "مسلسل The Office أو Suits", "d": "لغة مكتبٍ واجتماعات مكثّفة بالإنجليزية الطبيعيّة", "task": "شاهد مشهد اجتماع، وسجّل خمس عبارات مهنيّة سمعتها." },
+            { "t": "بودكاست HBR IdeaCast", "d": "بودكاست هارفارد بزنس ريفيو — إنجليزيّة مهنيّة واضحة", "task": "استمع عشر دقائق، وسجّل ثلاثة تعابير عن الأداء أو القيادة." },
+            { "t": "فيديوهات «Business English» على يوتيوب", "d": "ابحث عن «business English meeting phrases»", "task": "احفظ خمسة قوالب اعتراضٍ واقتراح، واستعملها في كتابتك." }
+          ]
+        }
+      ]
+    }
+  ]
+}

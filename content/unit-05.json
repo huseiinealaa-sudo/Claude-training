@@ -1,0 +1,377 @@
+{
+  "id": "unit-05",
+  "icon": "⚖️",
+  "title": "الوصف والمقارنة",
+  "subtitle": "أن تصف وتفاضل وتُبدي رأيك بدقّة",
+  "intro": "المقارنة أداة التفكير قبل أن تكون أداة لغة: أيّهما أفضل، وأيّهما أرخص، وأيّهما يستحقّ. وهذه الوحدة تبني منظومة الصفات كاملةً — من المقارنة البسيطة إلى الصيغ التي تجعل وصفك يبدو ناضجاً لا مدرسيّاً.",
+  "goals": [
+    "أقارن بين شيئين بصيغةٍ صحيحة مهما طالت الصفة",
+    "أستعمل صيغة التفضيل والاستثناءات الشاذّة",
+    "أخفّف المقارنة وأقوّيها (a bit · far · slightly)",
+    "أصف الأشياء والأشخاص بصفاتٍ أدقّ من good و bad"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "المقارنة والتفضيل",
+      "subtitle": "القاعدة كلّها في عدد المقاطع",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "القاعدة الأساسيّة",
+          "html": "الفيصل هو <b>طول الصفة</b>:<br><br><table><tr><td><b>مقطع واحد</b></td><td dir=ltr>tall → <b>taller</b> → the <b>tallest</b></td></tr><tr><td><b>مقطعان بـ y</b></td><td dir=ltr>happy → <b>happier</b> → the <b>happiest</b></td></tr><tr><td><b>مقطعان فأكثر</b></td><td dir=ltr>modern → <b>more</b> modern → the <b>most</b> modern</td></tr></table><br>⚠️ ولا تجمع بين الصيغتين أبداً:<br>❌ <code dir=ltr>more taller</code> · ❌ <code dir=ltr>most biggest</code>"
+        },
+        {
+          "type": "note",
+          "title": "تغيّرات الإملاء",
+          "html": "<b>ساكن واحد بعد حركة قصيرة ← يتضاعف:</b><br><code dir=ltr>big → bigger · hot → hotter · thin → thinner</code><br><br><b>ينتهي بـ y ← تصير i:</b><br><code dir=ltr>easy → easier · busy → busier</code><br><br><b>ينتهي بـ e ← نضيف r فقط:</b><br><code dir=ltr>large → larger · nice → nicer</code>"
+        },
+        {
+          "type": "note",
+          "title": "الشواذّ — احفظها",
+          "html": "<table><tr><td dir=ltr>good → <b>better</b> → the <b>best</b></td><td>جيّد</td></tr><tr><td dir=ltr>bad → <b>worse</b> → the <b>worst</b></td><td>سيّئ</td></tr><tr><td dir=ltr>far → <b>further/farther</b> → the <b>furthest</b></td><td>بعيد</td></tr><tr><td dir=ltr>little → <b>less</b> → the <b>least</b></td><td>قليل</td></tr><tr><td dir=ltr>many/much → <b>more</b> → the <b>most</b></td><td>كثير</td></tr></table>"
+        },
+        {
+          "type": "note",
+          "title": "صيغ لا يعرفها كثيرٌ من المتعلّمين",
+          "html": "<b>١. المساواة:</b> <code dir=ltr>as … as</code><br><code dir=ltr>He is <b>as tall as</b> his brother.</code><br>والنفي: <code dir=ltr>not as expensive as</code> = أرخص<br><br><b>٢. تخفيف المقارنة وتقويتها:</b><br><code dir=ltr>a bit / slightly cheaper</code> ← أرخص قليلاً<br><code dir=ltr>much / far / a lot cheaper</code> ← أرخص بكثير<br>⚠️ <code dir=ltr>very cheaper</code> ❌ — لا تستعمل very مع المقارنة أبداً<br><br><b>٣. التصاعد:</b> <code dir=ltr>It's getting <b>colder and colder</b>.</code><br><br><b>٤. التلازم:</b> <code dir=ltr><b>The more</b> you practise, <b>the better</b> you get.</code>"
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "This phone is <b>cheaper than</b> that one.", "ar": "هذا الهاتف أرخص من ذاك." },
+            { "en": "It's <b>much more</b> comfortable.", "ar": "إنّه أريح بكثير." },
+            { "en": "She's <b>the most</b> reliable person here.", "ar": "إنّها أكثر من هنا موثوقيّة." },
+            { "en": "My room isn't <b>as big as</b> yours.", "ar": "غرفتي ليست بسعة غرفتك." },
+            { "en": "<b>The more</b> I read, <b>the more</b> I understand.", "ar": "كلّما قرأتُ أكثر فهمتُ أكثر." },
+            { "en": "Traffic is getting <b>worse and worse</b>.", "ar": "الزحام يزداد سوءاً." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "than تكاد تختفي في الكلام",
+          "rows": [
+            { "w": "cheaper than this", "s": "cheaper'n this", "ar": "أرخص من هذا — than تصير «ن»" },
+            { "w": "It is a lot better", "s": "It's a lod bedder", "ar": "إنّه أفضل بكثير" },
+            { "w": "as good as it gets", "s": "az good az it gets", "ar": "أفضل ما يمكن" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>This book is ___ than that one.</code>", "opts": ["more interesting", "interestinger", "most interesting", "more interestinger"], "a": 0, "why": "صفة طويلة ← more + الصفة." },
+            { "t": "mcq", "q": "<code dir=ltr>Today is ___ day of the year.</code>", "opts": ["hotter", "the hottest", "the most hot", "hottest"], "a": 1, "why": "تفضيل ← the + الصفة + est، مع تضعيف t." },
+            { "t": "mcq", "q": "<code dir=ltr>My results were ___ than last year.</code>", "opts": ["gooder", "more good", "better", "best"], "a": 2, "why": "good شاذّة ← better." },
+            { "t": "mcq", "q": "<code dir=ltr>It's ___ cheaper here.</code>", "opts": ["very", "much", "so", "too"], "a": 1, "why": "very لا تصاحب المقارنة — نستعمل much أو far." },
+            { "t": "gap", "q": "<code dir=ltr>This one is ___ (easy) than the other.</code>", "a": ["easier"], "why": "y تصير i ثمّ er." },
+            { "t": "gap", "q": "<code dir=ltr>He is the ___ (bad) driver I know.</code>", "a": ["worst"], "why": "bad شاذّة ← the worst." },
+            { "t": "gap", "q": "<code dir=ltr>She isn't ___ (tall) as her sister.</code>", "a": ["as tall", "as tall as"], "why": "صيغة المساواة المنفيّة: not as … as." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>This is more better.</code>", "a": ["This is better", "This is much better", "This is better."], "why": "لا تجمع more مع صيغة er." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He is the most tallest boy.</code>", "a": ["He is the tallest boy", "He is the tallest boy."], "why": "تكرار صيغة التفضيل خطأ." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>It is very cheaper than before.</code>", "a": ["It is much cheaper than before", "It's much cheaper than before", "It is far cheaper than before"], "why": "very لا تصاحب المقارنة." },
+            { "t": "order", "q": "رتّب:", "ws": ["The", "more", "you", "practise", "the", "better"], "a": "The more you practise the better", "why": "صيغة التلازم." },
+            { "t": "order", "q": "رتّب:", "ws": ["It", "is", "getting", "colder", "and", "colder"], "a": "It is getting colder and colder", "why": "صيغة التصاعد." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: صفات أدقّ من good و bad",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "لماذا هذه المفردات تحديداً؟",
+          "html": "أسرع ما يكشف مستوى المتعلّم هو اعتماده على <code dir=ltr>good · bad · very · nice</code>. والانتقال إلى B1 يبدأ من استبدالها بصفاتٍ محدّدة.<br><br>بدل <code dir=ltr>very good</code> قل: <code dir=ltr>excellent · outstanding · impressive</code><br>بدل <code dir=ltr>very bad</code> قل: <code dir=ltr>awful · terrible · poor</code>"
+        },
+        {
+          "type": "vocab",
+          "title": "صفات إيجابيّة",
+          "items": [
+            { "w": "outstanding", "pos": "adjective", "ar": "متميّز بارز", "ex": [{ "en": "Her performance was <b>outstanding</b>.", "ar": "كان أداؤها متميّزاً." }] },
+            { "w": "impressive", "pos": "adjective", "ar": "مثير للإعجاب", "ex": [{ "en": "That's an <b>impressive</b> result.", "ar": "نتيجةٌ مثيرة للإعجاب." }] },
+            { "w": "affordable", "pos": "adjective", "ar": "في المتناول سعراً", "ex": [{ "en": "It's more <b>affordable</b> than I expected.", "ar": "إنّه في المتناول أكثر ممّا توقّعت." }] },
+            { "w": "convenient", "pos": "adjective", "ar": "مريح وعمليّ", "ex": [{ "en": "The location is very <b>convenient</b>.", "ar": "الموقع عمليّ جدّاً." }] },
+            { "w": "efficient", "pos": "adjective", "ar": "كفء غير مهدر", "ex": [{ "en": "This engine is far more <b>efficient</b>.", "ar": "هذا المحرّك أكفأ بكثير." }] },
+            { "w": "durable", "pos": "adjective", "ar": "متين يدوم", "ex": [{ "en": "Leather is more <b>durable</b> than cloth.", "ar": "الجلد أمتن من القماش." }] },
+            { "w": "straightforward", "pos": "adjective", "ar": "واضح مباشر لا تعقيد فيه", "ex": [{ "en": "The process is fairly <b>straightforward</b>.", "ar": "العمليّة واضحة إلى حدٍّ كبير." }] },
+            { "w": "worth", "pos": "adjective", "ar": "يستحقّ / يساوي", "ex": [{ "en": "It's <b>worth</b> the extra money.", "ar": "يستحقّ المال الإضافيّ." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "صفات سلبيّة أو محايدة",
+          "items": [
+            { "w": "overrated", "pos": "adjective", "ar": "مبالَغ في تقديره", "ex": [{ "en": "Honestly, that film is <b>overrated</b>.", "ar": "بصراحة، ذلك الفيلم مبالَغ في تقديره." }] },
+            { "w": "overpriced", "pos": "adjective", "ar": "سعره أعلى ممّا يستحقّ", "ex": [{ "en": "The coffee there is <b>overpriced</b>.", "ar": "القهوة هناك أغلى ممّا تستحقّ." }] },
+            { "w": "unreliable", "pos": "adjective", "ar": "لا يُعتمد عليه", "ex": [{ "en": "Their service is <b>unreliable</b>.", "ar": "خدمتهم لا يُعتمد عليها." }] },
+            { "w": "time-consuming", "pos": "adjective", "ar": "يستهلك وقتاً كثيراً", "ex": [{ "en": "It's accurate but <b>time-consuming</b>.", "ar": "إنّه دقيق لكنّه يستهلك وقتاً." }] },
+            { "w": "disappointing", "pos": "adjective", "ar": "مخيّب للأمل", "ex": [{ "en": "The ending was <b>disappointing</b>.", "ar": "كانت النهاية مخيّبة للأمل." }] },
+            { "w": "awkward", "pos": "adjective", "ar": "غير مريح / محرِج", "ex": [{ "en": "The design is a bit <b>awkward</b> to use.", "ar": "التصميم غير مريح قليلاً في الاستعمال." }] },
+            { "w": "decent", "pos": "adjective", "ar": "لا بأس به / معقول", "ex": [{ "en": "It's a <b>decent</b> phone for the price.", "ar": "هاتفٌ لا بأس به مقابل سعره." }] },
+            { "w": "mediocre", "pos": "adjective", "ar": "متوسّط رديء", "ex": [{ "en": "The food was <b>mediocre</b> at best.", "ar": "كان الطعام متوسّطاً في أحسن أحواله." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "لغة المقارنة والرأي",
+          "items": [
+            { "w": "compared to", "pos": "expression", "ar": "مقارنةً بـ", "ex": [{ "en": "<b>Compared to</b> last year, sales are up.", "ar": "مقارنةً بالعام الماضي، ارتفعت المبيعات." }] },
+            { "w": "whereas", "pos": "conjunction", "ar": "بينما (للتضادّ)", "ex": [{ "en": "He likes tea, <b>whereas</b> I prefer coffee.", "ar": "يحبّ الشاي بينما أفضّل القهوة." }] },
+            { "w": "on the other hand", "pos": "expression", "ar": "من ناحيةٍ أخرى", "ex": [{ "en": "It's cheap; <b>on the other hand</b>, it won't last.", "ar": "إنّه رخيص، لكنّه من ناحيةٍ أخرى لن يدوم." }] },
+            { "w": "by far", "pos": "expression", "ar": "بفارقٍ كبير", "ex": [{ "en": "This is <b>by far</b> the best option.", "ar": "هذا أفضل الخيارات بفارقٍ كبير." }] },
+            { "w": "slightly", "pos": "adverb", "ar": "قليلاً / بشكلٍ طفيف", "ex": [{ "en": "It's <b>slightly</b> heavier.", "ar": "إنّه أثقل قليلاً." }] },
+            { "w": "stand out", "pos": "phrasal verb", "ar": "يتميّز ويبرز", "ex": [{ "en": "One option really <b>stands out</b>.", "ar": "يبرز خيارٌ واحد حقّاً." }] },
+            { "w": "take into account", "pos": "expression", "ar": "يأخذ في الحسبان", "ex": [{ "en": "You have to <b>take</b> the cost <b>into account</b>.", "ar": "عليك أن تأخذ التكلفة في الحسبان." }] },
+            { "w": "value for money", "pos": "expression", "ar": "قيمة مقابل السعر", "ex": [{ "en": "It's great <b>value for money</b>.", "ar": "قيمته ممتازة مقابل سعره." }] },
+            { "w": "have the edge over", "pos": "idiom", "ar": "يتفوّق بفارقٍ بسيط على", "ex": [{ "en": "The newer model <b>has the edge over</b> the old one.", "ar": "الطراز الأحدث يتفوّق قليلاً على القديم." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: أيّ الحاسوبين نشتري؟",
+      "subtitle": "حوار مقارنة + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>ركّز على <code dir=ltr>than</code> — ستسمعها «ن» ملتصقة لا كلمةً مستقلّة."
+        },
+        {
+          "type": "dialogue",
+          "title": "Which One Should We Get?",
+          "titleAr": "أيّهما نشتري؟",
+          "lines": [
+            { "sp": "Hadi", "en": "So, these two. What do you think?", "ar": "إذن، هذان الاثنان. ما رأيك؟" },
+            { "sp": "Rana", "en": "Well, the first one is much lighter, which matters if you travel.", "ar": "حسناً، الأوّل أخفّ بكثير، وهذا يهمّ إن كنتَ تسافر." },
+            { "sp": "Hadi", "en": "True. But the second has a far better screen.", "ar": "صحيح. لكنّ الثاني شاشته أفضل بكثير." },
+            { "sp": "Rana", "en": "It's also about three hundred more expensive.", "ar": "وهو أيضاً أغلى بنحو ثلاثمئة." },
+            { "sp": "Hadi", "en": "Is it worth it though?", "ar": "لكن هل يستحقّ؟" },
+            { "sp": "Rana", "en": "Depends. If you're editing photos all day, yes.", "ar": "يعتمد. إن كنت تحرّر الصور طوال اليوم، فنعم." },
+            { "sp": "Hadi", "en": "I'm not, honestly. Mostly documents and calls.", "ar": "لستُ كذلك بصراحة. أكثره مستندات ومكالمات." },
+            { "sp": "Rana", "en": "Then the cheaper one is better value for money.", "ar": "إذن الأرخص قيمته أفضل مقابل سعره." },
+            { "sp": "Hadi", "en": "What about the battery?", "ar": "وماذا عن البطّاريّة؟" },
+            { "sp": "Rana", "en": "That's where the first one really stands out — nearly twelve hours.", "ar": "هنا يبرز الأوّل حقّاً — قرابة اثنتي عشرة ساعة." },
+            { "sp": "Hadi", "en": "That's almost twice as long as mine.", "ar": "هذا ضِعف بطّاريّتي تقريباً." },
+            { "sp": "Rana", "en": "Exactly. And it's more durable too, from the reviews.", "ar": "بالضبط. وهو أمتن أيضاً حسب المراجعات." },
+            { "sp": "Hadi", "en": "All right, you've convinced me. The lighter one it is.", "ar": "حسناً، أقنعتِني. الأخفّ إذن." },
+            { "sp": "Rana", "en": "Good call. You'd have regretted the extra weight.", "ar": "قرارٌ صائب. كنتَ ستندم على الوزن الزائد." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما ميزة الحاسوب الأوّل؟", "opts": ["شاشة أفضل", "أخفّ وزناً وبطّاريّة أطول", "أرخص فقط", "معالج أسرع"], "a": 1, "why": "<code dir=ltr>much lighter</code> و<code dir=ltr>nearly twelve hours</code>." },
+            { "t": "mcq", "q": "كم يزيد سعر الثاني؟", "opts": ["مئة", "مئتان", "نحو ثلاثمئة", "لم يُذكر"], "a": 2, "why": "<code dir=ltr>about three hundred more expensive</code>." },
+            { "t": "mcq", "q": "لماذا لا يحتاج هادي الشاشة الأفضل؟", "opts": ["لأنّه لا يحرّر صوراً", "لأنّه لا يرى جيّداً", "لأنّها غالية", "لأنّه يملك شاشةً أخرى"], "a": 0, "why": "<code dir=ltr>Mostly documents and calls</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>value for money</code> تعني…", "opts": ["ثمن باهظ", "قيمة مقابل السعر", "قيمة نقديّة", "عرض خاصّ"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "ماذا قرّر هادي أخيراً؟", "opts": ["الثاني", "الأخفّ (الأوّل)", "لا شيء", "سيؤجّل"], "a": 1, "why": "<code dir=ltr>The lighter one it is</code>." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "It's much lider than the other one", "a": ["It's much lighter than the other one", "It is much lighter than the other one", "its much lighter than the other one"], "why": "lighter بـ d مرتدّة، وthan تلتصق." },
+            { "t": "dict", "say": "Is it worth id though?", "a": ["Is it worth it though?", "is it worth it though"], "why": "<code dir=ltr>worth it</code> تلتصق مع d مرتدّة." },
+            { "t": "dict", "say": "Thas where it really stands out", "a": ["That's where it really stands out", "thats where it really stands out"], "why": "<code dir=ltr>that's</code> تفقد t." },
+            { "t": "dict", "say": "almos twice az long az mine", "a": ["almost twice as long as mine", "almost twice as long as mine."], "why": "سقوط t من almost، وas تُنطق «أز»." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: مفارقة الخيارات",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "The Paradox of Choice",
+          "titleAr": "مفارقة الاختيار",
+          "en": "In a famous experiment, a supermarket set up a stand offering twenty-four kinds of jam. A second stand, on a different day, offered only six. The larger display attracted <b>far</b> more attention — but the smaller one sold ten times as much. Shoppers faced with twenty-four options tasted, hesitated, and walked away empty-handed.<br><br>The psychologist Barry Schwartz calls this the paradox of choice. Beyond a certain point, more options do not make us freer; they make us anxious. Every extra alternative adds a new way of getting it wrong, and a new reason to regret whatever we finally pick. We become what Schwartz calls maximisers — people who must find the very best — rather than satisficers, who look for something good enough and then stop looking.<br><br>Interestingly, maximisers usually do make objectively better choices. They find the cheaper flight and the <b>more durable</b> laptop. But they are consistently less happy with what they chose, because they cannot stop imagining the option they did not take. The satisficer, who decided in ten minutes and moved on, enjoys a slightly worse product a great deal more. The lesson is not to stop comparing — it is to decide in advance what <i>good enough</i> looks like, and to stop when you reach it.",
+          "ar": "في تجربةٍ شهيرة، أقام متجرٌ كبير منصّةً تعرض أربعة وعشرين نوعاً من المربّى. وفي يومٍ آخر أقام منصّةً ثانية لا تعرض إلّا ستّة. فاجتذب المعرض الأكبر انتباهاً أوفر بكثير — لكنّ الأصغر باع عشرة أضعافه. إذ ذاق المتسوّقون أمام الخيارات الأربعة والعشرين، وتردّدوا، ثمّ انصرفوا بلا شراء.<br><br>ويسمّي عالم النفس باري شوارتز هذا «مفارقة الاختيار». فبعد حدٍّ معيّن لا تجعلنا كثرة الخيارات أحرار، بل تجعلنا قلقين. إذ يضيف كلّ بديلٍ إضافيّ طريقةً جديدة للخطأ، وسبباً جديداً للندم على ما نختاره أخيراً. فنصير ما يسمّيه شوارتز «مُعظِّمين» — أناساً لا بدّ لهم من بلوغ الأفضل على الإطلاق — بدل أن نكون «مكتفين» يبحثون عمّا يكفي ثمّ يتوقّفون عن البحث.<br><br>والطريف أنّ المعظِّمين يتّخذون عادةً خياراتٍ أفضل موضوعيّاً؛ فهم يجدون الرحلة الأرخص والحاسوب الأمتن. لكنّهم أقلّ رضاً عمّا اختاروه على الدوام، لأنّهم لا يكفّون عن تخيّل البديل الذي لم يأخذوه. أمّا المكتفي، الذي حسم أمره في عشر دقائق ومضى، فيستمتع بمنتَجٍ أسوأ قليلاً استمتاعاً أكبر بكثير. والدرس ليس أن تكفّ عن المقارنة — بل أن تحدّد سلفاً ما معنى «جيّدٌ بما يكفي»، وأن تتوقّف حين تبلغه.",
+          "keys": [["far", "بفارقٍ كبير"], ["durable", "متين"], ["alternative", "بديل"], ["regret", "يندم"], ["good enough", "جيّد بما يكفي"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "أيّ المنصّتين باعت أكثر؟", "opts": ["ذات الأربعة والعشرين", "ذات الستّة", "تساوتا", "لم يُذكر"], "a": 1, "why": "<code dir=ltr>the smaller one sold ten times as much</code>." },
+            { "t": "mcq", "q": "ماذا يضيف كلّ بديلٍ إضافيّ حسب النصّ؟", "opts": ["حرّيةً أكبر", "طريقةً جديدة للخطأ وسبباً للندم", "وقتاً أقلّ", "سعراً أقلّ"], "a": 1, "why": "<code dir=ltr>a new way of getting it wrong</code>." },
+            { "t": "mcq", "q": "من هو «المُعظِّم» (maximiser)؟", "opts": ["من يشتري الأغلى", "من لا بدّ له من بلوغ الأفضل على الإطلاق", "من يشتري بسرعة", "من لا يقارن"], "a": 1, "why": "<code dir=ltr>people who must find the very best</code>." },
+            { "t": "mcq", "q": "المفارقة في نتائج المعظِّمين هي أنّهم…", "opts": ["يختارون أسوأ ويرضون أكثر", "يختارون أفضل ويرضون أقلّ", "يختارون أفضل ويرضون أكثر", "لا يختارون"], "a": 1, "why": "<code dir=ltr>better choices … less happy</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>hesitated</code> تعني…", "opts": ["أسرعوا", "تردّدوا", "اشتروا", "غضبوا"], "a": 1, "why": "استنتاج من السياق: ذاقوا ثمّ انصرفوا بلا شراء." },
+            { "t": "mcq", "q": "ما نصيحة الكاتب الختاميّة؟", "opts": ["لا تقارن أبداً", "قارن دائماً حتى تبلغ الأفضل", "حدّد سلفاً معنى «جيّد بما يكفي» وتوقّف عنده", "اشترِ الأرخص"], "a": 2, "why": "<code dir=ltr>decide in advance what good enough looks like</code>." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات المقارنة في الكلام",
+          "rows": [
+            { "w": "It is better than nothing", "s": "It's bedder'n nothin", "ar": "أفضل من لا شيء" },
+            { "w": "a lot more expensive", "s": "a lod more expensive", "ar": "أغلى بكثير" },
+            { "w": "What is the difference?", "s": "Wuts the difference?", "ar": "ما الفرق؟" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تُبدي رأياً وتوازن بين حجّتين",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "قوالب الرأي المتدرّجة",
+          "html": "<b>رأيٌ قويّ:</b> <code dir=ltr>I'm convinced that … · There's no doubt that …</code><br><b>رأيٌ معتدل:</b> <code dir=ltr>I'd say … · In my view … · I tend to think …</code><br><b>رأيٌ متحفّظ:</b> <code dir=ltr>I'm not sure, but … · It depends, really.</code><br><br>💡 التحفّظ في الإنجليزية <b>ليس ضعفاً</b> بل علامة نضج. الجزم المطلق في كلّ شيء يبدو فجّاً."
+        },
+        {
+          "type": "note",
+          "title": "الموازنة بين وجهين",
+          "html": "<code dir=ltr>On the one hand … , on the other hand …</code><br><code dir=ltr>It's cheaper, <b>whereas</b> the other is more durable.</code><br><code dir=ltr>It's slow, <b>although</b> the quality is excellent.</code><br><code dir=ltr><b>Compared to</b> last year, it's a big improvement.</code><br><br><b>لتحسم:</b><br><code dir=ltr>All things considered, I'd go for the first one.</code><br><code dir=ltr>On balance, the second is the better choice.</code>"
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>It is more better.</code> ✅ <code dir=ltr>It's much better.</code><br>❌ <code dir=ltr>It is the more good.</code> ✅ <code dir=ltr>It's the best.</code><br>❌ <code dir=ltr>He is more tall from me.</code> ✅ <code dir=ltr>He's taller <b>than</b> me.</code> (لا from)<br>❌ <code dir=ltr>In my opinion I think …</code> (تكرار) ✅ <code dir=ltr>In my opinion, …</code> أو <code dir=ltr>I think …</code>"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: نبر الصفات الطويلة",
+          "hint": "موضع النبر يغيّر وضوح كلامك تماماً",
+          "rows": [
+            { "w": "com·FOR·table", "s": "KUMF·ter·bul", "ar": "ثلاثة مقاطع لا أربعة" },
+            { "w": "IN·teresting", "s": "IN·tres·ting", "ar": "النبر على الأوّل، ومقطعٌ يسقط" },
+            { "w": "af·FOR·dable", "s": "uh·FOR·duh·bul", "ar": "النبر على الثاني" },
+            { "w": "ef·FI·cient", "s": "uh·FISH·unt", "ar": "النبر على الثاني، والأوّل شوا" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "قوالب الرأي كما تُنطق",
+          "rows": [
+            { "w": "I would say it is better", "s": "I'd say it's bedder", "ar": "أقول إنّه أفضل" },
+            { "w": "It depends, really", "s": "It depends, really", "ar": "يعتمد في الحقيقة" },
+            { "w": "All things considered", "s": "All things considerd", "ar": "بحساب كلّ شيء" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He is taller from me.</code>", "a": ["He is taller than me", "He's taller than me", "He is taller than me."], "why": "المقارنة تأخذ than لا from." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>In my opinion I think it is wrong.</code>", "a": ["In my opinion, it is wrong", "I think it is wrong", "In my opinion it's wrong"], "why": "لا تجمع بين in my opinion و I think." },
+            { "t": "mcq", "q": "أيّ عبارةٍ تدلّ على رأيٍ متحفّظ؟", "opts": ["There's no doubt that…", "I'm convinced that…", "I'm not sure, but…", "Definitely!"], "a": 2, "why": "التحفّظ يبدأ بالاعتراف بعدم اليقين." },
+            { "t": "mcq", "q": "<code dir=ltr>whereas</code> تفيد…", "opts": ["السبب", "التضادّ", "النتيجة", "الزمن"], "a": 1, "why": "تقابل بين أمرين مختلفين." },
+            { "t": "mcq", "q": "كم مقطعاً في نطق <code dir=ltr>comfortable</code>؟", "opts": ["أربعة", "ثلاثة", "خمسة", "اثنان"], "a": 1, "why": "KUMF·ter·bul — مقطعٌ يسقط في الكلام." },
+            { "t": "order", "q": "رتّب:", "ws": ["All", "things", "considered", "I", "would", "choose", "this"], "a": "All things considered I would choose this", "why": "قالب الحسم بعد الموازنة." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: مراجعة ومقارنة",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "اكتب في <b>٩٠–١١٠ كلمة</b> مراجعةً تقارن فيها بين شيئين تعرفهما: هاتفين، أو مدينتين، أو مقهيين، أو طريقتَي تعلّم. يجب أن تتضمّن:<br><br>• ثلاث مقارناتٍ على الأقلّ بصيغٍ مختلفة<br>• صيغة تفضيلٍ واحدة<br>• مخفّفاً أو مقوّياً (<code dir=ltr>slightly · much · by far</code>)<br>• رابط تضادٍّ (<code dir=ltr>whereas</code> أو <code dir=ltr>on the other hand</code>)<br>• توصيةً واضحة في النهاية",
+          "phrases": [
+            "Compared to …, the … is …",
+            "It's slightly / much / far more … than …",
+            "It isn't as … as …",
+            "…, whereas …",
+            "On the other hand, …",
+            "By far the biggest difference is …",
+            "All things considered, I'd go for …"
+          ],
+          "model": "I've used both apps for six months, and the difference is clearer than I expected. The first is much simpler to learn — I was comfortable within an hour, whereas the second took me a full week. On the other hand, the second is far more powerful once you get the hang of it, and it's slightly cheaper per year. By far the biggest difference is reliability: the first crashed twice last month, while the second has never failed. All things considered, I'd go for the second if you plan to use it daily. For occasional use, the first is better value for money.",
+          "modelAr": "استعملتُ التطبيقين ستّة أشهر، والفرق أوضح ممّا توقّعت. فالأوّل أبسط في التعلّم بكثير — ارتحتُ إليه خلال ساعة، بينما احتاج الثاني منّي أسبوعاً كاملاً. ومن ناحيةٍ أخرى، الثاني أقوى بكثير متى أتقنتَه، وهو أرخص قليلاً في السنة. وأكبر فرقٍ بينهما بمراحل هو الموثوقيّة: فالأوّل انهار مرّتين الشهر الماضي، في حين لم يخذل الثاني قطّ. وبحساب كلّ شيء، أختار الثاني إن كنتَ تنوي استعماله يوميّاً. أمّا للاستعمال المتقطّع فالأوّل قيمته أفضل مقابل سعره.",
+          "checklist": [
+            "استعملتُ ثلاث صيغ مقارنةٍ مختلفة على الأقلّ",
+            "استعملتُ صيغة تفضيلٍ واحدة مع the",
+            "لم أجمع بين more وصيغة er",
+            "لم أستعمل very مع المقارنة",
+            "استعملتُ than لا from",
+            "أضفتُ رابط تضادٍّ (whereas / on the other hand)",
+            "ختمتُ بتوصيةٍ واضحة لا بتردّد",
+            "عدد الكلمات بين ٩٠ و١١٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات التوصية كما تُنطق",
+          "rows": [
+            { "w": "I would go for the second", "s": "I'd go fer the second", "ar": "أختار الثاني" },
+            { "w": "It is not as good as", "s": "It's nod az good az", "ar": "ليس بجودة" },
+            { "w": "once you get the hang of it", "s": "wunce ya ged the hang ov it", "ar": "متى أتقنته" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة الخامسة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>This road is ___ than that one.</code>", "opts": ["more narrow", "narrower", "narrowest", "most narrow"], "a": 1, "why": "صفة قصيرة ← er." },
+            { "t": "mcq", "q": "<code dir=ltr>It was ___ film I've ever seen.</code>", "opts": ["the more boring", "the boringest", "the most boring", "boringer"], "a": 2, "why": "صفة طويلة ← the most." },
+            { "t": "mcq", "q": "<code dir=ltr>His work is ___ than mine.</code>", "opts": ["gooder", "better", "more better", "best"], "a": 1, "why": "good ← better." },
+            { "t": "mcq", "q": "<code dir=ltr>This is ___ the best option.</code>", "opts": ["very", "by far", "much more", "so"], "a": 1, "why": "by far تقوّي صيغة التفضيل." },
+            { "t": "mcq", "q": "<code dir=ltr>She isn't ___ as her brother.</code>", "opts": ["so patient", "as patient", "more patient", "patienter"], "a": 1, "why": "صيغة المساواة: as … as." },
+            { "t": "mcq", "q": "<code dir=ltr>overrated</code> تعني…", "opts": ["مرتفع السعر", "مبالَغ في تقديره", "قديم", "نادر"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>decent</code> تعني…", "opts": ["ممتاز", "لا بأس به", "رديء", "مهذّب فقط"], "a": 1, "why": "جيّد بدرجةٍ معقولة." },
+            { "t": "mcq", "q": "<code dir=ltr>time-consuming</code> تعني…", "opts": ["سريع", "يستهلك وقتاً كثيراً", "دقيق", "مؤقّت"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "gap", "q": "<code dir=ltr>Today is ___ (hot) than yesterday.</code>", "a": ["hotter"], "why": "تضعيف t قبل er." },
+            { "t": "gap", "q": "<code dir=ltr>That was the ___ (bad) decision of my life.</code>", "a": ["worst"], "why": "bad ← the worst." },
+            { "t": "gap", "q": "<code dir=ltr>This one is ___ (expensive) than that.</code>", "a": ["more expensive"], "why": "صفة طويلة ← more." },
+            { "t": "gap", "q": "<code dir=ltr>It's ___ (easy) of the three.</code>", "a": ["the easiest"], "why": "تفضيل ← the easiest." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She is more smarter than him.</code>", "a": ["She is smarter than him", "She's smarter than him", "She is smarter than him."], "why": "لا تجمع more مع er." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>It is very better now.</code>", "a": ["It is much better now", "It's much better now", "It is far better now"], "why": "very لا تصاحب المقارنة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>He is older from me.</code>", "a": ["He is older than me", "He's older than me", "He is older than me."], "why": "than لا from." },
+            { "t": "order", "q": "رتّب:", "ws": ["The", "more", "I", "learn", "the", "less", "I", "know"], "a": "The more I learn the less I know", "why": "صيغة التلازم." },
+            { "t": "order", "q": "رتّب:", "ws": ["It", "is", "not", "as", "expensive", "as", "I", "thought"], "a": "It is not as expensive as I thought", "why": "المساواة المنفيّة." },
+            { "t": "dict", "say": "It's a lod cheaper'n the other one", "a": ["It's a lot cheaper than the other one", "It is a lot cheaper than the other one", "its a lot cheaper than the other one"], "why": "lot بـ d مرتدّة، وthan تلتصق كـ «ن»." },
+            { "t": "dict", "say": "Thas by far the bes option", "a": ["That's by far the best option", "thats by far the best option"], "why": "سقوط t من that's و best." },
+            { "t": "mcq", "q": "كيف تُنطق <code dir=ltr>comfortable</code> في الكلام الطبيعيّ؟", "opts": ["كوم-فور-تا-بل", "كامف-تر-بل", "كوم-فورت-ابل", "كام-فور-تابل"], "a": 1, "why": "ثلاثة مقاطع والنبر على الأوّل." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "مراجعات المنتجات على يوتيوب", "d": "ابحث عن «X vs Y comparison review» لأيّ منتجٍ يهمّك — لغة مقارنة خالصة", "task": "شاهد خمس دقائق، وسجّل عشر صيغ مقارنةٍ سمعتها." },
+            { "t": "قوائم «الأفضل» — Top 10", "d": "أيّ فيديو بعنوان «Top 10 best…» مليء بصيغ التفضيل", "task": "أحصِ صيغ التفضيل، ولاحظ كيف تُستعمل by far و easily." },
+            { "t": "نقاشات وآراء — بودكاست", "d": "ابحث عن بودكاست يناقش فيه اثنان موضوعاً ويختلفان", "task": "سجّل ثلاث عبارات موازنة (whereas · on the other hand · although)." }
+          ]
+        }
+      ]
+    }
+  ]
+}

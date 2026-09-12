@@ -1,370 +1,1339 @@
 {
-  "id": "unit-01",
-  "icon": "👋",
-  "title": "التعريف بالنفس والروتين",
-  "subtitle": "أن تتحدّث عن نفسك وعن يومك بثقة",
-  "intro": "أوّل ما تحتاجه في أيّ لقاء: أن تُعرّف بنفسك، وتصف عملك ويومك، وتسأل غيرك. هذه الوحدة تبني ذلك على قاعدة المضارع بنوعيه — وهي أكثر قاعدة استعمالاً في الإنجليزية كلّها.",
-  "goals": [
-    "أُعرّف بنفسي وأصف عملي ودراستي",
-    "أتحدّث عن روتيني اليوميّ وعاداتي",
-    "أميّز بين ما أفعله عادةً وما أفعله الآن",
-    "أسأل شخصاً جديداً أسئلةً مهذّبة عن نفسه"
-  ],
-  "days": [
+ "id": "unit-01",
+ "icon": "👋",
+ "title": "التعريف بالنفس والروتين",
+ "subtitle": "أن تتحدّث عن نفسك وعن يومك بثقة",
+ "intro": "أوّل ما تحتاجه في أيّ لقاء: أن تُعرّف بنفسك، وتصف عملك ويومك، وتسأل غيرك. هذه الوحدة تبني ذلك على قاعدة المضارع بنوعيه — وهي أكثر قاعدة استعمالاً في الإنجليزية كلّها.",
+ "goals": [
+  "أُعرّف بنفسي وأصف عملي ودراستي",
+  "أتحدّث عن روتيني اليوميّ وعاداتي",
+  "أميّز بين ما أفعله عادةً وما أفعله الآن",
+  "أسأل شخصاً جديداً أسئلةً مهذّبة عن نفسه"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "المضارع البسيط والمستمرّ",
+   "subtitle": "الفرق الذي يخطئ فيه أغلب العرب",
+   "blocks": [
     {
-      "n": 1,
-      "type": "grammar",
-      "title": "المضارع البسيط والمستمرّ",
-      "subtitle": "الفرق الذي يخطئ فيه أغلب العرب",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "الفكرة في سطر",
-          "html": "<b>المضارع البسيط</b> = حقيقة أو عادة تتكرّر.<br><b>المضارع المستمرّ</b> = فعلٌ يجري <u>الآن</u> أو في فترةٍ مؤقّتة.<br><br><table><tr><td dir=ltr>I <b>work</b> in a bank.</td><td>أعمل في مصرف (وظيفتي)</td></tr><tr><td dir=ltr>I <b>am working</b> right now.</td><td>أنا أعمل الآن (هذه اللحظة)</td></tr></table>"
-        },
-        {
-          "type": "note",
-          "title": "لماذا يخطئ العرب هنا تحديداً؟",
-          "html": "العربية تقول «أنا <b>أدرس</b> الطبّ» و«أنا <b>أدرس</b> الآن» بالصيغة نفسها — فلا تشعر بالحاجة إلى التفريق.<br><br>أمّا الإنجليزية فتُلزمك بالاختيار في كلّ جملة:<br>❌ <code dir=ltr>I study now.</code><br>✅ <code dir=ltr>I am studying now.</code><br>❌ <code dir=ltr>I am working in a bank since 2020.</code><br>✅ <code dir=ltr>I work in a bank.</code><br><br>القاعدة العمليّة: <b>إن أمكنك إضافة «الآن» أو «هذه الأيّام» فاستعمل المستمرّ.</b>"
-        },
-        {
-          "type": "note",
-          "title": "الكلمات الدالّة",
-          "html": "<b>مع البسيط ←</b> always · usually · often · sometimes · never · every day · on Mondays<br><br><b>مع المستمرّ ←</b> now · right now · at the moment · today · this week · currently"
-        },
-        {
-          "type": "note",
-          "title": "أفعال لا تُستعمل في المستمرّ",
-          "html": "أفعال الحالة الذهنيّة والمشاعر والملكيّة تبقى في البسيط دائماً:<br><br><code dir=ltr>know · understand · believe · want · need · like · love · hate · own · belong · seem · remember</code><br><br>❌ <code dir=ltr>I am knowing the answer.</code> · ✅ <code dir=ltr>I know the answer.</code><br>❌ <code dir=ltr>I am wanting coffee.</code> · ✅ <code dir=ltr>I want coffee.</code><br><br>⚠️ استثناء شهير: <code dir=ltr>I'm loving it</code> — تسويقيّة لا قاعديّة."
-        },
-        {
-          "type": "examples",
-          "title": "اسمع الفرق",
-          "rows": [
-            { "en": "I <b>get up</b> at six every morning.", "ar": "أستيقظ في السادسة كلّ صباح." },
-            { "en": "Shh — the baby <b>is sleeping</b>.", "ar": "اهدأ — الطفل نائم الآن." },
-            { "en": "She <b>works</b> as a nurse.", "ar": "تعمل ممرّضة (مهنتها)." },
-            { "en": "She <b>is working</b> late this week.", "ar": "تعمل حتى وقتٍ متأخّر هذا الأسبوع (مؤقّتاً)." },
-            { "en": "Water <b>boils</b> at 100 degrees.", "ar": "يغلي الماء عند مئة درجة (حقيقة)." },
-            { "en": "I <b>don't understand</b> this word.", "ar": "لا أفهم هذه الكلمة (فعل حالة)." }
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "لاحظ كيف تُختزل الأفعال المساعدة في الكلام الطبيعيّ",
-          "rows": [
-            { "w": "What are you doing?", "s": "Whatcha doin?", "ar": "ماذا تفعل؟" },
-            { "w": "I am working on it", "s": "I'm workin on it", "ar": "أعمل عليه" },
-            { "w": "Where do you work?", "s": "Where d'ya work?", "ar": "أين تعمل؟" }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "تمارين",
-          "qs": [
-            { "t": "mcq", "q": "<code dir=ltr>Be quiet! The baby ___ .</code>", "opts": ["sleeps", "is sleeping", "sleep", "are sleeping"], "a": 1, "why": "يجري الآن في هذه اللحظة ← مستمرّ." },
-            { "t": "mcq", "q": "<code dir=ltr>My father ___ coffee every morning.</code>", "opts": ["is drinking", "drink", "drinks", "are drinking"], "a": 2, "why": "عادة متكرّرة ← بسيط، مع s للمفرد الغائب." },
-            { "t": "mcq", "q": "<code dir=ltr>I ___ what you mean.</code>", "opts": ["am understanding", "understand", "understands", "am understand"], "a": 1, "why": "<code dir=ltr>understand</code> فعل حالة لا يأتي في المستمرّ." },
-            { "t": "gap", "q": "أكمل بالصيغة الصحيحة: <code dir=ltr>She usually ___ (walk) to school.</code>", "a": ["walks"], "why": "usually ← عادة ← بسيط + s." },
-            { "t": "gap", "q": "أكمل: <code dir=ltr>Look! It ___ (rain) outside.</code>", "a": ["is raining", "'s raining", "is raining."], "why": "Look! تدلّ على اللحظة الحاضرة ← مستمرّ." },
-            { "t": "correct", "q": "صحّح الخطأ: <code dir=ltr>I am wanting a new phone.</code>", "a": ["I want a new phone", "I want a new phone."], "why": "<code dir=ltr>want</code> فعل حالة ← بسيط." },
-            { "t": "correct", "q": "صحّح الخطأ: <code dir=ltr>He work in a hospital.</code>", "a": ["He works in a hospital", "He works in a hospital."], "why": "المفرد الغائب يأخذ s في المضارع البسيط." },
-            { "t": "order", "q": "رتّب الجملة:", "ws": ["I", "am", "not", "working", "today"], "a": "I am not working today", "why": "النفي في المستمرّ: am/is/are + not + الفعل ing." },
-            { "t": "order", "q": "رتّب السؤال:", "ws": ["Where", "does", "your", "sister", "live"], "a": "Where does your sister live", "why": "السؤال في البسيط: أداة + does + فاعل + فعل مجرّد." },
-            { "t": "mcq", "q": "<code dir=ltr>These days I ___ to lose weight.</code>", "opts": ["try", "am trying", "tries", "was trying"], "a": 1, "why": "<code dir=ltr>these days</code> تدلّ على فترة مؤقّتة ← مستمرّ." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>I am working here since 2020.</code>", "a": ["I work here", "I have worked here since 2020", "I work here."], "why": "الوظيفة الدائمة ← بسيط. (وسنتعلّم صيغة since في وحدةٍ لاحقة.)" },
-            { "t": "gap", "q": "أكمل: <code dir=ltr>They ___ (not / watch) TV at the moment.</code>", "a": ["are not watching", "aren't watching", "are not watching."], "why": "at the moment ← مستمرّ منفيّ." }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "الفكرة في سطر",
+     "html": "<b>المضارع البسيط</b> = حقيقة أو عادة تتكرّر.<br><b>المضارع المستمرّ</b> = فعلٌ يجري <u>الآن</u> أو في فترةٍ مؤقّتة.<br><br><table><tr><td dir=ltr>I <b>work</b> in a bank.</td><td>أعمل في مصرف (وظيفتي)</td></tr><tr><td dir=ltr>I <b>am working</b> right now.</td><td>أنا أعمل الآن (هذه اللحظة)</td></tr></table>"
     },
     {
-      "n": 2,
-      "type": "vocab",
-      "title": "مفردات: أنا ويومي",
-      "subtitle": "٢٥ كلمة تدخل نظام التكرار المتباعد",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "كيف تعمل هذه الكلمات؟",
-          "html": "كلّ كلمة تضغط عليها «أعرفها» تدخل <b>نظام التكرار المتباعد</b>: يعيدها عليك التطبيق بعد يوم، ثمّ ٣ أيّام، ثمّ أسبوع، ثمّ أسبوعين… فإن أخطأتَ عادت من البداية.<br><br>هذا ما يحوّل الحفظ المؤقّت إلى <b>ذاكرة دائمة</b> — ولا تحتاج أن تقرّر متى تراجع، فالتطبيق يقرّر عنك."
-        },
-        {
-          "type": "vocab",
-          "title": "الروتين اليوميّ",
-          "items": [
-            { "w": "get up", "pos": "phrasal verb", "ar": "ينهض من السرير", "ex": [{ "en": "I <b>get up</b> at six on weekdays.", "ar": "أنهض في السادسة أيّام العمل." }] },
-            { "w": "commute", "pos": "verb / noun", "ar": "ينتقل بين البيت والعمل", "ex": [{ "en": "My <b>commute</b> takes forty minutes.", "ar": "يستغرق تنقّلي أربعين دقيقة." }] },
-            { "w": "run errands", "pos": "expression", "ar": "يقضي حاجاتٍ متفرّقة", "ex": [{ "en": "I <b>run errands</b> on Saturday mornings.", "ar": "أقضي حاجاتي صباح السبت." }] },
-            { "w": "wind down", "pos": "phrasal verb", "ar": "يسترخي في نهاية اليوم", "ex": [{ "en": "I read to <b>wind down</b> before bed.", "ar": "أقرأ لأسترخي قبل النوم." }] },
-            { "w": "routine", "pos": "noun", "ar": "روتين / نظام يوميّ", "ex": [{ "en": "My morning <b>routine</b> never changes.", "ar": "روتيني الصباحيّ لا يتغيّر." }] },
-            { "w": "chores", "pos": "noun", "ar": "أعمال منزليّة", "ex": [{ "en": "We share the household <b>chores</b>.", "ar": "نتقاسم الأعمال المنزليّة." }] },
-            { "w": "oversleep", "pos": "verb", "ar": "يفرط في النوم فيتأخّر", "ex": [{ "en": "I <b>overslept</b> and missed the bus.", "ar": "نمتُ أكثر من اللازم ففاتتني الحافلة." }] },
-            { "w": "grab a bite", "pos": "expression", "ar": "يأكل شيئاً سريعاً", "ex": [{ "en": "Let us <b>grab a bite</b> before the meeting.", "ar": "لنأكل شيئاً سريعاً قبل الاجتماع." }] }
-          ]
-        },
-        {
-          "type": "vocab",
-          "title": "العمل والدراسة",
-          "items": [
-            { "w": "be in charge of", "pos": "expression", "ar": "يكون مسؤولاً عن", "ex": [{ "en": "I <b>am in charge of</b> the new website.", "ar": "أنا مسؤول عن الموقع الجديد." }] },
-            { "w": "deal with", "pos": "phrasal verb", "ar": "يتعامل مع / يعالج", "ex": [{ "en": "I <b>deal with</b> customers all day.", "ar": "أتعامل مع العملاء طوال اليوم." }] },
-            { "w": "major in", "pos": "phrasal verb", "ar": "يتخصّص في (دراسيّاً)", "ex": [{ "en": "She <b>majors in</b> computer science.", "ar": "تتخصّص في علوم الحاسوب." }] },
-            { "w": "colleague", "pos": "noun", "ar": "زميل عمل", "ex": [{ "en": "My <b>colleagues</b> are very supportive.", "ar": "زملائي داعمون جدّاً." }] },
-            { "w": "shift", "pos": "noun", "ar": "نوبة عمل / وردية", "ex": [{ "en": "I work the night <b>shift</b> twice a week.", "ar": "أعمل النوبة الليليّة مرّتين أسبوعيّاً." }] },
-            { "w": "deadline", "pos": "noun", "ar": "موعد نهائيّ", "ex": [{ "en": "The <b>deadline</b> is next Friday.", "ar": "الموعد النهائيّ الجمعة المقبلة." }] },
-            { "w": "keep up with", "pos": "phrasal verb", "ar": "يواكب / يلاحق", "ex": [{ "en": "It is hard to <b>keep up with</b> the news.", "ar": "يصعب مواكبة الأخبار." }] },
-            { "w": "get the hang of", "pos": "expression", "ar": "يُتقن الأمر بالممارسة", "ex": [{ "en": "I am starting to <b>get the hang of</b> it.", "ar": "بدأت أُتقن الأمر." }] },
-            { "w": "hands-on", "pos": "adjective", "ar": "عمليّ / تطبيقيّ", "ex": [{ "en": "I prefer <b>hands-on</b> learning.", "ar": "أفضّل التعلّم العمليّ." }] }
-          ]
-        },
-        {
-          "type": "vocab",
-          "title": "وصف الشخصيّة",
-          "items": [
-            { "w": "outgoing", "pos": "adjective", "ar": "اجتماعيّ منفتح", "ex": [{ "en": "She is <b>outgoing</b> and makes friends easily.", "ar": "إنّها اجتماعيّة وتكوّن صداقاتٍ بسهولة." }] },
-            { "w": "reliable", "pos": "adjective", "ar": "موثوق يُعتمد عليه", "ex": [{ "en": "He is the most <b>reliable</b> person here.", "ar": "إنّه أكثر من هنا موثوقيّة." }] },
-            { "w": "easy-going", "pos": "adjective", "ar": "هيّن لا يتعقّد", "ex": [{ "en": "My boss is pretty <b>easy-going</b>.", "ar": "مديري هيّن إلى حدٍّ كبير." }] },
-            { "w": "stubborn", "pos": "adjective", "ar": "عنيد", "ex": [{ "en": "I can be <b>stubborn</b> sometimes.", "ar": "قد أكون عنيداً أحياناً." }] },
-            { "w": "down-to-earth", "pos": "adjective", "ar": "متواضع واقعيّ", "ex": [{ "en": "Despite his fame, he is <b>down-to-earth</b>.", "ar": "رغم شهرته فهو متواضع." }] },
-            { "w": "get along with", "pos": "phrasal verb", "ar": "ينسجم مع", "ex": [{ "en": "I <b>get along with</b> almost everyone.", "ar": "أنسجم مع الجميع تقريباً." }] },
-            { "w": "come across as", "pos": "phrasal verb", "ar": "يبدو للناس أنّه", "ex": [{ "en": "He <b>comes across as</b> shy at first.", "ar": "يبدو خجولاً في البداية." }] },
-            { "w": "take after", "pos": "phrasal verb", "ar": "يشبه (أحد والديه)", "ex": [{ "en": "I <b>take after</b> my mother.", "ar": "أشبه أمّي." }] }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "لماذا يخطئ العرب هنا تحديداً؟",
+     "html": "العربية تقول «أنا <b>أدرس</b> الطبّ» و«أنا <b>أدرس</b> الآن» بالصيغة نفسها — فلا تشعر بالحاجة إلى التفريق.<br><br>أمّا الإنجليزية فتُلزمك بالاختيار في كلّ جملة:<br>❌ <code dir=ltr>I study now.</code><br>✅ <code dir=ltr>I am studying now.</code><br>❌ <code dir=ltr>I am working in a bank since 2020.</code><br>✅ <code dir=ltr>I work in a bank.</code><br><br>القاعدة العمليّة: <b>إن أمكنك إضافة «الآن» أو «هذه الأيّام» فاستعمل المستمرّ.</b>"
     },
     {
-      "n": 3,
-      "type": "listening",
-      "title": "استماع: أوّل يوم في العمل",
-      "subtitle": "حوار بالسرعة الطبيعيّة + إملاء",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "كيف تستفيد من هذا الحوار؟",
-          "html": "اتبع هذا الترتيب بالضبط — إنّه أفضل ما توصّل إليه تعليم الاستماع:<br><br><b>١.</b> اسمعه مرّةً بسرعة ١٫٠× <u>دون قراءة النصّ</u>، وحاول التقاط الفكرة العامّة فقط.<br><b>٢.</b> اسمعه ببطء ٠٫٧× مع النصّ أمامك.<br><b>٣.</b> اضغط 🎙️ وردّد خلف كلّ سطر (المحاكاة).<br><b>٤.</b> اسمعه أخيراً بسرعة ١٫٣× — ستُدهشك سهولته."
-        },
-        {
-          "type": "dialogue",
-          "title": "First Day at the Office",
-          "titleAr": "أوّل يوم في المكتب",
-          "lines": [
-            { "sp": "Maya", "en": "Hi! You must be the new designer. I'm Maya.", "ar": "مرحباً! لا بدّ أنّك المصمّم الجديد. أنا مايا." },
-            { "sp": "Omar", "en": "That's right. I'm Omar. Nice to meet you.", "ar": "صحيح. أنا عمر. سُررت بلقائك." },
-            { "sp": "Maya", "en": "So what are you working on this morning?", "ar": "فعلامَ تعمل هذا الصباح؟" },
-            { "sp": "Omar", "en": "I'm just setting up my computer. It's taking forever.", "ar": "أُجهّز حاسوبي فحسب. الأمر يستغرق دهراً." },
-            { "sp": "Maya", "en": "Oh, it always does on the first day. Don't worry.", "ar": "آه، يحدث هذا دائماً في اليوم الأوّل. لا تقلق." },
-            { "sp": "Omar", "en": "Good to know. Do you usually get in this early?", "ar": "من الجيّد معرفة ذلك. هل تأتين عادةً بهذا الباكر؟" },
-            { "sp": "Maya", "en": "Most days, yeah. I commute from across town, so I beat the traffic.", "ar": "معظم الأيّام، نعم. أتنقّل من الطرف الآخر للمدينة، فأسبق الزحام." },
-            { "sp": "Omar", "en": "Smart. How long have you been here?", "ar": "ذكاء. منذ متى وأنت هنا؟" },
-            { "sp": "Maya", "en": "Three years. It's a good team — everyone's pretty easy-going.", "ar": "ثلاث سنوات. إنّه فريق جيّد — الجميع هيّنون." },
-            { "sp": "Omar", "en": "That's a relief. I was a bit nervous, honestly.", "ar": "هذا مريح. كنت متوتّراً قليلاً، بصراحة." },
-            { "sp": "Maya", "en": "Everyone is. You'll get the hang of it by next week.", "ar": "الجميع كذلك. ستُتقن الأمر بحلول الأسبوع المقبل." },
-            { "sp": "Omar", "en": "I hope so. Hey, is there a place nearby to grab a bite?", "ar": "أرجو ذلك. بالمناسبة، أثمّة مكان قريب لأكلٍ سريع؟" },
-            { "sp": "Maya", "en": "There's a decent café downstairs. I'm heading there at one if you want to join.", "ar": "ثمّة مقهى لا بأس به في الأسفل. سأذهب في الواحدة إن أردت الانضمام." },
-            { "sp": "Omar", "en": "Sounds great. See you then.", "ar": "يبدو رائعاً. أراك حينها." }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "أسئلة الفهم",
-          "qs": [
-            { "t": "mcq", "q": "ما وظيفة عمر الجديدة؟", "opts": ["مبرمج", "مصمّم", "محاسب", "مدير"], "a": 1, "why": "قالت مايا: <code dir=ltr>You must be the new designer</code>." },
-            { "t": "mcq", "q": "لماذا تأتي مايا باكراً؟", "opts": ["لأنّ دوامها يبدأ مبكّراً", "لتتجنّب زحام المرور", "لأنّها تسكن قريباً", "لأنّ المدير يطلب ذلك"], "a": 1, "why": "<code dir=ltr>I beat the traffic</code> — أي أسبق الزحام." },
-            { "t": "mcq", "q": "بمَ وصفت مايا الفريق؟", "opts": ["صارم", "هيّن ولطيف", "مشغول جدّاً", "قليل العدد"], "a": 1, "why": "<code dir=ltr>everyone's pretty easy-going</code>." },
-            { "t": "mcq", "q": "ماذا يفعل عمر لحظة الحوار؟", "opts": ["يصمّم شعاراً", "يجهّز حاسوبه", "يقابل المدير", "يتناول الغداء"], "a": 1, "why": "<code dir=ltr>I'm just setting up my computer</code> — مضارع مستمرّ للحظة الحاليّة." },
-            { "t": "mcq", "q": "في أيّ ساعة ستذهب مايا إلى المقهى؟", "opts": ["الثانية عشرة", "الواحدة", "الثانية", "لم تحدّد"], "a": 1, "why": "<code dir=ltr>I'm heading there at one</code>." }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "إملاء — اكتب ما تسمع",
-          "qs": [
-            { "t": "dict", "say": "Whatcha workin on this mornin?", "a": ["What are you working on this morning?", "what are you working on this morning"], "why": "<code dir=ltr>what are you</code> → «واتشا» — إدغام ووصل." },
-            { "t": "dict", "say": "I'm jus seddin up my compuder", "a": ["I'm just setting up my computer", "I am just setting up my computer", "im just setting up my computer"], "why": "سقطت t من just، وتحوّلت t إلى d في setting و computer." },
-            { "t": "dict", "say": "D'ya usually ged in this early?", "a": ["Do you usually get in this early?", "do you usually get in this early"], "why": "<code dir=ltr>do you</code> → «ديَ» · <code dir=ltr>get in</code> → «غِدِن»." },
-            { "t": "dict", "say": "You'll ged the hang of it", "a": ["You'll get the hang of it", "You will get the hang of it", "youll get the hang of it"], "why": "تعبيرٌ كامل تعلّمتَه اليوم في المفردات." }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "الكلمات الدالّة",
+     "html": "<b>مع البسيط ←</b> always · usually · often · sometimes · never · every day · on Mondays<br><br><b>مع المستمرّ ←</b> now · right now · at the moment · today · this week · currently"
     },
     {
-      "n": 4,
-      "type": "reading",
-      "title": "قراءة: كيف يبدأ الناجحون يومهم",
-      "subtitle": "نصّ + استنتاج المعنى من السياق",
-      "blocks": [
-        {
-          "type": "reading",
-          "title": "How Successful People Start Their Day",
-          "titleAr": "كيف يبدأ الناجحون يومهم",
-          "en": "Ask ten successful people about their morning <b>routine</b> and you will get ten different answers. Some <b>get up</b> before sunrise; others start slowly with coffee and a newspaper. But researchers who study productivity notice one thing they nearly all share: they decide the night before what matters most tomorrow.<br><br>Anna Reyes, a software engineer in Toronto, is a good example. She <b>commutes</b> forty minutes each way, so she uses that time deliberately. On the train she listens to a podcast in Spanish, a language she is learning this year. At the office she <b>deals with</b> the hardest task first, while her mind is fresh. Emails wait until eleven.<br><br>Not everyone agrees with this approach. Some experts argue that strict routines make people rigid, and that creative work needs room to breathe. What almost nobody disputes, however, is the cost of the alternative: a morning spent reacting to other people rather than choosing for yourself. As one researcher puts it, if you do not plan your day, someone else will plan it for you.",
-          "ar": "اسأل عشرة ناجحين عن روتينهم الصباحيّ تحصل على عشر إجاباتٍ مختلفة. بعضهم ينهض قبل الشروق، وبعضهم يبدأ على مهلٍ بقهوةٍ وصحيفة. لكنّ الباحثين في الإنتاجيّة يلاحظون أمراً يكاد يجمعهم كلّهم: أنّهم يقرّرون في الليلة السابقة ما الأهمّ في غدهم.<br><br>وآنا رييس، مهندسة برمجيّات في تورونتو، مثالٌ جيّد. تتنقّل أربعين دقيقة في كلّ اتّجاه، فتستعمل ذلك الوقت عن قصد. في القطار تستمع إلى بودكاست بالإسبانية، وهي لغة تتعلّمها هذا العام. وفي المكتب تعالج أصعب مهمّة أوّلاً، وذهنها صافٍ. أمّا الرسائل فتنتظر حتى الحادية عشرة.<br><br>وليس الجميع موافقاً على هذا النهج. فبعض الخبراء يرون أنّ الروتين الصارم يجعل المرء جامداً، وأنّ العمل الإبداعيّ يحتاج متّسعاً للتنفّس. غير أنّ ما لا يكاد ينازع فيه أحد هو ثمن البديل: صباحٌ يُقضى في ردّ الفعل على الآخرين بدل الاختيار لنفسك. وكما يقول أحد الباحثين: إن لم تخطّط ليومك خطّط لك غيرك."
-        },
-        {
-          "type": "quiz",
-          "title": "أسئلة الفهم",
-          "qs": [
-            { "t": "mcq", "q": "ما القاسم المشترك بين الناجحين حسب النصّ؟", "opts": ["الاستيقاظ قبل الشروق", "شرب القهوة صباحاً", "تحديد الأولويّات في الليلة السابقة", "تجنّب البريد الإلكترونيّ"], "a": 2, "why": "<code dir=ltr>they decide the night before what matters most tomorrow</code>." },
-            { "t": "mcq", "q": "لماذا تعالج آنا أصعب مهمّة أوّلاً؟", "opts": ["لأنّ مديرها يطلب ذلك", "لأنّ ذهنها يكون صافياً", "لأنّها الأسرع", "لتتجنّب الزحام"], "a": 1, "why": "<code dir=ltr>while her mind is fresh</code>." },
-            { "t": "mcq", "q": "ما اعتراض بعض الخبراء؟", "opts": ["أنّ الروتين مكلف", "أنّ الروتين الصارم يجعل المرء جامداً", "أنّ الاستيقاظ مبكّراً مضرّ", "أنّ البودكاست لا يفيد"], "a": 1, "why": "<code dir=ltr>strict routines make people rigid</code>." },
-            { "t": "mcq", "q": "<code dir=ltr>deliberately</code> في النصّ تعني…", "opts": ["ببطء", "عن قصدٍ وتخطيط", "بصعوبة", "بمرح"], "a": 1, "why": "استنتاج من السياق: تستعمل وقت التنقّل لهدفٍ محدّد." },
-            { "t": "mcq", "q": "<code dir=ltr>rigid</code> تعني…", "opts": ["مرن", "جامد لا يتغيّر", "منظّم", "سريع"], "a": 1, "why": "تقابلها في النصّ فكرة <code dir=ltr>room to breathe</code>." },
-            { "t": "mcq", "q": "ما موقف كاتب النصّ؟", "opts": ["يؤيّد الروتين الصارم بلا تحفّظ", "يرفض الروتين", "يعرض الرأيين لكنّه يميل إلى أهميّة التخطيط", "لا يبدي رأياً إطلاقاً"], "a": 2, "why": "يعرض الاعتراض ثمّ يختم بجملةٍ تدعم التخطيط." }
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "عباراتٌ من النصّ كما ستسمعها في حديثٍ حقيقيّ",
-          "rows": [
-            { "w": "What do you do for a living?", "s": "Whaddya do fer a livin?", "ar": "ما عملك؟" },
-            { "w": "I have got to get up early", "s": "I godda ged up early", "ar": "عليّ أن أنهض باكراً" },
-            { "w": "It is going to take a while", "s": "It's gonna take a while", "ar": "سيستغرق وقتاً" }
-          ]
-        }
-      ]
+     "type": "note",
+     "title": "أفعال لا تُستعمل في المستمرّ",
+     "html": "أفعال الحالة الذهنيّة والمشاعر والملكيّة تبقى في البسيط دائماً:<br><br><code dir=ltr>know · understand · believe · want · need · like · love · hate · own · belong · seem · remember</code><br><br>❌ <code dir=ltr>I am knowing the answer.</code> · ✅ <code dir=ltr>I know the answer.</code><br>❌ <code dir=ltr>I am wanting coffee.</code> · ✅ <code dir=ltr>I want coffee.</code><br><br>⚠️ استثناء شهير: <code dir=ltr>I'm loving it</code> — تسويقيّة لا قاعديّة."
     },
     {
-      "n": 5,
-      "type": "function",
-      "title": "لغة وظيفيّة ونطق",
-      "subtitle": "كيف تُعرّف بنفسك وتسأل بأدب",
-      "blocks": [
-        {
-          "type": "note",
-          "title": "عبارات جاهزة — احفظها كقوالب",
-          "html": "<b>للتعريف بنفسك:</b><br>• <code dir=ltr>I'm Omar — I work in design.</code><br>• <code dir=ltr>I'm originally from Iraq, but I'm based in Amman now.</code><br>• <code dir=ltr>I'm in charge of the design team.</code><br>• <code dir=ltr>I've been doing this for about three years.</code><br><br><b>لتسأل بأدب:</b><br>• <code dir=ltr>What do you do, if you don't mind me asking?</code><br>• <code dir=ltr>How long have you been with the company?</code><br>• <code dir=ltr>What's your day like, usually?</code><br><br><b>لتطلب الإعادة (مهمّ جدّاً):</b><br>• <code dir=ltr>Sorry, could you say that again?</code><br>• <code dir=ltr>I didn't quite catch that.</code><br>• <code dir=ltr>Sorry, you're speaking a bit fast for me.</code>"
-        },
-        {
-          "type": "note",
-          "title": "لا تقل هذا",
-          "html": "ترجماتٌ حرفيّة من العربية يقع فيها كثيرون:<br><br>❌ <code dir=ltr>What is your work?</code> ✅ <code dir=ltr>What do you do?</code><br>❌ <code dir=ltr>I am working since 2020.</code> ✅ <code dir=ltr>I've been working since 2020.</code><br>❌ <code dir=ltr>My age is 30.</code> ✅ <code dir=ltr>I'm 30.</code><br>❌ <code dir=ltr>I have 30 years.</code> ✅ <code dir=ltr>I'm 30 years old.</code><br>❌ <code dir=ltr>Repeat please!</code> ✅ <code dir=ltr>Could you repeat that, please?</code>"
-        },
-        {
-          "type": "pron",
-          "title": "نطق: نهاية s في الأفعال",
-          "hint": "ثلاثة نطقٍ مختلفة لحرفٍ واحد — وأغلب المتعلّمين يجهلها",
-          "rows": [
-            { "w": "works · sleeps · takes", "s": "s صافية", "ar": "بعد صوتٍ مهموس: k · p · t · f" },
-            { "w": "lives · runs · reads", "s": "z مجهورة", "ar": "بعد صوتٍ مجهور أو حركة" },
-            { "w": "watches · uses · finishes", "s": "iz مقطع كامل", "ar": "بعد s · z · sh · ch · ge" }
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "عبارات التعريف كما تُنطق فعلاً",
-          "rows": [
-            { "w": "What do you do?", "s": "Whaddya do?", "ar": "ما عملك؟" },
-            { "w": "Nice to meet you", "s": "Nice to meetcha", "ar": "سررت بلقائك" },
-            { "w": "I did not quite catch that", "s": "I di'n quite catch that", "ar": "لم ألتقط ذلك تماماً" },
-            { "w": "Where are you from?", "s": "Where'er ya from?", "ar": "من أين أنت؟" }
-          ]
-        },
-        {
-          "type": "quiz",
-          "title": "تمارين",
-          "qs": [
-            { "t": "mcq", "q": "كيف تسأل عن مهنة شخصٍ بالإنجليزية الطبيعيّة؟", "opts": ["What is your work?", "What do you do?", "What is your job name?", "Which work you have?"], "a": 1, "why": "<code dir=ltr>What do you do?</code> هي الصيغة المعتمدة." },
-            { "t": "mcq", "q": "كيف تنطق s في <code dir=ltr>watches</code>؟", "opts": ["s صافية", "z مجهورة", "iz مقطعاً كاملاً", "لا تُنطق"], "a": 2, "why": "بعد صوت ch تُنطق مقطعاً كاملاً /ɪz/." },
-            { "t": "mcq", "q": "كيف تنطق s في <code dir=ltr>lives</code>؟", "opts": ["s صافية", "z مجهورة", "iz", "لا تُنطق"], "a": 1, "why": "بعد v المجهورة تصير z." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>My age is 30.</code>", "a": ["I'm 30", "I am 30", "I'm 30 years old", "I am 30 years old", "I'm 30."], "why": "الإنجليزية تستعمل be مع العمر لا have ولا age is." },
-            { "t": "mcq", "q": "لم تفهم ما قاله زميلك. ما أنسب ردّ؟", "opts": ["Repeat!", "What?", "Sorry, I didn't quite catch that.", "Speak slowly!"], "a": 2, "why": "الأولى والرابعة أمريّتان فظّتان، والثانية جافّة." },
-            { "t": "order", "q": "رتّب:", "ws": ["Could", "you", "say", "that", "again"], "a": "Could you say that again", "why": "صيغة طلبٍ مهذّبة بـ Could." }
-          ]
-        }
-      ]
+     "type": "examples",
+     "title": "اسمع الفرق",
+     "rows": [
+      {
+       "en": "I <b>get up</b> at six every morning.",
+       "ar": "أستيقظ في السادسة كلّ صباح."
+      },
+      {
+       "en": "Shh — the baby <b>is sleeping</b>.",
+       "ar": "اهدأ — الطفل نائم الآن."
+      },
+      {
+       "en": "She <b>works</b> as a nurse.",
+       "ar": "تعمل ممرّضة (مهنتها)."
+      },
+      {
+       "en": "She <b>is working</b> late this week.",
+       "ar": "تعمل حتى وقتٍ متأخّر هذا الأسبوع (مؤقّتاً)."
+      },
+      {
+       "en": "Water <b>boils</b> at 100 degrees.",
+       "ar": "يغلي الماء عند مئة درجة (حقيقة)."
+      },
+      {
+       "en": "I <b>don't understand</b> this word.",
+       "ar": "لا أفهم هذه الكلمة (فعل حالة)."
+      }
+     ]
     },
     {
-      "n": 6,
-      "type": "writing",
-      "title": "كتابة: عرّف بنفسك",
-      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
-      "blocks": [
-        {
-          "type": "writing",
-          "title": "المهمّة",
-          "prompt": "انضممتَ إلى مجموعة على الإنترنت لمحترفي مجالك. اكتب تعريفاً بنفسك في <b>٦٠–٨٠ كلمة</b> يتضمّن:<br><br>• اسمك وبلدك<br>• عملك أو دراستك<br>• شيئاً عن روتينك اليوميّ<br>• ما تأمل أن تستفيده من المجموعة",
-          "phrases": [
-            "Hi everyone, I'm … from …",
-            "I work as a … / I'm currently studying …",
-            "I'm in charge of …",
-            "On a typical day, I …",
-            "These days I'm working on …",
-            "I'm hoping to … / I'd love to …",
-            "Looking forward to learning from you all."
-          ],
-          "model": "Hi everyone, I'm Omar from Baghdad. I work as a graphic designer at a small studio, and I'm in charge of our branding projects. On a typical day, I commute for about forty minutes, deal with client feedback in the morning, and save the creative work for the afternoon. These days I'm also learning motion design in my free time. I'm hoping to pick up practical tips here and connect with people who face the same challenges. Looking forward to learning from you all.",
-          "modelAr": "مرحباً جميعاً، أنا عمر من بغداد. أعمل مصمّم جرافيك في استوديو صغير، وأنا مسؤول عن مشاريع الهويّة البصريّة. في يومٍ اعتياديّ أتنقّل نحو أربعين دقيقة، وأعالج ملاحظات العملاء صباحاً، وأدّخر العمل الإبداعيّ للعصر. وهذه الأيّام أتعلّم أيضاً تصميم الحركة في وقت فراغي. آمل أن ألتقط نصائح عمليّة هنا وأتواصل مع من يواجهون التحدّيات نفسها. أتطلّع إلى التعلّم منكم جميعاً.",
-          "checklist": [
-            "استعملتُ المضارع البسيط للوظيفة والعادة (I work · I commute)",
-            "استعملتُ المضارع المستمرّ لما هو مؤقّت (These days I'm learning)",
-            "أضفتُ s للمفرد الغائب حيثما لزم",
-            "استعملتُ ثلاث كلماتٍ على الأقلّ من مفردات الوحدة",
-            "لم أترجم حرفيّاً من العربية (My age is… / What is your work…)",
-            "عدد الكلمات بين ٦٠ و٨٠",
-            "قرأتُ ما كتبتُ بصوتٍ مسموع مرّةً قبل الإرسال"
-          ]
-        },
-        {
-          "type": "ear",
-          "title": "🎧 أذنك اليوم",
-          "hint": "كيف تُنطق عبارات الختام في المحادثة",
-          "rows": [
-            { "w": "Looking forward to it", "s": "Lookin forward to it", "ar": "أتطلّع إليه" },
-            { "w": "Let me know", "s": "Lemme know", "ar": "أعلِمني" },
-            { "w": "I have got to run", "s": "I godda run", "ar": "عليّ الذهاب" }
-          ]
-        }
-      ]
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "لاحظ كيف تُختزل الأفعال المساعدة في الكلام الطبيعيّ",
+     "rows": [
+      {
+       "w": "What are you doing?",
+       "s": "Whatcha doin?",
+       "ar": "ماذا تفعل؟"
+      },
+      {
+       "w": "I am working on it",
+       "s": "I'm workin on it",
+       "ar": "أعمل عليه"
+      },
+      {
+       "w": "Where do you work?",
+       "s": "Where d'ya work?",
+       "ar": "أين تعمل؟"
+      }
+     ]
     },
     {
-      "n": 7,
-      "type": "test",
-      "title": "اختبار الوحدة",
-      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
-      "pass": 0.8,
-      "blocks": [
-        {
-          "type": "quiz",
-          "title": "اختبار الوحدة الأولى",
-          "isTest": true,
-          "qs": [
-            { "t": "mcq", "q": "<code dir=ltr>My brother ___ in Dubai.</code>", "opts": ["live", "lives", "is live", "living"], "a": 1, "why": "مفرد غائب في المضارع البسيط ← lives." },
-            { "t": "mcq", "q": "<code dir=ltr>Look! The bus ___ .</code>", "opts": ["comes", "come", "is coming", "coming"], "a": 2, "why": "Look! ← اللحظة الحاضرة ← مستمرّ." },
-            { "t": "mcq", "q": "<code dir=ltr>I ___ this song. Who is the singer?</code>", "opts": ["am liking", "likes", "like", "am like"], "a": 2, "why": "<code dir=ltr>like</code> فعل حالة ← بسيط." },
-            { "t": "mcq", "q": "أيّ ظرفٍ يصاحب المضارع المستمرّ؟", "opts": ["every day", "usually", "at the moment", "never"], "a": 2, "why": "at the moment تدلّ على اللحظة الحاضرة." },
-            { "t": "mcq", "q": "<code dir=ltr>She ___ the night shift this week.</code>", "opts": ["works", "is working", "work", "worked"], "a": 1, "why": "this week ← ترتيب مؤقّت ← مستمرّ." },
-            { "t": "gap", "q": "<code dir=ltr>He ___ (not / like) coffee.</code>", "a": ["does not like", "doesn't like", "does not like."], "why": "نفي البسيط للمفرد الغائب: doesn't + مصدر." },
-            { "t": "gap", "q": "<code dir=ltr>They ___ (watch) a film right now.</code>", "a": ["are watching", "'re watching", "are watching."], "why": "right now ← مستمرّ." },
-            { "t": "gap", "q": "<code dir=ltr>My sister ___ (study) medicine.</code>", "a": ["studies"], "why": "حقيقة دائمة ← بسيط، وy تتحوّل إلى ies." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>I am knowing him well.</code>", "a": ["I know him well", "I know him well."], "why": "know فعل حالة." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>Does she works here?</code>", "a": ["Does she work here?", "Does she work here", "does she work here"], "why": "بعد does يأتي الفعل مجرّداً بلا s." },
-            { "t": "correct", "q": "صحّح: <code dir=ltr>What is your work?</code>", "a": ["What do you do?", "What do you do", "what do you do"], "why": "ترجمة حرفيّة؛ الصيغة الطبيعيّة What do you do?" },
-            { "t": "order", "q": "رتّب:", "ws": ["I", "usually", "get", "up", "at", "seven"], "a": "I usually get up at seven", "why": "ظرف التكرار يسبق الفعل الأصليّ." },
-            { "t": "order", "q": "رتّب السؤال:", "ws": ["are", "you", "What", "doing", "now"], "a": "What are you doing now", "why": "أداة + are + فاعل + فعل ing." },
-            { "t": "mcq", "q": "<code dir=ltr>be in charge of</code> تعني…", "opts": ["يدفع ثمن", "يكون مسؤولاً عن", "يتّهم بـ", "يشحن"], "a": 1, "why": "من مفردات الوحدة." },
-            { "t": "mcq", "q": "<code dir=ltr>take after</code> تعني…", "opts": ["يأخذ بعد", "يلاحق", "يشبه أحد والديه", "يتولّى بعد"], "a": 2, "why": "<code dir=ltr>I take after my mother</code> = أشبه أمّي." },
-            { "t": "mcq", "q": "<code dir=ltr>easy-going</code> تصف شخصاً…", "opts": ["كسولاً", "هيّناً لا يتعقّد", "سريع المشي", "سهل الخداع"], "a": 1, "why": "صفة إيجابيّة تعني مرونة الطبع." },
-            { "t": "dict", "say": "Whaddya do fer a livin?", "a": ["What do you do for a living?", "what do you do for a living"], "why": "<code dir=ltr>what do you</code> → «وادّيَ» · <code dir=ltr>for a</code> → «فَرَ»." },
-            { "t": "dict", "say": "I'm jus gettin sedd up", "a": ["I'm just getting set up", "I am just getting set up", "im just getting set up"], "why": "سقوط t من just وتحوّل t إلى d في set up." },
-            { "t": "mcq", "q": "كيف تنطق s في <code dir=ltr>finishes</code>؟", "opts": ["s صافية", "z", "iz مقطعاً كاملاً", "صامتة"], "a": 2, "why": "بعد sh تُنطق مقطعاً كاملاً." },
-            { "t": "mcq", "q": "لم تسمع جملةً جيّداً. الأنسب أن تقول…", "opts": ["Repeat!", "Sorry, I didn't quite catch that.", "Again please!", "What you said?"], "a": 1, "why": "الصيغة المهذّبة المعتمدة." }
-          ]
-        },
-        {
-          "type": "watch",
-          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
-          "items": [
-            { "t": "Easy English — Street Interviews", "d": "مقابلات شارع قصيرة بترجمة إنجليزية مزدوجة. ابحث في يوتيوب عن «Easy English street interview daily routine»", "task": "شاهد ٣ دقائق، واكتب كلّ عبارة مضارع مستمرّ تسمعها." },
-            { "t": "BBC Learning English — 6 Minute English", "d": "بودكاست بستّ دقائق بسرعةٍ معتدلة وموضوعات يوميّة", "task": "استمع مرّةً دون نصّ، ثمّ مرّةً مع النصّ، ثمّ حدّد ٥ كلماتٍ جديدة." },
-            { "t": "أيّ مسلسل تحبّه — بترجمة إنجليزية", "d": "شغّل الترجمة <b>الإنجليزية</b> لا العربية. هذا يربط الصوت بالشكل المكتوب", "task": "اختر مشهداً من دقيقتين، وأعد مشاهدته ٣ مرّات، وردّد خلف الممثّلين." }
-          ]
-        }
-      ]
+     "type": "quiz",
+     "title": "تمارين",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Be quiet! The baby ___ .</code>",
+       "opts": [
+        "sleeps",
+        "is sleeping",
+        "sleep",
+        "are sleeping"
+       ],
+       "a": 1,
+       "why": "يجري الآن في هذه اللحظة ← مستمرّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>My father ___ coffee every morning.</code>",
+       "opts": [
+        "is drinking",
+        "drink",
+        "drinks",
+        "are drinking"
+       ],
+       "a": 2,
+       "why": "عادة متكرّرة ← بسيط، مع s للمفرد الغائب."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I ___ what you mean.</code>",
+       "opts": [
+        "am understanding",
+        "understand",
+        "understands",
+        "am understand"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>understand</code> فعل حالة لا يأتي في المستمرّ."
+      },
+      {
+       "t": "gap",
+       "q": "أكمل بالصيغة الصحيحة: <code dir=ltr>She usually ___ (walk) to school.</code>",
+       "a": [
+        "walks"
+       ],
+       "why": "usually ← عادة ← بسيط + s."
+      },
+      {
+       "t": "gap",
+       "q": "أكمل: <code dir=ltr>Look! It ___ (rain) outside.</code>",
+       "a": [
+        "is raining",
+        "'s raining",
+        "is raining."
+       ],
+       "why": "Look! تدلّ على اللحظة الحاضرة ← مستمرّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح الخطأ: <code dir=ltr>I am wanting a new phone.</code>",
+       "a": [
+        "I want a new phone",
+        "I want a new phone."
+       ],
+       "why": "<code dir=ltr>want</code> فعل حالة ← بسيط."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح الخطأ: <code dir=ltr>He work in a hospital.</code>",
+       "a": [
+        "He works in a hospital",
+        "He works in a hospital."
+       ],
+       "why": "المفرد الغائب يأخذ s في المضارع البسيط."
+      },
+      {
+       "t": "order",
+       "q": "رتّب الجملة:",
+       "ws": [
+        "I",
+        "am",
+        "not",
+        "working",
+        "today"
+       ],
+       "a": "I am not working today",
+       "why": "النفي في المستمرّ: am/is/are + not + الفعل ing."
+      },
+      {
+       "t": "order",
+       "q": "رتّب السؤال:",
+       "ws": [
+        "Where",
+        "does",
+        "your",
+        "sister",
+        "live"
+       ],
+       "a": "Where does your sister live",
+       "why": "السؤال في البسيط: أداة + does + فاعل + فعل مجرّد."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>These days I ___ to lose weight.</code>",
+       "opts": [
+        "try",
+        "am trying",
+        "tries",
+        "was trying"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>these days</code> تدلّ على فترة مؤقّتة ← مستمرّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am working here since 2020.</code>",
+       "a": [
+        "I work here",
+        "I have worked here since 2020",
+        "I work here."
+       ],
+       "why": "الوظيفة الدائمة ← بسيط. (وسنتعلّم صيغة since في وحدةٍ لاحقة.)"
+      },
+      {
+       "t": "gap",
+       "q": "أكمل: <code dir=ltr>They ___ (not / watch) TV at the moment.</code>",
+       "a": [
+        "are not watching",
+        "aren't watching",
+        "are not watching."
+       ],
+       "why": "at the moment ← مستمرّ منفيّ."
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "مفردات: أنا ويومي",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار المتباعد",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "كيف تعمل هذه الكلمات؟",
+     "html": "كلّ كلمة تضغط عليها «أعرفها» تدخل <b>نظام التكرار المتباعد</b>: يعيدها عليك التطبيق بعد يوم، ثمّ ٣ أيّام، ثمّ أسبوع، ثمّ أسبوعين… فإن أخطأتَ عادت من البداية.<br><br>هذا ما يحوّل الحفظ المؤقّت إلى <b>ذاكرة دائمة</b> — ولا تحتاج أن تقرّر متى تراجع، فالتطبيق يقرّر عنك."
+    },
+    {
+     "type": "vocab",
+     "title": "الروتين اليوميّ",
+     "items": [
+      {
+       "w": "get up",
+       "pos": "phrasal verb",
+       "ar": "ينهض من السرير",
+       "ex": [
+        {
+         "en": "I <b>get up</b> at six on weekdays.",
+         "ar": "أنهض في السادسة أيّام العمل."
+        }
+       ]
+      },
+      {
+       "w": "commute",
+       "pos": "verb / noun",
+       "ar": "ينتقل بين البيت والعمل",
+       "ex": [
+        {
+         "en": "My <b>commute</b> takes forty minutes.",
+         "ar": "يستغرق تنقّلي أربعين دقيقة."
+        }
+       ]
+      },
+      {
+       "w": "run errands",
+       "pos": "expression",
+       "ar": "يقضي حاجاتٍ متفرّقة",
+       "ex": [
+        {
+         "en": "I <b>run errands</b> on Saturday mornings.",
+         "ar": "أقضي حاجاتي صباح السبت."
+        }
+       ]
+      },
+      {
+       "w": "wind down",
+       "pos": "phrasal verb",
+       "ar": "يسترخي في نهاية اليوم",
+       "ex": [
+        {
+         "en": "I read to <b>wind down</b> before bed.",
+         "ar": "أقرأ لأسترخي قبل النوم."
+        }
+       ]
+      },
+      {
+       "w": "routine",
+       "pos": "noun",
+       "ar": "روتين / نظام يوميّ",
+       "ex": [
+        {
+         "en": "My morning <b>routine</b> never changes.",
+         "ar": "روتيني الصباحيّ لا يتغيّر."
+        }
+       ]
+      },
+      {
+       "w": "chores",
+       "pos": "noun",
+       "ar": "أعمال منزليّة",
+       "ex": [
+        {
+         "en": "We share the household <b>chores</b>.",
+         "ar": "نتقاسم الأعمال المنزليّة."
+        }
+       ]
+      },
+      {
+       "w": "oversleep",
+       "pos": "verb",
+       "ar": "يفرط في النوم فيتأخّر",
+       "ex": [
+        {
+         "en": "I <b>overslept</b> and missed the bus.",
+         "ar": "نمتُ أكثر من اللازم ففاتتني الحافلة."
+        }
+       ]
+      },
+      {
+       "w": "grab a bite",
+       "pos": "expression",
+       "ar": "يأكل شيئاً سريعاً",
+       "ex": [
+        {
+         "en": "Let us <b>grab a bite</b> before the meeting.",
+         "ar": "لنأكل شيئاً سريعاً قبل الاجتماع."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "العمل والدراسة",
+     "items": [
+      {
+       "w": "be in charge of",
+       "pos": "expression",
+       "ar": "يكون مسؤولاً عن",
+       "ex": [
+        {
+         "en": "I <b>am in charge of</b> the new website.",
+         "ar": "أنا مسؤول عن الموقع الجديد."
+        }
+       ]
+      },
+      {
+       "w": "deal with",
+       "pos": "phrasal verb",
+       "ar": "يتعامل مع / يعالج",
+       "ex": [
+        {
+         "en": "I <b>deal with</b> customers all day.",
+         "ar": "أتعامل مع العملاء طوال اليوم."
+        }
+       ]
+      },
+      {
+       "w": "major in",
+       "pos": "phrasal verb",
+       "ar": "يتخصّص في (دراسيّاً)",
+       "ex": [
+        {
+         "en": "She <b>majors in</b> computer science.",
+         "ar": "تتخصّص في علوم الحاسوب."
+        }
+       ]
+      },
+      {
+       "w": "colleague",
+       "pos": "noun",
+       "ar": "زميل عمل",
+       "ex": [
+        {
+         "en": "My <b>colleagues</b> are very supportive.",
+         "ar": "زملائي داعمون جدّاً."
+        }
+       ]
+      },
+      {
+       "w": "shift",
+       "pos": "noun",
+       "ar": "نوبة عمل / وردية",
+       "ex": [
+        {
+         "en": "I work the night <b>shift</b> twice a week.",
+         "ar": "أعمل النوبة الليليّة مرّتين أسبوعيّاً."
+        }
+       ]
+      },
+      {
+       "w": "deadline",
+       "pos": "noun",
+       "ar": "موعد نهائيّ",
+       "ex": [
+        {
+         "en": "The <b>deadline</b> is next Friday.",
+         "ar": "الموعد النهائيّ الجمعة المقبلة."
+        }
+       ]
+      },
+      {
+       "w": "keep up with",
+       "pos": "phrasal verb",
+       "ar": "يواكب / يلاحق",
+       "ex": [
+        {
+         "en": "It is hard to <b>keep up with</b> the news.",
+         "ar": "يصعب مواكبة الأخبار."
+        }
+       ]
+      },
+      {
+       "w": "get the hang of",
+       "pos": "expression",
+       "ar": "يُتقن الأمر بالممارسة",
+       "ex": [
+        {
+         "en": "I am starting to <b>get the hang of</b> it.",
+         "ar": "بدأت أُتقن الأمر."
+        }
+       ]
+      },
+      {
+       "w": "hands-on",
+       "pos": "adjective",
+       "ar": "عمليّ / تطبيقيّ",
+       "ex": [
+        {
+         "en": "I prefer <b>hands-on</b> learning.",
+         "ar": "أفضّل التعلّم العمليّ."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "وصف الشخصيّة",
+     "items": [
+      {
+       "w": "outgoing",
+       "pos": "adjective",
+       "ar": "اجتماعيّ منفتح",
+       "ex": [
+        {
+         "en": "She is <b>outgoing</b> and makes friends easily.",
+         "ar": "إنّها اجتماعيّة وتكوّن صداقاتٍ بسهولة."
+        }
+       ]
+      },
+      {
+       "w": "reliable",
+       "pos": "adjective",
+       "ar": "موثوق يُعتمد عليه",
+       "ex": [
+        {
+         "en": "He is the most <b>reliable</b> person here.",
+         "ar": "إنّه أكثر من هنا موثوقيّة."
+        }
+       ]
+      },
+      {
+       "w": "easy-going",
+       "pos": "adjective",
+       "ar": "هيّن لا يتعقّد",
+       "ex": [
+        {
+         "en": "My boss is pretty <b>easy-going</b>.",
+         "ar": "مديري هيّن إلى حدٍّ كبير."
+        }
+       ]
+      },
+      {
+       "w": "stubborn",
+       "pos": "adjective",
+       "ar": "عنيد",
+       "ex": [
+        {
+         "en": "I can be <b>stubborn</b> sometimes.",
+         "ar": "قد أكون عنيداً أحياناً."
+        }
+       ]
+      },
+      {
+       "w": "down-to-earth",
+       "pos": "adjective",
+       "ar": "متواضع واقعيّ",
+       "ex": [
+        {
+         "en": "Despite his fame, he is <b>down-to-earth</b>.",
+         "ar": "رغم شهرته فهو متواضع."
+        }
+       ]
+      },
+      {
+       "w": "get along with",
+       "pos": "phrasal verb",
+       "ar": "ينسجم مع",
+       "ex": [
+        {
+         "en": "I <b>get along with</b> almost everyone.",
+         "ar": "أنسجم مع الجميع تقريباً."
+        }
+       ]
+      },
+      {
+       "w": "come across as",
+       "pos": "phrasal verb",
+       "ar": "يبدو للناس أنّه",
+       "ex": [
+        {
+         "en": "He <b>comes across as</b> shy at first.",
+         "ar": "يبدو خجولاً في البداية."
+        }
+       ]
+      },
+      {
+       "w": "take after",
+       "pos": "phrasal verb",
+       "ar": "يشبه (أحد والديه)",
+       "ex": [
+        {
+         "en": "I <b>take after</b> my mother.",
+         "ar": "أشبه أمّي."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "استماع: أوّل يوم في العمل",
+   "subtitle": "حوار بالسرعة الطبيعيّة + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "كيف تستفيد من هذا الحوار؟",
+     "html": "اتبع هذا الترتيب بالضبط — إنّه أفضل ما توصّل إليه تعليم الاستماع:<br><br><b>١.</b> اسمعه مرّةً بسرعة ١٫٠× <u>دون قراءة النصّ</u>، وحاول التقاط الفكرة العامّة فقط.<br><b>٢.</b> اسمعه ببطء ٠٫٧× مع النصّ أمامك.<br><b>٣.</b> اضغط 🎙️ وردّد خلف كلّ سطر (المحاكاة).<br><b>٤.</b> اسمعه أخيراً بسرعة ١٫٣× — ستُدهشك سهولته."
+    },
+    {
+     "type": "dialogue",
+     "title": "First Day at the Office",
+     "titleAr": "أوّل يوم في المكتب",
+     "lines": [
+      {
+       "sp": "Maya",
+       "en": "Hi! You must be the new designer. I'm Maya.",
+       "ar": "مرحباً! لا بدّ أنّك المصمّم الجديد. أنا مايا."
+      },
+      {
+       "sp": "Omar",
+       "en": "That's right. I'm Omar. Nice to meet you.",
+       "ar": "صحيح. أنا عمر. سُررت بلقائك."
+      },
+      {
+       "sp": "Maya",
+       "en": "So what are you working on this morning?",
+       "ar": "فعلامَ تعمل هذا الصباح؟"
+      },
+      {
+       "sp": "Omar",
+       "en": "I'm just setting up my computer. It's taking forever.",
+       "ar": "أُجهّز حاسوبي فحسب. الأمر يستغرق دهراً."
+      },
+      {
+       "sp": "Maya",
+       "en": "Oh, it always does on the first day. Don't worry.",
+       "ar": "آه، يحدث هذا دائماً في اليوم الأوّل. لا تقلق."
+      },
+      {
+       "sp": "Omar",
+       "en": "Good to know. Do you usually get in this early?",
+       "ar": "من الجيّد معرفة ذلك. هل تأتين عادةً بهذا الباكر؟"
+      },
+      {
+       "sp": "Maya",
+       "en": "Most days, yeah. I commute from across town, so I beat the traffic.",
+       "ar": "معظم الأيّام، نعم. أتنقّل من الطرف الآخر للمدينة، فأسبق الزحام."
+      },
+      {
+       "sp": "Omar",
+       "en": "Smart. How long have you been here?",
+       "ar": "ذكاء. منذ متى وأنت هنا؟"
+      },
+      {
+       "sp": "Maya",
+       "en": "Three years. It's a good team — everyone's pretty easy-going.",
+       "ar": "ثلاث سنوات. إنّه فريق جيّد — الجميع هيّنون."
+      },
+      {
+       "sp": "Omar",
+       "en": "That's a relief. I was a bit nervous, honestly.",
+       "ar": "هذا مريح. كنت متوتّراً قليلاً، بصراحة."
+      },
+      {
+       "sp": "Maya",
+       "en": "Everyone is. You'll get the hang of it by next week.",
+       "ar": "الجميع كذلك. ستُتقن الأمر بحلول الأسبوع المقبل."
+      },
+      {
+       "sp": "Omar",
+       "en": "I hope so. Hey, is there a place nearby to grab a bite?",
+       "ar": "أرجو ذلك. بالمناسبة، أثمّة مكان قريب لأكلٍ سريع؟"
+      },
+      {
+       "sp": "Maya",
+       "en": "There's a decent café downstairs. I'm heading there at one if you want to join.",
+       "ar": "ثمّة مقهى لا بأس به في الأسفل. سأذهب في الواحدة إن أردت الانضمام."
+      },
+      {
+       "sp": "Omar",
+       "en": "Sounds great. See you then.",
+       "ar": "يبدو رائعاً. أراك حينها."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "أسئلة الفهم",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "ما وظيفة عمر الجديدة؟",
+       "opts": [
+        "مبرمج",
+        "مصمّم",
+        "محاسب",
+        "مدير"
+       ],
+       "a": 1,
+       "why": "قالت مايا: <code dir=ltr>You must be the new designer</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا تأتي مايا باكراً؟",
+       "opts": [
+        "لأنّ دوامها يبدأ مبكّراً",
+        "لتتجنّب زحام المرور",
+        "لأنّها تسكن قريباً",
+        "لأنّ المدير يطلب ذلك"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>I beat the traffic</code> — أي أسبق الزحام."
+      },
+      {
+       "t": "mcq",
+       "q": "بمَ وصفت مايا الفريق؟",
+       "opts": [
+        "صارم",
+        "هيّن ولطيف",
+        "مشغول جدّاً",
+        "قليل العدد"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>everyone's pretty easy-going</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ماذا يفعل عمر لحظة الحوار؟",
+       "opts": [
+        "يصمّم شعاراً",
+        "يجهّز حاسوبه",
+        "يقابل المدير",
+        "يتناول الغداء"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>I'm just setting up my computer</code> — مضارع مستمرّ للحظة الحاليّة."
+      },
+      {
+       "t": "mcq",
+       "q": "في أيّ ساعة ستذهب مايا إلى المقهى؟",
+       "opts": [
+        "الثانية عشرة",
+        "الواحدة",
+        "الثانية",
+        "لم تحدّد"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>I'm heading there at one</code>."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "إملاء — اكتب ما تسمع",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "Whatcha workin on this mornin?",
+       "a": [
+        "What are you working on this morning?",
+        "what are you working on this morning"
+       ],
+       "why": "<code dir=ltr>what are you</code> → «واتشا» — إدغام ووصل."
+      },
+      {
+       "t": "dict",
+       "say": "I'm jus seddin up my compuder",
+       "a": [
+        "I'm just setting up my computer",
+        "I am just setting up my computer",
+        "im just setting up my computer"
+       ],
+       "why": "سقطت t من just، وتحوّلت t إلى d في setting و computer."
+      },
+      {
+       "t": "dict",
+       "say": "D'ya usually ged in this early?",
+       "a": [
+        "Do you usually get in this early?",
+        "do you usually get in this early"
+       ],
+       "why": "<code dir=ltr>do you</code> → «ديَ» · <code dir=ltr>get in</code> → «غِدِن»."
+      },
+      {
+       "t": "dict",
+       "say": "You'll ged the hang of it",
+       "a": [
+        "You'll get the hang of it",
+        "You will get the hang of it",
+        "youll get the hang of it"
+       ],
+       "why": "تعبيرٌ كامل تعلّمتَه اليوم في المفردات."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "قراءة: كيف يبدأ الناجحون يومهم",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "How Successful People Start Their Day",
+     "titleAr": "كيف يبدأ الناجحون يومهم",
+     "en": "Ask ten successful people about their morning <b>routine</b> and you will get ten different answers. Some <b>get up</b> before sunrise; others start slowly with coffee and a newspaper. But researchers who study productivity notice one thing they nearly all share: they decide the night before what matters most tomorrow.<br><br>Anna Reyes, a software engineer in Toronto, is a good example. She <b>commutes</b> forty minutes each way, so she uses that time deliberately. On the train she listens to a podcast in Spanish, a language she is learning this year. At the office she <b>deals with</b> the hardest task first, while her mind is fresh. Emails wait until eleven.<br><br>Not everyone agrees with this approach. Some experts argue that strict routines make people rigid, and that creative work needs room to breathe. What almost nobody disputes, however, is the cost of the alternative: a morning spent reacting to other people rather than choosing for yourself. As one researcher puts it, if you do not plan your day, someone else will plan it for you.",
+     "ar": "اسأل عشرة ناجحين عن روتينهم الصباحيّ تحصل على عشر إجاباتٍ مختلفة. بعضهم ينهض قبل الشروق، وبعضهم يبدأ على مهلٍ بقهوةٍ وصحيفة. لكنّ الباحثين في الإنتاجيّة يلاحظون أمراً يكاد يجمعهم كلّهم: أنّهم يقرّرون في الليلة السابقة ما الأهمّ في غدهم.<br><br>وآنا رييس، مهندسة برمجيّات في تورونتو، مثالٌ جيّد. تتنقّل أربعين دقيقة في كلّ اتّجاه، فتستعمل ذلك الوقت عن قصد. في القطار تستمع إلى بودكاست بالإسبانية، وهي لغة تتعلّمها هذا العام. وفي المكتب تعالج أصعب مهمّة أوّلاً، وذهنها صافٍ. أمّا الرسائل فتنتظر حتى الحادية عشرة.<br><br>وليس الجميع موافقاً على هذا النهج. فبعض الخبراء يرون أنّ الروتين الصارم يجعل المرء جامداً، وأنّ العمل الإبداعيّ يحتاج متّسعاً للتنفّس. غير أنّ ما لا يكاد ينازع فيه أحد هو ثمن البديل: صباحٌ يُقضى في ردّ الفعل على الآخرين بدل الاختيار لنفسك. وكما يقول أحد الباحثين: إن لم تخطّط ليومك خطّط لك غيرك.",
+     "keys": [
+      [
+       "routine",
+       "روتين / عادة يوميّة"
+      ],
+      [
+       "commutes",
+       "يتنقّل إلى العمل"
+      ],
+      [
+       "deliberately",
+       "عن قصد"
+      ],
+      [
+       "deals with",
+       "يتعامل مع"
+      ],
+      [
+       "rigid",
+       "جامد / متصلّب"
+      ],
+      [
+       "what almost nobody disputes",
+       "ما لا يكاد ينازع فيه أحد"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "أسئلة الفهم",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "ما القاسم المشترك بين الناجحين حسب النصّ؟",
+       "opts": [
+        "الاستيقاظ قبل الشروق",
+        "شرب القهوة صباحاً",
+        "تحديد الأولويّات في الليلة السابقة",
+        "تجنّب البريد الإلكترونيّ"
+       ],
+       "a": 2,
+       "why": "<code dir=ltr>they decide the night before what matters most tomorrow</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا تعالج آنا أصعب مهمّة أوّلاً؟",
+       "opts": [
+        "لأنّ مديرها يطلب ذلك",
+        "لأنّ ذهنها يكون صافياً",
+        "لأنّها الأسرع",
+        "لتتجنّب الزحام"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>while her mind is fresh</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ما اعتراض بعض الخبراء؟",
+       "opts": [
+        "أنّ الروتين مكلف",
+        "أنّ الروتين الصارم يجعل المرء جامداً",
+        "أنّ الاستيقاظ مبكّراً مضرّ",
+        "أنّ البودكاست لا يفيد"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>strict routines make people rigid</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>deliberately</code> في النصّ تعني…",
+       "opts": [
+        "ببطء",
+        "عن قصدٍ وتخطيط",
+        "بصعوبة",
+        "بمرح"
+       ],
+       "a": 1,
+       "why": "استنتاج من السياق: تستعمل وقت التنقّل لهدفٍ محدّد."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>rigid</code> تعني…",
+       "opts": [
+        "مرن",
+        "جامد لا يتغيّر",
+        "منظّم",
+        "سريع"
+       ],
+       "a": 1,
+       "why": "تقابلها في النصّ فكرة <code dir=ltr>room to breathe</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ما موقف كاتب النصّ؟",
+       "opts": [
+        "يؤيّد الروتين الصارم بلا تحفّظ",
+        "يرفض الروتين",
+        "يعرض الرأيين لكنّه يميل إلى أهميّة التخطيط",
+        "لا يبدي رأياً إطلاقاً"
+       ],
+       "a": 2,
+       "why": "يعرض الاعتراض ثمّ يختم بجملةٍ تدعم التخطيط."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "عباراتٌ من النصّ كما ستسمعها في حديثٍ حقيقيّ",
+     "rows": [
+      {
+       "w": "What do you do for a living?",
+       "s": "Whaddya do fer a livin?",
+       "ar": "ما عملك؟"
+      },
+      {
+       "w": "I have got to get up early",
+       "s": "I godda ged up early",
+       "ar": "عليّ أن أنهض باكراً"
+      },
+      {
+       "w": "It is going to take a while",
+       "s": "It's gonna take a while",
+       "ar": "سيستغرق وقتاً"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "لغة وظيفيّة ونطق",
+   "subtitle": "كيف تُعرّف بنفسك وتسأل بأدب",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "عبارات جاهزة — احفظها كقوالب",
+     "html": "<b>للتعريف بنفسك:</b><br>• <code dir=ltr>I'm Omar — I work in design.</code><br>• <code dir=ltr>I'm originally from Iraq, but I'm based in Amman now.</code><br>• <code dir=ltr>I'm in charge of the design team.</code><br>• <code dir=ltr>I've been doing this for about three years.</code><br><br><b>لتسأل بأدب:</b><br>• <code dir=ltr>What do you do, if you don't mind me asking?</code><br>• <code dir=ltr>How long have you been with the company?</code><br>• <code dir=ltr>What's your day like, usually?</code><br><br><b>لتطلب الإعادة (مهمّ جدّاً):</b><br>• <code dir=ltr>Sorry, could you say that again?</code><br>• <code dir=ltr>I didn't quite catch that.</code><br>• <code dir=ltr>Sorry, you're speaking a bit fast for me.</code>"
+    },
+    {
+     "type": "note",
+     "title": "لا تقل هذا",
+     "html": "ترجماتٌ حرفيّة من العربية يقع فيها كثيرون:<br><br>❌ <code dir=ltr>What is your work?</code> ✅ <code dir=ltr>What do you do?</code><br>❌ <code dir=ltr>I am working since 2020.</code> ✅ <code dir=ltr>I've been working since 2020.</code><br>❌ <code dir=ltr>My age is 30.</code> ✅ <code dir=ltr>I'm 30.</code><br>❌ <code dir=ltr>I have 30 years.</code> ✅ <code dir=ltr>I'm 30 years old.</code><br>❌ <code dir=ltr>Repeat please!</code> ✅ <code dir=ltr>Could you repeat that, please?</code>"
+    },
+    {
+     "type": "pron",
+     "title": "نطق: نهاية s في الأفعال",
+     "hint": "ثلاثة نطقٍ مختلفة لحرفٍ واحد — وأغلب المتعلّمين يجهلها",
+     "rows": [
+      {
+       "w": "works · sleeps · takes",
+       "s": "s صافية",
+       "ar": "بعد صوتٍ مهموس: k · p · t · f"
+      },
+      {
+       "w": "lives · runs · reads",
+       "s": "z مجهورة",
+       "ar": "بعد صوتٍ مجهور أو حركة"
+      },
+      {
+       "w": "watches · uses · finishes",
+       "s": "iz مقطع كامل",
+       "ar": "بعد s · z · sh · ch · ge"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "عبارات التعريف كما تُنطق فعلاً",
+     "rows": [
+      {
+       "w": "What do you do?",
+       "s": "Whaddya do?",
+       "ar": "ما عملك؟"
+      },
+      {
+       "w": "Nice to meet you",
+       "s": "Nice to meetcha",
+       "ar": "سررت بلقائك"
+      },
+      {
+       "w": "I did not quite catch that",
+       "s": "I di'n quite catch that",
+       "ar": "لم ألتقط ذلك تماماً"
+      },
+      {
+       "w": "Where are you from?",
+       "s": "Where'er ya from?",
+       "ar": "من أين أنت؟"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "تمارين",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "كيف تسأل عن مهنة شخصٍ بالإنجليزية الطبيعيّة؟",
+       "opts": [
+        "What is your work?",
+        "What do you do?",
+        "What is your job name?",
+        "Which work you have?"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>What do you do?</code> هي الصيغة المعتمدة."
+      },
+      {
+       "t": "mcq",
+       "q": "كيف تنطق s في <code dir=ltr>watches</code>؟",
+       "opts": [
+        "s صافية",
+        "z مجهورة",
+        "iz مقطعاً كاملاً",
+        "لا تُنطق"
+       ],
+       "a": 2,
+       "why": "بعد صوت ch تُنطق مقطعاً كاملاً /ɪz/."
+      },
+      {
+       "t": "mcq",
+       "q": "كيف تنطق s في <code dir=ltr>lives</code>؟",
+       "opts": [
+        "s صافية",
+        "z مجهورة",
+        "iz",
+        "لا تُنطق"
+       ],
+       "a": 1,
+       "why": "بعد v المجهورة تصير z."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>My age is 30.</code>",
+       "a": [
+        "I'm 30",
+        "I am 30",
+        "I'm 30 years old",
+        "I am 30 years old",
+        "I'm 30."
+       ],
+       "why": "الإنجليزية تستعمل be مع العمر لا have ولا age is."
+      },
+      {
+       "t": "mcq",
+       "q": "لم تفهم ما قاله زميلك. ما أنسب ردّ؟",
+       "opts": [
+        "Repeat!",
+        "What?",
+        "Sorry, I didn't quite catch that.",
+        "Speak slowly!"
+       ],
+       "a": 2,
+       "why": "الأولى والرابعة أمريّتان فظّتان، والثانية جافّة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Could",
+        "you",
+        "say",
+        "that",
+        "again"
+       ],
+       "a": "Could you say that again",
+       "why": "صيغة طلبٍ مهذّبة بـ Could."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "كتابة: عرّف بنفسك",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "المهمّة",
+     "prompt": "انضممتَ إلى مجموعة على الإنترنت لمحترفي مجالك. اكتب تعريفاً بنفسك في <b>٦٠–٨٠ كلمة</b> يتضمّن:<br><br>• اسمك وبلدك<br>• عملك أو دراستك<br>• شيئاً عن روتينك اليوميّ<br>• ما تأمل أن تستفيده من المجموعة",
+     "phrases": [
+      "Hi everyone, I'm … from …",
+      "I work as a … / I'm currently studying …",
+      "I'm in charge of …",
+      "On a typical day, I …",
+      "These days I'm working on …",
+      "I'm hoping to … / I'd love to …",
+      "Looking forward to learning from you all."
+     ],
+     "model": "Hi everyone, I'm Omar from Baghdad. I work as a graphic designer at a small studio, and I'm in charge of our branding projects. On a typical day, I commute for about forty minutes, deal with client feedback in the morning, and save the creative work for the afternoon. These days I'm also learning motion design in my free time. I'm hoping to pick up practical tips here and connect with people who face the same challenges. Looking forward to learning from you all.",
+     "modelAr": "مرحباً جميعاً، أنا عمر من بغداد. أعمل مصمّم جرافيك في استوديو صغير، وأنا مسؤول عن مشاريع الهويّة البصريّة. في يومٍ اعتياديّ أتنقّل نحو أربعين دقيقة، وأعالج ملاحظات العملاء صباحاً، وأدّخر العمل الإبداعيّ للعصر. وهذه الأيّام أتعلّم أيضاً تصميم الحركة في وقت فراغي. آمل أن ألتقط نصائح عمليّة هنا وأتواصل مع من يواجهون التحدّيات نفسها. أتطلّع إلى التعلّم منكم جميعاً.",
+     "checklist": [
+      "استعملتُ المضارع البسيط للوظيفة والعادة (I work · I commute)",
+      "استعملتُ المضارع المستمرّ لما هو مؤقّت (These days I'm learning)",
+      "أضفتُ s للمفرد الغائب حيثما لزم",
+      "استعملتُ ثلاث كلماتٍ على الأقلّ من مفردات الوحدة",
+      "لم أترجم حرفيّاً من العربية (My age is… / What is your work…)",
+      "عدد الكلمات بين ٦٠ و٨٠",
+      "قرأتُ ما كتبتُ بصوتٍ مسموع مرّةً قبل الإرسال"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "كيف تُنطق عبارات الختام في المحادثة",
+     "rows": [
+      {
+       "w": "Looking forward to it",
+       "s": "Lookin forward to it",
+       "ar": "أتطلّع إليه"
+      },
+      {
+       "w": "Let me know",
+       "s": "Lemme know",
+       "ar": "أعلِمني"
+      },
+      {
+       "w": "I have got to run",
+       "s": "I godda run",
+       "ar": "عليّ الذهاب"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "اختبار الوحدة",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "pass": 0.8,
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة الأولى",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>My brother ___ in Dubai.</code>",
+       "opts": [
+        "live",
+        "lives",
+        "is live",
+        "living"
+       ],
+       "a": 1,
+       "why": "مفرد غائب في المضارع البسيط ← lives."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Look! The bus ___ .</code>",
+       "opts": [
+        "comes",
+        "come",
+        "is coming",
+        "coming"
+       ],
+       "a": 2,
+       "why": "Look! ← اللحظة الحاضرة ← مستمرّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I ___ this song. Who is the singer?</code>",
+       "opts": [
+        "am liking",
+        "likes",
+        "like",
+        "am like"
+       ],
+       "a": 2,
+       "why": "<code dir=ltr>like</code> فعل حالة ← بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "أيّ ظرفٍ يصاحب المضارع المستمرّ؟",
+       "opts": [
+        "every day",
+        "usually",
+        "at the moment",
+        "never"
+       ],
+       "a": 2,
+       "why": "at the moment تدلّ على اللحظة الحاضرة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She ___ the night shift this week.</code>",
+       "opts": [
+        "works",
+        "is working",
+        "work",
+        "worked"
+       ],
+       "a": 1,
+       "why": "this week ← ترتيب مؤقّت ← مستمرّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>He ___ (not / like) coffee.</code>",
+       "a": [
+        "does not like",
+        "doesn't like",
+        "does not like."
+       ],
+       "why": "نفي البسيط للمفرد الغائب: doesn't + مصدر."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>They ___ (watch) a film right now.</code>",
+       "a": [
+        "are watching",
+        "'re watching",
+        "are watching."
+       ],
+       "why": "right now ← مستمرّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>My sister ___ (study) medicine.</code>",
+       "a": [
+        "studies"
+       ],
+       "why": "حقيقة دائمة ← بسيط، وy تتحوّل إلى ies."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am knowing him well.</code>",
+       "a": [
+        "I know him well",
+        "I know him well."
+       ],
+       "why": "know فعل حالة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Does she works here?</code>",
+       "a": [
+        "Does she work here?",
+        "Does she work here",
+        "does she work here"
+       ],
+       "why": "بعد does يأتي الفعل مجرّداً بلا s."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>What is your work?</code>",
+       "a": [
+        "What do you do?",
+        "What do you do",
+        "what do you do"
+       ],
+       "why": "ترجمة حرفيّة؛ الصيغة الطبيعيّة What do you do?"
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "I",
+        "usually",
+        "get",
+        "up",
+        "at",
+        "seven"
+       ],
+       "a": "I usually get up at seven",
+       "why": "ظرف التكرار يسبق الفعل الأصليّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب السؤال:",
+       "ws": [
+        "are",
+        "you",
+        "What",
+        "doing",
+        "now"
+       ],
+       "a": "What are you doing now",
+       "why": "أداة + are + فاعل + فعل ing."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>be in charge of</code> تعني…",
+       "opts": [
+        "يدفع ثمن",
+        "يكون مسؤولاً عن",
+        "يتّهم بـ",
+        "يشحن"
+       ],
+       "a": 1,
+       "why": "من مفردات الوحدة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>take after</code> تعني…",
+       "opts": [
+        "يأخذ بعد",
+        "يلاحق",
+        "يشبه أحد والديه",
+        "يتولّى بعد"
+       ],
+       "a": 2,
+       "why": "<code dir=ltr>I take after my mother</code> = أشبه أمّي."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>easy-going</code> تصف شخصاً…",
+       "opts": [
+        "كسولاً",
+        "هيّناً لا يتعقّد",
+        "سريع المشي",
+        "سهل الخداع"
+       ],
+       "a": 1,
+       "why": "صفة إيجابيّة تعني مرونة الطبع."
+      },
+      {
+       "t": "dict",
+       "say": "Whaddya do fer a livin?",
+       "a": [
+        "What do you do for a living?",
+        "what do you do for a living"
+       ],
+       "why": "<code dir=ltr>what do you</code> → «وادّيَ» · <code dir=ltr>for a</code> → «فَرَ»."
+      },
+      {
+       "t": "dict",
+       "say": "I'm jus gettin sedd up",
+       "a": [
+        "I'm just getting set up",
+        "I am just getting set up",
+        "im just getting set up"
+       ],
+       "why": "سقوط t من just وتحوّل t إلى d في set up."
+      },
+      {
+       "t": "mcq",
+       "q": "كيف تنطق s في <code dir=ltr>finishes</code>؟",
+       "opts": [
+        "s صافية",
+        "z",
+        "iz مقطعاً كاملاً",
+        "صامتة"
+       ],
+       "a": 2,
+       "why": "بعد sh تُنطق مقطعاً كاملاً."
+      },
+      {
+       "t": "mcq",
+       "q": "لم تسمع جملةً جيّداً. الأنسب أن تقول…",
+       "opts": [
+        "Repeat!",
+        "Sorry, I didn't quite catch that.",
+        "Again please!",
+        "What you said?"
+       ],
+       "a": 1,
+       "why": "الصيغة المهذّبة المعتمدة."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "Easy English — Street Interviews",
+       "d": "مقابلات شارع قصيرة بترجمة إنجليزية مزدوجة. ابحث في يوتيوب عن «Easy English street interview daily routine»",
+       "task": "شاهد ٣ دقائق، واكتب كلّ عبارة مضارع مستمرّ تسمعها."
+      },
+      {
+       "t": "BBC Learning English — 6 Minute English",
+       "d": "بودكاست بستّ دقائق بسرعةٍ معتدلة وموضوعات يوميّة",
+       "task": "استمع مرّةً دون نصّ، ثمّ مرّةً مع النصّ، ثمّ حدّد ٥ كلماتٍ جديدة."
+      },
+      {
+       "t": "أيّ مسلسل تحبّه — بترجمة إنجليزية",
+       "d": "شغّل الترجمة <b>الإنجليزية</b> لا العربية. هذا يربط الصوت بالشكل المكتوب",
+       "task": "اختر مشهداً من دقيقتين، وأعد مشاهدته ٣ مرّات، وردّد خلف الممثّلين."
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

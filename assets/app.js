@@ -773,18 +773,26 @@ async function viewReview() {
   const w = el("div", "wrap");
   app.appendChild(w);
 
-  /* نبني فهرساً لكلّ عناصر المفردات في الوحدات المحمّلة */
-  const index = {};
+  /* لا نحمّل المنهج كلّه: نستنتج من معرّفات المستحقّ أيّ وحداتٍ نحتاج فقط */
   if (!COURSE) COURSE = await get("course");
-  for (const u of COURSE.units.filter(x => x.status === "ready")) {
-    let U; try { U = await get(u.id); } catch (e) { continue; }
+  const due = dueNow();
+  const ready = new Set(COURSE.units.filter(x => x.status === "ready").map(x => x.id));
+  const need = new Set();
+  due.forEach(id => {
+    const u = id.indexOf("/") > -1 ? id.slice(0, id.indexOf("/")) : "bank";
+    if (ready.has(u)) need.add(u);
+  });
+
+  const index = {};
+  for (const uid of need) {
+    let U; try { U = await get(uid); } catch (e) { continue; }
     U.days.forEach(d => (d.blocks || []).forEach((b, bi) => {
       if (b.type !== "vocab") return;
-      b.items.forEach((it, i) => { index[itemId(u.id, d.n, bi, i, it)] = it; });
+      b.items.forEach((it, i) => { index[itemId(uid, d.n, bi, i, it)] = it; });
     }));
   }
 
-  const queue = dueNow().filter(id => index[id]);
+  const queue = due.filter(id => index[id]);
   if (!queue.length) {
     w.appendChild(el("div", "empty", '<div class="ico">✅</div><h3>لا مراجعات مستحقّة</h3><p>أحسنت — عُد غداً، أو تابع درساً جديداً من الصفحة الرئيسة.</p>'));
     return;

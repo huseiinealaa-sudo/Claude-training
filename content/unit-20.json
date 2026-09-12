@@ -1,0 +1,1377 @@
+{
+ "id": "unit-20",
+ "icon": "🗣️",
+ "title": "الجدل والإقناع",
+ "subtitle": "Inversion and cleft sentences",
+ "intro": "Two speakers can say the same thing, and one sounds forgettable while the other sounds unanswerable. The difference is usually emphasis — which English builds with inversion and cleft sentences.<span class=n-ar>متحدّثان يقولان الشيء نفسه، فيبدو أحدهما عابراً والآخر لا يُردّ عليه. والفرق في الغالب هو التوكيد، وتبنيه الإنجليزيّة بالقلب والجمل المُركَّزة.</span>",
+ "goals": [
+  "I can emphasise any part of a sentence deliberately",
+  "I can use inversion after negative adverbials",
+  "I can build and defend an argument in English",
+  "I can hear stress carrying meaning in real speech"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "Inversion and cleft sentences",
+   "subtitle": "putting the emphasis exactly where you want it",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "It-cleft: spotlight one element",
+     "html": "<b>It + be + the element + that / who …</b><br><br>Neutral: <code dir=ltr>Samir sent the email on Tuesday.</code><br><br><code dir=ltr><b>It was Samir</b> who sent the email.</code> — not anyone else<br><code dir=ltr><b>It was the email</b> that Samir sent.</code> — not the report<br><code dir=ltr><b>It was on Tuesday</b> that Samir sent it.</code> — not Monday<br><br>One sentence, three completely different arguments. This is the most useful structure in any debate.<span class=n-ar>جملةٌ واحدة وثلاث حججٍ مختلفة تماماً. أنفع تركيبٍ في أيّ نقاش.</span>"
+    },
+    {
+     "type": "note",
+     "title": "What-cleft: delay the point",
+     "html": "<b>What … is / was …</b> — builds tension, then delivers.<br><br><code dir=ltr><b>What surprised me was</b> how quickly they agreed.</code><br><code dir=ltr><b>What we need is</b> a clear deadline.</code><br><code dir=ltr><b>What he did was</b> ignore every warning.</code><br><br>Also: <code dir=ltr>The reason (why) … is that …</code> / <code dir=ltr>All I want is …</code><br><br>Native speakers use this constantly in speech. It gives the listener a second to prepare for the important part.<span class=n-ar>تُؤخّر النقطة المهمّة فتُهيّئ السامع لها. يستعملها الناطقون الأصليّون باستمرار في الكلام.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Inversion after negative adverbials",
+     "html": "Start with a negative adverbial and the sentence inverts like a question:<br><br><code dir=ltr><b>Never have I seen</b> such a weak argument.</code><br><code dir=ltr><b>Rarely does a policy</b> survive its first year.</code><br><code dir=ltr><b>Not only did they refuse</b>, they also complained.</code><br><code dir=ltr><b>At no point was</b> the risk mentioned.</code><br><code dir=ltr><b>Under no circumstances should you</b> sign it.</code><br><br>Others: <code dir=ltr>Seldom, Little, No sooner … than, Hardly … when, Only after, Only then</code><br><br>⚠️ Formal and emphatic. One per paragraph is powerful; three is theatre.<span class=n-ar>ابدأ بظرفٍ منفيّ فينقلب ترتيب الجملة كالسؤال. أسلوبٌ رسميّ قويّ: واحدةٌ في الفقرة قوّة، وثلاثٌ تمثيل.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Stress: the invisible grammar",
+     "html": "In speech, emphasis is often carried by the voice alone:<br><br><code dir=ltr><b>I</b> didn't say he stole it.</code> — someone else said it<br><code dir=ltr>I didn't say <b>he</b> stole it.</code> — someone else stole it<br><code dir=ltr>I didn't say he <b>stole</b> it.</code> — he borrowed it<br><code dir=ltr>I didn't say he stole <b>it</b>.</code> — he stole something else<br><br>Seven words, seven meanings. When you watch films, the stressed word <u>is</u> the meaning.<span class=n-ar>سبع كلماتٍ وسبعة معانٍ، والفارق هو النبر وحده. حين تشاهد فيلماً فالكلمة المنبورة هي المعنى.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "<b>It was the delay</b> that cost us the contract, not the price.",
+       "ar": "التأخير هو ما كلّفنا العقد، لا السعر."
+      },
+      {
+       "en": "<b>What matters here is</b> who bears the risk.",
+       "ar": "ما يهمّ هنا هو من يتحمّل المخاطرة."
+      },
+      {
+       "en": "<b>Not only was the data old</b>, it was also incomplete.",
+       "ar": "لم تكن البيانات قديمةً فحسب، بل ناقصةً أيضاً."
+      },
+      {
+       "en": "<b>Never before had a court</b> ruled that way.",
+       "ar": "لم يسبق لمحكمةٍ قطّ أن حكمت بهذا."
+      },
+      {
+       "en": "<b>The reason it failed is that</b> nobody owned it.",
+       "ar": "سبب فشله أنّ أحداً لم يتحمّل مسؤوليّته."
+      },
+      {
+       "en": "<b>Only after the audit did they</b> admit the problem.",
+       "ar": "لم يعترفوا بالمشكلة إلّا بعد التدقيق."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "cleft openings are said fast, then the key word is hit hard",
+     "rows": [
+      {
+       "w": "What I'm saying is",
+       "s": "Wud-I'm sayin iz",
+       "ar": "ما أقوله هو"
+      },
+      {
+       "w": "It wasn't me who said that",
+       "s": "It wuzn me hoo sed that",
+       "ar": "لستُ أنا من قال ذلك"
+      },
+      {
+       "w": "The thing is",
+       "s": "The thing-iz",
+       "ar": "المسألة هي"
+      },
+      {
+       "w": "All I want is a straight answer",
+       "s": "All I wont-iz a strayd anser",
+       "ar": "كلّ ما أريده جوابٌ صريح"
+      },
+      {
+       "w": "Not only that",
+       "s": "Nod only that",
+       "ar": "وليس هذا فحسب"
+      },
+      {
+       "w": "That's exactly my point",
+       "s": "Thats eg-ZAK-ly my poynt",
+       "ar": "هذا بالضبط ما أقصده"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Emphasise the person: <code dir=ltr>Layla approved the budget.</code>",
+       "opts": [
+        "It was the budget that Layla approved",
+        "It was Layla who approved the budget",
+        "What Layla did was the budget",
+        "The budget was approved"
+       ],
+       "a": 1,
+       "why": "It + الشخص + who."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Not only ___ the deadline, they missed the brief entirely.</code>",
+       "opts": [
+        "they missed",
+        "did they miss",
+        "they did miss",
+        "missed they"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Not only."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Never ___ such a weak defence.</code>",
+       "opts": [
+        "I have heard",
+        "have I heard",
+        "I heard",
+        "did I heard"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Never."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>What we need is …</code> This structure",
+       "opts": [
+        "asks a question",
+        "delays and highlights the key point",
+        "reports speech",
+        "expresses regret"
+       ],
+       "a": 1,
+       "why": "جملةٌ مركَّزة تؤخّر النقطة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Under no circumstances ___ you share the file.</code>",
+       "a": [
+        "should",
+        "must"
+       ],
+       "why": "قلبٌ بعد ظرفٍ منفيّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Rarely a policy survives its first year.</code>",
+       "a": [
+        "Rarely does a policy survive its first year"
+       ],
+       "why": "Rarely يستدعي القلب بـdoes."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "was",
+        "the",
+        "timing",
+        "that",
+        "worried",
+        "them"
+       ],
+       "a": "It was the timing that worried them",
+       "why": "جملة it-cleft."
+      },
+      {
+       "t": "dict",
+       "say": "Wud-I'm sayin iz thad nobody checkt it",
+       "a": [
+        "What I'm saying is that nobody checked it",
+        "What Im saying is that nobody checked it"
+       ],
+       "why": "what I ← وودآي، وchecked it بالربط."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: argument and persuasion",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Building an argument",
+     "items": [
+      {
+       "w": "premise",
+       "pos": "noun",
+       "ar": "مقدّمة منطقيّة",
+       "ex": [
+        {
+         "en": "The whole argument rests on one shaky <b>premise</b>.",
+         "ar": "تقوم الحجّة كلّها على مقدّمةٍ واحدة مهتزّة."
+        }
+       ]
+      },
+      {
+       "w": "claim",
+       "pos": "noun",
+       "ar": "دعوى / ادّعاء",
+       "ex": [
+        {
+         "en": "That is a strong <b>claim</b> with weak support.",
+         "ar": "تلك دعوى قويّة بسندٍ ضعيف."
+        }
+       ]
+      },
+      {
+       "w": "evidence",
+       "pos": "noun",
+       "ar": "أدلّة",
+       "ex": [
+        {
+         "en": "There is no <b>evidence</b> either way.",
+         "ar": "لا أدلّة في أيّ من الاتّجاهين."
+        }
+       ]
+      },
+      {
+       "w": "rebut",
+       "pos": "verb",
+       "ar": "يدحض",
+       "ex": [
+        {
+         "en": "She <b>rebutted</b> every point in four minutes.",
+         "ar": "دحضت كلّ نقطةٍ في أربع دقائق."
+        }
+       ]
+      },
+      {
+       "w": "concede",
+       "pos": "verb",
+       "ar": "يسلّم بنقطة",
+       "ex": [
+        {
+         "en": "I'll <b>concede</b> that the cost is high.",
+         "ar": "أسلّم بأنّ التكلفة مرتفعة."
+        }
+       ]
+      },
+      {
+       "w": "undermine",
+       "pos": "verb",
+       "ar": "يقوّض",
+       "ex": [
+        {
+         "en": "One error <b>undermined</b> the entire report.",
+         "ar": "قوّض خطأٌ واحد التقرير بأكمله."
+        }
+       ]
+      },
+      {
+       "w": "compelling",
+       "pos": "adj",
+       "ar": "مُقنع بقوّة",
+       "ex": [
+        {
+         "en": "It is a <b>compelling</b> case, but not a proven one.",
+         "ar": "إنّها حجّةٌ مقنعة بقوّة، لكنّها غير مبرهنة."
+        }
+       ]
+      },
+      {
+       "w": "valid",
+       "pos": "adj",
+       "ar": "سليم منطقيّاً",
+       "ex": [
+        {
+         "en": "The logic is <b>valid</b> even if the facts are wrong.",
+         "ar": "المنطق سليم حتّى لو كانت الوقائع خاطئة."
+        }
+       ]
+      },
+      {
+       "w": "counterargument",
+       "pos": "noun",
+       "ar": "حجّة مضادّة",
+       "ex": [
+        {
+         "en": "Address the <b>counterargument</b> before they raise it.",
+         "ar": "عالج الحجّة المضادّة قبل أن يثيروها."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Weak reasoning",
+     "items": [
+      {
+       "w": "assumption",
+       "pos": "noun",
+       "ar": "افتراض غير مبرهن",
+       "ex": [
+        {
+         "en": "That is an <b>assumption</b>, not a finding.",
+         "ar": "ذلك افتراض لا نتيجة."
+        }
+       ]
+      },
+      {
+       "w": "generalise",
+       "pos": "verb",
+       "ar": "يعمّم",
+       "ex": [
+        {
+         "en": "You can't <b>generalise</b> from eleven cases.",
+         "ar": "لا يمكنك التعميم من إحدى عشرة حالة."
+        }
+       ]
+      },
+      {
+       "w": "cherry-pick",
+       "pos": "verb",
+       "ar": "ينتقي ما يناسبه",
+       "ex": [
+        {
+         "en": "They <b>cherry-picked</b> the two good quarters.",
+         "ar": "انتقوا الربعين الجيّدين فقط."
+        }
+       ]
+      },
+      {
+       "w": "anecdotal",
+       "pos": "adj",
+       "ar": "قائم على حكاياتٍ فرديّة",
+       "ex": [
+        {
+         "en": "The support is entirely <b>anecdotal</b>.",
+         "ar": "السند قائمٌ كلّه على حكاياتٍ فرديّة."
+        }
+       ]
+      },
+      {
+       "w": "misleading",
+       "pos": "adj",
+       "ar": "مُضلِّل",
+       "ex": [
+        {
+         "en": "The chart is accurate and <b>misleading</b> at once.",
+         "ar": "الرسم دقيق ومضلّل في آنٍ واحد."
+        }
+       ]
+      },
+      {
+       "w": "straw man",
+       "pos": "noun",
+       "ar": "مغالطة رجل القشّ",
+       "ex": [
+        {
+         "en": "That is a <b>straw man</b> — nobody argued that.",
+         "ar": "تلك مغالطة رجل قشّ؛ لم يقل ذلك أحد."
+        }
+       ]
+      },
+      {
+       "w": "vested interest",
+       "pos": "noun",
+       "ar": "مصلحة شخصيّة",
+       "ex": [
+        {
+         "en": "Everyone in the room had a <b>vested interest</b>.",
+         "ar": "كان لكلّ من في الغرفة مصلحةٌ شخصيّة."
+        }
+       ]
+      },
+      {
+       "w": "wishful thinking",
+       "pos": "noun",
+       "ar": "تفكير رغائبيّ",
+       "ex": [
+        {
+         "en": "The forecast was <b>wishful thinking</b> with a chart.",
+         "ar": "كان التوقّع تفكيراً رغائبيّاً مع رسمٍ بيانيّ."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Persuading people",
+     "items": [
+      {
+       "w": "persuasive",
+       "pos": "adj",
+       "ar": "مُقنع",
+       "ex": [
+        {
+         "en": "He is <b>persuasive</b> because he concedes early.",
+         "ar": "إنّه مقنع لأنّه يسلّم بالنقاط مبكّراً."
+        }
+       ]
+      },
+      {
+       "w": "credibility",
+       "pos": "noun",
+       "ar": "مصداقيّة",
+       "ex": [
+        {
+         "en": "You spend <b>credibility</b> every time you exaggerate.",
+         "ar": "تُنفق من مصداقيّتك كلّما بالغت."
+        }
+       ]
+      },
+      {
+       "w": "sway",
+       "pos": "verb",
+       "ar": "يستميل / يغيّر رأياً",
+       "ex": [
+        {
+         "en": "Nothing said in that meeting <b>swayed</b> anyone.",
+         "ar": "لم يستمل شيءٌ قيل في ذلك الاجتماع أحداً."
+        }
+       ]
+      },
+      {
+       "w": "common ground",
+       "pos": "noun",
+       "ar": "أرضيّة مشتركة",
+       "ex": [
+        {
+         "en": "Start with <b>common ground</b>, always.",
+         "ar": "ابدأ بالأرضيّة المشتركة دائماً."
+        }
+       ]
+      },
+      {
+       "w": "make a case for",
+       "pos": "phrase",
+       "ar": "يقدّم حجّةً لصالح",
+       "ex": [
+        {
+         "en": "She <b>made a case for</b> waiting six months.",
+         "ar": "قدّمت حجّةً لصالح الانتظار ستّة أشهر."
+        }
+       ]
+      },
+      {
+       "w": "play devil's advocate",
+       "pos": "phrase",
+       "ar": "يعارض لاختبار الفكرة",
+       "ex": [
+        {
+         "en": "Let me <b>play devil's advocate</b> for a second.",
+         "ar": "دعني أعارض لاختبار الفكرة لحظة."
+        }
+       ]
+      },
+      {
+       "w": "beg the question",
+       "pos": "phrase",
+       "ar": "يفترض ما يُراد إثباته",
+       "ex": [
+        {
+         "en": "That <b>begs the question</b> of who decides.",
+         "ar": "ذلك يفترض مسبقاً ما يُراد إثباته: من يقرّر."
+        }
+       ]
+      },
+      {
+       "w": "bottom line",
+       "pos": "noun",
+       "ar": "الخلاصة النهائيّة",
+       "ex": [
+        {
+         "en": "The <b>bottom line</b> is that we cannot afford both.",
+         "ar": "الخلاصة أنّنا لا نقدر على الاثنين معاً."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: a disagreement done well",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "Two colleagues disagree about a decision and neither raises their voice. Listen for the clefts and the inversions — they are doing all the emphatic work.<span class=n-ar>زميلان يختلفان دون أن يرفع أحدهما صوته. تابع الجمل المركَّزة والقلب: هما اللذان يحملان كلّ التوكيد.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "That's Not What I'm Arguing",
+     "titleAr": "ليس هذا ما أحاجّ به",
+     "lines": [
+      {
+       "sp": "Jad",
+       "en": "So you want to delay the launch. Again.",
+       "ar": "إذن تريد تأجيل الإطلاق. مرّةً أخرى."
+      },
+      {
+       "sp": "Rania",
+       "en": "That's not what I'm arguing. What I'm arguing is that we launch without the payments module.",
+       "ar": "ليس هذا ما أحاجّ به. ما أحاجّ به هو أن نطلق دون وحدة المدفوعات."
+      },
+      {
+       "sp": "Jad",
+       "en": "Which is half the product.",
+       "ar": "وهي نصف المنتج."
+      },
+      {
+       "sp": "Rania",
+       "en": "It's a quarter of the code and none of the value. Not once has a user asked for it in testing.",
+       "ar": "إنّها ربع الشفرة ولا شيء من القيمة. ولم يطلبها مستخدمٌ في الاختبار ولا مرّةً واحدة."
+      },
+      {
+       "sp": "Jad",
+       "en": "Testing was forty people.",
+       "ar": "الاختبار شمل أربعين شخصاً."
+      },
+      {
+       "sp": "Rania",
+       "en": "Fair. I'll concede the sample is small. But it's the only evidence either of us has.",
+       "ar": "محقّ. أسلّم بأنّ العيّنة صغيرة. لكنّها الدليل الوحيد لدى أيٍّ منّا."
+      },
+      {
+       "sp": "Jad",
+       "en": "The board was promised payments.",
+       "ar": "وُعد المجلس بالمدفوعات."
+      },
+      {
+       "sp": "Rania",
+       "en": "It was the board that asked for a date, not for a module. Those are different promises.",
+       "ar": "المجلس هو من طلب موعداً لا وحدةً برمجيّة. وهذان وعدان مختلفان."
+      },
+      {
+       "sp": "Jad",
+       "en": "Alright, that's a fair point. Let me play devil's advocate though.",
+       "ar": "حسناً، نقطةٌ عادلة. لكن دعيني أعارض لاختبار الفكرة."
+      },
+      {
+       "sp": "Rania",
+       "en": "Please.",
+       "ar": "تفضّل."
+      },
+      {
+       "sp": "Jad",
+       "en": "If we ship without it, what stops this becoming permanent?",
+       "ar": "إن أطلقنا دونها، فما الذي يمنع أن يصير هذا دائماً؟"
+      },
+      {
+       "sp": "Rania",
+       "en": "Nothing. That's the real risk, and I don't have an answer to it.",
+       "ar": "لا شيء. هذه هي المخاطرة الحقيقيّة، وليس لديّ جواب عنها."
+      },
+      {
+       "sp": "Jad",
+       "en": "Then put a date on it in writing, and I'll back you.",
+       "ar": "إذن ضعي له موعداً مكتوباً، وسأدعمك."
+      },
+      {
+       "sp": "Rania",
+       "en": "Done. Only after the date passes do we call it a failure — agreed?",
+       "ar": "اتّفقنا. ولا نسمّيه فشلاً إلّا بعد أن يمرّ الموعد — موافق؟"
+      },
+      {
+       "sp": "Jad",
+       "en": "Agreed. That's how this should have gone the first time.",
+       "ar": "موافق. هكذا كان ينبغي أن يجري الأمر من المرّة الأولى."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Rania's actual position is",
+       "opts": [
+        "delay the launch",
+        "launch without one module",
+        "cancel the product",
+        "hire more testers"
+       ],
+       "a": 1,
+       "why": "«ما أحاجّ به هو أن نطلق دون وحدة المدفوعات»."
+      },
+      {
+       "t": "mcq",
+       "q": "Jad's opening was a",
+       "opts": [
+        "fair summary",
+        "straw man",
+        "concession",
+        "question"
+       ],
+       "a": 1,
+       "why": "نسب إليها موقفاً لم تتّخذه."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Not once has a user asked for it</code> is",
+       "opts": [
+        "a cleft",
+        "inversion after a negative adverbial",
+        "reported speech",
+        "a conditional"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Not once."
+      },
+      {
+       "t": "mcq",
+       "q": "What makes Rania persuasive?",
+       "opts": [
+        "She never gives ground",
+        "She concedes the weak point herself",
+        "She raises her voice",
+        "She quotes the board"
+       ],
+       "a": 1,
+       "why": "تسلّم بصغر العيّنة ثمّ تبني."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It was the board that asked for a date</code> emphasises",
+       "opts": [
+        "what they asked for",
+        "who asked",
+        "when they asked",
+        "why they asked"
+       ],
+       "a": 0,
+       "why": "التركيز على المطلوب: موعدٌ لا وحدة."
+      },
+      {
+       "t": "mcq",
+       "q": "Rania's strongest move at the end is",
+       "opts": [
+        "denying the risk",
+        "admitting she has no answer",
+        "changing the subject",
+        "blaming Jad"
+       ],
+       "a": 1,
+       "why": "الاعتراف بالمخاطرة يزيد المصداقيّة."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "Thats not wud-I'm argyooin",
+       "a": [
+        "That's not what I'm arguing",
+        "Thats not what Im arguing"
+       ],
+       "why": "what I'm ← وودآيم."
+      },
+      {
+       "t": "dict",
+       "say": "Nod wunce haz a yoozer askt fer it",
+       "a": [
+        "Not once has a user asked for it"
+       ],
+       "why": "قلبٌ + for it ← فرِت."
+      },
+      {
+       "t": "dict",
+       "say": "I'll concede the sample iz small",
+       "a": [
+        "I'll concede the sample is small",
+        "Ill concede the sample is small"
+       ],
+       "why": "sample is ← سامبلِز بالربط."
+      },
+      {
+       "t": "dict",
+       "say": "It wuz the bord thad askt fer a dayt",
+       "a": [
+        "It was the board that asked for a date"
+       ],
+       "why": "it-cleft بالاختزال الكامل."
+      },
+      {
+       "t": "dict",
+       "say": "Thats the reel risk an I don hav an anser",
+       "a": [
+        "That's the real risk and I don't have an answer",
+        "Thats the real risk and I dont have an answer"
+       ],
+       "why": "don't ← دون بسقوط t."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: why winning an argument changes nothing",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "Why Winning an Argument Changes Nothing",
+     "titleAr": "لماذا لا يغيّر الفوز بالجدل شيئاً",
+     "en": "Anyone who has won a public argument knows the strange silence that follows. You produced better evidence, you dismantled the other position, and the person opposite you believes exactly what they believed before. <b>What the research suggests is</b> that this is the normal outcome, not the exception.<br><br>The reason is not stupidity. People hold positions for reasons that are partly social, and a defeat in public raises the cost of changing your mind rather than lowering it. <b>Never does anyone</b> enjoy being corrected in front of colleagues. The better your argument, the more expensive their retreat becomes.<br><br>What does work is slower and less satisfying. Asking someone to explain the mechanism of their own position — not to defend it, but to describe how it would actually work — reliably softens confidence. So does conceding a real point early, which signals that you are not simply collecting wins. <b>It is trust, not logic, that</b> moves people, and trust is built in the parts of a conversation nobody remembers.<br><br>None of this means evidence is useless. It means evidence persuades in private, over time, and usually after the argument is over. The people most skilled at changing minds are rarely the ones who look most impressive doing it.",
+     "ar": "كلّ من فاز بجدلٍ علنيّ يعرف ذلك الصمت الغريب الذي يليه. فقد قدّمتَ أدلّةً أفضل، وفكّكتَ موقف الطرف الآخر، وهو يؤمن تماماً بما كان يؤمن به قبل ذلك. وما توحي به الأبحاث أنّ هذه هي النتيجة المعتادة لا الاستثناء.<br><br>والسبب ليس الغباء. فالناس يتّخذون مواقف لأسبابٍ اجتماعيّةٍ جزئيّاً، والهزيمة العلنيّة ترفع كلفة تغيير الرأي بدل أن تخفضها. ولا يستمتع أحدٌ قطّ بأن يُصحَّح أمام زملائه. وكلّما كانت حجّتك أقوى صار تراجعه أبهظ.<br><br>وما يفلح فعلاً أبطأ وأقلّ إرضاءً. فأن تطلب من أحدٍ شرح آليّة موقفه — لا أن يدافع عنه بل أن يصف كيف سيعمل فعلاً — يخفّف ثقته على نحوٍ موثوق. وكذلك التسليم بنقطةٍ حقيقيّةٍ مبكّراً، فهو يشير إلى أنّك لا تجمع انتصارات. فالثقة لا المنطق هي ما يحرّك الناس، والثقة تُبنى في أجزاء المحادثة التي لا يتذكّرها أحد.<br><br>ولا يعني شيءٌ من هذا أنّ الأدلّة عديمة الفائدة، بل يعني أنّها تُقنع على انفراد، وعبر الوقت، وبعد انتهاء الجدل عادةً. وأمهر الناس في تغيير العقول نادراً ما يكونون أكثرهم إبهاراً وهم يفعلون ذلك.",
+     "keys": [
+      [
+       "dismantled",
+       "فكّكتَ"
+      ],
+      [
+       "raises the cost of",
+       "يرفع كلفة"
+      ],
+      [
+       "their retreat",
+       "تراجعهم"
+      ],
+      [
+       "the mechanism",
+       "الآليّة"
+      ],
+      [
+       "softens confidence",
+       "يخفّف الثقة"
+      ],
+      [
+       "collecting wins",
+       "يجمع انتصارات"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "According to the writer, the normal result of winning an argument is",
+       "opts": [
+        "the other person agrees",
+        "the other person keeps their view",
+        "both change",
+        "the audience decides"
+       ],
+       "a": 1,
+       "why": "«يؤمن تماماً بما كان يؤمن به»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The better your argument, the more expensive their retreat becomes</code> means a strong argument",
+       "opts": [
+        "makes agreement easier",
+        "makes backing down harder socially",
+        "proves you right",
+        "ends the discussion"
+       ],
+       "a": 1,
+       "why": "الكلفة الاجتماعيّة للتراجع ترتفع."
+      },
+      {
+       "t": "mcq",
+       "q": "Asking someone to explain the mechanism works because it",
+       "opts": [
+        "humiliates them",
+        "makes them defend harder",
+        "reveals gaps and softens confidence",
+        "wastes time"
+       ],
+       "a": 2,
+       "why": "«يخفّف ثقته على نحوٍ موثوق»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It is trust, not logic, that moves people</code> is an example of",
+       "opts": [
+        "inversion",
+        "an it-cleft",
+        "reported speech",
+        "a conditional"
+       ],
+       "a": 1,
+       "why": "جملة it-cleft تركّز على «الثقة»."
+      },
+      {
+       "t": "mcq",
+       "q": "Conceding a point early signals that you",
+       "opts": [
+        "are weak",
+        "are not just collecting wins",
+        "have no evidence",
+        "want to end the talk"
+       ],
+       "a": 1,
+       "why": "منصوصٌ عليه في الفقرة الثالثة."
+      },
+      {
+       "t": "mcq",
+       "q": "The writer's final claim about persuasive people is that they",
+       "opts": [
+        "look most impressive",
+        "rarely look impressive",
+        "avoid all arguments",
+        "always use data"
+       ],
+       "a": 1,
+       "why": "الجملة الأخيرة من النصّ."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "argument connectors are swallowed, the content word is hit",
+     "rows": [
+      {
+       "w": "To be fair",
+       "s": "Ta be fair",
+       "ar": "إنصافاً"
+      },
+      {
+       "w": "That said",
+       "s": "That sed",
+       "ar": "ومع ذلك"
+      },
+      {
+       "w": "Hang on a second",
+       "s": "Hang on a seckin",
+       "ar": "مهلاً لحظة"
+      },
+      {
+       "w": "I take your point",
+       "s": "I tayk yer poynt",
+       "ar": "أتفهّم وجهة نظرك"
+      },
+      {
+       "w": "That's beside the point",
+       "s": "Thats bside the poynt",
+       "ar": "هذا خارج الموضوع"
+      },
+      {
+       "w": "Let's agree to disagree",
+       "s": "Lets agree ta disagree",
+       "ar": "لنتّفق على الاختلاف"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Conceding, challenging and holding the floor",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Conceding without losing",
+     "html": "<code dir=ltr>That's a fair point, but …</code> — the standard move<br><code dir=ltr>I'll grant you that. What I'd add is …</code><br><code dir=ltr>You're right about X. Where I differ is Y.</code><br><code dir=ltr>I take your point — my concern is still …</code><br><code dir=ltr>That may well be true, and it doesn't change …</code><br><br>The structure is always the same: concede something real, then pivot. Conceding nothing makes everything you say sound like defence.<span class=n-ar>البنية واحدة دائماً: سلّم بشيءٍ حقيقيّ ثمّ انعطف. ومن لا يسلّم بشيءٍ يبدو كلامه كلّه دفاعاً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Challenging and holding the floor",
+     "html": "Challenging:<br><code dir=ltr>What's the evidence for that?</code><br><code dir=ltr>How would that actually work?</code> — the mechanism question<br><code dir=ltr>Is that true across the board, or just here?</code><br><code dir=ltr>I'm not sure that follows.</code> — logic, politely<br><br>Holding the floor when interrupted:<br><code dir=ltr>If I could just finish the thought …</code><br><code dir=ltr>Let me get to the point and then it's yours.</code><br><code dir=ltr>Hang on — one more sentence.</code><span class=n-ar>عباراتٌ للاعتراض المهذّب، وأخرى للاحتفاظ بدورك في الكلام حين يقاطعك أحد.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>I am not agree</code> → ✅ <code dir=ltr>I don't agree</code><br>❌ <code dir=ltr>You are wrong in this point</code> → ✅ <code dir=ltr>I'd question that</code> / <code dir=ltr>I'm not sure that's right</code><br>❌ <code dir=ltr>In my point of view</code> → ✅ <code dir=ltr>From my point of view</code> / <code dir=ltr>In my view</code><br>❌ <code dir=ltr>Let me explain you</code> → ✅ <code dir=ltr>Let me explain</code><br>❌ <code dir=ltr>This is not logic</code> → ✅ <code dir=ltr>This isn't logical</code><br>❌ <code dir=ltr>I have a different opinion than you</code> → ✅ <code dir=ltr>I see it differently</code><br>❌ <code dir=ltr>Actually</code> to mean «in fact, currently» → ✅ <code dir=ltr>at the moment / currently</code><br><br><code dir=ltr>actually</code> in English means «in reality, contrary to what you think» — it contradicts, it does not update.<span class=n-ar>انتبه: actually بالإنجليزية تعني «في الواقع، خلافاً لما تظنّ» — فهي تناقض ولا تعني «حاليّاً».</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: emphasis in a sentence",
+     "hint": "say each line four times, moving the stress",
+     "rows": [
+      {
+       "w": "I never said that",
+       "s": "I NEVer said that",
+       "ar": "أنا لم أقلها أبداً"
+      },
+      {
+       "w": "I never said that",
+       "s": "I never SAID that",
+       "ar": "لم أقلها — ربّما كتبتها"
+      },
+      {
+       "w": "I never said that",
+       "s": "I never said THAT",
+       "ar": "قلتُ شيئاً آخر"
+      },
+      {
+       "w": "ar·gu·MEN·ta·tive",
+       "s": "ar-gyoo-MEN-tuh-tiv",
+       "ar": "النبر على الثالث"
+      },
+      {
+       "w": "PER·sua·sive → per·SUA·sive",
+       "s": "per-SWAY-siv",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "cred·i·BIL·i·ty",
+       "s": "kred-ih-BIL-ih-dee",
+       "ar": "النبر على الثالث وflap T"
+      },
+      {
+       "w": "e·VID·ence → EV·i·dence",
+       "s": "EV-ih-dunss",
+       "ar": "النبر على الأوّل"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "debate fillers that buy you thinking time",
+     "rows": [
+      {
+       "w": "Here's the thing",
+       "s": "Heerz the thing",
+       "ar": "المسألة هي"
+      },
+      {
+       "w": "I'd push back on that",
+       "s": "I'd push back on that",
+       "ar": "سأعترض على ذلك"
+      },
+      {
+       "w": "Say more about that",
+       "s": "Say more abowt that",
+       "ar": "وضّح أكثر"
+      },
+      {
+       "w": "Where I'd differ is",
+       "s": "Where I'd differ-iz",
+       "ar": "حيث أختلف هو"
+      },
+      {
+       "w": "Fair enough",
+       "s": "Fair-e-nuff",
+       "ar": "كلامٌ عادل"
+      },
+      {
+       "w": "I'm not sure that follows",
+       "s": "I'm not shure that follows",
+       "ar": "لا أرى أنّ هذا يلزم منطقيّاً"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am not agree with that claim.</code>",
+       "a": [
+        "I don't agree with that claim",
+        "I do not agree with that claim"
+       ],
+       "why": "agree فعلٌ تامّ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>In my point of view, the premise is weak.</code>",
+       "a": [
+        "From my point of view, the premise is weak",
+        "In my view, the premise is weak"
+       ],
+       "why": "from my point of view أو in my view."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Let me explain you the counterargument.</code>",
+       "a": [
+        "Let me explain the counterargument",
+        "Let me explain the counterargument to you"
+       ],
+       "why": "explain لا تأخذ مفعولاً شخصيّاً مباشراً."
+      },
+      {
+       "t": "mcq",
+       "q": "Which question tests the mechanism of a claim?",
+       "opts": [
+        "Do you really believe that?",
+        "How would that actually work?",
+        "Who told you that?",
+        "Are you sure?"
+       ],
+       "a": 1,
+       "why": "سؤال الآليّة يخفّف الثقة بلا مواجهة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'm not sure that follows</code> challenges",
+       "opts": [
+        "the facts",
+        "the logical link",
+        "the speaker's honesty",
+        "the timing"
+       ],
+       "a": 1,
+       "why": "اعتراضٌ على اللزوم المنطقيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Actually, I'm working on it</code> to an English speaker sounds like",
+       "opts": [
+        "currently I'm working on it",
+        "contrary to what you think, I am working on it",
+        "I will work on it",
+        "I finished it"
+       ],
+       "a": 1,
+       "why": "actually تناقض ولا تعني «حاليّاً»."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: a persuasive argument",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Argue for a position you actually hold, in <b>140–160 words</b>. It must include:<br><br>• one it-cleft and one what-cleft<br>• one inversion after a negative adverbial<br>• one genuine concession to the other side<br>• one direct answer to the strongest counterargument<br>• at least four words from this unit<span class=n-ar>حاجّ لموقفٍ تؤمن به فعلاً في ١٤٠–١٦٠ كلمة، بجملة it-cleft وأخرى what-cleft، وقلبٍ بعد ظرفٍ منفيّ، وتسليمٍ حقيقيّ للطرف الآخر، وردٍّ مباشر على أقوى حجّةٍ مضادّة، وأربع كلماتٍ من الوحدة.</span>",
+     "phrases": [
+      "What I'd argue is that …",
+      "It is not X but Y that …",
+      "Never has … been more …",
+      "I'll concede that …",
+      "The strongest counterargument is that …",
+      "That may well be true, and it doesn't change …",
+      "The bottom line is …"
+     ],
+     "model": "What I'd argue is that schools should teach statistics instead of advanced algebra. Not because algebra is useless, but because almost nobody uses it, while everybody is shown numbers designed to persuade them.\n\nIt is not mathematical ability but statistical literacy that decides whether a person can read a news chart, a medical leaflet or a loan agreement. Never has the volume of misleading data been higher, and never have people been less equipped to question it.\n\nI'll concede the obvious point: algebra trains abstract reasoning, and statistics taught badly becomes a list of formulas nobody understands. That is a real risk.\n\nThe strongest counterargument is that universities require algebra. That may well be true, and it doesn't change the fact that we are optimising a whole school system for the minority who will study engineering.\n\nThe bottom line is that we teach the maths that is easy to test, not the maths that is easy to need.",
+     "modelAr": "ما أحاجّ به هو أنّ على المدارس تدريس الإحصاء بدل الجبر المتقدّم. لا لأنّ الجبر عديم الفائدة، بل لأنّ أحداً لا يكاد يستعمله، بينما يُعرض على الجميع أرقامٌ صُمّمت لإقناعهم.\n\nليست القدرة الرياضيّة بل الثقافة الإحصائيّة هي ما يحدّد إن كان المرء قادراً على قراءة رسمٍ إخباريّ أو نشرةٍ دوائيّة أو عقد قرض. ولم يكن حجم البيانات المضلّلة أعلى ممّا هو عليه قطّ، ولم يكن الناس أقلّ تجهيزاً للتشكيك فيها.\n\nوأسلّم بالنقطة البديهيّة: الجبر يدرّب التفكير المجرّد، والإحصاء إن دُرّس بسوءٍ صار قائمة صيغٍ لا يفهمها أحد. وهذه مخاطرةٌ حقيقيّة.\n\nوأقوى حجّةٍ مضادّة أنّ الجامعات تشترط الجبر. وقد يكون ذلك صحيحاً تماماً، ولا يغيّر أنّنا نضبط نظاماً مدرسيّاً بأكمله لأجل أقلّيّةٍ ستدرس الهندسة.\n\nوالخلاصة أنّنا ندرّس الرياضيّات التي يسهل اختبارها لا التي يسهل أن يُحتاج إليها.",
+     "checklist": [
+      "I used an it-cleft (It is … that …)",
+      "I used a what-cleft (What … is …)",
+      "I inverted after a negative adverbial (Never has / Not only did …)",
+      "I conceded one real point, not a fake one",
+      "I named and answered the strongest counterargument",
+      "I used at least four unit words (premise, concede, misleading, counterargument …)",
+      "I wrote 'I don't agree', never 'I am not agree'",
+      "I ended with a clear bottom line",
+      "140–160 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "how a written argument sounds when read aloud",
+     "rows": [
+      {
+       "w": "What I'd argue is",
+       "s": "Wud-I'd argyoo iz",
+       "ar": "ما أحاجّ به هو"
+      },
+      {
+       "w": "It's not X but Y",
+       "s": "Its not ex but why",
+       "ar": "ليس س بل ص"
+      },
+      {
+       "w": "That may well be true",
+       "s": "That may well be troo",
+       "ar": "قد يكون ذلك صحيحاً"
+      },
+      {
+       "w": "The bottom line is",
+       "s": "The boddom line-iz",
+       "ar": "الخلاصة هي"
+      },
+      {
+       "w": "Which brings me to",
+       "s": "Which bringz me ta",
+       "ar": "وهذا يقودني إلى"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ٢٠",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Never ___ such a badly argued case.</code>",
+       "opts": [
+        "I have seen",
+        "have I seen",
+        "I saw",
+        "did I saw"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Never."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Not only ___ late, but he also came unprepared.</code>",
+       "opts": [
+        "he was",
+        "was he",
+        "he is",
+        "were he"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Not only."
+      },
+      {
+       "t": "mcq",
+       "q": "Emphasise the time: <code dir=ltr>They announced it on Monday.</code>",
+       "opts": [
+        "It was Monday that they announced it",
+        "It was they who announced it",
+        "What they did was Monday",
+        "Monday it was announced"
+       ],
+       "a": 0,
+       "why": "it-cleft على الظرف الزمنيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>What worries me is the timeline.</code> This is",
+       "opts": [
+        "an it-cleft",
+        "a what-cleft",
+        "an inversion",
+        "reported speech"
+       ],
+       "a": 1,
+       "why": "جملة what-cleft."
+      },
+      {
+       "t": "mcq",
+       "q": "Support based on individual stories, not data, is",
+       "opts": [
+        "valid",
+        "anecdotal",
+        "compelling",
+        "vested"
+       ],
+       "a": 1,
+       "why": "قائمٌ على حكاياتٍ فرديّة."
+      },
+      {
+       "t": "mcq",
+       "q": "Attacking a position nobody actually holds is a",
+       "opts": [
+        "premise",
+        "straw man",
+        "rebuttal",
+        "concession"
+       ],
+       "a": 1,
+       "why": "مغالطة رجل القشّ."
+      },
+      {
+       "t": "mcq",
+       "q": "Selecting only the data that supports you is to",
+       "opts": [
+        "rebut",
+        "cherry-pick",
+        "concede",
+        "sway"
+       ],
+       "a": 1,
+       "why": "انتقاء ما يناسبك."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Under no circumstances ___ the file be shared.</code>",
+       "a": [
+        "should",
+        "must",
+        "may"
+       ],
+       "why": "قلبٌ بعد ظرفٍ منفيّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ was the cost that killed it, not the idea.</code>",
+       "a": [
+        "It"
+       ],
+       "why": "بداية it-cleft."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ we need is one clear deadline.</code>",
+       "a": [
+        "What"
+       ],
+       "why": "بداية what-cleft."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Rarely a manager admits that.</code>",
+       "a": [
+        "Rarely does a manager admit that"
+       ],
+       "why": "Rarely تستدعي القلب."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am not agree with the premise.</code>",
+       "a": [
+        "I don't agree with the premise",
+        "I do not agree with the premise"
+       ],
+       "why": "agree فعل."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>In my point of view, it is misleading.</code>",
+       "a": [
+        "From my point of view, it is misleading",
+        "In my view, it is misleading"
+       ],
+       "why": "from my point of view."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Let me explain you why.</code>",
+       "a": [
+        "Let me explain why",
+        "Let me explain to you why"
+       ],
+       "why": "explain بلا مفعولٍ شخصيّ مباشر."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Only",
+        "after",
+        "the",
+        "audit",
+        "did",
+        "they",
+        "respond"
+       ],
+       "a": "Only after the audit did they respond",
+       "why": "قلبٌ بعد Only after."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "is",
+        "trust",
+        "not",
+        "logic",
+        "that",
+        "moves",
+        "people"
+       ],
+       "a": "It is trust not logic that moves people",
+       "why": "it-cleft بالتضادّ."
+      },
+      {
+       "t": "dict",
+       "say": "Wud-I'm sayin iz thad nobody ownz it",
+       "a": [
+        "What I'm saying is that nobody owns it",
+        "What Im saying is that nobody owns it"
+       ],
+       "why": "what I'm ← وودآيم."
+      },
+      {
+       "t": "dict",
+       "say": "Nod wunce did they menshun the risk",
+       "a": [
+        "Not once did they mention the risk"
+       ],
+       "why": "قلبٌ بعد Not once."
+      },
+      {
+       "t": "dict",
+       "say": "I'll grant ya that, but heerz the thing",
+       "a": [
+        "I'll grant you that, but here's the thing",
+        "Ill grant you that but heres the thing"
+       ],
+       "why": "grant you ← جرانتيَ."
+      },
+      {
+       "t": "mcq",
+       "q": "The most persuasive opening move in a disagreement is to",
+       "opts": [
+        "state you are right",
+        "concede a real point first",
+        "list all your evidence",
+        "question their motives"
+       ],
+       "a": 1,
+       "why": "التسليم المبكّر يبني الثقة التي تحرّك الناس."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "مناظراتٌ مصوّرة",
+       "d": "ابحث عن «Intelligence Squared Debates» — جدلٌ منظّم بلغةٍ راقية",
+       "task": "سجّل خمس جملٍ فيها قلبٌ أو تركيز، كما سمعتها."
+      },
+      {
+       "t": "برنامج حواريّ سياسيّ",
+       "d": "ابحث عن مقابلات «60 Minutes» — أسئلةٌ حادّة وردودٌ متحوّطة",
+       "task": "احصِ كم مرّة سلّم ضيفٌ بنقطةٍ قبل أن يعترض."
+      },
+      {
+       "t": "بودكاست حواريّ طويل",
+       "d": "ابحث عن «The Ezra Klein Show» — خلافٌ مهذّب ومطوّل",
+       "task": "استمع عشرين دقيقة، واكتب ثلاث عباراتٍ للاعتراض المهذّب."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "اقرأ «I never said that» بأربع نبراتٍ مختلفة، وميّز المعاني الأربعة."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

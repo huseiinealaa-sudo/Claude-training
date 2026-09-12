@@ -1,0 +1,1333 @@
+{
+ "id": "unit-03",
+ "icon": "🏅",
+ "title": "الخبرات والإنجازات",
+ "subtitle": "أن تتحدّث عمّا فعلتَه في حياتك",
+ "intro": "المضارع التامّ هو الزمن الذي يربط ماضيك بحاضرك: ما جرّبتَه، وما أنجزتَه، وما بدأ ولم ينتهِ. وهو أكثر زمنٍ يخطئ فيه العرب لأنّ العربية لا تملك ما يقابله تماماً — فأفردنا له وحدةً كاملة.",
+ "goals": [
+  "أتحدّث عن خبراتي بلا تحديد وقت",
+  "أميّز متى أستعمل المضارع التامّ ومتى الماضي البسيط",
+  "أستعمل for و since و ever و never و yet بدقّة",
+  "أسأل شخصاً عن تجاربه وأردّ على سؤاله"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "المضارع التامّ",
+   "subtitle": "have / has + التصريف الثالث",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "لماذا هذا الزمن صعبٌ على العرب؟",
+     "html": "العربية تقول «زرتُ اليابان» سواء أكانت الزيارة السنة الماضية أم في وقتٍ ما من عمرك. أمّا الإنجليزية فتفرّق:<br><br><code dir=ltr>I <b>visited</b> Japan last year.</code> ← وقتٌ محدّد منتهٍ<br><code dir=ltr>I <b>have visited</b> Japan.</code> ← خبرةٌ في حياتي، والوقت غير مهمّ<br><br><b>القاعدة الذهبيّة:</b> إن ذكرتَ <u>متى</u> فاستعمل الماضي البسيط. وإن لم تذكر <u>متى</u> فالمضارع التامّ."
+    },
+    {
+     "type": "note",
+     "title": "ثلاث وظائف",
+     "html": "<b>١. خبرة الحياة (الوقت غير محدّد):</b><br><code dir=ltr>She <b>has travelled</b> to twelve countries.</code><br><br><b>٢. فعلٌ بدأ في الماضي وما زال:</b><br><code dir=ltr>I <b>have lived</b> here <b>for</b> five years.</code> (وما زلت)<br><br><b>٣. حدثٌ قريب أثره باقٍ الآن:</b><br><code dir=ltr>I <b>have lost</b> my keys.</code> (ولم أجدها بعد)"
+    },
+    {
+     "type": "note",
+     "title": "for ↔ since — أشهر خطأ",
+     "html": "<b>for</b> + <u>مدّة</u> ← <code dir=ltr>for two years · for a week · for ages</code><br><b>since</b> + <u>نقطة بداية</u> ← <code dir=ltr>since 2020 · since Monday · since I was a child</code><br><br>❌ <code dir=ltr>since two years</code> — خطأ عربيّ كلاسيكيّ («منذ سنتين»)<br>✅ <code dir=ltr>for two years</code><br><br>واختبارٌ سريع: إن أمكنك أن تسأل «كم؟» فهي <b>for</b>، وإن سألت «منذ متى بالضبط؟» فهي <b>since</b>."
+    },
+    {
+     "type": "note",
+     "title": "الكلمات المصاحبة",
+     "html": "<table><tr><td dir=ltr><b>ever</b></td><td>في السؤال: هل سبق أن…؟ <code dir=ltr>Have you ever been to Rome?</code></td></tr><tr><td dir=ltr><b>never</b></td><td>لم يحدث قطّ <code dir=ltr>I have never eaten sushi.</code></td></tr><tr><td dir=ltr><b>already</b></td><td>حدث قبل المتوقّع <code dir=ltr>I have already finished.</code></td></tr><tr><td dir=ltr><b>yet</b></td><td>في النفي والسؤال <code dir=ltr>Have you finished yet?</code></td></tr><tr><td dir=ltr><b>just</b></td><td>قبل قليل جدّاً <code dir=ltr>He has just left.</code></td></tr><tr><td dir=ltr><b>so far</b></td><td>حتى الآن <code dir=ltr>We have sold 40 so far.</code></td></tr></table>"
+    },
+    {
+     "type": "examples",
+     "title": "اسمع الفرق",
+     "rows": [
+      {
+       "en": "I <b>have been</b> to Turkey twice.",
+       "ar": "زرتُ تركيا مرّتين (في حياتي)."
+      },
+      {
+       "en": "I <b>went</b> to Turkey in 2022.",
+       "ar": "ذهبتُ إلى تركيا عام ٢٠٢٢ (وقتٌ محدّد)."
+      },
+      {
+       "en": "She <b>has worked</b> here <b>since</b> March.",
+       "ar": "تعمل هنا منذ آذار (وما زالت)."
+      },
+      {
+       "en": "She <b>worked</b> here <b>for</b> two years.",
+       "ar": "عملت هنا سنتين (وانتهى الأمر)."
+      },
+      {
+       "en": "<b>Have</b> you <b>ever</b> broken a bone?",
+       "ar": "هل سبق أن كسرتَ عظماً؟"
+      },
+      {
+       "en": "I <b>haven't</b> finished <b>yet</b>.",
+       "ar": "لم أنتهِ بعد."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "have تكاد تختفي في الكلام — وهذا سبب ضياعها عليك",
+     "rows": [
+      {
+       "w": "I have been there",
+       "s": "I've bin there",
+       "ar": "ذهبتُ إلى هناك"
+      },
+      {
+       "w": "Have you ever tried it?",
+       "s": "Hav ya ever tried it?",
+       "ar": "هل سبق أن جرّبته؟"
+      },
+      {
+       "w": "She has already left",
+       "s": "She's awready left",
+       "ar": "غادرت بالفعل"
+      },
+      {
+       "w": "We have not seen him",
+       "s": "We haven seen him",
+       "ar": "لم نره"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "تمارين",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I ___ to Paris in 2019.</code>",
+       "opts": [
+        "have been",
+        "went",
+        "have gone",
+        "was going"
+       ],
+       "a": 1,
+       "why": "ذُكر الوقت (2019) ← ماضٍ بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>___ you ever ___ a horse?</code>",
+       "opts": [
+        "Did / ride",
+        "Have / ridden",
+        "Have / rode",
+        "Do / ride"
+       ],
+       "a": 1,
+       "why": "ever + خبرة حياة ← مضارع تامّ + التصريف الثالث ridden."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>He has lived here ___ ten years.</code>",
+       "opts": [
+        "since",
+        "for",
+        "from",
+        "during"
+       ],
+       "a": 1,
+       "why": "ten years مدّة ← for."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We have known each other ___ 2015.</code>",
+       "opts": [
+        "for",
+        "since",
+        "from",
+        "by"
+       ],
+       "a": 1,
+       "why": "2015 نقطة بداية ← since."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>She ___ (not / finish) her homework yet.</code>",
+       "a": [
+        "has not finished",
+        "hasn't finished",
+        "has not finished."
+       ],
+       "why": "yet ← نفي المضارع التامّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>I ___ (never / see) snow.</code>",
+       "a": [
+        "have never seen",
+        "'ve never seen",
+        "have never seen."
+       ],
+       "why": "never يقع بين have والتصريف الثالث."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>They ___ (just / arrive).</code>",
+       "a": [
+        "have just arrived",
+        "'ve just arrived",
+        "have just arrived."
+       ],
+       "why": "just ← حدثٌ قريب جدّاً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I live here since two years.</code>",
+       "a": [
+        "I have lived here for two years",
+        "I've lived here for two years",
+        "I have lived here for two years."
+       ],
+       "why": "خطآن: الزمن، و since مع مدّة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Have you went there before?</code>",
+       "a": [
+        "Have you been there before?",
+        "Have you gone there before?",
+        "Have you been there before"
+       ],
+       "why": "بعد have يأتي التصريف الثالث لا الثاني."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I have seen him yesterday.</code>",
+       "a": [
+        "I saw him yesterday",
+        "I saw him yesterday."
+       ],
+       "why": "yesterday وقتٌ محدّد ← ماضٍ بسيط."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "I",
+        "have",
+        "never",
+        "been",
+        "to",
+        "Japan"
+       ],
+       "a": "I have never been to Japan",
+       "why": "never بين have والتصريف الثالث."
+      },
+      {
+       "t": "order",
+       "q": "رتّب السؤال:",
+       "ws": [
+        "How",
+        "long",
+        "have",
+        "you",
+        "worked",
+        "here"
+       ],
+       "a": "How long have you worked here",
+       "why": "سؤال المدّة مع المضارع التامّ."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "مفردات: الخبرة والإنجاز",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "الإنجاز والمحاولة",
+     "items": [
+      {
+       "w": "accomplish",
+       "pos": "verb",
+       "ar": "يُنجز عملاً كبيراً",
+       "ex": [
+        {
+         "en": "We <b>accomplished</b> more than we expected.",
+         "ar": "أنجزنا أكثر ممّا توقّعنا."
+        }
+       ]
+      },
+      {
+       "w": "pull off",
+       "pos": "phrasal verb",
+       "ar": "ينجح في أمرٍ صعب",
+       "ex": [
+        {
+         "en": "I can't believe we <b>pulled it off</b>.",
+         "ar": "لا أصدّق أنّنا نجحنا فيه."
+        }
+       ]
+      },
+      {
+       "w": "take up",
+       "pos": "phrasal verb",
+       "ar": "يبدأ هوايةً أو نشاطاً",
+       "ex": [
+        {
+         "en": "I've <b>taken up</b> swimming this year.",
+         "ar": "بدأتُ السباحة هذا العام."
+        }
+       ]
+      },
+      {
+       "w": "stick with",
+       "pos": "phrasal verb",
+       "ar": "يواظب على / لا يتخلّى عن",
+       "ex": [
+        {
+         "en": "I've <b>stuck with</b> it for three months.",
+         "ar": "واظبتُ عليه ثلاثة أشهر."
+        }
+       ]
+      },
+      {
+       "w": "give it a go",
+       "pos": "expression",
+       "ar": "يجرّب الأمر",
+       "ex": [
+        {
+         "en": "I've never skied, but I'd <b>give it a go</b>.",
+         "ar": "لم أتزلّج قطّ، لكنّي سأجرّب."
+        }
+       ]
+      },
+      {
+       "w": "milestone",
+       "pos": "noun",
+       "ar": "محطّة فارقة",
+       "ex": [
+        {
+         "en": "Finishing the course was a real <b>milestone</b>.",
+         "ar": "كان إنهاء الدورة محطّةً فارقة حقّاً."
+        }
+       ]
+      },
+      {
+       "w": "setback",
+       "pos": "noun",
+       "ar": "نكسة / انتكاسة",
+       "ex": [
+        {
+         "en": "We've had a few <b>setbacks</b> this year.",
+         "ar": "واجهتنا بضع نكسات هذا العام."
+        }
+       ]
+      },
+      {
+       "w": "worth it",
+       "pos": "expression",
+       "ar": "يستحقّ العناء",
+       "ex": [
+        {
+         "en": "It was hard, but it was <b>worth it</b>.",
+         "ar": "كان صعباً، لكنّه استحقّ العناء."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "الخبرة والتجربة",
+     "items": [
+      {
+       "w": "be into",
+       "pos": "expression",
+       "ar": "يهوى / مولع بـ",
+       "ex": [
+        {
+         "en": "I'm really <b>into</b> photography these days.",
+         "ar": "أنا مولع بالتصوير هذه الأيّام."
+        }
+       ]
+      },
+      {
+       "w": "get used to",
+       "pos": "expression",
+       "ar": "يعتاد على",
+       "ex": [
+        {
+         "en": "I've <b>got used to</b> waking up early.",
+         "ar": "اعتدتُ الاستيقاظ باكراً."
+        }
+       ]
+      },
+      {
+       "w": "pick up",
+       "pos": "phrasal verb",
+       "ar": "يتعلّم شيئاً بالممارسة",
+       "ex": [
+        {
+         "en": "I <b>picked up</b> some Spanish while travelling.",
+         "ar": "التقطتُ شيئاً من الإسبانية أثناء سفري."
+        }
+       ]
+      },
+      {
+       "w": "look into",
+       "pos": "phrasal verb",
+       "ar": "يبحث في / يستكشف",
+       "ex": [
+        {
+         "en": "I've been <b>looking into</b> online courses.",
+         "ar": "كنتُ أبحث في الدورات الإلكترونيّة."
+        }
+       ]
+      },
+      {
+       "w": "hands-on experience",
+       "pos": "expression",
+       "ar": "خبرة عمليّة",
+       "ex": [
+        {
+         "en": "I have five years of <b>hands-on experience</b>.",
+         "ar": "لديّ خمس سنوات من الخبرة العمليّة."
+        }
+       ]
+      },
+      {
+       "w": "learning curve",
+       "pos": "noun",
+       "ar": "منحنى التعلّم / صعوبة البداية",
+       "ex": [
+        {
+         "en": "There was a steep <b>learning curve</b> at first.",
+         "ar": "كان منحنى التعلّم حادّاً في البداية."
+        }
+       ]
+      },
+      {
+       "w": "out of my comfort zone",
+       "pos": "expression",
+       "ar": "خارج منطقة راحتي",
+       "ex": [
+        {
+         "en": "It pushed me <b>out of my comfort zone</b>.",
+         "ar": "دفعني خارج منطقة راحتي."
+        }
+       ]
+      },
+      {
+       "w": "from scratch",
+       "pos": "expression",
+       "ar": "من الصفر",
+       "ex": [
+        {
+         "en": "I built the website <b>from scratch</b>.",
+         "ar": "بنيتُ الموقع من الصفر."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "أفعال شاذّة يكثر استعمالها هنا",
+     "items": [
+      {
+       "w": "be → been",
+       "pos": "irregular",
+       "ar": "كان → التصريف الثالث been",
+       "ex": [
+        {
+         "en": "I've <b>been</b> to Egypt three times.",
+         "ar": "زرتُ مصر ثلاث مرّات."
+        }
+       ]
+      },
+      {
+       "w": "do → done",
+       "pos": "irregular",
+       "ar": "فعل → done",
+       "ex": [
+        {
+         "en": "I've <b>done</b> everything on the list.",
+         "ar": "أنجزتُ كلّ ما في القائمة."
+        }
+       ]
+      },
+      {
+       "w": "write → written",
+       "pos": "irregular",
+       "ar": "كتب → written",
+       "ex": [
+        {
+         "en": "She has <b>written</b> two books.",
+         "ar": "كتبت كتابين."
+        }
+       ]
+      },
+      {
+       "w": "speak → spoken",
+       "pos": "irregular",
+       "ar": "تكلّم → spoken",
+       "ex": [
+        {
+         "en": "I haven't <b>spoken</b> to him yet.",
+         "ar": "لم أكلّمه بعد."
+        }
+       ]
+      },
+      {
+       "w": "take → taken",
+       "pos": "irregular",
+       "ar": "أخذ → taken",
+       "ex": [
+        {
+         "en": "Someone has <b>taken</b> my seat.",
+         "ar": "أخذ أحدهم مقعدي."
+        }
+       ]
+      },
+      {
+       "w": "eat → eaten",
+       "pos": "irregular",
+       "ar": "أكل → eaten",
+       "ex": [
+        {
+         "en": "Have you ever <b>eaten</b> octopus?",
+         "ar": "هل سبق أن أكلتَ أخطبوطاً؟"
+        }
+       ]
+      },
+      {
+       "w": "give → given",
+       "pos": "irregular",
+       "ar": "أعطى → given",
+       "ex": [
+        {
+         "en": "They've <b>given</b> us more time.",
+         "ar": "منحونا وقتاً إضافيّاً."
+        }
+       ]
+      },
+      {
+       "w": "break → broken",
+       "pos": "irregular",
+       "ar": "كسر → broken",
+       "ex": [
+        {
+         "en": "He has <b>broken</b> his promise again.",
+         "ar": "أخلف وعده مرّةً أخرى."
+        }
+       ]
+      },
+      {
+       "w": "choose → chosen",
+       "pos": "irregular",
+       "ar": "اختار → chosen",
+       "ex": [
+        {
+         "en": "We haven't <b>chosen</b> a date yet.",
+         "ar": "لم نختر موعداً بعد."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "استماع: مقابلة عمل قصيرة",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "ترتيب الاستماع",
+     "html": "<b>١.</b> مرّة ١٫٠× دون نصّ. <b>٢.</b> مرّة ٠٫٧× مع النصّ. <b>٣.</b> محاكاة سطراً سطراً. <b>٤.</b> مرّة ١٫٣×.<br><br>ركّز هنا على <b>have/has</b> المختزلة — ستسمعها كـ «ڤ» و«ز» فقط."
+    },
+    {
+     "type": "dialogue",
+     "title": "A Short Interview",
+     "titleAr": "مقابلة قصيرة",
+     "lines": [
+      {
+       "sp": "Nadia",
+       "en": "Thanks for coming in. So, tell me about your experience.",
+       "ar": "شكراً لحضورك. حدّثني عن خبرتك."
+      },
+      {
+       "sp": "Karim",
+       "en": "Sure. I've worked in digital marketing for about four years.",
+       "ar": "بالتأكيد. عملتُ في التسويق الرقميّ نحو أربع سنوات."
+      },
+      {
+       "sp": "Nadia",
+       "en": "And have you managed a team before?",
+       "ar": "وهل سبق أن أدرتَ فريقاً؟"
+      },
+      {
+       "sp": "Karim",
+       "en": "I have, yes. I've led a team of five since last January.",
+       "ar": "نعم فعلت. أقود فريقاً من خمسة منذ كانون الثاني الماضي."
+      },
+      {
+       "sp": "Nadia",
+       "en": "What's the biggest thing you've accomplished there?",
+       "ar": "ما أكبر ما أنجزتَه هناك؟"
+      },
+      {
+       "sp": "Karim",
+       "en": "We rebuilt the whole campaign from scratch and doubled our reach.",
+       "ar": "أعدنا بناء الحملة كلّها من الصفر وضاعفنا انتشارنا."
+      },
+      {
+       "sp": "Nadia",
+       "en": "That's impressive. Any setbacks along the way?",
+       "ar": "هذا مثير للإعجاب. أواجهتكم نكسات في الطريق؟"
+      },
+      {
+       "sp": "Karim",
+       "en": "Plenty. Our first launch failed completely.",
+       "ar": "كثيرة. فشل إطلاقنا الأوّل فشلاً تامّاً."
+      },
+      {
+       "sp": "Nadia",
+       "en": "And what did you learn from that?",
+       "ar": "وماذا تعلّمت من ذلك؟"
+      },
+      {
+       "sp": "Karim",
+       "en": "That we hadn't tested enough. We've tested everything twice since then.",
+       "ar": "أنّنا لم نختبر بما يكفي. ونحن نختبر كلّ شيء مرّتين منذ ذلك الحين."
+      },
+      {
+       "sp": "Nadia",
+       "en": "Good answer. Have you worked with our kind of clients before?",
+       "ar": "إجابة جيّدة. هل عملتَ مع عملاء من نوع عملائنا من قبل؟"
+      },
+      {
+       "sp": "Karim",
+       "en": "Not exactly, but I've picked up new sectors quickly before.",
+       "ar": "ليس تماماً، لكنّي التقطتُ قطاعاتٍ جديدة بسرعة من قبل."
+      },
+      {
+       "sp": "Nadia",
+       "en": "Fair enough. Do you have any questions for me?",
+       "ar": "كلامٌ منصف. هل لديك أسئلة لي؟"
+      },
+      {
+       "sp": "Karim",
+       "en": "Yes — what does success look like in this role after six months?",
+       "ar": "نعم — كيف يبدو النجاح في هذه الوظيفة بعد ستّة أشهر؟"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "أسئلة الفهم",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "كم سنة خبرة لدى كريم؟",
+       "opts": [
+        "سنتان",
+        "نحو أربع",
+        "خمس",
+        "ستّ"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>for about four years</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "منذ متى يقود فريقاً؟",
+       "opts": [
+        "منذ أربع سنوات",
+        "منذ كانون الثاني الماضي",
+        "منذ ستّة أشهر",
+        "لم يقد فريقاً"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>since last January</code> — لاحظ since مع نقطة بداية."
+      },
+      {
+       "t": "mcq",
+       "q": "ما أكبر إنجازٍ ذكره؟",
+       "opts": [
+        "توظيف خمسة",
+        "مضاعفة الانتشار بعد إعادة بناء الحملة",
+        "خفض التكاليف",
+        "فتح سوق جديد"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>rebuilt the whole campaign and doubled our reach</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ماذا تعلّم من فشل الإطلاق الأوّل؟",
+       "opts": [
+        "أن يوظّف أكثر",
+        "أنّهم لم يختبروا بما يكفي",
+        "أن يغيّر العميل",
+        "أن يقلّل الإنفاق"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>we hadn't tested enough</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا سؤاله الأخير جيّد في المقابلات؟",
+       "opts": [
+        "لأنّه عن الراتب",
+        "لأنّه يسأل عن معيار النجاح لا عن المزايا",
+        "لأنّه قصير",
+        "لأنّه يُنهي المقابلة"
+       ],
+       "a": 1,
+       "why": "يُظهر تركيزاً على الأداء لا على المكاسب."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "إملاء — اكتب ما تسمع",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "I've workd in marketing fer about four years",
+       "a": [
+        "I've worked in marketing for about four years",
+        "I have worked in marketing for about four years",
+        "ive worked in marketing for about four years"
+       ],
+       "why": "<code dir=ltr>I have</code> → «آيڤ» · <code dir=ltr>for</code> → «فَر»."
+      },
+      {
+       "t": "dict",
+       "say": "Hav ya managed a team before?",
+       "a": [
+        "Have you managed a team before?",
+        "have you managed a team before"
+       ],
+       "why": "<code dir=ltr>have you</code> → «هاڤ يَ»."
+      },
+      {
+       "t": "dict",
+       "say": "We've tesded everything twice since then",
+       "a": [
+        "We've tested everything twice since then",
+        "We have tested everything twice since then",
+        "weve tested everything twice since then"
+       ],
+       "why": "tested تُنطق بـ d مرتدّة ومقطع id."
+      },
+      {
+       "t": "dict",
+       "say": "I've pickd up new sectors quickly",
+       "a": [
+        "I've picked up new sectors quickly",
+        "I have picked up new sectors quickly",
+        "ive picked up new sectors quickly"
+       ],
+       "why": "picked up تلتصق، و ed تُنطق t."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "قراءة: قاعدة العشرين ساعة",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Twenty-Hour Rule",
+     "titleAr": "قاعدة العشرين ساعة",
+     "en": "You have probably heard that it takes ten thousand hours to master a skill. The figure is real, but it has been badly misunderstood. It came from a study of elite violinists — people competing at the very top of a field. It was never meant to describe what an ordinary adult needs in order to become reasonably good at something new.<br><br>Josh Kaufman, who has written about learning for years, argues that the more useful number is twenty. Twenty focused hours — about forty minutes a day for a month — is enough to move from complete beginner to comfortably competent in most everyday skills. The reason is that the <b>learning curve</b> is steepest at the start: your first hours buy you far more progress than your hundredth.<br><br>The catch is the word <i>focused</i>. Twenty hours of distracted practice buys almost nothing. Kaufman suggests four rules: break the skill into small parts, learn just enough to correct yourself, remove distractions before you start, and commit to the twenty hours in advance so that you push through the frustrating first three. Most people quit during those three hours — not because they lack talent, but because being bad at something feels unbearable when you are used to being competent.",
+     "ar": "لعلّك سمعت أنّ إتقان مهارةٍ يحتاج عشرة آلاف ساعة. والرقم حقيقيّ، لكنّه أُسيء فهمه إساءةً بالغة؛ إذ جاء من دراسةٍ على عازفي كمانٍ نخبة — أناسٍ يتنافسون في قمّة مجالهم. ولم يُقصد به يوماً وصف ما يحتاجه بالغٌ عاديّ ليصير جيّداً بدرجةٍ معقولة في شيءٍ جديد.<br><br>ويرى جوش كوفمان، الذي كتب في التعلّم سنوات، أنّ الرقم الأنفع هو عشرون. عشرون ساعةً مركّزة — نحو أربعين دقيقة يوميّاً لشهر — تكفي للانتقال من مبتدئ تماماً إلى كفءٍ مرتاح في أكثر مهارات الحياة. والسبب أنّ منحنى التعلّم يكون أشدّ انحداراً في البداية: فساعاتك الأولى تشتري لك من التقدّم أضعاف ما تشتريه ساعتك المئة.<br><br>والمفتاح في كلمة «مركّزة». فعشرون ساعةً من تدريبٍ مشتّت لا تكاد تشتري شيئاً. ويقترح كوفمان أربع قواعد: فكّك المهارة إلى أجزاء صغيرة، وتعلّم ما يكفي لتصحيح نفسك فحسب، وأزِل المشتّتات قبل أن تبدأ، والتزم بالعشرين ساعة سلفاً لتتجاوز الساعات الثلاث المحبِطة الأولى. فأكثر الناس ينسحبون في تلك الساعات الثلاث — لا لنقص موهبة، بل لأنّ الرداءة في شيءٍ ما لا تُحتمل حين تكون معتاداً على الكفاءة.",
+     "keys": [
+      [
+       "learning curve",
+       "منحنى التعلّم"
+      ],
+      [
+       "misunderstood",
+       "أُسيء فهمه"
+      ],
+      [
+       "competent",
+       "كفء"
+      ],
+      [
+       "distractions",
+       "مشتّتات"
+      ],
+      [
+       "commit to",
+       "يلتزم بـ"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "أسئلة الفهم",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "من أين جاء رقم العشرة آلاف ساعة؟",
+       "opts": [
+        "من دراسة على طلّاب",
+        "من دراسة على عازفي كمان نخبة",
+        "من تجربة كوفمان",
+        "من إحصاءٍ عامّ"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>a study of elite violinists</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "ما الذي يجعل الساعات الأولى أثمن؟",
+       "opts": [
+        "أنّها أسهل",
+        "أنّ منحنى التعلّم أشدّ انحداراً في البداية",
+        "أنّ المعلّم أفضل",
+        "أنّ الحماس أعلى"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>steepest at the start</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "لماذا ينسحب أكثر الناس مبكّراً؟",
+       "opts": [
+        "لضيق الوقت",
+        "لنقص الموهبة",
+        "لأنّ الشعور بالرداءة لا يُحتمل",
+        "لغلاء الأدوات"
+       ],
+       "a": 2,
+       "why": "<code dir=ltr>being bad at something feels unbearable</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>competent</code> تعني…",
+       "opts": [
+        "منافس",
+        "كفء قادر",
+        "متحمّس",
+        "مبتدئ"
+       ],
+       "a": 1,
+       "why": "استنتاج من السياق: بعد الانتقال من المبتدئ."
+      },
+      {
+       "t": "mcq",
+       "q": "ما الشرط الحاسم في العشرين ساعة؟",
+       "opts": [
+        "أن تكون متتابعة",
+        "أن تكون مركّزة بلا مشتّتات",
+        "أن تكون مع معلّم",
+        "أن تكون صباحاً"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>The catch is the word focused</code>."
+      },
+      {
+       "t": "mcq",
+       "q": "كم يعادل عشرون ساعة موزّعةً على شهر؟",
+       "opts": [
+        "عشر دقائق يوميّاً",
+        "نحو أربعين دقيقة يوميّاً",
+        "ساعتين يوميّاً",
+        "ثلاث ساعات أسبوعيّاً"
+       ],
+       "a": 1,
+       "why": "<code dir=ltr>about forty minutes a day for a month</code>."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "لاحظ اختزال have في الأسئلة",
+     "rows": [
+      {
+       "w": "Have you ever tried that?",
+       "s": "Hav ya ever tried that?",
+       "ar": "هل سبق أن جرّبت ذلك؟"
+      },
+      {
+       "w": "I have not decided yet",
+       "s": "I haven decided yet",
+       "ar": "لم أقرّر بعد"
+      },
+      {
+       "w": "What have you been up to?",
+       "s": "Whadav ya bin up to?",
+       "ar": "ماذا كنت تفعل؟"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "لغة وظيفيّة ونطق",
+   "subtitle": "أن تتحدّث عن خبرتك بثقة",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "قوالب عرض الخبرة",
+     "html": "<b>في المقابلات والتعارف المهنيّ:</b><br>• <code dir=ltr>I've been working in … for about …</code><br>• <code dir=ltr>I have hands-on experience with …</code><br>• <code dir=ltr>I've never done X, but I've done something similar.</code><br>• <code dir=ltr>The biggest thing I've accomplished is …</code><br><br><b>لتسأل:</b><br>• <code dir=ltr>Have you ever worked with …?</code><br>• <code dir=ltr>How long have you been doing this?</code><br>• <code dir=ltr>What's the most challenging project you've worked on?</code>"
+    },
+    {
+     "type": "note",
+     "title": "ردّ لبق حين تنقصك الخبرة",
+     "html": "لا تقل <code dir=ltr>No, I don't know that.</code> — بل حوّلها إلى قوّة:<br><br>✅ <code dir=ltr>I haven't used that tool specifically, but I've picked up similar systems quickly.</code><br>✅ <code dir=ltr>That's new to me, but I've built things from scratch before.</code><br><br>الصيغة: <b>اعترافٌ صادق + دليلٌ على سرعة التعلّم.</b>"
+    },
+    {
+     "type": "note",
+     "title": "لا تقل هذا",
+     "html": "❌ <code dir=ltr>I have 5 years experience.</code> ✅ <code dir=ltr>I have five years <b>of</b> experience.</code><br>❌ <code dir=ltr>I am working here since 2020.</code> ✅ <code dir=ltr>I've been working here since 2020.</code><br>❌ <code dir=ltr>I have finished it yesterday.</code> ✅ <code dir=ltr>I finished it yesterday.</code><br>❌ <code dir=ltr>I didn't never try it.</code> ✅ <code dir=ltr>I've never tried it.</code>"
+    },
+    {
+     "type": "pron",
+     "title": "نطق: اختزال have / has",
+     "hint": "هذا سبب ضياع المضارع التامّ عليك في الأفلام",
+     "rows": [
+      {
+       "w": "I have",
+       "s": "I've → «آيڤ»",
+       "ar": "تصير حرفاً واحداً"
+      },
+      {
+       "w": "She has",
+       "s": "She's → «شيز»",
+       "ar": "تشبه she is تماماً!"
+      },
+      {
+       "w": "We have not",
+       "s": "We haven't → «وي هاڤِنت»",
+       "ar": "النفي يبقى مسموعاً"
+      },
+      {
+       "w": "They have been",
+       "s": "They've bin",
+       "ar": "been تُنطق «بِن» قصيرة لا «بيين»"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "فخّ: she's = she is أم she has؟",
+     "rows": [
+      {
+       "w": "She's a doctor (= she is)",
+       "s": "She's a doctor",
+       "ar": "إن تلاها اسم أو صفة فهي is"
+      },
+      {
+       "w": "She's finished (= she has)",
+       "s": "She's finished",
+       "ar": "إن تلاها تصريف ثالث فهي has"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "تمارين",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "في <code dir=ltr>She's gone home</code> — ماذا تعني s؟",
+       "opts": [
+        "is",
+        "has",
+        "was",
+        "does"
+       ],
+       "a": 1,
+       "why": "تلاها تصريف ثالث (gone) ← has."
+      },
+      {
+       "t": "mcq",
+       "q": "في <code dir=ltr>She's tired</code> — ماذا تعني s؟",
+       "opts": [
+        "is",
+        "has",
+        "was",
+        "does"
+       ],
+       "a": 0,
+       "why": "تلاها صفة ← is."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I have 5 years experience.</code>",
+       "a": [
+        "I have five years of experience",
+        "I have 5 years of experience",
+        "I have five years of experience."
+       ],
+       "why": "تلزم of بين المدّة وexperience."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am working here since 2020.</code>",
+       "a": [
+        "I have been working here since 2020",
+        "I've been working here since 2020",
+        "I have worked here since 2020"
+       ],
+       "why": "الاستمرار من الماضي إلى الآن ← مضارع تامّ."
+      },
+      {
+       "t": "mcq",
+       "q": "سُئلتَ عن أداةٍ لم تستعملها. ما الردّ الأمثل؟",
+       "opts": [
+        "No, I don't know it.",
+        "I haven't used it, but I've picked up similar tools quickly.",
+        "Maybe.",
+        "Sorry."
+       ],
+       "a": 1,
+       "why": "اعترافٌ صادق + دليل على سرعة التعلّم."
+      },
+      {
+       "t": "mcq",
+       "q": "كيف تُنطق <code dir=ltr>been</code> في الكلام الطبيعيّ؟",
+       "opts": [
+        "بيين ممدودة",
+        "بِن قصيرة",
+        "بان",
+        "بييْن"
+       ],
+       "a": 1,
+       "why": "تُختزل إلى /bɪn/ في الأمريكيّة."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "كتابة: نبذة مهنيّة",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "المهمّة",
+     "prompt": "اكتب في <b>٨٠–١٠٠ كلمة</b> نبذةً مهنيّة عنك لمنصّة مثل LinkedIn. يجب أن تتضمّن:<br><br>• مجالك ومدّة خبرتك (<code dir=ltr>for</code> أو <code dir=ltr>since</code>)<br>• إنجازاً واحداً محدّداً بالمضارع التامّ<br>• شيئاً تعلّمتَه من نكسة<br>• ما تبحث عنه الآن<br><br>⚠️ لا تذكر تواريخ محدّدة مع المضارع التامّ.",
+     "phrases": [
+      "I've been working in … for …",
+      "Since …, I've …",
+      "One of the things I'm most proud of is …",
+      "I've learned that …",
+      "I haven't … yet, but I've …",
+      "Right now, I'm looking to …"
+     ],
+     "model": "I've been working in graphic design for about six years, mostly with small businesses that are building a brand from scratch. Since 2022 I've led a team of three, and together we've delivered more than forty projects. The thing I'm most proud of is a rebrand that doubled a client's enquiries in one quarter. I've also had setbacks: an early project failed because I hadn't asked enough questions at the start, and I've never skipped that stage since. Right now I'm looking to move into product design, an area I've been studying in my own time.",
+     "modelAr": "أعمل في التصميم الجرافيكيّ نحو ستّ سنوات، أكثرها مع شركاتٍ صغيرة تبني هويّتها من الصفر. ومنذ عام ٢٠٢٢ أقود فريقاً من ثلاثة، وقد سلّمنا معاً أكثر من أربعين مشروعاً. وأكثر ما أفخر به إعادةُ هويّةٍ ضاعفت استفسارات عميلٍ في ربعٍ واحد. وقد واجهتني نكسات أيضاً: فشل مشروعٌ مبكّر لأنّني لم أكن قد سألتُ أسئلةً كافية في البداية، ولم أتخطَّ تلك المرحلة قطّ منذئذٍ. وأتطلّع الآن إلى الانتقال نحو تصميم المنتجات، وهو مجالٌ أدرسه في وقتي الخاصّ.",
+     "checklist": [
+      "استعملتُ المضارع التامّ للخبرة والإنجاز",
+      "استعملتُ for مع المدّة و since مع نقطة البداية",
+      "لم أذكر تاريخاً محدّداً مع المضارع التامّ",
+      "استعملتُ التصريف الثالث بعد have/has (لا الثاني)",
+      "ذكرتُ إنجازاً محدّداً بالأرقام لا بالعموميّات",
+      "استعملتُ ثلاث مفرداتٍ من الوحدة",
+      "عدد الكلمات بين ٨٠ و١٠٠",
+      "قرأتُ ما كتبتُ بصوتٍ مسموع مرّةً"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 أذنك اليوم",
+     "hint": "عبارات النبذة كما تُنطق",
+     "rows": [
+      {
+       "w": "I have been working on it",
+       "s": "I've bin workin on it",
+       "ar": "أعمل عليه منذ مدّة"
+      },
+      {
+       "w": "One of the things I am proud of",
+       "s": "Wunna the things I'm proud of",
+       "ar": "أحد ما أفخر به"
+      },
+      {
+       "w": "Right now I am looking to",
+       "s": "Righ now I'm lookin to",
+       "ar": "أتطلّع الآن إلى"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "اختبار الوحدة",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "pass": 0.8,
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة الثالثة",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I ___ him last week.</code>",
+       "opts": [
+        "have met",
+        "met",
+        "have meet",
+        "was meeting"
+       ],
+       "a": 1,
+       "why": "last week وقتٌ محدّد ← ماضٍ بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>She ___ in Cairo since 2018.</code>",
+       "opts": [
+        "lives",
+        "lived",
+        "has lived",
+        "is living"
+       ],
+       "a": 2,
+       "why": "since + ما زال ← مضارع تامّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Have you ___ finished?</code>",
+       "opts": [
+        "yet",
+        "already",
+        "since",
+        "for"
+       ],
+       "a": 1,
+       "why": "already في السؤال تفيد الدهشة من السرعة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We've waited ___ two hours.</code>",
+       "opts": [
+        "since",
+        "for",
+        "from",
+        "during"
+       ],
+       "a": 1,
+       "why": "مدّة ← for."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>They haven't arrived ___ .</code>",
+       "opts": [
+        "already",
+        "ever",
+        "yet",
+        "just"
+       ],
+       "a": 2,
+       "why": "yet في النفي والسؤال."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>pull off</code> تعني…",
+       "opts": [
+        "ينزع",
+        "ينجح في أمرٍ صعب",
+        "يتوقّف جانباً",
+        "يسحب"
+       ],
+       "a": 1,
+       "why": "من مفردات الوحدة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>from scratch</code> تعني…",
+       "opts": [
+        "بخدش",
+        "من الصفر",
+        "بسرعة",
+        "بصعوبة"
+       ],
+       "a": 1,
+       "why": "بناءٌ من لا شيء."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>setback</code> تعني…",
+       "opts": [
+        "إعداد",
+        "نكسة",
+        "خلفيّة",
+        "تأجيل"
+       ],
+       "a": 1,
+       "why": "انتكاسة في الطريق."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>I ___ (never / be) to Spain.</code>",
+       "a": [
+        "have never been",
+        "'ve never been",
+        "have never been."
+       ],
+       "why": "never + التصريف الثالث been."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>He ___ (just / leave).</code>",
+       "a": [
+        "has just left",
+        "'s just left",
+        "has just left."
+       ],
+       "why": "leave ← left."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>They ___ (write) three reports so far.</code>",
+       "a": [
+        "have written",
+        "'ve written",
+        "have written."
+       ],
+       "why": "write ← written، وso far تصاحب التامّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>How long ___ you ___ (know) her?</code>",
+       "a": [
+        "have known",
+        "have you known",
+        "have / known"
+       ],
+       "why": "سؤال المدّة ← have + known."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I have seen him yesterday.</code>",
+       "a": [
+        "I saw him yesterday",
+        "I saw him yesterday."
+       ],
+       "why": "yesterday ← ماضٍ بسيط."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>She has went to the bank.</code>",
+       "a": [
+        "She has gone to the bank",
+        "She has gone to the bank."
+       ],
+       "why": "التصريف الثالث gone لا went."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I work here since three years.</code>",
+       "a": [
+        "I have worked here for three years",
+        "I've worked here for three years",
+        "I have worked here for three years."
+       ],
+       "why": "خطآن: الزمن، و since مع مدّة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Have",
+        "you",
+        "ever",
+        "been",
+        "abroad"
+       ],
+       "a": "Have you ever been abroad",
+       "why": "ever بين الفاعل والتصريف الثالث."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "I",
+        "haven't",
+        "decided",
+        "yet"
+       ],
+       "a": "I haven't decided yet",
+       "why": "yet في آخر الجملة المنفيّة."
+      },
+      {
+       "t": "dict",
+       "say": "I've bin here fer two years",
+       "a": [
+        "I've been here for two years",
+        "I have been here for two years",
+        "ive been here for two years"
+       ],
+       "why": "been → «بِن» · for → «فَر»."
+      },
+      {
+       "t": "dict",
+       "say": "Hav ya ever tried it?",
+       "a": [
+        "Have you ever tried it?",
+        "have you ever tried it"
+       ],
+       "why": "have you → «هاڤ يَ»."
+      },
+      {
+       "t": "mcq",
+       "q": "في <code dir=ltr>He's lost his phone</code> — ماذا تعني s؟",
+       "opts": [
+        "is",
+        "has",
+        "was",
+        "does"
+       ],
+       "a": 1,
+       "why": "تلاها تصريف ثالث ← has."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "TED — قصص إنجاز شخصيّة",
+       "d": "ابحث عن «TED talk what I learned from» — محاضرات قصيرة يحكي فيها الناس تجاربهم",
+       "task": "شاهد محاضرةً واحدة، واكتب خمس جملٍ بالمضارع التامّ سمعتها."
+      },
+      {
+       "t": "مقابلات عمل حقيقيّة على يوتيوب",
+       "d": "ابحث عن «mock job interview English» — تمرّن على قوالب الخبرة",
+       "task": "احفظ ثلاثة قوالب واستعملها في وصف خبرتك أنت."
+      },
+      {
+       "t": "بودكاست How I Built This",
+       "d": "مؤسّسون يحكون كيف بنوا شركاتهم — لغة إنجاز خالصة",
+       "task": "استمع عشر دقائق، وسجّل تعبيرين جديدين عن الإنجاز أو النكسة."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
