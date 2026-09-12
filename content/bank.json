@@ -1,0 +1,977 @@
+{
+ "id": "bank",
+ "icon": "🗃️",
+ "title": "بنك المراجعة",
+ "subtitle": "مفردات ونصوص نسختك الأولى — محفوظة كاملةً",
+ "intro": "كلّ ما بنيناه في النسخة الأولى محفوظ هنا: <b>٤٠ بطاقة</b> و<b>٨ نصوص</b>، ومعها تقدّمك السابق. تدخل كلّها الآن <b>نظام التكرار المتباعد</b>، فلا تنساها بعد اليوم.",
+ "goals": [
+  "أراجع ما حفظتُه سابقاً",
+  "أُدخل مفرداتي القديمة في نظام التكرار"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "vocab",
+   "title": "مفردات المستوى الأوّل",
+   "subtitle": "٢٠ بطاقة من نسختك الأولى",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "أفعال مركّبة",
+     "items": [
+      {
+       "id": "B1-0",
+       "w": "look forward to",
+       "pos": "phrasal verb",
+       "ar": "يتطلّع إلى / ينتظر بشوق",
+       "ex": [
+        {
+         "en": "I'm <b>looking forward to</b> the weekend with my family.",
+         "ar": "أتطلّع إلى عطلة نهاية الأسبوع مع عائلتي."
+        },
+        {
+         "en": "We <b>look forward to</b> hearing from you soon.",
+         "ar": "نتطلّع إلى تلقّي ردّكم قريباً. (خِتام رسائل العمل)"
+        }
+       ]
+      },
+      {
+       "id": "B1-1",
+       "w": "put off",
+       "pos": "phrasal verb",
+       "ar": "يؤجّل / يرجئ",
+       "ex": [
+        {
+         "en": "Don't <b>put off</b> your homework until midnight.",
+         "ar": "لا تؤجّل واجبك إلى منتصف الليل."
+        },
+        {
+         "en": "The manager <b>put off</b> the meeting until Friday.",
+         "ar": "أجّل المدير الاجتماع إلى يوم الجمعة."
+        }
+       ]
+      },
+      {
+       "id": "B1-2",
+       "w": "run out of",
+       "pos": "phrasal verb",
+       "ar": "ينفد منه / يفرغ مخزونه",
+       "ex": [
+        {
+         "en": "We've <b>run out of</b> milk, so I'll go to the shop.",
+         "ar": "نفد منّا الحليب، لذا سأذهب إلى المتجر."
+        },
+        {
+         "en": "The team <b>ran out of</b> time before the deadline.",
+         "ar": "نفد الوقت من الفريق قبل الموعد النهائي."
+        }
+       ]
+      },
+      {
+       "id": "B1-3",
+       "w": "get along with",
+       "pos": "phrasal verb",
+       "ar": "ينسجم مع / يتوافق مع",
+       "ex": [
+        {
+         "en": "I <b>get along with</b> my new neighbours very well.",
+         "ar": "أنسجم مع جيراني الجدد انسجاماً كبيراً."
+        },
+        {
+         "en": "She <b>gets along with</b> everyone in the office.",
+         "ar": "إنّها تتوافق مع الجميع في المكتب."
+        }
+       ]
+      },
+      {
+       "id": "B1-4",
+       "w": "turn down",
+       "pos": "phrasal verb",
+       "ar": "يرفض عرضاً / يخفّض الصوت",
+       "ex": [
+        {
+         "en": "Could you <b>turn down</b> the music, please?",
+         "ar": "هل يمكنك خفض صوت الموسيقى من فضلك؟"
+        },
+        {
+         "en": "He <b>turned down</b> the job offer because of the salary.",
+         "ar": "رفض عرض العمل بسبب الراتب."
+        }
+       ]
+      },
+      {
+       "id": "B1-5",
+       "w": "find out",
+       "pos": "phrasal verb",
+       "ar": "يكتشف / يستعلم فيعرف",
+       "ex": [
+        {
+         "en": "I <b>found out</b> that the shop closes at six.",
+         "ar": "اكتشفت أنّ المتجر يُغلق في السادسة."
+        },
+        {
+         "en": "We need to <b>find out</b> why the sales dropped.",
+         "ar": "علينا أن نعرف سبب انخفاض المبيعات."
+        }
+       ]
+      },
+      {
+       "id": "B1-6",
+       "w": "give up",
+       "pos": "phrasal verb",
+       "ar": "يستسلم / يُقلع عن عادة",
+       "ex": [
+        {
+         "en": "She <b>gave up</b> smoking two years ago.",
+         "ar": "أقلعت عن التدخين قبل عامين."
+        },
+        {
+         "en": "Don't <b>give up</b> — the project is almost finished.",
+         "ar": "لا تستسلم، فالمشروع أوشك على الاكتمال."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "مصطلحات",
+     "items": [
+      {
+       "id": "B1-7",
+       "w": "a piece of cake",
+       "pos": "idiom",
+       "ar": "أمرٌ سهلٌ للغاية",
+       "ex": [
+        {
+         "en": "The driving test was <b>a piece of cake</b>.",
+         "ar": "كان اختبار القيادة سهلاً للغاية."
+        },
+        {
+         "en": "For her, using this software is <b>a piece of cake</b>.",
+         "ar": "استخدام هذا البرنامج بالنسبة إليها أمرٌ في غاية السهولة."
+        }
+       ]
+      },
+      {
+       "id": "B1-8",
+       "w": "break the ice",
+       "pos": "idiom",
+       "ar": "يكسر حاجز الجمود / يفتح باب الحديث",
+       "ex": [
+        {
+         "en": "He told a joke to <b>break the ice</b> at the party.",
+         "ar": "ألقى نكتةً ليكسر الجمود في الحفل."
+        },
+        {
+         "en": "The manager started with a short game to <b>break the ice</b>.",
+         "ar": "بدأ المدير بلعبة قصيرة ليكسر حاجز الرسميّات."
+        }
+       ]
+      },
+      {
+       "id": "B1-9",
+       "w": "under the weather",
+       "pos": "idiom",
+       "ar": "متوعّك الصحّة / ليس على ما يُرام",
+       "ex": [
+        {
+         "en": "I'm feeling a bit <b>under the weather</b> today.",
+         "ar": "أشعر بتوعّك خفيف اليوم."
+        },
+        {
+         "en": "She worked from home because she was <b>under the weather</b>.",
+         "ar": "عملت من المنزل لأنّها كانت متوعّكة."
+        }
+       ]
+      },
+      {
+       "id": "B1-10",
+       "w": "once in a blue moon",
+       "pos": "idiom",
+       "ar": "نادراً جدّاً / في الأحوال النادرة",
+       "ex": [
+        {
+         "en": "We only eat out <b>once in a blue moon</b>.",
+         "ar": "لا نتناول الطعام خارج المنزل إلّا نادراً جدّاً."
+        },
+        {
+         "en": "He visits the head office <b>once in a blue moon</b>.",
+         "ar": "يزور المقرّ الرئيسي في الأحوال النادرة."
+        }
+       ]
+      },
+      {
+       "id": "B1-11",
+       "w": "hit the books",
+       "pos": "idiom",
+       "ar": "ينكبّ على الدراسة بجدّ",
+       "ex": [
+        {
+         "en": "I have to <b>hit the books</b> tonight; the test is tomorrow.",
+         "ar": "عليّ أن أنكبّ على الدراسة الليلة، فالاختبار غداً."
+        },
+        {
+         "en": "After the training, we all <b>hit the books</b> for the certificate.",
+         "ar": "بعد التدريب، انكببنا جميعاً على الدراسة لنيل الشهادة."
+        }
+       ]
+      },
+      {
+       "id": "B1-12",
+       "w": "on the same page",
+       "pos": "idiom",
+       "ar": "على وفاقٍ تامّ / الفهم مشترك",
+       "ex": [
+        {
+         "en": "Let's talk again so we're <b>on the same page</b>.",
+         "ar": "لنتحدّث مرّةً أخرى كي يكون فهمنا موحّداً."
+        },
+        {
+         "en": "The team is <b>on the same page</b> about the new plan.",
+         "ar": "الفريق متّفقٌ تماماً بشأن الخطّة الجديدة."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "مفردات متقدّمة",
+     "items": [
+      {
+       "id": "B1-13",
+       "w": "reliable",
+       "pos": "adjective",
+       "ar": "موثوق / يُعتمد عليه",
+       "ex": [
+        {
+         "en": "My old car is still very <b>reliable</b>.",
+         "ar": "سيّارتي القديمة ما زالت موثوقةً جدّاً."
+        },
+        {
+         "en": "We need a <b>reliable</b> supplier for this contract.",
+         "ar": "نحتاج إلى مورّدٍ موثوق لهذا العقد."
+        }
+       ]
+      },
+      {
+       "id": "B1-14",
+       "w": "improve",
+       "pos": "verb",
+       "ar": "يُحسِّن / يتحسّن",
+       "ex": [
+        {
+         "en": "I want to <b>improve</b> my English pronunciation.",
+         "ar": "أريد أن أُحسّن نطقي بالإنجليزية."
+        },
+        {
+         "en": "The new system <b>improved</b> our response time.",
+         "ar": "حسّن النظام الجديد سرعة استجابتنا."
+        }
+       ]
+      },
+      {
+       "id": "B1-15",
+       "w": "suggest",
+       "pos": "verb",
+       "ar": "يقترح / يشير بـ",
+       "ex": [
+        {
+         "en": "I <b>suggest</b> taking the train instead of the bus.",
+         "ar": "أقترح ركوب القطار بدلاً من الحافلة."
+        },
+        {
+         "en": "She <b>suggested</b> a different design for the website.",
+         "ar": "اقترحت تصميماً مختلفاً للموقع."
+        }
+       ]
+      },
+      {
+       "id": "B1-16",
+       "w": "avoid",
+       "pos": "verb",
+       "ar": "يتجنّب / يتحاشى",
+       "ex": [
+        {
+         "en": "I <b>avoid</b> drinking coffee after six.",
+         "ar": "أتجنّب شرب القهوة بعد السادسة."
+        },
+        {
+         "en": "We changed the plan to <b>avoid</b> extra costs.",
+         "ar": "غيّرنا الخطّة لتجنّب التكاليف الإضافية."
+        }
+       ]
+      },
+      {
+       "id": "B1-17",
+       "w": "achieve",
+       "pos": "verb",
+       "ar": "يُحقّق / يُنجز هدفاً",
+       "ex": [
+        {
+         "en": "She <b>achieved</b> her goal of running ten kilometres.",
+         "ar": "حقّقت هدفها في الجري عشرة كيلومترات."
+        },
+        {
+         "en": "The team <b>achieved</b> all its targets this quarter.",
+         "ar": "حقّق الفريق كلّ أهدافه هذا الربع."
+        }
+       ]
+      },
+      {
+       "id": "B1-18",
+       "w": "complicated",
+       "pos": "adjective",
+       "ar": "معقّد / متشابك",
+       "ex": [
+        {
+         "en": "The recipe looks <b>complicated</b>, but it's actually easy.",
+         "ar": "تبدو الوصفة معقّدة، لكنّها سهلة في الحقيقة."
+        },
+        {
+         "en": "The contract is too <b>complicated</b> for a quick answer.",
+         "ar": "العقد أشدّ تعقيداً من أن يُجاب عنه سريعاً."
+        }
+       ]
+      },
+      {
+       "id": "B1-19",
+       "w": "opportunity",
+       "pos": "noun",
+       "ar": "فرصة سانحة",
+       "ex": [
+        {
+         "en": "Travelling is a great <b>opportunity</b> to learn.",
+         "ar": "السفر فرصةٌ عظيمة للتعلّم."
+        },
+        {
+         "en": "This project is a real <b>opportunity</b> for our department.",
+         "ar": "هذا المشروع فرصةٌ حقيقية لقسمنا."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "مفردات المستوى الثاني",
+   "subtitle": "٢٠ بطاقة من نسختك الأولى",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "أفعال مركّبة",
+     "items": [
+      {
+       "id": "B2-20",
+       "w": "carry out",
+       "pos": "phrasal verb",
+       "ar": "يُنفّذ / يُجري (دراسةً أو مهمّة)",
+       "ex": [
+        {
+         "en": "I <b>carried out</b> the doctor's instructions carefully.",
+         "ar": "نفّذت تعليمات الطبيب بعناية."
+        },
+        {
+         "en": "The company <b>carried out</b> a survey among its clients.",
+         "ar": "أجرت الشركة استطلاعاً بين عملائها."
+        }
+       ]
+      },
+      {
+       "id": "B2-21",
+       "w": "come up with",
+       "pos": "phrasal verb",
+       "ar": "يبتكر / يأتي بفكرةٍ أو حلّ",
+       "ex": [
+        {
+         "en": "He <b>came up with</b> a clever way to save money.",
+         "ar": "ابتكر طريقةً ذكيّةً لتوفير المال."
+        },
+        {
+         "en": "We must <b>come up with</b> a solution before the deadline.",
+         "ar": "علينا أن نأتي بحلٍّ قبل الموعد النهائي."
+        }
+       ]
+      },
+      {
+       "id": "B2-22",
+       "w": "put up with",
+       "pos": "phrasal verb",
+       "ar": "يتحمّل / يصبر على مكروه",
+       "ex": [
+        {
+         "en": "I can't <b>put up with</b> the noise from the street.",
+         "ar": "لا أستطيع تحمّل الضجيج القادم من الشارع."
+        },
+        {
+         "en": "She <b>put up with</b> a difficult client for two years.",
+         "ar": "صبرت على عميلٍ صعب المراس لمدّة عامين."
+        }
+       ]
+      },
+      {
+       "id": "B2-23",
+       "w": "look into",
+       "pos": "phrasal verb",
+       "ar": "يتحرّى / يبحث في أمرٍ ما",
+       "ex": [
+        {
+         "en": "I'll <b>look into</b> the problem with the heating tomorrow.",
+         "ar": "سأبحث في مشكلة التدفئة غداً."
+        },
+        {
+         "en": "The department is <b>looking into</b> the customer's complaint.",
+         "ar": "يتحرّى القسم شكوى العميل."
+        }
+       ]
+      },
+      {
+       "id": "B2-24",
+       "w": "cut back on",
+       "pos": "phrasal verb",
+       "ar": "يُقلّص / يخفّض الإنفاق أو الاستهلاك",
+       "ex": [
+        {
+         "en": "I'm <b>cutting back on</b> sugar this month.",
+         "ar": "أُقلّل من السكّر هذا الشهر."
+        },
+        {
+         "en": "The firm <b>cut back on</b> travel expenses to save money.",
+         "ar": "قلّصت الشركة نفقات السفر توفيراً للمال."
+        }
+       ]
+      },
+      {
+       "id": "B2-25",
+       "w": "fall through",
+       "pos": "phrasal verb",
+       "ar": "يفشل / ينهار (اتّفاقٌ أو خطّة)",
+       "ex": [
+        {
+         "en": "Our holiday plans <b>fell through</b> at the last minute.",
+         "ar": "انهارت خطط عطلتنا في اللحظة الأخيرة."
+        },
+        {
+         "en": "The deal <b>fell through</b> because of the price.",
+         "ar": "فشلت الصفقة بسبب السعر."
+        }
+       ]
+      },
+      {
+       "id": "B2-26",
+       "w": "bring about",
+       "pos": "phrasal verb",
+       "ar": "يُحدِث / يُسبّب تغييراً",
+       "ex": [
+        {
+         "en": "The new law <b>brought about</b> a big change in the city.",
+         "ar": "أحدث القانون الجديد تغييراً كبيراً في المدينة."
+        },
+        {
+         "en": "Their strategy <b>brought about</b> a sharp rise in profits.",
+         "ar": "أحدثت استراتيجيّتهم ارتفاعاً حادّاً في الأرباح."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "مصطلحات",
+     "items": [
+      {
+       "id": "B2-27",
+       "w": "the ball is in your court",
+       "pos": "idiom",
+       "ar": "القرار بيدك / الدور عليك الآن",
+       "ex": [
+        {
+         "en": "I've said everything I can; <b>the ball is in your court</b>.",
+         "ar": "قلت كلّ ما لديّ، والقرار الآن بيدك."
+        },
+        {
+         "en": "We sent the offer, so <b>the ball is in their court</b>.",
+         "ar": "أرسلنا العرض، فالدور عليهم الآن."
+        }
+       ]
+      },
+      {
+       "id": "B2-28",
+       "w": "cut corners",
+       "pos": "idiom",
+       "ar": "يختصر الطريق على حساب الجودة",
+       "ex": [
+        {
+         "en": "Don't <b>cut corners</b> when you cook for guests.",
+         "ar": "لا تختصر الخطوات حين تطبخ للضيوف."
+        },
+        {
+         "en": "They <b>cut corners</b> on testing, and the app crashed.",
+         "ar": "تساهلوا في الاختبار توفيراً للوقت، فانهار التطبيق."
+        }
+       ]
+      },
+      {
+       "id": "B2-29",
+       "w": "get the hang of it",
+       "pos": "idiom",
+       "ar": "يُتقن الأمر بعد ممارسة",
+       "ex": [
+        {
+         "en": "Driving felt hard at first, but I <b>got the hang of it</b>.",
+         "ar": "بدت القيادة صعبةً في البداية، لكنّني أتقنتها."
+        },
+        {
+         "en": "Give her a week and she'll <b>get the hang of</b> the system.",
+         "ar": "امنحها أسبوعاً وستُتقن النظام."
+        }
+       ]
+      },
+      {
+       "id": "B2-30",
+       "w": "a blessing in disguise",
+       "pos": "idiom",
+       "ar": "نعمةٌ في ثوب نقمة / مِنحةٌ في مِحنة",
+       "ex": [
+        {
+         "en": "Missing that flight was <b>a blessing in disguise</b>.",
+         "ar": "كان تفويت تلك الرحلة نعمةً في ثوب نقمة."
+        },
+        {
+         "en": "Losing that client turned out to be <b>a blessing in disguise</b>.",
+         "ar": "تبيّن أنّ خسارة ذلك العميل كانت مِنحةً في مِحنة."
+        }
+       ]
+      },
+      {
+       "id": "B2-31",
+       "w": "bite off more than you can chew",
+       "pos": "idiom",
+       "ar": "يُحمّل نفسه فوق طاقته",
+       "ex": [
+        {
+         "en": "I <b>bit off more than I could chew</b> with three courses at once.",
+         "ar": "حمّلت نفسي فوق طاقتي بثلاث دورات في آنٍ واحد."
+        },
+        {
+         "en": "He took four projects and <b>bit off more than he could chew</b>.",
+         "ar": "تولّى أربعة مشاريع فحمّل نفسه ما لا يُطيق."
+        }
+       ]
+      },
+      {
+       "id": "B2-32",
+       "w": "touch base",
+       "pos": "idiom",
+       "ar": "يتواصل باقتضاب ليطمئنّ على المستجدّات",
+       "ex": [
+        {
+         "en": "Let's <b>touch base</b> after the weekend.",
+         "ar": "لنتواصل بإيجاز بعد عطلة نهاية الأسبوع."
+        },
+        {
+         "en": "I'll <b>touch base</b> with the client before Thursday.",
+         "ar": "سأتواصل مع العميل باختصار قبل الخميس."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "مفردات متقدّمة",
+     "items": [
+      {
+       "id": "B2-33",
+       "w": "inevitable",
+       "pos": "adjective",
+       "ar": "حتميّ / لا مفرّ منه",
+       "ex": [
+        {
+         "en": "With this traffic, arriving late was <b>inevitable</b>.",
+         "ar": "مع هذا الازدحام، كان التأخّر أمراً لا مفرّ منه."
+        },
+        {
+         "en": "A price increase is <b>inevitable</b> after the new tax.",
+         "ar": "ارتفاع الأسعار حتميٌّ بعد الضريبة الجديدة."
+        }
+       ]
+      },
+      {
+       "id": "B2-34",
+       "w": "thorough",
+       "pos": "adjective",
+       "ar": "دقيق ومستفيض / شامل",
+       "ex": [
+        {
+         "en": "She gave the kitchen a <b>thorough</b> cleaning.",
+         "ar": "نظّفت المطبخ تنظيفاً شاملاً."
+        },
+        {
+         "en": "We need a <b>thorough</b> review before we sign.",
+         "ar": "نحتاج إلى مراجعةٍ مستفيضة قبل التوقيع."
+        }
+       ]
+      },
+      {
+       "id": "B2-35",
+       "w": "feasible",
+       "pos": "adjective",
+       "ar": "قابل للتنفيذ / ممكنٌ عمليّاً",
+       "ex": [
+        {
+         "en": "Walking there in ten minutes simply isn't <b>feasible</b>.",
+         "ar": "المشي إلى هناك في عشر دقائق غير ممكنٍ عمليّاً."
+        },
+        {
+         "en": "The plan is <b>feasible</b> if we hire two more people.",
+         "ar": "الخطّة قابلة للتنفيذ إن وظّفنا شخصين إضافيّين."
+        }
+       ]
+      },
+      {
+       "id": "B2-36",
+       "w": "acknowledge",
+       "pos": "verb",
+       "ar": "يُقرّ / يعترف / يُفيد بالاستلام",
+       "ex": [
+        {
+         "en": "He <b>acknowledged</b> his mistake without any excuses.",
+         "ar": "أقرّ بخطئه دون أعذار."
+        },
+        {
+         "en": "Please <b>acknowledge</b> receipt of this email.",
+         "ar": "يُرجى الإفادة باستلام هذه الرسالة."
+        }
+       ]
+      },
+      {
+       "id": "B2-37",
+       "w": "substantial",
+       "pos": "adjective",
+       "ar": "كبير ومعتبَر / جوهريّ",
+       "ex": [
+        {
+         "en": "They made a <b>substantial</b> change to the menu.",
+         "ar": "أجروا تغييراً جوهريّاً على قائمة الطعام."
+        },
+        {
+         "en": "The report shows a <b>substantial</b> rise in demand.",
+         "ar": "يُظهر التقرير ارتفاعاً معتبَراً في الطلب."
+        }
+       ]
+      },
+      {
+       "id": "B2-38",
+       "w": "compelling",
+       "pos": "adjective",
+       "ar": "مُقنِعٌ بقوّة / آسِرٌ للانتباه",
+       "ex": [
+        {
+         "en": "The film had a <b>compelling</b> story from start to finish.",
+         "ar": "كانت قصّة الفيلم آسِرةً من البداية إلى النهاية."
+        },
+        {
+         "en": "She made a <b>compelling</b> case for the new budget.",
+         "ar": "قدّمت حجّةً مقنِعةً بقوّة لصالح الميزانية الجديدة."
+        }
+       ]
+      },
+      {
+       "id": "B2-39",
+       "w": "discrepancy",
+       "pos": "noun",
+       "ar": "تباين / تضارب غير متوقّع بين رقمين",
+       "ex": [
+        {
+         "en": "There's a <b>discrepancy</b> between the receipt and the price tag.",
+         "ar": "ثمّة تباينٌ بين الإيصال وبطاقة السعر."
+        },
+        {
+         "en": "The audit found a <b>discrepancy</b> in last month's figures.",
+         "ar": "كشف التدقيق عن تضاربٍ في أرقام الشهر الماضي."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "reading",
+   "title": "نصوص المستوى الأوّل",
+   "subtitle": "٤ نصوص قرائية",
+   "blocks": [
+    {
+     "type": "reading",
+     "id": "TB1-0",
+     "title": "A New Beginning at Work",
+     "titleAr": "بداية جديدة في العمل",
+     "en": "Last month I started a new job at a small design company. On my first day I was nervous, but I quickly <b>found out</b> that my colleagues were friendly. I <b>get along with</b> almost everyone in the team, and my manager is very <b>reliable</b>. The work is sometimes <b>complicated</b>, but I see it as a real <b>opportunity</b> to <b>improve</b> my skills. I am <b>looking forward to</b> my first big project next week.",
+     "ar": "بدأتُ الشهر الماضي عملاً جديداً في شركة تصميمٍ صغيرة. كنتُ متوتّراً في يومي الأوّل، لكنّني اكتشفتُ سريعاً أنّ زملائي ودودون. أنسجم مع كلّ من في الفريق تقريباً، ومديري موثوقٌ جدّاً. العمل معقّدٌ أحياناً، غير أنّني أراه فرصةً حقيقيةً لتحسين مهاراتي. وأنا أتطلّع إلى أوّل مشروعٍ كبير لي الأسبوع المقبل.",
+     "keys": [
+      [
+       "found out",
+       "اكتشف"
+      ],
+      [
+       "get along with",
+       "ينسجم مع"
+      ],
+      [
+       "reliable",
+       "موثوق"
+      ],
+      [
+       "complicated",
+       "معقّد"
+      ],
+      [
+       "opportunity",
+       "فرصة"
+      ],
+      [
+       "improve",
+       "يُحسّن"
+      ],
+      [
+       "looking forward to",
+       "يتطلّع إلى"
+      ]
+     ]
+    },
+    {
+     "type": "reading",
+     "id": "TB1-1",
+     "title": "The Weekend Plan",
+     "titleAr": "خطّة عطلة نهاية الأسبوع",
+     "en": "My friend Omar invited me to a football match on Saturday. I almost <b>turned down</b> the invitation because I wanted to <b>hit the books</b> for my exam. Then I decided not to <b>put off</b> the fun, because we go out <b>once in a blue moon</b> anyway. Before leaving, I noticed that we had <b>run out of</b> bread, so I stopped at the shop. Finding the stadium was <b>a piece of cake</b> because Omar had sent me a map.",
+     "ar": "دعاني صديقي عمر إلى مباراة كرة قدمٍ يوم السبت. كدتُ أرفض الدعوة لأنّني أردتُ أن أنكبّ على الدراسة لاختباري. ثمّ قرّرتُ ألّا أؤجّل المتعة، فنحن لا نخرج إلّا نادراً جدّاً على أيّ حال. وقبل مغادرتي لاحظتُ أنّ الخبز قد نفد منّا، فتوقّفتُ عند المتجر. وكان العثور على الملعب سهلاً للغاية لأنّ عمر كان قد أرسل إليّ خريطة.",
+     "keys": [
+      [
+       "turned down",
+       "رفض"
+      ],
+      [
+       "hit the books",
+       "ينكبّ على الدراسة"
+      ],
+      [
+       "put off",
+       "يؤجّل"
+      ],
+      [
+       "once in a blue moon",
+       "نادراً جدّاً"
+      ],
+      [
+       "run out of",
+       "نفد منه"
+      ],
+      [
+       "a piece of cake",
+       "سهلٌ للغاية"
+      ]
+     ]
+    },
+    {
+     "type": "reading",
+     "id": "TB1-2",
+     "title": "A Difficult Morning",
+     "titleAr": "صباحٌ عسير",
+     "en": "This morning I woke up feeling <b>under the weather</b>, so I decided to <b>avoid</b> the gym. My sister <b>suggested</b> drinking hot lemon and resting for an hour. I did not want to <b>give up</b> on my plan for the day, so after lunch I felt much better and finished my report. It was not easy, but in the end I <b>achieved</b> my goal. Sometimes a short rest helps you far more than a long fight.",
+     "ar": "استيقظتُ هذا الصباح وأنا أشعر بتوعّك، فقرّرتُ أن أتجنّب النادي الرياضي. اقترحتْ أختي شرب الليمون الساخن والراحة ساعةً من الزمن. لم أشأ أن أستسلم لخطّة يومي، وبعد الغداء شعرتُ بتحسّنٍ كبير وأنجزتُ تقريري. لم يكن الأمر يسيراً، لكنّني في النهاية حقّقتُ هدفي. فأحياناً تنفعك راحةٌ قصيرة أكثر ممّا ينفعك صراعٌ طويل.",
+     "keys": [
+      [
+       "under the weather",
+       "متوعّك"
+      ],
+      [
+       "avoid",
+       "يتجنّب"
+      ],
+      [
+       "suggested",
+       "اقترح"
+      ],
+      [
+       "give up",
+       "يستسلم"
+      ],
+      [
+       "achieved",
+       "حقّق"
+      ]
+     ]
+    },
+    {
+     "type": "reading",
+     "id": "TB1-3",
+     "title": "The Team Meeting",
+     "titleAr": "اجتماع الفريق",
+     "en": "Our new manager started the meeting with a simple question about our weekend, and that small step helped to <b>break the ice</b>. Then she explained the plan for the next three months. She wanted to be sure that everybody was <b>on the same page</b> before we started the work. Two people <b>suggested</b> small changes, and she accepted both of them. I left the room feeling that our department will <b>improve</b> a lot this year.",
+     "ar": "استهلّتْ مديرتنا الجديدة الاجتماع بسؤالٍ بسيط عن عطلة نهاية الأسبوع، وقد ساعدت تلك الخطوة الصغيرة على كسر الجمود. ثمّ شرحت خطّة الأشهر الثلاثة المقبلة. أرادت أن تتيقّن من أنّ الجميع على وفاقٍ تامّ قبل أن نبدأ العمل. اقترح شخصان تعديلاتٍ طفيفة فقبلتهما كليهما. غادرتُ القاعة وأنا أشعر بأنّ قسمنا سيتحسّن كثيراً هذا العام.",
+     "keys": [
+      [
+       "break the ice",
+       "يكسر الجمود"
+      ],
+      [
+       "on the same page",
+       "على وفاقٍ تامّ"
+      ],
+      [
+       "suggested",
+       "اقترح"
+      ],
+      [
+       "improve",
+       "يتحسّن"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "نصوص المستوى الثاني",
+   "subtitle": "٤ نصوص قرائية",
+   "blocks": [
+    {
+     "type": "reading",
+     "id": "TB2-4",
+     "title": "Launching the New Product",
+     "titleAr": "إطلاق المنتج الجديد",
+     "en": "When the first launch date <b>fell through</b>, the team had to <b>come up with</b> a new plan in less than a week. We <b>carried out</b> a quick study and discovered that a delay was <b>inevitable</b>, although a smaller launch was still <b>feasible</b>. Some people wanted to <b>cut corners</b> on testing in order to save time. The head of engineering firmly refused, and I believe she was right. A rushed product would have <b>brought about</b> far more damage than a short delay.",
+     "ar": "حين انهار موعد الإطلاق الأوّل، اضطُرّ الفريق إلى ابتكار خطّةٍ جديدة في أقلّ من أسبوع. أجرينا دراسةً سريعة فاكتشفنا أنّ التأجيل صار حتميّاً، وإن ظلّ إطلاقٌ أصغر ممكناً عمليّاً. أراد بعضهم اختصار الطريق في الاختبار توفيراً للوقت، غير أنّ رئيسة الهندسة رفضت رفضاً قاطعاً، وأحسبها كانت على حقّ؛ فمنتَجٌ متعجّل كان سيُحدث من الضرر أضعاف ما يُحدثه تأجيلٌ قصير.",
+     "keys": [
+      [
+       "fell through",
+       "انهار/فشل"
+      ],
+      [
+       "come up with",
+       "يبتكر"
+      ],
+      [
+       "carried out",
+       "أجرى"
+      ],
+      [
+       "inevitable",
+       "حتميّ"
+      ],
+      [
+       "feasible",
+       "ممكنٌ عمليّاً"
+      ],
+      [
+       "cut corners",
+       "يختصر الطريق"
+      ],
+      [
+       "brought about",
+       "أحدث"
+      ]
+     ]
+    },
+    {
+     "type": "reading",
+     "id": "TB2-5",
+     "title": "A Lesson in Patience",
+     "titleAr": "درسٌ في الصبر",
+     "en": "In my first year at university I <b>bit off more than I could chew</b>. I registered for six courses at once and had to <b>put up with</b> sleepless nights for months. Failing one of them felt terrible at the time, yet it turned out to be <b>a blessing in disguise</b>. It forced me to change my method completely. By the second year I had <b>got the hang of it</b>, and my results showed a <b>substantial</b> improvement that surprised even my professors.",
+     "ar": "في عامي الجامعيّ الأوّل حمّلتُ نفسي فوق طاقتها؛ إذ سجّلتُ في ستّ موادّ دفعةً واحدة، فكان عليّ أن أتحمّل ليالي بلا نومٍ شهوراً طوالاً. وكان رسوبي في إحداها شعوراً مريراً حينئذٍ، لكنّه تبيّن أنّه نعمةٌ في ثوب نقمة، فقد أجبرني على تغيير أسلوبي بالكامل. وبحلول العام الثاني كنتُ قد أتقنتُ الأمر، وأظهرت نتائجي تحسّناً معتبَراً أدهش حتّى أساتذتي.",
+     "keys": [
+      [
+       "bit off more than I could chew",
+       "حمّل نفسه فوق طاقته"
+      ],
+      [
+       "put up with",
+       "يتحمّل"
+      ],
+      [
+       "a blessing in disguise",
+       "نعمةٌ في ثوب نقمة"
+      ],
+      [
+       "got the hang of it",
+       "أتقن الأمر"
+      ],
+      [
+       "substantial",
+       "معتبَر"
+      ]
+     ]
+    },
+    {
+     "type": "reading",
+     "id": "TB2-6",
+     "title": "The Audit Report",
+     "titleAr": "تقرير التدقيق",
+     "en": "The finance department found a <b>discrepancy</b> of almost four thousand pounds in last quarter's accounts. My manager asked me to <b>look into</b> it before Monday morning. After a <b>thorough</b> check of every single invoice, I discovered that one payment had been recorded twice. I sent a short email to the supplier, who <b>acknowledged</b> the error within an hour and promised a full refund. I told my manager that <b>the ball was now in their court</b>, and that we simply had to wait.",
+     "ar": "اكتشف قسم المالية تبايناً يناهز أربعة آلاف جنيه في حسابات الربع الماضي، فطلب إليّ مديري أن أتحرّى الأمر قبل صباح الاثنين. وبعد فحصٍ مستفيضٍ لكلّ فاتورةٍ على حدة، اكتشفتُ أنّ دفعةً واحدة قد سُجِّلت مرّتين. أرسلتُ رسالةً قصيرة إلى المورّد، فأقرّ بالخطأ في غضون ساعة ووعد بردّ المبلغ كاملاً. أخبرتُ مديري أنّ القرار صار بأيديهم، وأنّ علينا الانتظار لا غير.",
+     "keys": [
+      [
+       "discrepancy",
+       "تباين"
+      ],
+      [
+       "look into",
+       "يتحرّى"
+      ],
+      [
+       "thorough",
+       "مستفيض"
+      ],
+      [
+       "acknowledged",
+       "أقرّ بـ"
+      ],
+      [
+       "the ball is in their court",
+       "القرار بأيديهم"
+      ]
+     ]
+    },
+    {
+     "type": "reading",
+     "id": "TB2-7",
+     "title": "Working From Home",
+     "titleAr": "العمل من المنزل",
+     "en": "The pandemic <b>brought about</b> a change that very few companies had considered <b>feasible</b> before. Many firms <b>cut back on</b> office space and allowed their staff to work remotely. The arguments were <b>compelling</b>: lower costs, less traffic and happier employees. Of course, remote work has its own problems as well. Teams must <b>touch base</b> regularly, otherwise small misunderstandings quietly grow into serious ones. In my experience, a short daily call solves more problems than a long monthly report ever could.",
+     "ar": "أحدثت الجائحة تغييراً لم تكن شركاتٌ كثيرة تعدّه ممكناً عمليّاً من قبل. فقلّصت شركاتٌ عديدة مساحات مكاتبها وأتاحت لموظّفيها العمل عن بُعد. وكانت الحجج مقنِعةً بقوّة: تكاليف أدنى، وازدحامٌ أقلّ، وموظّفون أسعد. وللعمل عن بُعد بالطبع مشكلاته أيضاً؛ فعلى الفرق أن تتواصل بانتظام، وإلّا نمت سوء الفهم الصغيرة في صمتٍ حتّى تستفحل. وفي تجربتي، تحلّ مكالمةٌ يوميّة قصيرة من المشكلات ما لا يحلّه تقريرٌ شهريّ مطوّل.",
+     "keys": [
+      [
+       "brought about",
+       "أحدث"
+      ],
+      [
+       "feasible",
+       "ممكنٌ عمليّاً"
+      ],
+      [
+       "cut back on",
+       "قلّص"
+      ],
+      [
+       "compelling",
+       "مقنِعٌ بقوّة"
+      ],
+      [
+       "touch base",
+       "يتواصل باقتضاب"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

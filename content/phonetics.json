@@ -1,0 +1,468 @@
+{
+  "id": "phonetics",
+  "icon": "🔊",
+  "title": "صوتيّات الإنجليزية الأمريكية",
+  "subtitle": "لماذا لا تفهم الأفلام — وكيف تُصلح ذلك",
+  "intro": "المشكلة ليست في مفرداتك. الأمريكيّون لا ينطقون الكلمات كما تُكتب، وأذنك تبحث عمّا حفظتَه فلا تجده. هذه الوحدة تعلّمك <b>النظام الصوتيّ الحقيقيّ</b> — عشرة دروس تفكّ شفرة الكلام الطبيعيّ. أنجِز درساً واحداً في اليوم.",
+  "goals": [
+    "أميّز صوت T المتحوّل إلى D في الكلام الأمريكيّ",
+    "أسمع الكلمات المختزلة التي كنت أظنّها مفقودة",
+    "أفكّ الجمل الملتصقة إلى كلماتها الأصليّة",
+    "أتعرّف على الأصوات التي لا توجد في العربية"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "phon",
+      "title": "الـ T المرتدّة (Flap T)",
+      "subtitle": "لماذا water تصير «وادَر»",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "القاعدة",
+          "html": "في الإنجليزية الأمريكية، حين يقع حرف <b>T</b> <u>بين صوتين متحرّكين</u> ويكون المقطع الذي بعده غير منبور، يتحوّل نطقه إلى ما يشبه <b>D</b> خفيفة سريعة.<br><br>هذا ليس كسلاً ولا عاميّة — إنّه <b>النطق الأمريكيّ المعياريّ</b>، تسمعه من مذيع الأخبار كما تسمعه من بطل الفيلم. والبريطانيّون لا يفعلونه، ولهذا يبدو الأمريكيّ أصعب على أذنٍ تعلّمت من كتب بريطانيّة."
+        },
+        {
+          "type": "note",
+          "title": "متى لا تحدث؟",
+          "html": "لا تتحوّل الـ T إذا كانت في <b>بداية مقطع منبور</b>:<br>• <b>at·TEND</b> · <b>re·TURN</b> · <b>ho·TEL</b> ← تبقى T واضحة<br>• <b>WA·ter</b> · <b>BET·ter</b> · <b>CI·ty</b> ← تتحوّل إلى D<br><br>والقاعدة تعمل أيضاً <b>بين الكلمات</b>: <code dir=ltr>get it</code> → «غِدِت» · <code dir=ltr>put it on</code> → «پُدِدون»."
+        },
+        {
+          "type": "pron",
+          "title": "اسمع الفرق",
+          "hint": "اضغط 🔊 على كلّ صورة واسمع الفرق بنفسك",
+          "rows": [
+            { "w": "water", "s": "wader", "ar": "ماء" },
+            { "w": "better", "s": "bedder", "ar": "أفضل" },
+            { "w": "city", "s": "ciddy", "ar": "مدينة" },
+            { "w": "little", "s": "liddle", "ar": "صغير" },
+            { "w": "party", "s": "pardy", "ar": "حفلة" },
+            { "w": "computer", "s": "compuder", "ar": "حاسوب" },
+            { "w": "Get it?", "s": "Geddit?", "ar": "فهمت؟" },
+            { "w": "a lot of", "s": "a lodda", "ar": "الكثير من" },
+            { "w": "What a day!", "s": "Wadda day!", "ar": "يا له من يوم!" },
+            { "w": "Shut up!", "s": "Shuddup!", "ar": "اصمت!" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "mcq", "q": "في أيّ كلمة <b>لا</b> تتحوّل الـ T إلى D في النطق الأمريكيّ؟", "opts": ["water", "attend", "better", "city"], "a": 1, "why": "في <code dir=ltr>attend</code> تقع الـ T في بداية المقطع المنبور (at·TEND)، فتبقى واضحة." },
+            { "t": "hear", "say": "I godda lodda wader", "opts": ["I got a lot of water", "I good a load of water", "I go to a lot of water"], "a": 0, "why": "ثلاث حالات في جملة واحدة: got→god · lot of→lodda · water→wader." },
+            { "t": "dict", "say": "Can you geddit?", "a": ["Can you get it?", "can you get it"], "why": "<code dir=ltr>get it</code> تلتصق وتصير «غِدِت»." },
+            { "t": "mcq", "q": "لماذا يبدو النطق البريطانيّ أسهل أحياناً على المتعلّم العربيّ؟", "opts": ["لأنّ كلماته أقصر", "لأنّه لا يطبّق قاعدة الـ T المرتدّة فتبقى الحروف أوضح", "لأنّه أبطأ دائماً", "لأنّ مفرداته أقلّ"], "a": 1, "why": "البريطانيّ ينطق الـ T واضحة في <code dir=ltr>water</code>، فتطابق ما تعلّمتَه من الكتاب." },
+            { "t": "dict", "say": "Shuddup and siddown", "a": ["Shut up and sit down", "shut up and sit down"], "why": "<code dir=ltr>shut up</code> → شَدَب · <code dir=ltr>sit down</code> → سِدَاون." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "phon",
+      "title": "أصوات لا توجد في العربية",
+      "subtitle": "ما لا تنطقه أذنك لا تسمعه",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "لماذا هذا الدرس مختلف؟",
+          "html": "الأذن لا تسمع إلّا ما تعرفه. وما دامت العربية لا تحوي صوت <b>P</b> ولا <b>V</b>، فدماغك يحوّلهما تلقائيّاً إلى <b>ب</b> و<b>ف</b> — ولا تلاحظ أنّك فعلت.<br><br>النتيجة: <code dir=ltr>pin</code> و<code dir=ltr>bin</code> تبدوان لك <u>الكلمة نفسها</u>، فتضيع عليك في الفيلم. هذا الدرس يدرّب أذنك على الفروق قبل أن يدرّب لسانك."
+        },
+        {
+          "type": "pron",
+          "title": "الأزواج المتقاربة — الأصوات الساكنة",
+          "hint": "اسمع كلّ زوجٍ مرّات حتى تلمح الفرق",
+          "rows": [
+            { "w": "pin", "s": "bin", "ar": "دبّوس ← صندوق" },
+            { "w": "pear", "s": "bear", "ar": "كمّثرى ← دبّ" },
+            { "w": "van", "s": "fan", "ar": "شاحنة ← مروحة" },
+            { "w": "very", "s": "ferry", "ar": "جدّاً ← عبّارة" },
+            { "w": "sing", "s": "sin", "ar": "يغنّي ← ذنب" },
+            { "w": "thing", "s": "think", "ar": "شيء ← يفكّر" }
+          ]
+        },
+        {
+          "type": "pron",
+          "title": "الأزواج المتقاربة — الأصوات المتحرّكة",
+          "hint": "الفرق هنا في طول الصوت وموضع اللسان",
+          "rows": [
+            { "w": "ship", "s": "sheep", "ar": "سفينة ← خروف" },
+            { "w": "bit", "s": "beat", "ar": "قليل ← يضرب" },
+            { "w": "bad", "s": "bed", "ar": "سيّئ ← سرير" },
+            { "w": "man", "s": "men", "ar": "رجل ← رجال" },
+            { "w": "full", "s": "fool", "ar": "ممتلئ ← أحمق" },
+            { "w": "cot", "s": "caught", "ar": "سرير طفل ← أمسك" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "مصيدة التجمّعات الساكنة",
+          "html": "العربية لا تبدأ كلمةً بساكنَين متتاليَين، فيضيف لسانك حركةً تلقائيّاً:<br><br>❌ <code dir=ltr>istreet</code> · ✅ <code dir=ltr>street</code><br>❌ <code dir=ltr>isbring</code> · ✅ <code dir=ltr>spring</code><br>❌ <code dir=ltr>iskool</code> · ✅ <code dir=ltr>school</code><br><br>والأصعب في النهايات: <code dir=ltr>texts</code> · <code dir=ltr>asked</code> · <code dir=ltr>sixths</code>. تدرّب عليها ببطء ثمّ سرّع."
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "hear", "say": "sheep", "opts": ["ship", "sheep"], "a": 1, "why": "الصوت هنا ممدود /iː/ — لاحظ طوله مقارنةً بـ ship القصيرة." },
+            { "t": "hear", "say": "very good", "opts": ["ferry good", "very good"], "a": 1, "why": "صوت V يخرج بملامسة الأسنان العليا للشفة السفلى مع اهتزاز الحبال الصوتيّة." },
+            { "t": "mcq", "q": "لماذا يسمع كثيرٌ من العرب <code dir=ltr>pin</code> و<code dir=ltr>bin</code> متطابقتين؟", "opts": ["لأنّهما متطابقتان فعلاً", "لأنّ العربية لا تحوي صوت P فيحوّله الدماغ إلى ب", "لأنّ الأمريكيّين ينطقونهما سواء", "لأنّ الفرق في المعنى لا في الصوت"], "a": 1, "why": "الأذن لا تميّز ما لا تعرفه — فالدماغ يُسقط الصوت الغريب على أقرب صوتٍ مألوف." },
+            { "t": "hear", "say": "bad", "opts": ["bad", "bed"], "a": 0, "why": "في <code dir=ltr>bad</code> يكون الفم أوسع والصوت أقرب إلى «آ» ممدودة قليلاً." },
+            { "t": "mcq", "q": "أيّ نطقٍ صحيح لكلمة <code dir=ltr>school</code>؟", "opts": ["إسكول", "سكول بلا حركة قبل السين", "سيكول", "أسكول"], "a": 1, "why": "لا تُضف حركةً قبل التجمّع الساكن — ابدأ بالسين مباشرةً." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "phon",
+      "title": "الشوا والصيغ الضعيفة",
+      "subtitle": "أهمّ صوتٍ في الإنجليزية — ولا أحد يعلّمك إيّاه",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الصوت الذي يبتلع كلّ شيء",
+          "html": "<b>الشوا</b> (schwa /ə/) صوتٌ محايد قصير جدّاً، أقرب إلى «إ» مختلسة. وهو <b>أكثر صوتٍ تكراراً في الإنجليزية كلّها</b>.<br><br>القاعدة الذهبيّة: <b>كلّ مقطع غير منبور يميل إلى الشوا</b>، مهما كان حرفه المكتوب. ولهذا تسمع كلمةً من أربعة مقاطع فلا تميّز إلّا مقطعاً واحداً — والباقي شوا."
+        },
+        {
+          "type": "note",
+          "title": "الكلمات الوظيفيّة تُختزل دائماً",
+          "html": "الكلمات الصغيرة (حروف الجرّ، أدوات الربط، الأفعال المساعدة) تكاد تختفي في الكلام السريع:<br><br><table><tr><td dir=ltr><b>to</b></td><td>→ /tə/ «تَ»</td></tr><tr><td dir=ltr><b>for</b></td><td>→ /fər/ «فَر»</td></tr><tr><td dir=ltr><b>and</b></td><td>→ /ən/ «إن»</td></tr><tr><td dir=ltr><b>of</b></td><td>→ /əv/ «أَڤ»</td></tr><tr><td dir=ltr><b>can</b></td><td>→ /kən/ «كِن»</td></tr><tr><td dir=ltr><b>at</b></td><td>→ /ət/ «إت»</td></tr><tr><td dir=ltr><b>are</b></td><td>→ /ər/ «أر»</td></tr><tr><td dir=ltr><b>you</b></td><td>→ /jə/ «يَ»</td></tr></table><br>وهنا مفارقة مفيدة: <b>can</b> تُختزل، لكنّ <b>can't</b> تبقى واضحة ومنبورة. فإن سمعتَ الكلمة واضحةً فهي على الأرجح منفيّة!"
+        },
+        {
+          "type": "pron",
+          "title": "اسمع الاختزال",
+          "hint": "الصورة اليمنى هي ما ينطقه الأمريكيّ فعلاً",
+          "rows": [
+            { "w": "I want to go", "s": "I wanna go", "ar": "أريد أن أذهب" },
+            { "w": "a cup of tea", "s": "a cuppa tea", "ar": "فنجان شاي" },
+            { "w": "fish and chips", "s": "fish n chips", "ar": "سمك وبطاطا" },
+            { "w": "I can do it", "s": "I kin do it", "ar": "أستطيع فعلها" },
+            { "w": "Look at that", "s": "Look uh that", "ar": "انظر إلى ذلك" },
+            { "w": "What are you doing?", "s": "Whadder ya doin?", "ar": "ماذا تفعل؟" },
+            { "w": "banana", "s": "bununnuh", "ar": "موزة — مقطع واحد منبور فقط" },
+            { "w": "comfortable", "s": "kumfterbul", "ar": "مريح — ثلاثة مقاطع لا أربعة" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "mcq", "q": "سمعتَ الكلمة واضحةً ومنبورة: <code dir=ltr>I CAN'T help you</code>. ما الذي يدلّك على النفي؟", "opts": ["طول الجملة", "وضوح الكلمة ونبرها — فالمثبتة تُختزل إلى /kən/", "نبرة الصوت الحزينة", "موقعها في الجملة"], "a": 1, "why": "هذه حيلة عمليّة ممتازة: المثبت مختزل، والمنفيّ منبور واضح." },
+            { "t": "dict", "say": "I wanna cuppa coffee", "a": ["I want a cup of coffee", "i want a cup of coffee"], "why": "<code dir=ltr>want a</code> → wanna · <code dir=ltr>cup of</code> → cuppa." },
+            { "t": "hear", "say": "Whadder ya gonna do?", "opts": ["What do you go to do?", "What are you going to do?", "Water you going to do?"], "a": 1, "why": "<code dir=ltr>are you</code> → «أَريَ» · <code dir=ltr>going to</code> → gonna." },
+            { "t": "mcq", "q": "كم مقطعاً منبوراً في كلمة <code dir=ltr>banana</code>؟", "opts": ["ثلاثة", "اثنان", "واحد فقط — والباقي شوا", "لا شيء"], "a": 2, "why": "ba·NA·na — المقطع الأوسط وحده منبور، والأوّل والأخير شوا." },
+            { "t": "dict", "say": "Look uh the picture n tell me", "a": ["Look at the picture and tell me", "look at the picture and tell me"], "why": "<code dir=ltr>at</code> → «إت» و<code dir=ltr>and</code> → «إن»." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "phon",
+      "title": "الوصل بين الكلمات",
+      "subtitle": "لماذا تسمع كلمةً واحدة طويلة بدل أربع",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "القاعدة",
+          "html": "الإنجليزية لا تفصل بين الكلمات في النطق. إذا انتهت كلمة بصوتٍ <b>ساكن</b> وبدأت التالية بصوتٍ <b>متحرّك</b>، ينتقل الساكن ليصير بداية الكلمة التالية:<br><br><code dir=ltr>turn it off</code> → <code dir=ltr>tur·ni·toff</code> «تِرنِدوف»<br><br>هذا هو السبب الأوّل لشعورك بأنّ المتحدّث «يبتلع» الكلام. هو لا يبتلعه — بل يصِله، وأنت تنتظر فواصل لا وجود لها."
+        },
+        {
+          "type": "note",
+          "title": "أصوات وصلٍ خفيّة",
+          "html": "حين تلتقي حركتان، يُدخل الأمريكيّ صوتاً رابطاً لا تراه مكتوباً:<br><br>• <b>/j/ (ي)</b> بعد الحركات الأمامية: <code dir=ltr>I am</code> → «آي يَم» · <code dir=ltr>she is</code> → «شي يِز»<br>• <b>/w/ (و)</b> بعد الحركات الخلفية: <code dir=ltr>do it</code> → «دو وِت» · <code dir=ltr>go on</code> → «غو وون»<br>• <b>/r/</b> في النطق الأمريكيّ: <code dir=ltr>for a moment</code> → «فَرَ مومِنت»"
+        },
+        {
+          "type": "pron",
+          "title": "اسمع الالتصاق",
+          "hint": "لاحظ كيف تذوب الحدود بين الكلمات",
+          "rows": [
+            { "w": "turn it off", "s": "turnidoff", "ar": "أطفئه" },
+            { "w": "an hour ago", "s": "anowerago", "ar": "قبل ساعة" },
+            { "w": "Pick it up", "s": "Pickidup", "ar": "التقطه" },
+            { "w": "Come on in", "s": "Cumonin", "ar": "تفضّل بالدخول" },
+            { "w": "far away", "s": "farraway", "ar": "بعيداً" },
+            { "w": "I am always", "s": "I yam yalways", "ar": "أنا دائماً" },
+            { "w": "Do it again", "s": "Do wit again", "ar": "افعلها ثانيةً" },
+            { "w": "Hold on a second", "s": "Holdonna second", "ar": "انتظر لحظة" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "dict", "say": "Turnidoff please", "a": ["Turn it off please", "turn it off please"], "why": "الـ n تنتقل إلى it، والـ t تنتقل إلى off." },
+            { "t": "hear", "say": "Pickidup an puddit back", "opts": ["Pick it up and put it back", "Picked up and put back", "Pick a cup and put a back"], "a": 0, "why": "وصلٌ وتحوّل T إلى D في الموضعين." },
+            { "t": "mcq", "q": "لماذا تشعر أنّ المتحدّث يبتلع الكلمات؟", "opts": ["لأنّه يتكلّم بسرعة فقط", "لأنّه يصِل نهايات الكلمات ببداياتها فتختفي الفواصل التي تنتظرها", "لأنّه يحذف كلماتٍ كاملة", "لأنّ الميكروفون رديء"], "a": 1, "why": "الفواصل التي تتوقّعها موجودة في الكتابة فقط، لا في الكلام." },
+            { "t": "dict", "say": "Holdonna second", "a": ["Hold on a second", "hold on a second"], "why": "ثلاث كلمات تلتصق في كتلةٍ واحدة." },
+            { "t": "hear", "say": "I yam not going", "opts": ["I am not going", "I yam not going", "Am I not going"], "a": 0, "why": "صوت /j/ الرابط يظهر بين I و am — وهو غير مكتوب." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "phon",
+      "title": "اختصارات الكلام",
+      "subtitle": "gonna · wanna · gotta — وأخواتها",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ليست عاميّة — بل الطبيعيّ",
+          "html": "هذه الاختصارات ليست «لغة شارع». يستعملها الأستاذ الجامعيّ والرئيس والممثّل. الفرق أنّها <b>تُنطق ولا تُكتب</b> في السياق الرسميّ.<br><br>قاعدة عمليّة: <b>انطقها</b> لتبدو طبيعيّاً، و<b>لا تكتبها</b> في بريدٍ رسميّ أو امتحان."
+        },
+        {
+          "type": "pron",
+          "title": "القائمة الأساسيّة",
+          "hint": "احفظ هذه العشر، فهي تغطّي معظم ما تسمعه",
+          "rows": [
+            { "w": "going to", "s": "gonna", "ar": "سوف — للنيّة والمستقبل" },
+            { "w": "want to", "s": "wanna", "ar": "يريد أن" },
+            { "w": "got to / have got to", "s": "gotta", "ar": "يجب أن" },
+            { "w": "kind of", "s": "kinda", "ar": "نوعاً ما" },
+            { "w": "sort of", "s": "sorta", "ar": "إلى حدٍّ ما" },
+            { "w": "out of", "s": "outta", "ar": "خارج من" },
+            { "w": "let me", "s": "lemme", "ar": "دعني" },
+            { "w": "give me", "s": "gimme", "ar": "أعطني" },
+            { "w": "a lot of", "s": "alotta", "ar": "الكثير من" },
+            { "w": "I do not know", "s": "I dunno", "ar": "لا أعرف" }
+          ]
+        },
+        {
+          "type": "note",
+          "title": "فخّ مهمّ",
+          "html": "<b>gonna</b> تصلح للمستقبل فقط، لا للحركة:<br>✅ <code dir=ltr>I am gonna study</code> (سأدرس)<br>❌ <code dir=ltr>I am gonna the store</code><br>✅ <code dir=ltr>I am going to the store</code> (ذاهب إلى المتجر)<br><br>فإن كان بعدها <b>فعل</b> فهي gonna، وإن كان بعدها <b>مكان</b> فهي going to كاملة."
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "mcq", "q": "أيّ جملةٍ يصحّ فيها اختصار <code dir=ltr>gonna</code>؟", "opts": ["I am going to Paris", "I am going to the airport", "I am going to call him", "I am going to my room"], "a": 2, "why": "بعدها فعل (call) لا مكان — فيصحّ الاختصار." },
+            { "t": "dict", "say": "I gotta go, lemme know", "a": ["I have got to go, let me know", "I got to go let me know", "I gotta go let me know", "I have to go, let me know"], "why": "gotta = have got to · lemme = let me." },
+            { "t": "hear", "say": "I dunno whatcha want", "opts": ["I do not know what you want", "I don't know what to want", "I do now what you want"], "a": 0, "why": "dunno = don't know · whatcha = what you." },
+            { "t": "mcq", "q": "أين <b>لا</b> يصحّ استعمال هذه الاختصارات؟", "opts": ["في الحديث مع صديق", "في مقابلة عمل شفويّة", "في بريد إلكترونيّ رسميّ ومقالٍ مكتوب", "في مشاهدة فيلم"], "a": 2, "why": "تُنطق في كلّ السياقات تقريباً، لكنّها لا تُكتب في الرسميّ." },
+            { "t": "dict", "say": "Gimme a sec, I wanna check", "a": ["Give me a sec, I want to check", "give me a sec i want to check", "Give me a second, I want to check"], "why": "gimme = give me · wanna = want to." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "phon",
+      "title": "الإدغام",
+      "subtitle": "didja · doncha · whaddya",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "حين يتغيّر الصوت لمجاورة صوتٍ آخر",
+          "html": "إذا التقى صوت <b>d</b> أو <b>t</b> أو <b>s</b> أو <b>z</b> بصوت <b>y</b> (في you / your)، امتزج الصوتان وولّدا صوتاً ثالثاً جديداً:<br><br>• <b>d + y</b> → «ج» : <code dir=ltr>did you</code> → didja<br>• <b>t + y</b> → «تش» : <code dir=ltr>don't you</code> → doncha<br>• <b>s + y</b> → «ش» : <code dir=ltr>miss you</code> → misshu<br>• <b>z + y</b> → «ژ» : <code dir=ltr>as usual</code> → azhual<br><br>هذا يفسّر لماذا تسمع أصواتاً «غريبة» لا وجود لها في أيّ كلمةٍ تعرفها — إنّها مواليد الالتقاء."
+        },
+        {
+          "type": "pron",
+          "title": "اسمع الامتزاج",
+          "hint": "هذه أكثر العبارات تكراراً في الأفلام",
+          "rows": [
+            { "w": "Did you see it?", "s": "Didja see it?", "ar": "هل رأيته؟" },
+            { "w": "Don't you know?", "s": "Doncha know?", "ar": "ألا تعرف؟" },
+            { "w": "What do you want?", "s": "Whaddya want?", "ar": "ماذا تريد؟" },
+            { "w": "What are you doing?", "s": "Whatcha doin?", "ar": "ماذا تفعل؟" },
+            { "w": "Got you!", "s": "Gotcha!", "ar": "فهمتك / أمسكتك" },
+            { "w": "I miss you", "s": "I misshu", "ar": "أفتقدك" },
+            { "w": "Would you mind?", "s": "Wouldja mind?", "ar": "هل تمانع؟" },
+            { "w": "Nice to meet you", "s": "Nice to meetcha", "ar": "سُررت بلقائك" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "dict", "say": "Whatcha doin tonight?", "a": ["What are you doing tonight?", "what are you doing tonight"], "why": "what + are + you تنضغط كلّها في «واتشا»." },
+            { "t": "hear", "say": "Didja finish it?", "opts": ["Did you finish it?", "Did he finish it?", "Do you finish it?"], "a": 0, "why": "صوت d يمتزج بـ y فيولّد «ج»." },
+            { "t": "mcq", "q": "<code dir=ltr>Gotcha!</code> أصلها…", "opts": ["Go to you", "Got you", "Get you", "God you"], "a": 1, "why": "t + y → «تش»، ومعناها «فهمتك» أو «أمسكت بك»." },
+            { "t": "dict", "say": "Nice to meetcha", "a": ["Nice to meet you", "nice to meet you"], "why": "meet + you → meetcha." },
+            { "t": "hear", "say": "Whaddya think?", "opts": ["What do you think?", "Water you think?", "What did you think?"], "a": 0, "why": "what + do + you تنضغط في «وادّيَ»." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "phon",
+      "title": "حذف الأصوات",
+      "subtitle": "حروفٌ مكتوبة لا تُنطق أصلاً",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "القاعدة",
+          "html": "حين تتجمّع ثلاثة سواكن أو أكثر، يسقط الأوسط غالباً — خاصّة <b>t</b> و<b>d</b>:<br><br>• <code dir=ltr>next day</code> → «نِكس دِي» (سقطت t)<br>• <code dir=ltr>friendship</code> → «فرِنشِب» (سقطت d)<br>• <code dir=ltr>most people</code> → «موس پيپل»<br>• <code dir=ltr>sandwich</code> → «سانوِتش»<br><br>وهذا ليس خطأً، بل ما يفعله كلّ متحدّثٍ أصليّ دون وعي."
+        },
+        {
+          "type": "note",
+          "title": "الـ T المخنوقة (Glottal T)",
+          "html": "قبل صوت <b>n</b>، لا تُنطق الـ T بل تُحبس في الحلق كأنّها توقّف مفاجئ:<br><br><code dir=ltr>button</code> → «بَ ʔ ن» · <code dir=ltr>certain</code> → «سِر ʔ ن» · <code dir=ltr>mountain</code> → «ماون ʔ ن» · <code dir=ltr>important</code> → «إمپور ʔ نت»<br><br>إن سمعتَ فجوةً صامتة في وسط كلمة، فغالباً هي T مخنوقة."
+        },
+        {
+          "type": "pron",
+          "title": "اسمع السقوط",
+          "hint": "لاحظ الحروف الغائبة",
+          "rows": [
+            { "w": "next day", "s": "neks day", "ar": "اليوم التالي" },
+            { "w": "friendship", "s": "frenship", "ar": "صداقة" },
+            { "w": "most people", "s": "mose people", "ar": "معظم الناس" },
+            { "w": "I don't know", "s": "I dono", "ar": "لا أعرف" },
+            { "w": "asked him", "s": "as tim", "ar": "سأله" },
+            { "w": "button", "s": "buh n", "ar": "زرّ — T مخنوقة" },
+            { "w": "important", "s": "impor nt", "ar": "مهمّ — T مخنوقة" },
+            { "w": "sandwich", "s": "sanwich", "ar": "شطيرة" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "mcq", "q": "أيّ حرفٍ يسقط عادةً في <code dir=ltr>friendship</code>؟", "opts": ["f", "d", "n", "sh"], "a": 1, "why": "تسقط d لوقوعها بين ساكنَين: fren·ship." },
+            { "t": "dict", "say": "See you neks week", "a": ["See you next week", "see you next week"], "why": "سقطت t من next لالتقائها بـ w." },
+            { "t": "hear", "say": "Thas impor nt", "opts": ["That is important", "This is important", "That was important"], "a": 0, "why": "<code dir=ltr>that's</code> تفقد t، و<code dir=ltr>important</code> فيها T مخنوقة." },
+            { "t": "mcq", "q": "سمعتَ فجوةً صامتة في وسط كلمة. ما تفسيرها الأرجح؟", "opts": ["انقطاع في الصوت", "T مخنوقة قبل صوت n", "المتحدّث نسي الكلمة", "كلمتان لا كلمة واحدة"], "a": 1, "why": "الـ T المخنوقة تُسمع كتوقّفٍ مفاجئ لا كحرف." },
+            { "t": "dict", "say": "Mose people dono", "a": ["Most people don't know", "most people dont know", "most people do not know"], "why": "سقطت t من most، و<code dir=ltr>don't know</code> صارت «دونو»." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "type": "phon",
+      "title": "سقوط H والمساعدات المختزلة",
+      "subtitle": "shoulda · woulda · tell 'im",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الضمائر تفقد الـ H",
+          "html": "في وسط الجملة، تسقط الـ H من <b>he · him · his · her</b> وتلتصق بما قبلها:<br><br>• <code dir=ltr>tell him</code> → «تِلِم»<br>• <code dir=ltr>ask her</code> → «آسكَر»<br>• <code dir=ltr>give him his book</code> → «غِڤِمِز بوك»<br>• <code dir=ltr>Is he coming?</code> → «إزي كامِن؟»<br><br>لكنّها <b>لا تسقط في بداية الجملة</b>: <code dir=ltr>He is here</code> تبقى واضحة."
+        },
+        {
+          "type": "note",
+          "title": "have المختزلة — أخطر فخّ",
+          "html": "في الأزمنة التامّة والشرط الثالث، تُختزل <b>have</b> حتى تكاد تختفي:<br><br>• <code dir=ltr>should have</code> → <b>shoulda</b> «شُدَا»<br>• <code dir=ltr>would have</code> → <b>woulda</b> «وُودَا»<br>• <code dir=ltr>could have</code> → <b>coulda</b> «كُدَا»<br>• <code dir=ltr>must have</code> → <b>musta</b> «مَستَا»<br>• <code dir=ltr>might have</code> → <b>mighta</b> «مايتَا»<br><br>⚠️ ولهذا يكتب بعض الأمريكيّين خطأً <code dir=ltr>should of</code> — لأنّها تُسمع هكذا تماماً! انتبه: الصحيح دائماً <code dir=ltr>should have</code>."
+        },
+        {
+          "type": "pron",
+          "title": "اسمع الاختزال",
+          "hint": "هذه تتكرّر في كلّ فيلم درامي",
+          "rows": [
+            { "w": "Tell him to wait", "s": "Tellim to wait", "ar": "قل له أن ينتظر" },
+            { "w": "Ask her about it", "s": "Asker about it", "ar": "اسألها عنه" },
+            { "w": "Is he ready?", "s": "Izzy ready?", "ar": "هل هو مستعدّ؟" },
+            { "w": "I should have known", "s": "I shoulda known", "ar": "كان عليّ أن أعرف" },
+            { "w": "You could have told me", "s": "You coulda told me", "ar": "كان بوسعك إخباري" },
+            { "w": "He must have left", "s": "He musta left", "ar": "لا بدّ أنّه غادر" },
+            { "w": "I would have helped", "s": "I woulda helped", "ar": "كنت سأساعد" },
+            { "w": "What has he done?", "s": "Whatsy done?", "ar": "ماذا فعل؟" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "dict", "say": "I shoulda called you", "a": ["I should have called you", "i should have called you"], "why": "shoulda = should have — ولا تكتبها should of أبداً." },
+            { "t": "hear", "say": "He musta forgotten", "opts": ["He must have forgotten", "He must of forgotten", "He mastered forgetting"], "a": 0, "why": "musta = must have، وتفيد الاستنتاج شبه المؤكّد." },
+            { "t": "mcq", "q": "لماذا يكتب بعض الأمريكيّين <code dir=ltr>should of</code> خطأً؟", "opts": ["لأنّها لغة قديمة", "لأنّ <code dir=ltr>should have</code> تُنطق «شُدَا» فتشبه of في السمع", "لأنّ of أقصر", "لأنّها صحيحة أيضاً"], "a": 1, "why": "خطأٌ شائع سببه الأذن لا القاعدة. والصحيح دائماً have." },
+            { "t": "dict", "say": "Tellim I asker already", "a": ["Tell him I asked her already", "tell him i asked her already"], "why": "سقطت H من him و her والتصقتا بما قبلهما." },
+            { "t": "mcq", "q": "متى <b>لا</b> تسقط الـ H من <code dir=ltr>he</code>؟", "opts": ["في وسط الجملة", "في بداية الجملة", "بعد الفعل", "قبل الاسم"], "a": 1, "why": "في بداية الجملة تبقى واضحة لأنّها تحمل النبر." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "type": "phon",
+      "title": "إيقاع الجملة والنبر",
+      "subtitle": "لماذا يبتلعون نصف الكلمات",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الإنجليزية لغة إيقاعيّة",
+          "html": "العربية تمنح كلّ مقطعٍ زمناً متقارباً. أمّا الإنجليزية فتُبنى على <b>نبضاتٍ منتظمة</b>: المقاطع المنبورة تقع على إيقاعٍ ثابت، وما بينها <u>يُضغط ليلحق بالإيقاع</u>.<br><br>النتيجة: الكلمات المهمّة واضحة وبطيئة، وما بينها يمرّ كالبرق."
+        },
+        {
+          "type": "note",
+          "title": "ماذا يُنبر وماذا يُبتلع؟",
+          "html": "<b>تُنبر (كلمات المحتوى):</b> الأسماء · الأفعال الأصليّة · الصفات · الظروف · أدوات الاستفهام<br><br><b>تُبتلع (كلمات وظيفيّة):</b> الضمائر · حروف الجرّ · أدوات التعريف · الأفعال المساعدة · أدوات العطف<br><br>مثال — الكلمات الكبيرة هي ما ستسمعه فعلاً:<br><code dir=ltr>The <b>BOY</b> is <b>WAIT</b>ing for the <b>BUS</b> at the <b>STA</b>tion</code><br><br>أربع نبضات فقط، وبينها تسعُ كلماتٍ مضغوطة. ولهذا تسمع الجملة كأنّها أربع كلمات."
+        },
+        {
+          "type": "note",
+          "title": "حيلة عمليّة للاستماع",
+          "html": "توقّف عن محاولة سماع <b>كلّ</b> كلمة — فهذا مستحيل حتى على الأمريكيّ نفسه.<br><br>بدلاً من ذلك: <b>اصطد الكلمات المنبورة</b> وابنِ المعنى منها، ودع دماغك يملأ الوظيفيّة تلقائيّاً. هذا ما يفعله المتحدّث الأصليّ بالضبط."
+        },
+        {
+          "type": "pron",
+          "title": "اسمع النبضات",
+          "hint": "الصورة اليمنى تُظهر ما تسمعه أذنك فعلاً",
+          "rows": [
+            { "w": "The boy is waiting for the bus", "s": "BOY ... WAIT ... BUS", "ar": "الولد ينتظر الحافلة" },
+            { "w": "I would like a cup of coffee", "s": "LIKE ... CUP ... COFFEE", "ar": "أريد فنجان قهوة" },
+            { "w": "She has been working on it", "s": "SHE ... WORK ... ON it", "ar": "إنّها تعمل عليه" },
+            { "w": "What do you want me to do?", "s": "WHAT ... WANT ... DO", "ar": "ماذا تريدني أن أفعل؟" },
+            { "w": "There is a book on the table", "s": "BOOK ... TABLE", "ar": "ثمّة كتاب على الطاولة" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "mcq", "q": "أيّ نوعٍ من الكلمات يُنبر عادةً؟", "opts": ["حروف الجرّ والضمائر", "الأسماء والأفعال الأصليّة والصفات", "أدوات التعريف", "الأفعال المساعدة"], "a": 1, "why": "كلمات المحتوى تحمل المعنى فتُنبر؛ والوظيفيّة تُضغط." },
+            { "t": "mcq", "q": "ما الاستراتيجيّة الصحيحة عند سماع حوارٍ سريع؟", "opts": ["محاولة سماع كلّ كلمة", "اصطياد الكلمات المنبورة وبناء المعنى منها", "الترجمة الفوريّة في ذهنك", "إيقاف المقطع عند كلّ كلمة"], "a": 1, "why": "حتى الأصليّ لا يسمع كلّ كلمة — بل يلتقط المنبور ويملأ الباقي." },
+            { "t": "mcq", "q": "في جملة <code dir=ltr>I gave the book to my friend</code>، ما الكلمات التي ستسمعها أوضح؟", "opts": ["I · to · my", "gave · book · friend", "the · to · my", "I · the · to"], "a": 1, "why": "فعلٌ واسمان — وهي كلمات المحتوى." },
+            { "t": "mcq", "q": "لماذا يبدو المتحدّث الأمريكيّ أسرع من المعلّم في الصفّ؟", "opts": ["لأنّه ينطق أسرع فيزيائيّاً فقط", "لأنّه يضغط الكلمات الوظيفيّة ليحافظ على الإيقاع", "لأنّه يستعمل كلماتٍ أقصر", "لأنّه يحذف جملاً"], "a": 1, "why": "المعلّم ينطق كلّ كلمة بوزنٍ متساوٍ، وهذا غير طبيعيّ." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "type": "phon",
+      "title": "التنغيم",
+      "subtitle": "كيف تميّز السخرية من الجدّ",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الموسيقى تحمل المعنى",
+          "html": "الجملة نفسها تحمل معانيَ متضادّة باختلاف نغمتها. وهذا سببٌ رئيس لعدم فهمك الكوميديا والسخرية في الأفلام رغم فهمك الكلمات.<br><br><code dir=ltr>Great.</code> بنغمةٍ صاعدة = رائع حقّاً 😊<br><code dir=ltr>Great.</code> بنغمةٍ هابطة مسطّحة = يا للسوء 🙄"
+        },
+        {
+          "type": "note",
+          "title": "الأنماط الأساسيّة",
+          "html": "<b>↘ هابطة</b> — الخبر، والسؤال بأداة استفهام:<br><code dir=ltr>I live in Cairo ↘</code> · <code dir=ltr>Where do you live ↘</code><br><br><b>↗ صاعدة</b> — سؤال نعم/لا، والدهشة:<br><code dir=ltr>Are you coming ↗</code> · <code dir=ltr>Really ↗</code><br><br><b>↗↘ صاعدة هابطة</b> — التحفّظ والتردّد:<br><code dir=ltr>Well ↗↘ it is fine I guess</code> ← أي أنّه ليس بخير<br><br><b>قوائم</b> — صعود في كلّ عنصر وهبوط في الأخير:<br><code dir=ltr>tea ↗, coffee ↗, and juice ↘</code>"
+        },
+        {
+          "type": "note",
+          "title": "النبر الذي يغيّر المعنى",
+          "html": "موضع النبر يغيّر مقصد الجملة كاملاً:<br><br>• <b>I</b> didn't say he stole it → غيري قاله<br>• I <b>didn't</b> say he stole it → أنكرُ أنّي قلتُه<br>• I didn't say <b>he</b> stole it → بل شخصٌ آخر<br>• I didn't say he <b>stole</b> it → بل استعاره مثلاً<br><br>سبع كلمات، وسبعة معانٍ — بحسب النبر وحده."
+        },
+        {
+          "type": "pron",
+          "title": "اسمع الفرق",
+          "hint": "النغمة هي الرسالة",
+          "rows": [
+            { "w": "Great!", "s": "Great.", "ar": "رائع! ← ساخرة: يا للسوء" },
+            { "w": "You're coming?", "s": "You're coming.", "ar": "سؤال ← خبر" },
+            { "w": "Sure!", "s": "Sure...", "ar": "بالتأكيد ← متردّد" },
+            { "w": "That's interesting!", "s": "That's interesting.", "ar": "مشوّق! ← لا يعنيني" },
+            { "w": "Thanks a lot!", "s": "Thanks a lot.", "ar": "شكراً جزيلاً ← شكراً على لا شيء" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تدرّب",
+          "qs": [
+            { "t": "mcq", "q": "قال صديقك <code dir=ltr>Great.</code> بنغمةٍ هابطة مسطّحة. ما مقصده الأرجح؟", "opts": ["إعجاب صادق", "سخرية أو استياء", "سؤال", "طلب"], "a": 1, "why": "النغمة المسطّحة الهابطة في كلمة مدحٍ = سخرية." },
+            { "t": "mcq", "q": "أيّ نغمةٍ تصاحب سؤال نعم/لا؟", "opts": ["هابطة ↘", "صاعدة ↗", "مسطّحة", "صاعدة هابطة"], "a": 1, "why": "<code dir=ltr>Are you ready ↗</code> — بينما أسئلة أدوات الاستفهام تهبط." },
+            { "t": "mcq", "q": "في <code dir=ltr>I didn't say <b>he</b> stole it</code> والنبر على he، ما المعنى؟", "opts": ["أنكرُ أنّي قلتُ شيئاً", "أقصد أنّ الفاعل شخصٌ آخر", "أقصد أنّه استعاره", "أقصد أنّ المسروق شيءٌ آخر"], "a": 1, "why": "النبر على he ينفي الفاعل تحديداً لا أصل الحدث." },
+            { "t": "mcq", "q": "<code dir=ltr>Well ↗↘ it is fine, I guess.</code> ماذا يقصد المتحدّث؟", "opts": ["أنّه راضٍ تماماً", "أنّه غير راضٍ لكنّه يجامل", "أنّه يسأل", "أنّه متفاجئ"], "a": 1, "why": "النغمة الصاعدة الهابطة مع I guess = تحفّظ مهذّب." },
+            { "t": "mcq", "q": "لماذا تفهم كلمات النكتة ولا تضحك؟", "opts": ["لأنّ النكتة سيّئة", "لأنّ المعنى في النغمة والنبر لا في الكلمات وحدها", "لأنّ ترجمتك خاطئة", "لأنّ الكلمات نادرة"], "a": 1, "why": "الكوميديا الإنجليزية تعتمد على التنغيم والتوقيت بقدر اعتمادها على الألفاظ." }
+          ]
+        }
+      ]
+    }
+  ]
+}
