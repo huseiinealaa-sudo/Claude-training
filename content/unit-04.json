@@ -1,0 +1,373 @@
+{
+  "id": "unit-04",
+  "icon": "🗓️",
+  "title": "الخطط والمستقبل",
+  "subtitle": "أن تتحدّث عمّا ستفعله بثلاث صيغ مختلفة",
+  "intro": "الإنجليزية لا تملك «زمن مستقبل» واحداً كالعربية، بل ثلاث صيغ يختار بينها المتحدّث حسب <b>درجة اليقين</b> و<b>وقت اتّخاذ القرار</b>. وهذا الاختيار هو ما يفرّق المتعلّم عن المتحدّث الطبيعيّ.",
+  "goals": [
+    "أميّز بين will و going to والمضارع المستمرّ للمستقبل",
+    "أرتّب موعداً وأقترح خطّة وأغيّرها",
+    "أتحدّث عن توقّعاتي ونيّاتي بدقّة",
+    "أستعمل صيغ الاحتمال (might · probably · definitely)"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "ثلاث صيغ للمستقبل",
+      "subtitle": "will · going to · المضارع المستمرّ",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الفرق في سطر واحد",
+          "html": "<table><tr><td dir=ltr><b>will</b></td><td>قرارٌ <u>الآن</u> · توقّع · وعد</td></tr><tr><td dir=ltr><b>going to</b></td><td>نيّةٌ قرّرتها <u>سابقاً</u> · دليلٌ مرئيّ</td></tr><tr><td dir=ltr><b>-ing</b></td><td>ترتيبٌ <u>مؤكّد</u> بموعدٍ وشخص</td></tr></table><br><b>المشهد نفسه بثلاث صيغ:</b><br><code dir=ltr>The phone is ringing. — I'<b>ll</b> get it!</code> (قرارٌ لحظيّ)<br><code dir=ltr>I'<b>m going to</b> call him tonight.</code> (نيّة سابقة)<br><code dir=ltr>I'<b>m meeting</b> him at seven.</code> (موعدٌ مرتّب)"
+        },
+        {
+          "type": "note",
+          "title": "will — متى بالضبط؟",
+          "html": "<b>١. قرارٌ تتّخذه في لحظة الكلام:</b><br><code dir=ltr>It's cold — I'll close the window.</code><br><br><b>٢. توقّعٌ أو رأي (مع think · probably · sure):</b><br><code dir=ltr>I think it'll rain tomorrow.</code><br><br><b>٣. وعدٌ أو عرضٌ أو تهديد:</b><br><code dir=ltr>I'll help you. · I'll never forget this.</code><br><br>⚠️ لا تستعمل will لخطّةٍ قرّرتها من قبل — هذا أشهر خطأ:<br>❌ <code dir=ltr>I will travel to Dubai next week.</code> (إن كانت التذكرة محجوزة)<br>✅ <code dir=ltr>I'm travelling to Dubai next week.</code>"
+        },
+        {
+          "type": "note",
+          "title": "going to — متى بالضبط؟",
+          "html": "<b>١. نيّةٌ سبق أن قرّرتها:</b><br><code dir=ltr>I'm going to learn Spanish this year.</code><br><br><b>٢. توقّعٌ مبنيّ على دليلٍ تراه الآن:</b><br><code dir=ltr>Look at those clouds — it's going to rain.</code><br><br>💡 الفرق عن will هنا دقيق ومفيد:<br><code dir=ltr>I think it <b>will</b> rain.</code> ← رأي<br><code dir=ltr>It's <b>going to</b> rain.</code> ← أرى الغيوم"
+        },
+        {
+          "type": "note",
+          "title": "المضارع المستمرّ للمستقبل",
+          "html": "يُستعمل حين يكون الترتيب <u>مؤكّداً</u>: مكان أو وقت أو شخصٌ آخر متّفقٌ معه.<br><br><code dir=ltr>I'<b>m seeing</b> the dentist on Monday.</code><br><code dir=ltr>We'<b>re flying</b> at six in the morning.</code><br><br>وهذه أكثر صيغة يستعملها الناطقون الأصليّون للمواعيد — والمتعلّمون أقلّ الناس استعمالاً لها. تعلّمها تبدو أقرب إلى الطبيعيّ فوراً.<br><br>⚠️ لا تُستعمل مع أفعال الحالة: ❌ <code dir=ltr>I'm knowing tomorrow</code>."
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "A: We're out of milk. B: Oh, I'<b>ll</b> get some.", "ar": "نفد الحليب — سأشتري بعضه. (قرار لحظيّ)" },
+            { "en": "I'<b>m going to</b> get some milk after work.", "ar": "سأشتري حليباً بعد العمل. (نيّة سابقة)" },
+            { "en": "Careful! You'<b>re going to</b> drop it.", "ar": "انتبه! ستُسقطه. (دليلٌ أمامي)" },
+            { "en": "I'<b>m having</b> dinner with Sara tonight.", "ar": "سأتعشّى مع سارة الليلة. (موعد مرتّب)" },
+            { "en": "I think she'<b>ll</b> like it.", "ar": "أظنّها ستُعجب به. (رأي)" },
+            { "en": "The train <b>leaves</b> at 8:15.", "ar": "يغادر القطار ٨:١٥. (جدولٌ ثابت ← مضارع بسيط)" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "صيغ المستقبل تكاد تختفي في الكلام السريع",
+          "rows": [
+            { "w": "I will call you", "s": "I'll call ya", "ar": "سأتّصل بك — will تصير حرفاً" },
+            { "w": "I am going to try", "s": "I'm gonna try", "ar": "سأحاول" },
+            { "w": "What are you going to do?", "s": "Whatcha gonna do?", "ar": "ماذا ستفعل؟" },
+            { "w": "We are meeting at seven", "s": "We're meetin at seven", "ar": "سنلتقي في السابعة" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>A: The bag looks heavy. B: Don't worry, I ___ carry it.</code>", "opts": ["am going to", "will", "am carrying", "carry"], "a": 1, "why": "عرضٌ لحظيّ ← will." },
+            { "t": "mcq", "q": "<code dir=ltr>Look at the sky! It ___ rain.</code>", "opts": ["will", "is going to", "rains", "is raining"], "a": 1, "why": "دليلٌ مرئيّ أمامك ← going to." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ the doctor tomorrow at four. I booked it last week.</code>", "opts": ["will see", "see", "am seeing", "am going to see"], "a": 2, "why": "موعدٌ مرتّب بوقتٍ محدّد ← مضارع مستمرّ." },
+            { "t": "mcq", "q": "<code dir=ltr>I think our team ___ win.</code>", "opts": ["is winning", "wins", "will", "is going to win"], "a": 2, "why": "مع think يأتي رأيٌ ← will." },
+            { "t": "mcq", "q": "<code dir=ltr>The flight ___ at 10:40.</code>", "opts": ["will depart", "is departing", "departs", "is going to depart"], "a": 2, "why": "جدولٌ رسميّ ثابت ← مضارع بسيط." },
+            { "t": "gap", "q": "<code dir=ltr>I've decided — I ___ (start) a new course next month.</code>", "a": ["am going to start", "'m going to start", "am going to start."], "why": "نيّةٌ قرّرتها ← going to." },
+            { "t": "gap", "q": "<code dir=ltr>Don't worry, I ___ (not / tell) anyone.</code>", "a": ["will not tell", "won't tell", "will not tell."], "why": "وعد ← will." },
+            { "t": "gap", "q": "<code dir=ltr>We ___ (fly) to Rome on Friday. The tickets are booked.</code>", "a": ["are flying", "'re flying", "are flying."], "why": "ترتيب مؤكّد ← مضارع مستمرّ." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I will travel to Dubai next week, I booked the ticket.</code>", "a": ["I am travelling to Dubai next week", "I'm travelling to Dubai next week", "I am traveling to Dubai next week", "I'm flying to Dubai next week"], "why": "ترتيبٌ مؤكّد ← مضارع مستمرّ لا will." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>It will rain, look at the clouds.</code>", "a": ["It is going to rain", "It's going to rain", "It is going to rain."], "why": "دليلٌ مرئيّ ← going to." },
+            { "t": "order", "q": "رتّب:", "ws": ["What", "are", "you", "doing", "tonight"], "a": "What are you doing tonight", "why": "السؤال عن موعدٍ مرتّب." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "am", "going", "to", "look", "for", "a", "job"], "a": "I am going to look for a job", "why": "نيّةٌ مقرّرة." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: الخطط والمواعيد",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "ترتيب المواعيد",
+          "items": [
+            { "w": "set up", "pos": "phrasal verb", "ar": "يرتّب / يُنشئ", "ex": [{ "en": "Let's <b>set up</b> a call for Tuesday.", "ar": "لنرتّب مكالمةً يوم الثلاثاء." }] },
+            { "w": "put back", "pos": "phrasal verb", "ar": "يؤخّر موعداً", "ex": [{ "en": "Can we <b>put</b> the meeting <b>back</b> an hour?", "ar": "أيمكننا تأخير الاجتماع ساعة؟" }] },
+            { "w": "bring forward", "pos": "phrasal verb", "ar": "يقدّم موعداً", "ex": [{ "en": "They <b>brought</b> the deadline <b>forward</b>.", "ar": "قدّموا الموعد النهائيّ." }] },
+            { "w": "call off", "pos": "phrasal verb", "ar": "يُلغي", "ex": [{ "en": "We had to <b>call off</b> the trip.", "ar": "اضطُررنا إلى إلغاء الرحلة." }] },
+            { "w": "fit in", "pos": "phrasal verb", "ar": "يجد متّسعاً في جدوله", "ex": [{ "en": "Can you <b>fit</b> me <b>in</b> on Thursday?", "ar": "أيمكنك أن تجد لي متّسعاً الخميس؟" }] },
+            { "w": "be tied up", "pos": "expression", "ar": "مشغول تماماً", "ex": [{ "en": "I'm <b>tied up</b> until four.", "ar": "أنا مشغول حتى الرابعة." }] },
+            { "w": "come up", "pos": "phrasal verb", "ar": "يطرأ فجأةً", "ex": [{ "en": "Something has <b>come up</b> — can we reschedule?", "ar": "طرأ أمرٌ — أيمكننا تغيير الموعد؟" }] },
+            { "w": "reschedule", "pos": "verb", "ar": "يعيد جدولة", "ex": [{ "en": "Let's <b>reschedule</b> for next week.", "ar": "لنعِد الجدولة للأسبوع المقبل." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "درجات الاحتمال",
+          "items": [
+            { "w": "definitely", "pos": "adverb", "ar": "بالتأكيد قطعاً (~١٠٠٪)", "ex": [{ "en": "I'll <b>definitely</b> be there.", "ar": "سأكون هناك قطعاً." }] },
+            { "w": "probably", "pos": "adverb", "ar": "على الأرجح (~٨٠٪)", "ex": [{ "en": "I'll <b>probably</b> finish by six.", "ar": "سأنتهي على الأرجح بحلول السادسة." }] },
+            { "w": "might / may", "pos": "modal", "ar": "قد / ربّما (~٥٠٪)", "ex": [{ "en": "I <b>might</b> join you later.", "ar": "قد ألحق بكم لاحقاً." }] },
+            { "w": "unlikely", "pos": "adjective", "ar": "مستبعَد (~٢٠٪)", "ex": [{ "en": "It's <b>unlikely</b> to happen.", "ar": "من المستبعَد أن يحدث." }] },
+            { "w": "be bound to", "pos": "expression", "ar": "لا بدّ أن يحدث", "ex": [{ "en": "He's <b>bound to</b> be late.", "ar": "لا بدّ أنّه سيتأخّر." }] },
+            { "w": "odds are", "pos": "expression", "ar": "الأرجح أنّ", "ex": [{ "en": "<b>Odds are</b> they'll say yes.", "ar": "الأرجح أنّهم سيوافقون." }] },
+            { "w": "no chance", "pos": "expression", "ar": "مستحيل", "ex": [{ "en": "<b>No chance</b> we'll finish today.", "ar": "لا فرصة لأن ننتهي اليوم." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "الخطط والأهداف",
+          "items": [
+            { "w": "look forward to", "pos": "phrasal verb", "ar": "يتطلّع إلى", "ex": [{ "en": "I'm <b>looking forward to</b> the weekend.", "ar": "أتطلّع إلى عطلة نهاية الأسبوع." }] },
+            { "w": "plan on", "pos": "phrasal verb", "ar": "ينوي أن", "ex": [{ "en": "I'm <b>planning on</b> staying two nights.", "ar": "أنوي المبيت ليلتين." }] },
+            { "w": "aim to", "pos": "verb", "ar": "يستهدف أن", "ex": [{ "en": "We <b>aim to</b> launch in March.", "ar": "نستهدف الإطلاق في آذار." }] },
+            { "w": "put off", "pos": "phrasal verb", "ar": "يؤجّل", "ex": [{ "en": "Stop <b>putting</b> it <b>off</b>.", "ar": "كفّ عن تأجيله." }] },
+            { "w": "in advance", "pos": "expression", "ar": "مسبقاً", "ex": [{ "en": "Book at least a week <b>in advance</b>.", "ar": "احجز قبل أسبوع على الأقلّ." }] },
+            { "w": "last minute", "pos": "expression", "ar": "في اللحظة الأخيرة", "ex": [{ "en": "It was a <b>last-minute</b> change.", "ar": "كان تغييراً في اللحظة الأخيرة." }] },
+            { "w": "back-up plan", "pos": "noun", "ar": "خطّة بديلة", "ex": [{ "en": "Do we have a <b>back-up plan</b>?", "ar": "أعندنا خطّة بديلة؟" }] },
+            { "w": "play it by ear", "pos": "idiom", "ar": "يترك الأمر حسب ما يجري", "ex": [{ "en": "Let's just <b>play it by ear</b>.", "ar": "لندع الأمر يجري كما يجري." }] },
+            { "w": "in the pipeline", "pos": "idiom", "ar": "قيد الإعداد", "ex": [{ "en": "We have two projects <b>in the pipeline</b>.", "ar": "لدينا مشروعان قيد الإعداد." }] },
+            { "w": "fall behind", "pos": "phrasal verb", "ar": "يتخلّف عن الجدول", "ex": [{ "en": "We're <b>falling behind</b> schedule.", "ar": "نتخلّف عن الجدول." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: ترتيب موعد وتغييره",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>ركّز على <b>gonna</b> و<b>'ll</b> — ستسمعهما كثيراً هنا."
+        },
+        {
+          "type": "dialogue",
+          "title": "Changing Plans",
+          "titleAr": "تغيير الخطط",
+          "lines": [
+            { "sp": "Dana", "en": "Hey, are we still on for Thursday?", "ar": "مرحباً، هل ما زال موعدنا الخميس قائماً؟" },
+            { "sp": "Yusuf", "en": "Ah — actually something has come up.", "ar": "آه — في الحقيقة طرأ أمرٌ ما." },
+            { "sp": "Dana", "en": "No worries. What's going on?", "ar": "لا بأس. ما الأمر؟" },
+            { "sp": "Yusuf", "en": "My sister's flying in on Wednesday night, so I'm picking her up.", "ar": "أختي قادمة جوّاً مساء الأربعاء، فسأستقبلها." },
+            { "sp": "Dana", "en": "That's fine. Shall we put it back to Friday?", "ar": "لا مشكلة. هل نؤخّره إلى الجمعة؟" },
+            { "sp": "Yusuf", "en": "Friday works. Although I'm tied up until about five.", "ar": "الجمعة مناسبة. مع أنّي مشغول حتى الخامسة تقريباً." },
+            { "sp": "Dana", "en": "Six then? I'll book the table.", "ar": "السادسة إذن؟ سأحجز الطاولة." },
+            { "sp": "Yusuf", "en": "Perfect. Are you going to invite Omar as well?", "ar": "ممتاز. هل ستدعين عمر أيضاً؟" },
+            { "sp": "Dana", "en": "I might. He said he'd probably be free.", "ar": "قد أفعل. قال إنّه سيكون متفرّغاً على الأرجح." },
+            { "sp": "Yusuf", "en": "Tell him it's my treat. I owe him one.", "ar": "قولي له إنّها على حسابي. فأنا مدين له." },
+            { "sp": "Dana", "en": "He'll definitely come now.", "ar": "سيأتي قطعاً الآن." },
+            { "sp": "Yusuf", "en": "Ha. And if it rains we'll just play it by ear.", "ar": "ها. وإن أمطرت فسندع الأمر يجري كما يجري." },
+            { "sp": "Dana", "en": "Deal. I'll message you Friday morning.", "ar": "اتّفقنا. سأراسلك صباح الجمعة." },
+            { "sp": "Yusuf", "en": "Great. Looking forward to it.", "ar": "رائع. أتطلّع إليه." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "لماذا لا يناسب يوسف يوم الخميس؟", "opts": ["لأنّه مسافر", "لأنّه سيستقبل أخته", "لأنّه مريض", "لأنّه يعمل"], "a": 1, "why": "<code dir=ltr>I'm picking her up</code> — ترتيبٌ مؤكّد." },
+            { "t": "mcq", "q": "في أيّ ساعة استقرّا؟", "opts": ["الخامسة", "السادسة", "السابعة", "لم يحدّدا"], "a": 1, "why": "<code dir=ltr>Six then?</code>" },
+            { "t": "mcq", "q": "ما موقف دانا من دعوة عمر؟", "opts": ["قرّرت دعوته قطعاً", "رفضت", "قد تدعوه (احتمال)", "ستسأل يوسف"], "a": 2, "why": "<code dir=ltr>I might</code> ← احتمال نحو ٥٠٪." },
+            { "t": "mcq", "q": "لماذا سيأتي عمر «قطعاً» في رأي دانا؟", "opts": ["لأنّه متفرّغ", "لأنّ العشاء على حساب يوسف", "لأنّه يحبّ المطعم", "لأنّه قريبها"], "a": 1, "why": "<code dir=ltr>it's my treat</code> فردّت <code dir=ltr>He'll definitely come now</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>play it by ear</code> هنا تعني…", "opts": ["يسمعان موسيقى", "يقرّران حسب ما يجري", "يلغيان", "يؤجّلان أسبوعاً"], "a": 1, "why": "تعبيرٌ يعني ترك القرار للظرف." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "Are ya gonna invite Omar as well?", "a": ["Are you going to invite Omar as well?", "are you going to invite omar as well"], "why": "<code dir=ltr>are you</code> → «أريَ» · <code dir=ltr>going to</code> → gonna." },
+            { "t": "dict", "say": "I'll book the table", "a": ["I'll book the table", "I will book the table", "ill book the table"], "why": "will تختزل إلى حرفٍ واحد ملتصق." },
+            { "t": "dict", "say": "Somethin has come up", "a": ["Something has come up", "something has come up"], "why": "سقطت g من something." },
+            { "t": "dict", "say": "I'm tied up til about five", "a": ["I'm tied up until about five", "I am tied up until about five", "im tied up until about five"], "why": "until → «تِل» في الكلام السريع." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: لماذا تفشل خططنا",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Why Our Plans Fail",
+          "titleAr": "لماذا تفشل خططنا",
+          "en": "Ask anyone how long a task will take and they will almost certainly underestimate it. Psychologists call this the planning fallacy, and it is remarkably stubborn: it survives experience, expertise and even the knowledge that it exists. Students who have missed every deadline for three years will still promise, sincerely, that this essay is <b>definitely</b> going to be finished by Sunday.<br><br>The cause is not laziness. When we plan, we imagine the ideal version of the task — the one where nothing goes wrong, nobody interrupts, and we are working at our best. We forget that last time the printer broke, a friend called, and we spent two hours on a paragraph. In other words, we plan for the exception and live in the rule.<br><br>There is a simple correction, and research suggests it works better than any amount of willpower. Instead of asking how long this task <i>should</i> take, look at how long similar tasks have <i>actually</i> taken you before. Then add a margin. Professional project managers do exactly this, and they still add forty per cent. If you are not <b>falling behind</b> occasionally, your plan was probably too easy — but if you are always behind, the problem is your estimate, not your effort.",
+          "ar": "اسأل أيّاً كان كم سيستغرق عملٌ ما، تجده يقلّل التقدير يقيناً تقريباً. ويسمّي علماء النفس هذا «مغالطة التخطيط»، وهي عنيدةٌ إلى حدٍّ لافت: تصمد أمام الخبرة والاختصاص، بل أمام معرفتك بوجودها. فالطالب الذي فوّت كلّ موعدٍ نهائيّ ثلاث سنوات سيَعِد بصدقٍ أنّ هذا المقال سيُنجَز قطعاً بحلول الأحد.<br><br>والسبب ليس الكسل. فنحن حين نخطّط نتخيّل النسخة المثاليّة من المهمّة — تلك التي لا يعتريها خلل، ولا يقاطعنا فيها أحد، ونعمل فيها بأفضل حالاتنا. وننسى أنّ الطابعة تعطّلت المرّة الماضية، وأنّ صديقاً اتّصل، وأنّنا أنفقنا ساعتين على فقرةٍ واحدة. أي أنّنا نخطّط للاستثناء ونعيش في القاعدة.<br><br>وثمّة تصحيحٌ بسيط، وتشير البحوث إلى أنّه أنجع من أيّ قدرٍ من قوّة الإرادة: بدل أن تسأل كم <i>ينبغي</i> أن تستغرق هذه المهمّة، انظر كم استغرقت منك مهامُّ مشابهة <i>فعلاً</i> من قبل، ثمّ أضف هامشاً. وهذا بالضبط ما يفعله مديرو المشاريع المحترفون، ومع ذلك يضيفون أربعين في المئة. فإن لم تكن تتخلّف عن الجدول أحياناً فخطّتك على الأرجح كانت سهلةً أكثر من اللازم — أمّا إن كنتَ متخلّفاً دائماً فالمشكلة في تقديرك لا في جهدك.",
+          "keys": [["underestimate", "يقلّل التقدير"], ["stubborn", "عنيد"], ["falling behind", "يتخلّف عن الجدول"], ["margin", "هامش"], ["estimate", "تقدير"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما «مغالطة التخطيط»؟", "opts": ["نسيان الخطّة", "تقليل تقدير الوقت اللازم", "التخطيط أكثر من اللازم", "رفض التخطيط"], "a": 1, "why": "<code dir=ltr>they will almost certainly underestimate it</code>." },
+            { "t": "mcq", "q": "ما السبب الحقيقيّ حسب النصّ؟", "opts": ["الكسل", "تخيّل النسخة المثاليّة من المهمّة", "قلّة الخبرة", "سوء الأدوات"], "a": 1, "why": "<code dir=ltr>we imagine the ideal version of the task</code>." },
+            { "t": "mcq", "q": "ما التصحيح المقترح؟", "opts": ["زيادة الإرادة", "النظر إلى الوقت الفعليّ لمهامّ مشابهة سابقة + هامش", "تقصير المهامّ", "طلب المساعدة"], "a": 1, "why": "<code dir=ltr>look at how long similar tasks have actually taken you</code>." },
+            { "t": "mcq", "q": "كم يضيف مديرو المشاريع المحترفون؟", "opts": ["١٠٪", "٢٠٪", "٤٠٪", "١٠٠٪"], "a": 2, "why": "<code dir=ltr>they still add forty per cent</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>stubborn</code> في النصّ تصف المغالطة بأنّها…", "opts": ["نادرة", "عنيدة لا تزول بالخبرة", "مفيدة", "قديمة"], "a": 1, "why": "<code dir=ltr>it survives experience, expertise…</code>" },
+            { "t": "mcq", "q": "«نخطّط للاستثناء ونعيش في القاعدة» تعني…", "opts": ["أنّ القواعد صارمة", "أنّنا نخطّط لليوم المثاليّ بينما الواقع فيه عوائق", "أنّ الاستثناءات نادرة", "أنّ التخطيط عديم الجدوى"], "a": 1, "why": "خلاصة الفقرة الثانية." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات التخطيط كما تُنطق",
+          "rows": [
+            { "w": "How long is it going to take?", "s": "How long's it gonna take?", "ar": "كم سيستغرق؟" },
+            { "w": "I will probably be late", "s": "I'll prob'ly be late", "ar": "سأتأخّر على الأرجح" },
+            { "w": "We are running out of time", "s": "We're runnin oudda time", "ar": "الوقت ينفد منّا" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "ترتيب المواعيد واقتراح الخطط",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "قوالب الموعد",
+          "html": "<b>لتقترح:</b><br>• <code dir=ltr>How about Thursday at six?</code><br>• <code dir=ltr>Does Friday work for you?</code><br>• <code dir=ltr>Shall we say around seven?</code><br><br><b>لتوافق:</b><br>• <code dir=ltr>Friday works. · That suits me. · Sounds good.</code><br><br><b>لتعتذر أو تغيّر:</b><br>• <code dir=ltr>Sorry, I'm tied up then. Could we push it back?</code><br>• <code dir=ltr>Something has come up — can we reschedule?</code><br>• <code dir=ltr>I'm afraid I can't make it after all.</code>"
+        },
+        {
+          "type": "note",
+          "title": "سلّم الاحتمال — استعمله بدقّة",
+          "html": "<table><tr><td dir=ltr><b>definitely</b></td><td>~١٠٠٪ — سأكون هناك قطعاً</td></tr><tr><td dir=ltr><b>almost certainly</b></td><td>~٩٥٪</td></tr><tr><td dir=ltr><b>probably</b></td><td>~٨٠٪</td></tr><tr><td dir=ltr><b>might / may / could</b></td><td>~٥٠٪</td></tr><tr><td dir=ltr><b>probably won't</b></td><td>~٢٠٪</td></tr><tr><td dir=ltr><b>definitely won't</b></td><td>~٠٪</td></tr></table><br>⚠️ موضع <code dir=ltr>probably</code> يتغيّر:<br>✅ <code dir=ltr>I'll <b>probably</b> go.</code> (مثبت — بعد will)<br>✅ <code dir=ltr>I <b>probably</b> won't go.</code> (منفيّ — قبل won't)"
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>I will go to the dentist tomorrow.</code> (والموعد محجوز) ✅ <code dir=ltr>I'm going to the dentist tomorrow.</code><br>❌ <code dir=ltr>What you will do tomorrow?</code> ✅ <code dir=ltr>What are you doing tomorrow?</code><br>❌ <code dir=ltr>I will can help you.</code> ✅ <code dir=ltr>I'll be able to help you.</code><br>❌ <code dir=ltr>Maybe I will come, maybe not.</code> (ركيكة) ✅ <code dir=ltr>I might come.</code>"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: اختزال will و going to",
+          "hint": "هذه أكثر ما يُضيع المستقبل على أذنك",
+          "rows": [
+            { "w": "I will", "s": "I'll → «آيل»", "ar": "حرفٌ واحد لا كلمة" },
+            { "w": "He will not", "s": "He won't → «وونت»", "ar": "النفي يبقى واضحاً منبوراً" },
+            { "w": "going to + فعل", "s": "gonna", "ar": "فقط قبل فعل لا قبل مكان" },
+            { "w": "What will you do?", "s": "Whatcha do? / What'll ya do?", "ar": "تلتصق كلّها" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "قوالب الموعد في الكلام السريع",
+          "rows": [
+            { "w": "Does Friday work for you?", "s": "Duz Friday work fer ya?", "ar": "هل تناسبك الجمعة؟" },
+            { "w": "I am afraid I cannot make it", "s": "I'm afraid I can't make it", "ar": "أخشى أنّي لن أستطيع الحضور" },
+            { "w": "Let me get back to you", "s": "Lemme ged back to ya", "ar": "دعني أعود إليك" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "أيّ جملةٍ تعني احتمالاً نحو ٥٠٪؟", "opts": ["I'll definitely come.", "I might come.", "I probably won't come.", "I'm coming."], "a": 1, "why": "might ≈ ٥٠٪." },
+            { "t": "mcq", "q": "أين يقع <code dir=ltr>probably</code> في النفي؟", "opts": ["won't probably go", "probably won't go", "won't go probably", "probably go won't"], "a": 1, "why": "قبل won't في النفي، وبعد will في المثبت." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I will can help you tomorrow.</code>", "a": ["I'll be able to help you tomorrow", "I will be able to help you tomorrow", "I'll be able to help you tomorrow."], "why": "لا يجتمع فعلان ناقصان — نستعمل be able to." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>What you will do this weekend?</code>", "a": ["What are you doing this weekend?", "What will you do this weekend?", "What are you going to do this weekend?"], "why": "ترتيب السؤال، والأطبع هو المضارع المستمرّ." },
+            { "t": "mcq", "q": "متى <b>لا</b> يصحّ <code dir=ltr>gonna</code>؟", "opts": ["I'm gonna study", "I'm gonna call him", "I'm gonna the office", "I'm gonna try"], "a": 2, "why": "بعدها مكان لا فعل ← going to كاملة." },
+            { "t": "order", "q": "رتّب:", "ws": ["Does", "Friday", "work", "for", "you"], "a": "Does Friday work for you", "why": "قالب اقتراح موعد." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: رسالة تغيير موعد",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "اتّفقتَ مع زميل على اجتماعٍ يوم الأربعاء، لكنّ ظرفاً طرأ. اكتب بريداً في <b>٧٠–٩٠ كلمة</b> يتضمّن:<br><br>• اعتذاراً مهذّباً وسبباً موجزاً<br>• اقتراح موعدَين بديلين<br>• جملةً بالمضارع المستمرّ لترتيبٍ مؤكّد<br>• جملةً باحتمالٍ (<code dir=ltr>might</code> أو <code dir=ltr>probably</code>)<br>• خاتمةً ودّية",
+          "phrases": [
+            "I'm afraid something has come up …",
+            "Would it be possible to push our meeting back to …?",
+            "I'm free on … or …, whichever suits you.",
+            "I'm travelling on Thursday, so …",
+            "I might also be able to …",
+            "Sorry for the short notice.",
+            "Looking forward to catching up."
+          ],
+          "model": "Hi Rami,\n\nI'm afraid something has come up and I won't be able to make our meeting on Wednesday. My sister is arriving from Amman that evening, so I'm picking her up from the airport.\n\nWould it be possible to push it back? I'm free on Thursday afternoon or Friday morning, whichever suits you better. I might also be able to do Wednesday very early if that's easier.\n\nSorry for the short notice. Looking forward to catching up.\n\nBest,\nOmar",
+          "modelAr": "مرحباً رامي،\n\nأخشى أنّ أمراً قد طرأ ولن أستطيع حضور اجتماعنا يوم الأربعاء، فأختي قادمة من عمّان ذلك المساء وسأستقبلها من المطار.\n\nهل يمكن تأخيره؟ أنا متفرّغ عصر الخميس أو صباح الجمعة، أيّهما أنسب لك. وقد أستطيع أيضاً يوم الأربعاء باكراً جدّاً إن كان ذلك أيسر.\n\nمعذرةً على الإخطار المتأخّر. أتطلّع إلى لقائك.\n\nمع التحيّة،\nعمر",
+          "checklist": [
+            "استعملتُ المضارع المستمرّ للترتيب المؤكّد (My sister is arriving…)",
+            "استعملتُ صيغة احتمالٍ واحدة على الأقلّ (might / probably)",
+            "لم أستعمل will لخطّةٍ مرتّبة سلفاً",
+            "اقترحتُ بديلين لا بديلاً واحداً",
+            "اعتذرتُ دون إفراطٍ في التبرير",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "عدد الكلمات بين ٧٠ و٩٠",
+            "قرأتُ ما كتبتُ بصوتٍ مسموع مرّةً"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات البريد كما تُنطق شفويّاً",
+          "rows": [
+            { "w": "I will not be able to make it", "s": "I won't be able ta make it", "ar": "لن أستطيع الحضور" },
+            { "w": "Whichever suits you", "s": "Whichever suits ya", "ar": "أيّهما يناسبك" },
+            { "w": "Sorry for the short notice", "s": "Sorry fer the short notice", "ar": "معذرةً على الإخطار المتأخّر" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة الرابعة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>A: I'm thirsty. B: I ___ get you some water.</code>", "opts": ["am going to", "will", "am getting", "get"], "a": 1, "why": "عرضٌ لحظيّ ← will." },
+            { "t": "mcq", "q": "<code dir=ltr>She ___ her exam next Tuesday. It's already scheduled.</code>", "opts": ["will take", "takes", "is taking", "will be take"], "a": 2, "why": "ترتيب مؤكّد ← مضارع مستمرّ." },
+            { "t": "mcq", "q": "<code dir=ltr>Watch out! You ___ fall.</code>", "opts": ["will", "are going to", "fall", "are falling"], "a": 1, "why": "دليلٌ مرئيّ أمامك ← going to." },
+            { "t": "mcq", "q": "<code dir=ltr>The bus ___ at 7:30 every morning.</code>", "opts": ["will leave", "is leaving", "leaves", "is going to leave"], "a": 2, "why": "جدولٌ ثابت ← مضارع بسيط." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ come, but I'm not sure yet.</code>", "opts": ["will definitely", "might", "am coming", "won't"], "a": 1, "why": "عدم يقين ← might." },
+            { "t": "mcq", "q": "<code dir=ltr>be tied up</code> تعني…", "opts": ["مربوط بحبل", "مشغول تماماً", "متعب", "متأخّر"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>call off</code> تعني…", "opts": ["يتّصل", "يُلغي", "يستدعي", "يصرخ"], "a": 1, "why": "إلغاء موعدٍ أو حدث." },
+            { "t": "mcq", "q": "<code dir=ltr>in the pipeline</code> تعني…", "opts": ["في الأنبوب", "قيد الإعداد", "ملغى", "مؤجّل"], "a": 1, "why": "مشروعٌ قادم قيد التحضير." },
+            { "t": "gap", "q": "<code dir=ltr>I've decided. I ___ (buy) a new phone.</code>", "a": ["am going to buy", "'m going to buy", "am going to buy."], "why": "نيّةٌ قرّرتها ← going to." },
+            { "t": "gap", "q": "<code dir=ltr>Don't worry, I ___ (not / forget).</code>", "a": ["will not forget", "won't forget", "will not forget."], "why": "وعد ← will." },
+            { "t": "gap", "q": "<code dir=ltr>We ___ (have) dinner with them on Saturday.</code>", "a": ["are having", "'re having", "are having."], "why": "ترتيبٌ مؤكّد ← مضارع مستمرّ." },
+            { "t": "gap", "q": "<code dir=ltr>It's cloudy — I think it ___ (rain) later.</code>", "a": ["will rain", "'ll rain", "will rain."], "why": "مع think ← رأي ← will." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I will meet him tomorrow, we agreed last week.</code>", "a": ["I am meeting him tomorrow", "I'm meeting him tomorrow", "I am meeting him tomorrow."], "why": "اتّفاقٌ سابق ← مضارع مستمرّ." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I will can finish it tonight.</code>", "a": ["I'll be able to finish it tonight", "I will be able to finish it tonight"], "why": "لا يجتمع ناقصان." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I'm gonna the market.</code>", "a": ["I'm going to the market", "I am going to the market", "I'm going to the market."], "why": "gonna لا تصلح قبل مكان." },
+            { "t": "order", "q": "رتّب:", "ws": ["What", "are", "you", "doing", "this", "weekend"], "a": "What are you doing this weekend", "why": "السؤال عن ترتيبٍ مؤكّد." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "probably", "won't", "be", "there"], "a": "I probably won't be there", "why": "probably قبل won't في النفي." },
+            { "t": "dict", "say": "Whatcha gonna do about it?", "a": ["What are you going to do about it?", "what are you going to do about it"], "why": "whatcha = what are you · gonna = going to." },
+            { "t": "dict", "say": "I'll prob'ly be a bit lade", "a": ["I'll probably be a bit late", "I will probably be a bit late", "ill probably be a bit late"], "why": "probably تُختزل، وlate بـ d مرتدّة." },
+            { "t": "mcq", "q": "أيّ عبارةٍ تدلّ على أعلى يقين؟", "opts": ["I might go", "I'll probably go", "I'll definitely go", "I may go"], "a": 2, "why": "definitely ≈ ١٠٠٪." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "مشاهد ترتيب المواعيد في المسلسلات", "d": "أيّ مشهد يرتّب فيه شخصان لقاءً — Friends أو The Office مليئان بها", "task": "سجّل خمس جملٍ مستقبليّة، وحدّد أيّ صيغةٍ استُعملت ولماذا." },
+            { "t": "نشرة الطقس بالإنجليزية", "d": "ابحث عن «BBC weather forecast» — مليئة بـ will و going to", "task": "استمع دقيقتين، وأحصِ كم مرّةً سمعت will وكم مرّةً going to." },
+            { "t": "بودكاست تخطيط وإنتاجيّة", "d": "ابحث عن «productivity podcast weekly planning»", "task": "استمع عشر دقائق، وسجّل ثلاث عبارات تخطيطٍ جديدة." }
+          ]
+        }
+      ]
+    }
+  ]
+}
