@@ -124,8 +124,13 @@ b{font-weight:800}
   padding:14px 16px;cursor:pointer;color:var(--text);font-family:var(--ar);transition:.2s;
 }
 .unit:active{transform:scale(.985)}
-.unit:hover:not(.soon){border-color:var(--stroke-2);background:var(--surface-2)}
+.unit:hover:not(.soon):not(.locked){border-color:var(--stroke-2);background:var(--surface-2)}
 .unit.soon{opacity:.42;cursor:not-allowed}
+.unit.locked{opacity:.45;cursor:not-allowed;border-style:dashed}
+.unit.locked .ico{background:rgba(0,0,0,.18)}
+/* الوحدة التالية مباشرةً: أوضح من بقيّة المقفلة، وتحمل سبب القفل */
+.unit.locked.next{opacity:.82;border-color:rgba(251,191,36,.45)}
+.unit.locked.next .m span{color:var(--amber);white-space:normal}
 .unit.pin{border-color:rgba(34,211,238,.38);background:rgba(34,211,238,.07)}
 .unit.done{border-color:rgba(52,211,153,.42)}
 .unit .ico{flex:none;width:46px;height:46px;border-radius:13px;display:grid;place-items:center;
