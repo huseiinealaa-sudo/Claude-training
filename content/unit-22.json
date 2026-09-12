@@ -1,0 +1,1379 @@
+{
+ "id": "unit-22",
+ "icon": "🤖",
+ "title": "الذكاء الاصطناعيّ والمستقبل",
+ "subtitle": "Hedging and academic caution",
+ "intro": "Educated English almost never says something is true. It says it appears to be, tends to be, or is likely to be. This is hedging — and it is the register of every research paper, news analysis and serious discussion you will ever read.<span class=n-ar>الإنجليزيّة المثقّفة لا تكاد تقول إنّ شيئاً صحيح، بل تقول إنّه يبدو كذلك أو يميل إلى ذلك أو يُرجَّح. هذا هو التحوّط، وهو لغة كلّ بحثٍ وتحليلٍ جادّ ستقرؤه.</span>",
+ "goals": [
+  "I can qualify a claim precisely instead of overstating it",
+  "I can discuss technology, risk and the future",
+  "I can read academic and analytical English accurately",
+  "I can tell a strong claim from a hedged one when listening"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "Hedging and degrees of certainty",
+   "subtitle": "the grammar of saying exactly how sure you are",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "The four hedging tools",
+     "html": "<b>1. Modal verbs</b> — <code dir=ltr>may, might, could, would, can</code><br><code dir=ltr>This <b>may</b> explain the gap.</code><br><br><b>2. Hedging verbs</b> — <code dir=ltr>suggest, indicate, appear, seem, tend to</code><br><code dir=ltr>The data <b>suggest</b> a link.</code> (never <code dir=ltr>prove</code>)<br><br><b>3. Adverbs</b> — <code dir=ltr>possibly, arguably, largely, broadly, relatively, apparently</code><br><code dir=ltr>The effect is <b>largely</b> confined to one group.</code><br><br><b>4. Quantifiers</b> — <code dir=ltr>some, many, a number of, in most cases</code><br><code dir=ltr><b>In most cases</b>, the model fails quietly.</code><br><br>Strong writers use two at once: <code dir=ltr>This <b>may</b> in part explain …</code><span class=n-ar>أربع أدوات: أفعالٌ ناقصة، وأفعال تحوّط، وظروف، ومحدّدات كمّيّة. والكُتّاب الأقوياء يجمعون اثنتين معاً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The words that destroy your credibility",
+     "html": "Avoid absolutes unless you can defend them:<br><br>❌ <code dir=ltr>always, never, all, every, completely, proves, obviously, everyone knows</code><br><br>✅ <code dir=ltr>typically, rarely, most, in nearly all cases, largely, indicates, it appears</code><br><br><code dir=ltr>AI will replace all jobs</code> — a reader stops here<br><code dir=ltr>AI is likely to displace a substantial share of routine tasks</code> — a reader continues<br><br>One overstatement costs you the whole paragraph. This is the single fastest way to sound more educated in English.<span class=n-ar>مبالغةٌ واحدة تُفقدك الفقرة كلّها. تجنّب المطلقات، وهذه أسرع طريقةٍ لتبدو أكثر ثقافةً بالإنجليزية.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Attributing, not asserting",
+     "html": "Put the claim in someone else's mouth:<br><br><code dir=ltr><b>It has been argued that</b> …</code><br><code dir=ltr><b>According to several studies</b>, …</code><br><code dir=ltr><b>Critics have suggested</b> that …</code><br><code dir=ltr><b>There is some evidence that</b> …</code><br><code dir=ltr><b>The prevailing view is that</b> …</code><br><br>And to distance yourself further:<br><code dir=ltr><b>so-called</b> intelligence</code> · <code dir=ltr>what is often described as reasoning</code><br><br>⚠️ Overuse and you say nothing at all. Hedge the claim; don't hedge the sentence into vapour.<span class=n-ar>انسب الدعوى لغيرك بدل تأكيدها. لكن لا تُفرط، فالتحوّط الزائد يبخّر المعنى كلّه.</span>"
+    },
+    {
+     "type": "note",
+     "title": "it-structures: the impersonal voice",
+     "html": "Academic English removes the writer:<br><br><code dir=ltr><b>It is widely accepted that</b> …</code><br><code dir=ltr><b>It remains unclear whether</b> …</code><br><code dir=ltr><b>It would appear that</b> …</code><br><code dir=ltr><b>It is worth noting that</b> …</code><br><code dir=ltr><b>It is difficult to say with confidence</b> …</code><br><br>Compare: <code dir=ltr>I think the model is unreliable</code> → <code dir=ltr>It is not yet clear that the model is reliable.</code><br><br>Same idea, entirely different authority.<span class=n-ar>تحذف الإنجليزيّة الأكاديميّة الكاتب. الفكرة نفسها وسلطةٌ مختلفة تماماً.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "The results <b>suggest</b> that scale alone <b>may not</b> be sufficient.",
+       "ar": "توحي النتائج بأنّ الحجم وحده قد لا يكفي."
+      },
+      {
+       "en": "<b>It remains unclear whether</b> the effect persists beyond a year.",
+       "ar": "يبقى من غير الواضح إن كان الأثر يستمرّ أكثر من عام."
+      },
+      {
+       "en": "<b>Arguably</b>, the bigger risk is concentration, not capability.",
+       "ar": "يمكن القول إنّ الخطر الأكبر هو التركّز لا القدرة."
+      },
+      {
+       "en": "These systems <b>tend to</b> fail in ways that are hard to notice.",
+       "ar": "تميل هذه الأنظمة إلى الإخفاق بطرقٍ يصعب ملاحظتها."
+      },
+      {
+       "en": "<b>There is some evidence that</b> users over-trust confident answers.",
+       "ar": "ثمّة بعض الأدلّة على أنّ المستخدمين يفرطون في الثقة بالأجوبة الواثقة."
+      },
+      {
+       "en": "<b>It would appear that</b> the gains are <b>largely</b> concentrated in one sector.",
+       "ar": "يبدو أنّ المكاسب متركّزة إلى حدٍّ كبير في قطاعٍ واحد."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "hedges are unstressed — they slip past if you are not listening",
+     "rows": [
+      {
+       "w": "It would appear that",
+       "s": "It wud appear thad",
+       "ar": "يبدو أنّ"
+      },
+      {
+       "w": "tends to be",
+       "s": "tenz ta be",
+       "ar": "يميل إلى أن يكون"
+      },
+      {
+       "w": "to some extent",
+       "s": "ta sum ik-stent",
+       "ar": "إلى حدٍّ ما"
+      },
+      {
+       "w": "more or less",
+       "s": "more-er-less",
+       "ar": "تقريباً"
+      },
+      {
+       "w": "as far as we know",
+       "s": "az far az we know",
+       "ar": "على حدّ علمنا"
+      },
+      {
+       "w": "I'd be careful about saying that",
+       "s": "I'd be kair-ful abowt sayin that",
+       "ar": "سأتحفّظ على قول ذلك"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Which is the most appropriate in a research summary?",
+       "opts": [
+        "The data prove the model is safe",
+        "The data suggest the model may be safer in this setting",
+        "Everyone knows the model is safe",
+        "The model is completely safe"
+       ],
+       "a": 1,
+       "why": "فعل تحوّط + مودال + تقييدٌ سياقيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It remains unclear whether …</code> signals",
+       "opts": [
+        "certainty",
+        "an open question",
+        "disagreement",
+        "a conclusion"
+       ],
+       "a": 1,
+       "why": "مسألةٌ لم تُحسم."
+      },
+      {
+       "t": "mcq",
+       "q": "Which word weakens your credibility most in analytical writing?",
+       "opts": [
+        "typically",
+        "largely",
+        "obviously",
+        "arguably"
+       ],
+       "a": 2,
+       "why": "obviously تفترض التسليم وتستفزّ القارئ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>so-called reasoning</code> implies the writer",
+       "opts": [
+        "accepts the term",
+        "questions the term",
+        "invented the term",
+        "is quoting a law"
+       ],
+       "a": 1,
+       "why": "so-called تضع المصطلح موضع شكّ."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>These systems ___ to fail silently.</code>",
+       "a": [
+        "tend"
+       ],
+       "why": "tend to ← يميل إلى."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>This study proves that AI will replace all jobs.</code>",
+       "a": [
+        "This study suggests that AI may replace some jobs",
+        "This study indicates that AI is likely to replace some jobs",
+        "This study suggests that AI could replace many jobs"
+       ],
+       "why": "استبدال prove وall بتحوّطٍ مناسب."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "is",
+        "worth",
+        "noting",
+        "that",
+        "the",
+        "sample",
+        "was",
+        "small"
+       ],
+       "a": "It is worth noting that the sample was small",
+       "why": "بنيةٌ لاشخصيّة للفت الانتباه."
+      },
+      {
+       "t": "dict",
+       "say": "It wud appear thad the gaynz are limidid",
+       "a": [
+        "It would appear that the gains are limited"
+       ],
+       "why": "would appear that + limited ← flap T."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: technology, AI and risk",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Systems and capability",
+     "items": [
+      {
+       "w": "algorithm",
+       "pos": "noun",
+       "ar": "خوارزميّة",
+       "ex": [
+        {
+         "en": "The <b>algorithm</b> was never audited.",
+         "ar": "لم تُدقَّق الخوارزميّة قطّ."
+        }
+       ]
+      },
+      {
+       "w": "automate",
+       "pos": "verb",
+       "ar": "يُؤتمت",
+       "ex": [
+        {
+         "en": "They <b>automated</b> the routine checks first.",
+         "ar": "أتمتوا الفحوص الروتينيّة أوّلاً."
+        }
+       ]
+      },
+      {
+       "w": "scale",
+       "pos": "verb/noun",
+       "ar": "يتوسّع / حجم",
+       "ex": [
+        {
+         "en": "What works in a lab rarely <b>scales</b> cleanly.",
+         "ar": "ما ينجح في المختبر نادراً ما يتوسّع بسلاسة."
+        }
+       ]
+      },
+      {
+       "w": "infer",
+       "pos": "verb",
+       "ar": "يستنتج",
+       "ex": [
+        {
+         "en": "The system <b>infers</b> intent from very little.",
+         "ar": "يستنتج النظام النيّة من القليل جدّاً."
+        }
+       ]
+      },
+      {
+       "w": "training data",
+       "pos": "noun",
+       "ar": "بيانات التدريب",
+       "ex": [
+        {
+         "en": "The <b>training data</b> reflected one decade only.",
+         "ar": "عكست بيانات التدريب عقداً واحداً فقط."
+        }
+       ]
+      },
+      {
+       "w": "benchmark",
+       "pos": "noun/verb",
+       "ar": "معيار قياس",
+       "ex": [
+        {
+         "en": "A <b>benchmark</b> measures what it measures, no more.",
+         "ar": "المعيار يقيس ما يقيسه لا أكثر."
+        }
+       ]
+      },
+      {
+       "w": "robust",
+       "pos": "adj",
+       "ar": "متين / صامد",
+       "ex": [
+        {
+         "en": "The finding is <b>robust</b> across three datasets.",
+         "ar": "النتيجة صامدة عبر ثلاث مجموعاتٍ بيانيّة."
+        }
+       ]
+      },
+      {
+       "w": "deploy",
+       "pos": "verb",
+       "ar": "ينشر في الاستعمال",
+       "ex": [
+        {
+         "en": "They <b>deployed</b> it before the review finished.",
+         "ar": "نشروه قبل أن تنتهي المراجعة."
+        }
+       ]
+      },
+      {
+       "w": "state of the art",
+       "pos": "phrase",
+       "ar": "أحدث ما توصّل إليه المجال",
+       "ex": [
+        {
+         "en": "<b>State of the art</b> lasts about four months now.",
+         "ar": "«أحدث ما توصّل إليه المجال» يدوم أربعة أشهرٍ الآن."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Risk and limitation",
+     "items": [
+      {
+       "w": "bias",
+       "pos": "noun",
+       "ar": "تحيّز",
+       "ex": [
+        {
+         "en": "<b>Bias</b> in the data becomes bias in the output.",
+         "ar": "التحيّز في البيانات يصير تحيّزاً في المخرجات."
+        }
+       ]
+      },
+      {
+       "w": "unintended consequence",
+       "pos": "noun",
+       "ar": "نتيجة غير مقصودة",
+       "ex": [
+        {
+         "en": "Every fix produced an <b>unintended consequence</b>.",
+         "ar": "أنتج كلّ إصلاحٍ نتيجةً غير مقصودة."
+        }
+       ]
+      },
+      {
+       "w": "oversight",
+       "pos": "noun",
+       "ar": "رقابة / إشراف",
+       "ex": [
+        {
+         "en": "There was no human <b>oversight</b> at that stage.",
+         "ar": "لم تكن هناك رقابةٌ بشريّة في تلك المرحلة."
+        }
+       ]
+      },
+      {
+       "w": "opaque",
+       "pos": "adj",
+       "ar": "غير شفّاف",
+       "ex": [
+        {
+         "en": "The decision process is entirely <b>opaque</b>.",
+         "ar": "عمليّة القرار غير شفّافةٍ تماماً."
+        }
+       ]
+      },
+      {
+       "w": "safeguard",
+       "pos": "noun/verb",
+       "ar": "ضمانة وقائيّة",
+       "ex": [
+        {
+         "en": "The <b>safeguards</b> were written after the incident.",
+         "ar": "كُتبت الضمانات بعد الحادثة."
+        }
+       ]
+      },
+      {
+       "w": "displace",
+       "pos": "verb",
+       "ar": "يُزيح / يحلّ محلّ",
+       "ex": [
+        {
+         "en": "It may <b>displace</b> tasks rather than whole jobs.",
+         "ar": "قد يُزيح مهامّ لا وظائف كاملة."
+        }
+       ]
+      },
+      {
+       "w": "surveillance",
+       "pos": "noun",
+       "ar": "مراقبة",
+       "ex": [
+        {
+         "en": "The same tools enable <b>surveillance</b> at no extra cost.",
+         "ar": "تتيح الأدوات نفسها المراقبة بلا كلفةٍ إضافيّة."
+        }
+       ]
+      },
+      {
+       "w": "accountability",
+       "pos": "noun",
+       "ar": "مساءلة",
+       "ex": [
+        {
+         "en": "Nobody could say where <b>accountability</b> sat.",
+         "ar": "لم يستطع أحدٌ تحديد أين تقع المساءلة."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Hedging and analysis",
+     "items": [
+      {
+       "w": "arguably",
+       "pos": "adv",
+       "ar": "يمكن القول إنّ",
+       "ex": [
+        {
+         "en": "<b>Arguably</b>, the risk is institutional, not technical.",
+         "ar": "يمكن القول إنّ الخطر مؤسّسيّ لا تقنيّ."
+        }
+       ]
+      },
+      {
+       "w": "plausible",
+       "pos": "adj",
+       "ar": "معقول / محتمل",
+       "ex": [
+        {
+         "en": "It is a <b>plausible</b> explanation, not a proven one.",
+         "ar": "تفسيرٌ معقول لا مبرهن."
+        }
+       ]
+      },
+      {
+       "w": "speculative",
+       "pos": "adj",
+       "ar": "تخمينيّ",
+       "ex": [
+        {
+         "en": "Most long-term forecasts are <b>speculative</b>.",
+         "ar": "معظم التوقّعات بعيدة المدى تخمينيّة."
+        }
+       ]
+      },
+      {
+       "w": "correlation",
+       "pos": "noun",
+       "ar": "ارتباط إحصائيّ",
+       "ex": [
+        {
+         "en": "A <b>correlation</b> is not a mechanism.",
+         "ar": "الارتباط ليس آليّة."
+        }
+       ]
+      },
+      {
+       "w": "extrapolate",
+       "pos": "verb",
+       "ar": "يستقرئ / يمدّ النتيجة",
+       "ex": [
+        {
+         "en": "You cannot <b>extrapolate</b> ten years from two.",
+         "ar": "لا يمكنك استقراء عشر سنواتٍ من سنتين."
+        }
+       ]
+      },
+      {
+       "w": "premature",
+       "pos": "adj",
+       "ar": "سابق لأوانه",
+       "ex": [
+        {
+         "en": "It is <b>premature</b> to call it a breakthrough.",
+         "ar": "من السابق لأوانه تسميته اختراقاً."
+        }
+       ]
+      },
+      {
+       "w": "nuance",
+       "pos": "noun",
+       "ar": "فارق دقيق",
+       "ex": [
+        {
+         "en": "The headline lost every <b>nuance</b> in the paper.",
+         "ar": "أضاع العنوان كلّ فارقٍ دقيقٍ في البحث."
+        }
+       ]
+      },
+      {
+       "w": "caveat",
+       "pos": "noun",
+       "ar": "تحفّظ / شرط تنبيهيّ",
+       "ex": [
+        {
+         "en": "The one <b>caveat</b> is the size of the sample.",
+         "ar": "التحفّظ الوحيد هو حجم العيّنة."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: a careful expert",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "An interviewer pushes for a headline; the researcher refuses to give one. Every time she hedges, the meaning changes — listen for exactly how much she is and is not claiming.<span class=n-ar>مذيعٌ يبحث عن عنوانٍ مثير، وباحثةٌ ترفض منحه إيّاه. وكلّ تحوّطٍ منها يغيّر المعنى — تابع ما تدّعيه بالضبط وما لا تدّعيه.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "I Wouldn't Put It That Way",
+     "titleAr": "لن أصوغها هكذا",
+     "lines": [
+      {
+       "sp": "Host",
+       "en": "So these systems are now smarter than people.",
+       "ar": "إذن هذه الأنظمة صارت أذكى من البشر."
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "I wouldn't put it that way. They outperform people on certain benchmarks.",
+       "ar": "لن أصوغها هكذا. إنّها تتفوّق على البشر في معايير قياسٍ معيّنة."
+      },
+      {
+       "sp": "Host",
+       "en": "Which is the same thing, surely.",
+       "ar": "وهو الشيء نفسه بالتأكيد."
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "It isn't. A benchmark measures what it measures. It tends to reward the skills we knew how to test.",
+       "ar": "ليس كذلك. المعيار يقيس ما يقيسه. وهو يميل إلى مكافأة المهارات التي عرفنا كيف نختبرها."
+      },
+      {
+       "sp": "Host",
+       "en": "Fine. But you'd accept they'll replace most white-collar jobs.",
+       "ar": "حسناً. لكنّك تقبلين أنّها ستحلّ محلّ معظم الوظائف المكتبيّة."
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "I'd accept that they may displace a substantial share of routine tasks. That's a different claim.",
+       "ar": "أقبل أنّها قد تُزيح حصّةً كبيرة من المهامّ الروتينيّة. وهذه دعوى مختلفة."
+      },
+      {
+       "sp": "Host",
+       "en": "Is it? It sounds like hedging.",
+       "ar": "أهي كذلك؟ يبدو الأمر تحوّطاً."
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "It is hedging, and it's also accurate. Tasks aren't jobs. Most jobs are bundles of tasks.",
+       "ar": "إنّه تحوّطٌ فعلاً، وهو دقيقٌ أيضاً. المهامّ ليست وظائف. ومعظم الوظائف حزمٌ من المهامّ."
+      },
+      {
+       "sp": "Host",
+       "en": "What would worry you, then?",
+       "ar": "إذن ما الذي يقلقك؟"
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "Concentration. Arguably the bigger risk is who controls the systems, not what they can do.",
+       "ar": "التركّز. ويمكن القول إنّ الخطر الأكبر هو من يتحكّم بالأنظمة لا ما تستطيعه."
+      },
+      {
+       "sp": "Host",
+       "en": "That's less exciting.",
+       "ar": "هذا أقلّ إثارة."
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "Most true things are. It remains unclear whether capability or governance will bind first.",
+       "ar": "معظم الحقائق كذلك. ويبقى من غير الواضح أيّهما سيقيّد الآخر أوّلاً: القدرة أم الحوكمة."
+      },
+      {
+       "sp": "Host",
+       "en": "Give me one prediction. Anything.",
+       "ar": "أعطني تنبّؤاً واحداً. أيّ شيء."
+      },
+      {
+       "sp": "Dr Faris",
+       "en": "In most cases, deployment will run ahead of oversight. That one I'm confident about.",
+       "ar": "في معظم الحالات سيسبق النشرُ الرقابةَ. هذا ما أنا واثقةٌ منه."
+      },
+      {
+       "sp": "Host",
+       "en": "Now that I can use.",
+       "ar": "هذا ما يمكنني استعماله الآن."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Dr Faris's objection to <code dir=ltr>smarter than people</code> is that",
+       "opts": [
+        "it is offensive",
+        "benchmarks only measure some skills",
+        "the systems are weak",
+        "nobody has tested them"
+       ],
+       "a": 1,
+       "why": "«المعيار يقيس ما يقيسه»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>may displace a substantial share of routine tasks</code> differs from the host's claim because",
+       "opts": [
+        "it is stronger",
+        "it swaps jobs for tasks and adds 'may'",
+        "it is about the past",
+        "it names a date"
+       ],
+       "a": 1,
+       "why": "تغييرٌ في الوحدة المدروسة + تحوّط."
+      },
+      {
+       "t": "mcq",
+       "q": "When accused of hedging, she",
+       "opts": [
+        "denies it",
+        "accepts it and defends it as accuracy",
+        "changes the subject",
+        "apologises"
+       ],
+       "a": 1,
+       "why": "«إنّه تحوّطٌ فعلاً، وهو دقيقٌ أيضاً»."
+      },
+      {
+       "t": "mcq",
+       "q": "What does she consider the bigger risk?",
+       "opts": [
+        "Capability",
+        "Who controls the systems",
+        "Benchmarks",
+        "Training cost"
+       ],
+       "a": 1,
+       "why": "التركّز والتحكّم."
+      },
+      {
+       "t": "mcq",
+       "q": "Her one confident prediction is that",
+       "opts": [
+        "jobs will vanish",
+        "deployment will outpace oversight",
+        "benchmarks will improve",
+        "governance will win"
+       ],
+       "a": 1,
+       "why": "«سيسبق النشرُ الرقابةَ»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Most true things are</code> is a reply meaning",
+       "opts": [
+        "truth is boring",
+        "she disagrees",
+        "the host lied",
+        "the topic is closed"
+       ],
+       "a": 0,
+       "why": "معظم الحقائق أقلّ إثارةً من العناوين."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "I wudn put it thad way",
+       "a": [
+        "I wouldn't put it that way",
+        "I wouldnt put it that way"
+       ],
+       "why": "wouldn't ← وودن، وthat way بالربط."
+      },
+      {
+       "t": "dict",
+       "say": "They tend ta reward wut we knew how ta test",
+       "a": [
+        "They tend to reward what we knew how to test"
+       ],
+       "why": "tend to ← تينْدَ."
+      },
+      {
+       "t": "dict",
+       "say": "Thats a diffrent claym",
+       "a": [
+        "That's a different claim",
+        "Thats a different claim"
+       ],
+       "why": "different ← ديفرنت بثلاثة مقاطع."
+      },
+      {
+       "t": "dict",
+       "say": "It remaynz unclear whether it scaylz",
+       "a": [
+        "It remains unclear whether it scales"
+       ],
+       "why": "بنيةٌ لاشخصيّة + whether."
+      },
+      {
+       "t": "dict",
+       "say": "Deployment will run ahed of oversight",
+       "a": [
+        "Deployment will run ahead of oversight"
+       ],
+       "why": "ahead of ← أهيدَف بالربط."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: the confidence problem",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Confidence Problem",
+     "titleAr": "مشكلة الثقة",
+     "en": "The most discussed weakness of modern AI systems is that they sometimes produce false information. <b>Arguably</b>, that is not the interesting problem. Humans produce false information constantly, and we have built institutions — courts, editors, peer review — to handle it. The harder issue is that these systems produce false information in exactly the same tone as true information.<br><br>Human beings hedge involuntarily. A colleague who is unsure pauses, qualifies, says <i>I think</i>, looks away. Those signals are unreliable individually and quite useful in aggregate; we have spent our whole lives learning to read them. A system that states a fabricated citation with the fluency of a well-rehearsed expert removes that channel entirely.<br><br><b>There is some evidence that</b> users adjust, but slowly, and that the adjustment does not transfer between domains. A doctor who has learned to check the model's drug interactions <b>appears</b> no more sceptical about its legal claims than anyone else.<br><br><b>It would be premature</b> to conclude that this is unfixable. Confidence calibration is an active research area, and early results are encouraging. But <b>it is worth noting</b> that the incentive runs the wrong way: a system that says <i>I am not sure</i> feels worse to use, tests worse in user studies, and is therefore less likely to ship. The <b>caveat</b> is not technical. It is commercial.",
+     "ar": "أكثر ما يُناقَش من ضعف أنظمة الذكاء الاصطناعيّ الحديثة أنّها تنتج أحياناً معلوماتٍ خاطئة. ويمكن القول إنّ هذه ليست المشكلة المثيرة للاهتمام. فالبشر ينتجون معلوماتٍ خاطئةً باستمرار، وقد بنينا مؤسّساتٍ — المحاكم، والتحرير، ومراجعة الأقران — للتعامل معها. والمسألة الأصعب أنّ هذه الأنظمة تنتج المعلومة الخاطئة بالنبرة نفسها تماماً التي تنتج بها الصحيحة.<br><br>فالبشر يتحوّطون لا إراديّاً. الزميل غير المتأكّد يتوقّف، ويقيّد كلامه، ويقول «أظنّ»، ويحوّل بصره. وهذه إشاراتٌ غير موثوقةٍ منفردةً ومفيدةٌ جدّاً مجتمعةً؛ وقد أمضينا حياتنا كلّها نتعلّم قراءتها. أمّا نظامٌ يذكر مرجعاً مختلقاً بطلاقة خبيرٍ تمرّن جيّداً فيلغي تلك القناة إلغاءً تامّاً.<br><br>وثمّة بعض الأدلّة على أنّ المستخدمين يتكيّفون، لكن ببطء، وعلى أنّ التكيّف لا ينتقل بين المجالات. فالطبيب الذي تعلّم أن يتحقّق من تداخلات الأدوية في النموذج يبدو غير أكثر تشكّكاً من غيره حيال دعاواه القانونيّة.<br><br>ومن السابق لأوانه الاستنتاج بأنّ هذا غير قابلٍ للإصلاح. فمعايرة الثقة مجال بحثٍ نشط، والنتائج المبكّرة مشجّعة. لكن يجدر بالملاحظة أنّ الحافز يسير في الاتّجاه الخاطئ: فنظامٌ يقول «لستُ متأكّداً» يبدو أسوأ في الاستعمال، ويُختبر أسوأ في دراسات المستخدمين، ولذلك يقلّ احتمال إطلاقه. والتحفّظ هنا ليس تقنيّاً، بل تجاريّاً.",
+     "keys": [
+      [
+       "in aggregate",
+       "مجتمعةً"
+      ],
+      [
+       "a fabricated citation",
+       "مرجع مختلق"
+      ],
+      [
+       "removes that channel",
+       "يلغي تلك القناة"
+      ],
+      [
+       "does not transfer between domains",
+       "لا ينتقل بين المجالات"
+      ],
+      [
+       "confidence calibration",
+       "معايرة الثقة"
+      ],
+      [
+       "less likely to ship",
+       "يقلّ احتمال إطلاقه"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "The writer says the interesting problem is not false output but",
+       "opts": [
+        "its speed",
+        "its uniform confident tone",
+        "its cost",
+        "its language"
+       ],
+       "a": 1,
+       "why": "«بالنبرة نفسها تماماً»."
+      },
+      {
+       "t": "mcq",
+       "q": "Human hedging signals are described as",
+       "opts": [
+        "always reliable",
+        "useless",
+        "weak individually but useful together",
+        "invented recently"
+       ],
+       "a": 2,
+       "why": "«غير موثوقةٍ منفردةً ومفيدةٌ جدّاً مجتمعةً»."
+      },
+      {
+       "t": "mcq",
+       "q": "The doctor example shows that user scepticism",
+       "opts": [
+        "grows quickly",
+        "spreads to all domains",
+        "stays domain-specific",
+        "never develops"
+       ],
+       "a": 2,
+       "why": "«التكيّف لا ينتقل بين المجالات»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It would be premature to conclude</code> is",
+       "opts": [
+        "a firm conclusion",
+        "a hedge against over-claiming",
+        "an accusation",
+        "a prediction"
+       ],
+       "a": 1,
+       "why": "بنيةٌ لاشخصيّة تمنع المبالغة."
+      },
+      {
+       "t": "mcq",
+       "q": "The final 'caveat' is commercial because",
+       "opts": [
+        "the fix is expensive",
+        "uncertain systems test worse and ship less",
+        "users pay more",
+        "regulators charge fees"
+       ],
+       "a": 1,
+       "why": "الحافز يسير في الاتّجاه الخاطئ."
+      },
+      {
+       "t": "mcq",
+       "q": "Overall, the writer's tone is",
+       "opts": [
+        "alarmed",
+        "dismissive",
+        "measured and specific",
+        "promotional"
+       ],
+       "a": 2,
+       "why": "تحوّطٌ منضبط مع دعاوى محدّدة."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "tech words with stress traps",
+     "rows": [
+      {
+       "w": "AL·go·rithm",
+       "s": "AL-guh-rith-um",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "cap·a·BIL·i·ty",
+       "s": "kay-puh-BIL-ih-dee",
+       "ar": "النبر على الثالث وflap T"
+      },
+      {
+       "w": "de·PLOY",
+       "s": "dih-PLOY",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "sur·VEIL·lance",
+       "s": "ser-VAY-lunss",
+       "ar": "لا تنطق ei ياءً"
+      },
+      {
+       "w": "in·FER / IN·fer·ence",
+       "s": "in-FUR / IN-fer-unss",
+       "ar": "ينتقل النبر مع الاسم"
+      },
+      {
+       "w": "data",
+       "s": "DAY-duh",
+       "ar": "أمريكيّاً دايدَه بـflap T"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Qualifying, conceding uncertainty and predicting",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Saying you don't know, professionally",
+     "html": "Never say <code dir=ltr>I don't know</code> and stop. Say what you do know:<br><br><code dir=ltr>I don't have a confident answer, but my sense is …</code><br><code dir=ltr>That's outside what I can speak to.</code><br><code dir=ltr>I'd be speculating, but …</code><br><code dir=ltr>Let me come back to you with a proper answer.</code><br><code dir=ltr>The honest answer is that nobody knows yet.</code><br><br>Admitting uncertainty precisely raises your credibility. Faking certainty spends it.<span class=n-ar>لا تقل «لا أعرف» وتصمت. الاعتراف الدقيق بالجهل يرفع مصداقيّتك، وادّعاء اليقين يُنفقها.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Talking about the future without pretending",
+     "html": "<code dir=ltr>is likely / unlikely to …</code> — the standard<br><code dir=ltr>I'd expect … within a few years</code><br><code dir=ltr>The direction of travel is …</code> — trend, not date<br><code dir=ltr>If current trends continue, …</code> — a conditional forecast<br><code dir=ltr>My best guess would be …</code><br><code dir=ltr>I'd be surprised if …</code> — a confident negative<br><br>⚠️ <code dir=ltr>will</code> for the distant future sounds naive in analysis. <code dir=ltr>is likely to</code> is the professional register.<span class=n-ar>will للمستقبل البعيد تبدو ساذجةً في التحليل، وis likely to هي المستوى المهنيّ.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>This proves that …</code> → ✅ <code dir=ltr>This suggests / indicates that …</code><br>❌ <code dir=ltr>All the people think …</code> → ✅ <code dir=ltr>Most people appear to think …</code><br>❌ <code dir=ltr>an evidence</code> / <code dir=ltr>evidences</code> → ✅ <code dir=ltr>evidence</code> (uncountable)<br>❌ <code dir=ltr>researches</code> → ✅ <code dir=ltr>research</code> / <code dir=ltr>studies</code><br>❌ <code dir=ltr>informations</code> → ✅ <code dir=ltr>information</code><br>❌ <code dir=ltr>In nowadays</code> → ✅ <code dir=ltr>Nowadays</code> / <code dir=ltr>These days</code><br>❌ <code dir=ltr>It is depend on</code> → ✅ <code dir=ltr>It depends on</code><br><br><code dir=ltr>evidence, research, information, advice, feedback</code> are all uncountable. This one error appears in almost every Arabic speaker's academic English.<span class=n-ar>evidence وresearch وinformation وadvice وfeedback كلّها غير معدودة. وهذا الخطأ يظهر في كتابة كلّ ناطقٍ بالعربيّة تقريباً.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: hedges are unstressed",
+     "hint": "the content word is loud; the hedge disappears",
+     "rows": [
+      {
+       "w": "It may be RELEvant",
+       "s": "it mibee RELuhvunt",
+       "ar": "may be تختفي"
+      },
+      {
+       "w": "seems to SUGGEST",
+       "s": "seemsta suh-JEST",
+       "ar": "to ← تَ"
+      },
+      {
+       "w": "to some exTENT",
+       "s": "ta sum ik-STENT",
+       "ar": "النبر على الأخيرة"
+      },
+      {
+       "w": "ARguably",
+       "s": "AR-gyoo-uh-blee",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "PLAUsible",
+       "s": "PLAW-zuh-bul",
+       "ar": "النبر على الأوّل"
+      },
+      {
+       "w": "pre·ma·TURE",
+       "s": "pree-muh-CHOOR",
+       "ar": "النبر على الأخير"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the sound of careful disagreement",
+     "rows": [
+      {
+       "w": "I'd be careful with that",
+       "s": "I'd be kairful with that",
+       "ar": "سأتحفّظ على ذلك"
+      },
+      {
+       "w": "It's more complicated than that",
+       "s": "Its more complicaydid than that",
+       "ar": "الأمر أعقد من ذلك"
+      },
+      {
+       "w": "Up to a point",
+       "s": "Up ta a poynt",
+       "ar": "إلى حدٍّ ما"
+      },
+      {
+       "w": "That's one reading of it",
+       "s": "Thats wun reedin ovit",
+       "ar": "هذه قراءةٌ واحدة له"
+      },
+      {
+       "w": "I'd be speculating",
+       "s": "I'd be spekyuh-laydin",
+       "ar": "سأكون مخمّناً"
+      },
+      {
+       "w": "Nobody knows yet",
+       "s": "Nobody nowz yet",
+       "ar": "لا أحد يعلم بعد"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>There are many evidences for this.</code>",
+       "a": [
+        "There is a lot of evidence for this",
+        "There is considerable evidence for this",
+        "There is much evidence for this"
+       ],
+       "why": "evidence غير معدود."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Recent researches show a decline.</code>",
+       "a": [
+        "Recent research shows a decline",
+        "Recent studies show a decline"
+       ],
+       "why": "research غير معدود؛ أو استعمل studies."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>In nowadays, everyone uses these tools.</code>",
+       "a": [
+        "Nowadays, most people use these tools",
+        "These days, most people use these tools",
+        "Nowadays, many people use these tools"
+       ],
+       "why": "nowadays بلا in، وتجنّب everyone المطلقة."
+      },
+      {
+       "t": "mcq",
+       "q": "Which is the professional register for a long-range forecast?",
+       "opts": [
+        "It will happen by 2035",
+        "It is likely to happen within a decade",
+        "It's definitely coming",
+        "Everyone knows it's coming"
+       ],
+       "a": 1,
+       "why": "is likely to + إطارٌ زمنيّ مرن."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd be speculating, but …</code> signals",
+       "opts": [
+        "confidence",
+        "an explicit warning that what follows is a guess",
+        "refusal to answer",
+        "quoting a study"
+       ],
+       "a": 1,
+       "why": "تنبيهٌ صريح إلى أنّ ما يلي تخمين."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The results ___ that the effect is small.</code> (لا تستعمل prove)",
+       "a": [
+        "suggest",
+        "indicate",
+        "show"
+       ],
+       "why": "أفعال تحوّط بدل prove."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: an analytical paragraph",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Write an analytical piece on a technology's likely effect on your field, in <b>140–160 words</b>. It must include:<br><br>• at least four hedges from four different tools (modal, verb, adverb, quantifier)<br>• one impersonal <code dir=ltr>it</code>-structure<br>• one attributed claim (<code dir=ltr>It has been argued that …</code>)<br>• one explicit caveat or limitation<br>• zero absolutes (<code dir=ltr>all, always, never, proves</code>)<span class=n-ar>اكتب تحليلاً لأثر تقنيةٍ محتمل في مجالك، في ١٤٠–١٦٠ كلمة، بأربعة تحوّطاتٍ من أربع أدواتٍ مختلفة، وبنيةٍ لاشخصيّة، ودعوى منسوبة، وتحفّظٍ صريح، وبلا أيّ مطلقات.</span>",
+     "phrases": [
+      "It has been argued that …",
+      "The evidence suggests that …",
+      "These systems tend to …",
+      "In most cases, …",
+      "It remains unclear whether …",
+      "The one caveat is that …",
+      "On balance, the more plausible outcome is …"
+     ],
+     "model": "It has been argued that automated translation will make language learning unnecessary. The evidence suggests something narrower. Machine translation appears to work well where the text is predictable and the stakes are low, and to degrade sharply where tone, hierarchy or implication carry the meaning.\n\nIn most professional settings, what people need is not a literal rendering but a judgement about how something will land. These systems tend to produce fluent output regardless of whether that judgement is possible, which arguably makes them most dangerous precisely where they are least reliable.\n\nIt remains unclear whether this gap is a temporary limitation or a structural one. Early results on context handling are encouraging.\n\nThe one caveat is that my view is shaped by a field where getting the register wrong is expensive. On balance, the more plausible outcome is a shift in what learners study, rather than a collapse in the reason to study at all.",
+     "modelAr": "قيل إنّ الترجمة الآليّة ستجعل تعلّم اللغات غير ضروريّ. لكنّ الأدلّة توحي بشيءٍ أضيق. إذ يبدو أنّ الترجمة الآليّة تعمل جيّداً حين يكون النصّ متوقّعاً والمخاطر منخفضة، وأنّها تتدهور بحدّة حين تحمل النبرةُ أو التراتبيّةُ أو التضمينُ المعنى.\n\nوفي معظم السياقات المهنيّة، ما يحتاجه الناس ليس نقلاً حرفيّاً بل حكماً على كيفيّة وقع الكلام. وتميل هذه الأنظمة إلى إنتاج مخرجاتٍ سلسة بصرف النظر عن إمكان ذلك الحكم، وهو ما يجعلها — ويمكن القول ذلك — أخطر ما تكون حيث تكون أقلّ موثوقيّة.\n\nويبقى من غير الواضح إن كانت هذه الفجوة قيداً مؤقّتاً أم بنيويّاً. والنتائج المبكّرة في التعامل مع السياق مشجّعة.\n\nوالتحفّظ الوحيد أنّ رأيي تشكّل في مجالٍ يكلّف فيه الخطأ في المستوى اللغويّ كثيراً. وفي الميزان، فالنتيجة الأرجح تحوّلٌ في ما يدرسه المتعلّمون، لا انهيارٌ في سبب الدراسة أصلاً.",
+     "checklist": [
+      "I used a modal hedge (may / might / could)",
+      "I used a hedging verb (suggest / appear / tend to)",
+      "I used a hedging adverb (arguably / largely / relatively)",
+      "I used a quantifier hedge (in most cases / some / a number of)",
+      "I used one impersonal it-structure",
+      "I attributed one claim to others",
+      "I stated one caveat about my own position",
+      "I used no absolutes: no 'all', 'always', 'never', 'proves'",
+      "I wrote 'evidence' and 'research', never 'evidences' or 'researches'",
+      "140–160 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "analytical connectors, said fast",
+     "rows": [
+      {
+       "w": "On balance",
+       "s": "On balunss",
+       "ar": "في الميزان"
+      },
+      {
+       "w": "That said",
+       "s": "That sed",
+       "ar": "ومع ذلك"
+      },
+      {
+       "w": "To put it another way",
+       "s": "Ta pudit anuther way",
+       "ar": "بعبارةٍ أخرى"
+      },
+      {
+       "w": "Which brings us to",
+       "s": "Which bringz us ta",
+       "ar": "وهذا يقودنا إلى"
+      },
+      {
+       "w": "It's early days",
+       "s": "Its erly dayz",
+       "ar": "ما زال الوقت مبكّراً"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ٢٢",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Which is the most appropriately hedged?",
+       "opts": [
+        "This proves the theory",
+        "This confirms the theory completely",
+        "This is consistent with the theory",
+        "Everyone accepts the theory"
+       ],
+       "a": 2,
+       "why": "دعوى متوافقة مع الأدلّة بلا مبالغة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It is worth noting that …</code> is used to",
+       "opts": [
+        "conclude",
+        "flag a relevant point impersonally",
+        "ask a question",
+        "quote a source"
+       ],
+       "a": 1,
+       "why": "بنيةٌ لاشخصيّة للفت الانتباه."
+      },
+      {
+       "t": "mcq",
+       "q": "Which adverb signals a defensible but contestable claim?",
+       "opts": [
+        "obviously",
+        "arguably",
+        "certainly",
+        "undeniably"
+       ],
+       "a": 1,
+       "why": "arguably ← يمكن القول إنّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>A correlation is not a mechanism</code> warns against",
+       "opts": [
+        "using statistics",
+        "assuming cause from association",
+        "hedging",
+        "quoting studies"
+       ],
+       "a": 1,
+       "why": "الارتباط لا يثبت السببيّة."
+      },
+      {
+       "t": "mcq",
+       "q": "A system whose decisions cannot be inspected is",
+       "opts": [
+        "robust",
+        "opaque",
+        "plausible",
+        "premature"
+       ],
+       "a": 1,
+       "why": "غير شفّاف."
+      },
+      {
+       "t": "mcq",
+       "q": "To extend a finding beyond the evidence range is to",
+       "opts": [
+        "infer",
+        "extrapolate",
+        "benchmark",
+        "deploy"
+       ],
+       "a": 1,
+       "why": "استقراءٌ خارج نطاق البيانات."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It is premature to say</code> means",
+       "opts": [
+        "it is false",
+        "it is too early to say",
+        "it is proven",
+        "it is irrelevant"
+       ],
+       "a": 1,
+       "why": "سابقٌ لأوانه."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The findings ___ that the effect is modest.</code> (لا تستعمل prove)",
+       "a": [
+        "suggest",
+        "indicate",
+        "show"
+       ],
+       "why": "فعل تحوّط."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>It remains ___ whether the gain persists.</code>",
+       "a": [
+        "unclear"
+       ],
+       "why": "صيغةٌ ثابتة للمسألة غير المحسومة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>These models ___ to overstate their confidence.</code>",
+       "a": [
+        "tend"
+       ],
+       "why": "tend to."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>There are many evidences for the claim.</code>",
+       "a": [
+        "There is a lot of evidence for the claim",
+        "There is considerable evidence for the claim",
+        "There is much evidence for the claim"
+       ],
+       "why": "evidence غير معدود."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Recent researches prove this.</code>",
+       "a": [
+        "Recent research suggests this",
+        "Recent studies suggest this",
+        "Recent studies indicate this"
+       ],
+       "why": "research غير معدود، وprove مبالغة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>In nowadays all companies use AI.</code>",
+       "a": [
+        "Nowadays, most companies use AI",
+        "These days, many companies use AI",
+        "Nowadays, many companies use AI"
+       ],
+       "why": "nowadays بلا in، وتجنّب all."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>It is depend on the training data.</code>",
+       "a": [
+        "It depends on the training data"
+       ],
+       "why": "depend فعلٌ تامّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "has",
+        "been",
+        "argued",
+        "that",
+        "scale",
+        "is",
+        "not",
+        "enough"
+       ],
+       "a": "It has been argued that scale is not enough",
+       "why": "نسبةٌ لاشخصيّة للدعوى."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "The",
+        "evidence",
+        "suggests",
+        "that",
+        "the",
+        "effect",
+        "may",
+        "be",
+        "small"
+       ],
+       "a": "The evidence suggests that the effect may be small",
+       "why": "فعل تحوّط + مودال معاً."
+      },
+      {
+       "t": "dict",
+       "say": "It wud appear thad the resultz are mixt",
+       "a": [
+        "It would appear that the results are mixed"
+       ],
+       "why": "would appear that بالاختزال."
+      },
+      {
+       "t": "dict",
+       "say": "They tenz ta fayl silently",
+       "a": [
+        "They tend to fail silently"
+       ],
+       "why": "tend to ← تينْزَ."
+      },
+      {
+       "t": "dict",
+       "say": "I'd be spekyuh-laydin but my sens iz",
+       "a": [
+        "I'd be speculating but my sense is",
+        "Id be speculating but my sense is"
+       ],
+       "why": "speculating ← flap T، وsense is بالربط."
+      },
+      {
+       "t": "mcq",
+       "q": "Why does the unit call absolutes dangerous?",
+       "opts": [
+        "They are grammatically wrong",
+        "One overstatement costs the reader's trust in the whole passage",
+        "They are too formal",
+        "They are hard to pronounce"
+       ],
+       "a": 1,
+       "why": "مبالغةٌ واحدة تُفقدك الفقرة كلّها."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "مقابلاتٌ بحثيّة",
+       "d": "ابحث عن «Lex Fridman Podcast» أو «Hard Fork» — باحثون يتحوّطون باستمرار",
+       "task": "سجّل عشر عبارات تحوّطٍ سمعتها، وصنّفها بحسب الأداة."
+      },
+      {
+       "t": "شروحٌ تقنيّة",
+       "d": "ابحث عن «Computerphile» أو «3Blue1Brown»",
+       "task": "استمع خمس عشرة دقيقة، واكتب ملخّصاً متحوّطاً في ستّ جمل."
+      },
+      {
+       "t": "قراءةٌ أكاديميّة",
+       "d": "افتح ملخّص أيّ ورقةٍ على arXiv واقرأ فقرة الخلاصة",
+       "task": "احصِ عدد التحوّطات في فقرةٍ واحدة — ستدهشك النتيجة."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "أعد نطق «It wud appear thad / tenz ta / ta sum ik-stent»."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
