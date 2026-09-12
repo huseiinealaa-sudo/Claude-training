@@ -1,0 +1,372 @@
+{
+  "id": "unit-13",
+  "icon": "📡",
+  "title": "الإعلام والمصداقيّة",
+  "subtitle": "Present Perfect Continuous + discourse markers",
+  "intro": "مرحباً بك في <b>المستوى الثاني</b>. من هنا فصاعداً يصير الشرح بالإنجليزية المبسّطة، ويبقى السند العربيّ تحت كلّ فقرة. لا تقفز إليه فوراً — اقرأ الإنجليزيّ أوّلاً، فهذا هو التدريب نفسه.",
+  "goals": [
+    "I can use the present perfect continuous accurately",
+    "I can link ideas with discourse markers",
+    "I can discuss media, bias and credibility",
+    "I can structure an argument in writing"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "Present Perfect Continuous",
+      "subtitle": "have been + -ing",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "The form and the idea",
+          "html": "<b>have / has been + verb-ing</b><br><br>It answers a different question from the simple form. The simple perfect asks <i>how many?</i> — the continuous asks <i>how long?</i> and draws attention to the activity itself, not its result.<br><br><code dir=ltr>I've <b>written</b> three reports.</code> → result, countable<br><code dir=ltr>I've <b>been writing</b> all morning.</code> → activity, duration<span class=n-ar>الصيغة: have/has been + الفعل ing. البسيط يسأل «كم؟» والمستمرّ يسأل «منذ متى؟» ويلفت النظر إلى النشاط نفسه لا إلى نتيجته.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Three typical uses",
+          "html": "<b>1. An action that started in the past and is still going on:</b><br><code dir=ltr>She'<b>s been working</b> here since 2019.</code><br><br><b>2. A recently finished action with visible evidence:</b><br><code dir=ltr>You look tired. — I'<b>ve been running</b>.</code><br><br><b>3. A repeated activity over a period:</b><br><code dir=ltr>They'<b>ve been calling</b> me all week.</code><span class=n-ar>ثلاث وظائف: فعلٌ بدأ وما زال · فعلٌ انتهى قريباً وأثره ظاهر · نشاطٌ متكرّر على مدى فترة.</span>"
+        },
+        {
+          "type": "note",
+          "title": "The distinction that matters",
+          "html": "<table><tr><td dir=ltr>I've <b>read</b> the report.</td><td>finished — I know what's in it<br><span style='color:var(--muted)'>قرأته وانتهيت</span></td></tr><tr><td dir=ltr>I've <b>been reading</b> the report.</td><td>maybe unfinished — the focus is the activity<br><span style='color:var(--muted)'>كنت أقرأه — ربّما لم أنتهِ</span></td></tr></table><br>⚠️ <b>State verbs never take the continuous:</b> <code dir=ltr>know · believe · own · understand · belong</code><br>❌ <code dir=ltr>I've been knowing him for years.</code><br>✅ <code dir=ltr>I've known him for years.</code><span class=n-ar>أفعال الحالة لا تأتي في المستمرّ أبداً — وهذا خطأ شائع جدّاً.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Discourse markers — the glue of B2 writing",
+          "html": "<table><tr><td dir=ltr><b>however</b></td><td>contrast, new sentence · لكن</td></tr><tr><td dir=ltr><b>nevertheless</b></td><td>strong contrast · ومع ذلك</td></tr><tr><td dir=ltr><b>whereas</b></td><td>direct comparison · بينما</td></tr><tr><td dir=ltr><b>despite / in spite of</b> + noun</td><td>رغم</td></tr><tr><td dir=ltr><b>although</b> + clause</td><td>رغم أنّ</td></tr><tr><td dir=ltr><b>therefore / consequently</b></td><td>result · ولذلك</td></tr><tr><td dir=ltr><b>moreover / furthermore</b></td><td>addition · علاوةً على ذلك</td></tr></table><br>⚠️ <code dir=ltr><b>despite</b></code> takes a noun or -ing; <code dir=ltr><b>although</b></code> takes a full clause:<br>✅ <code dir=ltr>Despite the rain…</code> · ✅ <code dir=ltr>Although it rained…</code><br>❌ <code dir=ltr>Despite it rained…</code><span class=n-ar>الفرق الحاسم: despite تأتي قبل اسم أو ing، وalthough قبل جملةٍ كاملة.</span>"
+        },
+        {
+          "type": "examples",
+          "title": "Listen and compare",
+          "rows": [
+            { "en": "I'<b>ve been trying</b> to reach you all day.", "ar": "أحاول الوصول إليك طوال اليوم." },
+            { "en": "The site <b>has been running</b> slowly since the update.", "ar": "يعمل الموقع ببطء منذ التحديث." },
+            { "en": "<b>Despite</b> the criticism, the paper stood by the story.", "ar": "رغم الانتقاد، تمسّكت الصحيفة بالخبر." },
+            { "en": "<b>Although</b> the figures were accurate, the headline was not.", "ar": "رغم أنّ الأرقام كانت دقيقة، لم يكن العنوان كذلك." },
+            { "en": "It was widely shared; <b>however</b>, nobody checked the source.", "ar": "شاعت مشاركته، لكنّ أحداً لم يتحقّق من المصدر." },
+            { "en": "I'<b>ve known</b> her for years.", "ar": "أعرفها منذ سنوات. (فعل حالة — لا مستمرّ)" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "have been is heard as two tiny sounds",
+          "rows": [
+            { "w": "I have been waiting", "s": "I've bin waitin", "ar": "أنتظر منذ مدّة" },
+            { "w": "She has been working", "s": "She's bin workin", "ar": "تعمل منذ مدّة" },
+            { "w": "What have you been doing?", "s": "Whadav ya bin doin?", "ar": "ماذا كنتَ تفعل؟" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Practice",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>Your eyes are red. ___ ?</code>", "opts": ["Have you cried", "Have you been crying", "Did you cry", "Are you crying"], "a": 1, "why": "دليلٌ ظاهر على نشاطٍ انتهى قريباً ← مستمرّ تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ him since university.</code>", "opts": ["have been knowing", "have known", "am knowing", "know"], "a": 1, "why": "know فعل حالة." },
+            { "t": "mcq", "q": "<code dir=ltr>She ___ three articles this week.</code>", "opts": ["has been writing", "has written", "is writing", "wrote"], "a": 1, "why": "عددٌ محدّد ← بسيط تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>___ the evidence, they published it anyway.</code>", "opts": ["Although", "Despite", "However", "Whereas"], "a": 1, "why": "قبل اسم ← Despite." },
+            { "t": "mcq", "q": "<code dir=ltr>___ it was clearly false, it spread quickly.</code>", "opts": ["Despite", "Although", "Moreover", "Therefore"], "a": 1, "why": "قبل جملةٍ كاملة ← Although." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (wait) for an answer since Monday.</code>", "a": ["have been waiting", "'ve been waiting"], "why": "since + استمرار ← مستمرّ تامّ." },
+            { "t": "gap", "q": "<code dir=ltr>He ___ (own) that car for ten years.</code>", "a": ["has owned", "'s owned"], "why": "own فعل حالة ← بسيط تامّ." },
+            { "t": "gap", "q": "<code dir=ltr>The figures were wrong; ___ , the story was retracted.</code>", "a": ["therefore", "consequently"], "why": "نتيجة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have been knowing him for years.</code>", "a": ["I have known him for years", "I've known him for years"], "why": "فعل حالة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Despite it was late, they kept working.</code>", "a": ["Although it was late, they kept working", "Despite the late hour, they kept working", "Although it was late they kept working"], "why": "despite لا تتبعها جملة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>She is working here since 2019.</code>", "a": ["She has been working here since 2019", "She's been working here since 2019", "She has worked here since 2019"], "why": "since + استمرار ← مضارع تامّ (مستمرّ)." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "have", "been", "trying", "to", "call", "you"], "a": "I have been trying to call you", "why": "have been + ing." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "Vocabulary: media and credibility",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Media and influence",
+          "items": [
+            { "w": "outlet", "pos": "noun", "ar": "منبر إعلاميّ", "ex": [{ "en": "Several <b>outlets</b> carried the same claim.", "ar": "حملت عدّة منابر الادّعاء نفسه." }] },
+            { "w": "narrative", "pos": "noun", "ar": "سرديّة / رواية سائدة", "ex": [{ "en": "Both sides pushed a different <b>narrative</b>.", "ar": "دفع كلّ طرفٍ بسرديّةٍ مختلفة." }] },
+            { "w": "frame", "pos": "verb", "ar": "يؤطّر القضيّة بزاويةٍ معيّنة", "ex": [{ "en": "How you <b>frame</b> a question shapes the answer.", "ar": "طريقة تأطيرك للسؤال تشكّل الجواب." }] },
+            { "w": "spin", "pos": "noun / verb", "ar": "لَيّ الخبر لمصلحةٍ ما", "ex": [{ "en": "Every press release has some <b>spin</b>.", "ar": "كلّ بيانٍ صحفيّ فيه شيءٌ من اللَّيّ." }] },
+            { "w": "go viral", "pos": "expression", "ar": "ينتشر انتشاراً واسعاً", "ex": [{ "en": "The clip <b>went viral</b> overnight.", "ar": "انتشر المقطع بين ليلةٍ وضحاها." }] },
+            { "w": "echo chamber", "pos": "noun", "ar": "غرفة صدى — بيئة تكرّر رأيك", "ex": [{ "en": "Algorithms create an <b>echo chamber</b>.", "ar": "تصنع الخوارزميّات غرفة صدى." }] },
+            { "w": "credibility", "pos": "noun", "ar": "مصداقيّة", "ex": [{ "en": "One error can cost years of <b>credibility</b>.", "ar": "خطأ واحد قد يكلّف سنواتٍ من المصداقيّة." }] },
+            { "w": "scrutiny", "pos": "noun", "ar": "تمحيص دقيق", "ex": [{ "en": "The claim didn't survive <b>scrutiny</b>.", "ar": "لم يصمد الادّعاء أمام التمحيص." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Evidence and argument",
+          "items": [
+            { "w": "substantiate", "pos": "verb", "ar": "يدعم بالأدلّة", "ex": [{ "en": "They failed to <b>substantiate</b> the figures.", "ar": "أخفقوا في دعم الأرقام بالأدلّة." }] },
+            { "w": "undermine", "pos": "verb", "ar": "يقوّض", "ex": [{ "en": "The retraction <b>undermined</b> their case.", "ar": "قوّض السحب حجّتهم." }] },
+            { "w": "corroborate", "pos": "verb", "ar": "يؤيّد بشهادةٍ مستقلّة", "ex": [{ "en": "Two witnesses <b>corroborated</b> the account.", "ar": "أيّد شاهدان الرواية." }] },
+            { "w": "plausible", "pos": "adjective", "ar": "معقول ظاهريّاً", "ex": [{ "en": "It sounds <b>plausible</b>, but it's unproven.", "ar": "يبدو معقولاً لكنّه غير مثبت." }] },
+            { "w": "anecdotal", "pos": "adjective", "ar": "قائم على حكاياتٍ فرديّة", "ex": [{ "en": "The evidence is largely <b>anecdotal</b>.", "ar": "الأدلّة في أكثرها حكاياتٌ فرديّة." }] },
+            { "w": "correlation", "pos": "noun", "ar": "ارتباط إحصائيّ", "ex": [{ "en": "<b>Correlation</b> is not causation.", "ar": "الارتباط ليس سببيّة." }] },
+            { "w": "cherry-pick", "pos": "verb", "ar": "ينتقي ما يناسبه من البيانات", "ex": [{ "en": "They <b>cherry-picked</b> the best months.", "ar": "انتقوا أفضل الأشهر." }] },
+            { "w": "at face value", "pos": "expression", "ar": "على ظاهره", "ex": [{ "en": "Don't take the headline <b>at face value</b>.", "ar": "لا تأخذ العنوان على ظاهره." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Linking and nuance",
+          "items": [
+            { "w": "nevertheless", "pos": "adverb", "ar": "ومع ذلك", "ex": [{ "en": "It's flawed; <b>nevertheless</b>, it's useful.", "ar": "فيه خلل، ومع ذلك فهو نافع." }] },
+            { "w": "arguably", "pos": "adverb", "ar": "يمكن القول إنّ", "ex": [{ "en": "It's <b>arguably</b> the best source we have.", "ar": "يمكن القول إنّه أفضل مصدرٍ لدينا." }] },
+            { "w": "to some extent", "pos": "expression", "ar": "إلى حدٍّ ما", "ex": [{ "en": "That's true <b>to some extent</b>.", "ar": "هذا صحيح إلى حدٍّ ما." }] },
+            { "w": "on the whole", "pos": "expression", "ar": "على العموم", "ex": [{ "en": "<b>On the whole</b>, coverage has improved.", "ar": "على العموم تحسّنت التغطية." }] },
+            { "w": "in contrast", "pos": "expression", "ar": "في المقابل", "ex": [{ "en": "<b>In contrast</b>, older outlets lost readers.", "ar": "في المقابل، خسرت المنابر الأقدم قرّاءها." }] },
+            { "w": "bear in mind", "pos": "expression", "ar": "ضع في اعتبارك", "ex": [{ "en": "<b>Bear in mind</b> the sample was small.", "ar": "ضع في اعتبارك أنّ العيّنة صغيرة." }] },
+            { "w": "that said", "pos": "expression", "ar": "ومع ذلك / بعد قول ذلك", "ex": [{ "en": "<b>That said</b>, the trend is clear.", "ar": "ومع ذلك فالاتّجاه واضح." }] },
+            { "w": "let alone", "pos": "expression", "ar": "ناهيك عن", "ex": [{ "en": "I haven't read the summary, <b>let alone</b> the report.", "ar": "لم أقرأ الملخّص، ناهيك عن التقرير." }] },
+            { "w": "by and large", "pos": "expression", "ar": "في الجملة / عموماً", "ex": [{ "en": "<b>By and large</b>, the data holds up.", "ar": "في الجملة، تصمد البيانات." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "Listening: a newsroom disagreement",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "How to use this",
+          "html": "<b>1.</b> Once at 1.0× with no text. <b>2.</b> Again at 0.7× with the text. <b>3.</b> Shadow each line. <b>4.</b> Finally at 1.3×.<br><br>Count the discourse markers you hear.<span class=n-ar>مرّة بلا نصّ، ثمّ ببطء مع النصّ، ثمّ محاكاة، ثمّ بسرعة. وأحصِ روابط الخطاب التي تسمعها.</span>"
+        },
+        {
+          "type": "dialogue",
+          "title": "Do We Run It?",
+          "titleAr": "أننشره؟",
+          "lines": [
+            { "sp": "Editor", "en": "So where are we with the leak story?", "ar": "أين وصلنا في خبر التسريب؟" },
+            { "sp": "Yara", "en": "I've been chasing it since Tuesday. One source confirms it.", "ar": "أطارده منذ الثلاثاء. مصدرٌ واحد يؤكّده." },
+            { "sp": "Editor", "en": "One isn't enough. Has anyone corroborated it?", "ar": "واحدٌ لا يكفي. هل أيّده أحد؟" },
+            { "sp": "Yara", "en": "Not yet. However, the document itself looks genuine.", "ar": "ليس بعد. لكنّ الوثيقة نفسها تبدو أصليّة." },
+            { "sp": "Editor", "en": "Looks genuine isn't the same as verified.", "ar": "«تبدو أصليّة» ليست «موثّقة»." },
+            { "sp": "Yara", "en": "I know. That said, two other outlets are working on it.", "ar": "أعلم. ومع ذلك، ثمّة منبران آخران يعملان عليه." },
+            { "sp": "Editor", "en": "That's a reason to be careful, not a reason to rush.", "ar": "هذا سببٌ للحذر لا سببٌ للتعجّل." },
+            { "sp": "Yara", "en": "If they publish first, we lose the story.", "ar": "إن نشروا أوّلاً خسرنا الخبر." },
+            { "sp": "Editor", "en": "And if we publish something we can't substantiate, we lose our credibility.", "ar": "وإن نشرنا ما لا نستطيع دعمه بالأدلّة خسرنا مصداقيّتنا." },
+            { "sp": "Yara", "en": "Fair. What if we run the confirmed part only?", "ar": "كلامٌ منصف. ماذا لو نشرنا الجزء المؤكّد فقط؟" },
+            { "sp": "Editor", "en": "Now that's workable. Frame it carefully — no implied conclusions.", "ar": "هذا قابلٌ للتنفيذ. أطّريه بعناية — بلا استنتاجاتٍ ضمنيّة." },
+            { "sp": "Yara", "en": "Understood. I'll have a draft by four.", "ar": "مفهوم. سأجهّز مسوّدة بحلول الرابعة." },
+            { "sp": "Editor", "en": "And bear in mind the headline matters more than the piece.", "ar": "وضعي في اعتبارك أنّ العنوان أهمّ من المادّة نفسها." },
+            { "sp": "Yara", "en": "Because most people never get past it.", "ar": "لأنّ أكثر الناس لا يتجاوزونه." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Comprehension",
+          "qs": [
+            { "t": "mcq", "q": "How long has Yara been working on the story?", "opts": ["Since this morning", "Since Tuesday", "For a month", "Two hours"], "a": 1, "why": "<code dir=ltr>I've been chasing it since Tuesday</code>." },
+            { "t": "mcq", "q": "What does the editor insist on?", "opts": ["Publishing first", "Independent corroboration", "A longer piece", "A different reporter"], "a": 1, "why": "<code dir=ltr>Has anyone corroborated it?</code>" },
+            { "t": "mcq", "q": "Why is competition not a reason to rush?", "opts": ["Because the story is small", "Because losing credibility costs more than losing a scoop", "Because the editor is slow", "Because there is no deadline"], "a": 1, "why": "منطق المحرّر الصريح." },
+            { "t": "mcq", "q": "What compromise is reached?", "opts": ["Drop the story", "Publish only the confirmed part, framed carefully", "Wait a week", "Publish everything"], "a": 1, "why": "<code dir=ltr>run the confirmed part only</code>." },
+            { "t": "mcq", "q": "Why does the headline matter most?", "opts": ["It is longer", "Most people never read past it", "It is written last", "Editors judge it"], "a": 1, "why": "الجملة الأخيرة." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Dictation",
+          "qs": [
+            { "t": "dict", "say": "I've bin chasin id since Tuesday", "a": ["I've been chasing it since Tuesday", "I have been chasing it since Tuesday", "ive been chasing it since tuesday"], "why": "been → «بِن» وسقطت g وit تلتصق." },
+            { "t": "dict", "say": "Hazenyone corroborated it?", "a": ["Has anyone corroborated it?", "has anyone corroborated it"], "why": "has anyone تلتصق." },
+            { "t": "dict", "say": "Thut said, two other outlets are workin on it", "a": ["That said, two other outlets are working on it", "that said two other outlets are working on it"], "why": "that → «ثَت» مختلسة." },
+            { "t": "dict", "say": "Bear in mind the headline madders more", "a": ["Bear in mind the headline matters more", "bear in mind the headline matters more"], "why": "matters بـ d مرتدّة." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "Reading: the attention market",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "You Are Not the Customer",
+          "titleAr": "أنت لستَ الزبون",
+          "en": "There is an old observation about free services that has <b>been circulating</b> online for two decades: if you are not paying for the product, you are the product. It is neat, and like most neat phrases it is only partly true. A more precise version is that your attention is the product, and advertisers are the customers.<br><br>This changes what \"working well\" means for a platform. A newspaper that <b>has been losing</b> subscribers must publish work people will pay for. A platform funded by advertising must publish work people will look at — and those two things overlap far less than we assume. <b>Although</b> quality journalism does attract attention, so does outrage, and outrage is cheaper to produce.<br><br>The consequence is not a conspiracy; it is an incentive. Nobody at these companies decides to make people angry. The systems simply learn, from billions of small signals, which items keep people on the page longest, and those items are promoted. <b>Despite</b> repeated redesigns, the underlying arithmetic has not changed. <b>Nevertheless</b>, the picture is not hopeless: several outlets that moved to reader funding have seen both <b>credibility</b> and revenue recover. When the reader pays, the reader becomes the customer again — and what is measured quietly shifts from attention to trust.",
+          "ar": "ثمّة ملاحظةٌ قديمة عن الخدمات المجّانيّة تدور على الإنترنت منذ عقدين: إن لم تكن تدفع ثمن المنتَج فأنت المنتَج. وهي عبارةٌ أنيقة، وكأكثر العبارات الأنيقة ليست صحيحةً إلّا جزئيّاً. والصيغة الأدقّ أنّ <b>انتباهك</b> هو المنتَج، وأنّ المعلنين هم الزبائن.<br><br>وهذا يغيّر معنى «النجاح» لدى المنصّة. فالصحيفة التي تخسر مشتركيها لا بدّ أن تنشر عملاً يدفع الناس ثمنه. أمّا المنصّة المموّلة بالإعلان فلا بدّ أن تنشر عملاً ينظر إليه الناس — والأمران يتقاطعان أقلّ بكثير ممّا نفترض. فرغم أنّ الصحافة الجيّدة تجتذب الانتباه فعلاً، فكذلك يفعل الغضب، والغضب أرخص إنتاجاً.<br><br>والنتيجة ليست مؤامرة، بل حافزاً. فلا أحد في هذه الشركات يقرّر إغضاب الناس. إنّما تتعلّم الأنظمة من مليارات الإشارات الصغيرة أيّ الموادّ تُبقي الناس على الصفحة أطول، فتُروَّج تلك الموادّ. ورغم إعادات التصميم المتكرّرة، لم يتغيّر الحساب الكامن. ومع ذلك فالصورة ليست ميؤوساً منها: فعدّة منابر انتقلت إلى التمويل من القرّاء استعادت مصداقيّتها وإيرادها معاً. فحين يدفع القارئ يعود القارئ زبوناً — وينتقل ما يُقاس في هدوءٍ من الانتباه إلى الثقة.",
+          "keys": [["been circulating", "تدور/تنتشر"], ["has been losing", "تخسر منذ مدّة"], ["although", "رغم أنّ"], ["despite", "رغم"], ["nevertheless", "ومع ذلك"]]
+        },
+        {
+          "type": "quiz",
+          "title": "Comprehension",
+          "qs": [
+            { "t": "mcq", "q": "What is the more precise version of the old saying?", "opts": ["You are the product", "Your attention is the product and advertisers are the customers", "Free services are bad", "Advertising is the product"], "a": 1, "why": "الفقرة الأولى تصحّح العبارة الشائعة." },
+            { "t": "mcq", "q": "How do the incentives of a subscription paper and an ad-funded platform differ?", "opts": ["They are identical", "One needs work people pay for; the other needs work people look at", "One is online, one is print", "One is regulated"], "a": 1, "why": "المقارنة في الفقرة الثانية." },
+            { "t": "mcq", "q": "Why is outrage promoted?", "opts": ["Because editors like it", "Because it holds attention and is cheap to produce", "Because readers demand it", "Because of regulation"], "a": 1, "why": "<code dir=ltr>outrage is cheaper to produce</code>." },
+            { "t": "mcq", "q": "The writer says the result is…", "opts": ["a conspiracy", "an incentive, not a conspiracy", "an accident", "a legal problem"], "a": 1, "why": "<code dir=ltr>it is an incentive</code>." },
+            { "t": "mcq", "q": "What changes when readers pay directly?", "opts": ["Nothing", "The reader becomes the customer and trust replaces attention as the measure", "Prices rise", "Advertising increases"], "a": 1, "why": "الفقرة الأخيرة." },
+            { "t": "mcq", "q": "<code dir=ltr>underlying</code> here means…", "opts": ["obvious", "hidden beneath the surface", "recent", "financial"], "a": 1, "why": "استنتاج من السياق: الحساب الكامن الذي لم يتغيّر." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "discourse markers in speech",
+          "rows": [
+            { "w": "Having said that", "s": "Havin said that", "ar": "مع أنّني قلت ذلك" },
+            { "w": "To be fair", "s": "Ta be fair", "ar": "إنصافاً" },
+            { "w": "The thing is", "s": "The thing is", "ar": "المسألة هي" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "Functional language and pronunciation",
+      "subtitle": "Building and softening an argument",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "Structuring an argument",
+          "html": "<b>Open:</b> <code dir=ltr>It's often claimed that … · There's a common assumption that …</code><br><b>Concede:</b> <code dir=ltr>Admittedly, … · There is some truth in that, but …</code><br><b>Counter:</b> <code dir=ltr>However, … · What this overlooks is …</code><br><b>Support:</b> <code dir=ltr>A good example of this is … · Research suggests that …</code><br><b>Conclude:</b> <code dir=ltr>On balance, … · The key point is that …</code><span class=n-ar>هيكل الحجّة الإنجليزيّة: افتتاح ← تسليمٌ جزئيّ ← اعتراض ← دليل ← خلاصة. والتسليم الجزئيّ هو ما يجعل حجّتك تبدو ناضجة لا متعصّبة.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Hedging — sounding credible, not absolute",
+          "html": "In English, absolute claims sound weaker, not stronger. Educated speakers hedge:<br><br><code dir=ltr>It <b>tends to</b> … · It's <b>arguably</b> … · This <b>suggests</b> … · <b>To some extent</b>, … · <b>It seems that</b> …</code><br><br>Compare:<br>❌ <code dir=ltr>Social media destroys attention.</code><br>✅ <code dir=ltr>Social media <b>appears to</b> reduce sustained attention, <b>at least for</b> some users.</code><span class=n-ar>التحوّط علامة نضجٍ لا تردّد. والجزم المطلق في الإنجليزية يُضعف الحجّة ولا يقوّيها.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Don't say this",
+          "html": "❌ <code dir=ltr>In my point of view…</code> ✅ <code dir=ltr>From my point of view… / In my view…</code><br>❌ <code dir=ltr>Despite of the rain…</code> ✅ <code dir=ltr>Despite the rain… / In spite of the rain…</code><br>❌ <code dir=ltr>Although but it was late…</code> ✅ <code dir=ltr>Although it was late…</code><br>❌ <code dir=ltr>I am agree.</code> ✅ <code dir=ltr>I agree.</code><span class=n-ar>أربعة أخطاء عربيّة كلاسيكيّة — آخرها من أشهرها: agree فعلٌ لا صفة.</span>"
+        },
+        {
+          "type": "pron",
+          "title": "Pronunciation: stress shifts meaning",
+          "hint": "same spelling, different stress",
+          "rows": [
+            { "w": "CON·tent (اسم: محتوى)", "s": "con·TENT (صفة: راضٍ)", "ar": "النبر يفرّق" },
+            { "w": "PRO·test (اسم)", "s": "pro·TEST (فعل)", "ar": "القاعدة العامّة: الاسم على الأوّل" },
+            { "w": "IN·crease (اسم)", "s": "in·CREASE (فعل)", "ar": "كذلك" },
+            { "w": "SUS·pect (اسم)", "s": "sus·PECT (فعل)", "ar": "كذلك" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "argument phrases in speech",
+          "rows": [
+            { "w": "What this overlooks is", "s": "Wut this overlooks is", "ar": "ما يغفله هذا هو" },
+            { "w": "There is some truth in that", "s": "There's sum truth in that", "ar": "ثمّة شيءٌ من الصواب في ذلك" },
+            { "w": "On balance", "s": "On balance", "ar": "بميزان الأمور" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Practice",
+          "qs": [
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I am agree with you.</code>", "a": ["I agree with you", "I agree with you."], "why": "agree فعل." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Despite of the evidence, they refused.</code>", "a": ["Despite the evidence, they refused", "In spite of the evidence, they refused"], "why": "despite بلا of." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>In my point of view, it's wrong.</code>", "a": ["From my point of view, it's wrong", "In my view, it's wrong", "In my opinion, it's wrong"], "why": "from my point of view أو in my view." },
+            { "t": "mcq", "q": "Which sounds most credible in academic English?", "opts": ["Social media destroys attention.", "Social media appears to reduce sustained attention.", "Social media is terrible.", "Everyone knows social media is bad."], "a": 1, "why": "التحوّط يقوّي الحجّة." },
+            { "t": "mcq", "q": "Where is the stress in the verb <code dir=ltr>protest</code>?", "opts": ["first syllable", "second syllable", "equal", "no stress"], "a": 1, "why": "الأفعال تُنبر على الثاني عادةً." },
+            { "t": "order", "q": "رتّب:", "ws": ["There", "is", "some", "truth", "in", "that", "but"], "a": "There is some truth in that but", "why": "قالب التسليم الجزئيّ." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "Writing: an opinion piece",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "The task",
+          "prompt": "Write <b>110–130 words</b> arguing for or against this statement:<br><br><i>\"People should pay for news rather than getting it free.\"</i><br><br>Your piece must include:<br>• a present perfect continuous sentence<br>• at least three discourse markers (however · although · despite · nevertheless · therefore)<br>• one concession before your counter-argument<br>• hedged language rather than absolute claims<br>• a clear conclusion<span class=n-ar>اكتب ١١٠–١٣٠ كلمة مؤيّداً أو معارضاً العبارة، مع مضارع تامّ مستمرّ، وثلاثة روابط خطاب، وتسليمٍ جزئيّ قبل اعتراضك، ولغةٍ متحوّطة، وخاتمةٍ واضحة.</span>",
+          "phrases": [
+            "It's often claimed that …",
+            "Admittedly, … However, …",
+            "What this overlooks is …",
+            "Research suggests that …",
+            "Although … , …",
+            "Nevertheless, …",
+            "On balance, I would argue that …"
+          ],
+          "model": "It is often claimed that news should be free, because information is a public good. Admittedly, paywalls do exclude people who cannot afford them, and that is a real cost.\n\nHowever, what this argument overlooks is that free news is not actually free. Someone pays, and when advertisers pay, the product becomes attention rather than accuracy. Outlets have been chasing clicks for two decades, and the quality of public debate has arguably suffered as a result.\n\nAlthough subscriptions are not a complete solution, they do align the incentives: the reader becomes the customer again. Nevertheless, publishers should offer reduced rates for students and low-income readers.\n\nOn balance, I would argue that paying for news is the lesser of two problems.",
+          "modelAr": "كثيراً ما يُقال إنّ الأخبار ينبغي أن تكون مجّانيّة لأنّ المعلومة منفعةٌ عامّة. ومن المسلّم به أنّ جدران الدفع تُقصي من لا يقدرون عليها، وتلك كلفةٌ حقيقيّة.<br><br>غير أنّ ما تغفله هذه الحجّة أنّ الأخبار المجّانيّة ليست مجّانيّة فعلاً. فثمّة من يدفع، وحين يدفع المعلنون يصير المنتَج هو الانتباه لا الدقّة. وقد ظلّت المنابر تطارد النقرات عقدين، ويمكن القول إنّ جودة النقاش العامّ تضرّرت نتيجةً لذلك.<br><br>ورغم أنّ الاشتراكات ليست حلّاً كاملاً، فإنّها تُحاذي الحوافز: إذ يعود القارئ زبوناً. ومع ذلك ينبغي للناشرين أن يقدّموا أسعاراً مخفّضة للطلّاب ومحدودي الدخل.<br><br>وبميزان الأمور، أرى أنّ الدفع مقابل الأخبار هو أهون المشكلتين.",
+          "checklist": [
+            "I used one present perfect continuous sentence correctly",
+            "I used at least three different discourse markers",
+            "I conceded a point before countering it",
+            "I used despite + noun and although + clause correctly",
+            "I hedged instead of making absolute claims",
+            "I did not write 'I am agree' or 'despite of'",
+            "My conclusion states a clear position",
+            "110–130 words"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "written phrases said aloud",
+          "rows": [
+            { "w": "On balance I would argue", "s": "On balance I'd argue", "ar": "بميزان الأمور أرى" },
+            { "w": "What this overlooks", "s": "Wut this overlooks", "ar": "ما يغفله هذا" },
+            { "w": "as a result", "s": "az a result", "ar": "نتيجةً لذلك" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "Unit test",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "Unit 13 test",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>She's tired because she ___ all day.</code>", "opts": ["has worked", "has been working", "works", "worked"], "a": 1, "why": "نشاطٌ مستمرّ أثره ظاهر." },
+            { "t": "mcq", "q": "<code dir=ltr>I ___ three chapters so far.</code>", "opts": ["have been reading", "have read", "read", "am reading"], "a": 1, "why": "عددٌ محدّد ← بسيط تامّ." },
+            { "t": "mcq", "q": "<code dir=ltr>We ___ each other since school.</code>", "opts": ["have been knowing", "have known", "know", "are knowing"], "a": 1, "why": "فعل حالة." },
+            { "t": "mcq", "q": "<code dir=ltr>___ the delays, the project finished on time.</code>", "opts": ["Although", "Despite", "However", "Therefore"], "a": 1, "why": "قبل اسم ← Despite." },
+            { "t": "mcq", "q": "<code dir=ltr>___ it rained heavily, they continued.</code>", "opts": ["Despite", "Although", "In spite of", "Moreover"], "a": 1, "why": "قبل جملة ← Although." },
+            { "t": "mcq", "q": "<code dir=ltr>corroborate</code> means…", "opts": ["to deny", "to support with independent evidence", "to exaggerate", "to publish"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>cherry-pick</code> means…", "opts": ["to harvest", "to select only the data that suits you", "to choose randomly", "to reject"], "a": 1, "why": "انتقاءٌ منحاز." },
+            { "t": "mcq", "q": "<code dir=ltr>at face value</code> means…", "opts": ["at a discount", "accepting something as it appears", "in person", "at cost"], "a": 1, "why": "على ظاهره." },
+            { "t": "gap", "q": "<code dir=ltr>They ___ (negotiate) for three hours and still haven't agreed.</code>", "a": ["have been negotiating", "'ve been negotiating"], "why": "مدّة + استمرار." },
+            { "t": "gap", "q": "<code dir=ltr>The evidence was weak; ___ , the story was pulled.</code>", "a": ["therefore", "consequently"], "why": "نتيجة." },
+            { "t": "gap", "q": "<code dir=ltr>He ___ (believe) that for years.</code>", "a": ["has believed", "'s believed"], "why": "believe فعل حالة." },
+            { "t": "gap", "q": "<code dir=ltr>___ the criticism, sales rose.</code>", "a": ["Despite", "In spite of"], "why": "قبل اسم." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I am agree with that point.</code>", "a": ["I agree with that point", "I agree with that point."], "why": "agree فعل." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Despite of the noise, I slept well.</code>", "a": ["Despite the noise, I slept well", "In spite of the noise, I slept well"], "why": "بلا of." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I have been owning this car since 2020.</code>", "a": ["I have owned this car since 2020", "I've owned this car since 2020"], "why": "own فعل حالة." },
+            { "t": "order", "q": "رتّب:", "ws": ["I", "have", "been", "waiting", "for", "an", "answer"], "a": "I have been waiting for an answer", "why": "have been + ing." },
+            { "t": "order", "q": "رتّب:", "ws": ["There", "is", "some", "truth", "in", "that", "however"], "a": "There is some truth in that however", "why": "تسليمٌ ثمّ اعتراض." },
+            { "t": "dict", "say": "I've bin tryin ta reach you all day", "a": ["I've been trying to reach you all day", "I have been trying to reach you all day", "ive been trying to reach you all day"], "why": "been → «بِن»، وسقطت g، وto → «تَ»." },
+            { "t": "dict", "say": "Whadav ya bin doin?", "a": ["What have you been doing?", "what have you been doing"], "why": "what have you → «وادَڤ يَ»." },
+            { "t": "mcq", "q": "Where is the stress in the noun <code dir=ltr>content</code>?", "opts": ["first syllable", "second syllable", "equal", "no stress"], "a": 0, "why": "الاسم على الأوّل، والصفة على الثاني." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "The Guardian / NYT opinion columns", "d": "مقالات رأي مكتوبة بلغة B2 مليئة بروابط الخطاب", "task": "اقرأ مقالاً، وسجّل عشرة روابط خطابٍ في سياقها." },
+            { "t": "بودكاست تحليل إعلاميّ", "d": "ابحث عن «media analysis podcast» أو «On the Media»", "task": "استمع خمس عشرة دقيقة، وسجّل خمس جملٍ بالمضارع التامّ المستمرّ." },
+            { "t": "نقاشات ومناظرات", "d": "ابحث عن «Intelligence Squared debate»", "task": "لاحظ كيف يبدأ المتحدّثون بالتسليم الجزئيّ قبل الاعتراض." }
+          ]
+        }
+      ]
+    }
+  ]
+}
