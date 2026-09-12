@@ -1,0 +1,373 @@
+{
+  "id": "unit-14",
+  "icon": "🌍",
+  "title": "البيئة والمناخ",
+  "subtitle": "The passive across all tenses",
+  "intro": "In unit 10 you met the simple passive. Here you extend it to every tense, and meet the reporting passive that dominates scientific and news writing.<span class=n-ar>في الوحدة العاشرة تعلّمتَ المبنيّ للمجهول البسيط. وهنا تمدّه إلى كلّ الأزمنة، وتتعلّم صيغة الإسناد التي تسيطر على الكتابة العلميّة والإخباريّة.</span>",
+  "goals": [
+    "I can form the passive in any tense",
+    "I can use reporting passives (It is said that…)",
+    "I can discuss environmental issues with precision",
+    "I can describe processes and causes"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "The passive across tenses",
+      "subtitle": "be + past participle, in every form",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "The full table",
+          "html": "The rule never changes: <b>be + past participle</b>. Only <i>be</i> moves.<br><br><table><tr><td>Present simple</td><td dir=ltr>It <b>is done</b>.</td></tr><tr><td>Present continuous</td><td dir=ltr>It <b>is being done</b>.</td></tr><tr><td>Past simple</td><td dir=ltr>It <b>was done</b>.</td></tr><tr><td>Past continuous</td><td dir=ltr>It <b>was being done</b>.</td></tr><tr><td>Present perfect</td><td dir=ltr>It <b>has been done</b>.</td></tr><tr><td>Past perfect</td><td dir=ltr>It <b>had been done</b>.</td></tr><tr><td>Future</td><td dir=ltr>It <b>will be done</b>.</td></tr><tr><td>Modal</td><td dir=ltr>It <b>must be done</b>.</td></tr><tr><td>Modal perfect</td><td dir=ltr>It <b>should have been done</b>.</td></tr></table><span class=n-ar>القاعدة ثابتة: be + التصريف الثالث. ولا يتغيّر إلّا شكل be بحسب الزمن.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Infinitive and -ing passives",
+          "html": "<code dir=ltr>to be done</code> — <code dir=ltr>The road needs <b>to be repaired</b>.</code><br><code dir=ltr>being done</code> — <code dir=ltr>I hate <b>being interrupted</b>.</code><br><br>Also very common: <code dir=ltr><b>get</b> + past participle</code> in spoken English:<br><code dir=ltr>My bike <b>got stolen</b>.</code> (more informal than <i>was stolen</i>)<span class=n-ar>صيغتان إضافيّتان: to be done و being done. وفي الكلام يكثر get + التصريف الثالث بدل be.</span>"
+        },
+        {
+          "type": "note",
+          "title": "The reporting passive — the mark of formal writing",
+          "html": "When you report a widely held view without naming who holds it:<br><br><code dir=ltr><b>It is said that</b> emissions have peaked.</code><br><code dir=ltr><b>It is believed that</b> the data was incomplete.</code><br><code dir=ltr><b>It has been argued that</b> the target is unrealistic.</code><br><br>There is a second form that moves the subject forward:<br><code dir=ltr>Emissions <b>are said to have</b> peaked.</code><br><code dir=ltr>The species <b>is thought to be</b> extinct.</code><br><br>Common verbs: <code dir=ltr>say · believe · think · report · claim · expect · know · consider</code><span class=n-ar>صيغة الإسناد: It is said that… أو Emissions are said to have… وهي علامة الكتابة الرسميّة والعلميّة.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Two traps",
+          "html": "<b>1. Two objects, two possible passives:</b><br><code dir=ltr>They gave <b>him</b> <b>a prize</b>.</code><br>→ <code dir=ltr><b>He was given</b> a prize.</code> (more natural)<br>→ <code dir=ltr>A prize <b>was given to</b> him.</code><br><br><b>2. Don't stack passives needlessly.</b> Formal does not mean heavy:<br>❌ <code dir=ltr>It was decided that it should be arranged that the meeting be postponed.</code><br>✅ <code dir=ltr>The meeting was postponed.</code><span class=n-ar>فخّان: الفعل ذو المفعولين له مبنيّان للمجهول، والأشيع أن يتصدّر الشخص. والثاني: لا تُكدّس المجهول — فالرسميّ ليس الثقيل.</span>"
+        },
+        {
+          "type": "examples",
+          "title": "Listen and compare",
+          "rows": [
+            { "en": "The report <b>is being reviewed</b> at the moment.", "ar": "تجري مراجعة التقرير الآن." },
+            { "en": "The forest <b>had been cleared</b> before the law changed.", "ar": "كانت الغابة قد أُزيلت قبل تغيّر القانون." },
+            { "en": "Targets <b>will be reviewed</b> every five years.", "ar": "ستُراجَع الأهداف كلّ خمس سنوات." },
+            { "en": "This <b>should have been addressed</b> years ago.", "ar": "كان ينبغي معالجة هذا قبل سنوات." },
+            { "en": "<b>It is estimated that</b> a third of food is wasted.", "ar": "يُقدَّر أنّ ثلث الطعام يُهدَر." },
+            { "en": "Sea levels <b>are expected to rise</b> by 2050.", "ar": "يُتوقّع أن ترتفع مستويات البحار بحلول ٢٠٥٠." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "been is almost never stressed",
+          "rows": [
+            { "w": "It has been done", "s": "It's bin done", "ar": "أُنجز" },
+            { "w": "It is being reviewed", "s": "It's bein reviewd", "ar": "تجري مراجعته" },
+            { "w": "It should have been fixed", "s": "It shoulda bin fixd", "ar": "كان ينبغي إصلاحه" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Practice",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>The bridge ___ at the moment.</code>", "opts": ["is repaired", "is being repaired", "has repaired", "was repairing"], "a": 1, "why": "مضارع مستمرّ مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>The results ___ by Friday.</code>", "opts": ["will publish", "will be published", "will been published", "are publish"], "a": 1, "why": "مستقبل مجهول: will be + التصريف الثالث." },
+            { "t": "mcq", "q": "<code dir=ltr>The decision ___ before we arrived.</code>", "opts": ["was made", "had been made", "has made", "is made"], "a": 1, "why": "سابقٌ على ماضٍ ← ماضٍ تامّ مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>___ that the glacier is shrinking.</code>", "opts": ["It says", "It is said", "They said it", "Is said"], "a": 1, "why": "صيغة الإسناد." },
+            { "t": "mcq", "q": "<code dir=ltr>The species ___ to be extinct.</code>", "opts": ["is thought", "thinks", "is thinking", "has thought"], "a": 0, "why": "الصيغة الثانية للإسناد." },
+            { "t": "gap", "q": "<code dir=ltr>The samples ___ (test) since Monday.</code>", "a": ["have been tested"], "why": "مضارع تامّ مجهول." },
+            { "t": "gap", "q": "<code dir=ltr>This problem ___ (must / solve) urgently.</code>", "a": ["must be solved"], "why": "ناقص + be + التصريف الثالث." },
+            { "t": "gap", "q": "<code dir=ltr>The road needs ___ (repair).</code>", "a": ["to be repaired", "repairing"], "why": "مصدرٌ مجهول أو ing." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The results will published tomorrow.</code>", "a": ["The results will be published tomorrow", "The results will be published tomorrow."], "why": "ينقص be." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>It is believe that the data is wrong.</code>", "a": ["It is believed that the data is wrong", "It is believed that the data is wrong."], "why": "التصريف الثالث believed." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The forest has been cut down by them last year.</code>", "a": ["The forest was cut down last year", "They cut down the forest last year"], "why": "زمنٌ محدّد ← ماضٍ بسيط، وby them بلا فائدة." },
+            { "t": "order", "q": "رتّب:", "ws": ["It", "is", "estimated", "that", "a", "third", "is", "wasted"], "a": "It is estimated that a third is wasted", "why": "صيغة الإسناد." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "Vocabulary: environment and change",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "Climate and impact",
+          "items": [
+            { "w": "emissions", "pos": "noun", "ar": "انبعاثات", "ex": [{ "en": "<b>Emissions</b> have been falling since 2019.", "ar": "تنخفض الانبعاثات منذ ٢٠١٩." }] },
+            { "w": "carbon footprint", "pos": "noun", "ar": "البصمة الكربونيّة", "ex": [{ "en": "Flying doubles your <b>carbon footprint</b>.", "ar": "الطيران يضاعف بصمتك الكربونيّة." }] },
+            { "w": "renewable", "pos": "adjective", "ar": "متجدّد", "ex": [{ "en": "Most of the grid is now <b>renewable</b>.", "ar": "أكثر الشبكة الآن متجدّدة." }] },
+            { "w": "deplete", "pos": "verb", "ar": "يستنزف", "ex": [{ "en": "Groundwater is being <b>depleted</b> rapidly.", "ar": "تُستنزف المياه الجوفيّة سريعاً." }] },
+            { "w": "degrade", "pos": "verb", "ar": "يتدهور / يُتلف", "ex": [{ "en": "The soil has been <b>degraded</b> by overuse.", "ar": "تدهورت التربة بفرط الاستعمال." }] },
+            { "w": "offset", "pos": "verb / noun", "ar": "يعوّض / تعويض", "ex": [{ "en": "Planting trees can <b>offset</b> some emissions.", "ar": "غرس الأشجار قد يعوّض بعض الانبعاثات." }] },
+            { "w": "phase out", "pos": "phrasal verb", "ar": "يُلغي تدريجيّاً", "ex": [{ "en": "Coal is being <b>phased out</b> across Europe.", "ar": "يُلغى الفحم تدريجيّاً في أوروبا." }] },
+            { "w": "tipping point", "pos": "noun", "ar": "نقطة اللاعودة", "ex": [{ "en": "Scientists warn of a <b>tipping point</b>.", "ar": "يحذّر العلماء من نقطة لا عودة." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Action and policy",
+          "items": [
+            { "w": "sustainable", "pos": "adjective", "ar": "مستدام", "ex": [{ "en": "It isn't <b>sustainable</b> in the long run.", "ar": "إنّه غير مستدام على المدى الطويل." }] },
+            { "w": "implement", "pos": "verb", "ar": "ينفّذ سياسةً أو خطّة", "ex": [{ "en": "The policy was <b>implemented</b> last year.", "ar": "نُفّذت السياسة العام الماضي." }] },
+            { "w": "enforce", "pos": "verb", "ar": "يُنفِذ القانون ويُلزم به", "ex": [{ "en": "The rules are rarely <b>enforced</b>.", "ar": "نادراً ما تُطبَّق القواعد." }] },
+            { "w": "incentive", "pos": "noun", "ar": "حافز", "ex": [{ "en": "Subsidies create the wrong <b>incentives</b>.", "ar": "تخلق الإعانات حوافز خاطئة." }] },
+            { "w": "regulate", "pos": "verb", "ar": "ينظّم بقوانين", "ex": [{ "en": "The industry is barely <b>regulated</b>.", "ar": "القطاع بالكاد منظَّم." }] },
+            { "w": "scale up", "pos": "phrasal verb", "ar": "يوسّع النطاق", "ex": [{ "en": "The trial will be <b>scaled up</b> next year.", "ar": "سيُوسَّع نطاق التجربة العام المقبل." }] },
+            { "w": "cut back on", "pos": "phrasal verb", "ar": "يقلّص", "ex": [{ "en": "We've <b>cut back on</b> single-use plastic.", "ar": "قلّصنا البلاستيك أحاديّ الاستعمال." }] },
+            { "w": "greenwashing", "pos": "noun", "ar": "تلميع بيئيّ زائف", "ex": [{ "en": "Critics called the campaign <b>greenwashing</b>.", "ar": "وصف النقّاد الحملة بالتلميع البيئيّ." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "Cause and process",
+          "items": [
+            { "w": "contribute to", "pos": "verb", "ar": "يسهم في", "ex": [{ "en": "Transport <b>contributes to</b> a quarter of emissions.", "ar": "يسهم النقل بربع الانبعاثات." }] },
+            { "w": "result in", "pos": "verb", "ar": "يؤدّي إلى", "ex": [{ "en": "Deforestation <b>results in</b> soil loss.", "ar": "تؤدّي إزالة الغابات إلى فقدان التربة." }] },
+            { "w": "stem from", "pos": "phrasal verb", "ar": "ينبع من", "ex": [{ "en": "The problem <b>stems from</b> poor planning.", "ar": "تنبع المشكلة من سوء التخطيط." }] },
+            { "w": "be attributed to", "pos": "expression", "ar": "يُعزى إلى", "ex": [{ "en": "The rise <b>is attributed to</b> warmer oceans.", "ar": "يُعزى الارتفاع إلى دفء المحيطات." }] },
+            { "w": "knock-on effect", "pos": "noun", "ar": "أثرٌ متسلسل", "ex": [{ "en": "There's a <b>knock-on effect</b> on food prices.", "ar": "ثمّة أثرٌ متسلسل على أسعار الغذاء." }] },
+            { "w": "trade-off", "pos": "noun", "ar": "مقايضة بين مكسبٍ وخسارة", "ex": [{ "en": "Every solution involves a <b>trade-off</b>.", "ar": "كلّ حلٍّ ينطوي على مقايضة." }] },
+            { "w": "in the long run", "pos": "expression", "ar": "على المدى الطويل", "ex": [{ "en": "It's cheaper <b>in the long run</b>.", "ar": "إنّه أرخص على المدى الطويل." }] },
+            { "w": "at stake", "pos": "expression", "ar": "على المحكّ", "ex": [{ "en": "A lot is <b>at stake</b> here.", "ar": "ثمّة الكثير على المحكّ هنا." }] },
+            { "w": "bear the brunt of", "pos": "idiom", "ar": "يتحمّل الوطأة الكبرى من", "ex": [{ "en": "Poorer regions <b>bear the brunt of</b> it.", "ar": "تتحمّل المناطق الأفقر وطأته الكبرى." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "Listening: a community meeting",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "How to use this",
+          "html": "<b>1.</b> 1.0× no text. <b>2.</b> 0.7× with text. <b>3.</b> Shadow. <b>4.</b> 1.3×.<br><br>Count the passive forms — there are more than ten.<span class=n-ar>أحصِ صيغ المبنيّ للمجهول — فيها أكثر من عشر.</span>"
+        },
+        {
+          "type": "dialogue",
+          "title": "The New Recycling Scheme",
+          "titleAr": "خطّة إعادة التدوير الجديدة",
+          "lines": [
+            { "sp": "Chair", "en": "Right. The new scheme will be introduced in April.", "ar": "حسناً. ستُطبَّق الخطّة الجديدة في نيسان." },
+            { "sp": "Resident", "en": "Why wasn't it discussed with us first?", "ar": "لمَ لم تُناقَش معنا أوّلاً؟" },
+            { "sp": "Chair", "en": "It was, actually. Notices were sent out in January.", "ar": "نوقشت في الحقيقة. أُرسلت الإشعارات في كانون الثاني." },
+            { "sp": "Resident", "en": "I never got one.", "ar": "لم يصلني واحد." },
+            { "sp": "Chair", "en": "Some were clearly not delivered. That's being looked into.", "ar": "من الواضح أنّ بعضها لم يُسلَّم. ويجري التحرّي في ذلك." },
+            { "sp": "Resident 2", "en": "What happens to the old bins?", "ar": "ماذا يحدث للحاويات القديمة؟" },
+            { "sp": "Chair", "en": "They'll be collected and recycled. Nothing will be sent to landfill.", "ar": "ستُجمع وتُعاد تدويرها. ولن يُرسل شيء إلى المكبّ." },
+            { "sp": "Resident 2", "en": "It's said that these schemes rarely work.", "ar": "يُقال إنّ هذه الخطط نادراً ما تنجح." },
+            { "sp": "Chair", "en": "In some towns, yes. But they weren't enforced properly.", "ar": "في بعض البلدات نعم. لكنّها لم تُطبَّق كما ينبغي." },
+            { "sp": "Resident", "en": "So this one will be?", "ar": "وهذه ستُطبَّق؟" },
+            { "sp": "Chair", "en": "Inspections have already been scheduled for the first six months.", "ar": "جُدولت عمليّات التفتيش بالفعل للأشهر الستّة الأولى." },
+            { "sp": "Resident 2", "en": "And if people don't comply?", "ar": "وإن لم يمتثل الناس؟" },
+            { "sp": "Chair", "en": "Warnings first. Fines only after three.", "ar": "تحذيرات أوّلاً. والغرامات بعد ثلاثة فقط." },
+            { "sp": "Resident", "en": "That seems fair, to be honest.", "ar": "يبدو منصفاً بصراحة." },
+            { "sp": "Chair", "en": "It should have been explained better from the start. That's on us.", "ar": "كان ينبغي شرحه أفضل من البداية. وهذه مسؤوليّتنا." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Comprehension",
+          "qs": [
+            { "t": "mcq", "q": "When will the scheme start?", "opts": ["January", "April", "June", "Next year"], "a": 1, "why": "<code dir=ltr>will be introduced in April</code>." },
+            { "t": "mcq", "q": "Why did one resident not hear about it?", "opts": ["He was away", "Some notices were not delivered", "There were no notices", "He ignored it"], "a": 1, "why": "<code dir=ltr>Some were clearly not delivered</code>." },
+            { "t": "mcq", "q": "What will happen to the old bins?", "opts": ["Landfill", "Collected and recycled", "Sold", "Kept"], "a": 1, "why": "<code dir=ltr>collected and recycled</code>." },
+            { "t": "mcq", "q": "Why did similar schemes fail elsewhere?", "opts": ["Too expensive", "They weren't enforced properly", "No bins", "Bad weather"], "a": 1, "why": "<code dir=ltr>they weren't enforced properly</code>." },
+            { "t": "mcq", "q": "What does the chair admit at the end?", "opts": ["The scheme is flawed", "It should have been explained better from the start", "Fines are unfair", "They will delay it"], "a": 1, "why": "الجملة الأخيرة — مبنيّ للمجهول مع ناقصٍ تامّ." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Dictation",
+          "qs": [
+            { "t": "dict", "say": "Notices wer sent oud in January", "a": ["Notices were sent out in January", "notices were sent out in january"], "why": "were → «وَر» · sent out تلتصق بـ d." },
+            { "t": "dict", "say": "Thas bein lookd into", "a": ["That's being looked into", "thats being looked into"], "why": "that's تفقد t، وlooked → t." },
+            { "t": "dict", "say": "Nothin will be sent ta landfill", "a": ["Nothing will be sent to landfill", "nothing will be sent to landfill"], "why": "سقطت g، وto → «تَ»." },
+            { "t": "dict", "say": "It shoulda bin explaind bedder", "a": ["It should have been explained better", "it should have been explained better"], "why": "shoulda = should have · been → «بِن» · better بـ d." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "Reading: the individual and the system",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "Who Is the Carbon Footprint For?",
+          "titleAr": "لمن صُنعت البصمة الكربونيّة؟",
+          "en": "The phrase <b>carbon footprint</b> feels like a scientific term, but it was popularised by an advertising campaign. In 2004, a major oil company launched a personal footprint calculator, encouraging individuals to measure their own contribution to climate change. The campaign <b>is now widely regarded</b> as one of the most effective pieces of public relations of the century, because it quietly moved the question from <i>what are producers doing?</i> to <i>what are you doing?</i><br><br>This does not mean individual action is pointless. Diet, flying and home heating genuinely matter, and cultural change usually starts with people who act before it is convenient. But the arithmetic is uncomfortable: it <b>has been estimated</b> that just one hundred companies are responsible for the majority of industrial emissions since 1988. A household that <b>is asked</b> to fix this with reusable bags <b>is being handed</b> a problem it cannot solve.<br><br>The more useful framing may be that individuals have two kinds of power, and only one of them is consumption. The other is citizenship — how you vote, what you demand of employers, what you normalise among people who know you. Policies <b>are rarely introduced</b> before they are popular, and they become popular when enough ordinary people behave as though they already were. In that sense, changing your own habits is not the solution; it is how the solution eventually <b>gets passed</b>.",
+          "ar": "تبدو عبارة «البصمة الكربونيّة» مصطلحاً علميّاً، لكنّ الذي شاع بها حملةٌ إعلانيّة. ففي عام ٢٠٠٤ أطلقت شركة نفطٍ كبرى حاسبةً للبصمة الشخصيّة، تشجّع الأفراد على قياس إسهامهم في تغيّر المناخ. وتُعدّ الحملة اليوم على نطاقٍ واسع من أنجع أعمال العلاقات العامّة في القرن، لأنّها نقلت السؤال في هدوءٍ من «ماذا يفعل المنتجون؟» إلى «ماذا تفعل أنت؟».<br><br>ولا يعني هذا أنّ الفعل الفرديّ بلا جدوى. فالغذاء والطيران وتدفئة المنزل تهمّ حقّاً، والتغيّر الثقافيّ يبدأ عادةً بمن يتصرّفون قبل أن يصير التصرّف مريحاً. لكنّ الحساب مزعج: فقد قُدّر أنّ مئة شركةٍ فقط مسؤولة عن أغلب الانبعاثات الصناعيّة منذ ١٩٨٨. والأسرة التي يُطلب إليها إصلاح هذا بأكياسٍ قابلة لإعادة الاستعمال إنّما تُسلَّم مشكلةً لا تستطيع حلّها.<br><br>ولعلّ التأطير الأنفع أنّ للأفراد نوعين من القوّة، وأنّ الاستهلاك واحدٌ منهما فقط. أمّا الآخر فهو المواطنة — كيف تصوّت، وماذا تطالب به أرباب العمل، وما الذي تجعله مألوفاً بين من يعرفونك. فالسياسات نادراً ما تُسنّ قبل أن تصير شعبيّة، وهي تصير شعبيّة حين يتصرّف عددٌ كافٍ من الناس العاديّين وكأنّها كذلك أصلاً. وبهذا المعنى، ليس تغيير عاداتك هو الحلّ؛ بل هو الطريقة التي يُمرَّر بها الحلّ في نهاية المطاف.",
+          "keys": [["carbon footprint", "البصمة الكربونيّة"], ["is regarded", "يُعدّ"], ["has been estimated", "قُدّر"], ["is being handed", "تُسلَّم"], ["gets passed", "يُمرَّر"]]
+        },
+        {
+          "type": "quiz",
+          "title": "Comprehension",
+          "qs": [
+            { "t": "mcq", "q": "Where did the phrase 'carbon footprint' become popular?", "opts": ["A scientific journal", "An oil company's advertising campaign", "A UN report", "A university study"], "a": 1, "why": "<code dir=ltr>popularised by an advertising campaign</code>." },
+            { "t": "mcq", "q": "Why was the campaign so effective?", "opts": ["It was funny", "It shifted the question from producers to individuals", "It was cheap", "It used science"], "a": 1, "why": "<code dir=ltr>moved the question</code>." },
+            { "t": "mcq", "q": "Does the writer say individual action is pointless?", "opts": ["Yes", "No — but it cannot solve the problem alone", "Only for flying", "Only for diet"], "a": 1, "why": "<code dir=ltr>This does not mean individual action is pointless</code>." },
+            { "t": "mcq", "q": "What are the two kinds of individual power?", "opts": ["Money and time", "Consumption and citizenship", "Voting and recycling", "Work and family"], "a": 1, "why": "الفقرة الأخيرة." },
+            { "t": "mcq", "q": "When do policies get introduced, according to the text?", "opts": ["Before they are popular", "Rarely before they are popular", "Only in elections", "Never"], "a": 1, "why": "<code dir=ltr>rarely introduced before they are popular</code>." },
+            { "t": "mcq", "q": "<code dir=ltr>normalise</code> here means…", "opts": ["to standardise numbers", "to make something seem ordinary and accepted", "to reduce", "to regulate"], "a": 1, "why": "استنتاج من السياق." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "reporting passives in speech",
+          "rows": [
+            { "w": "It is said that", "s": "It's sed thut", "ar": "يُقال إنّ" },
+            { "w": "It has been estimated", "s": "It's bin estimaded", "ar": "قُدّر" },
+            { "w": "They are expected to rise", "s": "They're expected ta rise", "ar": "يُتوقّع أن ترتفع" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "Functional language and pronunciation",
+      "subtitle": "Describing processes and causes",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "Describing a process",
+          "html": "The passive is the natural voice for processes, because the agent is irrelevant:<br><br><code dir=ltr>First, the waste <b>is collected</b>. It <b>is then sorted</b> by hand. Once the metals <b>have been removed</b>, the rest <b>is compressed</b> and <b>transported</b> to the plant.</code><br><br><b>Sequencing:</b> <code dir=ltr>First · Then · Next · After that · Once … has been … · Finally</code><span class=n-ar>المبنيّ للمجهول هو الصوت الطبيعيّ لوصف العمليّات، لأنّ الفاعل غير مهمّ.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Cause and effect language",
+          "html": "<table><tr><td><b>Cause → effect</b></td><td dir=ltr>leads to · results in · causes · contributes to · gives rise to</td></tr><tr><td><b>Effect ← cause</b></td><td dir=ltr>is caused by · stems from · is attributed to · arises from</td></tr><tr><td><b>Degree</b></td><td dir=ltr>a major factor · partly responsible · largely due to</td></tr></table><br>⚠️ Be careful with certainty:<br><code dir=ltr>X <b>causes</b> Y</code> = strong claim<br><code dir=ltr>X <b>is associated with</b> Y</code> = correlation only<span class=n-ar>انتبه للفرق بين السببيّة والارتباط — وهو فرقٌ يخطئ فيه كثيرون حتى في العربية.</span>"
+        },
+        {
+          "type": "note",
+          "title": "Don't say this",
+          "html": "❌ <code dir=ltr>It is depend on…</code> ✅ <code dir=ltr>It depends on…</code><br>❌ <code dir=ltr>The pollution is effected by…</code> ✅ <code dir=ltr>… is <b>affected</b> by…</code> (affect فعل · effect اسم)<br>❌ <code dir=ltr>This lead to problems.</code> ✅ <code dir=ltr>This <b>leads</b> to problems.</code><br>❌ <code dir=ltr>Researches show…</code> ✅ <code dir=ltr><b>Research shows</b>…</code> (غير معدودة)<span class=n-ar>أربعة أخطاء متكرّرة، وأخطرها الخلط بين affect وeffect، وجمع research.</span>"
+        },
+        {
+          "type": "pron",
+          "title": "Pronunciation: -ed endings after passives",
+          "hint": "the same three rules as unit 2",
+          "rows": [
+            { "w": "was washed / passed", "s": "t صافية", "ar": "بعد مهموس" },
+            { "w": "was cleaned / used", "s": "d مجهورة", "ar": "بعد مجهور أو حركة" },
+            { "w": "was collected / wasted", "s": "id مقطع كامل", "ar": "بعد t أو d" },
+            { "w": "affected", "s": "uh-FEK-tid", "ar": "النبر على الثاني" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "process language in speech",
+          "rows": [
+            { "w": "It is then sorted by hand", "s": "It's then sorded by hand", "ar": "ثمّ يُفرز يدويّاً" },
+            { "w": "Once it has been removed", "s": "Wunce it's bin removd", "ar": "متى أُزيل" },
+            { "w": "largely due to", "s": "largely due ta", "ar": "يعود في أغلبه إلى" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "Practice",
+          "qs": [
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Researches show that emissions are falling.</code>", "a": ["Research shows that emissions are falling", "Research shows that emissions are falling."], "why": "research غير معدودة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The crops were effected by the drought.</code>", "a": ["The crops were affected by the drought", "The crops were affected by the drought."], "why": "affect فعل، وeffect اسم." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>This lead to higher costs.</code>", "a": ["This leads to higher costs", "This leads to higher costs."], "why": "المفرد الغائب يأخذ s." },
+            { "t": "mcq", "q": "Which claims causation, not just correlation?", "opts": ["X is associated with Y", "X is linked to Y", "X causes Y", "X occurs alongside Y"], "a": 2, "why": "cause ادّعاءٌ أقوى." },
+            { "t": "mcq", "q": "How is <code dir=ltr>collected</code> pronounced?", "opts": ["t", "d", "id مقطعاً كاملاً", "صامتة"], "a": 2, "why": "بعد t تُنطق مقطعاً كاملاً." },
+            { "t": "order", "q": "رتّب:", "ws": ["Once", "the", "metals", "have", "been", "removed"], "a": "Once the metals have been removed", "why": "مضارع تامّ مجهول في جملة زمنيّة." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "Writing: a proposal",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "The task",
+          "prompt": "Write a <b>110–130 word</b> proposal to your workplace or university suggesting one environmental change. It must include:<br><br>• at least four passive forms in <b>different</b> tenses<br>• one reporting passive (<code dir=ltr>It is estimated that… / are expected to…</code>)<br>• cause-and-effect language<br>• an honest mention of a trade-off<br>• a clear next step<span class=n-ar>اكتب مقترحاً من ١١٠–١٣٠ كلمة، بأربع صيغ مجهولة في أزمنةٍ مختلفة، وصيغة إسنادٍ واحدة، ولغة سببٍ ونتيجة، واعترافٍ صريح بمقايضة، وخطوةٍ تالية واضحة.</span>",
+          "phrases": [
+            "I would like to propose that …",
+            "At present, … is / are …",
+            "It is estimated that …",
+            "This would result in …",
+            "Admittedly, there is a trade-off: …",
+            "A trial could be scaled up if …",
+            "I would be happy to coordinate this."
+          ],
+          "model": "I would like to propose that disposable cups be phased out in the staff canteen.\n\nAt present, around four hundred cups are used every day and almost none are recycled. It is estimated that this produces over a tonne of waste a year. If reusable cups were introduced, most of that waste would be eliminated within a month.\n\nAdmittedly, there is a trade-off: washing facilities would have to be installed, and some staff will find the change inconvenient at first. However, similar schemes have been implemented successfully in two nearby offices, and the equipment costs were recovered in under a year.\n\nI would suggest a three-month trial on one floor. If it works, it could be scaled up. I would be happy to coordinate this.",
+          "modelAr": "أودّ أن أقترح إلغاء الأكواب المستعملة مرّةً واحدة تدريجيّاً في مقصف الموظّفين.<br><br>يُستعمل حاليّاً نحو أربعمئة كوبٍ يوميّاً، ولا يكاد يُعاد تدوير شيءٍ منها. ويُقدَّر أنّ هذا ينتج أكثر من طنٍّ من النفايات سنويّاً. ولو أُدخلت أكواب قابلة لإعادة الاستعمال، لأُزيل أكثر ذلك النفايات خلال شهر.<br><br>ومن المسلّم به أنّ ثمّة مقايضة: فسيتعيّن تركيب مرافق غسل، وسيجد بعض الموظّفين التغيير غير مريحٍ في البداية. غير أنّ خططاً مشابهة نُفّذت بنجاحٍ في مكتبين قريبين، واستُردّت تكاليف المعدّات في أقلّ من عام.<br><br>وأقترح تجربةً لثلاثة أشهر في طابقٍ واحد. فإن نجحت أمكن توسيع نطاقها. ويسعدني تنسيق ذلك.",
+          "checklist": [
+            "I used four passives in four different tenses",
+            "I used one reporting passive (It is estimated that…)",
+            "I used cause-and-effect language correctly",
+            "I did not confuse affect and effect",
+            "I did not write 'researches' or 'informations'",
+            "I admitted a genuine trade-off",
+            "I ended with a concrete next step",
+            "110–130 words"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 Your ear today",
+          "hint": "proposal phrases said aloud",
+          "rows": [
+            { "w": "I would like to propose that", "s": "I'd like ta propose thut", "ar": "أودّ أن أقترح أنّ" },
+            { "w": "It could be scaled up", "s": "It could be scaled up", "ar": "يمكن توسيع نطاقه" },
+            { "w": "I would be happy to coordinate", "s": "I'd be happy ta coordinate", "ar": "يسعدني التنسيق" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "Unit test",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "Unit 14 test",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>The results ___ at the moment.</code>", "opts": ["are analysed", "are being analysed", "have analysed", "were analysing"], "a": 1, "why": "مضارع مستمرّ مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>The law ___ before the election.</code>", "opts": ["was passed", "had been passed", "has passed", "is passed"], "a": 1, "why": "سابقٌ على ماضٍ ← ماضٍ تامّ مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>The target ___ by 2030.</code>", "opts": ["will meet", "will be met", "will been met", "is meet"], "a": 1, "why": "مستقبل مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>This ___ years ago.</code>", "opts": ["should be done", "should have been done", "should been done", "should did"], "a": 1, "why": "ناقصٌ تامّ مجهول." },
+            { "t": "mcq", "q": "<code dir=ltr>___ that sea levels will rise.</code>", "opts": ["It expects", "It is expected", "They expect it", "Is expected"], "a": 1, "why": "صيغة الإسناد." },
+            { "t": "mcq", "q": "<code dir=ltr>tipping point</code> means…", "opts": ["a tip", "a threshold beyond which change is irreversible", "a high point", "a payment"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>greenwashing</code> means…", "opts": ["cleaning with eco products", "false environmental marketing", "recycling", "planting trees"], "a": 1, "why": "تلميع بيئيّ زائف." },
+            { "t": "mcq", "q": "<code dir=ltr>bear the brunt of</code> means…", "opts": ["to benefit most", "to suffer the worst of something", "to carry", "to avoid"], "a": 1, "why": "يتحمّل الوطأة الكبرى." },
+            { "t": "gap", "q": "<code dir=ltr>The samples ___ (test) since Monday.</code>", "a": ["have been tested"], "why": "مضارع تامّ مجهول." },
+            { "t": "gap", "q": "<code dir=ltr>The plant ___ (build) when the funding stopped.</code>", "a": ["was being built"], "why": "ماضٍ مستمرّ مجهول." },
+            { "t": "gap", "q": "<code dir=ltr>Emissions ___ (must / reduce) urgently.</code>", "a": ["must be reduced"], "why": "ناقص + be + التصريف الثالث." },
+            { "t": "gap", "q": "<code dir=ltr>The rise ___ (attribute) to warmer oceans.</code>", "a": ["is attributed", "has been attributed"], "why": "يُعزى إلى." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The road will repaired next week.</code>", "a": ["The road will be repaired next week", "The road will be repaired next week."], "why": "ينقص be." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>It is believe that the target is unrealistic.</code>", "a": ["It is believed that the target is unrealistic", "It is believed that the target is unrealistic."], "why": "التصريف الثالث." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>The crops were effected by drought.</code>", "a": ["The crops were affected by drought", "The crops were affected by the drought"], "why": "affect فعل." },
+            { "t": "order", "q": "رتّب:", "ws": ["It", "has", "been", "estimated", "that", "a", "third", "is", "wasted"], "a": "It has been estimated that a third is wasted", "why": "إسنادٌ في المضارع التامّ." },
+            { "t": "order", "q": "رتّب:", "ws": ["The", "species", "is", "thought", "to", "be", "extinct"], "a": "The species is thought to be extinct", "why": "الصيغة الثانية للإسناد." },
+            { "t": "dict", "say": "It's bin estimaded that a third is wasted", "a": ["It has been estimated that a third is wasted", "It's been estimated that a third is wasted", "its been estimated that a third is wasted"], "why": "been → «بِن» وestimated بـ d." },
+            { "t": "dict", "say": "The bins will be collecded next week", "a": ["The bins will be collected next week", "the bins will be collected next week"], "why": "collected بمقطع id." },
+            { "t": "mcq", "q": "How is <code dir=ltr>passed</code> pronounced?", "opts": ["t صافية", "d مجهورة", "id", "صامتة"], "a": 0, "why": "بعد s المهموسة." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "أفلام وثائقيّة بيئيّة", "d": "ابحث عن «climate documentary English subtitles»", "task": "شاهد عشر دقائق، وسجّل عشر صيغ مجهولة في أزمنةٍ مختلفة." },
+            { "t": "تقارير علميّة مبسّطة", "d": "ابحث عن «BBC Science Focus climate»", "task": "اقرأ مقالاً، وأحصِ صيغ الإسناد (It is thought/estimated/believed)." },
+            { "t": "بودكاست مناخيّ", "d": "ابحث عن «climate podcast for beginners»", "task": "استمع خمس عشرة دقيقة، وسجّل خمس عبارات سببٍ ونتيجة." }
+          ]
+        }
+      ]
+    }
+  ]
+}
