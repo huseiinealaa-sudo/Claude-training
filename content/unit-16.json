@@ -1,0 +1,1372 @@
+{
+ "id": "unit-16",
+ "icon": "📈",
+ "title": "الاقتصاد والمال",
+ "subtitle": "Third and mixed conditionals",
+ "intro": "Money talk in English is full of one grammar pattern: looking back at a decision and imagining a different outcome. That is the third conditional — and the mixed conditional, which connects a past choice to your life today.<span class=n-ar>الحديث عن المال بالإنجليزية مليءٌ بنمطٍ نحويٍّ واحد: النظر إلى قرارٍ ماضٍ وتخيّل نتيجةٍ مختلفة. هذا هو الشرط الثالث — والشرط المختلط الذي يربط قراراً ماضياً بحياتك اليوم.</span>",
+ "goals": [
+  "I can express regret and analysis about past decisions",
+  "I can link a past cause to a present result",
+  "I can discuss money, prices and the economy",
+  "I can hear 'would have' the way Americans actually say it"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "Third and mixed conditionals",
+   "subtitle": "if + had done → would have done",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "The third conditional: the past that never happened",
+     "html": "<b>If + past perfect, would have + past participle.</b><br><br><code dir=ltr>If I <b>had sold</b> the shares, I <b>would have made</b> a profit.</code><br>→ I didn't sell. I didn't make a profit. Both halves are unreal.<br><br>This is the grammar of regret, blame and analysis. Every sentence carries a hidden fact: the opposite is what actually happened.<span class=n-ar>الشرط الثالث يصف ماضياً لم يقع. كلّ جملةٍ فيه تحمل حقيقةً مضمرة: ما حدث فعلاً هو عكس ما قلت.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Mixed 1: past cause → present result",
+     "html": "<b>If + past perfect, would + base verb.</b><br><br><code dir=ltr>If I <b>had saved</b> more in my twenties, I <b>would be</b> debt-free now.</code><br>→ The condition is finished (my twenties). The result is right now.<br><br>Watch for the time words that give it away: <code dir=ltr>now, today, still, these days</code>.<span class=n-ar>شرطٌ ماضٍ ونتيجةٌ حاضرة. الكلمات الدالّة: now / today / still.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Mixed 2: present cause → past result",
+     "html": "<b>If + past simple, would have + past participle.</b><br><br><code dir=ltr>If I <b>were</b> better with numbers, I <b>would have spotted</b> the error.</code><br>→ I'm bad with numbers (a permanent fact, still true). So I missed it back then.<br><br>Rarer, but it makes you sound genuinely advanced.<span class=n-ar>صفةٌ دائمة في الحاضر تُفسّر حدثاً ماضياً. أندر استعمالاً، لكنّها تُظهر تمكّناً حقيقيّاً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "How it really sounds",
+     "html": "Nobody says <code dir=ltr>would have</code> in full speech. You will hear:<br><br><code dir=ltr>would have</code> → <b>woulda</b> /ˈwʊdə/<br><code dir=ltr>could have</code> → <b>coulda</b><br><code dir=ltr>should have</code> → <b>shoulda</b><br><code dir=ltr>If I had</code> → <b>If I'd</b> → almost just <b>If I</b><br><br>This is why the third conditional is hard to <u>hear</u> even when you can write it.<br><br>⚠️ Never write <code dir=ltr>would of</code>. It sounds identical and it is wrong.<span class=n-ar>تُنطق would have كأنّها «وودَه». ولهذا يصعب سماع الشرط الثالث لا كتابته. ولا تكتب أبداً would of.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "If we <b>had bought</b> the flat in 2015, we <b>would have saved</b> a fortune.",
+       "ar": "لو اشترينا الشقّة عام ٢٠١٥ لوفّرنا ثروة."
+      },
+      {
+       "en": "If they <b>hadn't raised</b> rates, inflation <b>would have kept</b> climbing.",
+       "ar": "لولا أنّهم رفعوا الفائدة لظلّ التضخّم يصعد."
+      },
+      {
+       "en": "If I <b>had studied</b> accounting, I <b>would have</b> a very different job now.",
+       "ar": "لو كنتُ درستُ المحاسبة لكان لديّ عملٌ مختلفٌ تماماً الآن."
+      },
+      {
+       "en": "If she <b>weren't</b> so cautious, she <b>would have invested</b> years ago.",
+       "ar": "لولا أنّها شديدة الحذر لاستثمرت منذ سنوات."
+      },
+      {
+       "en": "We <b>would have hired</b> him if the budget <b>had been</b> approved.",
+       "ar": "كنّا سنوظّفه لو أُقرّت الميزانيّة."
+      },
+      {
+       "en": "<b>Had I known</b> about the fees, I <b>wouldn't have</b> opened the account.",
+       "ar": "لو علمتُ بالرسوم لما فتحتُ الحساب."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the whole conditional collapses into two or three sounds",
+     "rows": [
+      {
+       "w": "I would have told you",
+       "s": "I-wuda toal ya",
+       "ar": "كنتُ سأخبرك"
+      },
+      {
+       "w": "If I had known",
+       "s": "If I'd nown",
+       "ar": "لو كنتُ أعلم"
+      },
+      {
+       "w": "We could have saved it",
+       "s": "We cuda sayv dit",
+       "ar": "كان بإمكاننا توفيره"
+      },
+      {
+       "w": "They should have waited",
+       "s": "They shuda waydid",
+       "ar": "كان عليهم الانتظار"
+      },
+      {
+       "w": "It wouldn't have mattered",
+       "s": "It wudn-ta madderd",
+       "ar": "ما كان ليُهمّ"
+      },
+      {
+       "w": "What would you have done?",
+       "s": "Wut wuju-a dun?",
+       "ar": "ماذا كنتَ ستفعل؟"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If the company ___ its costs, it wouldn't have collapsed.</code>",
+       "opts": [
+        "cut",
+        "had cut",
+        "would cut",
+        "has cut"
+       ],
+       "a": 1,
+       "why": "الشرط الثالث: if + ماضٍ تامّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If I had taken that job, I ___ in Dubai now.</code>",
+       "opts": [
+        "would have lived",
+        "would live",
+        "lived",
+        "had lived"
+       ],
+       "a": 1,
+       "why": "شرطٌ ماضٍ ونتيجةٌ حاضرة ← مختلط: would + مصدر."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If she weren't so risk-averse, she ___ a lot last year.</code>",
+       "opts": [
+        "would earn",
+        "would have earned",
+        "earned",
+        "had earned"
+       ],
+       "a": 1,
+       "why": "صفةٌ حاضرة دائمة ← نتيجةٌ ماضية: would have + تصريف ثالث."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>We ___ (not / lose) the contract if we had answered faster.</code>",
+       "a": [
+        "would not have lost",
+        "wouldn't have lost"
+       ],
+       "why": "النتيجة غير الواقعيّة في الماضي."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>If I would have known, I would have come.</code>",
+       "a": [
+        "If I had known, I would have come",
+        "If I'd known, I would have come",
+        "If I had known I would have come"
+       ],
+       "why": "لا توضع would في شقّ if؛ يُستعمل الماضي التامّ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "If",
+        "we",
+        "had",
+        "invested",
+        "earlier",
+        "we",
+        "would",
+        "be",
+        "richer"
+       ],
+       "a": "If we had invested earlier we would be richer",
+       "why": "شرطٌ ماضٍ ← نتيجةٌ حاضرة."
+      },
+      {
+       "t": "dict",
+       "say": "I wuda payd it off if I'd nown",
+       "a": [
+        "I would have paid it off if I had known",
+        "I would have paid it off if I'd known",
+        "I wouldve paid it off if id known"
+       ],
+       "why": "would have ← «وودَه» وhad ← 'd."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>___ we known about the fee, we would have refused.</code>",
+       "opts": [
+        "If",
+        "Had",
+        "Would",
+        "Have"
+       ],
+       "a": 1,
+       "why": "قلبٌ رسميّ: Had we known = If we had known."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: money and the economy",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "The economy",
+     "items": [
+      {
+       "w": "inflation",
+       "pos": "noun",
+       "ar": "تضخّم",
+       "ex": [
+        {
+         "en": "<b>Inflation</b> hit nine percent that summer.",
+         "ar": "بلغ التضخّم تسعة بالمئة ذلك الصيف."
+        }
+       ]
+      },
+      {
+       "w": "recession",
+       "pos": "noun",
+       "ar": "ركود اقتصاديّ",
+       "ex": [
+        {
+         "en": "The country slipped into a <b>recession</b> in six months.",
+         "ar": "انزلقت البلاد إلى ركودٍ خلال ستّة أشهر."
+        }
+       ]
+      },
+      {
+       "w": "downturn",
+       "pos": "noun",
+       "ar": "انكماش / تراجع",
+       "ex": [
+        {
+         "en": "Hiring froze during the <b>downturn</b>.",
+         "ar": "تجمّد التوظيف خلال فترة التراجع."
+        }
+       ]
+      },
+      {
+       "w": "volatile",
+       "pos": "adj",
+       "ar": "متقلّب بشدّة",
+       "ex": [
+        {
+         "en": "Energy prices are extremely <b>volatile</b>.",
+         "ar": "أسعار الطاقة شديدة التقلّب."
+        }
+       ]
+      },
+      {
+       "w": "forecast",
+       "pos": "noun/verb",
+       "ar": "توقّع / يتوقّع",
+       "ex": [
+        {
+         "en": "Their <b>forecast</b> turned out to be far too optimistic.",
+         "ar": "تبيّن أنّ توقّعهم كان مفرطاً في التفاؤل."
+        }
+       ]
+      },
+      {
+       "w": "supply chain",
+       "pos": "noun",
+       "ar": "سلسلة التوريد",
+       "ex": [
+        {
+         "en": "One factory closed and the whole <b>supply chain</b> stalled.",
+         "ar": "أُغلق مصنعٌ واحد فتعطّلت سلسلة التوريد كلّها."
+        }
+       ]
+      },
+      {
+       "w": "tariff",
+       "pos": "noun",
+       "ar": "رسم جمركيّ",
+       "ex": [
+        {
+         "en": "The new <b>tariff</b> added twelve percent to the price.",
+         "ar": "أضاف الرسم الجمركيّ الجديد اثني عشر بالمئة إلى السعر."
+        }
+       ]
+      },
+      {
+       "w": "subsidy",
+       "pos": "noun",
+       "ar": "دعم حكوميّ",
+       "ex": [
+        {
+         "en": "Without the <b>subsidy</b>, bread would cost three times more.",
+         "ar": "لولا الدعم لكلّف الخبز ثلاثة أضعاف."
+        }
+       ]
+      },
+      {
+       "w": "stagnant",
+       "pos": "adj",
+       "ar": "راكد / جامد",
+       "ex": [
+        {
+         "en": "Wages have been <b>stagnant</b> for a decade.",
+         "ar": "ظلّت الأجور راكدةً عقداً كاملاً."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Personal finance",
+     "items": [
+      {
+       "w": "budget",
+       "pos": "noun/verb",
+       "ar": "ميزانيّة / يضع ميزانيّة",
+       "ex": [
+        {
+         "en": "If we had stuck to the <b>budget</b>, we'd have the deposit by now.",
+         "ar": "لو التزمنا بالميزانيّة لتوفّرت لدينا الدفعة الأولى الآن."
+        }
+       ]
+      },
+      {
+       "w": "debt",
+       "pos": "noun",
+       "ar": "دَيْن",
+       "ex": [
+        {
+         "en": "He cleared his <b>debt</b> two years early.",
+         "ar": "سدّد دَينه قبل موعده بعامين."
+        }
+       ]
+      },
+      {
+       "w": "mortgage",
+       "pos": "noun",
+       "ar": "قرض عقاريّ",
+       "ex": [
+        {
+         "en": "Their <b>mortgage</b> eats half the monthly income.",
+         "ar": "يلتهم قرضهم العقاريّ نصف الدخل الشهريّ."
+        }
+       ]
+      },
+      {
+       "w": "interest rate",
+       "pos": "noun",
+       "ar": "سعر الفائدة",
+       "ex": [
+        {
+         "en": "A one-point rise in the <b>interest rate</b> changed everything.",
+         "ar": "ارتفاعٌ بنقطةٍ واحدة في سعر الفائدة غيّر كلّ شيء."
+        }
+       ]
+      },
+      {
+       "w": "afford",
+       "pos": "verb",
+       "ar": "يقدر على تحمّل تكلفته",
+       "ex": [
+        {
+         "en": "We simply can't <b>afford</b> a second car.",
+         "ar": "لا نقدر ببساطة على تحمّل سيّارةٍ ثانية."
+        }
+       ]
+      },
+      {
+       "w": "instalment",
+       "pos": "noun",
+       "ar": "قسط",
+       "ex": [
+        {
+         "en": "She pays it off in twelve <b>instalments</b>.",
+         "ar": "تسدّده على اثني عشر قسطاً."
+        }
+       ]
+      },
+      {
+       "w": "overdraft",
+       "pos": "noun",
+       "ar": "سحب على المكشوف",
+       "ex": [
+        {
+         "en": "The <b>overdraft</b> fee was higher than the purchase.",
+         "ar": "كانت رسوم السحب على المكشوف أعلى من قيمة الشراء."
+        }
+       ]
+      },
+      {
+       "w": "make ends meet",
+       "pos": "phrase",
+       "ar": "يسدّ الرمق / يغطّي مصاريفه",
+       "ex": [
+        {
+         "en": "Two jobs, and they still struggle to <b>make ends meet</b>.",
+         "ar": "وظيفتان، ومع ذلك يكافحان لتغطية المصاريف."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Business and investment",
+     "items": [
+      {
+       "w": "revenue",
+       "pos": "noun",
+       "ar": "إيرادات",
+       "ex": [
+        {
+         "en": "<b>Revenue</b> doubled, but profit fell.",
+         "ar": "تضاعفت الإيرادات لكنّ الربح انخفض."
+        }
+       ]
+      },
+      {
+       "w": "margin",
+       "pos": "noun",
+       "ar": "هامش الربح",
+       "ex": [
+        {
+         "en": "The <b>margin</b> on hardware is painfully thin.",
+         "ar": "هامش الربح على العتاد ضئيلٌ إلى حدّ الألم."
+        }
+       ]
+      },
+      {
+       "w": "asset",
+       "pos": "noun",
+       "ar": "أصل / موجود",
+       "ex": [
+        {
+         "en": "Their only real <b>asset</b> was the building.",
+         "ar": "كان الأصل الحقيقيّ الوحيد لديهم هو المبنى."
+        }
+       ]
+      },
+      {
+       "w": "liability",
+       "pos": "noun",
+       "ar": "التزام ماليّ / عبء",
+       "ex": [
+        {
+         "en": "That contract became a <b>liability</b> within a year.",
+         "ar": "تحوّل ذلك العقد إلى عبءٍ خلال عام."
+        }
+       ]
+      },
+      {
+       "w": "stake",
+       "pos": "noun",
+       "ar": "حصّة / نصيب",
+       "ex": [
+        {
+         "en": "She sold her <b>stake</b> just before the crash.",
+         "ar": "باعت حصّتها قبيل الانهيار."
+        }
+       ]
+      },
+      {
+       "w": "yield",
+       "pos": "noun/verb",
+       "ar": "عائد / يُدرّ",
+       "ex": [
+        {
+         "en": "Those bonds <b>yield</b> almost nothing now.",
+         "ar": "تلك السندات لا تُدرّ شيئاً يُذكر الآن."
+        }
+       ]
+      },
+      {
+       "w": "stakeholder",
+       "pos": "noun",
+       "ar": "طرف معنيّ / صاحب مصلحة",
+       "ex": [
+        {
+         "en": "Every <b>stakeholder</b> had to approve the merger.",
+         "ar": "كان على كلّ صاحب مصلحة أن يوافق على الاندماج."
+        }
+       ]
+      },
+      {
+       "w": "bail out",
+       "pos": "verb",
+       "ar": "يُنقذ ماليّاً",
+       "ex": [
+        {
+         "en": "The state <b>bailed out</b> two banks that winter.",
+         "ar": "أنقذت الدولة مصرفين ذلك الشتاء."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: the offer we turned down",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "Two colleagues look back at a decision. Almost every sentence is a third or mixed conditional — but spoken fast. Listen for <b>woulda</b>, <b>coulda</b> and the vanishing <b>'d</b>.<span class=n-ar>زميلان يراجعان قراراً ماضياً. جميع الجمل تقريباً شرطٌ ثالث أو مختلط، لكن بسرعة الكلام الحقيقيّة.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "The Offer We Turned Down",
+     "titleAr": "العرض الذي رفضناه",
+     "lines": [
+      {
+       "sp": "Rami",
+       "en": "Did you see what they're worth now?",
+       "ar": "هل رأيت كم تبلغ قيمتهم الآن؟"
+      },
+      {
+       "sp": "Dana",
+       "en": "Don't. I've been avoiding that number all week.",
+       "ar": "لا تبدأ. أتجنّب ذلك الرقم طوال الأسبوع."
+      },
+      {
+       "sp": "Rami",
+       "en": "If we'd taken the equity instead of the cash, we'd be sitting on a fortune.",
+       "ar": "لو أخذنا الحصّة بدل النقد لكنّا نجلس على ثروة."
+      },
+      {
+       "sp": "Dana",
+       "en": "Maybe. Or the whole thing would have collapsed and we'd have nothing.",
+       "ar": "ربّما. أو لانهار كلّ شيء ولما بقي لنا شيء."
+      },
+      {
+       "sp": "Rami",
+       "en": "Come on. The forecast was solid.",
+       "ar": "بحقّك. كانت التوقّعات متينة."
+      },
+      {
+       "sp": "Dana",
+       "en": "The forecast was a slide, Rami. Nobody had audited the revenue.",
+       "ar": "التوقّعات كانت شريحة عرض يا رامي. لم يكن أحدٌ قد دقّق الإيرادات."
+      },
+      {
+       "sp": "Rami",
+       "en": "Still. If I weren't so cautious, I would have pushed harder in that meeting.",
+       "ar": "مع ذلك. لولا أنّي شديد الحذر لضغطتُ أكثر في ذلك الاجتماع."
+      },
+      {
+       "sp": "Dana",
+       "en": "And if I hadn't been cautious, we'd have lost the deposit on the flat.",
+       "ar": "ولولا أنّي كنتُ حذرة لخسرنا الدفعة الأولى للشقّة."
+      },
+      {
+       "sp": "Rami",
+       "en": "Fair. But it stings.",
+       "ar": "عادل. لكنّه يُوجع."
+      },
+      {
+       "sp": "Dana",
+       "en": "It's supposed to sting. That's what risk feels like from the outside.",
+       "ar": "من المفترض أن يوجع. هكذا تبدو المخاطرة من الخارج."
+      },
+      {
+       "sp": "Rami",
+       "en": "So what would you have done differently?",
+       "ar": "إذن ماذا كنتِ ستفعلين على نحوٍ مختلف؟"
+      },
+      {
+       "sp": "Dana",
+       "en": "Split it. Half cash, half equity. We could have had both.",
+       "ar": "أقسمه. نصف نقداً ونصف حصّة. كان يمكن أن نحصل على الاثنين."
+      },
+      {
+       "sp": "Rami",
+       "en": "Nobody offered that.",
+       "ar": "لم يعرض أحدٌ ذلك."
+      },
+      {
+       "sp": "Dana",
+       "en": "Nobody offers it. You ask for it. That's the lesson, not the money.",
+       "ar": "لا أحد يعرضه. أنت تطلبه. هذا هو الدرس، لا المال."
+      },
+      {
+       "sp": "Rami",
+       "en": "Alright. Next round, I'm asking.",
+       "ar": "حسناً. في الجولة القادمة سأطلب."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "What did they actually choose?",
+       "opts": [
+        "The equity",
+        "The cash",
+        "Half of each",
+        "Nothing"
+       ],
+       "a": 1,
+       "why": "أخذا النقد بدل الحصّة."
+      },
+      {
+       "t": "mcq",
+       "q": "Dana's main defence of their decision is that",
+       "opts": [
+        "the company was fraudulent",
+        "the numbers had never been checked",
+        "Rami had refused to sign",
+        "the offer expired"
+       ],
+       "a": 1,
+       "why": "«لم يكن أحدٌ قد دقّق الإيرادات»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If I weren't so cautious, I would have pushed harder.</code> This means Rami",
+       "opts": [
+        "was brave then but not now",
+        "is a cautious person, and that is why he stayed quiet",
+        "will be cautious next time",
+        "was not at the meeting"
+       ],
+       "a": 1,
+       "why": "شرطٌ مختلط: صفةٌ حاضرة دائمة تُفسّر سلوكاً ماضياً."
+      },
+      {
+       "t": "mcq",
+       "q": "Dana says the real lesson is",
+       "opts": [
+        "never take equity",
+        "always trust forecasts",
+        "ask for the structure you want",
+        "avoid meetings"
+       ],
+       "a": 2,
+       "why": "«لا أحد يعرضه. أنت تطلبه»."
+      },
+      {
+       "t": "mcq",
+       "q": "Their relationship at the end of the conversation is",
+       "opts": [
+        "hostile",
+        "unresolved and bitter",
+        "honest and forward-looking",
+        "formal and distant"
+       ],
+       "a": 2,
+       "why": "ينتهي الحوار باتّفاقٍ على درسٍ عمليّ."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "If we'd taken the equity we'd be siddin on a fortune",
+       "a": [
+        "If we had taken the equity we would be sitting on a fortune",
+        "If we'd taken the equity we'd be sitting on a fortune"
+       ],
+       "why": "had ← 'd، وsitting ← flap T «سِدِن»."
+      },
+      {
+       "t": "dict",
+       "say": "The whole thing wuda collapsed",
+       "a": [
+        "The whole thing would have collapsed",
+        "The whole thing wouldve collapsed"
+       ],
+       "why": "would have ← «وودَه»."
+      },
+      {
+       "t": "dict",
+       "say": "Nobody had audided the revenue",
+       "a": [
+        "Nobody had audited the revenue",
+        "Nobody had audited the revenues"
+       ],
+       "why": "audited ← flap T بين صائتين."
+      },
+      {
+       "t": "dict",
+       "say": "We cuda had both",
+       "a": [
+        "We could have had both",
+        "We couldve had both"
+       ],
+       "why": "could have ← «كودَه»."
+      },
+      {
+       "t": "dict",
+       "say": "So wut wuju-a dun differently",
+       "a": [
+        "So what would you have done differently",
+        "What would you have done differently"
+       ],
+       "why": "would you have ← «ووجوَه» بالإدغام."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: why your money buys less",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "Why Your Money Buys Less",
+     "titleAr": "لماذا يشتري مالك أقلّ",
+     "en": "Ask most people what causes inflation and they will say governments print too much money. That is sometimes true, and it is never the whole story. Prices rise whenever demand outruns supply, and the reasons that happens are rarely simple.<br><br>Consider what followed the pandemic. Factories closed for months, ships waited outside ports, and the <b>supply chain</b> that had delivered goods reliably for thirty years simply stopped working. At the same time, governments handed money to households that could not spend it on travel or restaurants. More money chased fewer goods. If supply had recovered quickly, the spike <b>would have</b> been brief. It did not, and the spike was not.<br><br>Then energy prices jumped, and because energy is an input to almost everything, the increase spread through every shelf in every shop. Economists call this a cost-push effect. Ordinary people call it their grocery bill.<br><br>What makes inflation politically dangerous is that it is felt unequally. If you owned property or shares, your <b>assets</b> rose with prices and you barely noticed. If you rented and earned a fixed wage, you lost a month of income a year without anyone taking anything from you. The pain was invisible, automatic, and entirely real. That is why central banks fear it more than almost anything else — and why they raised rates until something broke.",
+     "ar": "اسأل معظم الناس عن سبب التضخّم فسيقولون إنّ الحكومات تطبع نقوداً كثيرة. هذا صحيحٌ أحياناً، وليس القصّة كاملةً أبداً. فالأسعار ترتفع كلّما سبق الطلبُ العرضَ، وأسباب ذلك نادراً ما تكون بسيطة.<br><br>تأمّل ما تلا الجائحة. أُغلقت المصانع شهوراً، وانتظرت السفن خارج الموانئ، وسلسلة التوريد التي ظلّت تُوصل البضائع بموثوقيّةٍ ثلاثين عاماً توقّفت ببساطة عن العمل. وفي الوقت نفسه سلّمت الحكومات أموالاً لأسرٍ لم تستطع إنفاقها على السفر أو المطاعم. مالٌ أكثر يطارد بضائع أقلّ. ولو تعافى العرض سريعاً لكانت القفزة قصيرة. لكنّه لم يتعافَ، ولم تكن القفزة قصيرة.<br><br>ثمّ قفزت أسعار الطاقة، ولأنّ الطاقة مُدخلٌ في كلّ شيءٍ تقريباً، انتشرت الزيادة عبر كلّ رفٍّ في كلّ متجر. يسمّي الاقتصاديّون هذا أثر دفع التكلفة. ويسمّيه الناس العاديّون فاتورة البقالة.<br><br>وما يجعل التضخّم خطراً سياسيّاً أنّه يُشعَر به على نحوٍ غير متساوٍ. فإن كنتَ تملك عقاراً أو أسهماً ارتفعت أصولك مع الأسعار ولم تكد تلاحظ. وإن كنتَ مستأجراً بأجرٍ ثابت خسرتَ دخل شهرٍ في السنة دون أن يأخذ منك أحدٌ شيئاً. كان الألم خفيّاً وتلقائيّاً وحقيقيّاً تماماً. ولهذا تخشاه المصارف المركزيّة أكثر من أيّ شيءٍ آخر تقريباً — ولهذا رفعت الفائدة حتّى انكسر شيءٌ ما.",
+     "keys": [
+      [
+       "outruns",
+       "يسبق / يتجاوز"
+      ],
+      [
+       "spike",
+       "قفزة حادّة"
+      ],
+      [
+       "an input to",
+       "مُدخل في"
+      ],
+      [
+       "cost-push",
+       "دفع التكلفة"
+      ],
+      [
+       "felt unequally",
+       "يُشعَر به بتفاوت"
+      ],
+      [
+       "until something broke",
+       "حتّى انكسر شيءٌ ما"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "The writer's view of 'governments print money' is that it is",
+       "opts": [
+        "completely wrong",
+        "true but incomplete",
+        "the only cause",
+        "a political myth"
+       ],
+       "a": 1,
+       "why": "«صحيحٌ أحياناً، وليس القصّة كاملة»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If supply had recovered quickly, the spike would have been brief.</code> In fact,",
+       "opts": [
+        "supply recovered and prices fell",
+        "supply did not recover and the spike lasted",
+        "there was no spike",
+        "supply recovered slowly but prices fell anyway"
+       ],
+       "a": 1,
+       "why": "الشرط الثالث يعني عكس ما وقع؛ والنصّ يؤكّده صراحةً."
+      },
+      {
+       "t": "mcq",
+       "q": "Energy mattered so much because",
+       "opts": [
+        "people heat their homes",
+        "it is an input to almost every product",
+        "it is taxed heavily",
+        "it is imported"
+       ],
+       "a": 1,
+       "why": "«الطاقة مُدخلٌ في كلّ شيءٍ تقريباً»."
+      },
+      {
+       "t": "mcq",
+       "q": "Who, according to the text, barely noticed inflation?",
+       "opts": [
+        "Renters on fixed wages",
+        "Owners of property and shares",
+        "Factory workers",
+        "Shop owners"
+       ],
+       "a": 1,
+       "why": "ارتفعت أصولهم مع الأسعار."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>without anyone taking anything from you</code> emphasises that the loss was",
+       "opts": [
+        "illegal",
+        "imaginary",
+        "impersonal and hidden",
+        "temporary"
+       ],
+       "a": 2,
+       "why": "خسارةٌ خفيّة تلقائيّة لا فاعل ظاهر لها."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>until something broke</code> suggests the writer thinks the rate rises",
+       "opts": [
+        "were painless",
+        "had real casualties",
+        "never happened",
+        "were too small"
+       ],
+       "a": 1,
+       "why": "تعبيرٌ يوحي بضحايا حقيقيّين للسياسة."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "money words lose their endings in speech",
+     "rows": [
+      {
+       "w": "interest rate",
+       "s": "INT-rist rate",
+       "ar": "تسقط المقطع الأوسط"
+      },
+      {
+       "w": "a couple of dollars",
+       "s": "a cupla dollerz",
+       "ar": "couple of ← كَبلَه"
+      },
+      {
+       "w": "What does it cost?",
+       "s": "Wuddz-it cost?",
+       "ar": "does it ← دْزِت"
+      },
+      {
+       "w": "I can't afford it",
+       "s": "I can-affordit",
+       "ar": "تختفي t في can't"
+      },
+      {
+       "w": "twenty percent",
+       "s": "twenny percent",
+       "ar": "تسقط t بعد n"
+      },
+      {
+       "w": "a lot of money",
+       "s": "a lodda munny",
+       "ar": "lot of ← لاده"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Regret, blame and hypothetical analysis",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Expressing regret without sounding dramatic",
+     "html": "<code dir=ltr>I should have …</code> — direct, personal regret<br><code dir=ltr>I wish I had …</code> — softer, more emotional<br><code dir=ltr>In hindsight, we should have …</code> — professional, analytical<br><code dir=ltr>With the benefit of hindsight, …</code> — very formal<br><code dir=ltr>Looking back, I'd probably have …</code> — the softest of all<br><br>In a work meeting, <code dir=ltr>in hindsight</code> is the phrase that makes you sound senior.<span class=n-ar>«in hindsight» هي العبارة التي تجعلك تبدو محترفاً في اجتماع عمل، بدل الندم الشخصيّ المباشر.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Assigning blame — and softening it",
+     "html": "Hard: <code dir=ltr>You should have told me.</code><br>Softer: <code dir=ltr>It might have helped if I'd known earlier.</code><br>Softest: <code dir=ltr>Maybe we could have communicated that better.</code><br><br>Notice the trick: move from <b>you</b> to <b>we</b>, and from <b>should</b> to <b>could/might</b>. The complaint survives; the accusation disappears.<span class=n-ar>الحيلة: انتقل من «أنت» إلى «نحن»، ومن should إلى could/might. تبقى الشكوى ويختفي الاتّهام.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>If I would have known</code> → ✅ <code dir=ltr>If I had known</code><br>❌ <code dir=ltr>I would of gone</code> → ✅ <code dir=ltr>I would have gone</code><br>❌ <code dir=ltr>I have a big debt on me</code> → ✅ <code dir=ltr>I'm in debt</code> / <code dir=ltr>I have a lot of debt</code><br>❌ <code dir=ltr>The prices are expensive</code> → ✅ <code dir=ltr>The prices are high</code> / <code dir=ltr>Things are expensive</code><br>❌ <code dir=ltr>I can't afford to it</code> → ✅ <code dir=ltr>I can't afford it</code><br>❌ <code dir=ltr>He earns a good salary money</code> → ✅ <code dir=ltr>He earns a good salary</code><span class=n-ar>أخطاءٌ شائعة عند العرب تحديداً: «الأسعار غالية» تُقال بالإنجليزية «الأسعار مرتفعة»، والغلاء وصفٌ للسلعة لا للسعر.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: numbers and money",
+     "hint": "the teen/ty trap costs people real money",
+     "rows": [
+      {
+       "w": "thir·TEEN vs THIR·ty",
+       "s": "thur-TEEN / THUR-dee",
+       "ar": "النبر يفرق بين ١٣ و٣٠"
+      },
+      {
+       "w": "fif·TEEN vs FIF·ty",
+       "s": "fif-TEEN / FIF-dee",
+       "ar": "١٥ مقابل ٥٠"
+      },
+      {
+       "w": "e·CON·o·my",
+       "s": "ih-KON-uh-mee",
+       "ar": "النبر على الثاني"
+      },
+      {
+       "w": "ec·o·NOM·ic",
+       "s": "eck-uh-NOM-ik",
+       "ar": "ينتقل النبر مع الصفة"
+      },
+      {
+       "w": "fi·NAN·cial",
+       "s": "fuh-NAN-shul",
+       "ar": "لا تنطقها «فاي»"
+      },
+      {
+       "w": "IN·ter·est",
+       "s": "IN-trist",
+       "ar": "مقطعان لا ثلاثة"
+      },
+      {
+       "w": "MORT·gage",
+       "s": "MOR-gij",
+       "ar": "حرف t صامت"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "hindsight phrases run together",
+     "rows": [
+      {
+       "w": "In hindsight",
+       "s": "in-HYND-sight",
+       "ar": "بالنظر إلى ما بعد"
+      },
+      {
+       "w": "I should have known better",
+       "s": "I shuda nown bedder",
+       "ar": "كان عليّ أن أعرف"
+      },
+      {
+       "w": "It might have helped",
+       "s": "It mida helpt",
+       "ar": "ربّما كان سيساعد"
+      },
+      {
+       "w": "We're better off now",
+       "s": "We're bedder off now",
+       "ar": "حالنا أفضل الآن"
+      },
+      {
+       "w": "That's water under the bridge",
+       "s": "Thats wadder under the bridge",
+       "ar": "ما مضى قد مضى"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "In a board meeting, the most professional way to admit an error is",
+       "opts": [
+        "I messed up badly",
+        "In hindsight, we should have modelled the downside",
+        "You should have warned me",
+        "It wasn't my fault"
+       ],
+       "a": 1,
+       "why": "تحليليّة ومهنيّة وتستعمل we."
+      },
+      {
+       "t": "mcq",
+       "q": "Which softens a complaint the most?",
+       "opts": [
+        "You should have told me",
+        "You could have told me",
+        "It might have helped if we'd shared that earlier",
+        "Why didn't you tell me"
+       ],
+       "a": 2,
+       "why": "we + might + شرطٌ متحوّط."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>The prices in that shop are very expensive.</code>",
+       "a": [
+        "The prices in that shop are very high",
+        "The prices in that shop are high",
+        "That shop is very expensive"
+       ],
+       "why": "السعر مرتفع، والسلعة غالية."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I can't afford to a new laptop.</code>",
+       "a": [
+        "I can't afford a new laptop"
+       ],
+       "why": "afford يتعدّى مباشرةً دون to."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>With the benefit of ___ , we priced it too low.</code>",
+       "a": [
+        "hindsight"
+       ],
+       "why": "صيغةٌ رسميّة ثابتة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>That's water under the bridge</code> means",
+       "opts": [
+        "it is still a problem",
+        "it is finished and not worth discussing",
+        "it will get worse",
+        "nobody knows"
+       ],
+       "a": 1,
+       "why": "ما مضى قد مضى."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: a decision you would change",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Write about a financial or career decision you or someone you know would change, in <b>120–140 words</b>. It must include:<br><br>• one third conditional (past cause → past result)<br>• one mixed conditional (past cause → present result)<br>• one <code dir=ltr>in hindsight</code> or <code dir=ltr>looking back</code><br>• at least four words from this unit's vocabulary<br>• a final sentence that is a lesson, not a regret<span class=n-ar>اكتب عن قرارٍ ماليٍّ أو مهنيّ تودّ لو تغيّره، في ١٢٠–١٤٠ كلمة، بشرطٍ ثالث وآخر مختلط، وعبارة in hindsight، وأربع كلماتٍ من مفردات الوحدة، وخاتمةٍ تكون درساً لا ندماً.</span>",
+     "phrases": [
+      "In hindsight, we should have …",
+      "If we had …, we would have …",
+      "If I had …, I would be … today",
+      "At the time, the forecast looked …",
+      "What nobody had considered was …",
+      "It might have helped if …",
+      "The lesson I took from it is …"
+     ],
+     "model": "In 2019 my brother was offered a smaller salary at a start-up plus a five percent stake in the company. He took the salary. At the time it looked obvious: he had a mortgage, interest rates were rising, and the start-up's revenue was tiny.\n\nIf he had taken the stake, he would have made roughly four years of income in a single afternoon when the company was sold. More importantly, if he had taken it, he would be running his own studio today instead of managing someone else's.\n\nIn hindsight, the mistake was not choosing cash. It was treating it as a binary choice. Nobody had told him he could ask for a split, and he never asked.\n\nThe lesson I took from it is simple: the offer on the table is a starting point, not a menu.",
+     "modelAr": "في عام ٢٠١٩ عُرض على أخي راتبٌ أصغر في شركةٍ ناشئة مع حصّةٍ خمسة بالمئة فيها. فاختار الراتب. بدا الأمر بديهيّاً حينها: كان عليه قرضٌ عقاريّ، وأسعار الفائدة ترتفع، وإيرادات الشركة الناشئة ضئيلة.\n\nلو أخذ الحصّة لجنى ما يعادل دخل أربع سنواتٍ في ظهيرةٍ واحدة حين بيعت الشركة. والأهمّ أنّه لو أخذها لكان اليوم يدير استوديوه الخاصّ بدل أن يدير استوديو غيره.\n\nوبالنظر إلى ما مضى، لم تكن الغلطة اختيار النقد، بل معاملة الأمر كخيارٍ ثنائيّ. لم يكن أحدٌ قد أخبره أنّ بإمكانه طلب تقسيم العرض، وهو لم يسأل قطّ.\n\nالدرس الذي أخذته من ذلك بسيط: العرض المطروح نقطة بداية، لا قائمة طعام.",
+     "checklist": [
+      "I used a third conditional correctly (had + pp → would have + pp)",
+      "I used a mixed conditional with a present result",
+      "I never wrote 'If I would have'",
+      "I wrote 'would have', never 'would of'",
+      "I used 'in hindsight' or 'looking back'",
+      "I used at least four unit words (stake, revenue, mortgage, interest rate …)",
+      "I wrote 'prices are high', not 'prices are expensive'",
+      "I ended with a lesson, not a complaint",
+      "120–140 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the sounds of a deal being discussed",
+     "rows": [
+      {
+       "w": "What's the catch?",
+       "s": "Wuts-the catch?",
+       "ar": "ما المقابل الخفيّ؟"
+      },
+      {
+       "w": "It's a lot of money",
+       "s": "Itsa lodda munny",
+       "ar": "إنّه مالٌ كثير"
+      },
+      {
+       "w": "Let me sleep on it",
+       "s": "Lemme sleep on it",
+       "ar": "دعني أفكّر فيه ليلة"
+      },
+      {
+       "w": "I'll get back to you",
+       "s": "I'll ged back t'ya",
+       "ar": "سأعاود التواصل معك"
+      },
+      {
+       "w": "Can we meet in the middle?",
+       "s": "Kn we meed in the middle?",
+       "ar": "هل نلتقي في منتصف الطريق؟"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ١٦",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If the tariff ___ , prices would have stayed flat.</code>",
+       "opts": [
+        "didn't rise",
+        "hadn't risen",
+        "wouldn't rise",
+        "hasn't risen"
+       ],
+       "a": 1,
+       "why": "شرطٌ ثالث."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If I had finished my degree, I ___ a manager by now.</code>",
+       "opts": [
+        "would have been",
+        "would be",
+        "was",
+        "had been"
+       ],
+       "a": 1,
+       "why": "نتيجةٌ حاضرة ← مختلط."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If he weren't so impatient, he ___ the shares.</code>",
+       "opts": [
+        "wouldn't sell",
+        "wouldn't have sold",
+        "didn't sell",
+        "hadn't sold"
+       ],
+       "a": 1,
+       "why": "صفةٌ حاضرة ← نتيجةٌ ماضية."
+      },
+      {
+       "t": "mcq",
+       "q": "Money that a company earns before costs is its",
+       "opts": [
+        "margin",
+        "revenue",
+        "liability",
+        "yield"
+       ],
+       "a": 1,
+       "why": "الإيرادات قبل خصم التكاليف."
+      },
+      {
+       "t": "mcq",
+       "q": "A period of falling economic activity is a",
+       "opts": [
+        "subsidy",
+        "recession",
+        "tariff",
+        "stake"
+       ],
+       "a": 1,
+       "why": "ركود."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Wages have been ___ for a decade.</code>",
+       "opts": [
+        "volatile",
+        "stagnant",
+        "liable",
+        "vested"
+       ],
+       "a": 1,
+       "why": "راكدة بلا حراك."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>We ___ (not / sign) if we had read the fee schedule.</code>",
+       "a": [
+        "would not have signed",
+        "wouldn't have signed"
+       ],
+       "why": "نتيجةٌ ماضية غير واقعيّة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>If they had diversified, they ___ (be) fine today.</code>",
+       "a": [
+        "would be"
+       ],
+       "why": "مختلط: نتيجةٌ حاضرة."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>With the benefit of ___ , the forecast was fantasy.</code>",
+       "a": [
+        "hindsight"
+       ],
+       "why": "صيغةٌ ثابتة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>If she would have asked, we would have helped.</code>",
+       "a": [
+        "If she had asked, we would have helped",
+        "If she'd asked, we would have helped",
+        "If she had asked we would have helped"
+       ],
+       "why": "لا would في شقّ if."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I would of paid in cash.</code>",
+       "a": [
+        "I would have paid in cash",
+        "I'd have paid in cash"
+       ],
+       "why": "would have لا would of."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>This restaurant's prices are very expensive.</code>",
+       "a": [
+        "This restaurant's prices are very high",
+        "This restaurant is very expensive",
+        "This restaurant's prices are high"
+       ],
+       "why": "السعر مرتفع لا غالٍ."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>We couldn't afford to the rent last year.</code>",
+       "a": [
+        "We couldn't afford the rent last year"
+       ],
+       "why": "afford متعدٍّ مباشرةً."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Had",
+        "we",
+        "known",
+        "the",
+        "rate",
+        "we",
+        "would",
+        "have",
+        "waited"
+       ],
+       "a": "Had we known the rate we would have waited",
+       "why": "قلبٌ رسميّ بدل if."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "If",
+        "I",
+        "hadn't",
+        "borrowed",
+        "so",
+        "much",
+        "I",
+        "would",
+        "sleep",
+        "better"
+       ],
+       "a": "If I hadn't borrowed so much I would sleep better",
+       "why": "مختلط: نتيجةٌ حاضرة."
+      },
+      {
+       "t": "dict",
+       "say": "I shuda nown bedder",
+       "a": [
+        "I should have known better",
+        "I shouldve known better"
+       ],
+       "why": "should have ← «شودَه» وbetter ← flap T."
+      },
+      {
+       "t": "dict",
+       "say": "It wudn-ta madderd anyway",
+       "a": [
+        "It wouldn't have mattered anyway",
+        "It wouldnt have mattered anyway"
+       ],
+       "why": "wouldn't have ينهار كتلةً واحدة."
+      },
+      {
+       "t": "dict",
+       "say": "Thats a lodda munny for twenny percent",
+       "a": [
+        "That's a lot of money for twenty percent",
+        "Thats a lot of money for twenty percent"
+       ],
+       "why": "lot of ← لاده، وtwenty ← تويني."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>make ends meet</code> means",
+       "opts": [
+        "to finish a project",
+        "to have just enough money to live",
+        "to agree with someone",
+        "to invest wisely"
+       ],
+       "a": 1,
+       "why": "أن يكفي الدخل المصاريف بالكاد."
+      },
+      {
+       "t": "mcq",
+       "q": "Which sentence is the softest way to raise a problem with a colleague?",
+       "opts": [
+        "You should have checked the numbers.",
+        "You could have checked the numbers.",
+        "It might have helped if we'd double-checked the numbers.",
+        "Nobody checked the numbers."
+       ],
+       "a": 2,
+       "why": "we + might + شرطٌ متحوّط."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "فيلم اقتصاديّ سرديّ",
+       "d": "ابحث عن «The Big Short» — لغة ماليّة سريعة وعاميّة أمريكيّة",
+       "task": "شاهد عشرين دقيقة بترجمةٍ إنجليزيّة، وسجّل خمس جملٍ شرطيّة."
+      },
+      {
+       "t": "بودكاست اقتصاديّ يوميّ",
+       "d": "ابحث عن «Planet Money» أو «The Indicator» — حلقاتٌ قصيرة بلغةٍ بسيطة",
+       "task": "استمع حلقةً كاملة، واكتب ملخّصاً في ستّ جمل."
+      },
+      {
+       "t": "يوتيوب: شرح اقتصاديّ",
+       "d": "ابحث عن «Economics Explained» — نطقٌ واضح ومصطلحاتٌ متكرّرة",
+       "task": "احصِ كم مرّة سمعتَ «would have» أو «could have»."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق قبل النوم",
+       "task": "أعد نطق جدول 🎧 اليوم الأوّل حتّى تسمع «woulda» دون تفكير."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 /* Service Worker — يجعل التطبيق يعمل كاملاً بلا إنترنت */
-const V = "en-course-v2-12";
+const V = "en-course-v2-13";
 const CORE = [
   "./",
   "./English-A2-to-B2.html",
@@ -22,6 +22,7 @@ const CORE = [
   "./content/unit-13.json",
   "./content/unit-14.json",
   "./content/unit-15.json",
+  "./content/unit-16.json",
   "./content/bank.json"
 ];
 
