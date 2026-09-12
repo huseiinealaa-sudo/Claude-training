@@ -1,0 +1,374 @@
+{
+  "id": "unit-11",
+  "icon": "🔮",
+  "title": "الافتراض والاحتمال",
+  "subtitle": "أن تتحدّث عمّا قد يحدث وما لن يحدث",
+  "intro": "الشرط هو أداة التفكير في البدائل: ماذا لو؟ والإنجليزية تفرّق بدقّة بين <b>الممكن</b> و<b>المستبعَد</b> بتغييرٍ واحد في الزمن — تغييرٌ صغير في الشكل، هائل في المعنى.",
+  "goals": [
+    "أميّز بين الشرط الأوّل والثاني وأستعملهما بدقّة",
+    "أتحدّث عن خططٍ مشروطة ونتائجها",
+    "أتخيّل مواقف غير واقعيّة وأعبّر عن أمنياتي",
+    "أعطي نصيحةً بصيغة الافتراض"
+  ],
+  "days": [
+    {
+      "n": 1,
+      "type": "grammar",
+      "title": "الشرط الأوّل والثاني",
+      "subtitle": "الممكن ↔ المستبعَد",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الشرط الأوّل — احتمالٌ حقيقيّ",
+          "html": "<b>If + مضارع بسيط ، will + مصدر</b><br><br><code dir=ltr><b>If</b> it <b>rains</b>, we<b>'ll</b> stay home.</code><br><code dir=ltr><b>If</b> you <b>study</b>, you<b>'ll</b> pass.</code><br><br>يُستعمل لما يمكن أن يحدث فعلاً في المستقبل.<br><br>⚠️ <b>أشهر خطأ عربيّ:</b> لا تضع will بعد if أبداً:<br>❌ <code dir=ltr>If it <b>will</b> rain…</code> ✅ <code dir=ltr>If it <b>rains</b>…</code><br>السبب: الزمن المستقبليّ محمولٌ في الشقّ الثاني، ولا يُكرَّر."
+        },
+        {
+          "type": "note",
+          "title": "الشرط الثاني — مستبعَد أو خياليّ",
+          "html": "<b>If + ماضٍ بسيط ، would + مصدر</b><br><br><code dir=ltr><b>If</b> I <b>had</b> a million, I<b>'d</b> travel the world.</code><br><code dir=ltr><b>If</b> I <b>were</b> you, I<b>'d</b> accept.</code><br><br>الماضي هنا <u>ليس ماضياً زمنيّاً</u> — بل علامة «البُعد عن الواقع». وهذا ما يربك المتعلّم.<br><br>💡 <b>were</b> مع كلّ الضمائر في هذه الصيغة:<br><code dir=ltr>If I <b>were</b> rich · If he <b>were</b> here</code> (وليس was في اللغة المعياريّة)"
+        },
+        {
+          "type": "note",
+          "title": "الفرق في جملة واحدة",
+          "html": "<table><tr><td dir=ltr><b>If I get the job</b>, I'll move to Dubai.</td><td>قدّمتُ فعلاً والاحتمال قائم</td></tr><tr><td dir=ltr><b>If I got the job</b>, I'd move to Dubai.</td><td>لم أقدّم، أو أظنّه بعيداً</td></tr></table><br>الاختيار يكشف <b>تقديرك أنت</b> للاحتمال، لا الواقع الموضوعيّ. فيمكن لشخصين أن يصفا الموقف نفسه بصيغتين مختلفتين."
+        },
+        {
+          "type": "note",
+          "title": "بدائل will و if",
+          "html": "<b>بدل will:</b> <code dir=ltr>may · might · can · should · imperative</code><br><code dir=ltr>If you see him, <b>tell</b> him to call me.</code> (أمر)<br><code dir=ltr>If it rains, we <b>might</b> cancel.</code> (احتمال أضعف)<br><br><b>بدل if:</b><br><code dir=ltr><b>unless</b></code> = if not → <code dir=ltr>I won't go <b>unless</b> you come.</code><br><code dir=ltr><b>as long as / provided that</b></code> = بشرط أن<br><code dir=ltr><b>in case</b></code> = تحسّباً لـ → <code dir=ltr>Take an umbrella <b>in case</b> it rains.</code>"
+        },
+        {
+          "type": "examples",
+          "title": "اسمع الفرق",
+          "rows": [
+            { "en": "<b>If</b> I <b>finish</b> early, I<b>'ll</b> call you.", "ar": "إن أنهيتُ باكراً سأتّصل بك. (ممكن)" },
+            { "en": "<b>If</b> I <b>finished</b> early, I<b>'d</b> call you.", "ar": "لو أنهيتُ باكراً لاتّصلتُ بك. (مستبعَد)" },
+            { "en": "<b>If</b> I <b>were</b> you, I<b>'d</b> wait.", "ar": "لو كنتُ مكانك لانتظرت. (نصيحة)" },
+            { "en": "I won't come <b>unless</b> you invite me.", "ar": "لن آتي ما لم تدعُني." },
+            { "en": "Take a coat <b>in case</b> it gets cold.", "ar": "خذ معطفاً تحسّباً للبرد." },
+            { "en": "<b>If</b> you <b>see</b> Ali, <b>give</b> him this.", "ar": "إن رأيتَ عليّاً فأعطِه هذا. (أمر)" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "would تُختزل إلى حرفٍ واحد",
+          "rows": [
+            { "w": "I would go", "s": "I'd go", "ar": "كنتُ سأذهب" },
+            { "w": "If I were you", "s": "If I wer ya", "ar": "لو كنتُ مكانك" },
+            { "w": "What would you do?", "s": "Wut wouldja do?", "ar": "ماذا كنتَ ستفعل؟" },
+            { "w": "It would have been better", "s": "It woulda bin bedder", "ar": "كان سيكون أفضل" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>If it ___ tomorrow, we'll cancel.</code>", "opts": ["will rain", "rains", "rained", "would rain"], "a": 1, "why": "الشرط الأوّل: مضارع بعد if." },
+            { "t": "mcq", "q": "<code dir=ltr>If I ___ rich, I'd buy a house by the sea.</code>", "opts": ["am", "will be", "were", "would be"], "a": 2, "why": "الشرط الثاني: ماضٍ بعد if، وwere مع كلّ الضمائر." },
+            { "t": "mcq", "q": "<code dir=ltr>If you study hard, you ___ pass.</code>", "opts": ["would", "will", "were", "had"], "a": 1, "why": "الشرط الأوّل: will في الشقّ الثاني." },
+            { "t": "mcq", "q": "<code dir=ltr>___ you hurry, you'll miss the train.</code>", "opts": ["If", "Unless", "In case", "As long as"], "a": 1, "why": "unless = if not — المعنى: إن لم تُسرع." },
+            { "t": "mcq", "q": "<code dir=ltr>Take your ID ___ they ask for it.</code>", "opts": ["unless", "if", "in case", "as long as"], "a": 2, "why": "in case = تحسّباً لاحتمال." },
+            { "t": "gap", "q": "<code dir=ltr>If I ___ (have) more time, I'd learn the piano.</code>", "a": ["had"], "why": "شرطٌ ثانٍ ← ماضٍ." },
+            { "t": "gap", "q": "<code dir=ltr>If she calls, ___ (tell) her I'm out.</code>", "a": ["tell"], "why": "أمر في الشقّ الثاني." },
+            { "t": "gap", "q": "<code dir=ltr>We ___ (go) out if the weather improves.</code>", "a": ["will go", "'ll go", "will go."], "why": "شرطٌ أوّل." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>If I will see him, I will tell him.</code>", "a": ["If I see him, I will tell him", "If I see him I'll tell him", "If I see him, I'll tell him"], "why": "لا will بعد if." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>If I was you, I would refuse.</code>", "a": ["If I were you, I would refuse", "If I were you I'd refuse", "If I were you, I'd refuse"], "why": "were في الشرط الثاني." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>If I had money, I will travel.</code>", "a": ["If I had money, I would travel", "If I had money I'd travel", "If I had money, I'd travel"], "why": "لا تخلط بين الشرطين: ماضٍ ← would." },
+            { "t": "order", "q": "رتّب:", "ws": ["If", "I", "were", "you", "I", "would", "wait"], "a": "If I were you I would wait", "why": "قالب النصيحة." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "type": "vocab",
+      "title": "مفردات: الاحتمال والقرار",
+      "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+      "blocks": [
+        {
+          "type": "vocab",
+          "title": "الاحتمال والمخاطرة",
+          "items": [
+            { "w": "likely / unlikely", "pos": "adjective", "ar": "مرجّح / مستبعَد", "ex": [{ "en": "It's <b>unlikely</b> to change anything.", "ar": "من المستبعَد أن يغيّر شيئاً." }] },
+            { "w": "take a risk", "pos": "expression", "ar": "يخاطر", "ex": [{ "en": "Sometimes you have to <b>take a risk</b>.", "ar": "أحياناً عليك أن تخاطر." }] },
+            { "w": "play it safe", "pos": "idiom", "ar": "يسلك المسلك الآمن", "ex": [{ "en": "I'd rather <b>play it safe</b> this time.", "ar": "أفضّل المسلك الآمن هذه المرّة." }] },
+            { "w": "worst-case scenario", "pos": "expression", "ar": "أسوأ الاحتمالات", "ex": [{ "en": "<b>Worst-case scenario</b>, we lose a week.", "ar": "في أسوأ الأحوال نخسر أسبوعاً." }] },
+            { "w": "back-up plan", "pos": "noun", "ar": "خطّة بديلة", "ex": [{ "en": "Always have a <b>back-up plan</b>.", "ar": "احتفظ دائماً بخطّة بديلة." }] },
+            { "w": "chances are", "pos": "expression", "ar": "الأرجح أنّ", "ex": [{ "en": "<b>Chances are</b> he won't notice.", "ar": "الأرجح أنّه لن يلاحظ." }] },
+            { "w": "it depends on", "pos": "expression", "ar": "يعتمد على", "ex": [{ "en": "<b>It depends on</b> how much time we have.", "ar": "يعتمد على كم الوقت المتاح." }] },
+            { "w": "bound to", "pos": "expression", "ar": "لا بدّ أن يحدث", "ex": [{ "en": "Mistakes are <b>bound to</b> happen.", "ar": "لا بدّ أن تقع أخطاء." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "القرار والتردّد",
+          "items": [
+            { "w": "make up one's mind", "pos": "idiom", "ar": "يحسم أمره", "ex": [{ "en": "I still haven't <b>made up my mind</b>.", "ar": "لم أحسم أمري بعد." }] },
+            { "w": "think it over", "pos": "expression", "ar": "يفكّر في الأمر مليّاً", "ex": [{ "en": "Take a day to <b>think it over</b>.", "ar": "خذ يوماً لتفكّر فيه." }] },
+            { "w": "have second thoughts", "pos": "idiom", "ar": "يعيد النظر ويتردّد", "ex": [{ "en": "I'm <b>having second thoughts</b> about it.", "ar": "أعيد النظر في الأمر." }] },
+            { "w": "weigh up", "pos": "phrasal verb", "ar": "يوازن بين الخيارات", "ex": [{ "en": "Let's <b>weigh up</b> the options.", "ar": "لنوازن بين الخيارات." }] },
+            { "w": "go for it", "pos": "expression", "ar": "يقدم على الأمر", "ex": [{ "en": "If you want it, <b>go for it</b>.", "ar": "إن أردتَه فأقدِم عليه." }] },
+            { "w": "put off", "pos": "phrasal verb", "ar": "يؤجّل", "ex": [{ "en": "Don't <b>put off</b> the decision.", "ar": "لا تؤجّل القرار." }] },
+            { "w": "on the fence", "pos": "idiom", "ar": "متردّد بين خيارين", "ex": [{ "en": "I'm still <b>on the fence</b>.", "ar": "ما زلتُ متردّداً." }] },
+            { "w": "sleep on it", "pos": "idiom", "ar": "يؤجّل القرار إلى الغد", "ex": [{ "en": "Let me <b>sleep on it</b>.", "ar": "دعني أفكّر فيه إلى الغد." }] }
+          ]
+        },
+        {
+          "type": "vocab",
+          "title": "السبب والنتيجة",
+          "items": [
+            { "w": "lead to", "pos": "phrasal verb", "ar": "يؤدّي إلى", "ex": [{ "en": "That would <b>lead to</b> more delays.", "ar": "سيؤدّي ذلك إلى مزيدٍ من التأخير." }] },
+            { "w": "end up", "pos": "phrasal verb", "ar": "ينتهي به الأمر إلى", "ex": [{ "en": "You'd <b>end up</b> paying twice.", "ar": "سينتهي بك الأمر إلى الدفع مرّتين." }] },
+            { "w": "otherwise", "pos": "adverb", "ar": "وإلّا", "ex": [{ "en": "Book now, <b>otherwise</b> it'll sell out.", "ar": "احجز الآن وإلّا نفدت." }] },
+            { "w": "as a result", "pos": "expression", "ar": "ونتيجةً لذلك", "ex": [{ "en": "<b>As a result</b>, costs went up.", "ar": "ونتيجةً لذلك ارتفعت التكاليف." }] },
+            { "w": "regardless of", "pos": "expression", "ar": "بغضّ النظر عن", "ex": [{ "en": "We'll go <b>regardless of</b> the weather.", "ar": "سنذهب بغضّ النظر عن الطقس." }] },
+            { "w": "provided that", "pos": "conjunction", "ar": "بشرط أن", "ex": [{ "en": "I'll help, <b>provided that</b> you ask early.", "ar": "سأساعد بشرط أن تطلب مبكّراً." }] },
+            { "w": "in that case", "pos": "expression", "ar": "في تلك الحالة", "ex": [{ "en": "<b>In that case</b>, let's postpone it.", "ar": "في تلك الحالة لنؤجّله." }] },
+            { "w": "no matter what", "pos": "expression", "ar": "مهما حدث", "ex": [{ "en": "I'll support you <b>no matter what</b>.", "ar": "سأدعمك مهما حدث." }] },
+            { "w": "it's worth a shot", "pos": "idiom", "ar": "يستحقّ المحاولة", "ex": [{ "en": "It might fail, but <b>it's worth a shot</b>.", "ar": "قد يفشل، لكنّه يستحقّ المحاولة." }] }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "type": "listening",
+      "title": "استماع: قرارٌ صعب",
+      "subtitle": "حوار + إملاء",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "ترتيب الاستماع",
+          "html": "<b>١.</b> ١٫٠× دون نصّ. <b>٢.</b> ٠٫٧× مع النصّ. <b>٣.</b> محاكاة. <b>٤.</b> ١٫٣×.<br><br>لاحظ متى ينتقل المتحدّثان من الشرط الأوّل إلى الثاني — وما الذي يدلّ عليه هذا الانتقال."
+        },
+        {
+          "type": "dialogue",
+          "title": "Should I Take the Job?",
+          "titleAr": "أأقبل الوظيفة؟",
+          "lines": [
+            { "sp": "Zain", "en": "So they offered you the role. What are you going to do?", "ar": "إذن عرضوا عليك الوظيفة. ماذا ستفعل؟" },
+            { "sp": "Dina", "en": "I honestly don't know. I'm still on the fence.", "ar": "لا أعرف بصراحة. ما زلتُ متردّدة." },
+            { "sp": "Zain", "en": "What's holding you back?", "ar": "ما الذي يمنعك؟" },
+            { "sp": "Dina", "en": "If I take it, I'll have to move to another city.", "ar": "إن قبلتُها فسيتعيّن عليّ الانتقال إلى مدينةٍ أخرى." },
+            { "sp": "Zain", "en": "And if you turn it down?", "ar": "وإن رفضتِها؟" },
+            { "sp": "Dina", "en": "Then I'll probably stay where I am for another two years.", "ar": "فسأبقى على الأرجح حيث أنا سنتين أخريين." },
+            { "sp": "Zain", "en": "If I were you, I'd think about where you want to be in five years.", "ar": "لو كنتُ مكانك لفكّرتُ أين تريدين أن تكوني بعد خمس سنوات." },
+            { "sp": "Dina", "en": "That's the problem — I don't know.", "ar": "هذه هي المشكلة — لا أعرف." },
+            { "sp": "Zain", "en": "Worst-case scenario, you hate it and you come back.", "ar": "في أسوأ الأحوال تكرهينها وتعودين." },
+            { "sp": "Dina", "en": "It's not that simple. If I left, I'd lose my whole network here.", "ar": "ليس بهذه البساطة. لو غادرتُ لخسرتُ شبكة علاقاتي كلّها هنا." },
+            { "sp": "Zain", "en": "Would you though? People stay in touch.", "ar": "أحقّاً؟ الناس يبقون على تواصل." },
+            { "sp": "Dina", "en": "Some do. Chances are most wouldn't.", "ar": "بعضهم. والأرجح أنّ أكثرهم لن يفعل." },
+            { "sp": "Zain", "en": "Unless you make the effort. That's in your hands.", "ar": "ما لم تبذلي الجهد. وهذا بيدك." },
+            { "sp": "Dina", "en": "True. Let me sleep on it and decide by Friday.", "ar": "صحيح. دعني أفكّر فيها إلى الغد وأقرّر بحلول الجمعة." },
+            { "sp": "Zain", "en": "Good. And provided that you decide for yourself, you can't really get it wrong.", "ar": "جيّد. وبشرط أن تقرّري لنفسك، لا يمكنك أن تخطئي حقّاً." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما الذي يمنع دينا؟", "opts": ["الراتب", "ضرورة الانتقال إلى مدينةٍ أخرى", "المدير", "الساعات"], "a": 1, "why": "<code dir=ltr>I'll have to move to another city</code>." },
+            { "t": "mcq", "q": "لماذا استعملت دينا <code dir=ltr>If I left, I'd lose…</code> لا <code dir=ltr>If I leave, I'll lose…</code>؟", "opts": ["خطأ منها", "لأنّها تتخيّل سيناريو تراه بعيداً أو غير مرغوب", "لأنّه ماضٍ", "لا فرق"], "a": 1, "why": "الشرط الثاني يبعّد الاحتمال عن الواقع." },
+            { "t": "mcq", "q": "ما نصيحة زين؟", "opts": ["أن ترفض", "أن تفكّر أين تريد أن تكون بعد خمس سنوات", "أن تسأل مديرها", "أن تقبل فوراً"], "a": 1, "why": "<code dir=ltr>If I were you, I'd think about…</code>" },
+            { "t": "mcq", "q": "<code dir=ltr>Unless you make the effort</code> تعني…", "opts": ["إن بذلتِ الجهد", "ما لم تبذلي الجهد", "بينما تبذلين", "رغم أنّك تبذلين"], "a": 1, "why": "unless = if not." },
+            { "t": "mcq", "q": "ما خلاصة زين الأخيرة؟", "opts": ["أنّ القرار خاطئ", "أنّ القرار صائب ما دام قرارها هي", "أنّ عليها الانتظار", "أنّ عليها استشارة غيرها"], "a": 1, "why": "<code dir=ltr>provided that you decide for yourself</code>." }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "إملاء — اكتب ما تسمع",
+          "qs": [
+            { "t": "dict", "say": "If I were you I'd think aboudit", "a": ["If I were you I'd think about it", "If I were you, I would think about it", "if i were you id think about it"], "why": "about it تلتصق بـ d مرتدّة." },
+            { "t": "dict", "say": "Whats holdin ya back?", "a": ["What's holding you back?", "whats holding you back"], "why": "سقطت g، وyou → «يَ»." },
+            { "t": "dict", "say": "Lemme sleep on it", "a": ["Let me sleep on it", "let me sleep on it"], "why": "let me → lemme." },
+            { "t": "dict", "say": "Chances are most wouldn", "a": ["Chances are most wouldn't", "chances are most wouldnt"], "why": "wouldn't تفقد t في النهاية." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "type": "reading",
+      "title": "قراءة: كلفة الطريق الذي لم تسلكه",
+      "subtitle": "نصّ + استنتاج المعنى من السياق",
+      "blocks": [
+        {
+          "type": "reading",
+          "title": "The Cost of the Road Not Taken",
+          "titleAr": "كلفة الطريق الذي لم تسلكه",
+          "en": "Economists have a name for the most expensive thing you never paid for: opportunity cost. Every choice you make quietly closes others, and the value of the best option you gave up is the real price of the one you took. If you spend a Saturday working, the cost is not only the hours — it is the afternoon with your family that you will never get back.<br><br>What makes this idea uncomfortable is that opportunity cost is invisible. A bill arrives; a forgone alternative does not. So we systematically overvalue what we can see. People stay in jobs they dislike because leaving has an obvious risk, while staying has only a hidden one. <b>Unless</b> you deliberately ask what you are giving up by not changing, the cost of standing still never appears on any statement.<br><br>There is a simple mental habit that helps. Before a significant decision, write down what you would do if the current option did not exist at all. If you <b>couldn't</b> stay in this job, what would you choose? If money <b>were</b> not a factor, where would you live? These questions do not make the decision for you, but they reveal preferences that fear tends to hide. Most people discover that they already know the answer — and that what they were really deciding was whether to admit it.",
+          "ar": "لدى الاقتصاديّين اسمٌ لأغلى شيءٍ لم تدفع ثمنه قطّ: «كلفة الفرصة البديلة». فكلّ اختيارٍ تتّخذه يُغلق في صمتٍ اختياراتٍ أخرى، وقيمةُ أفضل خيارٍ تخلّيتَ عنه هي الثمن الحقيقيّ للخيار الذي أخذته. فإن أنفقتَ سبتاً في العمل، فالكلفة ليست الساعات فحسب — بل العصر الذي كنتَ ستقضيه مع عائلتك ولن يعود.<br><br>وما يجعل هذه الفكرة مزعجة أنّ كلفة الفرصة البديلة غير مرئيّة. فالفاتورة تصل، أمّا البديل المتروك فلا. ولذلك نُفرط منهجيّاً في تقدير ما نراه. فيبقى الناس في وظائف يكرهونها لأنّ للرحيل خطراً ظاهراً، بينما للبقاء خطرٌ خفيّ وحده. وما لم تسأل نفسك عمداً عمّا تتخلّى عنه بعدم التغيير، لن تظهر كلفة الثبات في أيّ كشف حساب.<br><br>وثمّة عادةٌ ذهنيّة بسيطة تساعد: قبل أيّ قرارٍ مهمّ، اكتب ما كنتَ ستفعله لو أنّ الخيار الحاليّ لم يكن موجوداً أصلاً. فلو لم يكن بوسعك البقاء في هذه الوظيفة، ماذا كنتَ ستختار؟ ولو لم يكن المال عاملاً، أين كنتَ ستعيش؟ إنّ هذه الأسئلة لا تتّخذ القرار عنك، لكنّها تكشف تفضيلاتٍ يميل الخوف إلى إخفائها. ويكتشف أكثر الناس أنّهم يعرفون الجواب أصلاً — وأنّ ما كانوا يقرّرونه حقّاً هو هل يعترفون به.",
+          "keys": [["opportunity cost", "كلفة الفرصة البديلة"], ["forgone", "متروك/مُتخلّى عنه"], ["unless", "ما لم"], ["deliberately", "عمداً"], ["reveal", "يكشف"]]
+        },
+        {
+          "type": "quiz",
+          "title": "أسئلة الفهم",
+          "qs": [
+            { "t": "mcq", "q": "ما «كلفة الفرصة البديلة»؟", "opts": ["ثمن ما اشتريت", "قيمة أفضل خيارٍ تخلّيتَ عنه", "الضرائب", "الخسارة الماليّة"], "a": 1, "why": "تعريف النصّ المباشر." },
+            { "t": "mcq", "q": "لماذا نُفرط في تقدير ما نراه؟", "opts": ["لأنّه أهمّ", "لأنّ البديل المتروك غير مرئيّ فلا يصل كفاتورة", "لأنّنا كسالى", "لأنّ الاقتصاديّين يقولون ذلك"], "a": 1, "why": "<code dir=ltr>A bill arrives; a forgone alternative does not</code>." },
+            { "t": "mcq", "q": "لماذا يبقى الناس في وظائف يكرهونها؟", "opts": ["لأنّ الراتب جيّد", "لأنّ خطر الرحيل ظاهر وخطر البقاء خفيّ", "لأنّهم لا يجدون بديلاً", "لأنّهم يحبّون الروتين"], "a": 1, "why": "المقارنة بين خطرٍ ظاهر وآخر خفيّ." },
+            { "t": "mcq", "q": "ما العادة الذهنيّة المقترحة؟", "opts": ["استشارة صديق", "تخيّل أنّ الخيار الحاليّ غير موجود أصلاً", "الانتظار عاماً", "كتابة قائمة إيجابيّات وسلبيّات"], "a": 1, "why": "<code dir=ltr>what you would do if the current option did not exist</code>." },
+            { "t": "mcq", "q": "لماذا استعمل الكاتب <code dir=ltr>If money were not a factor</code>؟", "opts": ["لأنّه ماضٍ", "لأنّه افتراضٌ غير واقعيّ ← شرطٌ ثانٍ", "خطأ لغويّ", "لأنّه أمر"], "a": 1, "why": "الشرط الثاني للافتراض البعيد." },
+            { "t": "mcq", "q": "ما اكتشاف أكثر الناس حسب الخاتمة؟", "opts": ["أنّهم لا يعرفون", "أنّهم يعرفون الجواب وإنّما يقرّرون هل يعترفون به", "أنّ القرار مستحيل", "أنّ المال هو الفيصل"], "a": 1, "why": "الجملة الأخيرة." }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "صيغ الافتراض كما تُنطق",
+          "rows": [
+            { "w": "What would you do?", "s": "Wut wouldja do?", "ar": "ماذا كنتَ ستفعل؟" },
+            { "w": "I would not risk it", "s": "I wouldn risk it", "ar": "ما كنتُ لأخاطر" },
+            { "w": "If I could, I would", "s": "If I could, I would", "ar": "لو استطعتُ لفعلت" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "type": "function",
+      "title": "لغة وظيفيّة ونطق",
+      "subtitle": "أن تعرض وتحذّر وتفاوض",
+      "blocks": [
+        {
+          "type": "note",
+          "title": "الافتراض في التفاوض",
+          "html": "الشرط أداة التفاوض الأولى في الإنجليزية:<br><br>• <code dir=ltr><b>If</b> you can deliver by Friday, <b>we'll</b> pay in advance.</code> (عرض)<br>• <code dir=ltr><b>If</b> we <b>ordered</b> more, <b>would</b> you lower the price?</code> (تحسّس)<br>• <code dir=ltr>We'll sign <b>provided that</b> the terms stay the same.</code> (شرط)<br>• <code dir=ltr><b>Unless</b> we get an answer today, we'll look elsewhere.</code> (ضغط)<br><br>💡 استعمال الشرط الثاني في التفاوض (<code dir=ltr>would you…?</code>) يجعل السؤال <b>أقلّ إلزاماً</b> لك — فأنت تتحسّس لا تلتزم."
+        },
+        {
+          "type": "note",
+          "title": "التحذير والنصيحة",
+          "html": "<b>تحذير:</b> <code dir=ltr>If you don't back it up, you'll lose everything.</code><br><b>تحذير أقوى:</b> <code dir=ltr>Unless you act now, it'll be too late.</code><br><b>نصيحة:</b> <code dir=ltr>If I were you, I'd get a second opinion.</code><br><b>احتياط:</b> <code dir=ltr>Take a copy in case something goes wrong.</code><br><br>⚠️ <code dir=ltr>in case</code> ≠ <code dir=ltr>if</code>:<br><code dir=ltr>Take an umbrella <b>if</b> it rains.</code> (خذها عند المطر)<br><code dir=ltr>Take an umbrella <b>in case</b> it rains.</code> (خذها الآن تحسّباً)"
+        },
+        {
+          "type": "note",
+          "title": "لا تقل هذا",
+          "html": "❌ <code dir=ltr>If I will have time…</code> ✅ <code dir=ltr>If I have time…</code><br>❌ <code dir=ltr>If I would be you…</code> ✅ <code dir=ltr>If I were you…</code><br>❌ <code dir=ltr>Unless if you come…</code> ✅ <code dir=ltr>Unless you come…</code> (unless تحمل النفي أصلاً)<br>❌ <code dir=ltr>I will tell you when I will arrive.</code> ✅ <code dir=ltr>… when I <b>arrive</b>.</code> (لا will بعد when أيضاً)"
+        },
+        {
+          "type": "pron",
+          "title": "نطق: اختزال would و had",
+          "hint": "الاثنان يصيران 'd — والسياق يفرّق",
+          "rows": [
+            { "w": "I would go", "s": "I'd go", "ar": "'d + مصدر = would" },
+            { "w": "I had gone", "s": "I'd gone", "ar": "'d + تصريف ثالث = had" },
+            { "w": "He would have said", "s": "He woulda said", "ar": "لا تكتبها would of" },
+            { "w": "I would rather stay", "s": "I'd rather stay", "ar": "أفضّل البقاء" }
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "الشرط في الكلام السريع",
+          "rows": [
+            { "w": "If you want, I can help", "s": "If ya want, I kin help", "ar": "إن أردت أستطيع المساعدة" },
+            { "w": "Unless something comes up", "s": "Unless somethin comes up", "ar": "ما لم يطرأ شيء" },
+            { "w": "Just in case", "s": "Jus in case", "ar": "تحسّباً فحسب" }
+          ]
+        },
+        {
+          "type": "quiz",
+          "title": "تمارين",
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>Take your passport ___ they ask for ID.</code>", "opts": ["if", "in case", "unless", "provided"], "a": 1, "why": "الاحتياط المسبق ← in case." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Unless if you call me, I won't come.</code>", "a": ["Unless you call me, I won't come", "Unless you call me I won't come"], "why": "unless لا تجتمع مع if." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>I'll call you when I will arrive.</code>", "a": ["I'll call you when I arrive", "I will call you when I arrive"], "why": "لا will بعد when الزمنيّة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>If I would be you, I'd wait.</code>", "a": ["If I were you, I'd wait", "If I were you I would wait"], "why": "were لا would be." },
+            { "t": "mcq", "q": "في <code dir=ltr>I'd finished it</code> — ماذا تعني 'd؟", "opts": ["would", "had", "did", "should"], "a": 1, "why": "تلاها تصريف ثالث ← had." },
+            { "t": "mcq", "q": "أيّ صيغةٍ أنسب لتحسّس عرضٍ في التفاوض دون التزام؟", "opts": ["If we order more, you will lower the price.", "If we ordered more, would you lower the price?", "Lower the price.", "We order more."], "a": 1, "why": "الشرط الثاني يجعل السؤال استكشافيّاً غير ملزم." }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "type": "writing",
+      "title": "كتابة: رسالة مشورة",
+      "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+      "blocks": [
+        {
+          "type": "writing",
+          "title": "المهمّة",
+          "prompt": "صديقٌ يستشيرك في قرارٍ صعب (وظيفة جديدة، أو دراسة في الخارج، أو مشروع). اكتب ردّاً في <b>٩٠–١١٠ كلمة</b> يتضمّن:<br><br>• جملةً بالشرط الأوّل (احتمالٌ واقعيّ)<br>• جملةً بالشرط الثاني (افتراضٌ أو نصيحة بـ if I were you)<br>• <code dir=ltr>unless</code> أو <code dir=ltr>in case</code> مستعملةً بدقّة<br>• موازنةً بين خيارين<br>• ألّا تحسم عنه بل تساعده على الحسم",
+          "phrases": [
+            "I can see why you're on the fence.",
+            "If you take it, you'll …",
+            "If you turned it down, you'd …",
+            "If I were you, I'd …",
+            "Unless …, I think …",
+            "It might be worth …ing, just in case.",
+            "Whatever you decide, …"
+          ],
+          "model": "I can see why you're on the fence — it's a big call.\n\nIf you take it, you'll have to move, and that's a real cost. But if you turned it down, you'd probably be in exactly the same position in two years, asking the same question.\n\nIf I were you, I'd separate the two decisions: do you want this kind of work, and do you want this city? Unless the answer to the first one is yes, the second doesn't matter.\n\nIt might also be worth asking for a month to decide, just in case they can be flexible.\n\nWhatever you decide, make sure it's your reason and not someone else's.",
+          "modelAr": "أفهم لماذا أنت متردّد — إنّه قرارٌ كبير.\n\nفإن قبلتَها فسيتعيّن عليك الانتقال، وتلك كلفةٌ حقيقيّة. لكن لو رفضتَها لكنتَ على الأرجح في الموقع نفسه تماماً بعد سنتين، تسأل السؤال نفسه.\n\nولو كنتُ مكانك لفصلتُ القرارين: أتريد هذا النوع من العمل؟ وأتريد هذه المدينة؟ فما لم يكن جواب الأوّل نعم، فالثاني لا يهمّ.\n\nوقد يستحقّ الأمر أيضاً أن تطلب شهراً للقرار، تحسّباً لأن يكونوا مرنين.\n\nومهما قرّرت، فتيقّن أنّ السبب سببك أنت لا سبب غيرك.",
+          "checklist": [
+            "استعملتُ الشرط الأوّل (if + مضارع، will) لاحتمالٍ واقعيّ",
+            "استعملتُ الشرط الثاني (if + ماضٍ، would) لافتراضٍ أو نصيحة",
+            "لم أضع will بعد if",
+            "استعملتُ were لا was في if I were you",
+            "استعملتُ unless أو in case بمعناها الصحيح",
+            "وازنتُ بين خيارين بدل أن أحسم عنه",
+            "استعملتُ ثلاث مفرداتٍ من الوحدة",
+            "عدد الكلمات بين ٩٠ و١١٠"
+          ]
+        },
+        {
+          "type": "ear",
+          "title": "🎧 أذنك اليوم",
+          "hint": "عبارات المشورة كما تُنطق",
+          "rows": [
+            { "w": "It is a big call", "s": "It's a big call", "ar": "إنّه قرارٌ كبير" },
+            { "w": "Whatever you decide", "s": "Whadever ya decide", "ar": "مهما قرّرت" },
+            { "w": "It might be worth asking", "s": "It mide be worth askin", "ar": "قد يستحقّ السؤال" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "type": "test",
+      "title": "اختبار الوحدة",
+      "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+      "pass": 0.8,
+      "blocks": [
+        {
+          "type": "quiz",
+          "title": "اختبار الوحدة الحادية عشرة",
+          "isTest": true,
+          "qs": [
+            { "t": "mcq", "q": "<code dir=ltr>If you ___ me, I'll help you.</code>", "opts": ["will ask", "ask", "asked", "would ask"], "a": 1, "why": "الشرط الأوّل." },
+            { "t": "mcq", "q": "<code dir=ltr>If I ___ a car, I'd drive you.</code>", "opts": ["have", "will have", "had", "would have"], "a": 2, "why": "الشرط الثاني." },
+            { "t": "mcq", "q": "<code dir=ltr>If she were here, she ___ know what to do.</code>", "opts": ["will", "would", "was", "had"], "a": 1, "why": "would في الشقّ الثاني." },
+            { "t": "mcq", "q": "<code dir=ltr>___ you leave now, you'll be late.</code>", "opts": ["If", "Unless", "In case", "Provided"], "a": 1, "why": "unless = if not." },
+            { "t": "mcq", "q": "<code dir=ltr>Save your work ___ the power goes off.</code>", "opts": ["if", "unless", "in case", "as long as"], "a": 2, "why": "احتياطٌ مسبق." },
+            { "t": "mcq", "q": "<code dir=ltr>on the fence</code> تعني…", "opts": ["على السياج", "متردّد بين خيارين", "محايد سياسيّاً", "مُقصى"], "a": 1, "why": "من مفردات الوحدة." },
+            { "t": "mcq", "q": "<code dir=ltr>sleep on it</code> تعني…", "opts": ["ينام عليه", "يؤجّل القرار إلى الغد", "ينسى", "يتجاهل"], "a": 1, "why": "التأنّي ليلةً قبل الحسم." },
+            { "t": "mcq", "q": "<code dir=ltr>bound to</code> تعني…", "opts": ["مقيّد بـ", "لا بدّ أن يحدث", "متّجه إلى", "ملزم قانونيّاً"], "a": 1, "why": "احتمالٌ شبه مؤكّد." },
+            { "t": "gap", "q": "<code dir=ltr>If it ___ (be) cheaper, I'd buy it.</code>", "a": ["were", "was"], "why": "شرطٌ ثانٍ ← were (وwas مقبولة عاميّاً)." },
+            { "t": "gap", "q": "<code dir=ltr>If you ___ (come) early, we'll start on time.</code>", "a": ["come"], "why": "مضارع بعد if." },
+            { "t": "gap", "q": "<code dir=ltr>I ___ (not / go) unless you come with me.</code>", "a": ["will not go", "won't go", "will not go."], "why": "unless + مضارع، والشقّ الثاني will." },
+            { "t": "gap", "q": "<code dir=ltr>If I ___ (know) the answer, I'd tell you.</code>", "a": ["knew"], "why": "شرطٌ ثانٍ." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>If it will rain, we will stay.</code>", "a": ["If it rains, we will stay", "If it rains we'll stay", "If it rains, we'll stay"], "why": "لا will بعد if." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>If I was you, I would apologise.</code>", "a": ["If I were you, I would apologise", "If I were you I'd apologise", "If I were you, I'd apologize"], "why": "were في هذه الصيغة." },
+            { "t": "correct", "q": "صحّح: <code dir=ltr>Unless if you help, I can't finish.</code>", "a": ["Unless you help, I can't finish", "Unless you help I can't finish"], "why": "unless وحدها." },
+            { "t": "order", "q": "رتّب:", "ws": ["If", "I", "had", "more", "time", "I", "would", "travel"], "a": "If I had more time I would travel", "why": "شرطٌ ثانٍ." },
+            { "t": "order", "q": "رتّب:", "ws": ["Take", "a", "coat", "in", "case", "it", "gets", "cold"], "a": "Take a coat in case it gets cold", "why": "in case + مضارع." },
+            { "t": "dict", "say": "Wut wouldja do in my place?", "a": ["What would you do in my place?", "what would you do in my place"], "why": "would you → «وودجَ»." },
+            { "t": "dict", "say": "I wouldn risk it if I were you", "a": ["I wouldn't risk it if I were you", "i wouldnt risk it if i were you"], "why": "wouldn't تفقد t." },
+            { "t": "mcq", "q": "في <code dir=ltr>I'd rather stay</code> — ماذا تعني 'd؟", "opts": ["had", "would", "did", "should"], "a": 1, "why": "would rather = يفضّل." }
+          ]
+        },
+        {
+          "type": "watch",
+          "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+          "items": [
+            { "t": "مشاهد التفاوض في الأفلام", "d": "أيّ مشهد صفقةٍ أو مساومة — الشرط فيه بكثافة", "task": "سجّل خمس جملٍ شرطيّة، وحدّد أهي الشرط الأوّل أم الثاني ولماذا." },
+            { "t": "برامج المشورة والحياة", "d": "ابحث عن «life advice podcast» — لغة نصيحة وافتراض", "task": "استمع عشر دقائق، وسجّل ثلاث نصائح بصيغة if I were you." },
+            { "t": "محاضرات اتّخاذ القرار", "d": "ابحث عن «TED decision making»", "task": "شاهد محاضرةً، وسجّل تعبيرين عن الاحتمال والمخاطرة." }
+          ]
+        }
+      ]
+    }
+  ]
+}
