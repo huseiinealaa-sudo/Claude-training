@@ -1,0 +1,1477 @@
+{
+ "id": "unit-24",
+ "icon": "🏆",
+ "title": "الطلاقة — مراجعة ومشروع ختاميّ",
+ "subtitle": "Integration: everything, together",
+ "intro": "Fluency is not one more structure. It is the ability to reach for the right one without stopping to think. This final unit mixes everything you have studied, on purpose, without labels — because that is how English actually arrives.<span class=n-ar>الطلاقة ليست تركيباً إضافيّاً، بل القدرة على بلوغ التركيب الصحيح دون توقّفٍ للتفكير. وهذه الوحدة الختاميّة تخلط كلّ ما درسته عمداً وبلا عناوين — لأنّ هكذا تصلك الإنجليزيّة فعلاً.</span>",
+ "goals": [
+  "I can switch between structures without planning them",
+  "I can hold a real conversation at natural American speed",
+  "I can write a structured 250-word piece at B2 level",
+  "I have a concrete plan for what comes after this course"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "The whole grammar, in one place",
+   "subtitle": "twenty-four structures, mixed without labels",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Your grammar map — level one",
+     "html": "<b>1</b> present simple ↔ continuous · <b>2</b> past simple ↔ continuous · <b>3</b> present perfect + for/since · <b>4</b> will / going to / present continuous · <b>5</b> comparatives and superlatives · <b>6</b> should / must / have to<br><b>7</b> prepositions and quantifiers · <b>8</b> present perfect ↔ past simple · <b>9</b> infinitive ↔ gerund · <b>10</b> the passive (simple) · <b>11</b> first and second conditional · <b>12</b> reported speech + relative clauses<br><br>If any line here makes you hesitate, open that unit again before the test on day seven.<span class=n-ar>هذه خريطة المستوى الأوّل. إن تردّدت عند أيّ سطر، فافتح تلك الوحدة قبل اختبار اليوم السابع.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Your grammar map — level two",
+     "html": "<b>13</b> present perfect continuous + discourse markers · <b>14</b> the passive across all tenses · <b>15</b> past perfect and narrative tenses · <b>16</b> third and mixed conditionals · <b>17</b> full reported speech · <b>18</b> modals of deduction<br><b>19</b> the causative (have/get sth done) · <b>20</b> inversion and cleft sentences · <b>21</b> reduced relatives and participles · <b>22</b> hedging · <b>23</b> the unreal past (wish / if only / I'd rather)<br><br>These eleven are what separate B1 from B2. Nothing above this level is more useful than using these accurately.<span class=n-ar>هذه الإحدى عشرة هي ما يفصل B1 عن B2. ولا شيء فوق هذا المستوى أنفع من استعمالها بدقّة.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The six errors that survive everything",
+     "html": "Even advanced Arabic speakers keep these. Check every piece of writing for them:<br><br>1. <code dir=ltr>informations / evidences / researches / advices</code> → all uncountable<br>2. <code dir=ltr>He said me</code> → <code dir=ltr>He told me</code><br>3. <code dir=ltr>If I would have known</code> → <code dir=ltr>If I had known</code><br>4. <code dir=ltr>discuss about / explain me</code> → <code dir=ltr>discuss X</code> / <code dir=ltr>explain X to me</code><br>5. <code dir=ltr>I am agree</code> → <code dir=ltr>I agree</code><br>6. <code dir=ltr>since two years</code> → <code dir=ltr>for two years</code><br><br>Six lines. Fixing them permanently raises your perceived level more than any new grammar will.<span class=n-ar>ستّة أخطاء تنجو من كلّ شيء عند العرب المتقدّمين. وتصحيحها نهائيّاً يرفع مستواك الظاهر أكثر من أيّ نحوٍ جديد.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The fluency habit",
+     "html": "Accuracy is built by correction. Fluency is built by <u>not stopping</u>.<br><br>Practise this: speak for sixty seconds about anything, and forbid yourself from going back to fix a mistake. Then speak about the same thing again. The second run is always better, and the improvement comes from the fact that you did not stop the first time.<br><br>Both skills are necessary. Use writing for accuracy and speaking for fluency. Trying to do both at once is why people freeze.<span class=n-ar>الدقّة تُبنى بالتصحيح، والطلاقة تُبنى بعدم التوقّف. استعمل الكتابة للدقّة والكلام للطلاقة — ومحاولة الجمع بينهما في آنٍ واحد هي سبب التجمّد.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare — every structure, mixed",
+     "rows": [
+      {
+       "en": "<b>Had they told us earlier</b>, we <b>would have had</b> options.",
+       "ar": "لو أخبرونا مبكّراً لكان لدينا خيارات."
+      },
+      {
+       "en": "It's the <b>timing</b> that worries me, not the cost.",
+       "ar": "التوقيت هو ما يقلقني لا التكلفة."
+      },
+      {
+       "en": "She <b>must have been waiting</b> outside the whole time.",
+       "ar": "لا بدّ أنّها كانت تنتظر في الخارج طوال الوقت."
+      },
+      {
+       "en": "We're <b>having the figures checked</b>, and it <b>appears</b> they were rounded up.",
+       "ar": "نجعلهم يراجعون الأرقام، ويبدو أنّها قُرّبت إلى الأعلى."
+      },
+      {
+       "en": "<b>Not knowing</b> the process, I'd <b>rather you asked</b> him directly.",
+       "ar": "بما أنّي لا أعرف الإجراء، أفضّل أن تسأله أنت مباشرةً."
+      },
+      {
+       "en": "He <b>claimed</b> he <b>hadn't seen</b> it — which, <b>arguably</b>, <b>can't have been</b> true.",
+       "ar": "زعم أنّه لم يره، وهو ما يمكن القول إنّه لا يمكن أن يكون صحيحاً."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the ten reductions that unlock most American speech",
+     "rows": [
+      {
+       "w": "going to → gonna",
+       "s": "I'm gunna call em",
+       "ar": "سأتّصل بهم"
+      },
+      {
+       "w": "want to → wanna",
+       "s": "D'ya wanna go?",
+       "ar": "أتريد الذهاب؟"
+      },
+      {
+       "w": "have to → hafta",
+       "s": "I hafta leave",
+       "ar": "عليّ المغادرة"
+      },
+      {
+       "w": "would have → woulda",
+       "s": "I wuda told ya",
+       "ar": "كنتُ سأخبرك"
+      },
+      {
+       "w": "let me → lemme",
+       "s": "Lemme see",
+       "ar": "دعني أرى"
+      },
+      {
+       "w": "a lot of → alotta",
+       "s": "alodda people",
+       "ar": "كثيرٌ من الناس"
+      },
+      {
+       "w": "kind of → kinda",
+       "s": "It's kinda late",
+       "ar": "الوقت متأخّرٌ نوعاً ما"
+      },
+      {
+       "w": "out of → outta",
+       "s": "I'm oudda time",
+       "ar": "نفد وقتي"
+      },
+      {
+       "w": "did you → didja",
+       "s": "Didja see it?",
+       "ar": "هل رأيته؟"
+      },
+      {
+       "w": "got to → gotta",
+       "s": "I godda go",
+       "ar": "عليّ الذهاب"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Mixed practice — no labels",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If we ___ the clause, we wouldn't be in arbitration now.</code>",
+       "opts": [
+        "removed",
+        "had removed",
+        "remove",
+        "would remove"
+       ],
+       "a": 1,
+       "why": "شرطٌ مختلط: سببٌ ماضٍ ونتيجةٌ حاضرة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The car was still warm. Someone ___ it recently.</code>",
+       "opts": [
+        "must drive",
+        "must have driven",
+        "can't have driven",
+        "should drive"
+       ],
+       "a": 1,
+       "why": "استنتاجٌ شبه يقينيّ عن الماضي."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Not only ___ the deadline, he also rewrote the brief.</code>",
+       "opts": [
+        "he moved",
+        "did he move",
+        "he did move",
+        "moved he"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Not only."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We're ___ the office repainted next week.</code>",
+       "opts": [
+        "have",
+        "having",
+        "had",
+        "been having"
+       ],
+       "a": 1,
+       "why": "بناءٌ سببيّ في المضارع المستمرّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather you ___ that in front of the client.</code>",
+       "opts": [
+        "don't say",
+        "didn't say",
+        "not say",
+        "wouldn't say"
+       ],
+       "a": 1,
+       "why": "فاعلٌ مختلف بعد I'd rather ← ماضٍ بسيط."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>The results ___ (suggest) the effect may be temporary.</code>",
+       "a": [
+        "suggest"
+       ],
+       "why": "فعل تحوّط بدل prove."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>She asked me ___ I had seen the draft.</code>",
+       "a": [
+        "if",
+        "whether"
+       ],
+       "why": "سؤالٌ منقول بنعم/لا."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He explained me the process and said me to wait.</code>",
+       "a": [
+        "He explained the process to me and told me to wait"
+       ],
+       "why": "explain … to me، وtell تحتاج مفعولاً شخصيّاً."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I work here since three years and I am agree with the policy.</code>",
+       "a": [
+        "I have worked here for three years and I agree with the policy",
+        "I've worked here for three years and I agree with the policy"
+       ],
+       "why": "مضارعٌ تامّ + for، وagree فعل."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "was",
+        "the",
+        "delay",
+        "that",
+        "cost",
+        "us",
+        "the",
+        "contract"
+       ],
+       "a": "It was the delay that cost us the contract",
+       "why": "جملة it-cleft."
+      },
+      {
+       "t": "dict",
+       "say": "I wuda told ya but I didn nowat the time",
+       "a": [
+        "I would have told you but I didn't know at the time",
+        "I wouldve told you but I didnt know at the time"
+       ],
+       "why": "woulda + didn't know at ← بالربط."
+      },
+      {
+       "t": "dict",
+       "say": "Didja hear wut she sed abowdit?",
+       "a": [
+        "Did you hear what she said about it?",
+        "Did you hear what she said about it"
+       ],
+       "why": "did you ← دِدجَ، وabout it ← أباودِت."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: the highest-value phrases",
+   "subtitle": "٢٥ عبارة تحمل أكبر وزنٍ في الاستعمال",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Phrases that carry a whole sentence",
+     "items": [
+      {
+       "w": "to be fair",
+       "pos": "phrase",
+       "ar": "إنصافاً / بالعدل",
+       "ex": [
+        {
+         "en": "<b>To be fair</b>, nobody had warned them.",
+         "ar": "إنصافاً، لم يحذّرهم أحد."
+        }
+       ]
+      },
+      {
+       "w": "that said",
+       "pos": "phrase",
+       "ar": "ومع ذلك",
+       "ex": [
+        {
+         "en": "<b>That said</b>, the result speaks for itself.",
+         "ar": "ومع ذلك، النتيجة تتحدّث عن نفسها."
+        }
+       ]
+      },
+      {
+       "w": "as it turns out",
+       "pos": "phrase",
+       "ar": "وتبيّن أنّ",
+       "ex": [
+        {
+         "en": "<b>As it turns out</b>, they had known all along.",
+         "ar": "وتبيّن أنّهم كانوا يعلمون طوال الوقت."
+        }
+       ]
+      },
+      {
+       "w": "the thing is",
+       "pos": "phrase",
+       "ar": "المسألة هي",
+       "ex": [
+        {
+         "en": "<b>The thing is</b>, nobody owns this decision.",
+         "ar": "المسألة هي أنّ أحداً لا يتحمّل مسؤوليّة هذا القرار."
+        }
+       ]
+      },
+      {
+       "w": "if anything",
+       "pos": "phrase",
+       "ar": "بل على العكس / إن كان ثمّة شيء",
+       "ex": [
+        {
+         "en": "It hasn't slowed down. <b>If anything</b>, it's accelerated.",
+         "ar": "لم يتباطأ، بل على العكس تسارع."
+        }
+       ]
+      },
+      {
+       "w": "not that I know of",
+       "pos": "phrase",
+       "ar": "لا على حدّ علمي",
+       "ex": [
+        {
+         "en": "Has it shipped? <b>Not that I know of.</b>",
+         "ar": "هل أُطلق؟ لا على حدّ علمي."
+        }
+       ]
+      },
+      {
+       "w": "come to think of it",
+       "pos": "phrase",
+       "ar": "وبالتفكير في الأمر",
+       "ex": [
+        {
+         "en": "<b>Come to think of it</b>, she did mention it.",
+         "ar": "وبالتفكير في الأمر، لقد ذكرته فعلاً."
+        }
+       ]
+      },
+      {
+       "w": "for what it's worth",
+       "pos": "phrase",
+       "ar": "إن كان لهذا قيمة",
+       "ex": [
+        {
+         "en": "<b>For what it's worth</b>, I'd have done the same.",
+         "ar": "إن كان لهذا قيمة، كنتُ سأفعل الشيء نفسه."
+        }
+       ]
+      },
+      {
+       "w": "let alone",
+       "pos": "phrase",
+       "ar": "ناهيك عن",
+       "ex": [
+        {
+         "en": "He can't finish one, <b>let alone</b> three.",
+         "ar": "لا يستطيع إنهاء واحدٍ، ناهيك عن ثلاثة."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Verbs that replace three words",
+     "items": [
+      {
+       "w": "narrow down",
+       "pos": "verb",
+       "ar": "يضيّق الخيارات",
+       "ex": [
+        {
+         "en": "We <b>narrowed it down</b> to two options.",
+         "ar": "ضيّقناها إلى خيارين."
+        }
+       ]
+      },
+      {
+       "w": "account for",
+       "pos": "verb",
+       "ar": "يفسّر / يشكّل نسبة",
+       "ex": [
+        {
+         "en": "That <b>accounts for</b> most of the gap.",
+         "ar": "هذا يفسّر معظم الفجوة."
+        }
+       ]
+      },
+      {
+       "w": "come down to",
+       "pos": "verb",
+       "ar": "يتلخّص في",
+       "ex": [
+        {
+         "en": "It all <b>comes down to</b> trust.",
+         "ar": "كلّ شيءٍ يتلخّص في الثقة."
+        }
+       ]
+      },
+      {
+       "w": "put off",
+       "pos": "verb",
+       "ar": "يؤجّل / ينفّر",
+       "ex": [
+        {
+         "en": "Don't <b>put off</b> the difficult conversation.",
+         "ar": "لا تؤجّل المحادثة الصعبة."
+        }
+       ]
+      },
+      {
+       "w": "pick up on",
+       "pos": "verb",
+       "ar": "يلتقط (إشارة)",
+       "ex": [
+        {
+         "en": "She <b>picked up on</b> the hesitation immediately.",
+         "ar": "التقطت التردّد فوراً."
+        }
+       ]
+      },
+      {
+       "w": "bring up",
+       "pos": "verb",
+       "ar": "يطرح موضوعاً",
+       "ex": [
+        {
+         "en": "I'll <b>bring it up</b> on Thursday.",
+         "ar": "سأطرحه يوم الخميس."
+        }
+       ]
+      },
+      {
+       "w": "stand out",
+       "pos": "verb",
+       "ar": "يبرز",
+       "ex": [
+        {
+         "en": "One number <b>stands out</b> in that table.",
+         "ar": "رقمٌ واحد يبرز في ذلك الجدول."
+        }
+       ]
+      },
+      {
+       "w": "work out",
+       "pos": "verb",
+       "ar": "يتّضح / يُحسَب / ينجح",
+       "ex": [
+        {
+         "en": "It <b>worked out</b> cheaper in the end.",
+         "ar": "تبيّن أنّه أرخص في النهاية."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Words that raise your register instantly",
+     "items": [
+      {
+       "w": "considerable",
+       "pos": "adj",
+       "ar": "كبير / معتبَر",
+       "ex": [
+        {
+         "en": "There is <b>considerable</b> overlap between the two.",
+         "ar": "ثمّة تداخلٌ كبير بين الاثنين."
+        }
+       ]
+      },
+      {
+       "w": "consistent with",
+       "pos": "phrase",
+       "ar": "متّسق مع",
+       "ex": [
+        {
+         "en": "The result is <b>consistent with</b> earlier work.",
+         "ar": "النتيجة متّسقة مع أعمالٍ سابقة."
+        }
+       ]
+      },
+      {
+       "w": "in practice",
+       "pos": "phrase",
+       "ar": "عمليّاً",
+       "ex": [
+        {
+         "en": "<b>In practice</b>, the rule is never applied.",
+         "ar": "عمليّاً، لا تُطبَّق القاعدة أبداً."
+        }
+       ]
+      },
+      {
+       "w": "by definition",
+       "pos": "phrase",
+       "ar": "بحكم التعريف",
+       "ex": [
+        {
+         "en": "A pilot study is, <b>by definition</b>, small.",
+         "ar": "الدراسة التمهيديّة صغيرةٌ بحكم التعريف."
+        }
+       ]
+      },
+      {
+       "w": "to some extent",
+       "pos": "phrase",
+       "ar": "إلى حدٍّ ما",
+       "ex": [
+        {
+         "en": "That's true <b>to some extent</b>.",
+         "ar": "هذا صحيحٌ إلى حدٍّ ما."
+        }
+       ]
+      },
+      {
+       "w": "let's say",
+       "pos": "phrase",
+       "ar": "لنقل مثلاً",
+       "ex": [
+        {
+         "en": "Take a small team — <b>let's say</b> six people.",
+         "ar": "خذ فريقاً صغيراً، لنقل ستّة أشخاص."
+        }
+       ]
+      },
+      {
+       "w": "bear in mind",
+       "pos": "phrase",
+       "ar": "ضع في اعتبارك",
+       "ex": [
+        {
+         "en": "<b>Bear in mind</b> that the data stops in 2021.",
+         "ar": "ضع في اعتبارك أنّ البيانات تتوقّف عند ٢٠٢١."
+        }
+       ]
+      },
+      {
+       "w": "all things considered",
+       "pos": "phrase",
+       "ar": "بالنظر إلى كلّ شيء",
+       "ex": [
+        {
+         "en": "<b>All things considered</b>, it went well.",
+         "ar": "بالنظر إلى كلّ شيء، سار الأمر جيّداً."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: a real conversation, full speed",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "This is the hardest dialogue in the course: fast, informal, interrupted, and using structures from a dozen units at once. Do not aim to catch every word. Aim to follow the argument.<span class=n-ar>هذا أصعب حوارٍ في الدورة: سريع وغير رسميّ ومتقاطع، ويستعمل تراكيب اثنتي عشرة وحدةً دفعةً واحدة. لا تهدف إلى التقاط كلّ كلمة، بل إلى متابعة الحجّة.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "You Were Always Going to Say That",
+     "titleAr": "كنتَ ستقول ذلك حتماً",
+     "lines": [
+      {
+       "sp": "Yara",
+       "en": "Okay, so — you're gonna hate this, but I think we should kill the feature.",
+       "ar": "حسناً، إذن — ستكره هذا، لكنّي أرى أن نُلغي الخاصّيّة."
+      },
+      {
+       "sp": "Nabil",
+       "en": "You were always going to say that.",
+       "ar": "كنتِ ستقولين ذلك حتماً."
+      },
+      {
+       "sp": "Yara",
+       "en": "To be fair, I've been saying it since March. If anything, I've gotten quieter about it.",
+       "ar": "إنصافاً، أقولها منذ آذار. بل على العكس، صرتُ أقلّ صخباً بشأنها."
+      },
+      {
+       "sp": "Nabil",
+       "en": "Alright. Make the case.",
+       "ar": "حسناً. قدّمي الحجّة."
+      },
+      {
+       "sp": "Yara",
+       "en": "Three things. One, nobody's used it in the last four releases. Not once.",
+       "ar": "ثلاثة أمور. أوّلاً: لم يستعملها أحد في الإصدارات الأربعة الأخيرة. ولا مرّة."
+      },
+      {
+       "sp": "Nabil",
+       "en": "Because we buried it.",
+       "ar": "لأنّنا دفنّاها."
+      },
+      {
+       "sp": "Yara",
+       "en": "We did. Which is my second point — it's had three redesigns and it's still buried. That tells you something.",
+       "ar": "فعلنا. وهذه نقطتي الثانية: خضعت لثلاث إعادات تصميم وما تزال مدفونة. هذا يخبرك بشيء."
+      },
+      {
+       "sp": "Nabil",
+       "en": "Or it tells you our design process is broken.",
+       "ar": "أو يخبرك أنّ عمليّة التصميم لدينا معطوبة."
+      },
+      {
+       "sp": "Yara",
+       "en": "Could be both. Third — and this is the one that matters — it's the only thing blocking the migration.",
+       "ar": "قد يكون الأمران. ثالثاً — وهذه هي المهمّة — إنّها الشيء الوحيد الذي يعيق الترحيل."
+      },
+      {
+       "sp": "Nabil",
+       "en": "Hang on. Is that actually true, or is it true the way things are scoped right now?",
+       "ar": "مهلاً. هل هذا صحيحٌ فعلاً، أم صحيحٌ بحسب النطاق الحاليّ؟"
+      },
+      {
+       "sp": "Yara",
+       "en": "…That's a fair question. The second one.",
+       "ar": "…سؤالٌ عادل. الثاني."
+      },
+      {
+       "sp": "Nabil",
+       "en": "Right. So what you're actually arguing is that it's not worth rescoping for.",
+       "ar": "بالضبط. إذن ما تحاجّين به فعلاً هو أنّها لا تستحقّ إعادة تحديد النطاق."
+      },
+      {
+       "sp": "Yara",
+       "en": "Yes. Which is a weaker claim, and I should have led with it.",
+       "ar": "نعم. وهي دعوى أضعف، وكان عليّ أن أبدأ بها."
+      },
+      {
+       "sp": "Nabil",
+       "en": "For what it's worth, I'd have killed it in March. I just wanted you to argue it properly.",
+       "ar": "إن كان لهذا قيمة، كنتُ سألغيها في آذار. أردتُ فقط أن تحاجّي بها كما ينبغي."
+      },
+      {
+       "sp": "Yara",
+       "en": "You could have said that in March.",
+       "ar": "كان بإمكانك قول ذلك في آذار."
+      },
+      {
+       "sp": "Nabil",
+       "en": "I could have. It wouldn't have taught you anything.",
+       "ar": "كان بإمكاني. لكنّه ما كان ليعلّمك شيئاً."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If anything, I've gotten quieter about it</code> means Yara has",
+       "opts": [
+        "said it more often",
+        "said it less often, not more",
+        "stopped saying it",
+        "never said it"
+       ],
+       "a": 1,
+       "why": "if anything تعكس التوقّع: أقلّ لا أكثر."
+      },
+      {
+       "t": "mcq",
+       "q": "Nabil's challenge <code dir=ltr>is it true the way things are scoped right now?</code> forces Yara to",
+       "opts": [
+        "repeat her point",
+        "weaken her claim to an accurate one",
+        "change subject",
+        "apologise"
+       ],
+       "a": 1,
+       "why": "يميّز بين حقيقةٍ مطلقة وحقيقةٍ مشروطة بالنطاق."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I should have led with it</code> means she",
+       "opts": [
+        "did start with it",
+        "should have started with it and didn't",
+        "will start with it",
+        "refuses to start with it"
+       ],
+       "a": 1,
+       "why": "should have تفيد ما لم يُفعل."
+      },
+      {
+       "t": "mcq",
+       "q": "Nabil's real reason for not deciding in March was",
+       "opts": [
+        "he disagreed",
+        "he wanted her to build the argument herself",
+        "he was away",
+        "he had no authority"
+       ],
+       "a": 1,
+       "why": "«ما كان ليعلّمك شيئاً»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It wouldn't have taught you anything</code> is",
+       "opts": [
+        "a second conditional",
+        "a third conditional result",
+        "reported speech",
+        "a causative"
+       ],
+       "a": 1,
+       "why": "نتيجةٌ ماضية غير واقعيّة."
+      },
+      {
+       "t": "mcq",
+       "q": "The strongest sign that Yara argues well is that she",
+       "opts": [
+        "never concedes",
+        "concedes the flaw in her own third point",
+        "raises her voice",
+        "quotes data only"
+       ],
+       "a": 1,
+       "why": "تعترف بضعف دعواها وتصحّحها."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "Yer gunna hayt this but I think we shud kill it",
+       "a": [
+        "You're gonna hate this but I think we should kill it",
+        "Youre gonna hate this but I think we should kill it"
+       ],
+       "why": "going to ← gonna، وyou're ← يَر."
+      },
+      {
+       "t": "dict",
+       "say": "Nobody's yoozd it in the last four releases",
+       "a": [
+        "Nobody's used it in the last four releases",
+        "Nobodys used it in the last four releases"
+       ],
+       "why": "nobody's ← اختزال has."
+      },
+      {
+       "t": "dict",
+       "say": "Is thad akshully true or is it true the way its scoped?",
+       "a": [
+        "Is that actually true or is it true the way it's scoped?",
+        "Is that actually true or is it true the way its scoped"
+       ],
+       "why": "actually ← أكشوَلي، وthat ← ذَد."
+      },
+      {
+       "t": "dict",
+       "say": "I shuda led with it",
+       "a": [
+        "I should have led with it",
+        "I shouldve led with it"
+       ],
+       "why": "should have ← شودَه."
+      },
+      {
+       "t": "dict",
+       "say": "It wudn-ta tawt ya ennything",
+       "a": [
+        "It wouldn't have taught you anything",
+        "It wouldnt have taught you anything"
+       ],
+       "why": "wouldn't have ← ووْدنْتَ، وyou ← يَ."
+      },
+      {
+       "t": "dict",
+       "say": "Fer wut its worth I'd hav killd it in March",
+       "a": [
+        "For what it's worth I'd have killed it in March",
+        "For what its worth Id have killed it in March"
+       ],
+       "why": "for what ← فَروت، وI'd have ← آيدَف."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: what to do after the course",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Plateau Is the Point",
+     "titleAr": "الهضبة هي المقصد",
+     "en": "Everyone who reaches B2 in a second language discovers the same unpleasant fact: progress stops feeling like progress. The first year is dramatic — you go from silence to sentences. The fourth year is invisible, because the remaining gaps are not gaps in grammar. They are gaps in exposure.<br><br>This is why the advice that works at B2 is so different from the advice that works at A2. <b>Having finished a structured course</b>, the useful next step is not another structured course. It is volume: hours of input slightly above your level, repeated, in areas you would consume anyway. A person who watches forty hours of one American series with English subtitles will improve more than one who studies forty hours of vocabulary lists, because the series teaches collocation, rhythm and register, which lists cannot.<br><br><b>It is worth noting</b> that the plateau feels like failure and is not. Comprehension deepens before production does; you understand jokes months before you can make them. If you had recorded yourself a year ago, the difference would be obvious. You didn't, so it isn't.<br><br>The one habit that separates people who reach C1 from people who stay at B2 is unglamorous: they produce language regularly, in writing, and someone or something corrects it. Everything else — apps, films, podcasts, conversation — builds the input. Correction is what converts it.",
+     "ar": "كلّ من يبلغ مستوى B2 في لغةٍ ثانية يكتشف الحقيقة غير السارّة نفسها: يتوقّف التقدّم عن الإحساس بأنّه تقدّم. فالسنة الأولى مذهلة — تنتقل من الصمت إلى الجمل. والسنة الرابعة غير مرئيّة، لأنّ الفجوات المتبقّية ليست فجواتٍ في النحو بل في التعرّض.<br><br>ولهذا فالنصيحة التي تنفع في B2 مختلفةٌ جدّاً عن التي تنفع في A2. فبعد أن أنهيتَ دورةً منظّمة، لا تكون الخطوة التالية المفيدة دورةً منظّمةً أخرى، بل الكمّ: ساعاتٌ من المُدخل الأعلى قليلاً من مستواك، مكرّراً، في مجالاتٍ كنتَ ستستهلكها أصلاً. فمن يشاهد أربعين ساعةً من مسلسلٍ أمريكيٍّ واحد بترجمةٍ إنجليزيّة سيتحسّن أكثر ممّن يدرس أربعين ساعةً من قوائم المفردات، لأنّ المسلسل يعلّم التلازم اللفظيّ والإيقاع والمستوى اللغويّ، وهي ما لا تستطيع القوائم تعليمه.<br><br>ويجدر بالملاحظة أنّ الهضبة تبدو فشلاً وليست كذلك. فالفهم يتعمّق قبل الإنتاج؛ إذ تفهم النكات بأشهرٍ قبل أن تستطيع صنعها. ولو كنتَ سجّلت نفسك قبل عام لكان الفرق بيّناً. لكنّك لم تفعل، فلم يكن بيّناً.<br><br>والعادة الوحيدة التي تفصل من يبلغون C1 عمّن يبقون في B2 غير برّاقة: إنّهم يُنتجون اللغة بانتظام، كتابةً، ويصحّحها لهم أحدٌ أو شيءٌ ما. وكلّ ما عداها — التطبيقات والأفلام والبودكاست والمحادثة — يبني المُدخل. والتصحيح هو ما يحوّله.",
+     "keys": [
+      [
+       "gaps in exposure",
+       "فجوات في التعرّض"
+      ],
+      [
+       "volume",
+       "الكمّ"
+      ],
+      [
+       "collocation",
+       "التلازم اللفظيّ"
+      ],
+      [
+       "the plateau",
+       "الهضبة (توقّف ظاهريّ)"
+      ],
+      [
+       "comprehension deepens before production",
+       "الفهم يتعمّق قبل الإنتاج"
+      ],
+      [
+       "converts it",
+       "يحوّله"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "At B2 the remaining gaps are described as gaps in",
+       "opts": [
+        "grammar",
+        "exposure",
+        "intelligence",
+        "motivation"
+       ],
+       "a": 1,
+       "why": "«ليست فجواتٍ في النحو بل في التعرّض»."
+      },
+      {
+       "t": "mcq",
+       "q": "The recommended next step after a structured course is",
+       "opts": [
+        "another structured course",
+        "volume of slightly challenging input",
+        "vocabulary lists",
+        "grammar drills"
+       ],
+       "a": 1,
+       "why": "الكمّ من المُدخل الأعلى قليلاً."
+      },
+      {
+       "t": "mcq",
+       "q": "A series beats vocabulary lists because it teaches",
+       "opts": [
+        "more words",
+        "collocation, rhythm and register",
+        "spelling",
+        "grammar rules"
+       ],
+       "a": 1,
+       "why": "ثلاثة أشياء لا تستطيع القوائم تعليمها."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If you had recorded yourself a year ago, the difference would be obvious</code> is",
+       "opts": [
+        "a third conditional",
+        "a mixed conditional",
+        "a second conditional",
+        "a first conditional"
+       ],
+       "a": 1,
+       "why": "شرطٌ ماضٍ ونتيجةٌ حاضرة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>You didn't, so it isn't</code> means",
+       "opts": [
+        "you recorded and it helped",
+        "no recording exists, so the progress is invisible",
+        "recording is useless",
+        "the progress did not happen"
+       ],
+       "a": 1,
+       "why": "غياب الدليل لا غياب التقدّم."
+      },
+      {
+       "t": "mcq",
+       "q": "The habit that separates C1 from B2 is",
+       "opts": [
+        "watching more films",
+        "regular corrected production",
+        "living abroad",
+        "using apps daily"
+       ],
+       "a": 1,
+       "why": "الإنتاج المنتظم مع التصحيح."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the final listening drill — full sentences, full speed",
+     "rows": [
+      {
+       "w": "I'm gonna have to think about it",
+       "s": "I'm gunna hafta think abowdit",
+       "ar": "سأضطرّ إلى التفكير فيه"
+      },
+      {
+       "w": "What do you want me to do?",
+       "s": "Wudaya wan me ta do?",
+       "ar": "ماذا تريدني أن أفعل؟"
+      },
+      {
+       "w": "It's not as bad as it looks",
+       "s": "Snot az bad az it luks",
+       "ar": "ليس بالسوء الذي يبدو"
+      },
+      {
+       "w": "I should have known better",
+       "s": "I shuda nown bedder",
+       "ar": "كان عليّ أن أعرف"
+      },
+      {
+       "w": "Let me get back to you on that",
+       "s": "Lemme ged back t'ya on that",
+       "ar": "دعني أعاود التواصل بشأنه"
+      },
+      {
+       "w": "A lot of it comes down to timing",
+       "s": "Alodda it cumz down ta tymin",
+       "ar": "كثيرٌ منه يتلخّص في التوقيت"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "The full register map",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "One idea, five registers",
+     "html": "«لا أستطيع فعل ذلك»:<br><br><code dir=ltr>No way.</code> — with friends<br><code dir=ltr>I can't, sorry.</code> — neutral spoken<br><code dir=ltr>I'm afraid that won't be possible.</code> — professional<br><code dir=ltr>Unfortunately, we are unable to accommodate that request.</code> — formal written<br><code dir=ltr>Regrettably, the proposal falls outside the scope of this agreement.</code> — legal / institutional<br><br>Choosing the wrong register is a bigger error than choosing the wrong tense. A native speaker forgives a grammar slip instantly and remembers a register mistake for weeks.<span class=n-ar>اختيار المستوى اللغويّ الخاطئ خطأٌ أكبر من اختيار الزمن الخاطئ. يغفر الناطق الأصليّ زلّة النحو فوراً ويتذكّر زلّة المستوى أسابيع.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The twelve phrases that do the most work",
+     "html": "If you learn only twelve things from this course, learn these:<br><br><code dir=ltr>To be fair, …</code> · <code dir=ltr>That said, …</code> · <code dir=ltr>The thing is, …</code><br><code dir=ltr>I see it slightly differently.</code> · <code dir=ltr>My concern would be that …</code><br><code dir=ltr>I'd rather you didn't.</code> · <code dir=ltr>I'm not comfortable with that.</code><br><code dir=ltr>In hindsight, …</code> · <code dir=ltr>It remains unclear whether …</code><br><code dir=ltr>What I'm saying is …</code> · <code dir=ltr>Let me come back to you on that.</code><br><code dir=ltr>For what it's worth, …</code><br><br>Every one of them buys you a second to think, and none of them sounds like a learner.<span class=n-ar>كلّ واحدةٍ منها تمنحك ثانيةً للتفكير، ولا تبدو أيٌّ منها لغة متعلّم.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 قائمة الأخطاء الكاملة — راجعها قبل كلّ نصّ تكتبه",
+     "html": "<b>الأسماء غير المعدودة:</b> information · evidence · research · advice · feedback · knowledge · progress · equipment<br><br><b>الأفعال:</b> <code dir=ltr>discuss X</code> (لا about) · <code dir=ltr>explain X to me</code> · <code dir=ltr>tell someone</code> / <code dir=ltr>say something</code> · <code dir=ltr>I agree</code> (لا am agree) · <code dir=ltr>It depends on</code> · <code dir=ltr>afford X</code> (لا to)<br><br><b>الأزمنة:</b> <code dir=ltr>for two years</code> (لا since) · <code dir=ltr>If I had known</code> (لا would have) · <code dir=ltr>can't have</code> (لا mustn't have) · <code dir=ltr>I wish I had</code> (لا would have)<br><br><b>الصفات:</b> <code dir=ltr>I'm bored</code> ≠ <code dir=ltr>I'm boring</code> · <code dir=ltr>prices are high</code> ≠ <code dir=ltr>expensive</code> · <code dir=ltr>historical</code> ≠ <code dir=ltr>historic</code><br><br><b>التعابير:</b> لا تكتب <code dir=ltr>do the needful</code> ولا <code dir=ltr>revert back</code> ولا <code dir=ltr>according to me</code> ولا <code dir=ltr>In nowadays</code>.<span class=n-ar>هذه قائمة المراجعة النهائيّة. مرّرها على كلّ نصٍّ تكتبه بالإنجليزيّة لسنةٍ كاملة، ثمّ لن تحتاجها.</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: the final checklist",
+     "hint": "the six American features that matter most",
+     "rows": [
+      {
+       "w": "Flap T",
+       "s": "water → WAH-der",
+       "ar": "t بين صائتين ← د خفيفة"
+      },
+      {
+       "w": "Schwa",
+       "s": "about → uh-BOWT",
+       "ar": "كلّ مقطعٍ غير منبورٍ يصير «أَ»"
+      },
+      {
+       "w": "Linking C→V",
+       "s": "turn it off → tur-ni-doff",
+       "ar": "الساكن يلتصق بالصائت التالي"
+      },
+      {
+       "w": "Dropped final T/D",
+       "s": "next day → neks day",
+       "ar": "تسقط في عناقيد السواكن"
+      },
+      {
+       "w": "Word stress",
+       "s": "PRO-ject vs pro-JECT",
+       "ar": "النبر يغيّر الاسم والفعل"
+      },
+      {
+       "w": "Sentence stress",
+       "s": "I never SAID that",
+       "ar": "الكلمة المنبورة هي المعنى"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the last drill — the ten phrases you will hear every day",
+     "rows": [
+      {
+       "w": "What's going on?",
+       "s": "Wuts goin on?",
+       "ar": "ما الذي يجري؟"
+      },
+      {
+       "w": "How's it going?",
+       "s": "How-zit goin?",
+       "ar": "كيف تسير الأمور؟"
+      },
+      {
+       "w": "I've got to run",
+       "s": "I'v godda run",
+       "ar": "عليّ الذهاب سريعاً"
+      },
+      {
+       "w": "Sounds good to me",
+       "s": "Sowndz gud ta me",
+       "ar": "يبدو لي جيّداً"
+      },
+      {
+       "w": "Give me a second",
+       "s": "Gimme a seckin",
+       "ar": "أمهلني لحظة"
+      },
+      {
+       "w": "I'll let you know",
+       "s": "I'll letcha know",
+       "ar": "سأعلمك"
+      },
+      {
+       "w": "Don't worry about it",
+       "s": "Don worry abowdit",
+       "ar": "لا تقلق بشأنه"
+      },
+      {
+       "w": "That works for me",
+       "s": "That werks fer me",
+       "ar": "هذا يناسبني"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Register and accuracy",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Which is right for a formal written refusal to a client?",
+       "opts": [
+        "No way.",
+        "I can't, sorry.",
+        "I'm afraid that won't be possible.",
+        "Unfortunately, we are unable to accommodate that request."
+       ],
+       "a": 3,
+       "why": "أعلى مستوىً رسميّ للكتابة إلى عميل."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>According to me, we should discuss about it nowadays.</code>",
+       "a": [
+        "In my view, we should discuss it these days",
+        "In my view, we should discuss it now",
+        "From my point of view, we should discuss it now"
+       ],
+       "why": "ثلاثة أخطاء: according to me، وdiscuss about، وnowadays في غير موضعها."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He gave me an advice and many informations.</code>",
+       "a": [
+        "He gave me some advice and a lot of information",
+        "He gave me advice and information"
+       ],
+       "why": "advice وinformation غير معدودتين."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am working here since 2019 and I am agree with the changes.</code>",
+       "a": [
+        "I have been working here since 2019 and I agree with the changes",
+        "I've been working here since 2019 and I agree with the changes"
+       ],
+       "why": "مضارعٌ تامّ مستمرّ + since، وagree فعل."
+      },
+      {
+       "t": "mcq",
+       "q": "The unit argues that a register mistake is",
+       "opts": [
+        "less noticeable than a grammar mistake",
+        "more memorable than a grammar mistake",
+        "the same as a grammar mistake",
+        "impossible at B2"
+       ],
+       "a": 1,
+       "why": "يُغفر النحو فوراً ويُتذكّر المستوى أسابيع."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ what it's worth, I'd have waited.</code>",
+       "a": [
+        "For"
+       ],
+       "why": "for what it's worth."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "المشروع الختاميّ",
+   "subtitle": "٢٥٠ كلمة — كلّ ما تعلّمته في نصٍّ واحد",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The final project",
+     "prompt": "Write <b>250 words</b> on this question: <i>What has changed in how you use English over the last year, and what will you do next?</i><br><br>Structure it in four paragraphs:<br>• <b>1 — Where you started.</b> Narrative tenses, past perfect.<br>• <b>2 — What changed and why.</b> Present perfect / present perfect continuous, one causative.<br>• <b>3 — What you would do differently.</b> One third or mixed conditional, one <code dir=ltr>wish</code> or <code dir=ltr>I'd rather</code>.<br>• <b>4 — The plan.</b> Hedged predictions, one cleft or inversion for emphasis.<br><br>Required across the whole piece: <b>eight</b> structures from the grammar map, <b>six</b> words or phrases from the course, and <b>zero</b> items from the error list.<span class=n-ar>اكتب ٢٥٠ كلمة في أربع فقرات كما هو موضّح: البداية، ما تغيّر، ما كنتَ ستفعله على نحوٍ مختلف، والخطّة. مطلوبٌ ثمانية تراكيب من خريطة النحو، وستّ كلماتٍ من الدورة، وصفرٌ من قائمة الأخطاء.</span>",
+     "phrases": [
+      "A year ago I had barely …",
+      "By the time I started …, I had already …",
+      "I've been … for about …",
+      "I had my writing corrected by …",
+      "If I had started …, I would be … now",
+      "I wish I had … / I'd rather I had …",
+      "It is not X but Y that has made the difference.",
+      "Never have I … as consistently as …",
+      "It is likely that … / It remains unclear whether …",
+      "Over the next six months, I intend to …"
+     ],
+     "model": "A year ago I had barely used English outside a classroom. I could read a technical page slowly, and I had memorised more grammar than I had ever produced. By the time I started this course, I had already abandoned two apps, both for the same reason: they tested what I knew rather than what I could do.\n\nWhat has changed is not my grammar. I have been listening to American speech almost daily, and I have had my writing corrected every week, which turned out to matter more than either activity alone. The listening built recognition; the correction converted it into something I could use.\n\nIf I had started with films instead of word lists, I would be further ahead now — though I would probably have a weaker grasp of tenses, so perhaps the order was not wrong. I wish I had recorded myself in the first week. I'd rather have the evidence than the impression.\n\nIt is not vocabulary but rhythm that has made the largest difference, and never have I noticed that as clearly as when I stopped translating in my head. Over the next six months, I intend to write two hundred words a week and have them corrected, watch one series with English subtitles rather than five, and speak for a minute a day without stopping to fix myself.\n\nIt remains unclear whether that is enough for C1. It is, however, the only plan I have tested that survived a full year.",
+     "modelAr": "قبل عام لم أكن قد استعملتُ الإنجليزيّة خارج قاعة الدرس إلّا بالكاد. كنتُ أقرأ صفحةً تقنيّة ببطء، وكنتُ قد حفظتُ من النحو أكثر ممّا أنتجتُ يوماً. وبحلول بدئي هذه الدورة كنتُ قد تخلّيتُ عن تطبيقين، وكلاهما للسبب نفسه: كانا يختبران ما أعرفه لا ما أستطيع فعله.\n\nوما تغيّر ليس نحوي. فقد ظللتُ أستمع إلى الكلام الأمريكيّ يوميّاً تقريباً، وجعلتُ من يصحّح كتابتي أسبوعيّاً، وتبيّن أنّ هذا أهمّ من أيٍّ من النشاطين وحده. فالاستماع بنى التعرّف، والتصحيح حوّله إلى شيءٍ أستطيع استعماله.\n\nولو بدأتُ بالأفلام بدل قوائم الكلمات لكنتُ أبعد شوطاً الآن — مع أنّ قبضتي على الأزمنة كانت ستكون أضعف على الأرجح، فربّما لم يكن الترتيب خاطئاً. وليتني سجّلتُ نفسي في الأسبوع الأوّل؛ فأنا أفضّل أن أملك الدليل لا الانطباع.\n\nوليست المفردات بل الإيقاع هو ما أحدث الفارق الأكبر، ولم ألحظ ذلك بهذا الوضوح قطّ كما لحظته حين توقّفتُ عن الترجمة في رأسي. وفي الأشهر الستّة القادمة أنوي أن أكتب مئتي كلمةٍ أسبوعيّاً وأجعل من يصحّحها، وأن أشاهد مسلسلاً واحداً بترجمةٍ إنجليزيّة لا خمسة، وأن أتكلّم دقيقةً يوميّاً دون توقّفٍ لتصحيح نفسي.\n\nويبقى من غير الواضح إن كان ذلك كافياً لبلوغ C1. لكنّه الخطّة الوحيدة التي جرّبتها وصمدت عاماً كاملاً.",
+     "checklist": [
+      "Paragraph 1 uses past perfect for what came before",
+      "Paragraph 2 uses present perfect or present perfect continuous",
+      "Paragraph 2 contains one causative (had my writing corrected)",
+      "Paragraph 3 contains a third or mixed conditional",
+      "Paragraph 3 contains 'wish' or \"I'd rather\" with the right form",
+      "Paragraph 4 contains one cleft or one inversion",
+      "Paragraph 4 hedges its predictions (likely / remains unclear / intend to)",
+      "Eight different structures from the grammar map appear in total",
+      "Six words or phrases from the course appear",
+      "Zero items from the error list: no 'informations', no 'I am agree', no 'If I would have', no 'discuss about'",
+      "Four paragraphs, about 250 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "read your own project aloud — these are the joins to get right",
+     "rows": [
+      {
+       "w": "a year ago",
+       "s": "a yeer ago",
+       "ar": "قبل عام"
+      },
+      {
+       "w": "what has changed is",
+       "s": "wut-uz chaynjd iz",
+       "ar": "ما تغيّر هو"
+      },
+      {
+       "w": "I've been listening to",
+       "s": "I'v bin lissnin ta",
+       "ar": "ظللتُ أستمع إلى"
+      },
+      {
+       "w": "turned out to matter",
+       "s": "turn-dowt ta madder",
+       "ar": "تبيّن أنّه مهمّ"
+      },
+      {
+       "w": "over the next six months",
+       "s": "over the nex six munths",
+       "ar": "في الأشهر الستّة القادمة"
+      },
+      {
+       "w": "that is enough",
+       "s": "thad-iz enuff",
+       "ar": "أنّ ذلك كافٍ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "الاختبار الختاميّ",
+   "subtitle": "٢٠ سؤالاً من الدورة كلّها — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "الاختبار الختاميّ — B2",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>By the time the auditors arrived, the files ___ .</code>",
+       "opts": [
+        "were deleted",
+        "had been deleted",
+        "have been deleted",
+        "deleted"
+       ],
+       "a": 1,
+       "why": "مجهولٌ في الماضي التامّ: حدثٌ سبق حدثاً ماضياً."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>If they had diversified, they ___ exposed now.</code>",
+       "opts": [
+        "wouldn't have been",
+        "wouldn't be",
+        "weren't",
+        "hadn't been"
+       ],
+       "a": 1,
+       "why": "شرطٌ مختلط: نتيجةٌ حاضرة."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>The office was empty. They ___ left early.</code>",
+       "opts": [
+        "can't have",
+        "must have",
+        "mustn't have",
+        "should have"
+       ],
+       "a": 1,
+       "why": "استنتاجٌ شبه يقينيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>We're ___ the contract reviewed by counsel.</code>",
+       "opts": [
+        "have",
+        "having",
+        "had",
+        "been having"
+       ],
+       "a": 1,
+       "why": "بناءٌ سببيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Not only ___ the brief, she rewrote the plan.</code>",
+       "opts": [
+        "she read",
+        "did she read",
+        "she did read",
+        "read she"
+       ],
+       "a": 1,
+       "why": "قلبٌ بعد Not only."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>I'd rather you ___ that now.</code>",
+       "opts": [
+        "don't raise",
+        "didn't raise",
+        "not raise",
+        "wouldn't raise"
+       ],
+       "a": 1,
+       "why": "فاعلٌ مختلف ← ماضٍ بسيط."
+      },
+      {
+       "t": "mcq",
+       "q": "Which is correctly hedged for a report?",
+       "opts": [
+        "This proves the method works",
+        "This suggests the method may work in this setting",
+        "Everyone agrees the method works",
+        "The method always works"
+       ],
+       "a": 1,
+       "why": "فعل تحوّط + مودال + تقييدٌ سياقيّ."
+      },
+      {
+       "t": "mcq",
+       "q": "Reduce: <code dir=ltr>the clauses that were added in March</code>",
+       "opts": [
+        "the clauses adding in March",
+        "the clauses added in March",
+        "the clauses to add in March",
+        "the clauses were added"
+       ],
+       "a": 1,
+       "why": "مجهولٌ مختصر بتصريفٍ ثالث."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>She asked me ___ I had read it.</code>",
+       "a": [
+        "if",
+        "whether"
+       ],
+       "why": "سؤالٌ منقول بنعم/لا."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>It's high time we ___ (write) this down.</code>",
+       "a": [
+        "wrote"
+       ],
+       "why": "it's time + ماضٍ بسيط."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>I've been waiting ___ nine o'clock.</code>",
+       "a": [
+        "since"
+       ],
+       "why": "since + نقطة زمنيّة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>He said me that he will discuss about it.</code>",
+       "a": [
+        "He told me that he would discuss it",
+        "He told me he would discuss it"
+       ],
+       "why": "tell + شخص، وwill ← would، وdiscuss بلا about."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>If I would have known, I wouldn't of signed.</code>",
+       "a": [
+        "If I had known, I wouldn't have signed",
+        "If I'd known, I wouldn't have signed"
+       ],
+       "why": "لا would في شقّ if، وwould have لا would of."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>There are many researches and evidences about this.</code>",
+       "a": [
+        "There is a lot of research and evidence about this",
+        "There is considerable research and evidence on this"
+       ],
+       "why": "الاسمان غير معدودين."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I am agree, but the prices are very expensive.</code>",
+       "a": [
+        "I agree, but the prices are very high",
+        "I agree, but prices are high"
+       ],
+       "why": "agree فعل، والسعر مرتفع لا غالٍ."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "It",
+        "was",
+        "the",
+        "timing",
+        "that",
+        "cost",
+        "them",
+        "the",
+        "deal"
+       ],
+       "a": "It was the timing that cost them the deal",
+       "why": "جملة it-cleft."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Having",
+        "been",
+        "rejected",
+        "twice",
+        "she",
+        "published",
+        "it",
+        "herself"
+       ],
+       "a": "Having been rejected twice she published it herself",
+       "why": "عبارةٌ وصفيّة تامّة مبنيّة للمجهول."
+      },
+      {
+       "t": "dict",
+       "say": "I wuda told ya if I'd nown",
+       "a": [
+        "I would have told you if I had known",
+        "I would have told you if I'd known"
+       ],
+       "why": "woulda + 'd — شرطٌ ثالث مختزل."
+      },
+      {
+       "t": "dict",
+       "say": "He musta bin waydin the hole time",
+       "a": [
+        "He must have been waiting the whole time"
+       ],
+       "why": "must have been + flap T في waiting."
+      },
+      {
+       "t": "dict",
+       "say": "Wudaya wan me ta do abowdit?",
+       "a": [
+        "What do you want me to do about it?",
+        "What do you want me to do about it"
+       ],
+       "why": "what do you ← وودَيَ، وabout it ← أباودِت."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خطّتك بعد الدورة — ستّة أشهر",
+     "items": [
+      {
+       "t": "المُدخل: مسلسلٌ واحد لا خمسة",
+       "d": "اختر مسلسلاً أمريكيّاً واحداً وشاهده كلّه بترجمةٍ إنجليزيّة — «Friends» للحياة اليوميّة، «Succession» للعمل، «The Bear» للسرعة الحقيقيّة",
+       "task": "حلقة يوميّاً. سجّل خمس عباراتٍ جديدة من كلّ حلقة في بنك المراجعة."
+      },
+      {
+       "t": "الأذن: بودكاست في طريقك",
+       "d": "ابحث عن «NPR Up First» عشر دقائق صباحاً، أو «Planet Money» عشرين دقيقة",
+       "task": "استمع دون ترجمة. لا تتوقّف عند ما لا تفهمه — هذا هو التمرين نفسه."
+      },
+      {
+       "t": "الإنتاج: مئتا كلمة أسبوعيّاً",
+       "d": "هذا هو الجزء الذي يفصل C1 عن B2، وهو الجزء الذي سيتخلّى عنه معظم الناس",
+       "task": "اكتب مئتي كلمةٍ كلّ أسبوع، واجعل أحداً أو أداةً تصحّحها، واحتفظ بالنسختين."
+      },
+      {
+       "t": "الطلاقة: دقيقة يوميّاً بلا توقّف",
+       "d": "سجّل نفسك بهاتفك وأنت تتكلّم دقيقةً عن يومك",
+       "task": "لا تعد ولا تصحّح أثناء الكلام. واستمع للتسجيل مرّةً واحدة بعد أسبوع."
+      },
+      {
+       "t": "المراجعة: نظام التكرار في هذا التطبيق",
+       "d": "بنك المراجعة هنا يبقى يعمل بعد انتهاء الدورة",
+       "task": "افتح «المراجعة» كلّ يومٍ خمس دقائق. هذا وحده يحفظ كلّ ما بنيته."
+      },
+      {
+       "t": "القياس: بعد ستّة أشهر",
+       "d": "أعد اختبار هذه الوحدة، وأعد كتابة المشروع الختاميّ من الصفر",
+       "task": "قارن النصّين. الفرق الذي لا تشعر به يوماً بيوم سيكون بيّناً على الورق."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
