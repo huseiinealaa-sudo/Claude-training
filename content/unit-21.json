@@ -1,0 +1,1363 @@
+{
+ "id": "unit-21",
+ "icon": "🎨",
+ "title": "الفنّ والأدب",
+ "subtitle": "Reduced relative clauses and participles",
+ "intro": "Good English prose is dense. One reason is that skilled writers delete the words a relative clause does not need — turning <code dir=ltr>the man who was standing there</code> into <code dir=ltr>the man standing there</code>. Learn this and your writing loses a third of its weight.<span class=n-ar>النثر الإنجليزيّ الجيّد مكثّف. وأحد أسبابه أنّ الكُتّاب المهرة يحذفون ما لا تحتاجه الجملة الموصولة. أتقن هذا يفقد نصّك ثلث ثقله.</span>",
+ "goals": [
+  "I can shorten relative clauses correctly",
+  "I can use participle phrases to open and join sentences",
+  "I can describe and interpret art, film and books",
+  "I can read dense written English without losing the thread"
+ ],
+ "days": [
+  {
+   "n": 1,
+   "type": "grammar",
+   "title": "Reduced relatives and participle clauses",
+   "subtitle": "deleting what the sentence does not need",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "The two reductions",
+     "html": "<b>Active → -ing</b><br><code dir=ltr>the woman <s>who is</s> <b>standing</b> by the door</code><br><code dir=ltr>a novel <s>that</s> <b>describes</b> → a novel <b>describing</b> the siege</code><br><br><b>Passive → past participle</b><br><code dir=ltr>the painting <s>that was</s> <b>stolen</b> in 1990</code><br><code dir=ltr>the questions <s>that were</s> <b>raised</b> at the launch</code><br><br>The rule: if the relative pronoun is the <u>subject</u> of its clause, you can reduce it. If it is the object, you cannot.<br><br><code dir=ltr>the book that I read</code> → <code dir=ltr><s>the book reading</s></code> ❌ (object — no reduction)<span class=n-ar>القاعدة: يجوز الاختصار إن كان الاسم الموصول فاعلاً في جملته، ولا يجوز إن كان مفعولاً.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Participle clauses at the start",
+     "html": "A participle phrase can open a sentence and replace a whole clause:<br><br><code dir=ltr><b>Painted in 1907</b>, the work shocked its first audience.</code><br>= Because / After it was painted in 1907 …<br><br><code dir=ltr><b>Having read the script twice</b>, she still refused the part.</code><br>= Although she had read it twice …<br><br><code dir=ltr><b>Walking through the gallery</b>, you notice the silence first.</code><br>= When you walk through …<br><br>It compresses reason, time or contrast into a phrase. Newspapers and novels run on this.<span class=n-ar>العبارة الوصفيّة تضغط السبب أو الزمن أو التضادّ في عبارة. الصحف والروايات تقوم عليها.</span>"
+    },
+    {
+     "type": "note",
+     "title": "The dangling participle — the classic error",
+     "html": "The subject of the participle must be the subject of the main clause.<br><br>❌ <code dir=ltr>Walking through the gallery, the paintings seemed smaller.</code><br>→ the paintings were walking?<br>✅ <code dir=ltr>Walking through the gallery, I found the paintings smaller.</code><br><br>❌ <code dir=ltr>Written in 1925, we still read it today.</code><br>✅ <code dir=ltr>Written in 1925, the novel is still read today.</code><br><br>Read every participle opening back and ask: <u>who is doing this?</u> If the answer is not the subject that follows, the sentence is broken.<span class=n-ar>فاعل العبارة الوصفيّة يجب أن يكون فاعل الجملة الرئيسة. اسأل دائماً: من يفعل هذا؟ فإن لم يكن هو الفاعل التالي فالجملة مكسورة.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Perfect and negative participles",
+     "html": "<code dir=ltr><b>Having finished</b> the trilogy, he started again.</code> — one thing before another<br><code dir=ltr><b>Having been rejected</b> nine times, she published it herself.</code> — passive, earlier<br><code dir=ltr><b>Not knowing</b> the language, I read it in translation.</code> — negative goes first<br><code dir=ltr><b>Never having seen</b> the original, I can't compare.</code><br><br>⚠️ Negative: <code dir=ltr>Not knowing</code> ✅ / <code dir=ltr><s>Knowing not</s></code> ❌<span class=n-ar>Having + تصريفٌ ثالث لما سبق، والنفي يتقدّم دائماً: Not knowing لا Knowing not.</span>"
+    },
+    {
+     "type": "examples",
+     "title": "Listen and compare",
+     "rows": [
+      {
+       "en": "The chapter <b>dealing with exile</b> is the strongest in the book.",
+       "ar": "الفصل الذي يعالج المنفى هو الأقوى في الكتاب."
+      },
+      {
+       "en": "<b>Filmed entirely at night</b>, it looks like nothing else from that decade.",
+       "ar": "صُوّر ليلاً بالكامل، فبدا مختلفاً عن كلّ ما في ذلك العقد."
+      },
+      {
+       "en": "<b>Having spent</b> a year on the translation, he threw it away.",
+       "ar": "بعد أن أمضى عاماً في الترجمة، رماها."
+      },
+      {
+       "en": "Anyone <b>arriving late</b> will be seated after the first movement.",
+       "ar": "من يصل متأخّراً سيُجلَس بعد الحركة الأولى."
+      },
+      {
+       "en": "<b>Not having read</b> the original, I'll keep my opinion short.",
+       "ar": "بما أنّي لم أقرأ الأصل، سأُوجز رأيي."
+      },
+      {
+       "en": "The scenes <b>cut from the final version</b> are on the disc.",
+       "ar": "المشاهد المحذوفة من النسخة النهائيّة موجودةٌ على القرص."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "reduced clauses are said as one breath group",
+     "rows": [
+      {
+       "w": "the guy standing over there",
+       "s": "the guy standin over there",
+       "ar": "الرجل الواقف هناك"
+      },
+      {
+       "w": "the film based on the novel",
+       "s": "the film bayst on the novel",
+       "ar": "الفيلم المقتبس من الرواية"
+      },
+      {
+       "w": "Having said that",
+       "s": "Havin sed that",
+       "ar": "ومع ذلك"
+      },
+      {
+       "w": "written by hand",
+       "s": "riddn by hand",
+       "ar": "مكتوب بخطّ اليد"
+      },
+      {
+       "w": "anyone interested in art",
+       "s": "enny-wun intristid in art",
+       "ar": "كلّ مهتمّ بالفنّ"
+      },
+      {
+       "w": "the part cut from the show",
+       "s": "the part cut frm the show",
+       "ar": "الجزء المحذوف من العرض"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Practice",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Reduce: <code dir=ltr>the students who are waiting outside</code>",
+       "opts": [
+        "the students waited outside",
+        "the students waiting outside",
+        "the students to wait outside",
+        "the students who waiting"
+       ],
+       "a": 1,
+       "why": "فاعل + مضارعٌ مستمرّ ← ing."
+      },
+      {
+       "t": "mcq",
+       "q": "Reduce: <code dir=ltr>the letters that were found in the attic</code>",
+       "opts": [
+        "the letters finding in the attic",
+        "the letters found in the attic",
+        "the letters to find in the attic",
+        "the letters were found"
+       ],
+       "a": 1,
+       "why": "مبنيّ للمجهول ← تصريفٌ ثالث."
+      },
+      {
+       "t": "mcq",
+       "q": "Which CANNOT be reduced?",
+       "opts": [
+        "the man who lives next door",
+        "the play that won the prize",
+        "the book that I finished last night",
+        "the road that leads to the museum"
+       ],
+       "a": 2,
+       "why": "الاسم الموصول مفعول، فلا اختصار."
+      },
+      {
+       "t": "mcq",
+       "q": "Which sentence has a dangling participle?",
+       "opts": [
+        "Painted in 1907, the work shocked audiences.",
+        "Walking home, I noticed the mural.",
+        "Reading the novel, the ending surprised me.",
+        "Having failed twice, he tried again."
+       ],
+       "a": 2,
+       "why": "النهاية لا تقرأ الرواية."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ (not / know) the language, I read it in translation.</code>",
+       "a": [
+        "Not knowing"
+       ],
+       "why": "النفي يتقدّم."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Written in 1925, we still read the novel today.</code>",
+       "a": [
+        "Written in 1925, the novel is still read today",
+        "Written in 1925, the novel is still widely read today"
+       ],
+       "why": "فاعل العبارة يجب أن يكون فاعل الجملة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Having",
+        "seen",
+        "the",
+        "original",
+        "I",
+        "prefer",
+        "the",
+        "remake"
+       ],
+       "a": "Having seen the original I prefer the remake",
+       "why": "Having + تصريفٌ ثالث لما سبق."
+      },
+      {
+       "t": "dict",
+       "say": "The film bayst on the novel iz longer",
+       "a": [
+        "The film based on the novel is longer"
+       ],
+       "why": "based ← بايست، وnovel is بالربط."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "type": "vocab",
+   "title": "Vocabulary: art, film and literature",
+   "subtitle": "٢٥ كلمة تدخل نظام التكرار",
+   "blocks": [
+    {
+     "type": "vocab",
+     "title": "Describing a work",
+     "items": [
+      {
+       "w": "narrative",
+       "pos": "noun",
+       "ar": "سرد / حبكة سرديّة",
+       "ex": [
+        {
+         "en": "The <b>narrative</b> jumps between three decades.",
+         "ar": "يقفز السرد بين ثلاثة عقود."
+        }
+       ]
+      },
+      {
+       "w": "protagonist",
+       "pos": "noun",
+       "ar": "بطل العمل",
+       "ex": [
+        {
+         "en": "The <b>protagonist</b> is never named.",
+         "ar": "لا يُسمّى بطل العمل أبداً."
+        }
+       ]
+      },
+      {
+       "w": "plot",
+       "pos": "noun",
+       "ar": "حبكة",
+       "ex": [
+        {
+         "en": "The <b>plot</b> matters far less than the voice.",
+         "ar": "الحبكة أقلّ أهمّيّةً بكثير من الصوت السرديّ."
+        }
+       ]
+      },
+      {
+       "w": "imagery",
+       "pos": "noun",
+       "ar": "صور بيانيّة",
+       "ex": [
+        {
+         "en": "The <b>imagery</b> is drawn almost entirely from water.",
+         "ar": "الصور مستمدّةٌ كلّها تقريباً من الماء."
+        }
+       ]
+      },
+      {
+       "w": "genre",
+       "pos": "noun",
+       "ar": "نوع أدبيّ أو فنّيّ",
+       "ex": [
+        {
+         "en": "It refuses to sit in one <b>genre</b>.",
+         "ar": "يرفض أن يستقرّ في نوعٍ واحد."
+        }
+       ]
+      },
+      {
+       "w": "portray",
+       "pos": "verb",
+       "ar": "يصوّر / يجسّد",
+       "ex": [
+        {
+         "en": "The film <b>portrays</b> the city as indifferent.",
+         "ar": "يصوّر الفيلم المدينة لامبالية."
+        }
+       ]
+      },
+      {
+       "w": "evoke",
+       "pos": "verb",
+       "ar": "يستحضر شعوراً",
+       "ex": [
+        {
+         "en": "Two notes are enough to <b>evoke</b> the whole period.",
+         "ar": "تكفي نغمتان لاستحضار الحقبة كلّها."
+        }
+       ]
+      },
+      {
+       "w": "subtle",
+       "pos": "adj",
+       "ar": "دقيق / خفيّ الأثر",
+       "ex": [
+        {
+         "en": "The performance is <b>subtle</b> to the point of invisibility.",
+         "ar": "الأداء دقيقٌ إلى حدّ الخفاء."
+        }
+       ]
+      },
+      {
+       "w": "understated",
+       "pos": "adj",
+       "ar": "متحفّظ / بلا مبالغة",
+       "ex": [
+        {
+         "en": "It is <b>understated</b>, and all the stronger for it.",
+         "ar": "إنّه متحفّظ، وأقوى بسبب ذلك."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Judgement and criticism",
+     "items": [
+      {
+       "w": "acclaimed",
+       "pos": "adj",
+       "ar": "مُشاد به",
+       "ex": [
+        {
+         "en": "Her most <b>acclaimed</b> book is her shortest.",
+         "ar": "أكثر كتبها إشادةً هو أقصرها."
+        }
+       ]
+      },
+      {
+       "w": "overrated",
+       "pos": "adj",
+       "ar": "مبالَغ في تقديره",
+       "ex": [
+        {
+         "en": "I'd say it's <b>overrated</b>, though I'd watch it again.",
+         "ar": "أقول إنّه مبالغٌ في تقديره، مع أنّي سأشاهده ثانيةً."
+        }
+       ]
+      },
+      {
+       "w": "derivative",
+       "pos": "adj",
+       "ar": "مقتبَس بلا أصالة",
+       "ex": [
+        {
+         "en": "The early work is <b>derivative</b>; the late work is not.",
+         "ar": "العمل المبكّر مقتبَس بلا أصالة، والمتأخّر ليس كذلك."
+        }
+       ]
+      },
+      {
+       "w": "compelling",
+       "pos": "adj",
+       "ar": "آسر",
+       "ex": [
+        {
+         "en": "A <b>compelling</b> first hour, then nothing.",
+         "ar": "ساعةٌ أولى آسرة، ثمّ لا شيء."
+        }
+       ]
+      },
+      {
+       "w": "contrived",
+       "pos": "adj",
+       "ar": "متكلَّف / مفتعل",
+       "ex": [
+        {
+         "en": "The ending felt <b>contrived</b>.",
+         "ar": "بدت النهاية مفتعلة."
+        }
+       ]
+      },
+      {
+       "w": "masterpiece",
+       "pos": "noun",
+       "ar": "تحفة",
+       "ex": [
+        {
+         "en": "Calling it a <b>masterpiece</b> ends the conversation.",
+         "ar": "تسميته تحفةً تُنهي النقاش."
+        }
+       ]
+      },
+      {
+       "w": "critique",
+       "pos": "noun/verb",
+       "ar": "نقد تحليليّ",
+       "ex": [
+        {
+         "en": "The novel is a <b>critique</b> of nostalgia, not a celebration of it.",
+         "ar": "الرواية نقدٌ للحنين لا احتفاءٌ به."
+        }
+       ]
+      },
+      {
+       "w": "resonate",
+       "pos": "verb",
+       "ar": "يلقى صدى",
+       "ex": [
+        {
+         "en": "It <b>resonated</b> with a generation that had left home.",
+         "ar": "لقي صدىً لدى جيلٍ غادر بلاده."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "vocab",
+     "title": "Making and performing",
+     "items": [
+      {
+       "w": "adaptation",
+       "pos": "noun",
+       "ar": "اقتباس",
+       "ex": [
+        {
+         "en": "The stage <b>adaptation</b> cut two characters.",
+         "ar": "حذف الاقتباس المسرحيّ شخصيّتين."
+        }
+       ]
+      },
+      {
+       "w": "score",
+       "pos": "noun",
+       "ar": "موسيقى تصويريّة",
+       "ex": [
+        {
+         "en": "The <b>score</b> does half the emotional work.",
+         "ar": "تؤدّي الموسيقى التصويريّة نصف العمل العاطفيّ."
+        }
+       ]
+      },
+      {
+       "w": "cinematography",
+       "pos": "noun",
+       "ar": "تصوير سينمائيّ",
+       "ex": [
+        {
+         "en": "The <b>cinematography</b> was praised more than the script.",
+         "ar": "أُشيد بالتصوير أكثر من النصّ."
+        }
+       ]
+      },
+      {
+       "w": "improvise",
+       "pos": "verb",
+       "ar": "يرتجل",
+       "ex": [
+        {
+         "en": "Half the dialogue was <b>improvised</b>.",
+         "ar": "نصف الحوار كان مرتجلاً."
+        }
+       ]
+      },
+      {
+       "w": "rehearse",
+       "pos": "verb",
+       "ar": "يتمرّن / يبروفة",
+       "ex": [
+        {
+         "en": "They <b>rehearsed</b> the scene forty times.",
+         "ar": "تمرّنوا على المشهد أربعين مرّة."
+        }
+       ]
+      },
+      {
+       "w": "exhibition",
+       "pos": "noun",
+       "ar": "معرض",
+       "ex": [
+        {
+         "en": "The <b>exhibition</b> runs until March.",
+         "ar": "يستمرّ المعرض حتّى آذار."
+        }
+       ]
+      },
+      {
+       "w": "commission",
+       "pos": "verb/noun",
+       "ar": "يكلّف بعملٍ فنّيّ",
+       "ex": [
+        {
+         "en": "The mural was <b>commissioned</b> by the city.",
+         "ar": "كلّفت المدينة برسم الجداريّة."
+        }
+       ]
+      },
+      {
+       "w": "draw on",
+       "pos": "verb",
+       "ar": "يستمدّ من",
+       "ex": [
+        {
+         "en": "She <b>draws on</b> her grandmother's letters throughout.",
+         "ar": "تستمدّ من رسائل جدّتها في العمل كلّه."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "type": "listening",
+   "title": "Listening: arguing about a film",
+   "subtitle": "حوار + إملاء",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Before you listen",
+     "html": "Two friends disagree about a film. The language is informal and fast, and it is full of reduced clauses — <code dir=ltr>the bit shot in the car</code>, <code dir=ltr>the guy playing the brother</code>.<span class=n-ar>صديقان يختلفان حول فيلم. اللغة سريعة وغير رسميّة ومليئة بالجمل الموصولة المختصرة.</span>"
+    },
+    {
+     "type": "dialogue",
+     "title": "The Bit Shot in the Car",
+     "titleAr": "المشهد المصوّر في السيّارة",
+     "lines": [
+      {
+       "sp": "Sami",
+       "en": "I don't get the fuss. It's beautifully shot and completely empty.",
+       "ar": "لا أفهم الضجّة. مصوّرٌ ببراعة وفارغٌ تماماً."
+      },
+      {
+       "sp": "Hind",
+       "en": "Empty how? The whole thing is about a man avoiding one conversation.",
+       "ar": "فارغٌ كيف؟ الفيلم كلّه عن رجلٍ يتجنّب محادثةً واحدة."
+      },
+      {
+       "sp": "Sami",
+       "en": "Which he avoids for two hours. That's not restraint, that's a script problem.",
+       "ar": "يتجنّبها ساعتين. هذا ليس ضبطاً للنفس، بل مشكلةٌ في النصّ."
+      },
+      {
+       "sp": "Hind",
+       "en": "Did you watch the bit shot in the car? Nothing is said and everything happens.",
+       "ar": "هل شاهدت المشهد المصوّر في السيّارة؟ لا يُقال شيء ويحدث كلّ شيء."
+      },
+      {
+       "sp": "Sami",
+       "en": "I'll give you that scene. The actor playing the brother is extraordinary.",
+       "ar": "أسلّم لكِ بذلك المشهد. الممثّل الذي يؤدّي دور الأخ استثنائيّ."
+      },
+      {
+       "sp": "Hind",
+       "en": "Having seen it twice, I'd say the second half earns the first.",
+       "ar": "بعد أن شاهدته مرّتين، أقول إنّ النصف الثاني يبرّر الأوّل."
+      },
+      {
+       "sp": "Sami",
+       "en": "Or the second half is where the director finally decided what the film was.",
+       "ar": "أو أنّ النصف الثاني هو حيث قرّر المخرج أخيراً ما هو فيلمه."
+      },
+      {
+       "sp": "Hind",
+       "en": "That's harsh.",
+       "ar": "هذا قاسٍ."
+      },
+      {
+       "sp": "Sami",
+       "en": "It's fair. Compare it with anything made by the same team five years ago.",
+       "ar": "بل عادل. قارنيه بأيّ شيءٍ صنعه الفريق نفسه قبل خمس سنوات."
+      },
+      {
+       "sp": "Hind",
+       "en": "Those were tighter, yes. But they didn't resonate the way this does.",
+       "ar": "كانت أكثر إحكاماً، نعم. لكنّها لم تلقَ صدىً كهذا."
+      },
+      {
+       "sp": "Sami",
+       "en": "Resonating isn't the same as being good.",
+       "ar": "أن يلقى صدىً ليس كأن يكون جيّداً."
+      },
+      {
+       "sp": "Hind",
+       "en": "No. But a film nobody feels anything about isn't good either.",
+       "ar": "لا. لكنّ فيلماً لا يشعر أحدٌ حياله بشيءٍ ليس جيّداً أيضاً."
+      },
+      {
+       "sp": "Sami",
+       "en": "Alright. Overrated, not bad. That's where I land.",
+       "ar": "حسناً. مبالغٌ في تقديره، لا سيّئ. هذا موقفي."
+      },
+      {
+       "sp": "Hind",
+       "en": "Understated, not empty. That's where I land.",
+       "ar": "متحفّظ، لا فارغ. هذا موقفي أنا."
+      },
+      {
+       "sp": "Sami",
+       "en": "We've been having this argument since 2016.",
+       "ar": "نحن نخوض هذا الجدل منذ ٢٠١٦."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Comprehension",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Sami's criticism is that the film is",
+       "opts": [
+        "badly shot",
+        "beautiful but hollow",
+        "too short",
+        "poorly acted"
+       ],
+       "a": 1,
+       "why": "«مصوّرٌ ببراعة وفارغٌ تماماً»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>the bit shot in the car</code> is a reduction of",
+       "opts": [
+        "the bit that shot the car",
+        "the bit that was shot in the car",
+        "the bit shooting in the car",
+        "the bit to shoot in the car"
+       ],
+       "a": 1,
+       "why": "مبنيّ للمجهول مختصر."
+      },
+      {
+       "t": "mcq",
+       "q": "What does Sami concede?",
+       "opts": [
+        "The whole film",
+        "The car scene and one performance",
+        "The score",
+        "Nothing"
+       ],
+       "a": 1,
+       "why": "«أسلّم لكِ بذلك المشهد»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Having seen it twice</code> tells you Hind's view is",
+       "opts": [
+        "a first impression",
+        "formed after repeated viewing",
+        "second-hand",
+        "based on reviews"
+       ],
+       "a": 1,
+       "why": "Having + تصريفٌ ثالث: بعد مشاهدتين."
+      },
+      {
+       "t": "mcq",
+       "q": "Their final positions are",
+       "opts": [
+        "identical",
+        "close but distinct",
+        "reversed",
+        "unrelated"
+       ],
+       "a": 1,
+       "why": "«مبالغٌ في تقديره» مقابل «متحفّظ»."
+      },
+      {
+       "t": "mcq",
+       "q": "The last line suggests the disagreement is",
+       "opts": [
+        "new",
+        "long-running and friendly",
+        "hostile",
+        "about another film"
+       ],
+       "a": 1,
+       "why": "«منذ ٢٠١٦» بنبرةٍ ودودة."
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Dictation — write what you hear",
+     "qs": [
+      {
+       "t": "dict",
+       "say": "Did ya wotch the bit shot in the car?",
+       "a": [
+        "Did you watch the bit shot in the car?",
+        "Did you watch the bit shot in the car"
+       ],
+       "why": "did you ← دِيَ، وwatch ← ووتش."
+      },
+      {
+       "t": "dict",
+       "say": "The acter playin the brother iz extrordinry",
+       "a": [
+        "The actor playing the brother is extraordinary"
+       ],
+       "why": "جملةٌ موصولةٌ مختصرة بـing."
+      },
+      {
+       "t": "dict",
+       "say": "Havin seen it twyce I'd say its better",
+       "a": [
+        "Having seen it twice I'd say it's better",
+        "Having seen it twice Id say its better"
+       ],
+       "why": "Having ← هافِن بسقوط g."
+      },
+      {
+       "t": "dict",
+       "say": "Compare it with ennything mayd by the sayme team",
+       "a": [
+        "Compare it with anything made by the same team"
+       ],
+       "why": "made by ← اختصارٌ لمبنيٍّ للمجهول."
+      },
+      {
+       "t": "dict",
+       "say": "Thats where I land",
+       "a": [
+        "That's where I land",
+        "Thats where I land"
+       ],
+       "why": "«هذا موقفي» بالعاميّة."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "type": "reading",
+   "title": "Reading: the work that was hated first",
+   "subtitle": "نصّ + استنتاج المعنى من السياق",
+   "blocks": [
+    {
+     "type": "reading",
+     "title": "The Work That Was Hated First",
+     "titleAr": "العمل الذي كُره أوّلاً",
+     "en": "<b>Premiered in Paris in 1913</b>, Stravinsky's <i>The Rite of Spring</i> caused a riot. People shouted through the first movement, some fought in the aisles, and the dancers, unable to hear the orchestra, took their count from the choreographer screaming numbers from the wings. The reviews <b>published the next morning</b> were merciless.<br><br>Within a decade the same piece was being performed as a modern classic, and within fifty years it was in a Disney film. Nothing in the score had changed. What had changed was the ear <b>listening to it</b>.<br><br>This pattern is so common that it should make us careful. Works <b>rejected on first contact</b> are often those doing something the audience has no category for yet. But the reverse is not true, and this is where the story is usually told badly: most things that are hated at first are hated because they are bad. Being misunderstood is not evidence of genius. It is simply not evidence of anything.<br><br>The useful question is not whether a work is ahead of its time. It is whether the discomfort it produces is doing work. <b>Asked that way</b>, the question can actually be answered — not by critics, and not immediately, but by whether anyone is still arguing about it in thirty years.",
+     "ar": "عُرضت «طقوس الربيع» لسترافينسكي أوّل مرّةٍ في باريس عام ١٩١٣ فأثارت شغباً. صاح الناس خلال الحركة الأولى، وتشاجر بعضهم في الممرّات، والراقصون — إذ لم يستطيعوا سماع الأوركسترا — أخذوا عدّهم من مصمّم الرقص وهو يصرخ بالأرقام من الكواليس. وكانت المراجعات المنشورة صباح اليوم التالي بلا رحمة.<br><br>وخلال عقدٍ صارت القطعة نفسها تُقدَّم بوصفها كلاسيكيّةً حديثة، وخلال خمسين عاماً دخلت فيلماً لديزني. لم يتغيّر شيءٌ في النوتة. الذي تغيّر هو الأذن التي تسمعها.<br><br>وهذا النمط شائعٌ إلى حدٍّ ينبغي أن يجعلنا حذرين. فالأعمال المرفوضة عند أوّل تماسٍّ بها هي غالباً تلك التي تفعل شيئاً لا تملك له الجماهير تصنيفاً بعد. لكنّ العكس غير صحيح، وهنا تُروى القصّة على نحوٍ سيّئٍ عادةً: فمعظم ما يُكره أوّلاً يُكره لأنّه رديء. وأن يُساء فهمك ليس دليلاً على العبقريّة. إنّه ببساطةٍ ليس دليلاً على شيء.<br><br>والسؤال المفيد ليس أهذا العمل سابقٌ لعصره، بل هل الانزعاج الذي يُنتجه يؤدّي عملاً. وإذا سُئل السؤال على هذا النحو أمكن الإجابة عنه فعلاً — لا من النقّاد، ولا فوراً، بل بأن يظلّ أحدٌ يتجادل بشأنه بعد ثلاثين عاماً.",
+     "keys": [
+      [
+       "took their count from",
+       "أخذوا عدّهم من"
+      ],
+      [
+       "merciless",
+       "بلا رحمة"
+      ],
+      [
+       "the ear listening to it",
+       "الأذن التي تسمعها"
+      ],
+      [
+       "has no category for",
+       "لا تملك له تصنيفاً"
+      ],
+      [
+       "is doing work",
+       "يؤدّي عملاً / له وظيفة"
+      ],
+      [
+       "ahead of its time",
+       "سابق لعصره"
+      ]
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Check your reading",
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Premiered in Paris in 1913</code> is",
+       "opts": [
+        "a main clause",
+        "a reduced passive participle clause",
+        "a question",
+        "reported speech"
+       ],
+       "a": 1,
+       "why": "اختصارٌ لـ«which was premiered»."
+      },
+      {
+       "t": "mcq",
+       "q": "Why did the dancers take their count from the wings?",
+       "opts": [
+        "The choreographer insisted",
+        "They could not hear the orchestra",
+        "The music stopped",
+        "They had not rehearsed"
+       ],
+       "a": 1,
+       "why": "منصوصٌ عليه في الفقرة الأولى."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>What had changed was the ear listening to it</code> means",
+       "opts": [
+        "the score was rewritten",
+        "the audience changed, not the work",
+        "the orchestra improved",
+        "the film altered it"
+       ],
+       "a": 1,
+       "why": "«لم يتغيّر شيءٌ في النوتة»."
+      },
+      {
+       "t": "mcq",
+       "q": "The writer's warning in paragraph three is that",
+       "opts": [
+        "all rejected work is genius",
+        "being misunderstood proves nothing",
+        "critics are always wrong",
+        "audiences are stupid"
+       ],
+       "a": 1,
+       "why": "«ليس دليلاً على شيء»."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>Works rejected on first contact</code> could be expanded to",
+       "opts": [
+        "Works that reject on first contact",
+        "Works that are rejected on first contact",
+        "Works rejecting first contact",
+        "Works to reject on first contact"
+       ],
+       "a": 1,
+       "why": "اختصارٌ لمبنيٍّ للمجهول."
+      },
+      {
+       "t": "mcq",
+       "q": "The test the writer finally proposes is",
+       "opts": [
+        "critical acclaim",
+        "box office",
+        "whether people still argue about it decades later",
+        "whether it caused a riot"
+       ],
+       "a": 2,
+       "why": "الجملة الأخيرة من النصّ."
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "arts words that people mispronounce",
+     "rows": [
+      {
+       "w": "genre",
+       "s": "ZHON-ruh",
+       "ar": "بالفرنسيّة تقريباً"
+      },
+      {
+       "w": "cinematography",
+       "s": "sin-uh-muh-TOG-ruh-fee",
+       "ar": "النبر على TOG"
+      },
+      {
+       "w": "aesthetic",
+       "s": "es-THET-ik",
+       "ar": "لا تنطق ae"
+      },
+      {
+       "w": "avant-garde",
+       "s": "ah-vont-GARD",
+       "ar": "طليعيّ"
+      },
+      {
+       "w": "portrait",
+       "s": "POR-trit",
+       "ar": "لا تنطقها trayt"
+      },
+      {
+       "w": "documentary",
+       "s": "dok-yuh-MEN-tree",
+       "ar": "يسقط مقطعٌ في السرعة"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "type": "function",
+   "title": "Functional language and pronunciation",
+   "subtitle": "Describing, interpreting and recommending",
+   "blocks": [
+    {
+     "type": "note",
+     "title": "Talking about a work without spoiling it",
+     "html": "<code dir=ltr>It's about a man who …</code> — the safe opener<br><code dir=ltr>It follows a family over three generations.</code><br><code dir=ltr>Without giving anything away, the ending reframes everything.</code><br><code dir=ltr>It's slow, and it earns the slowness.</code><br><code dir=ltr>It stayed with me for days.</code><br><code dir=ltr>I'd say it's worth it for the last twenty minutes alone.</code><br><br>⚠️ <code dir=ltr>spoiler</code> is a noun and a verb: <code dir=ltr>Don't spoil it</code> / <code dir=ltr>No spoilers, please.</code><span class=n-ar>عباراتٌ لوصف عملٍ دون حرق أحداثه. وspoiler اسمٌ وspoil فعل.</span>"
+    },
+    {
+     "type": "note",
+     "title": "Interpreting, not just reacting",
+     "html": "Reaction: <code dir=ltr>I liked it.</code> — where beginners stop<br>Interpretation: <code dir=ltr>I read it as a story about …</code><br><code dir=ltr>What I took from it was …</code><br><code dir=ltr>It seems to be saying that …</code><br><code dir=ltr>You could argue it's really about …</code><br><code dir=ltr>It works on two levels: … and …</code><br><br>These five phrases will carry you through any conversation about any book or film, in any register.<span class=n-ar>هذه العبارات الخمس تحملك في أيّ حديثٍ عن أيّ كتابٍ أو فيلم، وبأيّ مستوى لغويّ.</span>"
+    },
+    {
+     "type": "note",
+     "title": "🚫 لا تقل هذا",
+     "html": "❌ <code dir=ltr>I saw a very nice film</code> → ✅ <code dir=ltr>I saw a really good film</code> (<code dir=ltr>nice</code> is weak and vague)<br>❌ <code dir=ltr>The film talks about war</code> → ✅ <code dir=ltr>The film is about war</code> / <code dir=ltr>deals with war</code><br>❌ <code dir=ltr>I am boring</code> → ✅ <code dir=ltr>I'm bored</code><br>❌ <code dir=ltr>It was so much interesting</code> → ✅ <code dir=ltr>It was so interesting</code><br>❌ <code dir=ltr>an historic novel</code> (meaning past setting) → ✅ <code dir=ltr>a historical novel</code><br>❌ <code dir=ltr>literature</code> for any writing → ✅ <code dir=ltr>fiction / non-fiction / a book</code><br><br><code dir=ltr>historic</code> = important in history. <code dir=ltr>historical</code> = set in the past. Different words.<span class=n-ar>historic تعني «مهمّ تاريخيّاً» وhistorical تعني «تاريخيّ الأحداث». وI am boring تعني «أنا مملّ» لا «أشعر بالملل».</span>"
+    },
+    {
+     "type": "pron",
+     "title": "Pronunciation: -ing endings and linking",
+     "hint": "reduced clauses live or die on the -ing",
+     "rows": [
+      {
+       "w": "standing over there",
+       "s": "standin over there",
+       "ar": "تسقط g ويربط n بـover"
+      },
+      {
+       "w": "looking at it",
+       "s": "lukin ad-it",
+       "ar": "at it ← آدِت"
+      },
+      {
+       "w": "based on a true story",
+       "s": "bayst on a true story",
+       "ar": "based on بالربط"
+      },
+      {
+       "w": "written and directed by",
+       "s": "riddn an directid by",
+       "ar": "written ← رِدن"
+      },
+      {
+       "w": "worth watching",
+       "s": "worth wotchin",
+       "ar": "يستحقّ المشاهدة"
+      },
+      {
+       "w": "it's growing on me",
+       "s": "its growin on me",
+       "ar": "بدأ يعجبني تدريجيّاً"
+      }
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "how people actually recommend things",
+     "rows": [
+      {
+       "w": "You've got to see it",
+       "s": "Yuv godda see it",
+       "ar": "عليك أن تشاهده"
+      },
+      {
+       "w": "It's not for everyone",
+       "s": "Its not fer evrywun",
+       "ar": "ليس للجميع"
+      },
+      {
+       "w": "Give it twenty minutes",
+       "s": "Givit twenny minits",
+       "ar": "امنحه عشرين دقيقة"
+      },
+      {
+       "w": "It stayed with me",
+       "s": "It stayd with me",
+       "ar": "ظلّ عالقاً بذهني"
+      },
+      {
+       "w": "I couldn't get into it",
+       "s": "I cudn ged into it",
+       "ar": "لم أستطع الاندماج فيه"
+      },
+      {
+       "w": "No spoilers",
+       "s": "No spoylerz",
+       "ar": "بلا حرقٍ للأحداث"
+      }
+     ]
+    },
+    {
+     "type": "quiz",
+     "title": "Use the right register",
+     "qs": [
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>The novel talks about exile.</code>",
+       "a": [
+        "The novel is about exile",
+        "The novel deals with exile"
+       ],
+       "why": "الكتاب «يتناول» ولا «يتحدّث»."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I was boring during the second half.</code>",
+       "a": [
+        "I was bored during the second half"
+       ],
+       "why": "bored شعورٌ، وboring صفةُ الشيء."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>It was so much interesting.</code>",
+       "a": [
+        "It was so interesting",
+        "It was very interesting"
+       ],
+       "why": "so + صفة بلا much."
+      },
+      {
+       "t": "mcq",
+       "q": "A novel set in the 1800s is a",
+       "opts": [
+        "historic novel",
+        "historical novel",
+        "history novel",
+        "historian novel"
+       ],
+       "a": 1,
+       "why": "historical للأحداث التاريخيّة."
+      },
+      {
+       "t": "mcq",
+       "q": "Which phrase interprets rather than reacts?",
+       "opts": [
+        "I liked it a lot",
+        "It was amazing",
+        "I read it as a story about grief",
+        "I'd watch it again"
+       ],
+       "a": 2,
+       "why": "قراءةٌ تأويليّة لا ردّ فعل."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Without giving anything ___ , the ending changes everything.</code>",
+       "a": [
+        "away"
+       ],
+       "why": "give away ← يفشي."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "type": "writing",
+   "title": "Writing: a review",
+   "subtitle": "مهمّة موجّهة + نموذج + قائمة تحقّق",
+   "blocks": [
+    {
+     "type": "writing",
+     "title": "The task",
+     "prompt": "Review a book, film or exhibition you know well, in <b>140–160 words</b>. It must include:<br><br>• two reduced relative clauses (one -ing, one past participle)<br>• one participle clause opening a sentence<br>• one interpretation, not just a reaction<br>• one genuine criticism, even if you loved it<br>• at least four words from this unit<span class=n-ar>راجع كتاباً أو فيلماً أو معرضاً تعرفه جيّداً في ١٤٠–١٦٠ كلمة، بجملتين موصولتين مختصرتين، وعبارةٍ وصفيّة تفتتح جملة، وتأويلٍ لا مجرّد ردّ فعل، ونقدٍ حقيقيّ ولو أحببته، وأربع كلماتٍ من الوحدة.</span>",
+     "phrases": [
+      "Directed / Written / Painted in …, it …",
+      "The scenes shot in …",
+      "The character playing …",
+      "I read it as a story about …",
+      "Without giving anything away, …",
+      "My one criticism would be that …",
+      "It's worth it for … alone."
+     ],
+     "model": "Released quietly in 2016, this is the film I have recommended most often and explained worst.\n\nIt follows a translator returning to a city she left as a child. The scenes shot in her father's flat carry almost no dialogue, and the actor playing the neighbour has perhaps nine lines in the whole film. Nothing is explained. Everything is placed where you will find it.\n\nI read it as a story about the cost of leaving rather than the pain of return. The city is portrayed as neither cruel nor welcoming — simply as having carried on without her, which is worse.\n\nMy one criticism would be the score. It is beautiful and it tells you what to feel in the two places where the images already do.\n\nWithout giving anything away, the final shot reframes the opening. It's worth it for those forty seconds alone.",
+     "modelAr": "صدر بهدوءٍ عام ٢٠١٦، وهو الفيلم الذي أوصيتُ به أكثر من غيره وشرحتُه أسوأ من غيره.\n\nيتابع مترجمةً تعود إلى مدينةٍ غادرتها طفلة. والمشاهد المصوّرة في شقّة أبيها تكاد تخلو من الحوار، والممثّل الذي يؤدّي دور الجار له تسع جملٍ ربّما في الفيلم كلّه. لا يُشرح شيء. وكلّ شيءٍ موضوعٌ حيث ستجده.\n\nأقرؤه قصّةً عن كلفة الرحيل لا عن ألم العودة. والمدينة مصوَّرةٌ لا قاسيةً ولا مرحّبة — بل ماضيةً في حياتها دونها، وهو أسوأ.\n\nونقدي الوحيد هو الموسيقى التصويريّة. إنّها جميلة، وتخبرك بما تشعر به في الموضعين اللذين تفعل فيهما الصورة ذلك أصلاً.\n\nودون حرقٍ لشيء، تعيد اللقطة الأخيرة تأطير الافتتاحيّة. ويستحقّ الفيلم المشاهدة لأجل تلك الأربعين ثانية وحدها.",
+     "checklist": [
+      "I used a reduced -ing clause (the actor playing …)",
+      "I used a reduced past participle clause (the scenes shot in …)",
+      "I opened one sentence with a participle phrase",
+      "My participle opening has the right subject after it (no dangling)",
+      "I interpreted the work, not just reacted to it",
+      "I included one real criticism",
+      "I used at least four unit words (portray, narrative, score, understated …)",
+      "I did not write 'the film talks about' or 'I was boring'",
+      "140–160 words"
+     ]
+    },
+    {
+     "type": "ear",
+     "title": "🎧 Your ear today",
+     "hint": "the rhythm of spoken criticism",
+     "rows": [
+      {
+       "w": "It's worth it for that alone",
+       "s": "Its worth-it fer thad alone",
+       "ar": "يستحقّ لأجل ذلك وحده"
+      },
+      {
+       "w": "It didn't work for me",
+       "s": "It didn work fer me",
+       "ar": "لم يفلح معي"
+      },
+      {
+       "w": "I see what they were going for",
+       "s": "I see wut they wer goin fer",
+       "ar": "أفهم ما كانوا يقصدونه"
+      },
+      {
+       "w": "It's growing on me",
+       "s": "Its growin on me",
+       "ar": "بدأ يعجبني تدريجيّاً"
+      },
+      {
+       "w": "Give it a chance",
+       "s": "Givid a chanss",
+       "ar": "امنحه فرصة"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "type": "test",
+   "title": "Unit test",
+   "subtitle": "٢٠ سؤالاً — تحتاج ٨٠٪ للعبور",
+   "blocks": [
+    {
+     "type": "quiz",
+     "title": "اختبار الوحدة ٢١",
+     "isTest": true,
+     "qs": [
+      {
+       "t": "mcq",
+       "q": "Reduce: <code dir=ltr>the people who are waiting in the lobby</code>",
+       "opts": [
+        "the people waited in the lobby",
+        "the people waiting in the lobby",
+        "the people to wait in the lobby",
+        "the people been waiting"
+       ],
+       "a": 1,
+       "why": "فاعل + مستمرّ ← ing."
+      },
+      {
+       "t": "mcq",
+       "q": "Reduce: <code dir=ltr>the scenes that were cut from the film</code>",
+       "opts": [
+        "the scenes cutting from the film",
+        "the scenes cut from the film",
+        "the scenes to cut from the film",
+        "the scenes were cut"
+       ],
+       "a": 1,
+       "why": "مجهول ← تصريفٌ ثالث."
+      },
+      {
+       "t": "mcq",
+       "q": "Which CANNOT be reduced?",
+       "opts": [
+        "the artist who painted it",
+        "the novel that I finished",
+        "the road that leads north",
+        "the letters that were found"
+       ],
+       "a": 1,
+       "why": "الموصول مفعول."
+      },
+      {
+       "t": "mcq",
+       "q": "Which has a dangling participle?",
+       "opts": [
+        "Having read it, I disagree.",
+        "Reading the review, the film sounded dull.",
+        "Written in 1925, the book still sells.",
+        "Walking home, she saw the mural."
+       ],
+       "a": 1,
+       "why": "الفيلم لا يقرأ المراجعة."
+      },
+      {
+       "t": "mcq",
+       "q": "A work that copies others without originality is",
+       "opts": [
+        "understated",
+        "derivative",
+        "acclaimed",
+        "subtle"
+       ],
+       "a": 1,
+       "why": "مقتبَس بلا أصالة."
+      },
+      {
+       "t": "mcq",
+       "q": "An ending that feels artificial and forced is",
+       "opts": [
+        "contrived",
+        "compelling",
+        "subtle",
+        "acclaimed"
+       ],
+       "a": 0,
+       "why": "متكلَّف / مفتعل."
+      },
+      {
+       "t": "mcq",
+       "q": "<code dir=ltr>It resonated with readers</code> means it",
+       "opts": [
+        "confused them",
+        "struck a deep chord",
+        "bored them",
+        "was banned"
+       ],
+       "a": 1,
+       "why": "لقي صدىً عميقاً."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ (not / know) the language, I watched it with subtitles.</code>",
+       "a": [
+        "Not knowing"
+       ],
+       "why": "النفي يتقدّم."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>___ (have / see) it twice, I still missed the ending.</code>",
+       "a": [
+        "Having seen"
+       ],
+       "why": "Having + تصريفٌ ثالث."
+      },
+      {
+       "t": "gap",
+       "q": "<code dir=ltr>Without giving anything ___ , the twist is earned.</code>",
+       "a": [
+        "away"
+       ],
+       "why": "give away."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>Written in 1925, we still read it.</code>",
+       "a": [
+        "Written in 1925, it is still read",
+        "Written in 1925, the book is still read"
+       ],
+       "why": "خطأ العبارة المعلّقة."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>The film talks about migration.</code>",
+       "a": [
+        "The film is about migration",
+        "The film deals with migration"
+       ],
+       "why": "is about / deals with."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>I was boring by the second act.</code>",
+       "a": [
+        "I was bored by the second act"
+       ],
+       "why": "bored للشعور."
+      },
+      {
+       "t": "correct",
+       "q": "صحّح: <code dir=ltr>It is an historic novel set in 1890.</code>",
+       "a": [
+        "It is a historical novel set in 1890"
+       ],
+       "why": "historical للأحداث التاريخيّة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "The",
+        "mural",
+        "painted",
+        "in",
+        "1972",
+        "was",
+        "removed"
+       ],
+       "a": "The mural painted in 1972 was removed",
+       "why": "اختصارٌ لمبنيٍّ للمجهول داخل الجملة."
+      },
+      {
+       "t": "order",
+       "q": "رتّب:",
+       "ws": [
+        "Having",
+        "failed",
+        "twice",
+        "she",
+        "published",
+        "it",
+        "herself"
+       ],
+       "a": "Having failed twice she published it herself",
+       "why": "عبارةٌ وصفيّة تامّة في الافتتاح."
+      },
+      {
+       "t": "dict",
+       "say": "The acter playin the sister iz new",
+       "a": [
+        "The actor playing the sister is new"
+       ],
+       "why": "playing ← بلايِن بسقوط g."
+      },
+      {
+       "t": "dict",
+       "say": "Havin sed that, its worth wotchin",
+       "a": [
+        "Having said that, it's worth watching",
+        "Having said that its worth watching"
+       ],
+       "why": "Having said that ← ومع ذلك."
+      },
+      {
+       "t": "dict",
+       "say": "Its bayst on a true story",
+       "a": [
+        "It's based on a true story",
+        "Its based on a true story"
+       ],
+       "why": "based on ← بايست أون."
+      },
+      {
+       "t": "mcq",
+       "q": "You may reduce a relative clause only when the relative pronoun is the",
+       "opts": [
+        "object of the clause",
+        "subject of the clause",
+        "first word of the sentence",
+        "last word of the sentence"
+       ],
+       "a": 1,
+       "why": "الاختصار يجوز للفاعل لا للمفعول."
+      }
+     ]
+    },
+    {
+     "type": "watch",
+     "title": "🎬 خارج التطبيق — بمستوى هذه الوحدة",
+     "items": [
+      {
+       "t": "نقد سينمائيّ مصوّر",
+       "d": "ابحث عن «Every Frame a Painting» — تحليلٌ بصريّ بإنجليزيّةٍ واضحة",
+       "task": "سجّل عشر جملٍ موصولةٍ مختصرة سمعتها."
+      },
+      {
+       "t": "بودكاست أدبيّ",
+       "d": "ابحث عن «The New Yorker: Fiction» — قصّةٌ ثمّ نقاش",
+       "task": "استمع لقصّة، واكتب مراجعةً في ستّ جمل."
+      },
+      {
+       "t": "جولاتٌ في المتاحف",
+       "d": "ابحث عن جولات «The Met» أو «Tate» على يوتيوب",
+       "task": "دوّن عشرة مصطلحاتٍ فنّيّة بنطقها الصحيح."
+      },
+      {
+       "t": "تدريب أذن يوميّ",
+       "d": "خمس دقائق",
+       "task": "أعد نطق «standin / bayst on / riddn» حتّى تلتقطها في أيّ حوار."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
