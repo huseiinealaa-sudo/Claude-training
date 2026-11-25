@@ -47,6 +47,7 @@ node tools/test-app.mjs           # انحدار: تنقّل · تكرار مت�
 node tools/test-lock.mjs          # قفل التسلسل، بما فيه تخطّي العنوان (١٦)
 node tools/test-features.mjs      # مدقّق الكتابة والنسخة الاحتياطيّة (٣٧)
 node tools/test-home.mjs          # الشاشة الرئيسة: ٣ مقاسات × ٣ حالات قفل
+node tools/test-v3.mjs            # الأصوات · أوضاع الحوار · النطق · مفرداتي · التخطّي · الهدف (٨٠)
 node tools/test-layout.mjs        # مسح ٦١٥ صفحة: تجاوز العرض وأخطاء JS
 
 # فحصٌ سريع بعد أيّ تعديل
@@ -73,13 +74,19 @@ tools/                  مجموعات الاختبار ومدقّق المحت�
 
 | القسم | ما فيه |
 |---|---|
-| الحالة والتخزين | `S` هو كلّ شيء؛ `KEY="en-course-v2"`؛ `migrate()` ينقل من `en-a2-b2-progress-v1` |
+| الحالة والتخزين | `S` هو كلّ شيء؛ `KEY="en-course-v2"`؛ `migrate()` ينقل من `en-a2-b2-progress-v1`؛ حقول النسخة ٣ (`voices` `show` `goal` `log` `mine`) تُكمَّل في `load()` |
+| سجلّ النشاط | `logDay()` · عدّادٌ كلّ ١٥ ثانية يحتسب الوقت ما دام آخر لمسٍ خلال ٩٠ ثانية أو صوتٌ يُنطق |
 | التكرار المتباعد | ٧ صناديق، فواصل `[0,1,3,7,16,35,75]` يوماً؛ `dueNow()` |
-| النطق | Web Speech مع التفافات iOS: فكّ القفل بلمسة، `resume()` كلّ ٨ ثوانٍ، إلغاء عند `visibilitychange` |
+| النطق | Web Speech مع التفافات iOS: فكّ القفل بلمسة، `keepAlive()` كلّ ٨ ثوانٍ، إلغاء عند `visibilitychange` |
+| الأصوات | الواجهة لا تعطي جنس الصوت فيُعرف من اسمه (`V_F` `V_M`)؛ `chosen(g)` · `mainVoice()` · `castVoices(lines)` يوزّع الأصوات على المتحاورين بحسب `NAME_F`/`NAME_M`، والأدوار العامّة تأخذ الجنس المخالف، وعند غياب الصوت تتغيّر الطبقة |
+| التشغيل المتسلسل | `SEQ` تشغيلٌ واحد في كلّ لحظة؛ `speakP()` وعدٌ بمهلةٍ احتياطيّة لأنّ سفاري قد لا يطلق `onend`؛ `stopSeq()` في الموجّه و`say()` |
+| فحص النطق | `SpeechRecognition` · `pronScore()` أطول تتابعٍ مشترك بعد توحيد الاختصارات والأرقام |
 | المحمّل | `get(id)` يجلب من `content/` ويخزّن في `cache` |
-| الموجّه | تجزئة العنوان: `#/unit/<id>[/<day>]` · `#/review` · `#/errors` · `#/backup` |
+| الموجّه | تجزئة العنوان: `#/unit/<id>[/<day>]` · `#/review` · `#/errors` · `#/backup` · `#/settings` · `#/words` |
 | `unitLock(u)` | قفل التسلسل — يعيد `null` أو رسالة؛ مطبَّقٌ في `guard()` داخل الموجّه لا على البطاقة وحدها |
-| راسمات الكتل | `rNote` `rExamples` `rPron` `rVocab` `rDialogue` `rReading` `rWriting` `rWatch` `rQuiz` |
+| راسمات الكتل | `rNote` `rExamples` `rPron` `rVocab` `rDialogue` `rReading` `rWriting` `rWatch` `rQuiz`؛ `rDialogue` فيه أوضاع `all` `shadow` `role` ومستويات الظهور `show0–2` |
+| مفرداتي | `wordify()` يجعل كلّ كلمةٍ قابلةً للّمس؛ `wordSheet()`؛ المعرّف في التكرار `mine/<word>` |
+| اختبار التخطّي | لوحةٌ في `viewUnit`؛ يوم الاختبار لا يُحتسب قبل إكمال أسئلته (`ctx.scores.length` ≥ عدد كتل `quiz`) |
 | محرّك الأسئلة | ستّة أنواع؛ `match()` يقبل صيغاً بديلة ويتجاهل الترقيم |
 | `WRULES` | ٢٦ قاعدةً لمدقّق الكتابة — أخطاء الناطقين بالعربيّة التي يعالجها المنهج |
 | النسخة الاحتياطيّة | `backupBlob()` · `viewBackup()` — تصدير واستعادة كلّ التقدّم |
@@ -111,6 +118,7 @@ Question kinds: `mcq` / `hear` (`q`,`opts`,`a` فهرس, `why`) · `gap` / `corr
 ### Conventions in the content
 
 - **Level 1 (units 1–12)** explains in Arabic. **Level 2 (units 13–24)** explains in English with `<span class=n-ar>سند عربيّ</span>` — that span renders as a dashed-rule footnote with a «عربيّاً:» prefix.
+- Dialogue speaker names drive voice gender. A new speaker name must be added to `NAME_F` or `NAME_M` in `assets/app.js`; generic roles (Doctor, Host…) need nothing — they take the gender opposite their partner.
 - Every day carries a 🎧 `ear` block (American connected speech). Every unit ends with a 🎬 `watch` block pointing outside the app.
 - Word-count targets are written inside the writing `prompt` itself — Arabic numerals in level 1 (`٦٠–٨٠ كلمة`), ASCII in level 2 (`120–140 words`). `wordTarget()` reads both.
 - `unit.pinned` (phonetics, bank) means always unlocked and shown first.

@@ -24,7 +24,13 @@ let S = {
   errors: [],   // [{id, q, a, unit, at}]
   streak: { last: "", count: 0, best: 0 },
   daily: { date: "", items: 0 },
-  rate: 1
+  rate: 1,
+  /* أُضيفت في النسخة ٣ — كلّها اختياريّة، والحالة القديمة تُكمَل بقيمها الافتراضيّة */
+  voices: { f: "", m: "", main: "f" },   // voiceURI لصوت المرأة والرجل ("" = الأفضل تلقائيّاً)
+  show: 0,      // نصّ الحوار: ٠ ظاهر · ١ بلا ترجمة · ٢ مخفيّ (استماع أعمى)
+  goal: 30,     // هدف اليوم بالدقائق
+  log: {},      // { "2026-11-25": {sec, les, rev, hit} }
+  mine: {}      // مفرداتي: { word: {w, ar, ctx, unit, at} }
 };
 
 function load() {
@@ -35,6 +41,14 @@ function load() {
   } catch (e) { /* تخزين محجوب أو تالف — نكمل بحالة نظيفة */ }
   if (!S.srs) S.srs = {};
   if (!S.errors) S.errors = [];
+  if (!S.tests) S.tests = {};
+  if (!S.done) S.done = {};
+  if (!S.streak) S.streak = { last: "", count: 0, best: 0 };
+  if (!S.voices || typeof S.voices !== "object") S.voices = { f: "", m: "", main: "f" };
+  if (!S.log || typeof S.log !== "object") S.log = {};
+  if (!S.mine || typeof S.mine !== "object") S.mine = {};
+  if (![0, 1, 2].includes(S.show)) S.show = 0;
+  if (!(S.goal > 0)) S.goal = 30;
 }
 /* ننقل تقدّم النسخة الأولى بدل أن يضيع */
 function migrate() {
@@ -69,6 +83,34 @@ function touchStreak() {
   save();
 }
 
+/* سجلّ النشاط اليوميّ — منه يُحسب هدف اليوم ورسم الأسبوع */
+function logDay() {
+  const k = today();
+  if (!S.log[k]) {
+    S.log[k] = { sec: 0, les: 0, rev: 0 };
+    const keys = Object.keys(S.log).sort();
+    keys.slice(0, Math.max(0, keys.length - 90)).forEach(x => delete S.log[x]);   // نحتفظ بتسعين يوماً
+  }
+  return S.log[k];
+}
+const dayMin = k => Math.floor(((S.log[k] || {}).sec || 0) / 60);
+
+/* الوقت يُحسب حين تكون فعلاً في التطبيق: لمسةٌ خلال الدقيقة والنصف الأخيرة، أو صوتٌ يُنطق */
+let lastAct = Date.now();
+["pointerdown", "touchstart", "keydown", "scroll"].forEach(e =>
+  document.addEventListener(e, () => { lastAct = Date.now(); }, { passive: true, capture: true }));
+setInterval(() => {
+  if (document.hidden) return;
+  const busy = (typeof speechSynthesis !== "undefined" && speechSynthesis.speaking) || SEQ;
+  if (Date.now() - lastAct > 90000 && !busy) return;
+  const L = logDay();
+  L.sec += 15;
+  if (!L.hit && L.sec >= S.goal * 60) { L.hit = 1; toast("🎯 بلغتَ هدف اليوم — " + n2(S.goal) + " دقيقة. أحسنت!"); }
+  save();
+  const g = document.querySelector(".goal");
+  if (g) paintGoal(g);
+}, 15000);
+
 /* ============================================================
    ٢) التكرار المتباعد
    ============================================================ */
@@ -89,17 +131,109 @@ function seed(id) { if (!S.srs[id]) { S.srs[id] = { box: 0, due: Date.now(), see
    ٣) الصوت — مع معالجة قيود سفاري
    ============================================================ */
 const speechOK = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
-let voice = null, ready = false, keep = null;
+let ready = false, keep = null;
 
+/* ---- الأصوات: الواجهة البرمجيّة لا تخبرنا بجنس الصوت، فنعرفه من اسمه ----
+   أسماء أصوات آبل وغوغل ومايكروسوفت الإنجليزيّة المعروفة. */
+const V_F = /^(samantha|ava|allison|susan|zoe|nicky|karen|moira|tessa|serena|kate|martha|catherine|fiona|veena|victoria|kathy|joelle|noelle|stephanie|sandy|shelley|flo|grandma|google us english|google uk english female|microsoft (aria|jenny|zira|michelle|ana|emma|sonia|libby|natasha|clara|hazel|susan))/i;
+const V_M = /^(aaron|alex|fred|tom|evan|nathan|daniel|arthur|oliver|gordon|lee|rishi|junior|ralph|reed|rocko|eddy|grandpa|google uk english male|microsoft (guy|david|mark|andrew|brian|christopher|eric|roger|steffan|ryan|william|thomas|george))/i;
+/* الأصوات الهزليّة في آبل لا تصلح للتعليم، والقديمة تبقى آخر الخيارات */
+const V_JUNK = /^(albert|bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|pipe organ|superstar|trinoids|whisper|wobble|zarvox|deranged|hysterical)\b/i;
+const V_OLD = /^(fred|junior|ralph|kathy|eddy|flo|grandma|grandpa|reed|rocko|sandy|shelley)\b/i;
+
+let VOICES = { f: [], m: [], all: [] };
+function vScore(v) {
+  let s = /^en[-_]US/i.test(v.lang) ? 6 : /^en[-_](GB|CA|AU|IE|NZ)/i.test(v.lang) ? 3 : 1;
+  if (/enhanced|premium|neural|natural/i.test(v.name + " " + (v.voiceURI || ""))) s += 5;
+  if (V_OLD.test(v.name)) s -= 6;
+  return s;
+}
+const vGender = v => V_F.test(v.name) ? "f" : V_M.test(v.name) ? "m" : null;
 function pickVoice() {
   if (!speechOK) return;
-  const v = speechSynthesis.getVoices();
-  if (!v.length) return;
-  voice = v.find(x => /^en-US/i.test(x.lang) && /natural|neural|premium|enhanced|siri/i.test(x.name))
-       || v.find(x => /^en-US/i.test(x.lang))
-       || v.find(x => /^en/i.test(x.lang)) || null;
+  const list = speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang) && !V_JUNK.test(v.name));
+  if (!list.length) return;
+  const had = VOICES.all.length;
+  const by = (a, b) => vScore(b) - vScore(a);
+  VOICES = {
+    all: list.slice().sort(by),
+    f: list.filter(v => vGender(v) === "f").sort(by),
+    m: list.filter(v => vGender(v) === "m").sort(by)
+  };
+  if (!had && location.hash === "#/settings") viewSettings();   // وصلت الأصوات بعد فتح الإعدادات
 }
 if (speechOK) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+
+/* الصوت المختار لجنسٍ ما: اختيارك في الإعدادات أوّلاً، ثمّ الأفضل المتاح */
+function chosen(g) {
+  const want = S.voices && S.voices[g];
+  if (want) { const v = VOICES.all.find(x => x.voiceURI === want); if (v) return v; }
+  return VOICES[g][0] || null;
+}
+/* صوت الأمثلة والمفردات والقراءة */
+function mainVoice() {
+  const g = S.voices.main === "m" ? "m" : "f";
+  return chosen(g) || chosen(g === "f" ? "m" : "f") || VOICES.all[0] || null;
+}
+
+/* ---- أسماء المتحاورين في المنهج وجنسها ---- */
+const NAME_F = new Set(["maya", "hana", "yara", "dana", "layla", "rana", "lina", "nour", "nadia", "dina", "sara", "rania", "hind", "salma"]);
+const NAME_M = new Set(["omar", "karim", "sami", "rami", "nabil", "zain", "jad", "sam", "yusuf", "hadi", "tariq", "tarek", "aziz", "faris"]);
+function nameGender(sp) {
+  const k = String(sp || "").toLowerCase().replace(/^dr\.?\s+/, "").trim();
+  return NAME_F.has(k) ? "f" : NAME_M.has(k) ? "m" : null;
+}
+
+/* يوزّع الأصوات على متحاوري حوارٍ واحد: لكلٍّ جنسُه، والأدوار العامّة
+   (Doctor, Agent, Host…) تأخذ جنساً مخالفاً لمحاورها. وإن تكرّر الجنس
+   أخذ الثاني صوتاً آخر، أو الصوتَ نفسه بطبقةٍ مختلفة إن لم يوجد غيره. */
+function castVoices(lines) {
+  const sps = [...new Set(lines.map(l => l.sp))];
+  const g = {};
+  sps.forEach(s => { g[s] = nameGender(s); });
+  const known = sps.map(s => g[s]).filter(Boolean);
+  let nx = known.length ? (known[0] === "f" ? "m" : "f") : "f";
+  sps.forEach(s => { if (!g[s]) { g[s] = nx; nx = nx === "f" ? "m" : "f"; } });
+
+  const used = { f: 0, m: 0 }, cast = {};
+  sps.forEach(s => {
+    const gg = g[s], k = used[gg]++;
+    const first = chosen(gg);
+    const cand = first ? [first].concat(VOICES[gg].filter(v => v !== first)) : [];
+    let v = null, pitch = 1;
+    if (cand.length) {
+      v = cand[k % cand.length];
+      if (k >= cand.length) pitch = gg === "f" ? 1.15 : 0.88;
+    } else {
+      /* لا صوت لهذا الجنس على الجهاز: نستعير الآخر ونغيّر الطبقة ليتميّز المتكلّمان */
+      const other = chosen(gg === "f" ? "m" : "f");
+      const neutral = VOICES.all.filter(x => !vGender(x));
+      v = neutral[k] || other || VOICES.all[0] || null;
+      if (!neutral[k]) pitch = gg === "m" ? 0.72 : 1.3;
+    }
+    cast[s] = { g: gg, v, pitch };
+  });
+  return cast;
+}
+
+function mkUtter(text, o) {
+  o = o || {};
+  const u = new SpeechSynthesisUtterance(plain(text));
+  const v = o.v !== undefined ? o.v : mainVoice();
+  u.lang = (v && v.lang) || "en-US";
+  if (v) u.voice = v;
+  u.rate = o.rate || S.rate || 1;
+  u.pitch = o.pitch || 1;
+  return u;
+}
+/* سفاري يوقف النطق الطويل بصمت؛ نوقظه كلّ ثماني ثوانٍ */
+function keepAlive() {
+  clearInterval(keep);
+  keep = setInterval(() => {
+    if (speechSynthesis.speaking) { try { speechSynthesis.resume(); } catch (e) {} }
+    else clearInterval(keep);
+  }, 8000);
+}
 
 function unlock() {
   if (ready || !speechOK) return;
@@ -109,16 +243,15 @@ function unlock() {
 
 const plain = h => String(h).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 
-function say(text, btn, rate) {
+/* o: {v: صوتٌ بعينه, pitch} — بدونه يُستعمل صوت النطق الافتراضيّ */
+function say(text, btn, rate, o) {
   if (!speechOK) { toast("متصفّحك لا يدعم النطق الصوتيّ.", 1); return; }
   try {
+    stopSeq();
     unlock();
     speechSynthesis.cancel();
     document.querySelectorAll(".spk.on").forEach(b => b.classList.remove("on"));
-    const u = new SpeechSynthesisUtterance(plain(text));
-    u.lang = (voice && voice.lang) || "en-US";
-    if (voice) u.voice = voice;
-    u.rate = rate || S.rate || 1; u.pitch = 1;
+    const u = mkUtter(text, Object.assign({ rate: rate }, o || {}));
     if (btn) {
       btn.classList.add("on");
       const off = () => btn.classList.remove("on");
@@ -126,15 +259,40 @@ function say(text, btn, rate) {
       setTimeout(off, Math.max(6000, plain(text).length * 110));
     }
     speechSynthesis.speak(u);
-    clearInterval(keep);
-    keep = setInterval(() => {
-      if (speechSynthesis.speaking) { try { speechSynthesis.resume(); } catch (e) {} }
-      else clearInterval(keep);
-    }, 8000);
+    keepAlive();
   } catch (e) { toast("تعذّر تشغيل الصوت.", 1); }
 }
+
+/* ---- التشغيل المتسلسل: حوارٌ سطراً سطراً، بصوت كلّ متكلّم ----
+   SEQ هو التشغيل الجاري؛ واحدٌ فقط في كلّ لحظة. */
+let SEQ = null;
+function stopSeq() {
+  if (!SEQ) return;
+  const s = SEQ; SEQ = null; s.alive = false;
+  clearTimeout(s.t);
+  try { speechSynthesis.cancel(); } catch (e) {}
+  if (s.wake) s.wake();
+  if (s.cleanup) s.cleanup();
+}
+/* ينطق جملةً ويُحَلّ عند انتهائها بمدّتها الفعليّة بالملّي ثانية.
+   سفاري قد لا يطلق onend أحياناً، فمهلةٌ احتياطيّة سخيّة تمنع التعليق. */
+function speakP(text, o) {
+  return new Promise(res => {
+    if (!speechOK) { setTimeout(() => res(0), 500); return; }
+    let fin = false, fb = null;
+    const t0 = Date.now();
+    const end = () => { if (fin) return; fin = true; clearTimeout(fb); res(Date.now() - t0); };
+    let u;
+    try { unlock(); u = mkUtter(text, o); } catch (e) { end(); return; }
+    u.onend = end; u.onerror = end;
+    fb = setTimeout(end, Math.max(4000, plain(text).length * 95 / (u.rate || 1) + 2500));
+    try { speechSynthesis.speak(u); keepAlive(); } catch (e) { end(); }
+  });
+}
+
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) {
+    stopSeq();
     try { speechSynthesis.cancel(); } catch (e) {}
     clearInterval(keep);
     document.querySelectorAll(".spk.on").forEach(b => b.classList.remove("on"));
@@ -142,10 +300,111 @@ document.addEventListener("visibilitychange", () => {
 });
 
 const ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4.03v8.05A4.47 4.47 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"/></svg>';
-function spkBtn(text, cls, label, rate) {
-  const b = el("button", "spk " + (cls || ""), ICON + (label ? " " + label : ""));
+function spkBtn(text, cls, label, rate, o) {
+  const b = el("button", "spk " + (cls || ""), ICON + (label ? "<span>" + label + "</span>" : ""));
   b.type = "button"; b.setAttribute("aria-label", "استمع");
-  b.addEventListener("click", ev => { ev.stopPropagation(); say(text, b, rate); });
+  b.addEventListener("click", ev => { ev.stopPropagation(); say(text, b, rate, o); });
+  return b;
+}
+
+/* ============================================================
+   ٣ب) فحص النطق بالميكروفون — التعرّف على الكلام في سفاري
+   يحكم على وضوح نطقك لا على لكنتك: هل فهم الجهاز كلماتك؟
+   ============================================================ */
+const SRC = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+let REC = null;
+
+const NUMW = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+  "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen", "twenty"];
+const CONTR = {
+  "i'm": "i am", "you're": "you are", "we're": "we are", "they're": "they are", "he's": "he is", "she's": "she is",
+  "it's": "it is", "that's": "that is", "what's": "what is", "there's": "there is", "here's": "here is", "let's": "let us",
+  "don't": "do not", "doesn't": "does not", "didn't": "did not", "can't": "can not", "cannot": "can not",
+  "won't": "will not", "isn't": "is not", "aren't": "are not", "wasn't": "was not", "weren't": "were not",
+  "haven't": "have not", "hasn't": "has not", "hadn't": "had not", "couldn't": "could not", "wouldn't": "would not",
+  "shouldn't": "should not", "i've": "i have", "you've": "you have", "we've": "we have", "they've": "they have",
+  "i'll": "i will", "you'll": "you will", "we'll": "we will", "they'll": "they will", "he'll": "he will", "she'll": "she will",
+  "i'd": "i would", "you'd": "you would", "we'd": "we would", "they'd": "they would",
+  "gonna": "going to", "wanna": "want to", "gotta": "got to", "two": "to", "too": "to", "okay": "ok", "their": "there"
+};
+function toks(s) {
+  return norm(plain(s)).replace(/[—–]/g, " ").replace(/-/g, " ").split(" ").filter(Boolean).flatMap(w => {
+    w = w.replace(/^'+|'+$/g, "");
+    if (!w) return [];
+    if (/^\d+$/.test(w) && +w <= 20) w = NUMW[+w];
+    return (CONTR[w] || w).split(" ").map(x => CONTR[x] || x).join(" ").split(" ");
+  });
+}
+/* يطابق ما سمعه الجهاز بالجملة المطلوبة (أطول تتابعٍ مشترك)، ويعيد لكلّ كلمةٍ ظاهرة: أصابت أم فاتت */
+function pronScore(target, heard) {
+  const disp = plain(target).split(/\s+/).filter(Boolean);
+  const tt = [], owner = [];
+  disp.forEach((w, i) => toks(w).forEach(t => { tt.push(t); owner.push(i); }));
+  const hh = toks(heard);
+  const n = tt.length, m = hh.length;
+  const L = Array.from({ length: n + 1 }, () => new Uint16Array(m + 1));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    L[i][j] = tt[i] === hh[j] ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+  const hit = new Array(n).fill(false);
+  for (let i = 0, j = 0; i < n && j < m;) {
+    if (tt[i] === hh[j]) { hit[i] = true; i++; j++; }
+    else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++;
+  }
+  const okW = disp.map((_, k) => owner.every((o, x) => o !== k || hit[x]));
+  return { disp, okW, score: n ? hit.filter(Boolean).length / n : 0, heard };
+}
+function paintPron(out, r) {
+  const pct = Math.round(r.score * 100);
+  const cls = r.score >= .85 ? "good" : r.score >= .6 ? "mid" : "low";
+  const msg = r.score >= .85 ? "✓ نطقٌ واضح" : r.score >= .6 ? "قريب — أعِد الكلمات المظلّلة" : "حاول ثانيةً، أبطأ وأوضح";
+  out.innerHTML = '<div class="pc-sc ' + cls + '">' + msg + " · " + n2(pct) + "٪</div>" +
+    '<div class="pc-w" dir="ltr">' + r.disp.map((w, k) => '<span class="' + (r.okW[k] ? "ok" : "miss") + '">' + esc(w) + "</span>").join(" ") + "</div>" +
+    '<div class="pc-h">سمعتُ: <span dir="ltr">' + esc(r.heard || "—") + "</span></div>";
+}
+function hearMe(target, btn, out, keepSeq) {
+  if (!SRC) { toast("فحص النطق يحتاج سفاري حديثاً مع تفعيل «الإملاء».", 1); return; }
+  if (REC) {
+    const was = btn.classList.contains("on");
+    try { REC.abort(); } catch (e) {}
+    REC = null;
+    document.querySelectorAll(".mic.on").forEach(b => b.classList.remove("on"));
+    if (was) return;
+  }
+  if (!keepSeq) stopSeq();          // في دورك من تمثيل الأدوار لا نوقف الحوار
+  try { speechSynthesis.cancel(); } catch (e) {}
+  const r = new SRC(); REC = r;
+  r.lang = "en-US"; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
+  btn.classList.add("on");
+  out.hidden = false;
+  out.innerHTML = '<div class="pc-wait">🎙️ أسمعك… انطق الجملة الآن</div>';
+  let got = false;
+  r.onresult = e => {
+    got = true;
+    let best = null;
+    for (const a of e.results[0]) { const m = pronScore(target, a.transcript); if (!best || m.score > best.score) best = m; }
+    if (best) paintPron(out, best);
+  };
+  r.onerror = e => {
+    got = true;
+    const er = e && e.error;
+    out.innerHTML = '<div class="pc-wait">' + (
+      er === "not-allowed" || er === "service-not-allowed"
+        ? "اسمح للتطبيق باستعمال الميكروفون، وفعّل «الإملاء» من: الإعدادات ← عام ← لوحة المفاتيح."
+        : er === "no-speech" ? "لم أسمع شيئاً — اقترب من الميكروفون وحاول ثانيةً."
+        : er === "aborted" ? "توقّف الاستماع."
+        : "تعذّر التعرّف على الكلام الآن" + (er ? " (" + esc(er) + ")" : "") + ".") + "</div>";
+  };
+  r.onend = () => {
+    btn.classList.remove("on");
+    if (REC === r) REC = null;
+    if (!got) out.innerHTML = '<div class="pc-wait">لم أسمع شيئاً — اضغط 🎤 وانطق الجملة.</div>';
+  };
+  try { r.start(); } catch (e) { btn.classList.remove("on"); REC = null; out.innerHTML = '<div class="pc-wait">تعذّر تشغيل الميكروفون.</div>'; }
+}
+function micBtn(target, out, big) {
+  const b = el("button", "mic" + (big ? " big" : ""), "🎤" + (big ? "<span>انطقها وافحص</span>" : ""));
+  b.type = "button"; b.setAttribute("aria-label", "انطق وافحص نطقك");
+  b.addEventListener("click", ev => { ev.stopPropagation(); hearMe(target, b, out, big); });
   return b;
 }
 
@@ -187,6 +446,9 @@ function go(h) { location.hash = h; }
 function route() {
   const p = (location.hash || "#/").slice(2).split("/").filter(Boolean);
   window.scrollTo(0, 0);
+  stopSeq();
+  closeSheet();
+  if (REC) { try { REC.abort(); } catch (e) {} REC = null; }
   try { speechSynthesis.cancel(); } catch (e) {}
   if (!p.length) return viewHome();
   if (p[0] === "unit" && p[1]) return guard(p[1], () =>
@@ -194,6 +456,8 @@ function route() {
   if (p[0] === "backup") return viewBackup();
   if (p[0] === "review") return viewReview();
   if (p[0] === "errors") return viewErrors();
+  if (p[0] === "settings") return viewSettings();
+  if (p[0] === "words") return viewWords();
   viewHome();
 }
 window.addEventListener("hashchange", route);
@@ -209,7 +473,7 @@ async function guard(uid, show) {
   setTimeout(() => toast(lock, 1), 260);
 }
 
-function topbar(title, sub, backTo) {
+function topbar(title, sub, backTo, gear) {
   bar.innerHTML = "";
   const w = el("div", "bar-in");
   if (backTo != null) {
@@ -220,6 +484,12 @@ function topbar(title, sub, backTo) {
   }
   w.appendChild(el("div", "bar-t", "<b>" + title + "</b><span>" + (sub || "") + "</span>"));
   if (S.streak.count > 0) w.appendChild(el("span", "flame", "🔥 " + n2(S.streak.count)));
+  if (gear) {
+    const g = el("button", "gear", "⚙️");
+    g.type = "button"; g.setAttribute("aria-label", "الإعدادات");
+    g.addEventListener("click", () => go("#/settings"));
+    w.appendChild(g);
+  }
   bar.appendChild(w);
 }
 
@@ -252,7 +522,7 @@ function unitPct(u, data) {
 }
 
 async function viewHome() {
-  topbar("تحدّي الإنجليزية", "منهج متكامل من A2 إلى B2");
+  topbar("تحدّي الإنجليزية", "منهج متكامل من A2 إلى B2", null, true);
   app.innerHTML = "";
   const w = el("div", "wrap");
 
@@ -273,7 +543,10 @@ async function viewHome() {
   /* جلسة اليوم */
   const s = el("div", "session");
   s.appendChild(el("h2", "", "☀️ جلسة اليوم"));
-  s.appendChild(el("p", "", "ثلاثون دقيقة: مراجعة ما استحقّ، ثمّ درس اليوم، ثمّ أخطاؤك."));
+  s.appendChild(el("p", "", n2(S.goal) + " دقيقة: مراجعة ما استحقّ، ثمّ درس اليوم، ثمّ أخطاؤك."));
+  const gl = el("div", "goal");
+  paintGoal(gl);
+  s.appendChild(gl);
   s.appendChild(el("div", "due" + (due ? "" : " zero"), due ? "🔁 " + n2(due) + " عنصراً مستحقّاً للمراجعة" : "✓ لا مراجعات مستحقّة الآن"));
   const rb = el("button", "btn cta full", "ابدأ المراجعة (" + n2(due) + ")");
   rb.type = "button"; rb.disabled = !due;
@@ -285,7 +558,14 @@ async function viewHome() {
     eb.addEventListener("click", () => go("#/errors"));
     s.appendChild(eb);
   }
+  const nm = Object.keys(S.mine).length;
+  const mb = el("button", "btn full ghost mine-cta", "📒 مفرداتي" + (nm ? " (" + n2(nm) + ")" : " — المس أيّ كلمةٍ في الحوار أو القراءة لتضيفها"));
+  mb.type = "button"; mb.style.marginTop = "10px";
+  mb.addEventListener("click", () => go("#/words"));
+  s.appendChild(mb);
   w.appendChild(s);
+
+  w.appendChild(weekChart());
 
   /* الوحدات */
   for (const lv of COURSE.levels) {
@@ -330,6 +610,63 @@ async function viewHome() {
   });
 }
 
+/* شريط هدف اليوم — يُعاد رسمه كلّ ربع دقيقة ما دامت الرئيسة مفتوحة */
+function paintGoal(g) {
+  const m = dayMin(today()), pct = Math.min(100, Math.round(m / S.goal * 100));
+  g.classList.toggle("hit", m >= S.goal);
+  g.innerHTML = '<div class="goal-t"><span>🎯 هدف اليوم</span><b>' +
+    (m >= S.goal ? "✓ " + n2(m) + " دقيقة — بلغته!" : n2(m) + " من " + n2(S.goal) + " دقيقة") +
+    '</b></div><div class="goal-bar" role="progressbar" aria-valuemin="0" aria-valuemax="' + S.goal +
+    '" aria-valuenow="' + m + '"><i style="width:' + pct + '%"></i></div>';
+}
+
+/* رسم الأسبوع: سلسلةٌ واحدة (دقائق كلّ يوم) بخطّ الهدف المتقطّع.
+   لمس العمود يكتب قيمته في السطر أسفله. */
+const WD = ["الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];
+function weekChart() {
+  const p = el("div", "panel week");
+  p.appendChild(el("div", "h", "📊 أسبوعك"));
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const k = new Date(Date.now() - i * DAY).toISOString().slice(0, 10);
+    days.push({ k, m: dayMin(k), d: new Date(k + "T12:00:00Z").getUTCDay(), today: i === 0 });
+  }
+  const top = Math.max(S.goal, ...days.map(x => x.m)) * 1.08;
+  const tot = days.reduce((a, x) => a + x.m, 0);
+  const hits = days.filter(x => x.m >= S.goal).length;
+
+  /* الزمن يجري من اليمين إلى اليسار كقراءتك: الأقدم يميناً واليوم يساراً */
+  const plot = el("div", "wk-plot");
+  const gl = el("div", "wk-goal");
+  gl.style.bottom = (S.goal / top * 100) + "%";
+  gl.appendChild(el("span", "", "الهدف " + n2(S.goal)));
+  plot.appendChild(gl);
+  const cap = el("div", "wk-cap");
+  const capDef = "المجموع " + n2(tot) + " دقيقة · بلغتَ الهدف " + n2(hits) + " من ٧ أيّام";
+  cap.textContent = capDef;
+  days.forEach(x => {
+    const lbl = WD[x.d] + (x.today ? " (اليوم)" : "") + ": " + n2(x.m) + " دقيقة";
+    const c = el("button", "wk-col" + (x.today ? " now" : ""));
+    c.type = "button"; c.title = lbl; c.setAttribute("aria-label", lbl);
+    const bar2 = el("i", x.m >= S.goal ? "met" : "");
+    bar2.style.height = (x.m ? Math.max(3, x.m / top * 100) : 0) + "%";
+    c.appendChild(bar2);
+    if (x.today && x.m) { const em = el("em", "", n2(x.m)); em.style.bottom = (Math.max(3, x.m / top * 100)) + "%"; c.appendChild(em); }
+    c.addEventListener("click", () => {
+      plot.querySelectorAll(".wk-col").forEach(z => z.classList.remove("sel"));
+      c.classList.add("sel"); cap.textContent = lbl;
+    });
+    plot.appendChild(c);
+  });
+  p.appendChild(plot);
+  const lab = el("div", "wk-lab");
+  const SH = ["أحد", "اثنين", "ثلاثاء", "أربعاء", "خميس", "جمعة", "سبت"];
+  days.forEach(x => lab.appendChild(el("span", x.today ? "now" : "", SH[x.d])));
+  p.appendChild(lab);
+  p.appendChild(cap);
+  return p;
+}
+
 /* ============================================================
    ٨) شاشة الوحدة
    ============================================================ */
@@ -360,6 +697,21 @@ async function viewUnit(id) {
   }
   w.appendChild(p);
 
+  /* اختبار التخطّي: من يعرف المادة يدخل الاختبار مباشرةً، والنجاح بـ٨٠٪ يفتح ما بعدها.
+     يظهر ما دام الاختبار لم يُجتز وأيّام الوحدة لم تكتمل. */
+  const T = U.days.find(d => d.type === "test");
+  const tr = S.tests[id];
+  if (T && !(tr && tr.passed) && U.days.some(d => d !== T && !S.done[id + "/" + d.n])) {
+    const sk = el("div", "note skip");
+    sk.appendChild(el("h3", "", "⏩ تعرف هذه المادة؟"));
+    sk.appendChild(el("div", "", "ادخل اختبار الوحدة مباشرةً. إن نلتَ <b>٨٠٪</b> فأكثر فُتحت الوحدة التالية دون أن تمرّ بالأيّام الستّة. وإن لم تنجح فلا خسارة — تابع الدروس كالمعتاد، وأخطاؤك تذهب إلى المفكّرة."));
+    const sb = el("button", "btn full skip-btn", "ادخل اختبار التخطّي");
+    sb.type = "button";
+    sb.addEventListener("click", () => go("#/unit/" + id + "/" + T.n));
+    sk.appendChild(sb);
+    w.appendChild(sk);
+  }
+
   const days = el("div", "days");
   U.days.forEach((d, i) => {
     const key = id + "/" + d.n;
@@ -374,7 +726,7 @@ async function viewUnit(id) {
     const kb = el("span", "kind", k[0]);
     kb.style.cssText = "--kb:" + k[1] + ";--kr:" + k[2] + ";--kc:" + k[3];
     b.appendChild(kb);
-    if (locked) b.addEventListener("click", () => toast("أنجِز أيّام الوحدة أوّلاً ثمّ اجتز الاختبار.", 1));
+    if (locked) b.addEventListener("click", () => toast("أنجِز أيّام الوحدة أوّلاً، أو ادخل «اختبار التخطّي» أعلاه.", 1));
     else b.addEventListener("click", () => go("#/unit/" + id + "/" + d.n));
     days.appendChild(b);
   });
@@ -404,14 +756,20 @@ async function viewLesson(id, dn) {
   btn.type = "button";
   btn.addEventListener("click", () => {
     const sc = ctx.scores.length ? ctx.scores.reduce((a, b) => a + b, 0) / ctx.scores.length : 1;
+    let skipped = false;
     if (D.type === "test") {
+      /* الاختبار لا يُحتسب قبل الإجابة عن أسئلته كلّها — وإلّا صار زرّ الإنهاء بوّابة تخطٍّ */
+      const nq = D.blocks.filter(x => x.type === "quiz").length;
+      if (ctx.scores.length < nq) { toast("أجب عن أسئلة الاختبار كلّها أوّلاً، ثمّ اضغط هنا.", 1); return; }
       const pass = sc >= (D.pass || 0.8);
-      S.tests[id] = { score: sc, passed: pass, at: Date.now() };
+      skipped = U.days.some(x => x.n !== dn && !S.done[id + "/" + x.n]);
+      S.tests[id] = { score: sc, passed: pass, at: Date.now(), skip: skipped && pass ? 1 : 0 };
       if (!pass) { toast("نتيجتك " + n2(Math.round(sc * 100)) + "٪ — تحتاج " + n2(Math.round((D.pass || .8) * 100)) + "٪. راجع وأعِد المحاولة.", 1); save(); return; }
     }
     S.done[id + "/" + dn] = { score: sc, at: Date.now() };
+    logDay().les++;
     touchStreak(); save();
-    toast("أحسنت! سُجّل إنجاز الدرس ✓");
+    toast(skipped ? "اجتزتَ اختبار التخطّي بـ" + n2(Math.round(sc * 100)) + "٪ — فُتحت الوحدة التالية ✓" : "أحسنت! سُجّل إنجاز الدرس ✓");
     setTimeout(() => go("#/unit/" + id), 700);
   });
   fin.appendChild(btn);
@@ -447,10 +805,15 @@ function rExamples(b) {
   if (b.title) w.appendChild(el("div", "blk-h", b.title));
   b.rows.forEach(r => {
     const x = el("div", "ex");
-    x.appendChild(spkBtn(r.en));
+    const tools = el("div", "ln-tools");
+    tools.appendChild(spkBtn(r.en));
+    const out = el("div", "pc-out"); out.hidden = true;
+    if (SRC) tools.appendChild(micBtn(r.en, out));
+    x.appendChild(tools);
     const t = el("div", "tx");
     t.appendChild(el("p", "ex-en", r.en));
     t.appendChild(el("p", "ex-ar", r.ar));
+    t.appendChild(out);
     x.appendChild(t);
     w.appendChild(x);
   });
@@ -498,10 +861,23 @@ function rVocab(b, bi) {
   return w;
 }
 
+/* ------------------------------------------------------------------
+   الحوار: لكلّ متكلّمٍ صوتُه، ويُشغَّل سطراً سطراً بأحد ثلاثة أوضاع:
+     all    — الحوار كاملاً
+     shadow — الترديد: يقول السطر ثمّ يصمت بقدر مدّته لتردّده أنت
+     role   — تمثيل الدور: تؤدّي أنت أحد المتكلّمَين ويؤدّي التطبيق الآخر
+   ومستوى ظهور النصّ (S.show) يحقّق «الاستماع الأعمى».
+------------------------------------------------------------------ */
+const SHOW = ["النصّ ظاهر", "بلا ترجمة", "مخفيّ"];
+
 function rDialogue(b) {
-  const w = el("div");
+  const w = el("div", "dlg show" + S.show);
   w.appendChild(el("div", "blk-h", "🎧 " + b.title + (b.titleAr ? " — " + b.titleAr : "")));
 
+  const cast = castVoices(b.lines);
+  const sps = Object.keys(cast);
+
+  /* ---- السطر الأوّل من الأدوات: السرعة + التشغيل الكامل ---- */
   const ctl = el("div", "dlg-ctl");
   const rate = el("div", "rate");
   [[0.7, "٠٫٧×"], [1, "١٫٠×"], [1.3, "١٫٣×"]].forEach(([v, lb]) => {
@@ -515,28 +891,164 @@ function rDialogue(b) {
     rate.appendChild(b2);
   });
   ctl.appendChild(rate);
-
-  const all = b.lines.map(l => l.en).join(" ");
-  const play = el("button", "spk big", ICON + " استمع إلى الحوار كاملاً");
+  const play = el("button", "spk big play-all", ICON + "<span>استمع إلى الحوار كاملاً</span>");
   play.type = "button";
-  play.addEventListener("click", () => {
-    if (play.classList.contains("on")) { try { speechSynthesis.cancel(); } catch (e) {} play.classList.remove("on"); return; }
-    say(all, play);
-  });
   ctl.appendChild(play);
   w.appendChild(ctl);
 
-  b.lines.forEach(l => {
-    const x = el("div", "line");
-    x.appendChild(spkBtn(l.en));
-    x.appendChild(el("span", "sp", l.sp));
+  /* ---- السطر الثاني: الترديد وتمثيل الأدوار ---- */
+  const modes = el("div", "dlg-modes");
+  const shBtn = el("button", "mode-b shadow-b", "🔁 <span>ترديد</span>");
+  shBtn.type = "button";
+  modes.appendChild(shBtn);
+  modes.appendChild(el("span", "mode-l", "🎭 أدِّ دور:"));
+  const roleBtns = {};
+  sps.forEach(s => {
+    const rb = el("button", "mode-b role-b g-" + cast[s].g, "<span dir='ltr'>" + esc(s) + "</span>");
+    rb.type = "button";
+    roleBtns[s] = rb;
+    modes.appendChild(rb);
+  });
+  w.appendChild(modes);
+
+  /* ---- السطر الثالث: ظهور النصّ ---- */
+  const vis = el("div", "seg vis");
+  SHOW.forEach((lb, k) => {
+    const vb = el("button", S.show === k ? "on" : "", lb);
+    vb.type = "button";
+    vb.addEventListener("click", () => {
+      S.show = k; save();
+      vis.querySelectorAll("button").forEach(x => x.classList.remove("on"));
+      vb.classList.add("on");
+      w.className = "dlg show" + k;
+      rows.forEach(r => r.x.classList.remove("rev"));
+    });
+    vis.appendChild(vb);
+  });
+  w.appendChild(vis);
+  w.appendChild(el("div", "blk-hint vis-hint", "المس السطر المخفيّ لتكشفه · المس أيّ كلمةٍ إنجليزيّة لتضيفها إلى «مفرداتي»"));
+
+  /* ---- الأسطر ---- */
+  const rows = b.lines.map(l => {
+    const c = cast[l.sp];
+    const x = el("div", "line g-" + c.g);
+    const tools = el("div", "ln-tools");
+    tools.appendChild(spkBtn(l.en, "", "", null, { v: c.v, pitch: c.pitch }));
+    const out = el("div", "pc-out"); out.hidden = true;
+    if (SRC) tools.appendChild(micBtn(l.en, out));
+    x.appendChild(tools);
+    x.appendChild(el("span", "sp", esc(l.sp)));
     const t = el("div", "tx");
-    t.appendChild(el("p", "dlg-en", l.en));
+    const en = el("p", "dlg-en", l.en);
+    wordify(en);
+    t.appendChild(en);
     t.appendChild(el("p", "dlg-ar", l.ar));
+    t.appendChild(out);
+    t.addEventListener("click", ev => {
+      const hidden = (S.show > 0 && !x.classList.contains("rev")) || (x.classList.contains("turn") && !x.classList.contains("rev"));
+      if (hidden) { x.classList.add("rev"); return; }
+      const tw = ev.target.closest(".tw");
+      if (tw) wordSheet(tw.textContent, plain(l.en));
+    });
     x.appendChild(t);
     w.appendChild(x);
+    return { x, t, out, l };
   });
+
+  /* ---- المشغّل ---- */
+  function setBtns(mode, role) {
+    play.classList.toggle("on", mode === "all");
+    play.querySelector("span").textContent = mode === "all" ? "■ أوقف" : "استمع إلى الحوار كاملاً";
+    shBtn.classList.toggle("on", mode === "shadow");
+    shBtn.querySelector("span").textContent = mode === "shadow" ? "■ أوقف" : "ترديد";
+    sps.forEach(s => roleBtns[s].classList.toggle("on", mode === "role" && role === s));
+  }
+
+  function myTurn(R, s) {
+    return new Promise(res => {
+      s.wake = res;
+      R.x.classList.add("turn");
+      const box = el("div", "turn-box");
+      box.appendChild(el("div", "turn-h", "🎭 دورك — قل الجملة بالإنجليزيّة، ثمّ تابع"));
+      const row = el("div", "turn-row");
+      if (SRC) row.appendChild(micBtn(R.l.en, R.out, true));
+      const go2 = el("button", "btn ok turn-ok", "✓ قلتُها — تابع");
+      go2.type = "button";
+      go2.addEventListener("click", ev => { ev.stopPropagation(); finish(); });
+      row.appendChild(go2);
+      box.appendChild(row);
+      R.t.appendChild(box);
+      function finish() {
+        if (REC) { try { REC.abort(); } catch (e) {} }
+        R.x.classList.add("rev");
+        R.x.classList.remove("turn");
+        box.remove();
+        res();
+      }
+    });
+  }
+
+  async function run(mode, role) {
+    const was = SEQ && SEQ.owner === w && SEQ.mode === mode && SEQ.role === role;
+    stopSeq();
+    try { speechSynthesis.cancel(); } catch (e) {}
+    if (was) return;                        // الضغط ثانيةً على الزرّ نفسه يوقفه
+    if (!speechOK) { toast("متصفّحك لا يدعم النطق الصوتيّ.", 1); return; }
+    const s = { alive: true, t: null, wake: null, owner: w, mode, role };
+    SEQ = s;
+    s.cleanup = () => {
+      rows.forEach(r => { r.x.classList.remove("play", "shad", "turn"); const tb = r.t.querySelector(".turn-box"); if (tb) tb.remove(); });
+      setBtns(null);
+    };
+    const sleep = ms => new Promise(r => { s.wake = r; s.t = setTimeout(r, ms); });
+    setBtns(mode, role);
+    if (mode === "role") rows.forEach(r => r.x.classList.remove("rev"));
+    for (let i = 0; i < rows.length && s.alive; i++) {
+      const R = rows[i], c = cast[R.l.sp];
+      rows.forEach(r => r.x.classList.remove("play"));
+      R.x.classList.add("play");
+      try { R.x.scrollIntoView({ block: "center", behavior: "smooth" }); } catch (e) {}
+      lastAct = Date.now();
+      if (mode === "role" && R.l.sp === role) { await myTurn(R, s); continue; }
+      const ms = await speakP(R.l.en, { v: c.v, pitch: c.pitch, rate: S.rate });
+      if (!s.alive) break;
+      if (mode === "shadow") {
+        const gap = Math.max(1500, Math.round(ms * 1.15) + 600);
+        R.x.style.setProperty("--gap", gap + "ms");
+        R.x.classList.add("shad");
+        await sleep(gap);
+        R.x.classList.remove("shad");
+      } else {
+        await sleep(mode === "role" ? 300 : 420);
+      }
+    }
+    if (SEQ === s) {
+      SEQ = null; s.cleanup();
+      rows.forEach(r => r.x.classList.remove("play"));
+      if (mode === "role") toast("انتهى الحوار — جرّب الدور الآخر 🎭");
+    }
+  }
+  play.addEventListener("click", () => run("all"));
+  shBtn.addEventListener("click", () => run("shadow"));
+  sps.forEach(s => roleBtns[s].addEventListener("click", () => run("role", s)));
   return w;
+}
+
+/* يحوّل كلّ كلمةٍ إنجليزيّة في العنصر إلى هدفٍ قابلٍ للّمس، دون أن يمسّ الوسوم */
+function wordify(root) {
+  const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const nodes = [];
+  while (tw.nextNode()) nodes.push(tw.currentNode);
+  nodes.forEach(t => {
+    if (!/[A-Za-z]/.test(t.nodeValue)) return;
+    const f = document.createDocumentFragment();
+    t.nodeValue.split(/([A-Za-z][A-Za-z'’]*)/).forEach((p, i) => {
+      if (!p) return;
+      if (i % 2) { const s = document.createElement("span"); s.className = "tw"; s.textContent = p; f.appendChild(s); }
+      else f.appendChild(document.createTextNode(p));
+    });
+    t.parentNode.replaceChild(f, t);
+  });
 }
 
 function rReading(b) {
@@ -554,7 +1066,24 @@ function rReading(b) {
   bar2.appendChild(p);
   w.appendChild(bar2);
 
-  w.appendChild(el("div", "rd-en", b.en));
+  const rd = el("div", "rd-en", b.en);
+  wordify(rd);
+  rd.addEventListener("click", ev => {
+    const tw = ev.target.closest(".tw");
+    if (!tw) return;
+    /* سياق الكلمة: الجملة التي وردت فيها */
+    let ctxS = "";
+    try {
+      const r = document.createRange(); r.setStart(rd, 0); r.setEndBefore(tw);
+      const all = rd.textContent, at = r.toString().length;
+      const a = Math.max(all.lastIndexOf(".", at - 1), all.lastIndexOf("!", at - 1), all.lastIndexOf("?", at - 1)) + 1;
+      const zs = [".", "!", "?"].map(c => all.indexOf(c, at)).filter(z => z > -1);
+      ctxS = all.slice(a, zs.length ? Math.min(...zs) + 1 : all.length).trim();
+    } catch (e) {}
+    wordSheet(tw.textContent, ctxS);
+  });
+  w.appendChild(rd);
+  w.appendChild(el("div", "blk-hint", "المس أيّ كلمةٍ في النصّ لتضيفها إلى «مفرداتي» مع جملتها."));
   if (b.keys) {
     const k = el("div", "keys");
     b.keys.forEach(p2 => k.appendChild(el("span", "key", '<span class="e">' + p2[0] + '</span><span class="s">—</span><span>' + p2[1] + "</span>")));
@@ -571,6 +1100,184 @@ function rReading(b) {
     w.appendChild(tg); w.appendChild(el("div", "spacer")); w.appendChild(ar);
   }
   return w;
+}
+
+/* ============================================================
+   ١١أ) مفرداتي — كلماتٌ تلتقطها أنت من الحوار والقراءة
+   تدخل التكرار المتباعد بمعرّف "mine/<الكلمة>".
+   ============================================================ */
+const mineKey = w => String(w).replace(/[’]/g, "'").replace(/^'+|'+$/g, "").replace(/'s$/i, "").toLowerCase();
+
+function closeSheet() { document.querySelectorAll(".sheet-bg").forEach(x => x.remove()); }
+
+function wordSheet(word, ctxS) {
+  closeSheet();
+  const k = mineKey(word);
+  if (!k) return;
+  const bg = el("div", "sheet-bg");
+  const sh = el("div", "sheet");
+  sh.setAttribute("role", "dialog"); sh.setAttribute("aria-label", "أضف إلى مفرداتي");
+  bg.addEventListener("click", ev => { if (ev.target === bg) closeSheet(); });
+
+  const hd = el("div", "sh-h");
+  hd.appendChild(spkBtn(k));
+  hd.appendChild(el("b", "", esc(k)));
+  const x = el("button", "sh-x", "✕"); x.type = "button"; x.setAttribute("aria-label", "إغلاق");
+  x.addEventListener("click", closeSheet);
+  hd.appendChild(x);
+  sh.appendChild(hd);
+
+  if (ctxS) {
+    const re = new RegExp("\\b(" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")\\b", "i");
+    sh.appendChild(el("div", "sh-ctx", esc(ctxS).replace(re, "<mark>$1</mark>")));
+  }
+  const have = S.mine[k];
+  if (have) {
+    sh.appendChild(el("div", "sh-have", "✓ في مفرداتك" + (have.ar ? " — " + esc(have.ar) : "")));
+    const rm = el("button", "btn full", "🗑️ أزلها من مفرداتي"); rm.type = "button";
+    rm.addEventListener("click", () => { delete S.mine[k]; delete S.srs["mine/" + k]; save(); closeSheet(); toast("أُزيلت «" + k + "»."); });
+    sh.appendChild(rm);
+  } else {
+    const inp = el("input", "inp sh-inp");
+    inp.type = "text"; inp.placeholder = "المعنى بالعربيّة (اختياري)"; inp.dir = "rtl";
+    sh.appendChild(inp);
+    const ad = el("button", "btn cta full", "➕ أضفها إلى مفرداتي"); ad.type = "button";
+    const add = () => {
+      S.mine[k] = { w: k, ar: inp.value.trim(), ctx: ctxS || "", unit: (ctx.U && ctx.U.title) || "", at: Date.now() };
+      seed("mine/" + k);
+      save(); closeSheet();
+      toast("أُضيفت «" + k + "» — ستأتيك في المراجعة.");
+    };
+    ad.addEventListener("click", add);
+    inp.addEventListener("keydown", e => { if (e.key === "Enter") add(); });
+    sh.appendChild(ad);
+  }
+  bg.appendChild(sh);
+  document.body.appendChild(bg);
+}
+
+function viewWords() {
+  topbar("مفرداتي", "ما التقطتَه بنفسك", "#/");
+  app.innerHTML = "";
+  const w = el("div", "wrap");
+  const ks = Object.keys(S.mine).sort((a, b) => S.mine[b].at - S.mine[a].at);
+  if (!ks.length) {
+    w.appendChild(el("div", "empty", '<div class="ico">📒</div><h3>لا كلمات بعد</h3><p>المس أيّ كلمةٍ إنجليزيّة في الحوار أو نصّ القراءة، فتُحفظ هنا مع جملتها وتدخل المراجعة المتباعدة.</p>'));
+    app.appendChild(w); return;
+  }
+  w.appendChild(el("div", "panel", '<div class="sub">' + n2(ks.length) + " كلمةً التقطتَها. تأتيك في «المراجعة» مع بطاقات المنهج.</div>"));
+  ks.forEach(k => {
+    const m = S.mine[k];
+    const x = el("div", "ex word-i");
+    x.appendChild(spkBtn(m.w));
+    const t = el("div", "tx");
+    t.appendChild(el("p", "ex-en", "<b>" + esc(m.w) + "</b>"));
+    t.appendChild(el("p", "ex-ar", m.ar ? "<b style='color:var(--emerald)'>" + esc(m.ar) + "</b>" : "<span style='color:var(--dim)'>بلا معنى مكتوب</span>"));
+    if (m.ctx) t.appendChild(el("p", "ex-en wctx", esc(m.ctx)));
+    if (m.unit) t.appendChild(el("p", "ex-ar", esc(m.unit)));
+    x.appendChild(t);
+    const del = el("button", "sh-x", "🗑️"); del.type = "button"; del.setAttribute("aria-label", "احذف");
+    del.addEventListener("click", () => { delete S.mine[k]; delete S.srs["mine/" + k]; save(); viewWords(); });
+    x.appendChild(del);
+    w.appendChild(x);
+  });
+  app.appendChild(w);
+}
+
+/* ============================================================
+   ١١ج) الإعدادات — الأصوات والهدف اليوميّ
+   ============================================================ */
+function viewSettings() {
+  topbar("الإعدادات", "الأصوات والهدف اليوميّ", "#/");
+  app.innerHTML = "";
+  const w = el("div", "wrap");
+
+  /* ---- الأصوات ---- */
+  const vp = el("div", "note");
+  vp.appendChild(el("h3", "", "🗣️ الأصوات"));
+  if (!speechOK) {
+    vp.appendChild(el("div", "", "متصفّحك لا يدعم النطق الصوتيّ."));
+  } else if (!VOICES.all.length) {
+    vp.appendChild(el("div", "", "لم تُحمَّل أصوات الجهاز بعد… المس الشاشة مرّةً وانتظر ثانيتين."));
+    setTimeout(() => { pickVoice(); if (location.hash === "#/settings" && VOICES.all.length) viewSettings(); }, 1500);
+  } else {
+    vp.appendChild(el("div", "set-sub", "وجدتُ على جهازك " + n2(VOICES.all.length) + " صوتاً إنجليزيّاً: " +
+      n2(VOICES.f.length) + " لامرأة و" + n2(VOICES.m.length) + " لرجل. في الحوار يأخذ كلّ متكلّمٍ صوتَ جنسه."));
+    const list = (g, title) => {
+      const box = el("div", "vset");
+      box.appendChild(el("div", "vset-h", title));
+      const pool = VOICES[g].slice(0, 14);
+      if (!pool.length) {
+        box.appendChild(el("div", "vwarn", g === "m"
+          ? "لا صوت رجلٍ على جهازك — سيُستعمل صوتٌ آخر بطبقةٍ أخفض. نزّل صوتاً مثل <b dir=ltr>Evan</b> أو <b dir=ltr>Aaron</b> (الطريقة أدناه)."
+          : "لا صوت امرأةٍ على جهازك — سيُستعمل صوتٌ آخر بطبقةٍ أعلى."));
+        return box;
+      }
+      const ul = el("div", "vlist");
+      const cur = chosen(g);
+      const opt = (v, label, sub) => {
+        const sel = v ? (S.voices[g] === v.voiceURI) : !S.voices[g];
+        const it = el("div", "vopt" + (sel ? " on" : ""));
+        const pick = el("button", "vpick", '<span class="dot"></span><span class="vn">' + label + "</span>" + (sub ? '<span class="vs">' + sub + "</span>" : ""));
+        pick.type = "button";
+        pick.addEventListener("click", () => { S.voices[g] = v ? v.voiceURI : ""; save(); viewSettings(); });
+        it.appendChild(pick);
+        const pv = v || cur;
+        if (pv) {
+          const pb = el("button", "spk", ICON); pb.type = "button"; pb.setAttribute("aria-label", "جرّب الصوت");
+          pb.addEventListener("click", () => say(g === "f" ? "Hi! I'm Maya. Nice to meet you." : "Hi, I'm Omar. Good to meet you too.", pb, 1, { v: pv }));
+          it.appendChild(pb);
+        }
+        ul.appendChild(it);
+      };
+      opt(null, "تلقائي — الأفضل المتاح", cur ? esc(cur.name) : "");
+      pool.forEach(v => opt(v, esc(v.name), esc(v.lang) + (/enhanced|premium|neural|natural/i.test(v.name + " " + v.voiceURI) ? " · محسّن" : "")));
+      box.appendChild(ul);
+      return box;
+    };
+    vp.appendChild(list("f", "👩 صوت المرأة"));
+    vp.appendChild(list("m", "👨 صوت الرجل"));
+
+    vp.appendChild(el("div", "vset-h", "صوت الأمثلة والمفردات والقراءة"));
+    const mn = el("div", "seg");
+    [["f", "امرأة"], ["m", "رجل"]].forEach(([g, lb]) => {
+      const b2 = el("button", (S.voices.main || "f") === g ? "on" : "", lb);
+      b2.type = "button";
+      b2.addEventListener("click", () => { S.voices.main = g; save(); viewSettings(); });
+      mn.appendChild(b2);
+    });
+    vp.appendChild(mn);
+  }
+  vp.appendChild(el("div", "n-ar", "لأصواتٍ أجمل وأوضح: الإعدادات ← تسهيلات الاستخدام ← المحتوى المنطوق ← الأصوات ← الإنجليزيّة، ثمّ نزّل صوتاً «محسّناً» (Enhanced) لامرأة وآخر لرجل. أغلق التطبيق وافتحه فيظهران هنا."));
+  w.appendChild(vp);
+
+  /* ---- الهدف ---- */
+  const gp = el("div", "note");
+  gp.appendChild(el("h3", "", "🎯 هدف اليوم"));
+  gp.appendChild(el("div", "set-sub", "يُحتسب وقتك ما دمت تتفاعل مع التطبيق أو تستمع إليه."));
+  const gs = el("div", "seg goal-seg");
+  [10, 20, 30, 45, 60].forEach(m => {
+    const b2 = el("button", S.goal === m ? "on" : "", n2(m) + " د");
+    b2.type = "button";
+    b2.addEventListener("click", () => { S.goal = m; save(); viewSettings(); });
+    gs.appendChild(b2);
+  });
+  gp.appendChild(gs);
+  w.appendChild(gp);
+
+  /* ---- فحص النطق ---- */
+  const mp = el("div", "note");
+  mp.appendChild(el("h3", "", "🎤 فحص النطق"));
+  mp.appendChild(el("div", "", SRC
+    ? "متاح. اضغط 🎤 بجانب أيّ جملةٍ في الحوار أو الأمثلة وانطقها؛ يبرز التطبيق الكلمات التي لم يلتقطها. يحتاج إذن الميكروفون وتفعيل «الإملاء» (الإعدادات ← عام ← لوحة المفاتيح)."
+    : "غير متاح في هذا المتصفّح. على الآيباد يعمل في سفاري مع تفعيل «الإملاء»."));
+  w.appendChild(mp);
+
+  const bk = el("button", "btn full ghost", "💾 نسخة تقدّمك — تصدير واستعادة");
+  bk.type = "button";
+  bk.addEventListener("click", () => go("#/backup"));
+  w.appendChild(bk);
+  app.appendChild(w);
 }
 
 /* ============================================================
@@ -1063,6 +1770,12 @@ async function viewReview() {
     }));
   }
 
+  /* مفرداتي */
+  Object.keys(S.mine).forEach(k => {
+    const m = S.mine[k];
+    index["mine/" + k] = { w: m.w, ar: m.ar, ex: m.ctx ? [{ en: m.ctx, ar: "" }] : [], mine: 1 };
+  });
+
   const queue = due.filter(id => index[id]);
   if (!queue.length) {
     w.appendChild(el("div", "empty", '<div class="ico">✅</div><h3>لا مراجعات مستحقّة</h3><p>أحسنت — عُد غداً، أو تابع درساً جديداً من الصفحة الرئيسة.</p>'));
@@ -1109,13 +1822,15 @@ async function viewReview() {
     f.appendChild(flipBtn);
 
     const bk = el("div", "face b");
-    bk.appendChild(el("div", "tr", it.ar));
+    if (it.mine) bk.appendChild(el("div", "pos", "📒 من مفرداتي"));
+    bk.appendChild(el("div", "tr", it.ar ? esc(it.ar) : "—"));
+    if (it.mine && !it.ar) bk.appendChild(el("div", "pos", "لم تكتب معنى — تذكّره من جملته"));
     (it.ex || []).forEach(e => {
       const x = el("div", "ex");
       x.appendChild(spkBtn(e.en));
       const t = el("div", "tx");
-      t.appendChild(el("p", "ex-en", e.en));
-      t.appendChild(el("p", "ex-ar", e.ar));
+      t.appendChild(el("p", "ex-en", it.mine ? esc(e.en) : e.en));
+      if (e.ar) t.appendChild(el("p", "ex-ar", e.ar));
       x.appendChild(t);
       bk.appendChild(x);
     });
@@ -1140,7 +1855,7 @@ async function viewReview() {
     [[0, "أعِدها", "بعد دقائق", "g0"], [1, "صعبة", "قريباً", "g1"], [2, "سهلة", "تباعُد أطول", "g2"]].forEach(([g, lb, sub, cls]) => {
       const b = el("button", cls, lb + "<small>" + sub + "</small>");
       b.type = "button";
-      b.addEventListener("click", () => { grade(id, g); done++; k++; show(); });
+      b.addEventListener("click", () => { grade(id, g); logDay().rev++; done++; k++; show(); });
       gr.appendChild(b);
     });
     host.appendChild(gr);
