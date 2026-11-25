@@ -20,7 +20,16 @@ for (const V of VIEWS) {
   p.on('console',m=>{ const t=m.text();
     if(m.type()==='error' && !/favicon|fonts|Failed to load resource|speech/i.test(t)) problems.push(`[${V.n}] console: ${t}`); });
 
-  for (const u of units) {
+  const EXTRA = ['#/', '#/settings', '#/words', '#/backup', '#/review', '#/errors'];
+  for (const u of [{ extra: true }, ...units]) {
+    if (u.extra) {
+      for (const r of EXTRA) {
+        await p.goto(U+r); await p.waitForTimeout(400); pages++;
+        const m = await p.evaluate(()=>({sw:document.documentElement.scrollWidth, cw:document.documentElement.clientWidth}));
+        if(m.sw>m.cw+2) problems.push(`[${V.n}] ${r}: تمرير أفقي ${m.sw}/${m.cw}`);
+      }
+      continue;
+    }
     const nDays = u.kind==='phonetics' ? 10 : (u.kind==='bank' ? 0 : 7);
     const routes = nDays ? Array.from({length:nDays},(_,i)=>`#/unit/${u.id}/${i+1}`) : [`#/unit/${u.id}`];
     routes.unshift(`#/unit/${u.id}`);

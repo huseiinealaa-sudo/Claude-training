@@ -202,8 +202,10 @@ b{font-weight:800}
 .spk.on{animation:ring .7s ease-in-out infinite}
 .spk svg{width:16px;height:16px;fill:currentColor}
 @keyframes ring{50%{transform:scale(1.12)}}
-.spk.big{width:auto;padding:0 18px;height:42px;gap:9px;border-radius:999px;font-family:var(--ar);
-  font-weight:800;font-size:.92rem}
+.spk.big{width:auto;padding:0 18px;min-height:42px;height:auto;gap:9px;border-radius:999px;font-family:var(--ar);
+  font-weight:800;font-size:.92rem;display:inline-flex;align-items:center;justify-content:center;
+  white-space:nowrap;max-width:100%}
+.spk.big span{overflow:hidden;text-overflow:ellipsis}
 
 /* حوار */
 .dlg-ctl{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
@@ -398,3 +400,153 @@ footer{text-align:center;color:var(--dim);font-size:.82rem;margin-top:36px;paddi
 .bk-row>*{flex:1 1 160px;text-align:center;text-decoration:none;display:grid;place-items:center}
 .btn.danger{background:linear-gradient(135deg,#fb7185,#e11d48);border-color:transparent;color:#fff}
 @media(max-width:420px){.bk-grid{grid-template-columns:1fr 1fr}}
+
+/* ================================================================
+   النسخة ٣ — الأصوات، أوضاع الحوار، فحص النطق، مفرداتي، الهدف
+   ================================================================ */
+.gear{flex:none;width:40px;height:40px;border-radius:12px;cursor:pointer;display:grid;place-items:center;
+  font-size:1.1rem;background:var(--surface);border:1.5px solid var(--stroke)}
+.gear:active{transform:scale(.93)}
+
+/* أدوات السطر: النطق + الميكروفون */
+.ln-tools{flex:none;display:flex;flex-direction:column;gap:6px}
+.mic{flex:none;width:34px;height:34px;border-radius:10px;cursor:pointer;display:grid;place-items:center;
+  font-size:.95rem;color:var(--rose);background:rgba(251,113,133,.10);border:1px solid rgba(251,113,133,.32);transition:.18s}
+.mic:active{transform:scale(.9)}
+.mic.on{animation:ring .7s ease-in-out infinite;background:rgba(251,113,133,.28)}
+.mic.big{width:auto;height:auto;min-height:42px;padding:0 16px;border-radius:999px;display:inline-flex;
+  align-items:center;gap:8px;font-family:var(--ar);font-weight:800;font-size:.9rem;color:var(--text)}
+
+/* الحوار */
+.line.g-f .sp{color:var(--violet)}
+.line.g-m .sp{color:var(--accent)}
+.dlg-modes{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:-4px 0 12px}
+.mode-l{font-size:.84rem;font-weight:800;color:var(--muted);margin-inline-start:4px}
+.mode-b{font-family:var(--ar);font-size:.86rem;font-weight:800;cursor:pointer;color:var(--text);
+  background:var(--surface);border:1.5px solid var(--stroke);border-radius:999px;padding:7px 14px;
+  display:inline-flex;align-items:center;gap:6px;transition:.18s;max-width:100%}
+.mode-b span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mode-b.role-b span{font-family:var(--en)}
+.mode-b.g-f{border-color:rgba(167,139,250,.45)}
+.mode-b.g-m{border-color:rgba(34,211,238,.45)}
+.mode-b.on{background:rgba(34,211,238,.2);border-color:var(--accent);color:var(--accent)}
+.mode-b:active{transform:scale(.95)}
+.spk.big.on{background:rgba(34,211,238,.24);animation:none}
+.seg{display:inline-flex;flex-wrap:wrap;gap:5px;background:var(--surface);border:1.5px solid var(--stroke);
+  border-radius:999px;padding:4px;margin-bottom:12px;max-width:100%}
+.seg button{font-family:var(--ar);font-size:.82rem;font-weight:800;cursor:pointer;color:var(--muted);
+  background:none;border:none;border-radius:999px;padding:7px 13px;transition:.18s}
+.seg button.on{background:rgba(34,211,238,.2);color:var(--accent)}
+.vis-hint{margin-top:-4px}
+
+/* الاستماع الأعمى: الإخفاء بالضباب يُبقي طول السطر فتعرف كم يُقال */
+.dlg-en,.dlg-ar{transition:filter .25s}
+.dlg.show1 .line:not(.rev) .dlg-ar,
+.dlg.show2 .line:not(.rev) .dlg-ar,
+.dlg.show2 .line:not(.rev) .dlg-en,
+.line.turn:not(.rev) .dlg-en{filter:blur(7px);user-select:none;-webkit-user-select:none;cursor:pointer}
+.line.turn .dlg-ar{filter:none!important}
+.line.play{box-shadow:0 0 0 1px var(--accent) inset}
+.line.turn{border-color:var(--rose);background:rgba(251,113,133,.08)}
+
+/* الترديد: شريطٌ يتناقص بقدر المهلة */
+.line{position:relative;overflow:hidden}
+.line.shad::after{content:"🎙️ ردّد الآن";position:absolute;inset-inline-start:0;bottom:0;height:3px;width:100%;
+  background:var(--emerald);font-size:0;animation:drain var(--gap,2000ms) linear forwards;transform-origin:left}
+.line.shad{border-color:var(--emerald);background:rgba(52,211,153,.08)}
+.line.shad .sp::after{content:" · ردّد";color:var(--emerald)}
+@keyframes drain{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+
+.turn-box{margin-top:10px;padding-top:10px;border-top:1px dashed rgba(251,113,133,.4)}
+.turn-h{font-size:.88rem;font-weight:800;color:var(--rose);margin-bottom:8px}
+.turn-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.turn-ok{padding:10px 18px}
+
+/* نتيجة فحص النطق */
+.pc-out{margin-top:9px;padding-top:9px;border-top:1px dashed var(--stroke)}
+.pc-wait{font-size:.86rem;color:var(--muted)}
+.pc-sc{font-size:.86rem;font-weight:800;margin-bottom:6px}
+.pc-sc.good{color:var(--emerald)} .pc-sc.mid{color:var(--amber)} .pc-sc.low{color:var(--rose)}
+.pc-w{font-family:var(--en);text-align:left;font-size:.98rem;line-height:1.8}
+.pc-w .ok{color:var(--emerald)}
+.pc-w .miss{color:var(--rose);text-decoration:underline wavy rgba(251,113,133,.7);text-underline-offset:4px}
+.pc-h{font-size:.8rem;color:var(--dim);margin-top:4px}
+.pc-h span{font-family:var(--en)}
+
+/* كلماتٌ قابلة للّمس */
+.tw{cursor:pointer;border-radius:4px;transition:background .15s}
+.tw:active{background:rgba(34,211,238,.25)}
+@media(hover:hover){.tw:hover{background:rgba(34,211,238,.14)}}
+
+/* ورقة «أضف إلى مفرداتي» */
+.sheet-bg{position:fixed;inset:0;z-index:80;background:rgba(8,12,30,.55);display:flex;align-items:flex-end;
+  justify-content:center;animation:fade .2s}
+@keyframes fade{from{opacity:0}}
+.sheet{width:min(560px,100%);background:#2b3566;border:1.5px solid var(--stroke-2);border-bottom:none;
+  border-radius:22px 22px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom));
+  box-shadow:0 -20px 60px -20px #000;animation:up2 .28s cubic-bezier(.2,1.2,.4,1)}
+@keyframes up2{from{transform:translateY(40px);opacity:0}}
+.sh-h{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.sh-h b{flex:1;font-family:var(--en);direction:ltr;text-align:left;font-size:1.5rem;font-weight:700;color:var(--accent);
+  overflow-wrap:anywhere}
+.sh-x{flex:none;width:36px;height:36px;border-radius:10px;cursor:pointer;color:var(--text);
+  background:var(--surface);border:1px solid var(--stroke);font-size:.95rem}
+.sh-ctx{font-family:var(--en);direction:ltr;text-align:left;font-size:.95rem;line-height:1.7;color:var(--muted);
+  background:var(--inset);border-radius:var(--r-sm);padding:10px 12px;margin-bottom:12px}
+.sh-ctx mark,.wctx mark{background:rgba(34,211,238,.22);color:var(--text);border-radius:4px;padding:0 3px}
+.sh-inp{font-family:var(--ar);text-align:right}
+.sh-have{font-weight:800;color:var(--emerald);margin-bottom:12px}
+.word-i .sh-x{align-self:flex-start}
+.wctx{font-size:.88rem!important;color:var(--muted);margin-top:6px}
+
+/* اختبار التخطّي */
+.note.skip{border-color:rgba(251,191,36,.4);background:rgba(251,191,36,.07)}
+.note.skip h3{color:var(--amber)}
+.skip-btn{margin-top:12px}
+
+/* هدف اليوم */
+.goal{margin-bottom:14px}
+.goal-t{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-size:.88rem;margin-bottom:7px}
+.goal-t span{color:var(--muted);font-weight:700}
+.goal-t b{font-weight:800}
+.goal-bar{height:9px;border-radius:99px;background:var(--inset-2);overflow:hidden}
+.goal-bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  transition:width .6s}
+.goal.hit .goal-t b{color:var(--emerald)}
+.goal.hit .goal-bar i{background:var(--emerald)}
+
+/* رسم الأسبوع: سلسلة واحدة، أعمدة رفيعة بنهاياتٍ مستديرة، خطّ هدفٍ متقطّع */
+.week .h{font-size:1.1rem;margin-bottom:14px}
+.wk-plot{position:relative;height:120px;display:grid;grid-template-columns:repeat(7,1fr);gap:8px;
+  align-items:end;border-bottom:1px solid var(--stroke);margin-top:22px}
+.wk-col{position:relative;height:100%;display:flex;align-items:flex-end;justify-content:center;
+  background:none;border:none;cursor:pointer;padding:0}
+.wk-col i{display:block;width:min(26px,70%);border-radius:4px 4px 0 0;background:var(--accent);opacity:.9;transition:height .5s}
+.wk-col.now i{background:var(--accent-2);opacity:1}
+.wk-col.sel i{box-shadow:0 0 0 2px var(--text)}
+.wk-col em{position:absolute;left:50%;transform:translate(-50%,-4px);font-style:normal;font-family:var(--ar);
+  font-size:.74rem;font-weight:800;color:var(--text);white-space:nowrap}
+.wk-goal{position:absolute;left:0;right:0;border-top:1.5px dashed var(--stroke-2);pointer-events:none;z-index:1}
+.wk-goal span{position:absolute;inset-inline-start:0;top:-17px;font-size:.68rem;color:var(--muted);font-weight:700}
+.wk-lab{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:6px}
+.wk-lab span{text-align:center;font-size:.66rem;color:var(--dim);white-space:nowrap;overflow:hidden}
+.wk-lab span.now{color:var(--text);font-weight:800}
+.wk-cap{margin-top:10px;font-size:.84rem;color:var(--muted);text-align:center}
+
+/* الإعدادات */
+.set-sub{font-size:.9rem;color:var(--muted);margin-bottom:12px}
+.vset{margin-bottom:14px}
+.vset-h{font-weight:900;font-size:.95rem;margin:6px 0 8px}
+.vlist{display:flex;flex-direction:column;gap:6px}
+.vopt{display:flex;align-items:center;gap:8px;background:var(--inset);border:1px solid var(--stroke);
+  border-radius:var(--r-sm);padding:6px 8px}
+.vopt.on{border-color:var(--accent);background:rgba(34,211,238,.09)}
+.vpick{flex:1;min-width:0;display:flex;align-items:center;gap:9px;background:none;border:none;color:var(--text);
+  cursor:pointer;text-align:start;font-family:var(--ar);padding:4px}
+.vpick .dot{flex:none;width:16px;height:16px;border-radius:50%;border:2px solid var(--stroke-2)}
+.vopt.on .dot{border-color:var(--accent);background:radial-gradient(var(--accent) 45%,transparent 50%)}
+.vpick .vn{font-weight:800;font-size:.92rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vpick .vs{font-size:.76rem;color:var(--dim);font-family:var(--en);white-space:nowrap;margin-inline-start:auto}
+.vwarn{font-size:.88rem;color:var(--amber);background:rgba(251,191,36,.08);border:1px solid rgba(251,191,36,.3);
+  border-radius:var(--r-sm);padding:10px 12px}
+@media(max-width:420px){.vpick .vs{display:none}.seg button{padding:7px 10px}}
