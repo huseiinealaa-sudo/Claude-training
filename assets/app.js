@@ -30,7 +30,8 @@ let S = {
   show: 0,      // نصّ الحوار: ٠ ظاهر · ١ بلا ترجمة · ٢ مخفيّ (استماع أعمى)
   goal: 30,     // هدف اليوم بالدقائق
   log: {},      // { "2026-11-25": {sec, les, rev, hit} }
-  mine: {}      // مفرداتي: { word: {w, ar, ctx, unit, at} }
+  mine: {},     // مفرداتي: { word: {w, ar, ctx, unit, at} }
+  theme: "auto" // auto · light · calm · classic — خاصٌّ بالجهاز، لا يُنقل في الدمج
 };
 
 function load() {
@@ -49,6 +50,32 @@ function load() {
   if (!S.mine || typeof S.mine !== "object") S.mine = {};
   if (![0, 1, 2].includes(S.show)) S.show = 0;
   if (!(S.goal > 0)) S.goal = 30;
+  if (!THEMES[S.theme]) S.theme = "auto";
+}
+
+/* ---- المظهر ----
+   auto يتبع مظهر الجهاز: ورقيّ نهاراً، ليليّ هادئ ليلاً.
+   المنطق نفسه مكرّرٌ في مقتطف <head> كي يُطبَّق قبل الرسم الأوّل. */
+const THEMES = {
+  auto:    ["تلقائي", "ورقيّ نهاراً، هادئ ليلاً — يتبع جهازك", ["#f7f4ee", "#151a26"]],
+  light:   ["ورقيّ فاتح", "للنهار والقراءة الطويلة", ["#f7f4ee", "#ffffff"]],
+  calm:    ["ليليّ هادئ", "للّيل والإضاءة الخافتة", ["#151a26", "#232a3b"]],
+  classic: ["الكلاسيكيّ", "البنفسجيّ الأوّل", ["#2a3866", "#372a73"]]
+};
+const DARKQ = window.matchMedia ? matchMedia("(prefers-color-scheme: dark)") : null;
+function themeNow() {
+  const t = THEMES[S.theme] ? S.theme : "auto";
+  return t === "auto" ? (DARKQ && DARKQ.matches ? "calm" : "light") : t;
+}
+function applyTheme() {
+  const t = themeNow(), r = document.documentElement;
+  if (t === "classic") delete r.dataset.theme; else r.dataset.theme = t;
+  const m = document.querySelector('meta[name="theme-color"]');
+  if (m) m.content = { light: "#f7f4ee", calm: "#151a26", classic: "#080d1c" }[t];
+}
+if (DARKQ) {
+  const onSys = () => { if (S.theme === "auto") applyTheme(); };
+  try { DARKQ.addEventListener("change", onSys); } catch (e) { try { DARKQ.addListener(onSys); } catch (e2) {} }
 }
 /* ننقل تقدّم النسخة الأولى بدل أن يضيع */
 function migrate() {
@@ -1192,6 +1219,24 @@ function viewSettings() {
   app.innerHTML = "";
   const w = el("div", "wrap");
 
+  /* ---- المظهر ---- */
+  const tp = el("div", "note");
+  tp.appendChild(el("h3", "", "🎨 المظهر"));
+  const tg = el("div", "th-grid");
+  Object.keys(THEMES).forEach(k => {
+    const [nm, sub, sw] = THEMES[k];
+    const b2 = el("button", "th-opt" + (S.theme === k ? " on" : ""),
+      '<span class="th-sw"><i style="background:' + sw[0] + '"></i><i style="background:' + sw[1] + '"></i></span>' +
+      "<span><b>" + nm + "</b><small>" + sub + "</small></span>");
+    b2.type = "button"; b2.dataset.theme = k;
+    b2.addEventListener("click", () => { S.theme = k; save(); applyTheme(); viewSettings(); });
+    tg.appendChild(b2);
+  });
+  tp.appendChild(tg);
+  if (S.theme === "auto")
+    tp.appendChild(el("div", "n-ar", "«تلقائي» يتبع مظهر جهازك. اجعله يتبدّل وحده مع الوقت من: الإعدادات ← شاشة العرض والإضاءة ← تلقائي."));
+  w.appendChild(tp);
+
   /* ---- الأصوات ---- */
   const vp = el("div", "note");
   vp.appendChild(el("h3", "", "🗣️ الأصوات"));
@@ -1273,7 +1318,7 @@ function viewSettings() {
     : "غير متاح في هذا المتصفّح. على الآيباد يعمل في سفاري مع تفعيل «الإملاء»."));
   w.appendChild(mp);
 
-  const bk = el("button", "btn full ghost", "💾 نسخة تقدّمك — تصدير واستعادة");
+  const bk = el("button", "btn full ghost", "🔄 انقل تقدّمك بين أجهزتك · النسخة الاحتياطيّة");
   bk.type = "button";
   bk.addEventListener("click", () => go("#/backup"));
   w.appendChild(bk);
@@ -1294,8 +1339,137 @@ function backupBlob() {
   return JSON.stringify({ app: "en-course", v: 2, at: new Date().toISOString(), state: S, writes: writes });
 }
 
+/* ---- الدمج: يجمع تقدّم جهازين دون أن يمحو أحدهما الآخر ----
+   A الحالة الحاليّة (تُعدَّل في مكانها) · B الواردة من الجهاز الآخر.
+   كلّ قاعدةٍ ثابتة النتيجة: دمج الملفّ نفسه مرّتين لا يغيّر شيئاً،
+   ولا يهمّ اتّجاه الإرسال. إعدادات الجهاز (الأصوات، المظهر، الهدف،
+   السرعة) لا تُنقل، لأنّ لكلّ جهازٍ أصواته وشاشته. */
+const dnum = d => Math.round(Date.parse(String(d) + "T00:00:00Z") / DAY);
+function mergeState(A, B) {
+  const r = { les: 0, tst: 0, srs: 0, words: 0, err: 0 };
+  const obj = x => (x && typeof x === "object" && !Array.isArray(x)) ? x : {};
+
+  /* الدروس: اتّحاد الجهازين؛ وإن وُجد الدرس فيهما فالأعلى درجة */
+  Object.entries(obj(B.done)).forEach(([k, v]) => {
+    const a = A.done[k];
+    if (!a) { A.done[k] = v; r.les++; }
+    else if ((v && v.score || 0) > (a.score || 0)) A.done[k] = v;
+  });
+  /* الاختبارات: المجتاز يغلب الراسب، ثمّ الأعلى درجة */
+  Object.entries(obj(B.tests)).forEach(([k, v]) => {
+    if (!v) return;
+    const a = A.tests[k];
+    if (!a) { A.tests[k] = v; if (v.passed) r.tst++; }
+    else if (v.passed && !a.passed) { A.tests[k] = v; r.tst++; }
+    else if (!!v.passed === !!a.passed && (v.score || 0) > (a.score || 0)) A.tests[k] = v;
+  });
+  /* بطاقات التكرار: صاحبة المراجعات الأكثر أحدث تاريخاً؛ وعند التساوي الأبعد موعداً */
+  Object.entries(obj(B.srs)).forEach(([k, v]) => {
+    if (!v || typeof v !== "object") return;
+    const a = A.srs[k];
+    if (!a) { A.srs[k] = v; r.srs++; return; }
+    const vs = v.seen || 0, as = a.seen || 0;
+    if (vs > as || (vs === as && (v.due || 0) > (a.due || 0))) { A.srs[k] = v; if (vs > as) r.srs++; }
+  });
+  /* مفرداتي: اتّحاد؛ وإن وُجدت الكلمة فيهما فالتي كُتب معناها */
+  Object.entries(obj(B.mine)).forEach(([k, v]) => {
+    if (!v || !v.w) return;
+    const a = A.mine[k];
+    if (!a) { A.mine[k] = v; r.words++; }
+    else if (!a.ar && v.ar) A.mine[k] = v;
+  });
+  /* مفكّرة الأخطاء: اتّحادٌ بلا تكرار، الأحدث أوّلاً، ستّون كحدّها الأصليّ */
+  if (Array.isArray(B.errors)) {
+    const key = e => (e && e.q) + "\u0001" + (e && e.a);
+    const have = new Set(A.errors.map(key));
+    B.errors.forEach(e => { if (e && !have.has(key(e))) { A.errors.push(e); have.add(key(e)); r.err++; } });
+    A.errors.sort((x, y) => (y.at || 0) - (x.at || 0));
+    A.errors = A.errors.slice(0, 60);
+  }
+  /* السلسلة: إن تلامس مدى الجهازين أو تداخلا صارا سلسلةً واحدة؛ وإلّا فالأحدث */
+  const sa = obj(A.streak), sb = obj(B.streak);
+  const best = Math.max(sa.best || 0, sb.best || 0, sa.count || 0, sb.count || 0);
+  if (sa.last && sb.last && sa.count && sb.count) {
+    const [hi, lo] = sb.last > sa.last ? [sb, sa] : [sa, sb];
+    const hiStart = dnum(hi.last) - hi.count + 1, loStart = dnum(lo.last) - lo.count + 1;
+    const count = hiStart <= dnum(lo.last) + 1 ? dnum(hi.last) - Math.min(hiStart, loStart) + 1 : hi.count;
+    A.streak = { last: hi.last, count, best: Math.max(best, count) };
+  } else if (sb.last && (!sa.last || sb.last > sa.last)) {
+    A.streak = { last: sb.last, count: sb.count || 0, best };
+  } else A.streak = Object.assign({}, sa, { best });
+  /* سجلّ الأيّام: الأكبر في كلّ يوم — الجمع كان سيضاعف الوقت عند تكرار الدمج */
+  Object.entries(obj(B.log)).forEach(([d, v]) => {
+    if (!v) return;
+    const a = A.log[d] || (A.log[d] = { sec: 0, les: 0, rev: 0 });
+    a.sec = Math.max(a.sec || 0, v.sec || 0);
+    a.les = Math.max(a.les || 0, v.les || 0);
+    a.rev = Math.max(a.rev || 0, v.rev || 0);
+    if (v.hit) a.hit = 1;
+  });
+  return r;
+}
+
+/* يقرأ نسخةً (نصّاً أو ملفّاً) ويتأكّد أنّها من هذا التطبيق */
+function parseBackup(txt) {
+  let d;
+  try { d = JSON.parse(String(txt || "").trim()); } catch (e) { toast("النصّ ليس نسخةً صالحة — تأكّد أنّك نسخته كاملاً.", 1); return null; }
+  if (!d || d.app !== "en-course" || !d.state || typeof d.state !== "object" || !d.state.srs) {
+    toast("هذه ليست نسخةً من هذا التطبيق.", 1); return null;
+  }
+  return d;
+}
+function mergeFrom(txt) {
+  const d = parseBackup(txt);
+  if (!d) return false;
+  const r = mergeState(S, d.state);
+  /* مسوّدات الكتابة: تُؤخذ الواردة إن لم تكن هنا أو كانت أطول */
+  let wr = 0;
+  try {
+    Object.keys(d.writes || {}).forEach(k => {
+      if (k.indexOf("wr:") !== 0) return;
+      const mine = localStorage.getItem(k) || "", inc = String(d.writes[k] || "");
+      if (inc.length > mine.length) { localStorage.setItem(k, inc); wr++; }
+    });
+  } catch (e) {}
+  save();
+  const parts = [];
+  if (r.les) parts.push(n2(r.les) + " درساً");
+  if (r.tst) parts.push(n2(r.tst) + " اختباراً");
+  if (r.srs) parts.push(n2(r.srs) + " بطاقة مراجعة");
+  if (r.words) parts.push(n2(r.words) + " كلمة");
+  if (r.err) parts.push(n2(r.err) + " خطأً في المفكّرة");
+  if (wr) parts.push(n2(wr) + " مسوّدة كتابة");
+  toast(parts.length ? "✓ دُمج تقدّمك: أُضيف " + parts.join("، ") + "." : "✓ لا جديد — هذا الجهاز يعرف كلّ ما في الملف.");
+  return true;
+}
+
+/* يرسل نسخة التقدّم عبر قائمة المشاركة في iOS (AirDrop وغيره).
+   إن لم يدعم المتصفّح مشاركة الملفّات نزّلناه ملفّاً. */
+async function shareProgress() {
+  /* اسمٌ لاتينيّ: بعض المتصفّحات تُسقط الأسماء العربيّة فيصير الملف «download» */
+  const data = backupBlob(), base = "english-progress-" + today();
+  for (const [type, ext] of [["application/json", ".json"], ["text/plain", ".txt"]]) {
+    let f = null;
+    try { f = new File([data], base + ext, { type }); } catch (e) {}
+    if (f && navigator.canShare && navigator.share && navigator.canShare({ files: [f] })) {
+      try { await navigator.share({ files: [f], title: "تقدّمي في تحدّي الإنجليزية" }); return "shared"; }
+      catch (e) { if (e && e.name === "AbortError") return "cancel"; }
+    }
+  }
+  try {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([data], { type: "application/json" }));
+    a.download = base + ".json";
+    a.hidden = true;
+    document.body.appendChild(a); a.click();
+    setTimeout(() => { a.remove(); URL.revokeObjectURL(a.href); }, 4000);   // الإزالة الفوريّة تُضيع اسم الملف
+    toast("نزّلتُ الملف — أرسله إلى جهازك الآخر ثمّ اضغط هناك «ادمج من ملف».");
+    return "download";
+  } catch (e) { toast("تعذّر إنشاء الملف.", 1); return "fail"; }
+}
+
 function viewBackup() {
-  topbar("نسخة تقدّمك", "تصدير واستعادة", "#/");
+  topbar("نسخة تقدّمك", "النقل بين أجهزتك · التصدير والاستعادة", "#/");
   app.innerHTML = "";
   const w = el("div", "wrap");
 
@@ -1312,6 +1486,32 @@ function viewBackup() {
   sum.appendChild(g);
   sum.appendChild(el("div", "n-ar", "كلّ هذا محفوظٌ في متصفّح هذا الجهاز وحده. حذف التطبيق أو تغيير الجهاز يمحوه — ولا سبيل إلى استرجاعه إلّا من نسخةٍ أخذتها أنت."));
   w.appendChild(sum);
+
+  /* ---- النقل بين الأجهزة ---- */
+  const tr = el("div", "note xfer");
+  tr.appendChild(el("h3", "", "🔄 انقل تقدّمك إلى جهازك الآخر"));
+  tr.appendChild(el("div", "", "<b>على هذا الجهاز:</b> «أرسل تقدّمي» ثمّ اختر AirDrop واسم جهازك الآخر.<br><b>على الجهاز الآخر:</b> افتح التطبيق من أيقونته ← ⚙️ ← هذه الشاشة ← «ادمج من ملف» واختر الملف <code>english-progress</code> من «التنزيلات»."));
+  const xr = el("div", "bk-row");
+  const snd = el("button", "btn cta xfer-send", "📤 أرسل تقدّمي"); snd.type = "button";
+  snd.addEventListener("click", () => shareProgress());
+  xr.appendChild(snd);
+  const fi = el("input"); fi.type = "file"; fi.accept = ".json,.txt,application/json,text/plain"; fi.hidden = true;
+  fi.className = "xfer-file";
+  fi.addEventListener("change", async () => {
+    const f = fi.files && fi.files[0];
+    if (!f) return;
+    let txt = "";
+    try { txt = await f.text(); } catch (e) { toast("تعذّرت قراءة الملف.", 1); return; }
+    fi.value = "";
+    if (mergeFrom(txt)) setTimeout(viewBackup, 50);
+  });
+  const mrg = el("button", "btn ghost xfer-merge", "📂 ادمج من ملف"); mrg.type = "button";
+  mrg.addEventListener("click", () => fi.click());
+  xr.appendChild(mrg);
+  xr.appendChild(fi);
+  tr.appendChild(xr);
+  tr.appendChild(el("div", "n-ar", "الدمج يجمع تقدّم الجهازين ولا يمحو شيئاً: الدروس من كليهما، وأحدث حالةٍ لكلّ بطاقة، وأطول سلسلة. أرسل في أيّ اتّجاه وأيّ وقت."));
+  w.appendChild(tr);
 
   /* ---- تصدير ---- */
   const ex = el("div", "note");
@@ -1334,7 +1534,7 @@ function viewBackup() {
   const dl = el("a", "btn ghost", "⬇︎ نزّلها ملفّاً");
   try {
     dl.href = URL.createObjectURL(new Blob([data], { type: "application/json" }));
-    dl.download = "تقدّمي-" + new Date().toISOString().slice(0, 10) + ".json";
+    dl.download = "english-progress-" + new Date().toISOString().slice(0, 10) + ".json";
   } catch (e) { dl.hidden = true; }
   row.appendChild(dl);
   ex.appendChild(row);
@@ -1342,24 +1542,26 @@ function viewBackup() {
 
   /* ---- استعادة ---- */
   const im = el("div", "note");
-  im.appendChild(el("h3", "", "٢. استعد نسخة"));
-  im.appendChild(el("div", "", "الصق نسخةً أخذتها سابقاً. <b>ستحلّ محلّ تقدّمك الحاليّ بالكامل</b> — خُذ نسخةً من الحالي أوّلاً إن كان فيه ما يُخسَر."));
+  im.appendChild(el("h3", "", "٢. ادمج أو استعد نسخة"));
+  im.appendChild(el("div", "", "الصق نسخةً أخذتها سابقاً. <b>«ادمج»</b> يضيفها إلى تقدّمك الحاليّ بأمان. <b>«استعد»</b> يحلّ محلّه بالكامل — للطوارئ فقط."));
   const inp = el("textarea", "ta bk-ta"); inp.placeholder = "الصق النصّ هنا…";
   im.appendChild(inp);
-  const rb = el("button", "btn full", "↩︎ استعد هذه النسخة"); rb.type = "button";
+  const mb2 = el("button", "btn cta full bk-merge", "🔀 ادمج هذا النصّ مع تقدّمي"); mb2.type = "button";
+  mb2.style.marginBottom = "10px";
+  mb2.addEventListener("click", () => { if (mergeFrom(inp.value)) setTimeout(viewBackup, 50); });
+  im.appendChild(mb2);
+  const rb = el("button", "btn full ghost", "↩︎ استعد هذه النسخة (استبدال)"); rb.type = "button";
   let armed = false;
   rb.addEventListener("click", () => {
-    let d;
-    try { d = JSON.parse(inp.value.trim()); } catch (e) { return toast("النصّ ليس نسخةً صالحة — تأكّد أنّك نسخته كاملاً.", 1); }
-    if (!d || d.app !== "en-course" || !d.state || typeof d.state !== "object" || !d.state.srs)
-      return toast("هذه ليست نسخةً من هذا التطبيق.", 1);
+    const d = parseBackup(inp.value);
+    if (!d) return;
     if (!armed) {
       armed = true;
       rb.textContent = "⚠︎ اضغط ثانيةً لتأكيد الاستبدال";
       rb.classList.add("danger");
       const n = Object.keys(d.state.done || {}).length;
       toast("النسخة سليمة (" + n2(n) + " درساً، بتاريخ " + (d.at || "").slice(0, 10) + "). اضغط ثانيةً للاستبدال.", 1);
-      setTimeout(() => { if (armed) { armed = false; rb.textContent = "↩︎ استعد هذه النسخة"; rb.classList.remove("danger"); } }, 8000);
+      setTimeout(() => { if (armed) { armed = false; rb.textContent = "↩︎ استعد هذه النسخة (استبدال)"; rb.classList.remove("danger"); } }, 8000);
       return;
     }
     try {
@@ -1911,6 +2113,7 @@ function toast(msg, warn) {
    ١٤) الإقلاع
    ============================================================ */
 load();
+applyTheme();
 route();
 
 if ("serviceWorker" in navigator && location.protocol === "https:") {

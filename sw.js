@@ -1,5 +1,5 @@
 /* Service Worker — يجعل التطبيق يعمل كاملاً بلا إنترنت */
-const V = "en-course-v3-1";
+const V = "en-course-v4-1";
 const CORE = [
   "./",
   "./English-A2-to-B2.html",

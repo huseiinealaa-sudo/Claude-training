@@ -22,6 +22,7 @@ run "قفل التسلسل"          node tools/test-lock.mjs
 run "المدقّق والنسخة"       node tools/test-features.mjs
 run "الشاشة الرئيسة"       node tools/test-home.mjs
 run "ميزات النسخة ٣"        node tools/test-v3.mjs
+run "المظاهر والنقل والدمج"  node tools/test-v4.mjs
 run "المسح الشامل"         node tools/test-layout.mjs
 
 printf '\n'

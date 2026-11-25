@@ -48,6 +48,7 @@ node tools/test-lock.mjs          # قفل التسلسل، بما فيه تخط
 node tools/test-features.mjs      # مدقّق الكتابة والنسخة الاحتياطيّة (٣٧)
 node tools/test-home.mjs          # الشاشة الرئيسة: ٣ مقاسات × ٣ حالات قفل
 node tools/test-v3.mjs            # الأصوات · أوضاع الحوار · النطق · مفرداتي · التخطّي · الهدف (٨٠)
+node tools/test-v4.mjs            # المظاهر · الإرسال والدمج بين جهازين (٤٧)
 node tools/test-layout.mjs        # مسح ٦١٥ صفحة: تجاوز العرض وأخطاء JS
 
 # فحصٌ سريع بعد أيّ تعديل
@@ -90,6 +91,8 @@ tools/                  مجموعات الاختبار ومدقّق المحت�
 | محرّك الأسئلة | ستّة أنواع؛ `match()` يقبل صيغاً بديلة ويتجاهل الترقيم |
 | `WRULES` | ٢٦ قاعدةً لمدقّق الكتابة — أخطاء الناطقين بالعربيّة التي يعالجها المنهج |
 | النسخة الاحتياطيّة | `backupBlob()` · `viewBackup()` — تصدير واستعادة كلّ التقدّم |
+| النقل والدمج | `shareProgress()` يرسل الملفّ عبر Web Share (AirDrop) أو ينزّله؛ `mergeFrom()` ← `mergeState(A,B)`: اتّحاد الدروس والكلمات والأخطاء، الأكثر مراجعةً لكلّ بطاقة، وصل السلاسل المتلامسة، الأكبر لكلّ يوم في السجلّ. كلّ قاعدةٍ ثابتة النتيجة (الدمج مرّتين = مرّة) ومتناظرة الاتّجاه؛ إعدادات الجهاز لا تُنقل |
+| المظهر | `S.theme`: auto · light · calm · classic؛ `applyTheme()` يضع `html[data-theme]` ويتبع `prefers-color-scheme`؛ مقتطفٌ في `<head>` يكرّر المنطق قبل الرسم كي لا يومض المظهر |
 
 ### Content schema
 
@@ -123,6 +126,8 @@ Question kinds: `mcq` / `hear` (`q`,`opts`,`a` فهرس, `why`) · `gap` / `corr
 - Word-count targets are written inside the writing `prompt` itself — Arabic numerals in level 1 (`٦٠–٨٠ كلمة`), ASCII in level 2 (`120–140 words`). `wordTarget()` reads both.
 - `unit.pinned` (phonetics, bank) means always unlocked and shown first.
 - The UI is RTL Arabic; English content sits in `dir="ltr"` islands.
+- **Colors go through variables.** Themes override `:root` variables under `html[data-theme=light|calm]`. Never hard-code a translucent white (`rgba(255,255,255,…)`) for a background — use `--chip` / `--chip-lo`, or the light theme renders it invisible. Light-theme text colors are held to WCAG contrast ≥ 4.5 by `test-v4.mjs`.
+- In the light theme the top safe-area strip of `.bar` stays dark on purpose: the manifest uses `black-translucent`, so iOS draws the clock and battery in white.
 
 ### Adding a unit
 
